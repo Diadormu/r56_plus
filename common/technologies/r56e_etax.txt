@@ -243,7 +243,7 @@ technologies = {
 
 	etax_army_firepower = {
 	
-		xor = { etax_army_defense }
+#		xor = { etax_army_defense }
 		
 		path = {
 			leads_to_tech = etax_army_firepower_2
@@ -320,7 +320,7 @@ technologies = {
 	
 	etax_army_defense = {
 	
-		xor = { etax_army_firepower }
+#		xor = { etax_army_firepower }
 		
 		path = {
 			leads_to_tech = etax_army_defense_2
@@ -393,7 +393,7 @@ technologies = {
 
 	etax_navy_firepower = {
 	
-		xor = { etax_navy_defense }
+#		xor = { etax_navy_defense }
 		
 		path = {
 			leads_to_tech = etax_navy_firepower_2
@@ -474,7 +474,7 @@ technologies = {
 	
 	etax_navy_defense = {
 	
-		xor = { etax_navy_firepower }
+#		xor = { etax_navy_firepower }
 		
 		path = {
 			leads_to_tech = etax_navy_defense_2
@@ -553,7 +553,7 @@ technologies = {
 
 	etax_air_firepower = {
 	
-		xor = { etax_air_defense }
+#		xor = { etax_air_defense }
 		
 		path = {
 			leads_to_tech = etax_air_firepower_2
@@ -627,7 +627,7 @@ technologies = {
 	
 	etax_air_defense = {
 	
-		xor = { etax_air_firepower }
+#		xor = { etax_air_firepower }
 		
 		path = {
 			leads_to_tech = etax_air_defense_2
@@ -750,7 +750,7 @@ technologies = {
 
 	etax_business_interests = {
 	
-		xor = { etax_desperation }
+#		xor = { etax_desperation }
 		
 		path = {
 			leads_to_tech = etax_cost_plus 
@@ -851,7 +851,7 @@ technologies = {
 		
 	etax_desperation = {
 	
-		xor = { etax_business_interests }
+#		xor = { etax_business_interests }
 		
 		path = {
 			leads_to_tech = etax_no_qa 
@@ -1000,7 +1000,7 @@ technologies = {
 
 	etax_glory = {
 	
-		xor = { etax_unity }
+#		xor = { etax_unity }
 		
 		path = {
 			leads_to_tech = etax_purity 
@@ -1120,7 +1120,7 @@ technologies = {
 
 	etax_unity = {
 	
-		xor = { etax_glory }
+#		xor = { etax_glory }
 		
 		path = {
 			leads_to_tech = etax_broad_support 
@@ -1317,7 +1317,7 @@ technologies = {
 
 	etax_great_works = {
 		
-		xor = { etax_quality }
+#		xor = { etax_quality }
 			
 		research_cost = 3.0
 		start_year = 1943
@@ -1354,7 +1354,7 @@ technologies = {
 	
 	etax_quality = {
 		
-		xor = { etax_great_works }
+#		xor = { etax_great_works }
 			
 		research_cost = 3.0
 		start_year = 1943
@@ -1388,7 +1388,7 @@ technologies = {
 
 	etax_the_bomb = {
 		
-		xor = { etax_super_soldiers }
+#		xor = { etax_super_soldiers }
 		
 		doctrine = no	
 		research_cost = 3.0
@@ -1416,7 +1416,7 @@ technologies = {
 	
 	etax_super_soldiers = {
 		
-		xor = { etax_the_bomb }
+#		xor = { etax_the_bomb }
 		
 		doctrine = no	
 		research_cost = 3.0
