@@ -1806,7 +1806,7 @@ form_ottoman_empire_category = {
 		}
 
 		complete_effect = {
-			set_province_name = { id = 1086 name = "Al-Quds" }
+			set_province_name = { id = 1086 name = "圣城" }
 			454 = { add_core_of = ROOT }
 			966 = { add_core_of = ROOT }
 			949 = { add_core_of = ROOT }
@@ -5135,11 +5135,11 @@ form_byzantine_empire_category = {
 			set_capital = { state = 797 }
 			add_state_core = 341
 			add_state_core = 797
-			hidden_effect = { 797 = { set_state_name = "Constantinople" } }
-			set_province_name = { id = 9833 name = "Constantinople" }
+			hidden_effect = { 797 = { set_state_name = "君士坦丁堡" } }
+			set_province_name = { id = 9833 name = "君士坦丁堡" }
 
-			341 = { set_state_name = "Thrace" }
-			set_province_name = { id = 11842 name = "Adrianople" }
+			341 = { set_state_name = "色雷斯" }
+			set_province_name = { id = 11842 name = "亚德里亚堡" }
 
 			# Greece
 			custom_effect_tooltip = form_country_greece_coring_states_tt
@@ -5233,8 +5233,8 @@ form_byzantine_empire_category = {
 			GRE_set_appropriate_cosmetic_tag = yes
 			set_capital = { state = 797 }
 			add_state_core = 797
-			hidden_effect = { 797 = { set_state_name = "Constantinople" } }
-			set_province_name = { id = 9833 name = "Constantinople" }
+			hidden_effect = { 797 = { set_state_name = "君士坦丁堡" } }
+			set_province_name = { id = 9833 name = "君士坦丁堡" }
 			# Greece
 			custom_effect_tooltip = form_country_greece_coring_states_tt
 			hidden_effect = {
@@ -5245,81 +5245,81 @@ form_byzantine_empire_category = {
 				add_state_core = 184
 				add_state_core = 187
 				add_state_core = 182
-				731 = { set_state_name = "Thessalonica" }
-				184 = { set_state_name = "Strymon" }
+				731 = { set_state_name = "萨洛尼卡" }
+				184 = { set_state_name = "斯特里蒙" }
 			}
 			# Turkey
 			custom_effect_tooltip = form_country_turkey_coring_states_tt
 			hidden_effect = {
 				341 = { add_core_of = ROOT }
-				340 = { set_state_name = "Thracia" }
-				set_province_name = { id = 947 name = "Prusa" }
+				340 = { set_state_name = "色雷斯" }
+				set_province_name = { id = 947 name = "普吕萨" }
 				340 = { add_core_of = ROOT }
-				340 = { set_state_name = "Prusa" }
-				set_province_name = { id = 947 name = "Prusa" }
+				340 = { set_state_name = "普吕萨" }
+				set_province_name = { id = 947 name = "普吕萨" }
 				339 = { add_core_of = ROOT }
-				339 = { set_state_name = "Samos" }
-				set_province_name = { id = 4112 name = "Smyrna" }
+				339 = { set_state_name = "萨摩斯" }
+				set_province_name = { id = 4112 name = "士麦那" }
 				342 = { add_core_of = ROOT }
-				342 = { set_state_name = "Cibyrrhaeot" }
-				set_province_name = { id = 1005 name = "Attaleia" }
+				342 = { set_state_name = "基比拉奥特" }
+				set_province_name = { id = 1005 name = "阿塔雷亚" }
 				343 = { add_core_of = ROOT }
-				343 = { set_state_name = "Thrakesion" }
-				set_province_name = { id = 9878 name = "Nicopolis" }
-				set_province_name = { id = 10041 name = "Attouda" }
+				343 = { set_state_name = "色雷斯松" }
+				set_province_name = { id = 9878 name = "尼科波利斯" }
+				set_province_name = { id = 10041 name = "阿图达" }
 				347 = { add_core_of = ROOT }
-				347 = { set_state_name = "Optimaton" }
-				set_province_name = { id = 11811 name = "Nikomedeia" }
-				set_province_name = { id = 973 name = "Pontoheraclea" }
+				347 = { set_state_name = "奥普提马通" }
+				set_province_name = { id = 11811 name = "尼科米底亚" }
+				set_province_name = { id = 973 name = "蓬托赫拉克里亚" }
 				49 = { add_core_of = ROOT }
-				49 = { set_state_name = "Bukellarion" }
-				set_province_name = { id = 11747 name = "Ancyra" }
-				set_province_name = { id = 3951 name = "Dorylaion" }
+				49 = { set_state_name = "布克拉里翁" }
+				set_province_name = { id = 11747 name = "安卡拉" }
+				set_province_name = { id = 3951 name = "多利莱翁" }
 				346 = { add_core_of = ROOT }
-				346 = { set_state_name = "Anatolikon" }
-				set_province_name = { id = 940 name = "Ikonion" }
+				346 = { set_state_name = "安纳托利亚" }
+				set_province_name = { id = 940 name = "伊科尼翁" }
 				345 = { add_core_of = ROOT }
-				345 = { set_state_name = "Seleucia" }
-				set_province_name = { id = 10056 name = "Hadrianopolis" }
+				345 = { set_state_name = "塞琉西亚" }
+				set_province_name = { id = 10056 name = "哈德良波利斯" }
 				356 = { add_core_of = ROOT }
-				356 = { set_state_name = "Paphlagonia" }
-				set_province_name = { id = 6995 name = "Sinope" }
-				set_province_name = { id = 6938 name = "Kastamone" }
+				356 = { set_state_name = "帕弗拉格尼亚" }
+				set_province_name = { id = 6995 name = "西诺佩" }
+				set_province_name = { id = 6938 name = "科穆宁堡" }
 				348 = { add_core_of = ROOT }
-				348 = { set_state_name = "Cappadocia" }
-				set_province_name = { id = 3870 name = "Caesarea" }
+				348 = { set_state_name = "卡帕多希亚" }
+				set_province_name = { id = 3870 name = "凯撒利亚" }
 				344 = { add_core_of = ROOT }
-				344 = { set_state_name = "Cilicia" }
-				set_province_name = { id = 11746 name = "Tarsus" }
-				set_province_name = { id = 958 name = "Germanicia" }
-				set_province_name = { id = 9893 name = "Antiochia" }
+				344 = { set_state_name = "奇里乞亚" }
+				set_province_name = { id = 11746 name = "塔尔苏斯" }
+				set_province_name = { id = 958 name = "泽马尼西亚" }
+				set_province_name = { id = 9893 name = "安条克" }
 				355 = { add_core_of = ROOT }
-				355 = { set_state_name = "Armeniakon" }
-				set_province_name = { id = 11881 name = "Amisos" }
+				355 = { set_state_name = "亚美尼亚坎" }
+				set_province_name = { id = 11881 name = "阿米索斯" }
 				349 = { add_core_of = ROOT }
-				349 = { set_state_name = "Koloneia" }
-				set_province_name = { id = 9777 name = "Sebasteia" }
+				349 = { set_state_name = "科洛内亚" }
+				set_province_name = { id = 9777 name = "塞巴斯泰亚" }
 				798 = { add_core_of = ROOT }
-				798 = { set_state_name = "Carsiano" }
-				set_province_name = { id = 987 name = "Amaseia" }
-				set_province_name = { id = 3862 name = "Taouion" }
+				798 = { set_state_name = "卡塔赫纳" }
+				set_province_name = { id = 987 name = "阿马西亚" }
+				set_province_name = { id = 3862 name = "陶伊翁" }
 				350 = { add_core_of = ROOT }
-				350 = { set_state_name = "Melitene" }
-				set_province_name = { id = 7620 name = "Melitene" }
-				set_province_name = { id = 9823 name = "Justinopolis" }
-				set_province_name = { id = 4512 name = "Amida" }
+				350 = { set_state_name = "梅利特纳" }
+				set_province_name = { id = 7620 name = "梅利特纳" }
+				set_province_name = { id = 9823 name = "查士丁纳波利斯" }
+				set_province_name = { id = 4512 name = "阿米达" }
 				354 = { add_core_of = ROOT }
-				354 = { set_state_name = "Chaldia" }
-				set_province_name = { id = 9932 name = "Trebizond" }
+				354 = { set_state_name = "查尔迪亚" }
+				set_province_name = { id = 9932 name = "特拉比松" }
 				353 = { add_core_of = ROOT }
-				353 = { set_state_name = "Manzikert" }
-				set_province_name = { id = 11853 name = "Theodosiopolis" }
+				353 = { set_state_name = "曼齐克特" }
+				set_province_name = { id = 11853 name = "提奥多西波利斯" }
 				352 = { add_core_of = ROOT }
-				352 = { set_state_name = "Hubushkia" }
-				set_province_name = { id = 12476 name = "Kondylis" }
+				352 = { set_state_name = "胡布什基亚" }
+				set_province_name = { id = 12476 name = "康迪利斯" }
 				800 = { add_core_of = ROOT }
-				800 = { set_state_name = "Vaspurakan" }
-				set_province_name = { id = 6935 name = "Eua" }
+				800 = { set_state_name = "瓦斯普拉坎" }
+				set_province_name = { id = 6935 name = "尤阿" }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.66 hours = 6 }
@@ -5669,24 +5669,24 @@ form_byzantine_empire_category = {
 			custom_effect_tooltip = form_country_turkey_coring_states_tt
 			hidden_effect = {
 				340 = { add_core_of = ROOT }
-				340 = { set_state_name = "Prousa" }
-				set_province_name = { id = 947 name = "Prousa" } 
-				set_province_name = { id = 947 name = "Palaeokastron" }
+				340 = { set_state_name = "普鲁萨" }
+				set_province_name = { id = 947 name = "普鲁萨" } 
+				set_province_name = { id = 947 name = "旧堡" }
 				341 = { add_core_of = ROOT }
-				341 = { set_state_name = "Thrace" }
-				set_province_name = { id = 11842 name = "Adrianople" }
+				341 = { set_state_name = "色雷斯" }
+				set_province_name = { id = 11842 name = "亚德里亚堡" }
 				797 = { add_core_of = ROOT }
-				797 = { set_state_name = "Constantinople" }
-				set_province_name = { id = 9833 name = "Constantinople" }
-				184 = { set_state_name = "Eastern Macedonia" }
+				797 = { set_state_name = "君士坦丁堡" }
+				set_province_name = { id = 9833 name = "君士坦丁堡" }
+				184 = { set_state_name = "东马其顿" }
 				339 = { add_core_of = ROOT }
-				339 = { set_state_name = "Smyrni" }
-				set_province_name = { id = 4112 name = "Smyrna" }
-				set_province_name = { id = 928 name = "Magnesia" }
+				339 = { set_state_name = "士麦那" }
+				set_province_name = { id = 4112 name = "士麦那" }
+				set_province_name = { id = 928 name = "麦格尼西亚" }
 				347 = { add_core_of = ROOT }
-				347 = { set_state_name = "Nikomedeia" }
-				set_province_name = { id = 11811 name = "Nikomedeia" }
-				set_province_name = { id = 973 name = "Kieros" }
+				347 = { set_state_name = "尼科米底亚" }
+				set_province_name = { id = 11811 name = "尼科米底亚" }
+				set_province_name = { id = 973 name = "基罗斯" }
 				342 = { add_core_of = ROOT }
 				343 = { add_core_of = ROOT }
 				49 = { add_core_of = ROOT }
@@ -6119,7 +6119,7 @@ form_arabia_category = {
 			set_cosmetic_tag = ARA_UNIFIED
 			
 			290 = { add_core_of = ROOT }
-			set_province_name = { id = 1086 name = "Al-Quds" }
+			set_province_name = { id = 1086 name = "圣城" }
 			# Iraq
 			custom_effect_tooltip = form_country_iraq_coring_states_tt
 			hidden_effect = {
@@ -6592,7 +6592,7 @@ form_hre_category = {
 				AND = {
 					original_tag = GER
 					has_government = neutrality
-					has_country_leader = { ruling_only = yes name = "Victoria" }
+					has_country_leader = { ruling_only = yes name = "维多利亚" }
 				}
 				AND = {
 					original_tag = AUS
@@ -7163,7 +7163,7 @@ form_andalusia_category = {
 
 		complete_effect = {
 			custom_effect_tooltip = middle_east_coring_states_tt
-			set_province_name = { id = 1086 name = "Al-Quds" }
+			set_province_name = { id = 1086 name = "圣城" }
 			hidden_effect = {
 				# Iraq
 				676 = { add_core_of = ROOT }
@@ -7770,31 +7770,31 @@ form_greater_greece_category = {
 			custom_effect_tooltip = form_country_turkish_coast_coring_states_tt
 			hidden_effect = {
 				340 = { add_core_of = ROOT }
-				340 = { set_state_name = "Prousa" }
-				set_province_name = { id = 947 name = "Prousa" } 
-				set_province_name = { id = 947 name = "Palaeokastron" }
+				340 = { set_state_name = "普鲁萨" }
+				set_province_name = { id = 947 name = "普鲁萨" } 
+				set_province_name = { id = 947 name = "旧堡" }
 				341 = { add_core_of = ROOT }
-				341 = { set_state_name = "Thrace" }
-				set_province_name = { id = 11842 name = "Adrianople" }
+				341 = { set_state_name = "色雷斯" }
+				set_province_name = { id = 11842 name = "亚德里亚堡" }
 				797 = { add_core_of = ROOT }
-				797 = { set_state_name = "Constantinople" }
-				set_province_name = { id = 9833 name = "Constantinople" }
-				184 = { set_state_name = "Eastern Macedonia" }
+				797 = { set_state_name = "君士坦丁堡" }
+				set_province_name = { id = 9833 name = "君士坦丁堡" }
+				184 = { set_state_name = "东马其顿" }
 				339 = { add_core_of = ROOT }
-				339 = { set_state_name = "Smyrni" }
-				set_province_name = { id = 4112 name = "Smyrna" }
-				set_province_name = { id = 928 name = "Magnesia" }
+				339 = { set_state_name = "士麦那" }
+				set_province_name = { id = 4112 name = "士麦那" }
+				set_province_name = { id = 928 name = "麦格尼西亚" }
 				347 = { add_core_of = ROOT }
-				347 = { set_state_name = "Nikomedeia" }
-				set_province_name = { id = 11811 name = "Nikomedeia" }
-				set_province_name = { id = 973 name = "Kieros" }
+				347 = { set_state_name = "尼科米底亚" }
+				set_province_name = { id = 11811 name = "尼科米底亚" }
+				set_province_name = { id = 973 name = "基罗斯" }
 				if = {
 					limit = {
 						controls_state = 342
 					}
 					342 = { add_core_of = ROOT }
-					342 = { set_state_name = "Attalis" }
-					set_province_name = { id = 1005 name = "Attaleia" }
+					342 = { set_state_name = "阿塔利斯" }
+					set_province_name = { id = 1005 name = "阿塔雷亚" }
 				}
 			}
 			# Cyprus
@@ -7851,7 +7851,7 @@ form_greater_greece_category = {
 		complete_effect = {
 			retire_country_leader = yes
 			create_country_leader = {
-				name = "Aristotle Onassis"
+				name = "亚里士多德·奥纳西斯"
 				desc = " "
 				picture = "gfx/leaders/GRE/portrait_gre_aristotle_onassis.dds"
 				expire = "1965.1.1"
@@ -7906,8 +7906,8 @@ form_greater_greece_category = {
 			add_stability = 0.05
 			add_war_support = 0.05
 			342 = { add_core_of = ROOT }
-			342 = { set_state_name = "Attalis" }
-			set_province_name = { id = 1005 name = "Attaleia" }
+			342 = { set_state_name = "阿塔利斯" }
+			set_province_name = { id = 1005 name = "阿塔雷亚" }
 		}
 
 		ai_will_do = {
@@ -7947,7 +7947,7 @@ form_greater_greece_category = {
 		complete_effect = {
 			add_stability = 0.05
 			add_war_support = 0.05
-			set_province_name = { id = 914 name = "Argyrokastro" }
+			set_province_name = { id = 914 name = "阿吉罗卡斯特罗" }
 		}
 
 		ai_will_do = {

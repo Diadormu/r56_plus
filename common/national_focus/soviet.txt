@@ -2596,7 +2596,7 @@ focus_tree = {
 						has_dlc = "By Blood Alone"
 					}
 					create_equipment_variant = {
-						name = "U-2" #
+						name = "U-2攻击机"
 						type = small_plane_cas_airframe_0
 						modules = {
 							fixed_main_weapon_slot = bomb_locks
@@ -2606,7 +2606,7 @@ focus_tree = {
 						}
 					}
 					create_equipment_variant = {
-						name = "Pe-2" #
+						name = "佩-2轻型轰炸机"
 						type = small_plane_cas_airframe_2
 						modules = {
 							fixed_main_weapon_slot = small_bomb_bay
@@ -2617,7 +2617,7 @@ focus_tree = {
 						}
 					}
 					create_equipment_variant = {
-						name = "Yak-1" #
+						name = "雅克-1型战斗机"
 						type = small_plane_airframe_1
 						modules = {
 							fixed_main_weapon_slot = aircraft_cannon_1_1x
@@ -3692,7 +3692,7 @@ focus_tree = {
 			}
 			else = {
 				create_equipment_variant = {
-					name = "Kronshtadt Class"		
+					name = "喀琅施塔得级"		
 					type = ship_hull_heavy_2
 					name_group = SOV_BC_HISTORICAL
 					parent_version = 0
@@ -3716,7 +3716,7 @@ focus_tree = {
 					equipment = {
 						type = ship_hull_heavy_2
 						creator = "SOV"
-						version_name = "Kronshtadt Class"
+						version_name = "喀琅施塔得级"
 					}
 					requested_factories = 1
 					progress = 0.50
@@ -3728,7 +3728,7 @@ focus_tree = {
 					equipment = {
 						type = ship_hull_heavy_2
 						creator = "SOV"
-						version_name = "Kronshtadt Class"
+						version_name = "喀琅施塔得级"
 					}
 					requested_factories = 1
 					progress = 0.35
@@ -3796,7 +3796,7 @@ focus_tree = {
 					custom_effect_tooltip = SOV_an_oceangoing_navy_shbb_tt
 				}
 				create_equipment_variant = { #TODO_Manu: Engine should be 3 (but also should Yamato's)
-					name = "Sovetsky Soyuz Class"
+					name = "苏联级"
 					type = ship_hull_super_heavy_1
 					name_group = SOV_STATES
 					parent_version = 0
@@ -3822,7 +3822,7 @@ focus_tree = {
 					equipment = {
 						type = ship_hull_super_heavy_1
 						creator = "SOV"
-						version_name = "Sovetsky Soyuz Class"
+						version_name = "苏联级"
 					}
 					requested_factories = 1
 					progress = 0.50
@@ -3832,7 +3832,7 @@ focus_tree = {
 					equipment = {
 						type = ship_hull_super_heavy_1
 						creator = "SOV"
-						version_name = "Sovetsky Soyuz Class"
+						version_name = "苏联级"
 					}
 					requested_factories = 1
 					progress = 0.25
@@ -3842,7 +3842,7 @@ focus_tree = {
 					equipment = {
 						type = ship_hull_super_heavy_1
 						creator = "SOV"
-						version_name = "Sovetsky Soyuz Class"
+						version_name = "苏联级"
 					}
 					requested_factories = 1
 					progress = 0.25
@@ -3967,7 +3967,7 @@ focus_tree = {
 					has_dlc = "Man the Guns"
 				}
 				create_equipment_variant = {
-					name = "K Class"
+					name = "K级"
 					type = ship_hull_cruiser_submarine
 					name_group = SOV_SS_HISTORICAL
 					parent_version = 0
@@ -3984,9 +3984,9 @@ focus_tree = {
 					equipment = {
 						type = ship_hull_cruiser_submarine
 						creator = "SOV"
-						version_name = "K Class"
+						version_name = "K级"
 					}
-					name = "K-1"
+					name = "K-1号"
 					requested_factories = 1
 					progress = 0.35
 					amount = 1
@@ -3995,9 +3995,9 @@ focus_tree = {
 					equipment = {
 						type = ship_hull_cruiser_submarine
 						creator = "SOV"
-						version_name = "K Class"
+						version_name = "K级"
 					}
-					name = "K-2"
+					name = "K-2号"
 					requested_factories = 1
 					progress = 0.35
 					amount = 1
@@ -4016,7 +4016,7 @@ focus_tree = {
 						equipment = {
 							type = submarine_3
 							creator = "SOV"
-							version_name = "K Class"
+							version_name = "K级"
 						}
 						requested_factories = 1
 						progress = 0.35
@@ -4026,7 +4026,7 @@ focus_tree = {
 						equipment = {
 							type = submarine_3
 							creator = "SOV"
-							version_name = "K Class"
+							version_name = "K级"
 						}
 						requested_factories = 1
 						progress = 0.35
@@ -4038,7 +4038,7 @@ focus_tree = {
 						equipment = {
 							type = submarine_2
 							creator = "SOV"
-							version_name = "K Class"
+							version_name = "K级"
 						}
 						requested_factories = 1
 						progress = 0.35
@@ -4048,7 +4048,7 @@ focus_tree = {
 						equipment = {
 							type = submarine_2
 							creator = "SOV"
-							version_name = "K Class"
+							version_name = "K级"
 						}
 						requested_factories = 1
 						progress = 0.35
@@ -4123,7 +4123,7 @@ focus_tree = {
 					}
 					#Equipment Variant
 					create_equipment_variant = {
-						name = "Project 71 Class"
+						name = "71型"
 						type = ship_hull_carrier_3
 						name_group = SOV_CV_HISTORICAL
 						parent_version = 0
@@ -4142,9 +4142,9 @@ focus_tree = {
 						equipment = {
 							type = ship_hull_carrier_3
 							creator = "SOV"
-							version_name = "Project 71 Class"
+							version_name = "71型"
 						}
-						name = "Siberia"
+						name = "西伯利亚号"
 						requested_factories = 1
 						progress = 0.45
 						amount = 1
@@ -4156,7 +4156,7 @@ focus_tree = {
 					}
 					#Equipment Variant
 					create_equipment_variant = {
-						name = "Project 71 Class"
+						name = "71型"
 						type = ship_hull_carrier_2
 						name_group = SOV_CV_HISTORICAL
 						parent_version = 0
@@ -4175,9 +4175,9 @@ focus_tree = {
 						equipment = {
 							type = ship_hull_carrier_2
 							creator = "SOV"
-							version_name = "Project 71 Class"
+							version_name = "71型"
 						}
-						name = "Siberia"
+						name = "西伯利亚号"
 						requested_factories = 1
 						progress = 0.45
 						amount = 1
@@ -4189,7 +4189,7 @@ focus_tree = {
 					}
 					#Equipment Variant
 					create_equipment_variant = {
-						name = "Project 71 Class"
+						name = "71型"
 						type = ship_hull_carrier_1
 						name_group = SOV_CV_HISTORICAL
 						parent_version = 0
@@ -4208,9 +4208,9 @@ focus_tree = {
 						equipment = {
 							type = ship_hull_carrier_1
 							creator = "SOV"
-							version_name = "Project 71 Class"
+							version_name = "71型"
 						}
-						name = "Siberia"
+						name = "西伯利亚号"
 						requested_factories = 1
 						progress = 0.45
 						amount = 1
@@ -4225,7 +4225,7 @@ focus_tree = {
 					}
 					#Equipment Variant
 					create_equipment_variant = {
-						name = "Project 71 Class"
+						name = "71型"
 						type = ship_hull_carrier_conversion_ca
 						name_group = SOV_CV_HISTORICAL
 						parent_version = 0
@@ -4243,9 +4243,9 @@ focus_tree = {
 						equipment = {
 							type = ship_hull_carrier_conversion_ca
 							creator = "SOV"
-							version_name = "Project 71 Class"
+							version_name = "71型"
 						}
-						name = "Siberia"
+						name = "西伯利亚号"
 						requested_factories = 1
 						progress = 0.45
 						amount = 1
@@ -4265,7 +4265,7 @@ focus_tree = {
 						equipment = {
 							type = carrier_4
 							creator = "SOV"
-							version_name = "Project 71 Class"
+							version_name = "71型"
 						}
 						requested_factories = 1
 						progress = 0.45
@@ -4280,7 +4280,7 @@ focus_tree = {
 						equipment = {
 							type = carrier_3
 							creator = "SOV"
-							version_name = "Project 71 Class"
+							version_name = "71型"
 						}
 						requested_factories = 1
 						progress = 0.45
@@ -4295,7 +4295,7 @@ focus_tree = {
 						equipment = {
 							type = carrier_2
 							creator = "SOV"
-							version_name = "Project 71 Class"
+							version_name = "71型"
 						}
 						requested_factories = 1
 						progress = 0.45
@@ -4313,7 +4313,7 @@ focus_tree = {
 						equipment = {
 							type = carrier_1
 							creator = "SOV"
-							version_name = "Project 71 Class"
+							version_name = "71型"
 						}
 						requested_factories = 1
 						progress = 0.45
@@ -4496,7 +4496,7 @@ focus_tree = {
 						}
 					}
 					create_equipment_variant = {
-						name = "T-34"
+						name = "T-34中型坦克"
 						type = medium_tank_chassis_2
 						parent_version = 0
 						modules = {
@@ -4522,7 +4522,7 @@ focus_tree = {
 						}
 					}
 					create_equipment_variant = {
-						name = "T-34"
+						name = "T-34中型坦克"
 						type = medium_tank_chassis_2
 						parent_version = 0
 						modules = {
@@ -4545,7 +4545,7 @@ focus_tree = {
 						has_tech = interwar_artillery
 					}
 					create_equipment_variant = {
-						name = "T-34"
+						name = "T-34中型坦克"
 						type = medium_tank_chassis_2
 						parent_version = 0
 						modules = {
@@ -4565,7 +4565,7 @@ focus_tree = {
 				}
 				else = { #Don't do this to yourself dude
 					create_equipment_variant = {
-						name = "T-34"
+						name = "T-34中型坦克"
 						type = medium_tank_chassis_2
 						parent_version = 0
 						modules = {
@@ -4698,7 +4698,7 @@ focus_tree = {
 					has_tech = antitank5
 				}
 				create_equipment_variant = {
-					name = "SU-100"
+					name = "SU-100中型自行反坦克炮"
 					type = medium_tank_destroyer_chassis_2
 					parent_version = 0
 					modules = {
@@ -4721,7 +4721,7 @@ focus_tree = {
 					has_tech = antitank2
 				}
 				create_equipment_variant = {
-					name = "SU-100"
+					name = "SU-100中型自行反坦克炮"
 					type = medium_tank_destroyer_chassis_2
 					parent_version = 0
 					modules = {
@@ -4744,7 +4744,7 @@ focus_tree = {
 					has_tech = interwar_antitank
 				}
 				create_equipment_variant = {
-					name = "SU-85"
+					name = "SU-85中型自行反坦克炮"
 					type = medium_tank_destroyer_chassis_2
 					parent_version = 0
 					modules = {
@@ -4764,7 +4764,7 @@ focus_tree = {
 			}
 			else = { #This is just blasphemy
 				create_equipment_variant = {
-					name = "SU-85"
+					name = "SU-85中型自行反坦克炮"
 					type = medium_tank_destroyer_chassis_2
 					parent_version = 0
 					modules = {
@@ -4789,7 +4789,7 @@ focus_tree = {
 					has_tech = artillery4
 				}
 				create_equipment_variant = {
-					name = "SU-122"
+					name = "SU-122中型自行火炮"
 					type = medium_tank_artillery_chassis_2
 					parent_version = 0
 					modules = {
@@ -4812,7 +4812,7 @@ focus_tree = {
 					has_tech = artillery1
 				}
 				create_equipment_variant = {
-					name = "SU-122"
+					name = "SU-122中型自行火炮"
 					type = medium_tank_artillery_chassis_2
 					parent_version = 0
 					modules = {
@@ -4832,7 +4832,7 @@ focus_tree = {
 			}
 			else = { #You really need some arty research
 				create_equipment_variant = {
-					name = "SU-122"
+					name = "SU-122中型自行火炮"
 					type = medium_tank_artillery_chassis_2
 					parent_version = 0
 					modules = {
@@ -5231,7 +5231,7 @@ focus_tree = {
 					has_dlc = "La Resistance"
 				}
 				create_operative_leader = {
-					name = "Ursula Kuczynski"
+					name = "鲁特·维尔纳"
 					GFX = GFX_Portrait_ursula_kuczynski
 					female = yes
 					traits = { operative_safe_cracker operative_infiltrator }
@@ -5960,7 +5960,7 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 15
 			division_template = {
-				name = "Vspomogatel'nyye Sily Oborony"
+				name = "辅助防御师"
 				priority = 1
 				division_names_group = SOV_INF_01
 				regiments = {
@@ -5980,7 +5980,7 @@ focus_tree = {
 				}
 			}
 			division_template = {
-				name = "Vspomogatel'naya Bronetankovaya Sila"
+				name = "辅助装甲师"
 				priority = 1
 				division_names_group = SOV_INF_01
 				regiments = {
@@ -6000,51 +6000,51 @@ focus_tree = {
 				hidden_effect = {
 					219 = {
 						create_unit = {
-							division = "name = \"1ya Vspomogatel'nyye sily oborony Moskvy\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第1莫斯科辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"2ya Vspomogatel'nyye sily oborony Moskvy\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第2莫斯科辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"3ya Vspomogatel'nyye sily oborony Moskvy\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第3莫斯科辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"4ya Vspomogatel'nyye sily oborony Moskvy\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第4莫斯科辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"5ya Vspomogatel'nyye sily oborony Moskvy\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第5莫斯科辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"6ya Vspomogatel'nyye sily oborony Moskvy\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第6莫斯科辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"7ya Vspomogatel'nyye sily oborony Moskvy\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第7莫斯科辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"8ya Vspomogatel'nyye sily oborony Moskvy\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第8莫斯科辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"9ya Vspomogatel'nyye sily oborony Moskvy\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第9莫斯科辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"10ya Vspomogatel'nyye sily oborony Moskvy\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第10莫斯科辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"1ya Moskva Vspomogatel'naya bronetankovaya sila\" division_template = \"Vspomogatel'naya Bronetankovaya Sila\" start_experience_factor = 0 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第1莫斯科辅助装甲师\" division_template = \"辅助装甲师\" start_experience_factor = 0 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"2ya Moskva Vspomogatel'naya bronetankovaya sila\" division_template = \"Vspomogatel'naya Bronetankovaya Sila\" start_experience_factor = 0 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第2莫斯科辅助装甲师\" division_template = \"辅助装甲师\" start_experience_factor = 0 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = SOV
 						}
 					}
@@ -6232,19 +6232,19 @@ focus_tree = {
 						instant_build = yes
 					}
 					create_unit = {
-						division = "name = \"1ya Vspomogatel'nyye sily oborony Sverdlovsk\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第1斯维尔德洛夫斯克辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"2ya Vspomogatel'nyye sily oborony Sverdlovsk\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第2斯维尔德洛夫斯克辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"3ya Vspomogatel'nyye sily oborony Sverdlovsk\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第3斯维尔德洛夫斯克辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"1ya Sverdlovsk Vspomogatel'naya bronetankovaya sila\" division_template = \"Vspomogatel'naya Bronetankovaya Sila\" start_experience_factor = 0 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第1斯维尔德洛夫斯克辅助装甲师\" division_template = \"辅助装甲师\" start_experience_factor = 0 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					add_extra_state_shared_building_slots = 4
@@ -6563,35 +6563,35 @@ focus_tree = {
 				custom_effect_tooltip = SOV_defense_divisions		
 				hidden_effect = {
 					create_unit = {
-						division = "name = \"1ya Vspomogatel'nyye sily oborony Stalingradskaya\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第1斯大林格勒辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"2ya Vspomogatel'nyye sily oborony Stalingradskaya\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第2斯大林格勒辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"3ya Vspomogatel'nyye sily oborony Stalingradskaya\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第3斯大林格勒辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"4ya Vspomogatel'nyye sily oborony Stalingradskaya\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第4斯大林格勒辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"5ya Vspomogatel'nyye sily oborony Stalingradskaya\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第5斯大林格勒辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"6ya Vspomogatel'nyye sily oborony Stalingradskaya\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第6斯大林格勒辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"7ya Vspomogatel'nyye sily oborony Stalingradskaya\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第7斯大林格勒辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"1ya Stalingradskaya Vspomogatel'naya bronetankovaya sila\" division_template = \"Vspomogatel'naya Bronetankovaya Sila\" start_experience_factor = 0 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第1斯大林格勒辅助装甲师\" division_template = \"辅助装甲师\" start_experience_factor = 0 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					add_building_construction = {
@@ -6800,35 +6800,35 @@ focus_tree = {
 				custom_effect_tooltip = SOV_defense_divisions
 				hidden_effect = {
 					create_unit = {
-						division = "name = \"1ya Vspomogatel'nyye sily oborony Leningradskaya\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第1列宁格勒辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"2ya Vspomogatel'nyye sily oborony Leningradskaya\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第2列宁格勒辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"3ya Vspomogatel'nyye sily oborony Leningradskaya\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第3列宁格勒辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"4ya Vspomogatel'nyye sily oborony Leningradskaya\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第4列宁格勒辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"5ya Vspomogatel'nyye sily oborony Leningradskaya\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第5列宁格勒辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"6ya Vspomogatel'nyye sily oborony Leningradskaya\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第6列宁格勒辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"7ya Vspomogatel'nyye sily oborony Leningradskaya\" division_template = \"Vspomogatel'nyye Sily Oborony\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第7列宁格勒辅助防御师\" division_template = \"辅助防御师\" start_experience_factor = 0.1 start_equipment_factor = 0.75 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					create_unit = {
-						division = "name = \"1ya Leningradskaya Vspomogatel'naya bronetankovaya sila\" division_template = \"Vspomogatel'naya Bronetankovaya Sila\" start_experience_factor = 0 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+						division = "name = \"第1列宁格勒辅助装甲师\" division_template = \"辅助装甲师\" start_experience_factor = 0 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 						owner = SOV
 					}
 					add_building_construction = {
@@ -6951,7 +6951,7 @@ focus_tree = {
 			custom_effect_tooltip = SOV_restore_cossack_units_spawn_tt
 			hidden_effect = {
 				division_template = {
-					name = "Kazachya Kavaleryskaya Diviziya"
+					name = "哥萨克骑兵师"
 					division_names_group = SOV_CAV_02
 
 					regiments = {
@@ -6972,21 +6972,21 @@ focus_tree = {
 				capital_scope = {
 					#Cossack Cavalry
 					create_unit = { 
-						division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+						division = "name = \"第4顿河哥萨克师\" division_template = \"哥萨克骑兵师\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
 					}
 					create_unit = { 
-						division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+						division = "name = \"第6库班斯克哥萨克师\" division_template = \"哥萨克骑兵师\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
 					}
 					create_unit = { 
-						division = "name = \"10ya Tersko-Stavropolskaya Kazachya Kav. Div\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+						division = "name = \"第10斯塔夫罗波尔斯卡亚哥萨克师\" division_template = \"哥萨克骑兵师\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
 					}
 					create_unit = { 
-						division = "name = \"12ya Kubanskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+						division = "name = \"第12库班斯卡亚哥萨克师\" division_template = \"哥萨克骑兵师\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
 					}
 
 					#Cossack Infantry
 					create_unit = {
-						division = "name = \"13ya Donskaya Kazachya Div.\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.7 start_equipment_factor = 1.0" owner = ROOT
+						division = "name = \"第13顿河哥萨克师\" division_template = \"步兵师\" start_experience_factor = 0.7 start_equipment_factor = 1.0" owner = ROOT
 					}
 				}
 			}
@@ -7181,7 +7181,7 @@ focus_tree = {
 				set_technology = { penal_infantry = 1 popup = no }
 
 				division_template = {
-					name = "Shtrafnaya Chast"
+					name = "惩戒营"
 					division_names_group = SOV_PEN_01
 					is_locked = yes
 
@@ -7246,7 +7246,7 @@ focus_tree = {
 						has_government = communism
 					}
 					create_operative_leader = {
-						name = "Dmitry Medvedev"
+						name = "德米特里·梅德韦杰夫"
 						GFX = GFX_Portrait_dmitry_medvedev
 						female = yes
 						traits = { operative_demolition_expert operative_commando }
@@ -7717,7 +7717,7 @@ focus_tree = {
 			add_political_power = 25
 			add_stability = 0.05
 			set_division_template_lock = {
-				division_template = "NKVD Pogranichnaya Diviziya"
+				division_template = "内务部边防师"
 				is_locked = no
 			}
 
@@ -8524,7 +8524,7 @@ focus_tree = {
 				}
 				custom_effect_tooltip = SOV_behead_the_snake_lar_tt
 				create_operative_leader = {
-					name = "Ramón Mercader"
+					name = "拉蒙·麦卡德"
 					GFX = GFX_portrait_SOV_ramon_mercader
 					traits = { operative_tough operative_infiltrator }
 					bypass_recruitment = no
@@ -8956,7 +8956,7 @@ focus_tree = {
 					}
 				}
 				create_equipment_variant = {
-					name = "IS-2"
+					name = "IS-2重型坦克"
 					type = heavy_tank_chassis_3
 					parent_version = 0
 					modules = {
@@ -8984,7 +8984,7 @@ focus_tree = {
 					}
 				}
 				create_equipment_variant = {
-					name = "IS-2"
+					name = "IS-2重型坦克"
 					type = heavy_tank_chassis_3
 					parent_version = 0
 					modules = {
@@ -13676,7 +13676,7 @@ focus_tree = {
 					} 	
 				}
 				create_operative_leader = {
-					name = "Rupert Lockwood"
+					name = "鲁伯特·洛克伍德"
 					portrait_path = gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds 
 					traits = {  }
 					bypass_recruitment = no
@@ -14007,7 +14007,7 @@ focus_tree = {
 							has_tech = basic_medium_battery
 						}
 						create_equipment_variant = {
-							name = "Hipper Class"
+							name = "希佩尔海军上将级"
 							type = ship_hull_cruiser_2
 							name_group = SOV_CA_HISTORICAL
 							parent_version = 0
@@ -14028,7 +14028,7 @@ focus_tree = {
 					}
 					else = {
 						create_equipment_variant = {
-							name = "Hipper Class"
+							name = "希佩尔海军上将级"
 							type = ship_hull_cruiser_2
 							name_group = SOV_CA_HISTORICAL
 							parent_version = 0
@@ -14053,9 +14053,9 @@ focus_tree = {
 						equipment = {
 							type = ship_hull_cruiser_2
 							creator = "SOV"
-							version_name = "Hipper Class"
+							version_name = "希佩尔海军上将级"
 						}
-						name = "Petropavlovsk"
+						name = "彼得巴甫洛夫斯克号"
 						requested_factories = 1
 						progress = 0.5
 						amount = 1
@@ -14093,7 +14093,7 @@ focus_tree = {
 						set_technology = { basic_heavy_cruiser = 1 }
 					}
 					create_equipment_variant = {
-						name = "Hipper Class"
+						name = "希佩尔海军上将级"
 						type = heavy_cruiser_2
 						parent_version = 0
 						upgrades = {
@@ -18659,49 +18659,49 @@ focus_tree = {
 						inherit_technology = ROOT
 						202 = {
 							create_unit = {
-								division = "name = \"1ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第1步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = UKR
 							}
 							create_unit = {
-								division = "name = \"2ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第2步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = UKR
 							}
 							create_unit = {
-								division = "name = \"1ya Mekhanizirovaniy Korpus\" division_template = \"Mekhanizirovaniy Korpus\" start_experience_factor = 0.1 start_equipment_factor = 0.5 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第1机械化军\" division_template = \"机械化军\" start_experience_factor = 0.1 start_equipment_factor = 0.5 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = UKR
 							}
 						}
 						221 = {
 							create_unit = {
-								division = "name = \"3ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第3步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = UKR
 							}
 							create_unit = {
-								division = "name = \"4ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
-								owner = UKR
-							}
-						}
-						226 = {
-							create_unit = {
-								division = "name = \"5ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第4步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = UKR
 							}
 						}
 						226 = {
 							create_unit = {
-								division = "name = \"6ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第5步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								owner = UKR
+							}
+						}
+						226 = {
+							create_unit = {
+								division = "name = \"第6步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = UKR
 							}
 						}
 						198 = {
 							create_unit = {
-								division = "name = \"7ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第7步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = UKR
 							}
 						}
 						227 = {
 							create_unit = {
-								division = "name = \"8ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第8步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = UKR
 							}
 						}
@@ -18762,17 +18762,17 @@ focus_tree = {
 						inherit_technology = ROOT
 						206 = {
 							create_unit = {
-								division = "name = \"1ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第1步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = BLR
 							}
 							create_unit = {
-								division = "name = \"2ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第2步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = BLR
 							}
 						}
 						207 = {
 							create_unit = {
-								division = "name = \"3ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第3步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = BLR
 							}
 						}
@@ -18913,7 +18913,7 @@ focus_tree = {
 					GEO = {
 						inherit_technology = ROOT
 						division_template = {
-							name = "Stolichnaya Gvardiya"
+							name = "城市警卫师"
 						
 							regiments = {
 								infantry = { x = 0 y = 0 }
@@ -18923,11 +18923,11 @@ focus_tree = {
 						}
 						231 = {
 							create_unit = {
-								division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = GEO
 							}
 							create_unit = {
-								division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = GEO
 							}
 						}
@@ -18987,7 +18987,7 @@ focus_tree = {
 					ARM = {
 						inherit_technology = ROOT
 						division_template = {
-							name = "Stolichnaya Gvardiya"
+							name = "城市警卫师"
 						
 							regiments = {
 								infantry = { x = 0 y = 0 }
@@ -18997,11 +18997,11 @@ focus_tree = {
 						}
 						230 = {
 							create_unit = {
-								division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = ARM
 							}
 							create_unit = {
-								division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = ARM
 							}
 						}
@@ -19061,7 +19061,7 @@ focus_tree = {
 					AZR = {
 						inherit_technology = ROOT
 						division_template = {
-							name = "Stolichnaya Gvardiya"
+							name = "城市警卫师"
 						
 							regiments = {
 								infantry = { x = 0 y = 0 }
@@ -19071,11 +19071,11 @@ focus_tree = {
 						}
 						229 = {
 							create_unit = {
-								division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = GEO
 							}
 							create_unit = {
-								division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = GEO
 							}
 						}
@@ -19242,7 +19242,7 @@ focus_tree = {
 					KAZ = {
 						inherit_technology = ROOT
 						division_template = {
-							name = "Stolichnaya Gvardiya"
+							name = "城市警卫师"
 						
 							regiments = {
 								infantry = { x = 0 y = 0 }
@@ -19252,31 +19252,31 @@ focus_tree = {
 						}
 						586 = {
 							create_unit = {
-								division = "name = \"1ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第1步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = KAZ
 							}
 						}
 						590 = {
 							create_unit = {
-								division = "name = \"2ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第2步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = KAZ
 							}
 						}
 						402 = {
 							create_unit = {
-								division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = KAZ
 							}
 						}
 						404 = {
 							create_unit = {
-								division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = KAZ
 							}
 						}
 						588 = {
 							create_unit = {
-								division = "name = \"3ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第3城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = KAZ
 							}
 						}
@@ -19336,7 +19336,7 @@ focus_tree = {
 					UZB = {
 						inherit_technology = ROOT
 						division_template = {
-							name = "Stolichnaya Gvardiya"
+							name = "城市警卫师"
 						
 							regiments = {
 								infantry = { x = 0 y = 0 }
@@ -19346,13 +19346,13 @@ focus_tree = {
 						}
 						405 = {
 							create_unit = {
-								division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = UZB
 							}
 						}
 						823 = {
 							create_unit = {
-								division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = UZB
 							}
 						}
@@ -19412,7 +19412,7 @@ focus_tree = {
 					TMS = {
 						inherit_technology = ROOT
 						division_template = {
-							name = "Stolichnaya Gvardiya"
+							name = "城市警卫师"
 						
 							regiments = {
 								infantry = { x = 0 y = 0 }
@@ -19422,11 +19422,11 @@ focus_tree = {
 						}
 						584 = {
 							create_unit = {
-								division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = TMS
 							}
 							create_unit = {
-								division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = TMS
 							}
 						}
@@ -19486,7 +19486,7 @@ focus_tree = {
 					KYR = {
 						inherit_technology = ROOT
 						division_template = {
-							name = "Stolichnaya Gvardiya"
+							name = "城市警卫师"
 						
 							regiments = {
 								infantry = { x = 0 y = 0 }
@@ -19496,11 +19496,11 @@ focus_tree = {
 						}
 						732 = {
 							create_unit = {
-								division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = KYR
 							}
 							create_unit = {
-								division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = KYR
 							}
 						}
@@ -19560,7 +19560,7 @@ focus_tree = {
 					TAJ = {
 						inherit_technology = ROOT
 						division_template = {
-							name = "Stolichnaya Gvardiya"
+							name = "城市警卫师"
 						
 							regiments = {
 								infantry = { x = 0 y = 0 }
@@ -19570,11 +19570,11 @@ focus_tree = {
 						}
 						742 = {
 							create_unit = {
-								division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = TAJ
 							}
 							create_unit = {
-								division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+								division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 								owner = TAJ
 							}
 						}
@@ -20355,7 +20355,7 @@ focus_tree = {
 				category = artillery
 			}
             division_template = {
-                name = "Respublikanskiy Spetsnaz"
+                name = "特种师"
                 priority = 0
                 regiments = {
                     mountaineers = { x = 0 y = 0 }
@@ -20381,23 +20381,23 @@ focus_tree = {
             hidden_effect = {
                 219 = {
                     create_unit = {
-                        division = "name = \"1a Respublikanskiy Spetsnaz\" division_template = \"Respublikanskiy Spetsnaz\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
+                        division = "name = \"第1特种师\" division_template = \"特种师\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
                         owner = SOV
                     }
                     create_unit = {
-                        division = "name = \"2a Respublikanskiy Spetsnaz\" division_template = \"Respublikanskiy Spetsnaz\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
+                        division = "name = \"第2特种师\" division_template = \"特种师\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
                         owner = SOV
                     }
                 }
 				195 = {
                     create_unit = {
-                        division = "name = \"3a Respublikanskiy Spetsnaz\" division_template = \"Respublikanskiy Spetsnaz\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
+                        division = "name = \"第3特种师\" division_template = \"特种师\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
                         owner = SOV
                     }
                 }
 				217 = {
                     create_unit = {
-                        division = "name = \"4a Respublikanskiy Spetsnaz\" division_template = \"Respublikanskiy Spetsnaz\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
+                        division = "name = \"第4特种师\" division_template = \"特种师\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
                         owner = SOV
                     }
                 }
@@ -20848,8 +20848,8 @@ focus = {
 		custom_effect_tooltip = SOV_fifth_column_nsb_tt
 		hidden_effect = {
 			set_country_flag = trotsky_check
-			217 = { set_state_name = "Volgograd" }  #rename province too
-			set_province_name = { id = 3529 name = "Volgograd"}
+			217 = { set_state_name = "伏尔加格勒" }  #rename province too
+			set_province_name = { id = 3529 name = "伏尔加格勒"}
 			country_event = { id = r56.soviet.24 days = 7 }
 			news_event = { id = r56.soviet.27 days = 1 }
 			if = {
@@ -20966,7 +20966,7 @@ focus = {
 			remove_unit_leader = 411
 			retire_character = SOV_iosif_stalin
 			create_country_leader = {
-				name = "Nikolay Yezhov"
+				name = "尼古拉·叶若夫"
 				desc = "POLITICS_NIKOLAI_YEZHOV_DESC"
 				picture = "gfx/leaders/SOV/r56_portrait_SOV_Nikolai_Yezhov.dds"
 				expire = "1965.1.1"
@@ -21028,29 +21028,29 @@ focus = {
 			retire_character = SOV_kuzma_galitsky
 			retire_character = SOV_semyon_budyonny
 			retire_character = SOV_grigory_kulik
-			217 = { set_state_name = "Tsaritsyn" }  #rename provinces too
-			195 = { set_state_name = "St.Petersburg" }  
-			252 = { set_state_name = "Nijni Novgorod" }
-			247 = { set_state_name = "Tver" }
-			653 = { set_state_name = "Yekaterinburg" }
-			250 = { set_state_name = "Simbirsk" }
-			251 = { set_state_name = "Samara" }
-			set_province_name = { id = 3529 name = "Tsaritsyn"}
-			set_province_name = { id = 3151 name = "St.Petersburg"}
-			set_province_name = { id = 11375 name = "Nijni Novgorod"}
-			set_province_name = { id = 6245 name = "Tver"}
-			set_province_name = { id = 1821 name = "Yekaterinburg"}
-			set_province_name = { id = 392 name = "Simbirsk"}
-			set_province_name = { id = 11225 name = "Samara"}
+			217 = { set_state_name = "察里津" }  #rename provinces too
+			195 = { set_state_name = "圣彼得堡" }  
+			252 = { set_state_name = "下诺夫哥罗德" }
+			247 = { set_state_name = "特维尔" }
+			653 = { set_state_name = "叶卡捷琳堡" }
+			250 = { set_state_name = "辛比尔斯克" }
+			251 = { set_state_name = "萨马拉" }
+			set_province_name = { id = 3529 name = "察里津"}
+			set_province_name = { id = 3151 name = "圣彼得堡"}
+			set_province_name = { id = 11375 name = "下诺夫哥罗德"}
+			set_province_name = { id = 6245 name = "特维尔"}
+			set_province_name = { id = 1821 name = "叶卡捷琳堡"}
+			set_province_name = { id = 392 name = "辛比尔斯克"}
+			set_province_name = { id = 11225 name = "萨马拉"}
 			
 			#TAJ
-			742 = { set_state_name = "Dushanbe" }
+			742 = { set_state_name = "杜尚别" }
 
 			#UKR
-			227 = { set_state_name = "Donetsk" }
-			228 = { set_state_name = "Luhansk" }
-			set_province_name = { id = 6474 name = "Donetsk"}
-			set_province_name = { id = 9461 name = "Luhansk"}
+			227 = { set_state_name = "顿涅茨克" }
+			228 = { set_state_name = "卢甘斯克" }
+			set_province_name = { id = 6474 name = "顿涅茨克"}
+			set_province_name = { id = 9461 name = "卢甘斯克"}
 			set_capital = { state = 195 }
 			news_event = { id = r56.soviet.28 days = 1 }
 			remove_ideas = SOV_revolutionized_industry_ghost
@@ -21080,7 +21080,7 @@ focus = {
 			set_cosmetic_tag = SOV3
 			retire_character = SOV_nikolay_yezhov
 			create_country_leader = {
-				name = "Andrey Vlasov"
+				name = "安德烈·弗拉索夫"
 				desc = "POLITICS_ANDREY_VLASOV_DESC"
 				picture = "Portrait_Soviet_Andrey_Vlasov.dds"
 				expire = "1965.1.1"
@@ -21458,7 +21458,7 @@ focus = {
 		custom_effect_tooltip = SOV_emigres_tt
 		hidden_effect = {	
 			division_template = {
-				name = "White Émigrés"
+				name = "白军"
 				priority = 2
 				division_names_group = SOV_INF_01
 				regiments = {
@@ -21478,11 +21478,11 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 219 }
 				create_unit = {
-					division = "name = \"1. White Émigrés\" division_template = \"White Émigrés\" start_experience_factor = 1.0" 
+					division = "name = \"白军第1师\" division_template = \"白军\" start_experience_factor = 1.0" 
 					owner = SOV
 				}
 				create_unit = {
-					division = "name = \"1. White Émigrés\" division_template = \"White Émigrés\" start_experience_factor = 1.0" 
+					division = "name = \"白军第1师\" division_template = \"白军\" start_experience_factor = 1.0" 
 					owner = SOV
 				}
 			}
@@ -21999,49 +21999,49 @@ focus = {
 					inherit_technology = ROOT
 					202 = {
 						create_unit = {
-							division = "name = \"1ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第1步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = UKR
 						}
 						create_unit = {
-							division = "name = \"2ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第2步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = UKR
 						}
 						create_unit = {
-							division = "name = \"1ya Mekhanizirovaniy Korpus\" division_template = \"Mekhanizirovaniy Korpus\" start_experience_factor = 0.1 start_equipment_factor = 0.5 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第1机械化军\" division_template = \"机械化军\" start_experience_factor = 0.1 start_equipment_factor = 0.5 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = UKR
 						}
 					}
 					221 = {
 						create_unit = {
-							division = "name = \"3ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第3步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = UKR
 						}
 						create_unit = {
-							division = "name = \"4ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
-							owner = UKR
-						}
-					}
-					226 = {
-						create_unit = {
-							division = "name = \"5ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第4步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = UKR
 						}
 					}
 					226 = {
 						create_unit = {
-							division = "name = \"6ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第5步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							owner = UKR
+						}
+					}
+					226 = {
+						create_unit = {
+							division = "name = \"第6步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = UKR
 						}
 					}
 					198 = {
 						create_unit = {
-							division = "name = \"7ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第7步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = UKR
 						}
 					}
 					227 = {
 						create_unit = {
-							division = "name = \"8ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第8步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = UKR
 						}
 					}
@@ -22102,17 +22102,17 @@ focus = {
 					inherit_technology = ROOT
 					206 = {
 						create_unit = {
-							division = "name = \"1ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第1步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = BLR
 						}
 						create_unit = {
-							division = "name = \"2ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第2步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = BLR
 						}
 					}
 					207 = {
 						create_unit = {
-							division = "name = \"3ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第3步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = BLR
 						}
 					}
@@ -22253,7 +22253,7 @@ focus = {
 				GEO = {
 					inherit_technology = ROOT
 					division_template = {
-						name = "Stolichnaya Gvardiya"
+						name = "城市警卫师"
 					
 						regiments = {
 							infantry = { x = 0 y = 0 }
@@ -22263,11 +22263,11 @@ focus = {
 					}
 					231 = {
 						create_unit = {
-							division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = GEO
 						}
 						create_unit = {
-							division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = GEO
 						}
 					}
@@ -22327,7 +22327,7 @@ focus = {
 				ARM = {
 					inherit_technology = ROOT
 					division_template = {
-						name = "Stolichnaya Gvardiya"
+						name = "城市警卫师"
 					
 						regiments = {
 							infantry = { x = 0 y = 0 }
@@ -22337,11 +22337,11 @@ focus = {
 					}
 					230 = {
 						create_unit = {
-							division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = ARM
 						}
 						create_unit = {
-							division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = ARM
 						}
 					}
@@ -22401,7 +22401,7 @@ focus = {
 				AZR = {
 					inherit_technology = ROOT
 					division_template = {
-						name = "Stolichnaya Gvardiya"
+						name = "城市警卫师"
 					
 						regiments = {
 							infantry = { x = 0 y = 0 }
@@ -22411,11 +22411,11 @@ focus = {
 					}
 					229 = {
 						create_unit = {
-							division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = GEO
 						}
 						create_unit = {
-							division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = GEO
 						}
 					}
@@ -22583,7 +22583,7 @@ focus = {
 				KAZ = {
 					inherit_technology = ROOT
 					division_template = {
-						name = "Stolichnaya Gvardiya"
+						name = "城市警卫师"
 					
 						regiments = {
 							infantry = { x = 0 y = 0 }
@@ -22593,31 +22593,31 @@ focus = {
 					}
 					586 = {
 						create_unit = {
-							division = "name = \"1ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第1步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = KAZ
 						}
 					}
 					590 = {
 						create_unit = {
-							division = "name = \"2ya Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第2步兵师\" division_template = \"步兵师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = KAZ
 						}
 					}
 					402 = {
 						create_unit = {
-							division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = KAZ
 						}
 					}
 					404 = {
 						create_unit = {
-							division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = KAZ
 						}
 					}
 					588 = {
 						create_unit = {
-							division = "name = \"3ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第3城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = KAZ
 						}
 					}
@@ -22677,7 +22677,7 @@ focus = {
 				UZB = {
 					inherit_technology = ROOT
 					division_template = {
-						name = "Stolichnaya Gvardiya"
+						name = "城市警卫师"
 					
 						regiments = {
 							infantry = { x = 0 y = 0 }
@@ -22687,13 +22687,13 @@ focus = {
 					}
 					405 = {
 						create_unit = {
-							division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = UZB
 						}
 					}
 					823 = {
 						create_unit = {
-							division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = UZB
 						}
 					}
@@ -22753,7 +22753,7 @@ focus = {
 				TMS = {
 					inherit_technology = ROOT
 					division_template = {
-						name = "Stolichnaya Gvardiya"
+						name = "城市警卫师"
 					
 						regiments = {
 							infantry = { x = 0 y = 0 }
@@ -22763,11 +22763,11 @@ focus = {
 					}
 					584 = {
 						create_unit = {
-							division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = TMS
 						}
 						create_unit = {
-							division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = TMS
 						}
 					}
@@ -22827,7 +22827,7 @@ focus = {
 				KYR = {
 					inherit_technology = ROOT
 					division_template = {
-						name = "Stolichnaya Gvardiya"
+						name = "城市警卫师"
 					
 						regiments = {
 							infantry = { x = 0 y = 0 }
@@ -22837,11 +22837,11 @@ focus = {
 					}
 					732 = {
 						create_unit = {
-							division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = KYR
 						}
 						create_unit = {
-							division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = KYR
 						}
 					}
@@ -22901,7 +22901,7 @@ focus = {
 				TAJ = {
 					inherit_technology = ROOT
 					division_template = {
-						name = "Stolichnaya Gvardiya"
+						name = "城市警卫师"
 					
 						regiments = {
 							infantry = { x = 0 y = 0 }
@@ -22911,11 +22911,11 @@ focus = {
 					}
 					742 = {
 						create_unit = {
-							division = "name = \"1ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第1城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = TAJ
 						}
 						create_unit = {
-							division = "name = \"2ya Stolichnaya Gvardiya\" division_template = \"Stolichnaya Gvardiya\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
+							division = "name = \"第2城市警卫师\" division_template = \"城市警卫师\" start_experience_factor = 0.1 start_equipment_factor = 0.6 force_equipment_variants = { infantry_equipment_1 = { owner = SOV } }" 
 							owner = TAJ
 						}
 					}
@@ -23768,7 +23768,7 @@ focus = {
 		}
 		custom_effect_tooltip = SOV_the_new_russian_army_tooltip
 		division_template = {
-			name = "Respublikanskiy Spetsnaz"
+			name = "特种师"
 			priority = 0
 			regiments = {
 				mountaineers = { x = 0 y = 0 }
@@ -23794,23 +23794,23 @@ focus = {
 		hidden_effect = {
 			219 = {
 				create_unit = {
-					division = "name = \"1a Respublikanskiy Spetsnaz\" division_template = \"Respublikanskiy Spetsnaz\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
+					division = "name = \"第1特种师\" division_template = \"特种师\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
 					owner = SOV
 				}
 				create_unit = {
-					division = "name = \"2a Respublikanskiy Spetsnaz\" division_template = \"Respublikanskiy Spetsnaz\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
+					division = "name = \"第2特种师\" division_template = \"特种师\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
 					owner = SOV
 				}
 			}
 			195 = {
 				create_unit = {
-					division = "name = \"3a Respublikanskiy Spetsnaz\" division_template = \"Respublikanskiy Spetsnaz\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
+					division = "name = \"第3特种师\" division_template = \"特种师\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
 					owner = SOV
 				}
 			}
 			217 = {
 				create_unit = {
-					division = "name = \"4a Respublikanskiy Spetsnaz\" division_template = \"Respublikanskiy Spetsnaz\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
+					division = "name = \"第4特种师\" division_template = \"特种师\" start_experience_factor = 0.2 start_equipment_factor = 0.8 force_equipment_variants = { infantry_equipment_0 = { owner = SOV } }"
 					owner = SOV
 				}
 			}
