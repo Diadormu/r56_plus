@@ -202,9 +202,9 @@ technologies = {
 		air_mission_xp_gain_factor = 0.05
 		###########
 		
-		xor={
-			dogfighting_experience
-		}
+#		xor={
+#			dogfighting_experience
+#		}
 
 		path = {
 			leads_to_tech = multialtitude_flying
@@ -251,9 +251,9 @@ technologies = {
 		air_mission_xp_gain_factor = 0.05
 		###########
 		
-		xor={
-			fighter_sweeps
-		}
+#		xor={
+#			fighter_sweeps
+#		}
 
 		path = {
 			leads_to_tech = multialtitude_flying
@@ -405,9 +405,9 @@ technologies = {
 		air_strategic_bomber_night_penalty = -0.5
 		###########		
 
-		XOR = {
-			day_bombing
-		}
+#		XOR = {
+#			day_bombing
+#		}
 
 		path = {
 			leads_to_tech = massed_bomber_formations
@@ -462,9 +462,9 @@ technologies = {
 		air_strategic_bomber_bombing_factor = 0.3
 		###########
 
-		XOR = {
-			night_bombing
-		}
+#		XOR = {
+#			night_bombing
+#		}
 		
 		path = {
 			leads_to_tech = air_offense
@@ -906,9 +906,9 @@ technologies = {
 		air_mission_xp_gain_factor = 0.05
 		###########
 		
-		xor = {
-			fighter_ace_initiative
-		}
+#		xor = {
+#			fighter_ace_initiative
+#		}
 
 		path = {
 			leads_to_tech = hunt_and_destroy
@@ -959,9 +959,9 @@ technologies = {
 		air_mission_xp_gain_factor = 0.05
 		###########
 
-		xor = {
-			formation_fighting
-		}
+#		xor = {
+#			formation_fighting
+#		}
 
 		path = {
 			leads_to_tech = hunt_and_destroy
