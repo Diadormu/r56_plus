@@ -23,7 +23,7 @@ form_scandinavia_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			# Norwayz
 			custom_trigger_tooltip = {
 				tooltip = form_country_norway_required_states_tt
@@ -186,7 +186,7 @@ form_nordic_league_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = form_country_norway_required_states_tt
@@ -419,18 +419,18 @@ form_gran_colombia_category = {
 			#		has_completed_focus = PRU_incaism
 			#	}
 			#}
-			OR = {
-				is_subject = no
-				is_subject_of = HON
-			}
-			if = {
-				limit = {
-					is_subject = no
-				}
+#			OR = {
+#				is_subject = no
+#				is_subject_of = HON
+#			}
+#			if = {
+#				limit = {
+#					is_subject = no
+#				}
 				controls_state = 491
 				controls_state = 304
 				controls_state = 937
-			}
+#			}
 			# Ecuador
 			custom_trigger_tooltip = {
 				tooltip = form_country_ecuador_required_states_tt
@@ -550,7 +550,7 @@ form_austria_hungary_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 
 			# Austria
 			custom_trigger_tooltip = {
@@ -742,7 +742,7 @@ form_austria_hungary_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			# Hungary
 			custom_trigger_tooltip = {
 				tooltip = form_country_hungary_required_states_tt
@@ -872,7 +872,7 @@ form_commonwealth_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			# Lithuania
 			custom_trigger_tooltip = {
 				tooltip = form_country_lithuania_required_states_tt
@@ -955,7 +955,7 @@ form_united_netherlands_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			# Netherlands
 			custom_trigger_tooltip = {
 				tooltip = form_eu_netherlands_required_states_tt
@@ -1041,7 +1041,7 @@ form_united_central_america_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			controls_state = 313
 			controls_state = 314
 			controls_state = 312
@@ -1118,7 +1118,7 @@ form_baltic_federation_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			# Estonia
 			custom_trigger_tooltip = {
 				tooltip = form_country_estonia_required_states_tt
@@ -2347,7 +2347,10 @@ form_european_union_category = {
 						original_tag = SAD
 						original_tag = VNZ						
 					}
-					has_government = democratic
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
 				}
 				AND = {
 					original_tag = ENG
@@ -2551,7 +2554,10 @@ form_european_union_category = {
 				original_tag = ITA
 				original_tag = GER
 			}
-			has_government = democratic
+			OR = {
+				has_government = democratic
+				has_government = communism
+			}
 			has_cosmetic_tag = EUR_UNIFIED
 			is_major = yes
 		}
@@ -2651,7 +2657,10 @@ form_european_union_category = {
 				original_tag = ITA
 				original_tag = GER
 			}
-			has_government = democratic
+			OR = {
+				has_government = democratic
+				has_government = communism
+			}
 			has_cosmetic_tag = EUR_UNIFIED
 			is_major = yes
 		}
@@ -2721,7 +2730,10 @@ form_european_union_category = {
 				original_tag = ITA
 				original_tag = GER
 			}
-			has_government = democratic
+			OR = {
+				has_government = democratic
+				has_government = communism
+			}
 			has_cosmetic_tag = EUR_UNIFIED
 			is_major = yes
 		}
@@ -2793,7 +2805,10 @@ form_european_union_category = {
 				original_tag = ITA
 				original_tag = GER
 			}
-			has_government = democratic
+			OR = {
+				has_government = democratic
+				has_government = communism
+			}
 			has_cosmetic_tag = EUR_UNIFIED
 			is_major = yes
 		}
@@ -2868,7 +2883,10 @@ form_european_union_category = {
 				original_tag = ITA
 				original_tag = GER
 			}
-			has_government = democratic
+			OR = {
+				has_government = democratic
+				has_government = communism
+			}
 			has_cosmetic_tag = EUR_UNIFIED
 			is_major = yes
 		}
@@ -2914,7 +2932,7 @@ form_mutapa_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			controls_state = 541
 			controls_state = 681
 			controls_state = 719
@@ -4894,7 +4912,7 @@ form_persian_empire_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			# Iran
 			custom_trigger_tooltip = {
 				tooltip = form_country_iran_required_states_tt
@@ -6006,7 +6024,7 @@ form_arabia_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			# Spain: Northern Africa
 			controls_state = 290
 			# Iraq
@@ -6241,7 +6259,7 @@ form_majapahit_empire_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			# Dutch East Indies
 			custom_trigger_tooltip = {
 				tooltip = form_majapahit_nei_required_states_tt
@@ -6385,7 +6403,7 @@ form_rattanakosin_kingdom_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			# Siam	
 			custom_trigger_tooltip = {
 				tooltip = state_in_siam_tt
@@ -6719,7 +6737,7 @@ form_greater_german_reich_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = form_country_germany_required_states_tt
 				controls_state = 5
@@ -7422,7 +7440,7 @@ form_polynesia_category = {
 
 		available = {
 			OR = {
-				is_subject = no
+#				is_subject = no
 				has_autonomy_state = autonomy_dominion #New Zealand should be able to do it
 			}
 			# Polynesia
@@ -7505,10 +7523,10 @@ form_polynesia_category = {
 		}
 
 		available = {
-			OR = {
-				is_subject = no
+#			OR = {
+#				is_subject = no
 				has_autonomy_state = autonomy_dominion #New Zealand should be able to do it
-			}
+#			}
 			has_completed_focus = NZL_australian_nzl_agreement
 			hidden_trigger = {
 				NOT = { has_country_flag = is_demanding_flag }
@@ -7678,7 +7696,7 @@ form_greater_greece_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			if = { 
 				limit = {
 					has_government = democratic
@@ -7835,7 +7853,7 @@ form_greater_greece_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			AND = {
 				has_government = democratic
 				has_completed_focus = GRE_nenikikamen
@@ -7880,7 +7898,7 @@ form_greater_greece_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			if = { 
 				limit = {
 					has_government = democratic
@@ -7928,7 +7946,7 @@ form_greater_greece_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			if = { 
 				limit = {
 					has_government = democratic
@@ -7968,7 +7986,7 @@ form_greater_greece_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			if = { 
 				limit = {
 					has_government = democratic
@@ -8011,7 +8029,7 @@ form_greater_greece_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			if = { 
 				limit = {
 					has_government = democratic
@@ -8818,7 +8836,7 @@ form_turkestan_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = form_country_kazakhstan_required_states
 				controls_state = 402
@@ -8963,7 +8981,7 @@ form_mountainous_republic_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			controls_state = 232 # Dagestan
 			controls_state = 821 # Chechnya-Ingushetia
 			controls_state = 828 # North Ossetia
@@ -9042,7 +9060,7 @@ form_transcaucasus_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			controls_state = 826 # Abkhazia
 			controls_state = 231 # Georgia
 			controls_state = 230 # Armenia
@@ -9110,7 +9128,7 @@ form_transcaucasus_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			controls_state = 419 # Tabriz
 			controls_state = 420 # Gilan
 		}
@@ -9167,7 +9185,7 @@ form_transcaucasus_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			controls_state = 232 # Dagestan
 			controls_state = 821 # Chechnya-Ingushetia
 			controls_state = 828 # North Ossetia
@@ -9236,7 +9254,7 @@ form_transcaucasus_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			controls_state = 354 # Trabzon
 			controls_state = 800 # Van
 		}
@@ -9647,7 +9665,7 @@ form_siberia_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			controls_state = 564 # Buryatia
 			controls_state = 563 # Chita
 			controls_state = 574 # Yakutsk
@@ -9799,7 +9817,7 @@ form_siberia_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			controls_state = 822 # Chukotka
 			controls_state = 637 # Kamchatka
 			controls_state = 562 # Okhotsk
@@ -9899,7 +9917,7 @@ form_siberia_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			controls_state = 653 # Sverdlovsk
 			controls_state = 572 # Chelyabinsk
 			controls_state = 582 # Magnitogorsk
@@ -9985,7 +10003,7 @@ form_siberia_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			controls_state = 537 # South Sakhalin
 			controls_state = 555 # Kuril Islands
 			controls_state = 536 # Hokkaido
@@ -10059,7 +10077,7 @@ form_idel_ural_category = {
 		}
 
 		available = {
-			is_subject = no
+#			is_subject = no
 			controls_state = 833 # Mari El
 			controls_state = 256 # Chuvashia
 			controls_state = 249 # Kazan
