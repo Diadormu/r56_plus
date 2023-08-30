@@ -5535,7 +5535,7 @@ focus_tree = {
 		relative_position_id = SOV_military_engineering_university
 		cost = 10
 
-		mutually_exclusive = { focus = SOV_improve_the_stalin_line }
+#		mutually_exclusive = { focus = SOV_improve_the_stalin_line }
 
 		available = {
 			OR = {
@@ -5808,7 +5808,7 @@ focus_tree = {
 		relative_position_id = SOV_military_engineering_university
 		cost = 10
 
-		mutually_exclusive = { focus = SOV_the_molotov_line }
+#		mutually_exclusive = { focus = SOV_the_molotov_line }
 
 		completion_reward = {
 			209 = {
@@ -12964,9 +12964,9 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = SOV_expand_the_agitprop
-		cost = 10
+		cost = 5
 
-		mutually_exclusive = { focus = SOV_collectivist_propaganda }
+#		mutually_exclusive = { focus = SOV_collectivist_propaganda }
 		
 		search_filters = {FOCUS_FILTER_PROPAGANDA}
 
@@ -12998,7 +12998,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_positive_heroism
-		cost = 10
+		cost = 5
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
@@ -13014,7 +13014,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_revive_the_stakhanovite_movement
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 			add_ideas = SOV_war_heroes_ns
@@ -13095,9 +13095,9 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_expand_the_agitprop
-		cost = 10
+		cost = 5
 
-		mutually_exclusive = { focus = SOV_positive_heroism }
+#		mutually_exclusive = { focus = SOV_positive_heroism }
 		
 		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_PROPAGANDA}
 
@@ -13119,7 +13119,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_collectivist_propaganda
-		cost = 10
+		cost = 5
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 
@@ -13135,7 +13135,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_socialist_emulation
-		cost = 10
+		cost = 5
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL}
 
