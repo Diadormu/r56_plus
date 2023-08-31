@@ -9240,6 +9240,74 @@ form_transcaucasus_category = {
 		}
 	}
 	
+	claim_southern_don = {  
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = GEO # Georgia
+				original_tag = ARM # Armenia
+				original_tag = AZR # Azerbaijan
+			}
+		}
+
+		available = {
+#			is_subject = no
+			controls_state = 234
+			controls_state = 235
+			controls_state = 236
+			controls_state = 237
+			controls_state = 238
+		}
+
+		visible = {
+			OR = {
+				original_tag = GEO # Georgia
+				original_tag = ARM # Armenia
+				original_tag = AZR # Azerbaijan
+			}
+			has_global_flag = form_transcaucasia_flag
+			NOT = { has_global_flag = claim_southern_don_flag }
+
+				has_dlc = "No Step Back"
+		}
+
+		complete_effect = {
+			
+			# Sochi
+			234 = { add_core_of = ROOT }
+			
+			# Kabardino-Balkaria
+			235 = { add_core_of = ROOT }
+			
+			# North Ossetia
+			236 = { add_core_of = ROOT }
+			
+			# Chechnya-Ingushetia
+			237 = { add_core_of = ROOT }
+			
+			# Gagestan
+			238 = { add_core_of = ROOT }
+			
+            add_ideas = generic_recent_political_unification
+            add_ideas = generic_recent_army_unification
+            add_ideas = generic_recent_economic_unification	
+			
+			hidden_effect = { 
+				set_global_flag = claim_southern_don_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
 	
 	liberate_anatolian_peoples = {  
 
@@ -9706,6 +9774,7 @@ form_siberia_category = {
 			
 			# Taymyria
 			516 = { add_core_of = ROOT }
+			878 = { add_core_of = ROOT }
 			
 			# Buryatia
 			564 = { add_core_of = ROOT }
@@ -9725,6 +9794,8 @@ form_siberia_category = {
 			
 				# Yakutsk
 				574 = { add_core_of = ROOT }
+				876 = { add_core_of = ROOT }
+				877 = { add_core_of = ROOT }
 				
 				# Northeast Siberia
 				644 = { add_core_of = ROOT }
@@ -9920,7 +9991,7 @@ form_siberia_category = {
 #			is_subject = no
 			controls_state = 653 # Sverdlovsk
 			controls_state = 572 # Chelyabinsk
-			controls_state = 582 # Magnitogorsk
+#			controls_state = 582 # Magnitogorsk
 			controls_state = 573 # Zlatoust
 			controls_state = 398 # Perm
 			controls_state = 581 # Northern Urals
