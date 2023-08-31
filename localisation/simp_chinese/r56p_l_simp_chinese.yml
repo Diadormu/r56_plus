@@ -1,0 +1,2 @@
+﻿l_simp_chinese:
+RULE_ALLOW_RELEASE_NATIONS_SOVIET_TOOLTIP:0 "§Y[ROOT.GetNameDefCap]§!不能释放该国家，除非先完成§Y$SOV_autonomous_soviet_republics$§!国策或§Y解散苏维埃联盟§!国策。"
