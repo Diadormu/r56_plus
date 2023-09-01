@@ -3182,7 +3182,7 @@ ENG_appeal_to_imperial_loyalists = {
 					add_opinion_modifier = { target = ENG modifier = ENG_imperial_loyalist }
 					set_cosmetic_tag = ENG_imperialist_australia
 					create_country_leader = {
-						name = "William Birdwood"
+						name = "威廉·伯德伍德"
 						desc = " "
 						picture = "gfx/leaders/ENG/portrait_eng_william_birdwood.dds"
 						expire = "1965.1.1"
@@ -9636,8 +9636,8 @@ political_actions = {
 			}
 			release = USA
 			puppet = USA
-			386 = { set_state_name = "Duchy of Wallington" }
-			set_province_name = { id = 3957 name = "Wallington" }
+			386 = { set_state_name = "沃灵顿公国" }
+			set_province_name = { id = 3957 name = "沃灵顿" }
 			USA = {
 				hidden_effect = {
 					set_cosmetic_tag = USA_wallis_simpson
@@ -9648,7 +9648,7 @@ political_actions = {
 				}
 				set_politics = { ruling_party = neutrality elections_allowed = no }
 				create_country_leader = {
-					name = "Wallis I"
+					name = "华里丝一世"
 					desc = "POLITICS_WALLIS_I_DESC"
 					picture = GFX_portrait_eng_wallis_simpson
 					expire = "1965.1.1"
@@ -9689,9 +9689,9 @@ political_actions = {
 				629 = { add_core_of = USA }
 				463 = { add_core_of = USA }
 			}
-			386 = { set_state_name = "Duchy of Wallington" }
-			361 = { set_state_name = "Marriedland" }
-			set_province_name = { id = 3957 name = "Wallington" }
+			386 = { set_state_name = "沃灵顿公国" }
+			361 = { set_state_name = "马里兰" }
+			set_province_name = { id = 3957 name = "沃灵顿" }
 			USA = {
 				hidden_effect = {
 					set_cosmetic_tag = USA_wallis_simpson
@@ -9702,7 +9702,7 @@ political_actions = {
 				}
 				set_politics = { ruling_party = neutrality elections_allowed = no }
 				create_country_leader = {
-					name = "Wallis I"
+					name = "华里丝一世"
 					desc = "POLITICS_WALLIS_I_DESC"
 					picture = GFX_portrait_eng_wallis_simpson
 					expire = "1965.1.1"
@@ -9809,7 +9809,7 @@ political_actions = {
 
 		available = {
 			has_country_leader = { 
-				name = "Edward VIII"
+				name = "爱德华八世"
 				ruling_only = yes
 			}
 			NOT = {
@@ -9824,7 +9824,7 @@ political_actions = {
 		visible = {
 			tag = ENG
 			has_country_leader = { 
-				name = "Edward VIII"
+				name = "爱德华八世"
 				ruling_only = yes
 			}
 			OR = {
@@ -9849,7 +9849,7 @@ political_actions = {
 				}			
 			}
 			add_stability = embrace_german_heritage_var
-			set_party_name = { ideology = neutrality name = "House of Saxe-Coburg and Gotha" }
+			set_party_name = { ideology = neutrality name = "萨克森-科堡-哥达王朝" }
 		}
 
 		ai_will_do = {
