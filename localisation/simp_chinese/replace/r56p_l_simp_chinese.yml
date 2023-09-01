@@ -1,3 +1,8 @@
 ﻿l_simp_chinese:
- RULE_ALLOW_RELEASE_NATIONS_SOVIET_TOOLTIP:0 "§Y[ROOT.GetNameDefCap]§!不能释放该国家，除非先完成§Y$SOV_freedom_of_debate_unity_of_action$§!国策或§Y$SOV_autonomous_soviet_republics$§!国策或§Y$SOV_the_peoples_revolution$§!国策或§Y$SOV_socialist_humanism$§!国策或§Y$SOV_reconvene_the_zemsky_sobor$§!国策或§Y$SOV_rebuild_the_duma$§!国策。"
- claim_southern_don:0 "整合顿河南岸"
+ RULE_ALLOW_RELEASE_NATIONS_SOVIET_TOOLTIP: "§Y[ROOT.GetNameDefCap]§!不能释放该国家\n除非先完成§Y$SOV_freedom_of_debate_unity_of_action$§!国策\n或§Y$SOV_autonomous_soviet_republics$§!国策\n或§Y$SOV_the_peoples_revolution$§!国策\n或§Y$SOV_socialist_humanism$§!国策\n或§Y$SOV_reconvene_the_zemsky_sobor$§!国策\n或§Y$SOV_rebuild_the_duma$§!国策。"
+ claim_southern_don: "整合顿河南岸"
+ ENG_claim_pan_north_american_state: "合并北美自治领"
+ created_north_american: "已建立北美自治领"
+ ENG_install_north_american_monarchy: "建立北美君主制"
+ CAN_north_america_wallis_simpson_neutrality: "北美联合王国"
+ CAN_north_america_wallis_simpson_neutrality_def: "北美联合王国"
