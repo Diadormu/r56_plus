@@ -9764,6 +9764,7 @@ political_actions = {
 				is_core_of = USA
 				is_controlled_by = ENG
 			}
+			NOT = { country_exists = USA }
 			NOT = { has_country_flag = created_north_american }
 			has_completed_focus = ENG_unite_the_anglosphere
 		}
@@ -9817,6 +9818,8 @@ political_actions = {
 			any_subject_country = {
 				original_tag = USA
 				OVERLORD = { original_tag = ENG }
+				has_full_control_of_state = 386
+				has_full_control_of_state = 361
 			}
 			any_subject_country = {
 				original_tag = CAN
@@ -9921,6 +9924,7 @@ political_actions = {
 		
 		available = {
 			361 = { is_owned_and_controlled_by = CAN }
+			386 = { is_owned_and_controlled_by = CAN }
 		}
 
 		fire_only_once = yes
