@@ -8,3 +8,4 @@ dependencies={
 }
 name="56之路++"
 supported_version="1.12.*"
+remote_file_id="3035557051"
