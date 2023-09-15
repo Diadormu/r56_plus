@@ -1,0 +1,35 @@
+news_event = {
+	id = wtt_news.3000
+	title = wtt_news.3000.t
+	desc = wtt_news.3000.desc
+	picture = GFX_news_event_generic_parliament
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wtt_news.3000.a
+		trigger = {
+			OR = {
+				original_tag = CAN
+				original_tag = USA
+				original_tag = MEX
+			}
+			NOT = { has_war_with = FROM }
+		}
+	}
+	option = {
+		name = wtt_news.3000.b
+		trigger = {
+			NOT = { original_tag = CAN }
+			NOT = { original_tag = USA }
+			NOT = { original_tag = MEX }
+			NOT = { has_war_with = FROM }
+		}
+	}
+	option = {
+		name = wtt_news.53.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+}

@@ -9760,9 +9760,12 @@ political_actions = {
 				original_tag = CAN
 				is_subject_of = ROOT
 			}
-			any_owned_state = {
+			any_state = {
 				is_core_of = USA
-				is_controlled_by = ENG
+				OR = {
+					is_controlled_by = ENG
+					is_controlled_by = CAN
+				}
 			}
 			NOT = { country_exists = USA }
 			NOT = { has_country_flag = created_north_american }
