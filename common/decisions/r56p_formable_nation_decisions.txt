@@ -241,3 +241,218 @@ form_north_american_category = {
 		}
 	}
 }
+
+form_greater_china_category = {
+	form_greater_china = {
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = CHI
+				original_tag = PRC
+				original_tag = GXC
+				original_tag = YUN
+				original_tag = SHX
+				original_tag = XSM
+				original_tag = SIK
+				original_tag = MAN
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CHI
+				original_tag = PRC
+				original_tag = MAN
+				has_cosmetic_tag = CHI_warlord_leader
+				has_cosmetic_tag = CHI_warlord_PRC
+			}
+			owns_state = 283
+			owns_state = 287
+			owns_state = 322
+			owns_state = 325
+			owns_state = 328
+			owns_state = 524
+			owns_state = 591
+			owns_state = 592
+			owns_state = 593
+			owns_state = 594
+			owns_state = 595
+			owns_state = 596
+			owns_state = 597
+			owns_state = 598
+			owns_state = 599
+			owns_state = 600
+			owns_state = 601
+			owns_state = 602
+			owns_state = 603
+			owns_state = 604
+			owns_state = 605
+			owns_state = 606
+			owns_state = 607
+			owns_state = 608
+			owns_state = 609
+			owns_state = 610
+			owns_state = 611
+			owns_state = 612
+			owns_state = 613
+			owns_state = 614
+			owns_state = 615
+			owns_state = 616
+			owns_state = 617
+			owns_state = 618
+			owns_state = 619
+			owns_state = 620
+			owns_state = 621
+			owns_state = 622
+			owns_state = 714
+			owns_state = 715
+			owns_state = 716
+			owns_state = 717
+			owns_state = 744
+			owns_state = 746
+			owns_state = 747
+			owns_state = 748
+			owns_state = 749
+			owns_state = 750
+			owns_state = 751
+			owns_state = 752
+			owns_state = 753
+			owns_state = 754
+			owns_state = 755
+			owns_state = 756
+			owns_state = 757
+			owns_state = 758
+			owns_state = 759
+			owns_state = 760
+			owns_state = 761
+			owns_state = 941
+			owns_state = 942
+			owns_state = 943
+			owns_state = 944
+			owns_state = 945
+			owns_state = 946
+			owns_state = 947
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = become_china
+				owns_state = 283
+				owns_state = 287
+				owns_state = 322
+				owns_state = 325
+				owns_state = 328
+				owns_state = 524
+				owns_state = 591
+				owns_state = 592
+				owns_state = 593
+				owns_state = 594
+				owns_state = 595
+				owns_state = 596
+				owns_state = 597
+				owns_state = 598
+				owns_state = 599
+				owns_state = 600
+				owns_state = 601
+				owns_state = 602
+				owns_state = 603
+				owns_state = 604
+				owns_state = 605
+				owns_state = 606
+				owns_state = 607
+				owns_state = 608
+				owns_state = 609
+				owns_state = 610
+				owns_state = 611
+				owns_state = 612
+				owns_state = 613
+				owns_state = 614
+				owns_state = 615
+				owns_state = 616
+				owns_state = 617
+				owns_state = 618
+				owns_state = 619
+				owns_state = 620
+				owns_state = 621
+				owns_state = 622
+				owns_state = 714
+				owns_state = 715
+				owns_state = 716
+				owns_state = 717
+				owns_state = 744
+				owns_state = 746
+				owns_state = 747
+				owns_state = 748
+				owns_state = 749
+				owns_state = 750
+				owns_state = 751
+				owns_state = 752
+				owns_state = 753
+				owns_state = 754
+				owns_state = 755
+				owns_state = 756
+				owns_state = 757
+				owns_state = 758
+				owns_state = 759
+				owns_state = 760
+				owns_state = 761
+				owns_state = 941
+				owns_state = 942
+				owns_state = 943
+				owns_state = 944
+				owns_state = 945
+				owns_state = 946
+				owns_state = 947
+			}
+			controls_state = 326 #香港
+			controls_state = 728 #广州湾
+			controls_state = 729 #澳门
+			controls_state = 743 #青岛
+			controls_state = 745 #大连
+			controls_state = 434 #阿鲁纳恰尔
+			controls_state = 329 #唐努图瓦
+			#蒙古
+			controls_state = 330
+			controls_state = 817
+			controls_state = 818
+			controls_state = 819
+			controls_state = 820
+			#外东北
+			controls_state = 408
+			controls_state = 409
+			controls_state = 560
+			controls_state = 561
+			controls_state = 563
+			controls_state = 657
+			#萨哈林
+			controls_state = 537
+			controls_state = 655
+		}
+
+		complete_effect = {
+			434 = { add_core_of = ROOT } #藏南
+			329 = { add_core_of = ROOT } #唐努乌梁
+			#外蒙古
+			330 = { add_core_of = ROOT }
+			817 = { add_core_of = ROOT }
+			818 = { add_core_of = ROOT }
+			819 = { add_core_of = ROOT }
+			820 = { add_core_of = ROOT }
+			#外东北
+			408 = { add_core_of = ROOT }
+			409 = { add_core_of = ROOT }
+			560 = { add_core_of = ROOT }
+			561 = { add_core_of = ROOT }
+			563 = { add_core_of = ROOT }
+			657 = { add_core_of = ROOT }
+			#海参崴
+			537 = { add_core_of = ROOT }
+			655 = { add_core_of = ROOT }
+
+			434 = { set_state_name = "藏南" }
+			329 = { set_state_name = "唐努乌梁" }
+			537 = { set_state_name = "南海参崴" }
+			655 = { set_state_name = "北海参崴" }
+		}
+	}
+}
