@@ -1,4 +1,14 @@
 ﻿l_simp_chinese:
+  EUR_AUS_membership: "奥地利成员资格"
+  form_country_AUS_required_states_tt: "控制§Y奥地利§!的所有地区。"
+  form_country_AUS_coring_states_tt: "获得§Y奥地利§!所有地区的核心。\n"
+  EUR_CZE_membership: "捷克斯洛伐克成员资格"
+  form_country_CZE_required_states_tt: "控制§Y捷克斯洛伐克§!的所有地区。"
+  form_country_CZE_coring_states_tt: "获得§Y捷克斯洛伐克§!所有地区的核心。\n"
+  EUR_HUN_membership: "匈牙利成员资格"
+  form_country_HUN_required_states_tt: "控制§Y匈牙利§!的所有地区。"
+  form_country_HUN_coring_states_tt: "获得§Y匈牙利§!所有地区的核心。\n"
+
   RULE_ALLOW_RELEASE_NATIONS_SOVIET_TOOLTIP: "§Y[ROOT.GetNameDefCap]§!不能释放该国家\n除非先完成§Y$SOV_freedom_of_debate_unity_of_action$§!国策\n或 §Y$SOV_autonomous_soviet_republics$§!国策\n或§Y$SOV_the_peoples_revolution$§!国策\n或§Y$SOV_socialist_humanism$§!国策\n或§Y$SOV_reconvene_the_zemsky_sobor$§!国策\n 或§Y$SOV_rebuild_the_duma$§!国策。"
   claim_southern_don: "整合顿河南岸"
   ENG_claim_pan_north_american_state: "合并北美自治领"
