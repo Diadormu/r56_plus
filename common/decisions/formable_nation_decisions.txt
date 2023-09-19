@@ -23,7 +23,7 @@ form_scandinavia_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			# Norwayz
 			custom_trigger_tooltip = {
 				tooltip = form_country_norway_required_states_tt
@@ -186,7 +186,7 @@ form_nordic_league_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = form_country_norway_required_states_tt
@@ -419,18 +419,18 @@ form_gran_colombia_category = {
 			#		has_completed_focus = PRU_incaism
 			#	}
 			#}
-#			OR = {
-#				is_subject = no
-#				is_subject_of = HON
-#			}
-#			if = {
-#				limit = {
-#					is_subject = no
-#				}
+		#	OR = {
+		#		is_subject = no
+		#		is_subject_of = HON
+		#	}
+		#	if = {
+		#		limit = {
+		#			is_subject = no
+		#		}
 				controls_state = 491
 				controls_state = 304
 				controls_state = 937
-#			}
+		#	}
 			# Ecuador
 			custom_trigger_tooltip = {
 				tooltip = form_country_ecuador_required_states_tt
@@ -550,7 +550,7 @@ form_austria_hungary_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 
 			# Austria
 			custom_trigger_tooltip = {
@@ -742,7 +742,7 @@ form_austria_hungary_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			# Hungary
 			custom_trigger_tooltip = {
 				tooltip = form_country_hungary_required_states_tt
@@ -872,7 +872,7 @@ form_commonwealth_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			# Lithuania
 			custom_trigger_tooltip = {
 				tooltip = form_country_lithuania_required_states_tt
@@ -954,7 +954,7 @@ form_united_netherlands_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			# Netherlands
 			custom_trigger_tooltip = {
 				tooltip = form_eu_netherlands_required_states_tt
@@ -1039,7 +1039,7 @@ form_united_central_america_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			controls_state = 313
 			controls_state = 314
 			controls_state = 312
@@ -1116,7 +1116,7 @@ form_baltic_federation_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			# Estonia
 			custom_trigger_tooltip = {
 				tooltip = form_country_estonia_required_states_tt
@@ -2192,6 +2192,7 @@ form_european_union_category = {
 				original_tag = ITA
 				original_tag = GER
 				original_tag = WGR
+				original_tag = DDR
 				original_tag = ENG
 				original_tag = CZE
 				original_tag = HUN
@@ -2280,7 +2281,7 @@ form_european_union_category = {
 				controls_state = 115
 				controls_state = 114
 				controls_state = 850  #trentino
-				#controls_state = 736 #istria
+				controls_state = 736 #istria
 				#controls_state = 911 #litorale
 				controls_state = 912 #friuli
 				#controls_state = 163 #Zara
@@ -2296,19 +2297,19 @@ form_european_union_category = {
 				controls_state = 50
 				controls_state = 59
 				controls_state = 58
-				#controls_state = 60	#thuringen, DDR
+				controls_state = 60	#thuringen, DDR
 				controls_state = 54
 				controls_state = 52
 				controls_state = 53
-				#controls_state = 61	#mecklenburg, DDR
-				#controls_state = 64	#berlin, DDR
-				#controls_state = 65	#sachsen, DDR
-				#controls_state = 62	#vorpommern, DDR
-				#controls_state = 68	#neumark, Poland
-				#controls_state = 66	#niederschlesien, Poland
-				#controls_state = 67	#oberschlesien, Poland
-				#controls_state = 63	#hinterpommern, Poland
-				#controls_state = 5		#ermland-masuren, Poland
+				controls_state = 61	#mecklenburg, DDR
+				controls_state = 64	#berlin, DDR
+				controls_state = 65	#sachsen, DDR
+				controls_state = 62	#vorpommern, DDR
+				controls_state = 68	#neumark, Poland
+				controls_state = 66	#niederschlesien, Poland
+				controls_state = 67	#oberschlesien, Poland
+				controls_state = 63	#hinterpommern, Poland
+				controls_state = 5		#ermland-masuren, Poland
 				#controls_state = 763	#königsberg, Soviet Union
 				controls_state = 989
 				controls_state = 922
@@ -2327,6 +2328,8 @@ form_european_union_category = {
 						original_tag = FRA
 						original_tag = ITA
 						original_tag = GER
+						original_tag = WGR
+						original_tag = DDR
 						original_tag = CZE
 						original_tag = HUN
 						original_tag = YUG
@@ -2361,9 +2364,9 @@ form_european_union_category = {
 			}  
 			NOT = { has_global_flag = form_european_union_flag }
 			is_major = yes
-			NOT = {
-				has_country_flag = formed_austria_hungary
-			}			
+		#	NOT = {
+		#		has_country_flag = formed_austria_hungary
+		#	}			
 		}
 
 		complete_effect = {
@@ -2380,102 +2383,132 @@ form_european_union_category = {
 			# Netherlands
 			custom_effect_tooltip = form_eu_netherlands_coring_states_tt 
 			hidden_effect = {
-				7 = { add_core_of = ROOT }
-				35 = { add_core_of = ROOT }
-				36 = { add_core_of = ROOT }
+				every_controlled_state = {
+					limit = {
+						is_core_of = HOL
+					}
+					add_core_of = ROOT
+				}
+			#	7 = { add_core_of = ROOT }
+			#	35 = { add_core_of = ROOT }
+			#	36 = { add_core_of = ROOT }
 			}
 			# Belgium
 			custom_effect_tooltip = form_eu_belgium_coring_states_tt
 			hidden_effect = {
-				6 = { add_core_of = ROOT }
-				34 = { add_core_of = ROOT }
-				965 = { add_core_of = ROOT }
+				every_controlled_state = {
+					limit = {
+						is_core_of = BEL
+					}
+					add_core_of = ROOT
+				}
+			#	6 = { add_core_of = ROOT }
+			#	34 = { add_core_of = ROOT }
+			#	965 = { add_core_of = ROOT }
 			}
 			# France
 			custom_effect_tooltip = form_eu_france_coring_states_tt
 			hidden_effect = {
-				29 = { add_core_of = ROOT }
-				18 = { add_core_of = ROOT }
-				17 = { add_core_of = ROOT }
-				28 = { add_core_of = ROOT }
-				15 = { add_core_of = ROOT }
-				16 = { add_core_of = ROOT }
-				27 = { add_core_of = ROOT }
-				14 = { add_core_of = ROOT }
-				30 = { add_core_of = ROOT }
-				24 = { add_core_of = ROOT }
-				23 = { add_core_of = ROOT }
-				33 = { add_core_of = ROOT }
-				26 = { add_core_of = ROOT }
-				20 = { add_core_of = ROOT }
-				32 = { add_core_of = ROOT }
-				735 = { add_core_of = ROOT }
-				25 = { add_core_of = ROOT }
-				22 = { add_core_of = ROOT }
-				21 = { add_core_of = ROOT }
-				19 = { add_core_of = ROOT }
-				20 = { add_core_of = ROOT }
-				1 = { add_core_of = ROOT }
-				785 = { add_core_of = ROOT }
-				31 = { add_core_of = ROOT }
-				806 = { add_core_of = ROOT } # pyrenees-atlantiques
+				every_controlled_state = {
+					limit = {
+						is_core_of = FRA
+					}
+					add_core_of = ROOT
+				}
+			#	29 = { add_core_of = ROOT }
+			#	18 = { add_core_of = ROOT }
+			#	17 = { add_core_of = ROOT }
+			#	28 = { add_core_of = ROOT }
+			#	15 = { add_core_of = ROOT }
+			#	16 = { add_core_of = ROOT }
+			#	27 = { add_core_of = ROOT }
+			#	14 = { add_core_of = ROOT }
+			#	30 = { add_core_of = ROOT }
+			#	24 = { add_core_of = ROOT }
+			#	23 = { add_core_of = ROOT }
+			#	33 = { add_core_of = ROOT }
+			#	26 = { add_core_of = ROOT }
+			#	20 = { add_core_of = ROOT }
+			#	32 = { add_core_of = ROOT }
+			#	735 = { add_core_of = ROOT }
+			#	25 = { add_core_of = ROOT }
+			#	22 = { add_core_of = ROOT }
+			#	21 = { add_core_of = ROOT }
+			#	19 = { add_core_of = ROOT }
+			#	20 = { add_core_of = ROOT }
+			#	1 = { add_core_of = ROOT }
+			#	785 = { add_core_of = ROOT }
+			#	31 = { add_core_of = ROOT }
+			#	806 = { add_core_of = ROOT } # pyrenees-atlantiques
 			}
 			# Italy
 			custom_effect_tooltip = form_eu_italy_coring_states_tt
 			hidden_effect = {
-				158 = { add_core_of = ROOT }
-				159 = { add_core_of = ROOT }
-				39 = { add_core_of = ROOT }
-				160 = { add_core_of = ROOT }
-				161 = { add_core_of = ROOT }
-				162 = { add_core_of = ROOT }
-				957 = { add_core_of = ROOT } #marche
-				157 = { add_core_of = ROOT }
-				2 = { add_core_of = ROOT }
-				117 = { add_core_of = ROOT }
-				156 = { add_core_of = ROOT }
-				115 = { add_core_of = ROOT }
-				114 = { add_core_of = ROOT }
-				736 = { add_core_of = ROOT }
-				911 = { add_core_of = ROOT } #litorale
-				912 = { add_core_of = ROOT } #friuli
-				163 = { add_core_of = ROOT }
+				every_controlled_state = {
+					limit = {
+						is_core_of = ITA
+					}
+					add_core_of = ROOT
+				}
+			#	158 = { add_core_of = ROOT }
+			#	159 = { add_core_of = ROOT }
+			#	39 = { add_core_of = ROOT }
+			#	160 = { add_core_of = ROOT }
+			#	161 = { add_core_of = ROOT }
+			#	162 = { add_core_of = ROOT }
+			#	957 = { add_core_of = ROOT } #marche
+			#	157 = { add_core_of = ROOT }
+			#	2 = { add_core_of = ROOT }
+			#	117 = { add_core_of = ROOT }
+			#	156 = { add_core_of = ROOT }
+			#	115 = { add_core_of = ROOT }
+			#	114 = { add_core_of = ROOT }
+			#	736 = { add_core_of = ROOT }
+			#	911 = { add_core_of = ROOT } #litorale
+			#	912 = { add_core_of = ROOT } #friuli
+			#	163 = { add_core_of = ROOT }
 			}
 			# Germany
 			custom_effect_tooltip = form_country_germany_coring_states_tt
 			hidden_effect = {
-				51 = { add_core_of = ROOT }
-				42 = { add_core_of = ROOT }
-				56 = { add_core_of = ROOT }
-				57 = { add_core_of = ROOT }
-				55 = { add_core_of = ROOT }
-				50 = { add_core_of = ROOT }
-				59 = { add_core_of = ROOT }
-				58 = { add_core_of = ROOT }
-				998 = { add_core_of = ROOT }
-				60 = { add_core_of = ROOT }
-				54 = { add_core_of = ROOT }
-				52 = { add_core_of = ROOT }
-				53 = { add_core_of = ROOT }
-				61 = { add_core_of = ROOT }
-				64 = { add_core_of = ROOT }
-				65 = { add_core_of = ROOT }
-				62 = { add_core_of = ROOT }
-				68 = { add_core_of = ROOT }
-				66 = { add_core_of = ROOT }
-				67 = { add_core_of = ROOT }
-				63 = { add_core_of = ROOT }
-				5 = { add_core_of = ROOT }
-				989 = { add_core_of = ROOT }
-				922 = { add_core_of = ROOT }
-				923 = { add_core_of = ROOT }
-				998 = { add_core_of = ROOT }
-				if = {
+				every_controlled_state = {
 					limit = {
-						controls_state = 763
+						is_core_of = GER
 					}
-					763 = { add_core_of = ROOT }
+					add_core_of = ROOT
 				}
+			#	51 = { add_core_of = ROOT }
+			#	42 = { add_core_of = ROOT }
+			#	56 = { add_core_of = ROOT }
+			#	57 = { add_core_of = ROOT }
+			#	55 = { add_core_of = ROOT }
+			#	50 = { add_core_of = ROOT }
+			#	59 = { add_core_of = ROOT }
+			#	58 = { add_core_of = ROOT }
+			#	998 = { add_core_of = ROOT }
+			#	60 = { add_core_of = ROOT }
+			#	54 = { add_core_of = ROOT }
+			#	52 = { add_core_of = ROOT }
+			#	53 = { add_core_of = ROOT }
+			#	61 = { add_core_of = ROOT }
+			#	64 = { add_core_of = ROOT }
+			#	65 = { add_core_of = ROOT }
+			#	62 = { add_core_of = ROOT }
+			#	68 = { add_core_of = ROOT }
+			#	66 = { add_core_of = ROOT }
+			#	67 = { add_core_of = ROOT }
+			#	63 = { add_core_of = ROOT }
+			#	5 = { add_core_of = ROOT }
+			#	989 = { add_core_of = ROOT }
+			#	922 = { add_core_of = ROOT }
+			#	923 = { add_core_of = ROOT }
+			#	998 = { add_core_of = ROOT }
+			#	if = {
+			#		limit = {
+			#			controls_state = 763
+			#		}
+			#		763 = { add_core_of = ROOT }
+			#	}
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.62 hours = 6 }
@@ -2508,14 +2541,35 @@ form_european_union_category = {
 				original_tag = ITA
 				original_tag = GER
 				original_tag = WGR
+				original_tag = DDR
 				original_tag = ENG
+				original_tag = CZE
+				original_tag = HUN
+				original_tag = YUG
+				original_tag = SLV
+				original_tag = BAY
+				original_tag = FLA
+				original_tag = WLL
+				original_tag = IRE
+				original_tag = SCO
+				original_tag = WLS
+				original_tag = OCC
+				original_tag = AUS
+				original_tag = COR
+				original_tag = BRI
+				original_tag = NAP
+				original_tag = SAD
+				original_tag = VNZ
 			}
 			has_dlc = "Waking the Tiger"
 		}
 
 		available = {
 			is_subject = no
-			has_cosmetic_tag = EUR_UNIFIED
+			OR = {
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
+			}
 			# Spain
 			custom_trigger_tooltip = {
 				tooltip = form_country_spain_required_states_tt
@@ -2544,19 +2598,53 @@ form_european_union_category = {
 		}
 
 		visible = {
-			OR = {
-				original_tag = HOL
-				original_tag = BEL
-				original_tag = LUX
-				original_tag = FRA
-				original_tag = ITA
-				original_tag = GER
+			OR = { 
+				AND = {
+					OR = {
+						original_tag = HOL
+						original_tag = BEL
+						original_tag = LUX
+						original_tag = FRA
+						original_tag = ITA
+						original_tag = GER
+						original_tag = WGR
+						original_tag = DDR
+						original_tag = CZE
+						original_tag = HUN
+						original_tag = YUG
+						original_tag = SLV
+						original_tag = BAY
+						original_tag = FLA
+						original_tag = WLL
+						original_tag = IRE
+						original_tag = SCO
+						original_tag = WLS
+						original_tag = OCC
+						original_tag = AUS
+						original_tag = COR
+						original_tag = BRI
+						original_tag = NAP
+						original_tag = SAD
+						original_tag = VNZ						
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+				}
+				AND = {
+					original_tag = ENG
+					has_country_leader = {
+						character = ENG_oswald_mosley
+						ruling_only = yes
+					}
+					has_completed_focus = ENG_imperial_federation
+				}
 			}
 			OR = {
-				has_government = democratic
-				has_government = communism
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
 			}
-			has_cosmetic_tag = EUR_UNIFIED
 			is_major = yes
 		}
 		fire_only_once = yes
@@ -2568,28 +2656,34 @@ form_european_union_category = {
 			# Spain
 			custom_effect_tooltip = form_eu_spain_coring_states_tt
 			hidden_effect = {
-				177 = { add_core_of = ROOT }
-				168 = { add_core_of = ROOT }
-				173 = { add_core_of = ROOT }
-				169 = { add_core_of = ROOT }
-				175 = { add_core_of = ROOT }
-				167 = { add_core_of = ROOT }
-				165 = { add_core_of = ROOT }
-				170 = { add_core_of = ROOT }
-				41 = { add_core_of = ROOT }
-				166 = { add_core_of = ROOT }
-				171 = { add_core_of = ROOT }
-				174 = { add_core_of = ROOT }
-				176 = { add_core_of = ROOT }
-				172 = { add_core_of = ROOT }
-				178 = { add_core_of = ROOT }
-				790 = { add_core_of = ROOT } #asturia 
-				791 = { add_core_of = ROOT } #valladolid
-				792 = { add_core_of = ROOT } #pais vasco
-				794 = { add_core_of = ROOT } #eastern aragon
-				793 = { add_core_of = ROOT } #guadalajara
-				788 = { add_core_of = ROOT } #salamanca
-				789 = { add_core_of = ROOT } #cordoba
+				every_controlled_state = {
+					limit = {
+						is_core_of = SPA
+					}
+					add_core_of = ROOT
+				}
+			#	177 = { add_core_of = ROOT }
+			#	168 = { add_core_of = ROOT }
+			#	173 = { add_core_of = ROOT }
+			#	169 = { add_core_of = ROOT }
+			#	175 = { add_core_of = ROOT }
+			#	167 = { add_core_of = ROOT }
+			#	165 = { add_core_of = ROOT }
+			#	170 = { add_core_of = ROOT }
+			#	41 = { add_core_of = ROOT }
+			#	166 = { add_core_of = ROOT }
+			#	171 = { add_core_of = ROOT }
+			#	174 = { add_core_of = ROOT }
+			#	176 = { add_core_of = ROOT }
+			#	172 = { add_core_of = ROOT }
+			#	178 = { add_core_of = ROOT }
+			#	790 = { add_core_of = ROOT } #asturia 
+			#	791 = { add_core_of = ROOT } #valladolid
+			#	792 = { add_core_of = ROOT } #pais vasco
+			#	794 = { add_core_of = ROOT } #eastern aragon
+			#	793 = { add_core_of = ROOT } #guadalajara
+			#	788 = { add_core_of = ROOT } #salamanca
+			#	789 = { add_core_of = ROOT } #cordoba
 				if = {
 					limit = {
 						controls_state = 118 #membership for gibraltar too is controlled
@@ -2621,7 +2715,25 @@ form_european_union_category = {
 				original_tag = ITA
 				original_tag = GER
 				original_tag = WGR
+				original_tag = DDR
 				original_tag = ENG
+				original_tag = CZE
+				original_tag = HUN
+				original_tag = YUG
+				original_tag = SLV
+				original_tag = BAY
+				original_tag = FLA
+				original_tag = WLL
+				original_tag = IRE
+				original_tag = SCO
+				original_tag = WLS
+				original_tag = OCC
+				original_tag = AUS
+				original_tag = COR
+				original_tag = BRI
+				original_tag = NAP
+				original_tag = SAD
+				original_tag = VNZ
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -2632,7 +2744,10 @@ form_european_union_category = {
 
 		available = {
 			is_subject = no
-			has_cosmetic_tag = EUR_UNIFIED
+			OR = {
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
+			}
 			# portugal
 			custom_trigger_tooltip = {
 				tooltip = form_country_portugal_required_states_tt
@@ -2647,19 +2762,53 @@ form_european_union_category = {
 		}
 
 		visible = {
-			OR = {
-				original_tag = HOL
-				original_tag = BEL
-				original_tag = LUX
-				original_tag = FRA
-				original_tag = ITA
-				original_tag = GER
+			OR = { 
+				AND = {
+					OR = {
+						original_tag = HOL
+						original_tag = BEL
+						original_tag = LUX
+						original_tag = FRA
+						original_tag = ITA
+						original_tag = GER
+						original_tag = WGR
+						original_tag = DDR
+						original_tag = CZE
+						original_tag = HUN
+						original_tag = YUG
+						original_tag = SLV
+						original_tag = BAY
+						original_tag = FLA
+						original_tag = WLL
+						original_tag = IRE
+						original_tag = SCO
+						original_tag = WLS
+						original_tag = OCC
+						original_tag = AUS
+						original_tag = COR
+						original_tag = BRI
+						original_tag = NAP
+						original_tag = SAD
+						original_tag = VNZ						
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+				}
+				AND = {
+					original_tag = ENG
+					has_country_leader = {
+						character = ENG_oswald_mosley
+						ruling_only = yes
+					}
+					has_completed_focus = ENG_imperial_federation
+				}
 			}
 			OR = {
-				has_government = democratic
-				has_government = communism
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
 			}
-			has_cosmetic_tag = EUR_UNIFIED
 			is_major = yes
 		}
 
@@ -2667,13 +2816,19 @@ form_european_union_category = {
 			# portugal
 			custom_effect_tooltip = form_eu_portugal_coring_states_tt
 			hidden_effect = {
-				697 = { add_core_of = ROOT }
-				698 = { add_core_of = ROOT }
-				180 = { add_core_of = ROOT }
-				181 = { add_core_of = ROOT }
-				112 = { add_core_of = ROOT }
-				179 = { add_core_of = ROOT }
-				795 = { add_core_of = ROOT } #Santarem
+				every_controlled_state = {
+					limit = {
+						is_core_of = POR
+					}
+					add_core_of = ROOT
+				}
+			#	697 = { add_core_of = ROOT }
+			#	698 = { add_core_of = ROOT }
+			#	180 = { add_core_of = ROOT }
+			#	181 = { add_core_of = ROOT }
+			#	112 = { add_core_of = ROOT }
+			#	179 = { add_core_of = ROOT }
+			#	795 = { add_core_of = ROOT } #Santarem
 			}
 		}
 
@@ -2698,7 +2853,25 @@ form_european_union_category = {
 				original_tag = ITA
 				original_tag = GER
 				original_tag = WGR
+				original_tag = DDR
 				original_tag = ENG
+				original_tag = CZE
+				original_tag = HUN
+				original_tag = YUG
+				original_tag = SLV
+				original_tag = BAY
+				original_tag = FLA
+				original_tag = WLL
+				original_tag = IRE
+				original_tag = SCO
+				original_tag = WLS
+				original_tag = OCC
+				original_tag = AUS
+				original_tag = COR
+				original_tag = BRI
+				original_tag = NAP
+				original_tag = SAD
+				original_tag = VNZ
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -2709,7 +2882,10 @@ form_european_union_category = {
 
 		available = {
 			is_subject = no
-			has_cosmetic_tag = EUR_UNIFIED
+			OR = {
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
+			}
 			# Denmark / European Mainland
 			custom_trigger_tooltip = {
 				tooltip = form_scandinavia_denmark_required_states_tt
@@ -2720,19 +2896,53 @@ form_european_union_category = {
 		}
 
 		visible = {
-			OR = {
-				original_tag = HOL
-				original_tag = BEL
-				original_tag = LUX
-				original_tag = FRA
-				original_tag = ITA
-				original_tag = GER
+			OR = { 
+				AND = {
+					OR = {
+						original_tag = HOL
+						original_tag = BEL
+						original_tag = LUX
+						original_tag = FRA
+						original_tag = ITA
+						original_tag = GER
+						original_tag = WGR
+						original_tag = DDR
+						original_tag = CZE
+						original_tag = HUN
+						original_tag = YUG
+						original_tag = SLV
+						original_tag = BAY
+						original_tag = FLA
+						original_tag = WLL
+						original_tag = IRE
+						original_tag = SCO
+						original_tag = WLS
+						original_tag = OCC
+						original_tag = AUS
+						original_tag = COR
+						original_tag = BRI
+						original_tag = NAP
+						original_tag = SAD
+						original_tag = VNZ						
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+				}
+				AND = {
+					original_tag = ENG
+					has_country_leader = {
+						character = ENG_oswald_mosley
+						ruling_only = yes
+					}
+					has_completed_focus = ENG_imperial_federation
+				}
 			}
 			OR = {
-				has_government = democratic
-				has_government = communism
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
 			}
-			has_cosmetic_tag = EUR_UNIFIED
 			is_major = yes
 		}
 
@@ -2740,9 +2950,15 @@ form_european_union_category = {
 			# denmark
 			custom_effect_tooltip = form_scandinavia_denmark_coring_states_tt
 			hidden_effect = {
-				37 = { add_core_of = ROOT }
-				99 = { add_core_of = ROOT }
-				964 = { add_core_of = ROOT }
+				every_controlled_state = {
+					limit = {
+						is_core_of = DEN
+					}
+					add_core_of = ROOT
+				}
+			#	37 = { add_core_of = ROOT }
+			#	99 = { add_core_of = ROOT }
+			#	964 = { add_core_of = ROOT }
 			}
 		}
 
@@ -2767,7 +2983,25 @@ form_european_union_category = {
 				original_tag = ITA
 				original_tag = GER
 				original_tag = WGR
+				original_tag = DDR
 				original_tag = ENG
+				original_tag = CZE
+				original_tag = HUN
+				original_tag = YUG
+				original_tag = SLV
+				original_tag = BAY
+				original_tag = FLA
+				original_tag = WLL
+				original_tag = IRE
+				original_tag = SCO
+				original_tag = WLS
+				original_tag = OCC
+				original_tag = AUS
+				original_tag = COR
+				original_tag = BRI
+				original_tag = NAP
+				original_tag = SAD
+				original_tag = VNZ
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -2778,7 +3012,10 @@ form_european_union_category = {
 
 		available = {
 			is_subject = no
-			has_cosmetic_tag = EUR_UNIFIED
+			OR = {
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
+			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = form_country_sweden_required_states_tt
@@ -2795,19 +3032,53 @@ form_european_union_category = {
 		}
 
 		visible = {
-			OR = {
-				original_tag = HOL
-				original_tag = BEL
-				original_tag = LUX
-				original_tag = FRA
-				original_tag = ITA
-				original_tag = GER
+			OR = { 
+				AND = {
+					OR = {
+						original_tag = HOL
+						original_tag = BEL
+						original_tag = LUX
+						original_tag = FRA
+						original_tag = ITA
+						original_tag = GER
+						original_tag = WGR
+						original_tag = DDR
+						original_tag = CZE
+						original_tag = HUN
+						original_tag = YUG
+						original_tag = SLV
+						original_tag = BAY
+						original_tag = FLA
+						original_tag = WLL
+						original_tag = IRE
+						original_tag = SCO
+						original_tag = WLS
+						original_tag = OCC
+						original_tag = AUS
+						original_tag = COR
+						original_tag = BRI
+						original_tag = NAP
+						original_tag = SAD
+						original_tag = VNZ						
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+				}
+				AND = {
+					original_tag = ENG
+					has_country_leader = {
+						character = ENG_oswald_mosley
+						ruling_only = yes
+					}
+					has_completed_focus = ENG_imperial_federation
+				}
 			}
 			OR = {
-				has_government = democratic
-				has_government = communism
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
 			}
-			has_cosmetic_tag = EUR_UNIFIED
 			is_major = yes
 		}
 
@@ -2815,15 +3086,21 @@ form_european_union_category = {
 			# sweden
 			custom_effect_tooltip = form_country_sweden_coring_states_tt
 			hidden_effect = {
-				124 = { add_core_of = ROOT }
-				138 = { add_core_of = ROOT }
-				139 = { add_core_of = ROOT }
-				140 = { add_core_of = ROOT }
-				141 = { add_core_of = ROOT }
-				38 = { add_core_of = ROOT }
-				666 = { add_core_of = ROOT }
-				968 = { add_core_of = ROOT }
-				969 = { add_core_of = ROOT }
+				every_controlled_state = {
+					limit = {
+						is_core_of = SWE
+					}
+					add_core_of = ROOT
+				}
+			#	124 = { add_core_of = ROOT }
+			#	138 = { add_core_of = ROOT }
+			#	139 = { add_core_of = ROOT }
+			#	140 = { add_core_of = ROOT }
+			#	141 = { add_core_of = ROOT }
+			#	38 = { add_core_of = ROOT }
+			#	666 = { add_core_of = ROOT }
+			#	968 = { add_core_of = ROOT }
+			#	969 = { add_core_of = ROOT }
 			}
 		}
 
@@ -2848,7 +3125,25 @@ form_european_union_category = {
 				original_tag = ITA
 				original_tag = GER
 				original_tag = WGR
+				original_tag = DDR
 				original_tag = ENG
+				original_tag = CZE
+				original_tag = HUN
+				original_tag = YUG
+				original_tag = SLV
+				original_tag = BAY
+				original_tag = FLA
+				original_tag = WLL
+				original_tag = IRE
+				original_tag = SCO
+				original_tag = WLS
+				original_tag = OCC
+				original_tag = AUS
+				original_tag = COR
+				original_tag = BRI
+				original_tag = NAP
+				original_tag = SAD
+				original_tag = VNZ
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -2860,7 +3155,10 @@ form_european_union_category = {
 
 		available = {
 			is_subject = no
-			has_cosmetic_tag = EUR_UNIFIED
+			OR = {
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
+			}
 			# norway
 			custom_trigger_tooltip = {
 				tooltip = form_country_norway_required_states_tt
@@ -2873,19 +3171,53 @@ form_european_union_category = {
 		}
 
 		visible = {
-			OR = {
-				original_tag = HOL
-				original_tag = BEL
-				original_tag = LUX
-				original_tag = FRA
-				original_tag = ITA
-				original_tag = GER
+			OR = { 
+				AND = {
+					OR = {
+						original_tag = HOL
+						original_tag = BEL
+						original_tag = LUX
+						original_tag = FRA
+						original_tag = ITA
+						original_tag = GER
+						original_tag = WGR
+						original_tag = DDR
+						original_tag = CZE
+						original_tag = HUN
+						original_tag = YUG
+						original_tag = SLV
+						original_tag = BAY
+						original_tag = FLA
+						original_tag = WLL
+						original_tag = IRE
+						original_tag = SCO
+						original_tag = WLS
+						original_tag = OCC
+						original_tag = AUS
+						original_tag = COR
+						original_tag = BRI
+						original_tag = NAP
+						original_tag = SAD
+						original_tag = VNZ						
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+				}
+				AND = {
+					original_tag = ENG
+					has_country_leader = {
+						character = ENG_oswald_mosley
+						ruling_only = yes
+					}
+					has_completed_focus = ENG_imperial_federation
+				}
 			}
 			OR = {
-				has_government = democratic
-				has_government = communism
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
 			}
-			has_cosmetic_tag = EUR_UNIFIED
 			is_major = yes
 		}
 
@@ -2893,11 +3225,17 @@ form_european_union_category = {
 			# norway
 			custom_effect_tooltip = form_country_norway_coring_states_tt
 			hidden_effect = {
-				110 = { add_core_of = ROOT }
-				142 = { add_core_of = ROOT }
-				143 = { add_core_of = ROOT }
-				144 = { add_core_of = ROOT }
-				967 = { add_core_of = ROOT }
+				every_controlled_state = {
+					limit = {
+						is_core_of = NOR
+					}
+					add_core_of = ROOT
+				}
+			#	110 = { add_core_of = ROOT }
+			#	142 = { add_core_of = ROOT }
+			#	143 = { add_core_of = ROOT }
+			#	144 = { add_core_of = ROOT }
+			#	967 = { add_core_of = ROOT }
 			}
 		}
 
@@ -2922,7 +3260,24 @@ form_european_union_category = {
 				original_tag = ITA
 				original_tag = GER
 				original_tag = WGR
+				original_tag = DDR
 				original_tag = ENG
+				original_tag = CZE
+				original_tag = HUN
+				original_tag = YUG
+				original_tag = SLV
+				original_tag = BAY
+				original_tag = FLA
+				original_tag = WLL
+				original_tag = IRE
+				original_tag = SCO
+				original_tag = WLS
+				original_tag = OCC
+				original_tag = COR
+				original_tag = BRI
+				original_tag = NAP
+				original_tag = SAD
+				original_tag = VNZ
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -2934,7 +3289,10 @@ form_european_union_category = {
 
 		available = {
 			is_subject = no
-			has_cosmetic_tag = EUR_UNIFIED
+			OR = {
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
+			}
 			# AUS
 			custom_trigger_tooltip = {
 				tooltip = form_country_AUS_required_states_tt
@@ -2946,19 +3304,52 @@ form_european_union_category = {
 		}
 
 		visible = {
-			OR = {
-				original_tag = HOL
-				original_tag = BEL
-				original_tag = LUX
-				original_tag = FRA
-				original_tag = ITA
-				original_tag = GER
+			OR = { 
+				AND = {
+					OR = {
+						original_tag = HOL
+						original_tag = BEL
+						original_tag = LUX
+						original_tag = FRA
+						original_tag = ITA
+						original_tag = GER
+						original_tag = WGR
+						original_tag = DDR
+						original_tag = CZE
+						original_tag = HUN
+						original_tag = YUG
+						original_tag = SLV
+						original_tag = BAY
+						original_tag = FLA
+						original_tag = WLL
+						original_tag = IRE
+						original_tag = SCO
+						original_tag = WLS
+						original_tag = OCC
+						original_tag = COR
+						original_tag = BRI
+						original_tag = NAP
+						original_tag = SAD
+						original_tag = VNZ						
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+				}
+				AND = {
+					original_tag = ENG
+					has_country_leader = {
+						character = ENG_oswald_mosley
+						ruling_only = yes
+					}
+					has_completed_focus = ENG_imperial_federation
+				}
 			}
 			OR = {
-				has_government = democratic
-				has_government = communism
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
 			}
-			has_cosmetic_tag = EUR_UNIFIED
 			is_major = yes
 		}
 
@@ -2966,10 +3357,16 @@ form_european_union_category = {
 			# AUS
 			custom_effect_tooltip = form_country_AUS_coring_states_tt
 			hidden_effect = {
-				4 = { add_core_of = ROOT }
-				152 = { add_core_of = ROOT }
-				153 = { add_core_of = ROOT }
-				848 = { add_core_of = ROOT }
+				every_controlled_state = {
+					limit = {
+						is_core_of = AUS
+					}
+					add_core_of = ROOT
+				}
+			#	4 = { add_core_of = ROOT }
+			#	152 = { add_core_of = ROOT }
+			#	153 = { add_core_of = ROOT }
+			#	848 = { add_core_of = ROOT }
 			}
 		}
 
@@ -2994,7 +3391,24 @@ form_european_union_category = {
 				original_tag = ITA
 				original_tag = GER
 				original_tag = WGR
+				original_tag = DDR
 				original_tag = ENG
+				original_tag = HUN
+				original_tag = YUG
+				original_tag = SLV
+				original_tag = BAY
+				original_tag = FLA
+				original_tag = WLL
+				original_tag = IRE
+				original_tag = SCO
+				original_tag = WLS
+				original_tag = OCC
+				original_tag = AUS
+				original_tag = COR
+				original_tag = BRI
+				original_tag = NAP
+				original_tag = SAD
+				original_tag = VNZ
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -3006,7 +3420,10 @@ form_european_union_category = {
 
 		available = {
 			is_subject = no
-			has_cosmetic_tag = EUR_UNIFIED
+			OR = {
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
+			}
 			# CZE
 			custom_trigger_tooltip = {
 				tooltip = form_country_CZE_required_states_tt
@@ -3024,19 +3441,52 @@ form_european_union_category = {
 		}
 
 		visible = {
-			OR = {
-				original_tag = HOL
-				original_tag = BEL
-				original_tag = LUX
-				original_tag = FRA
-				original_tag = ITA
-				original_tag = GER
+			OR = { 
+				AND = {
+					OR = {
+						original_tag = HOL
+						original_tag = BEL
+						original_tag = LUX
+						original_tag = FRA
+						original_tag = ITA
+						original_tag = GER
+						original_tag = WGR
+						original_tag = DDR
+						original_tag = HUN
+						original_tag = YUG
+						original_tag = SLV
+						original_tag = BAY
+						original_tag = FLA
+						original_tag = WLL
+						original_tag = IRE
+						original_tag = SCO
+						original_tag = WLS
+						original_tag = OCC
+						original_tag = AUS
+						original_tag = COR
+						original_tag = BRI
+						original_tag = NAP
+						original_tag = SAD
+						original_tag = VNZ						
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+				}
+				AND = {
+					original_tag = ENG
+					has_country_leader = {
+						character = ENG_oswald_mosley
+						ruling_only = yes
+					}
+					has_completed_focus = ENG_imperial_federation
+				}
 			}
 			OR = {
-				has_government = democratic
-				has_government = communism
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
 			}
-			has_cosmetic_tag = EUR_UNIFIED
 			is_major = yes
 		}
 
@@ -3044,16 +3494,22 @@ form_european_union_category = {
 			# CZE
 			custom_effect_tooltip = form_country_CZE_coring_states_tt
 			hidden_effect = {
-				9 = { add_core_of = ROOT }
-				69 = { add_core_of = ROOT }
-				70 = { add_core_of = ROOT }
-				71 = { add_core_of = ROOT }
-				72 = { add_core_of = ROOT }
-				73 = { add_core_of = ROOT }
-				74 = { add_core_of = ROOT }
-				75 = { add_core_of = ROOT }
-				664 = { add_core_of = ROOT }
-				996 = { add_core_of = ROOT }
+				every_controlled_state = {
+					limit = {
+						is_core_of = CZE
+					}
+					add_core_of = ROOT
+				}
+			#	9 = { add_core_of = ROOT }
+			#	69 = { add_core_of = ROOT }
+			#	70 = { add_core_of = ROOT }
+			#	71 = { add_core_of = ROOT }
+			#	72 = { add_core_of = ROOT }
+			#	73 = { add_core_of = ROOT }
+			#	74 = { add_core_of = ROOT }
+			#	75 = { add_core_of = ROOT }
+			#	664 = { add_core_of = ROOT }
+			#	996 = { add_core_of = ROOT }
 			}
 		}
 
@@ -3078,7 +3534,24 @@ form_european_union_category = {
 				original_tag = ITA
 				original_tag = GER
 				original_tag = WGR
+				original_tag = DDR
 				original_tag = ENG
+				original_tag = CZE
+				original_tag = YUG
+				original_tag = SLV
+				original_tag = BAY
+				original_tag = FLA
+				original_tag = WLL
+				original_tag = IRE
+				original_tag = SCO
+				original_tag = WLS
+				original_tag = OCC
+				original_tag = AUS
+				original_tag = COR
+				original_tag = BRI
+				original_tag = NAP
+				original_tag = SAD
+				original_tag = VNZ
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -3090,7 +3563,10 @@ form_european_union_category = {
 	
 		available = {
 			is_subject = no
-			has_cosmetic_tag = EUR_UNIFIED
+			OR = {
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
+			}
 			# HUN
 			custom_trigger_tooltip = {
 				tooltip = form_country_HUN_required_states_tt
@@ -3102,19 +3578,52 @@ form_european_union_category = {
 		}
 	
 		visible = {
-			OR = {
-				original_tag = HOL
-				original_tag = BEL
-				original_tag = LUX
-				original_tag = FRA
-				original_tag = ITA
-				original_tag = GER
+			OR = { 
+				AND = {
+					OR = {
+						original_tag = HOL
+						original_tag = BEL
+						original_tag = LUX
+						original_tag = FRA
+						original_tag = ITA
+						original_tag = GER
+						original_tag = WGR
+						original_tag = DDR
+						original_tag = CZE
+						original_tag = YUG
+						original_tag = SLV
+						original_tag = BAY
+						original_tag = FLA
+						original_tag = WLL
+						original_tag = IRE
+						original_tag = SCO
+						original_tag = WLS
+						original_tag = OCC
+						original_tag = AUS
+						original_tag = COR
+						original_tag = BRI
+						original_tag = NAP
+						original_tag = SAD
+						original_tag = VNZ						
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+				}
+				AND = {
+					original_tag = ENG
+					has_country_leader = {
+						character = ENG_oswald_mosley
+						ruling_only = yes
+					}
+					has_completed_focus = ENG_imperial_federation
+				}
 			}
 			OR = {
-				has_government = democratic
-				has_government = communism
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = ENG_imperial_federation_unified
 			}
-			has_cosmetic_tag = EUR_UNIFIED
 			is_major = yes
 		}
 	
@@ -3122,10 +3631,16 @@ form_european_union_category = {
 			# HUN
 			custom_effect_tooltip = form_country_HUN_coring_states_tt
 			hidden_effect = {
-				43 = { add_core_of = ROOT }
-				154 = { add_core_of = ROOT }
-				155 = { add_core_of = ROOT }
-				913 = { add_core_of = ROOT }
+				every_controlled_state = {
+					limit = {
+						is_core_of = HUN
+					}
+					add_core_of = ROOT
+				}
+			#	43 = { add_core_of = ROOT }
+			#	154 = { add_core_of = ROOT }
+			#	155 = { add_core_of = ROOT }
+			#	913 = { add_core_of = ROOT }
 			}
 		}
 	
@@ -3158,7 +3673,7 @@ form_mutapa_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			controls_state = 541
 			controls_state = 681
 			controls_state = 719
@@ -5138,7 +5653,7 @@ form_persian_empire_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			# Iran
 			custom_trigger_tooltip = {
 				tooltip = form_country_iran_required_states_tt
@@ -6250,7 +6765,7 @@ form_arabia_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			# Spain: Northern Africa
 			controls_state = 290
 			# Iraq
@@ -6485,7 +7000,7 @@ form_majapahit_empire_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			# Dutch East Indies
 			custom_trigger_tooltip = {
 				tooltip = form_majapahit_nei_required_states_tt
@@ -6629,7 +7144,7 @@ form_rattanakosin_kingdom_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			# Siam	
 			custom_trigger_tooltip = {
 				tooltip = state_in_siam_tt
@@ -6963,7 +7478,7 @@ form_greater_german_reich_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = form_country_germany_required_states_tt
 				controls_state = 5
@@ -7666,7 +8181,7 @@ form_polynesia_category = {
 
 		available = {
 			OR = {
-#				is_subject = no
+			#	is_subject = no
 				has_autonomy_state = autonomy_dominion #New Zealand should be able to do it
 			}
 			# Polynesia
@@ -7749,10 +8264,10 @@ form_polynesia_category = {
 		}
 
 		available = {
-#			OR = {
-#				is_subject = no
+		#	OR = {
+		#		is_subject = no
 				has_autonomy_state = autonomy_dominion #New Zealand should be able to do it
-#			}
+		#	}
 			has_completed_focus = NZL_australian_nzl_agreement
 			hidden_trigger = {
 				NOT = { has_country_flag = is_demanding_flag }
@@ -7922,7 +8437,7 @@ form_greater_greece_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			if = { 
 				limit = {
 					has_government = democratic
@@ -8079,7 +8594,7 @@ form_greater_greece_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			AND = {
 				has_government = democratic
 				has_completed_focus = GRE_nenikikamen
@@ -8124,7 +8639,7 @@ form_greater_greece_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			if = { 
 				limit = {
 					has_government = democratic
@@ -8172,7 +8687,7 @@ form_greater_greece_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			if = { 
 				limit = {
 					has_government = democratic
@@ -8212,7 +8727,7 @@ form_greater_greece_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			if = { 
 				limit = {
 					has_government = democratic
@@ -8255,7 +8770,7 @@ form_greater_greece_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			if = { 
 				limit = {
 					has_government = democratic
@@ -9062,7 +9577,7 @@ form_turkestan_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = form_country_kazakhstan_required_states
 				controls_state = 402
@@ -9207,7 +9722,7 @@ form_mountainous_republic_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			controls_state = 232 # Dagestan
 			controls_state = 821 # Chechnya-Ingushetia
 			controls_state = 828 # North Ossetia
@@ -9286,7 +9801,7 @@ form_transcaucasus_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			controls_state = 826 # Abkhazia
 			controls_state = 231 # Georgia
 			controls_state = 230 # Armenia
@@ -9354,7 +9869,7 @@ form_transcaucasus_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			controls_state = 419 # Tabriz
 			controls_state = 420 # Gilan
 		}
@@ -9411,7 +9926,7 @@ form_transcaucasus_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			controls_state = 232 # Dagestan
 			controls_state = 821 # Chechnya-Ingushetia
 			controls_state = 828 # North Ossetia
@@ -9479,7 +9994,7 @@ form_transcaucasus_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			controls_state = 234
 			controls_state = 235
 			controls_state = 236
@@ -9548,7 +10063,7 @@ form_transcaucasus_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			controls_state = 354 # Trabzon
 			controls_state = 800 # Van
 		}
@@ -9959,7 +10474,7 @@ form_siberia_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			controls_state = 564 # Buryatia
 #			controls_state = 563 # Chita
 			controls_state = 574 # Yakutsk
@@ -10114,7 +10629,7 @@ form_siberia_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			controls_state = 822 # Chukotka
 			controls_state = 637 # Kamchatka
 			controls_state = 562 # Okhotsk
@@ -10214,7 +10729,7 @@ form_siberia_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			controls_state = 653 # Sverdlovsk
 			controls_state = 572 # Chelyabinsk
 #			controls_state = 582 # Magnitogorsk
@@ -10300,7 +10815,7 @@ form_siberia_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			controls_state = 537 # South Sakhalin
 			controls_state = 555 # Kuril Islands
 			controls_state = 536 # Hokkaido
@@ -10374,7 +10889,7 @@ form_idel_ural_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			controls_state = 833 # Mari El
 			controls_state = 256 # Chuvashia
 			controls_state = 249 # Kazan

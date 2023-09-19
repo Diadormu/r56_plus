@@ -11,7 +11,7 @@ unite_the_levant_category = {
         }
         fire_only_once = yes
         available = {
-#           is_subject = no
+        #   is_subject = no
             custom_trigger_tooltip = {
                 tooltip = form_country_gs_syria_required_states_tt
                 controls_state = 680
@@ -98,7 +98,7 @@ unify_the_peninsula_category = {
         }
         fire_only_once = yes
         available = {
-#           is_subject = no
+        #   is_subject = no
             custom_trigger_tooltip = {
                 tooltip = form_country_joseon_south_korea_required_states_tt
                 controls_state = 525
@@ -290,7 +290,7 @@ recreate_belgium_category = {
                 limit = { original_tag = FLA }
                 NOT = { has_government = fascism }
             }
-#           is_subject = no
+        #   is_subject = no
             6 = { is_controlled_by = ROOT }
             34 = { is_controlled_by = ROOT }
         }
@@ -450,7 +450,7 @@ form_united_netherlands_category2 = {
             NOT = { has_global_flag = form_united_netherlands_flag }
         }
         available = {
-#           is_subject = no
+        #   is_subject = no
             OR = {
                 has_country_flag = Chose_Verdinaso
                 has_completed_focus = BEL_go_left
@@ -514,7 +514,7 @@ form_united_netherlands_category2 = {
         }
 
         available = {
-#           is_subject = no
+        #   is_subject = no
             OR = {
                 has_government = fascism
                 has_government = communism
@@ -625,7 +625,7 @@ ENG_restore_the_UK = {
 
         visible = { original_tag = ENG }
         available = { #Scotland & Wales
-#           is_subject = no
+        #   is_subject = no
             any_state = {
                 OR = {
                     is_core_of = SCO
@@ -684,7 +684,7 @@ celtic_unification_category = {
             }
         }
         available = {
-#           is_subject = no
+        #   is_subject = no
             #IRE
             controls_state = 113
             controls_state = 119
@@ -771,7 +771,7 @@ celtic_unification_category = {
         cost = 50
 
         available = {
-#           is_subject = no
+        #   is_subject = no
             # Galicia
             controls_state = 171
             171 = { compliance > 40 }
@@ -1566,7 +1566,7 @@ form_nation_mod_category = {
         }
         fire_only_once = yes
         available = {
-#           is_subject = no
+        #   is_subject = no
             42 = { is_controlled_by = ROOT }
             50 = { is_controlled_by = ROOT }
             51 = { is_controlled_by = ROOT }
@@ -1642,7 +1642,7 @@ form_nation_mod_category = {
         visible = { has_country_flag = reunited_germany }
         fire_only_once = yes
         available = {
-#           is_subject = no
+        #   is_subject = no
             63 = { is_controlled_by = ROOT }
             66 = { is_controlled_by = ROOT }
             67 = { is_controlled_by = ROOT }
@@ -1741,7 +1741,7 @@ form_nation_mod_category = {
         allowed = { original_tag = TAT }
 
         available = {
-#           is_subject = no
+        #   is_subject = no
             controls_state = 652
             controls_state = 251
             controls_state = 651
@@ -1774,7 +1774,7 @@ form_nation_mod_category = {
         allowed = { original_tag = SAD }
 
         available = {
-#           is_subject = no
+        #   is_subject = no
             controls_state = 114
             controls_state = 158
         }
@@ -1816,7 +1816,7 @@ form_nation_mod_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			NOT = {
 				has_idea = generic_recent_political_unification
 				has_idea = generic_recent_army_unification
@@ -1969,7 +1969,7 @@ form_nation_mod_category = {
         allowed = { original_tag = SRL }
 
         available = {
-#           is_subject = no
+        #   is_subject = no
             422 = {
                 is_fully_controlled_by = ROOT
             }
@@ -2495,7 +2495,7 @@ reform_the_mamluks_category = {
         }
 
         available = {
-#           is_subject = no
+        #   is_subject = no
             NOT = { has_cosmetic_tag = ARA_UNIFIED }
             custom_trigger_tooltip = {
                 tooltip = form_country_mamluks_required_states_egyptian_tt
@@ -2607,7 +2607,7 @@ EYE_form_alamannia_category = {
 		}
 
 		available = {
-#			is_subject = no
+		#	is_subject = no
 			controls_state = 153
 			controls_state = 28
 			controls_state = 42
