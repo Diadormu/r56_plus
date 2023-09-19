@@ -9769,6 +9769,7 @@ political_actions = {
 			}
 			NOT = { country_exists = USA }
 			NOT = { has_country_flag = created_north_american }
+			NOT = { has_global_flag = form_north_american_flag }
 			has_completed_focus = ENG_unite_the_anglosphere
 		}
 
@@ -9844,6 +9845,7 @@ political_actions = {
 				is_subject_of = ROOT
 			}
 			NOT = { has_country_flag = created_north_american }
+			NOT = { has_global_flag = form_north_american_flag }
 			has_completed_focus = ENG_unite_the_anglosphere
 		}
 
@@ -9874,12 +9876,6 @@ political_actions = {
 						event_target:MTG_loyalist_canada = { transfer_state = PREV }
 						add_core_of = PREV
 					}
-					every_state = {
-						limit = {
-							is_controlled_by = USA
-						}
-						event_target:MTG_loyalist_canada = { transfer_state = PREV }
-					}
 				}
 				if = {
 					limit = {
@@ -9889,35 +9885,91 @@ political_actions = {
 					transfer_state = 332
 					transfer_state = 331
 				}
-#				if = {
-#					limit = {
-#						has_country_flag = created_american_monarchy
-#					}
-#					set_capital = { state = 361 }
-#					CAN = {
-#						hidden_effect = {
-#							set_cosmetic_tag = CAN_north_america_wallis_simpson
-#						}
-#						add_popularity = {
-#							ideology = neutrality
-#							popularity = 0.5
-#						}
-#						set_politics = { ruling_party = neutrality elections_allowed = no }
-#						create_country_leader = {
-#							name = "华里丝一世"
-#							desc = "POLITICS_WALLIS_I_DESC"
-#							picture = GFX_portrait_eng_wallis_simpson
-#							expire = "1965.1.1"
-#							ideology = despotism
-#							female = yes
-#							traits = {
-#								unpopular_monarch socialite_connections wallis_fancy_title
-#							}
-#						}
-#					}
-#				}
 			}
 			hidden_effect = { news_event = { id = mtg_news.57 hours = 6 } }
+		}
+	}
+
+	ENG_expand_pan_north_american_state = {
+
+		icon = eng_install_government
+		
+		available = {
+			any_subject_country = {
+				original_tag = CAN
+				OVERLORD = { original_tag = ENG }
+			}
+			OR = {
+				any_subject_country = {
+					original_tag = MEX
+					OVERLORD = { original_tag = ENG }
+				}
+				any_of = {
+					array = MEX.core_states
+					var:v = {
+						OR = {
+							is_owned_and_controlled_by = ENG
+							is_owned_and_controlled_by = CAN
+						}
+					}
+				}
+			}
+			has_country_flag = created_north_american
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			any_allied_country = {
+				original_tag = CAN
+				is_subject_of = ROOT
+			}
+			OR = {
+				any_allied_country = {
+					original_tag = MEX
+					is_subject_of = ROOT
+				}
+				any_state = {
+					is_core_of = MEX
+					OR = {
+						is_controlled_by = ENG
+						is_controlled_by = CAN
+					}
+				}
+			}
+			has_country_flag = created_north_american
+			NOT = { has_country_flag = expanded_north_american }
+			NOT = { has_global_flag = form_north_american_flag }
+			has_completed_focus = ENG_unite_the_anglosphere
+		}
+
+		complete_effect = {
+			set_country_flag = expanded_north_american
+			set_global_flag = form_north_american_flag
+			random_country = {
+				limit = {
+					original_tag = CAN
+					OVERLORD = { original_tag = ENG }
+				}
+				hidden_effect = {
+					save_event_target_as = MTG_loyalist_canada
+				}
+			}
+			custom_effect_tooltip = ENG_expand_pan_north_american_state_tt
+			event_target:MTG_loyalist_canada = {
+				hidden_effect = {
+					every_state = {
+						limit = {
+							is_core_of = MEX
+						}
+						event_target:MTG_loyalist_canada = { transfer_state = PREV }
+						add_core_of = PREV
+					}
+					add_ideas = generic_recent_political_unification
+					add_ideas = generic_recent_army_unification
+					add_ideas = generic_recent_economic_unification
+				}
+			}
 		}
 	}
 

@@ -409,22 +409,25 @@ form_greater_china_category = {
 			controls_state = 729 #澳门
 			controls_state = 743 #青岛
 			controls_state = 745 #大连
-			controls_state = 434 #阿鲁纳恰尔
-			controls_state = 329 #唐努图瓦
-			#蒙古
-			controls_state = 330
-			controls_state = 817
-			controls_state = 818
-			controls_state = 819
-			controls_state = 820
+			controls_state = 434 #藏南
+			controls_state = 329 #唐努乌梁
+			#外蒙古
+			custom_trigger_tooltip = {
+				tooltip = controls_MON
+				controls_state = 330
+				controls_state = 817
+				controls_state = 818
+				controls_state = 819
+				controls_state = 820
+			}
 			#外东北
 			controls_state = 408
 			controls_state = 409
 			controls_state = 560
 			controls_state = 561
-			controls_state = 563
 			controls_state = 657
-			#萨哈林
+#			controls_state = 563 #赤塔
+			#库页岛
 			controls_state = 537
 			controls_state = 655
 		}
@@ -443,16 +446,38 @@ form_greater_china_category = {
 			409 = { add_core_of = ROOT }
 			560 = { add_core_of = ROOT }
 			561 = { add_core_of = ROOT }
-			563 = { add_core_of = ROOT }
 			657 = { add_core_of = ROOT }
-			#海参崴
+			if = {
+				limit = {
+					controls_state = 563
+				}
+				563 = { add_core_of = ROOT } #赤塔
+			}
+			#库页岛
 			537 = { add_core_of = ROOT }
 			655 = { add_core_of = ROOT }
+			#克什米尔
+			if = {
+				limit = {
+					controls_state = 441
+					controls_state = 787
+				}
+				441 = { add_core_of = ROOT }
+				787 = { add_core_of = ROOT }
+			}
 
 			434 = { set_state_name = "藏南" }
 			329 = { set_state_name = "唐努乌梁" }
-			537 = { set_state_name = "南海参崴" }
-			655 = { set_state_name = "北海参崴" }
+			408 = { set_state_name = "海参崴" }
+			set_province_name = { id = 957 name = "海参崴" }
+			set_province_name = { id = 11750 name = "双城子" }
+			409 = { set_state_name = "伯力" }
+			set_province_name = { id = 12189 name = "伯力" }
+			560 = { set_state_name = "庙街" }
+			set_province_name = { id = 12559 name = "庙街" }
+			set_province_name = { id = 7763 name = "海兰泡" }
+			537 = { set_state_name = "南库页" }
+			655 = { set_state_name = "北库页" }
 		}
 	}
 }
