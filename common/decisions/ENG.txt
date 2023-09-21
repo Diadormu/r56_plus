@@ -9876,6 +9876,7 @@ political_actions = {
 						event_target:MTG_loyalist_canada = { transfer_state = PREV }
 						add_core_of = PREV
 					}
+					ENG = { annex_country = { target = USA } }
 				}
 				if = {
 					limit = {
@@ -9965,6 +9966,7 @@ political_actions = {
 						event_target:MTG_loyalist_canada = { transfer_state = PREV }
 						add_core_of = PREV
 					}
+					ENG = { annex_country = { target = MEX } }
 					add_ideas = generic_recent_political_unification
 					add_ideas = generic_recent_army_unification
 					add_ideas = generic_recent_economic_unification

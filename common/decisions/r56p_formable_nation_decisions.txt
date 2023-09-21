@@ -426,7 +426,7 @@ form_greater_china_category = {
 			controls_state = 560
 			controls_state = 561
 			controls_state = 657
-#			controls_state = 563 #赤塔
+		#	controls_state = 563 #赤塔
 			#库页岛
 			controls_state = 537
 			controls_state = 655

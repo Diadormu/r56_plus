@@ -175,8 +175,8 @@ form_nordic_league_category = {
 		allowed = {
 			OR = {
 				original_tag = NOR
-				#original_tag = DEN
-				#original_tag = SWE
+				original_tag = DEN
+				original_tag = SWE
 				original_tag = FIN
 				original_tag = ICE
 				original_tag = SAM
@@ -277,8 +277,8 @@ form_nordic_league_category = {
 		visible = {
 			OR = {
 				original_tag = NOR
-				#original_tag = DEN
-				#original_tag = SWE
+				original_tag = DEN
+				original_tag = SWE
 				original_tag = FIN
 				original_tag = ICE
 				original_tag = SAM
@@ -383,6 +383,75 @@ form_nordic_league_category = {
 
 		ai_will_do = {
 			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	nordic_league_KAR_membership = {
+	
+		icon = generic_form_nation
+	
+		allowed = {
+			OR = {
+				original_tag = NOR
+				original_tag = DEN
+				original_tag = SWE
+				original_tag = FIN
+				original_tag = ICE
+				original_tag = SAM
+			}
+			has_dlc = "Waking the Tiger"
+		}
+	
+		fire_only_once = yes
+		cost = 50
+	
+		days_remove = 90
+	
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_KAR_required_states_tt
+				controls_state = 146
+				controls_state = 147
+				controls_state = 213
+				controls_state = 215
+				controls_state = 216
+				controls_state = 722
+			}
+		}
+	
+		visible = {
+			OR = {
+				original_tag = NOR
+				original_tag = DEN
+				original_tag = SWE
+				original_tag = FIN
+				original_tag = ICE
+				original_tag = SAM
+				AND = {
+					original_tag = EST
+					has_completed_focus = EST_form_scandinavia
+				}
+			}
+			has_global_flag = form_nordic_league_flag
+		}
+	
+		remove_effect = {
+			custom_effect_tooltip = form_country_KAR_coring_states_tt
+			hidden_effect = {
+				146 = { add_core_of = ROOT }
+				147 = { add_core_of = ROOT }
+				213 = { add_core_of = ROOT }
+				215 = { add_core_of = ROOT }
+				216 = { add_core_of = ROOT }
+				722 = { add_core_of = ROOT }
+			}
+		}
+	
+		ai_will_do = {
+			factor = 10
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -7113,6 +7182,10 @@ form_majapahit_empire_category = {
 					add_core_of = ROOT
 				}
 			}
+			721 = { add_core_of = ROOT }
+			523 = { add_core_of = ROOT }
+			669 = { add_core_of = ROOT }
+			737 = { add_core_of = ROOT }
 			hidden_effect = {
 				news_event = { id = wtt_news.68 hours = 6 }
 				set_global_flag = form_majapahit_empire_flag
@@ -8215,7 +8288,7 @@ form_polynesia_category = {
 			custom_effect_tooltip = form_country_polynesia_coring_states_tt
 			hidden_effect = {
 				284 = { add_core_of = ROOT }
-				524 = { add_core_of = ROOT } #Taiwan
+			#	524 = { add_core_of = ROOT } #Taiwan
 				629 = { add_core_of = ROOT }
 				630 = { add_core_of = ROOT }
 				631 = { add_core_of = ROOT }
