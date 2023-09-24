@@ -9,6 +9,7 @@ form_north_american_category = {
 				original_tag = MEX
 			}
 		}
+		fire_only_once = yes
 		visible = {
 			OR = {
 				original_tag = CAN
@@ -258,6 +259,7 @@ form_greater_china_category = {
 				original_tag = MAN
 			}
 		}
+		fire_only_once = yes
 		visible = {
 			OR = {
 				original_tag = CHI
@@ -478,6 +480,374 @@ form_greater_china_category = {
 			set_province_name = { id = 7763 name = "海兰泡" }
 			537 = { set_state_name = "南库页" }
 			655 = { set_state_name = "北库页" }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+back_tsarist_russia_category = {
+	claim_FIN = {
+		icon = generic_form_nation
+		allowed = { original_tag = SOV }
+		visible = {
+			original_tag = SOV
+			OR = {
+				has_completed_focus = SOV_secure_leningrad
+				has_completed_focus = SOV_secure_finland
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_FIN_required_states_tt
+				controls_state = 111
+				controls_state = 145
+				controls_state = 146
+				controls_state = 147
+				controls_state = 148
+				controls_state = 149
+				controls_state = 150
+				controls_state = 722
+			}
+			core_compliance = {
+				occupied_country_tag = FIN
+				value > 40
+			}
+		}
+		fire_only_once = yes
+		cost = 60
+		days_remove = 180
+		remove_effect = {
+			custom_effect_tooltip = form_country_FIN_coring_states_tt
+			hidden_effect = {
+				every_controlled_state = {
+					limit = {
+						is_core_of = FIN
+					}
+					add_core_of = ROOT
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+	claim_EST = {
+		icon = generic_form_nation
+		allowed = { original_tag = SOV }
+		visible = {
+			original_tag = SOV
+			OR = {
+				has_completed_focus = SOV_baltic_security
+				has_completed_focus = SOV_secure_the_baltics
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_EST_required_states_tt
+				controls_state = 13
+				controls_state = 191
+				controls_state = 811
+				controls_state = 812
+				controls_state = 813
+			}
+			core_compliance = {
+				occupied_country_tag = EST
+				value > 40
+			}
+		}
+		fire_only_once = yes
+		cost = 30
+		days_remove = 90
+		remove_effect = {
+			custom_effect_tooltip = form_country_EST_coring_states_tt
+			hidden_effect = {
+				every_controlled_state = {
+					limit = {
+						is_core_of = EST
+						NOT = { is_core_of = ROOT }
+					}
+					add_core_of = ROOT
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+	claim_LAT = {
+		icon = generic_form_nation
+		allowed = { original_tag = SOV }
+		visible = {
+			original_tag = SOV
+			OR = {
+				has_completed_focus = SOV_baltic_security
+				has_completed_focus = SOV_secure_the_baltics
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_LAT_required_states_tt
+				controls_state = 12
+				controls_state = 190
+				controls_state = 808
+				controls_state = 809
+				controls_state = 810
+			}
+			core_compliance = {
+				occupied_country_tag = LAT
+				value > 40
+			}
+		}
+		fire_only_once = yes
+		cost = 30
+		days_remove = 90
+		remove_effect = {
+			custom_effect_tooltip = form_country_LAT_coring_states_tt
+			hidden_effect = {
+				every_controlled_state = {
+					limit = {
+						is_core_of = LAT
+						NOT = { is_core_of = ROOT }
+					}
+					add_core_of = ROOT
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+	claim_LIT = {
+		icon = generic_form_nation
+		allowed = { original_tag = SOV }
+		visible = {
+			original_tag = SOV
+			OR = {
+				has_completed_focus = SOV_baltic_security
+				has_completed_focus = SOV_secure_the_baltics
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_LIT_required_states_tt
+				controls_state = 11
+			#	controls_state = 188 #Memel
+				controls_state = 189
+			#	controls_state = 784 #Ermland-Masuren
+				controls_state = 814
+				controls_state = 815
+			}
+			core_compliance = {
+				occupied_country_tag = LIT
+				value > 40
+			}
+		}
+		fire_only_once = yes
+		cost = 30
+		days_remove = 90
+		remove_effect = {
+			custom_effect_tooltip = form_country_LIT_coring_states_tt
+			hidden_effect = {
+				every_controlled_state = {
+					limit = {
+						is_core_of = LIT
+						NOT = { is_core_of = ROOT }
+					}
+					add_core_of = ROOT
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+	claim_BLR = {
+		icon = generic_form_nation
+		allowed = { original_tag = SOV }
+		visible = {
+			original_tag = SOV
+			OR = {
+				has_completed_focus = SOV_claims_on_poland
+				has_completed_focus = SOV_westward_bound
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_BLR_required_states_tt
+				controls_state = 94
+				controls_state = 95
+				controls_state = 96
+				controls_state = 194
+				controls_state = 204
+				controls_state = 206
+				controls_state = 207
+				controls_state = 241
+				controls_state = 935
+				controls_state = 936
+			}
+			OR = {
+				core_compliance = {
+					occupied_country_tag = BLR
+					value > 40
+				}
+				core_compliance = {
+					occupied_country_tag = POL
+					value > 40
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 10
+		days_remove = 30
+		remove_effect = {
+			custom_effect_tooltip = form_country_BLR_coring_states_tt
+			hidden_effect = {
+				every_controlled_state = {
+					limit = {
+						is_core_of = BLR
+						NOT = { is_core_of = ROOT }
+					}
+					add_core_of = ROOT
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+	claim_UKR = {
+		icon = generic_form_nation
+		allowed = { original_tag = SOV }
+		visible = {
+			original_tag = SOV
+			OR = {
+				has_completed_focus = SOV_claims_on_poland
+				has_completed_focus = SOV_westward_bound
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_UKR_required_states_tt
+				controls_state = 89
+				controls_state = 91
+				controls_state = 93
+				controls_state = 192
+				controls_state = 193
+				controls_state = 196
+				controls_state = 197
+				controls_state = 198
+				controls_state = 199
+				controls_state = 200
+				controls_state = 201
+				controls_state = 202
+				controls_state = 203
+				controls_state = 221
+				controls_state = 225
+				controls_state = 226
+				controls_state = 227
+				controls_state = 228
+				controls_state = 259
+				controls_state = 834
+			}
+			OR = {
+				core_compliance = {
+					occupied_country_tag = UKR
+					value > 40
+				}
+				core_compliance = {
+					occupied_country_tag = POL
+					value > 40
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 10
+		days_remove = 30
+		remove_effect = {
+			custom_effect_tooltip = form_country_UKR_coring_states_tt
+			hidden_effect = {
+				every_controlled_state = {
+					limit = {
+						is_core_of = UKR
+						NOT = { is_core_of = ROOT }
+					}
+					add_core_of = ROOT
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+	claim_AZR = {
+		icon = generic_form_nation
+		allowed = { original_tag = SOV }
+		visible = {
+			original_tag = SOV
+			NOT = {
+				has_completed_focus = SOV_dissolve_the_treaty_agreement_nsb
+				has_completed_focus = SOV_new_union_treaty_nsb
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_AZR_required_states_tt
+				controls_state = 229
+				controls_state = 419
+				controls_state = 987
+				controls_state = 988
+			}
+			OR = {
+				core_compliance = {
+					occupied_country_tag = AZR
+					value > 40
+				}
+				core_compliance = {
+					occupied_country_tag = PER
+					value > 40
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 10
+		days_remove = 30
+		remove_effect = {
+			custom_effect_tooltip = form_country_AZR_coring_states_tt
+			hidden_effect = {
+				every_controlled_state = {
+					limit = {
+						is_core_of = AZR
+						NOT = { is_core_of = ROOT }
+					}
+					add_core_of = ROOT
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
 		}
 	}
 }

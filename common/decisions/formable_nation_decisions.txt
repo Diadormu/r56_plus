@@ -7,8 +7,8 @@ form_scandinavia_category = {
 		allowed = {
 			OR = {
 				original_tag = NOR
-				#original_tag = DEN
-				#original_tag = SWE
+				original_tag = DEN
+				original_tag = SWE
 				original_tag = SAM
 				original_tag = KAR
 				original_tag = EST
@@ -82,9 +82,9 @@ form_scandinavia_category = {
 		visible = {
 			OR = {
 				original_tag = NOR
-				#original_tag = DEN
+				original_tag = DEN
 				original_tag = SAM
-				#original_tag = SWE
+				original_tag = SWE
 				original_tag = KAR
 			}
 			NOT = { has_global_flag = form_scandinavia_flag }
@@ -2727,7 +2727,13 @@ form_european_union_category = {
 			hidden_effect = {
 				every_controlled_state = {
 					limit = {
-						is_core_of = SPA
+						OR = {
+							is_core_of = SPR
+							is_core_of = SPA
+							is_core_of = SPB
+							is_core_of = SPC
+							is_core_of = SPD
+						}
 					}
 					add_core_of = ROOT
 				}
