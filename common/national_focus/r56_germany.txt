@@ -10968,32 +10968,88 @@ focus_tree = {
 						can_create_factions = no
 					}
 				}
-				start_civil_war = { #fascisms
+				create_dynamic_country = { #fascisms
+					original_tag = GER
 					set_country_flag = is_fascism_ger_cw
-					ideology = fascism
+					set_politics = {
+						ruling_party = fascism
+					}
 					add_popularity = {
 						ideology = fascism
 						popularity = 0.3
 					}
-					keep_political_leader = yes
-					keep_political_party_members = yes
-					keep_all_characters = yes
-					ruling_party = neutrality
-					size = 0.4
-					army_ratio = 0.45
-					navy_ratio = 0.6
-					air_ratio = 0.6
-					states = {
-						5 55 56 57 58 59 61 62 63 64 66 68 763 998
-					}
-					capital = 64
 					load_focus_tree = german_focus #seems I cant keep progress since they are a different tag, force path
 					unlock_national_focus = GER_denounce_versailles
 					unlock_national_focus = GER_rhineland
-					#do not split units yet, because player could sabotage the nazis before picking in event
-					add_ideas = {
-						extensive_conscription
-						war_economy
+					uncomplete_national_focus = {
+						focus = GER_kill_hitler
+						uncomplete_children = yes
+						refund_political_power = no
+					}
+					transfer_state = 5
+					transfer_state = 55
+					transfer_state = 56
+					transfer_state = 57
+					transfer_state = 58
+					transfer_state = 59
+					transfer_state = 61
+					transfer_state = 62
+					transfer_state = 63
+					transfer_state = 64
+					transfer_state = 66
+					transfer_state = 68
+					transfer_state = 763
+					transfer_state = 998
+					set_capital = {state = 64}
+					PREV = {
+						set_province_controller = 9560
+						set_province_controller = 9375
+						set_province_controller = 6218
+						set_province_controller = 6377
+						set_province_controller = 6487
+						set_province_controller = 11468
+						set_province_controller = 11402
+						set_province_controller = 11493
+						set_province_controller = 6513
+						set_province_controller = 526
+						set_province_controller = 3522
+						#set_province_controller = 3526 #this is in Greece, idk which tile I intended
+						set_province_controller = 6298
+						transfer_units_fraction= {
+							target = PREV.PREV
+							size = 0.4
+							stockpile_ratio = 0.25
+							army_ratio = 0.45
+							navy_ratio = 0.6
+							air_ratio = 0.6
+							keep_unit_leaders_trigger = {
+								always = yes 
+							}
+						}
+						every_character = {
+							limit = {
+								OR = {
+									is_character = GER_rudolf_hess
+									is_character = GER_martin_bormann
+									is_character = GER_joseph_goebbels
+									is_character = GER_wilhelm_keitel
+									is_character = GER_heinrich_himmler
+									is_character = GER_hermann_goring
+									is_character = GER_joachim_von_ribbentrop
+									is_character = GER_fritz_todt
+									is_character = GER_albert_speer
+									is_character = GER_werner_von_fritsch #despite the Blomberg–Fritsch affair, he seemingly didnt stop supporting anti-democratic and nazi ideals
+									is_character = GER_ferdinand_schorner
+									is_character = GER_felix_steiner #SS 
+									
+									has_id = 10 #Walter Model
+									has_id = 15 #Walter Kruger
+									has_id = 20 #Paul Hausser
+									has_id = 24 #Sepp Dietrich
+								}
+							}
+							set_nationality = PREV.PREV
+						}
 					}
 					set_rule = {
 						can_send_volunteers = yes

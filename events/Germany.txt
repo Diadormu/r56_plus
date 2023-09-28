@@ -13438,14 +13438,16 @@ country_event = { #Germany civil war
 				set_country_flag = is_commie_ger_cw
 				save_event_target_as = communist_germany
 				set_country_flag = r56_communist_germany_aliases_set
-				ideology = communist
+				ideology = communism
 				add_popularity = {
 					ideology = communism
 					popularity = 0.75
 				}
-				keep_political_leader = yes
-				keep_political_party_members = yes
-				keep_all_characters = yes
+				add_ideas = {
+					extensive_conscription
+					war_economy
+				}
+				complete_national_focus = GER_repeal_reichstag_fire_decree
 				ruling_party = democratic
 				size = 0.34
 				army_ratio = 0.27
@@ -13455,26 +13457,69 @@ country_event = { #Germany civil war
 					60 65
 				}
 				capital = 65
+				set_province_controller = 9560
+				set_province_controller = 9375
+				set_province_controller = 6218
+				set_province_controller = 6377
+				set_province_controller = 6487
+				set_province_controller = 11468
+				set_province_controller = 11402
+				set_province_controller = 11493
+				set_province_controller = 6513
+				set_province_controller = 526
+				set_province_controller = 3522
+				#set_province_controller = 3526 #this is in Greece, idk which tile I intended
+				set_province_controller = 6298
+				keep_all_characters = yes
 				keep_unit_leaders_trigger = {
 					always = yes 
+				}
+				PREV = {
+					every_character = {
+						limit = {
+							OR = {
+								is_character = GER_ernst_thalmann
+								is_character = GER_Walter_Ulbricht
+								is_character = GER_franz_jacob
+								is_character = GER_Franz_Dahlem
+								is_character = GER_Bernhard_Bastlein
+							}
+						}
+						set_nationality = PREV.PREV
+					}
+				}
+				set_rule = {
+					can_send_volunteers = yes
 				}
 				declare_war_on = {
 					target = event_target:fascism_germany
 					type = civil_war
 				}
+				add_civil_war_target = event_target:fascism_germany
 			}
+			set_country_flag = is_democratic_ger_cw
+			save_event_target_as = conservative_germany
+			set_country_flag = r56_conservative_germany_aliases_set
 			set_popularities = {
 				democratic = 45
 				neutrality = 25
 				fascism = 10
 				communism = 20
 			}
-			set_country_flag = is_democratic_ger_cw
-			save_event_target_as = conservative_germany
-			set_country_flag = r56_conservative_germany_aliases_set
-			keep_unit_leaders_trigger = {
-				always = yes 
+			add_ideas = {
+				limited_conscription
+				partial_economic_mobilisation
 			}
+			complete_national_focus = GER_restore_weimar
+			set_rule = {
+				can_send_volunteers = yes
+			}
+			declare_war_on = {
+				target = event_target:fascism_germany
+				type = civil_war
+			}
+			add_civil_war_target = event_target:fascism_germany
+			country_event = r56.ger.25.3000
 		}
 	}
 	option = { #Commies
@@ -13491,9 +13536,11 @@ country_event = { #Germany civil war
 					fascism = 10
 					communism = 20
 				}
-				keep_political_leader = yes
-				keep_political_party_members = yes
-				keep_all_characters = yes
+				add_ideas = {
+					limited_conscription
+					partial_economic_mobilisation
+				}
+				complete_national_focus = GER_restore_weimar
 				ruling_party = communism
 				size = 0.66
 				army_ratio = 0.73
@@ -13502,30 +13549,63 @@ country_event = { #Germany civil war
 				states = {
 					42 50 51 52 53 54 67 922 923 989
 				}
+				keep_all_characters = yes
 				keep_unit_leaders_trigger = {
 					always = yes 
+				}
+				PREV = {
+					every_character = { #move over advisors and leaders
+						limit = {
+							OR = {
+								is_advisor = yes
+								is_unit_leader = yes
+								is_character = GER_konrad_adenauer
+							}
+							NOT = {
+								is_character = GER_rudolf_hess
+								is_character = GER_martin_bormann
+								is_character = GER_joseph_goebbels
+								is_character = GER_wilhelm_keitel
+								is_character = GER_heinrich_himmler
+								is_character = GER_hermann_goring
+								is_character = GER_joachim_von_ribbentrop
+								is_character = GER_fritz_todt
+								is_character = GER_albert_speer
+								is_character = GER_werner_von_fritsch #despite the Blomberg–Fritsch affair, he seemingly didnt stop supporting anti-democratic and nazi ideals
+								is_character = GER_ferdinand_schorner
+								is_character = GER_felix_steiner #SS 
+								
+								has_id = 10 #Walter Model
+								has_id = 15 #Walter Kruger
+								has_id = 20 #Paul Hausser
+								has_id = 24 #Sepp Dietrich
+							}
+						}
+						set_nationality = PREV.PREV
+					}
+				}
+				set_rule = {
+					can_send_volunteers = yes
 				}
 				declare_war_on = {
 					target = event_target:fascism_germany
 					type = civil_war
 				}
-			}
-			add_popularity = {
-				ideology = communism
-				popularity = 0.75
+				add_civil_war_target = event_target:fascism_germany
 			}
 			set_country_flag = is_commie_ger_cw
 			save_event_target_as = communist_germany
 			set_country_flag = r56_communist_germany_aliases_set
-			keep_unit_leaders_trigger = {
-				always = yes 
+			add_popularity = {
+				ideology = communism
+				popularity = 0.75
 			}
-		}
-		custom_effect_tooltip = GER_communists_are_pretty_hard_tt
-	}
-
-	hidden_effect={
-		event_target:communist_germany = {
+			add_ideas = {
+				extensive_conscription
+				war_economy
+			}
+			complete_national_focus = GER_repeal_reichstag_fire_decree
+			set_capital = {state = 65} #largest communist share
 			set_province_controller = 9560
 			set_province_controller = 9375
 			set_province_controller = 6218
@@ -13539,72 +13619,92 @@ country_event = { #Germany civil war
 			set_province_controller = 3522
 			#set_province_controller = 3526 #this is in Greece, idk which tile I intended
 			set_province_controller = 6298
-		}
-		every_character = {
-			limit = {
-				OR = {
-					is_character = GER_ernst_thalmann
-					is_character = GER_Walter_Ulbricht
-					is_character = GER_franz_jacob
-					is_character = GER_Franz_Dahlem
-					is_character = GER_Bernhard_Bastlein
-				}
+			set_rule = {
+				can_send_volunteers = yes
 			}
-			set_nationality = event_target:communist_germany
+			declare_war_on = {
+				target = event_target:fascism_germany
+				type = civil_war
+			}
+			add_civil_war_target = event_target:fascism_germany
+			country_event = r56.ger.25.3000
 		}
-		every_character = { #move over advisors and leaders
+		custom_effect_tooltip = GER_communists_are_pretty_hard_tt
+	}
+}
+country_event = {
+	id = r56.ger.25.3000
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {
+	hidden_effect={
+		random_country = {
 			limit = {
-				OR = {
-					is_advisor = yes
-					is_unit_leader = yes
-					is_character = GER_konrad_adenauer
-				}
+				original_tag = GER
 				NOT = {
-					is_character = GER_rudolf_hess
-					is_character = GER_martin_bormann
-					is_character = GER_joseph_goebbels
-					is_character = GER_wilhelm_keitel
-					is_character = GER_heinrich_himmler
-					is_character = GER_hermann_goring
-					is_character = GER_joachim_von_ribbentrop
-					is_character = GER_fritz_todt
-					is_character = GER_albert_speer
-					is_character = GER_werner_von_fritsch #despite the Blomberg–Fritsch affair, he seemingly didnt stop supporting anti-democratic and nazi ideals
-					is_character = GER_ferdinand_schorner
-					is_character = GER_felix_steiner #SS 
-					
-					has_id = 10 #Walter Model
-					has_id = 15 #Walter Kruger
-					has_id = 20 #Paul Hausser
-					has_id = 24 #Sepp Dietrich
+					tag = GER
 				}
+				has_government = fascism
 			}
-			set_nationality = event_target:conservative_germany
+			save_event_target_as = fascism_germany
 		}
-		every_character = {
+		random_country = {
 			limit = {
-				OR = {
-					is_character = GER_rudolf_hess
-					is_character = GER_martin_bormann
-					is_character = GER_joseph_goebbels
-					is_character = GER_wilhelm_keitel
-					is_character = GER_heinrich_himmler
-					is_character = GER_hermann_goring
-					is_character = GER_joachim_von_ribbentrop
-					is_character = GER_fritz_todt
-					is_character = GER_albert_speer
-					is_character = GER_werner_von_fritsch #despite the Blomberg–Fritsch affair, he seemingly didnt stop supporting anti-democratic and nazi ideals
-					is_character = GER_ferdinand_schorner
-					is_character = GER_felix_steiner #SS 
-					
-					has_id = 10 #Walter Model
-					has_id = 15 #Walter Kruger
-					has_id = 20 #Paul Hausser
-					has_id = 24 #Sepp Dietrich
-				}
+				original_tag = GER
+				has_government = communism
 			}
-			set_nationality = event_target:fascism_germany
+			save_event_target_as = communist_germany
 		}
+		random_country = {
+			limit = {
+				original_tag = GER
+				has_government = democratic
+			}
+			save_event_target_as = conservative_germany
+		}
+		#every_character = {
+		#	limit = {
+		#		OR = {
+		#			is_character = GER_ernst_thalmann
+		#			is_character = GER_Walter_Ulbricht
+		#			is_character = GER_franz_jacob
+		#			is_character = GER_Franz_Dahlem
+		#			is_character = GER_Bernhard_Bastlein
+		#		}
+		#	}
+		#	set_nationality = event_target:communist_germany
+		#}
+		#every_character = { #move over advisors and leaders
+		#	limit = {
+		#		OR = {
+		#			is_advisor = yes
+		#			is_unit_leader = yes
+		#			is_character = GER_konrad_adenauer
+		#		}
+		#		NOT = {
+		#			is_character = GER_rudolf_hess
+		#			is_character = GER_martin_bormann
+		#			is_character = GER_joseph_goebbels
+		#			is_character = GER_wilhelm_keitel
+		#			is_character = GER_heinrich_himmler
+		#			is_character = GER_hermann_goring
+		#			is_character = GER_joachim_von_ribbentrop
+		#			is_character = GER_fritz_todt
+		#			is_character = GER_albert_speer
+		#			is_character = GER_werner_von_fritsch #despite the Blomberg–Fritsch affair, he seemingly didnt stop supporting anti-democratic and nazi ideals
+		#			is_character = GER_ferdinand_schorner
+		#			is_character = GER_felix_steiner #SS 
+		#			
+		#			has_id = 10 #Walter Model
+		#			has_id = 15 #Walter Kruger
+		#			has_id = 20 #Paul Hausser
+		#			has_id = 24 #Sepp Dietrich
+		#		}
+		#	}
+		#	set_nationality = event_target:conservative_germany
+		#}
 		event_target:conservative_germany = {
 			GER_erwin_von_witzleben = {
 				add_country_leader_role = {
@@ -14280,7 +14380,7 @@ country_event = { #Germany civil war
 		#		}
 		#	}
 		#}
-	}
+	}}
 }
 country_event = { #based on original anschluss, as some strings still apply
 	id = r56.ger.26
