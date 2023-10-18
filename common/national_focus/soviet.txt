@@ -18397,7 +18397,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_solidify_the_provisional_government
-		icon = GFX_focus_generic_russian_deal
+		icon = GFX_goal_SOV_dissolve_the_ussr
 		prerequisite = { focus = SOV_reformalize_the_role_of_the_patriarchate focus = SOV_reformalize_the_role_of_the_patriarchate }
 		mutually_exclusive = { focus = SOV_reconvene_the_zemsky_sobor }
 		x = 14
@@ -19610,7 +19610,7 @@ focus_tree = {
 	focus = {
 		id = SOV_dissolve_the_ussr_nsb
 		text = SOV_dissolve_the_ussr
-		icon = GFX_focus_generic_russian_deal
+		icon = GFX_goal_SOV_dissolve_the_ussr
 		prerequisite = { focus = SOV_autonomy_for_the_west_nsb }
 		prerequisite = { focus = SOV_autonomy_for_the_caucasus_nsb }
 		prerequisite = { focus = SOV_autonomy_for_the_central_asia_nsb }
