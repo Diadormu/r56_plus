@@ -2725,45 +2725,39 @@ form_european_union_category = {
 			# Spain
 			custom_effect_tooltip = form_eu_spain_coring_states_tt
 			hidden_effect = {
-				every_controlled_state = {
-					limit = {
-						OR = {
-							is_core_of = SPR
-							is_core_of = SPA
-							is_core_of = SPB
-							is_core_of = SPC
-							is_core_of = SPD
-						}
-					}
-					add_core_of = ROOT
-				}
-			#	177 = { add_core_of = ROOT }
-			#	168 = { add_core_of = ROOT }
-			#	173 = { add_core_of = ROOT }
-			#	169 = { add_core_of = ROOT }
-			#	175 = { add_core_of = ROOT }
-			#	167 = { add_core_of = ROOT }
-			#	165 = { add_core_of = ROOT }
-			#	170 = { add_core_of = ROOT }
-			#	41 = { add_core_of = ROOT }
-			#	166 = { add_core_of = ROOT }
-			#	171 = { add_core_of = ROOT }
-			#	174 = { add_core_of = ROOT }
-			#	176 = { add_core_of = ROOT }
-			#	172 = { add_core_of = ROOT }
-			#	178 = { add_core_of = ROOT }
-			#	790 = { add_core_of = ROOT } #asturia 
-			#	791 = { add_core_of = ROOT } #valladolid
-			#	792 = { add_core_of = ROOT } #pais vasco
-			#	794 = { add_core_of = ROOT } #eastern aragon
-			#	793 = { add_core_of = ROOT } #guadalajara
-			#	788 = { add_core_of = ROOT } #salamanca
-			#	789 = { add_core_of = ROOT } #cordoba
+				177 = { add_core_of = ROOT }
+				168 = { add_core_of = ROOT }
+				173 = { add_core_of = ROOT }
+				169 = { add_core_of = ROOT }
+				175 = { add_core_of = ROOT }
+				167 = { add_core_of = ROOT }
+				165 = { add_core_of = ROOT }
+				170 = { add_core_of = ROOT }
+				41 = { add_core_of = ROOT }
+				166 = { add_core_of = ROOT }
+				171 = { add_core_of = ROOT }
+				174 = { add_core_of = ROOT }
+				176 = { add_core_of = ROOT }
+				172 = { add_core_of = ROOT }
+				178 = { add_core_of = ROOT }
+				790 = { add_core_of = ROOT } #asturia 
+				791 = { add_core_of = ROOT } #valladolid
+				792 = { add_core_of = ROOT } #pais vasco
+				794 = { add_core_of = ROOT } #eastern aragon
+				793 = { add_core_of = ROOT } #guadalajara
+				788 = { add_core_of = ROOT } #salamanca
+				789 = { add_core_of = ROOT } #cordoba
 				if = {
 					limit = {
 						controls_state = 118 #membership for gibraltar too is controlled
 					}
 					118 = { add_core_of = ROOT }
+				}
+				every_controlled_state = {
+					limit = {
+						is_core_of = SPA
+					}
+					add_core_of = ROOT
 				}
 			}
 		}
