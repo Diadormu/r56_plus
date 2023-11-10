@@ -451,9 +451,10 @@ form_greater_china_category = {
 			657 = { add_core_of = ROOT }
 			if = {
 				limit = {
-					controls_state = 563
+					563 = { is_controlled_by_ROOT_or_subject = yes }
 				}
 				563 = { add_core_of = ROOT } #赤塔
+				transfer_state = 563
 			}
 			#库页岛
 			537 = { add_core_of = ROOT }
@@ -461,11 +462,13 @@ form_greater_china_category = {
 			#克什米尔
 			if = {
 				limit = {
-					controls_state = 441
-					controls_state = 787
+					441 = { is_controlled_by_ROOT_or_subject = yes }
+					787 = { is_controlled_by_ROOT_or_subject = yes }
 				}
 				441 = { add_core_of = ROOT }
+				transfer_state = 441
 				787 = { add_core_of = ROOT }
+				transfer_state = 787
 			}
 
 			434 = { set_state_name = "藏南" }

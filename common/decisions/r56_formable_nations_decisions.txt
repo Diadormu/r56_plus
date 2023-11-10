@@ -509,7 +509,7 @@ form_united_netherlands_category2 = {
 
         visible = {
             NOT = { has_global_flag = form_united_netherlands_flag
-				original_tag = HOL
+			#	original_tag = HOL
 			}
         }
 

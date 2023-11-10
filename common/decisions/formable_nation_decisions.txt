@@ -5722,7 +5722,7 @@ form_persian_empire_category = {
 		}
 
 		available = {
-		#	is_subject = no
+			is_subject = no
 			# Iran
 			custom_trigger_tooltip = {
 				tooltip = form_country_iran_required_states_tt
@@ -10552,7 +10552,7 @@ form_siberia_category = {
 		available = {
 		#	is_subject = no
 			controls_state = 564 # Buryatia
-#			controls_state = 563 # Chita
+		#	controls_state = 563 # Chita
 			controls_state = 574 # Yakutsk
 			controls_state = 516 # Taymyria
 			controls_state = 644 # Northeast Siberia
@@ -10745,6 +10745,7 @@ form_siberia_category = {
 			
 				# Chukotka
 				822 = { add_core_of = ROOT }
+				875 = { add_core_of = ROOT }
 				
 				# Kamchatka
 				637 = { add_core_of = ROOT }
@@ -10769,6 +10770,9 @@ form_siberia_category = {
 				
 				# Vladivostok
 				408 = { add_core_of = ROOT }
+				
+				# Magadan
+				874 = { add_core_of = ROOT }
 				
 				set_global_flag = far_east_integrated_flag
 				
@@ -10808,7 +10812,7 @@ form_siberia_category = {
 		#	is_subject = no
 			controls_state = 653 # Sverdlovsk
 			controls_state = 572 # Chelyabinsk
-#			controls_state = 582 # Magnitogorsk
+		#	controls_state = 582 # Magnitogorsk
 			controls_state = 573 # Zlatoust
 			controls_state = 398 # Perm
 			controls_state = 581 # Northern Urals
