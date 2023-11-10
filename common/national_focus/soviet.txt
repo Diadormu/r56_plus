@@ -14750,6 +14750,9 @@ focus_tree = {
 					}
 				}
 			}
+			custom_effect_tooltip = claim_EST_tt
+			custom_effect_tooltip = claim_LAT_tt
+			custom_effect_tooltip = claim_LIT_tt
 		}
 	}
 
@@ -14912,6 +14915,7 @@ focus_tree = {
 					country_event = { id = finland.1 hours = 16 random_hours = 8 }
 				}
 			}
+			custom_effect_tooltip = claim_FIN_tt
 		}
 	}
 
@@ -15097,6 +15101,8 @@ focus_tree = {
 				}
 				add_opinion_modifier = { target = SOV modifier = claimed_eastern_poland }
 			}
+			custom_effect_tooltip = claim_BLR_tt
+			custom_effect_tooltip = claim_UKR_tt
 		}
 	}
 
@@ -25438,6 +25444,8 @@ focus = {
 			build_railway = {
 				path = { 9131 9199 75 72 9130 3130 11171 312 3338 }
 			}
+			custom_effect_tooltip = claim_BLR_tt
+			custom_effect_tooltip = claim_UKR_tt
 		}
 	}
 
@@ -25640,6 +25648,7 @@ focus = {
 
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = FIN }
+			custom_effect_tooltip = claim_FIN_tt
 		}
 	}	
 
@@ -25691,6 +25700,9 @@ focus = {
 			create_wargoal = { type = annex_everything target = EST }
 			create_wargoal = { type = annex_everything target = LIT }
 			create_wargoal = { type = annex_everything target = LAT }
+			custom_effect_tooltip = claim_EST_tt
+			custom_effect_tooltip = claim_LAT_tt
+			custom_effect_tooltip = claim_LIT_tt
 		}
 	}	
 
