@@ -33,7 +33,7 @@ form_scandinavia_category = {
 						region = 191					
 						state = 1027
 					}
-
+					is_controlled_by = ROOT 
 				}
 			}
 			# Sweden

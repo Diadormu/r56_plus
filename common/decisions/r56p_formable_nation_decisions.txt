@@ -8,8 +8,8 @@ form_north_american_category = {
 				original_tag = USA
 				original_tag = MEX
 			}
+			has_dlc = "Waking the Tiger"
 		}
-		fire_only_once = yes
 		visible = {
 			OR = {
 				original_tag = CAN
@@ -242,6 +242,662 @@ form_north_american_category = {
 		}
 	}
 }
+integrate_north_american_category = {
+	CAN_integrate_north_american = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			CAN = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_north_american_flag }
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_CAN_required_states_tt
+				276 = { is_controlled_by_ROOT_or_subject = yes }
+				331 = { is_controlled_by_ROOT_or_subject = yes }
+				332 = { is_controlled_by_ROOT_or_subject = yes }
+				464 = { is_controlled_by_ROOT_or_subject = yes }
+				465 = { is_controlled_by_ROOT_or_subject = yes }
+				466 = { is_controlled_by_ROOT_or_subject = yes }
+				467 = { is_controlled_by_ROOT_or_subject = yes }
+				468 = { is_controlled_by_ROOT_or_subject = yes }
+				469 = { is_controlled_by_ROOT_or_subject = yes }
+				470 = { is_controlled_by_ROOT_or_subject = yes }
+				471 = { is_controlled_by_ROOT_or_subject = yes }
+				472 = { is_controlled_by_ROOT_or_subject = yes }
+				473 = { is_controlled_by_ROOT_or_subject = yes }
+				682 = { is_controlled_by_ROOT_or_subject = yes }
+				683 = { is_controlled_by_ROOT_or_subject = yes }
+				739 = { is_controlled_by_ROOT_or_subject = yes }
+				740 = { is_controlled_by_ROOT_or_subject = yes }
+				860 = { is_controlled_by_ROOT_or_subject = yes }
+				861 = { is_controlled_by_ROOT_or_subject = yes }
+				862 = { is_controlled_by_ROOT_or_subject = yes }
+				863 = { is_controlled_by_ROOT_or_subject = yes }
+				864 = { is_controlled_by_ROOT_or_subject = yes }
+				865 = { is_controlled_by_ROOT_or_subject = yes }
+				866 = { is_controlled_by_ROOT_or_subject = yes }
+				867 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_USA_required_states_tt
+				261 = { is_controlled_by_ROOT_or_subject = yes }
+				357 = { is_controlled_by_ROOT_or_subject = yes }
+				358 = { is_controlled_by_ROOT_or_subject = yes }
+				359 = { is_controlled_by_ROOT_or_subject = yes }
+				360 = { is_controlled_by_ROOT_or_subject = yes }
+				361 = { is_controlled_by_ROOT_or_subject = yes }
+				362 = { is_controlled_by_ROOT_or_subject = yes }
+				363 = { is_controlled_by_ROOT_or_subject = yes }
+				364 = { is_controlled_by_ROOT_or_subject = yes }
+				365 = { is_controlled_by_ROOT_or_subject = yes }
+				366 = { is_controlled_by_ROOT_or_subject = yes }
+				367 = { is_controlled_by_ROOT_or_subject = yes }
+				368 = { is_controlled_by_ROOT_or_subject = yes }
+				369 = { is_controlled_by_ROOT_or_subject = yes }
+				370 = { is_controlled_by_ROOT_or_subject = yes }
+				371 = { is_controlled_by_ROOT_or_subject = yes }
+				372 = { is_controlled_by_ROOT_or_subject = yes }
+				373 = { is_controlled_by_ROOT_or_subject = yes }
+				374 = { is_controlled_by_ROOT_or_subject = yes }
+				375 = { is_controlled_by_ROOT_or_subject = yes }
+				376 = { is_controlled_by_ROOT_or_subject = yes }
+				377 = { is_controlled_by_ROOT_or_subject = yes }
+				378 = { is_controlled_by_ROOT_or_subject = yes }
+				379 = { is_controlled_by_ROOT_or_subject = yes }
+				380 = { is_controlled_by_ROOT_or_subject = yes }
+				381 = { is_controlled_by_ROOT_or_subject = yes }
+				382 = { is_controlled_by_ROOT_or_subject = yes }
+				383 = { is_controlled_by_ROOT_or_subject = yes }
+				384 = { is_controlled_by_ROOT_or_subject = yes }
+				385 = { is_controlled_by_ROOT_or_subject = yes }
+				386 = { is_controlled_by_ROOT_or_subject = yes }
+				387 = { is_controlled_by_ROOT_or_subject = yes }
+				388 = { is_controlled_by_ROOT_or_subject = yes }
+				389 = { is_controlled_by_ROOT_or_subject = yes }
+				390 = { is_controlled_by_ROOT_or_subject = yes }
+				391 = { is_controlled_by_ROOT_or_subject = yes }
+				392 = { is_controlled_by_ROOT_or_subject = yes }
+				393 = { is_controlled_by_ROOT_or_subject = yes }
+				394 = { is_controlled_by_ROOT_or_subject = yes }
+				395 = { is_controlled_by_ROOT_or_subject = yes }
+				396 = { is_controlled_by_ROOT_or_subject = yes }
+				463 = { is_controlled_by_ROOT_or_subject = yes }
+				816 = { is_controlled_by_ROOT_or_subject = yes }
+				921 = { is_controlled_by_ROOT_or_subject = yes }
+				990 = { is_controlled_by_ROOT_or_subject = yes }
+				991 = { is_controlled_by_ROOT_or_subject = yes }
+				992 = { is_controlled_by_ROOT_or_subject = yes }
+				993 = { is_controlled_by_ROOT_or_subject = yes }
+				1023 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_MEX_required_states_tt
+				277 = { is_controlled_by_ROOT_or_subject = yes }
+				474 = { is_controlled_by_ROOT_or_subject = yes }
+				475 = { is_controlled_by_ROOT_or_subject = yes }
+				476 = { is_controlled_by_ROOT_or_subject = yes }
+				477 = { is_controlled_by_ROOT_or_subject = yes }
+				478 = { is_controlled_by_ROOT_or_subject = yes }
+				479 = { is_controlled_by_ROOT_or_subject = yes }
+				480 = { is_controlled_by_ROOT_or_subject = yes }
+				481 = { is_controlled_by_ROOT_or_subject = yes }
+				482 = { is_controlled_by_ROOT_or_subject = yes }
+				483 = { is_controlled_by_ROOT_or_subject = yes }
+				484 = { is_controlled_by_ROOT_or_subject = yes }
+				485 = { is_controlled_by_ROOT_or_subject = yes }
+				929 = { is_controlled_by_ROOT_or_subject = yes }
+				930 = { is_controlled_by_ROOT_or_subject = yes }
+				931 = { is_controlled_by_ROOT_or_subject = yes }
+				932 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			CAN = {
+				custom_effect_tooltip = integrate_country_CAN_coring_states_tt
+				hidden_effect = {
+					transfer_state = 276
+					transfer_state = 331
+					transfer_state = 332
+					transfer_state = 464
+					transfer_state = 465
+					transfer_state = 466
+					transfer_state = 467
+					transfer_state = 468
+					transfer_state = 469
+					transfer_state = 470
+					transfer_state = 471
+					transfer_state = 472
+					transfer_state = 473
+					transfer_state = 682
+					transfer_state = 683
+					transfer_state = 739
+					transfer_state = 740
+					transfer_state = 860
+					transfer_state = 861
+					transfer_state = 862
+					transfer_state = 863
+					transfer_state = 864
+					transfer_state = 865
+					transfer_state = 866
+					transfer_state = 867
+				}
+				custom_effect_tooltip = integrate_country_USA_coring_states_tt
+				hidden_effect = {
+					transfer_state = 261
+					transfer_state = 357
+					transfer_state = 358
+					transfer_state = 359
+					transfer_state = 360
+					transfer_state = 361
+					transfer_state = 362
+					transfer_state = 363
+					transfer_state = 364
+					transfer_state = 365
+					transfer_state = 366
+					transfer_state = 367
+					transfer_state = 368
+					transfer_state = 369
+					transfer_state = 370
+					transfer_state = 371
+					transfer_state = 372
+					transfer_state = 373
+					transfer_state = 374
+					transfer_state = 375
+					transfer_state = 376
+					transfer_state = 377
+					transfer_state = 378
+					transfer_state = 379
+					transfer_state = 380
+					transfer_state = 381
+					transfer_state = 382
+					transfer_state = 383
+					transfer_state = 384
+					transfer_state = 385
+					transfer_state = 386
+					transfer_state = 387
+					transfer_state = 388
+					transfer_state = 389
+					transfer_state = 390
+					transfer_state = 391
+					transfer_state = 392
+					transfer_state = 393
+					transfer_state = 394
+					transfer_state = 395
+					transfer_state = 396
+					transfer_state = 463
+					transfer_state = 816
+					transfer_state = 921
+					transfer_state = 990
+					transfer_state = 991
+					transfer_state = 992
+					transfer_state = 993
+					transfer_state = 1023
+				}
+				custom_effect_tooltip = integrate_country_MEX_coring_states_tt
+				hidden_effect = {
+					transfer_state = 277
+					transfer_state = 474
+					transfer_state = 475
+					transfer_state = 476
+					transfer_state = 477
+					transfer_state = 478
+					transfer_state = 479
+					transfer_state = 480
+					transfer_state = 481
+					transfer_state = 482
+					transfer_state = 483
+					transfer_state = 484
+					transfer_state = 485
+					transfer_state = 929
+					transfer_state = 930
+					transfer_state = 931
+					transfer_state = 932
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	USA_integrate_north_american = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			USA = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_north_american_flag }
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_CAN_required_states_tt
+				276 = { is_controlled_by_ROOT_or_subject = yes }
+				331 = { is_controlled_by_ROOT_or_subject = yes }
+				332 = { is_controlled_by_ROOT_or_subject = yes }
+				464 = { is_controlled_by_ROOT_or_subject = yes }
+				465 = { is_controlled_by_ROOT_or_subject = yes }
+				466 = { is_controlled_by_ROOT_or_subject = yes }
+				467 = { is_controlled_by_ROOT_or_subject = yes }
+				468 = { is_controlled_by_ROOT_or_subject = yes }
+				469 = { is_controlled_by_ROOT_or_subject = yes }
+				470 = { is_controlled_by_ROOT_or_subject = yes }
+				471 = { is_controlled_by_ROOT_or_subject = yes }
+				472 = { is_controlled_by_ROOT_or_subject = yes }
+				473 = { is_controlled_by_ROOT_or_subject = yes }
+				682 = { is_controlled_by_ROOT_or_subject = yes }
+				683 = { is_controlled_by_ROOT_or_subject = yes }
+				739 = { is_controlled_by_ROOT_or_subject = yes }
+				740 = { is_controlled_by_ROOT_or_subject = yes }
+				860 = { is_controlled_by_ROOT_or_subject = yes }
+				861 = { is_controlled_by_ROOT_or_subject = yes }
+				862 = { is_controlled_by_ROOT_or_subject = yes }
+				863 = { is_controlled_by_ROOT_or_subject = yes }
+				864 = { is_controlled_by_ROOT_or_subject = yes }
+				865 = { is_controlled_by_ROOT_or_subject = yes }
+				866 = { is_controlled_by_ROOT_or_subject = yes }
+				867 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_USA_required_states_tt
+				261 = { is_controlled_by_ROOT_or_subject = yes }
+				357 = { is_controlled_by_ROOT_or_subject = yes }
+				358 = { is_controlled_by_ROOT_or_subject = yes }
+				359 = { is_controlled_by_ROOT_or_subject = yes }
+				360 = { is_controlled_by_ROOT_or_subject = yes }
+				361 = { is_controlled_by_ROOT_or_subject = yes }
+				362 = { is_controlled_by_ROOT_or_subject = yes }
+				363 = { is_controlled_by_ROOT_or_subject = yes }
+				364 = { is_controlled_by_ROOT_or_subject = yes }
+				365 = { is_controlled_by_ROOT_or_subject = yes }
+				366 = { is_controlled_by_ROOT_or_subject = yes }
+				367 = { is_controlled_by_ROOT_or_subject = yes }
+				368 = { is_controlled_by_ROOT_or_subject = yes }
+				369 = { is_controlled_by_ROOT_or_subject = yes }
+				370 = { is_controlled_by_ROOT_or_subject = yes }
+				371 = { is_controlled_by_ROOT_or_subject = yes }
+				372 = { is_controlled_by_ROOT_or_subject = yes }
+				373 = { is_controlled_by_ROOT_or_subject = yes }
+				374 = { is_controlled_by_ROOT_or_subject = yes }
+				375 = { is_controlled_by_ROOT_or_subject = yes }
+				376 = { is_controlled_by_ROOT_or_subject = yes }
+				377 = { is_controlled_by_ROOT_or_subject = yes }
+				378 = { is_controlled_by_ROOT_or_subject = yes }
+				379 = { is_controlled_by_ROOT_or_subject = yes }
+				380 = { is_controlled_by_ROOT_or_subject = yes }
+				381 = { is_controlled_by_ROOT_or_subject = yes }
+				382 = { is_controlled_by_ROOT_or_subject = yes }
+				383 = { is_controlled_by_ROOT_or_subject = yes }
+				384 = { is_controlled_by_ROOT_or_subject = yes }
+				385 = { is_controlled_by_ROOT_or_subject = yes }
+				386 = { is_controlled_by_ROOT_or_subject = yes }
+				387 = { is_controlled_by_ROOT_or_subject = yes }
+				388 = { is_controlled_by_ROOT_or_subject = yes }
+				389 = { is_controlled_by_ROOT_or_subject = yes }
+				390 = { is_controlled_by_ROOT_or_subject = yes }
+				391 = { is_controlled_by_ROOT_or_subject = yes }
+				392 = { is_controlled_by_ROOT_or_subject = yes }
+				393 = { is_controlled_by_ROOT_or_subject = yes }
+				394 = { is_controlled_by_ROOT_or_subject = yes }
+				395 = { is_controlled_by_ROOT_or_subject = yes }
+				396 = { is_controlled_by_ROOT_or_subject = yes }
+				463 = { is_controlled_by_ROOT_or_subject = yes }
+				816 = { is_controlled_by_ROOT_or_subject = yes }
+				921 = { is_controlled_by_ROOT_or_subject = yes }
+				990 = { is_controlled_by_ROOT_or_subject = yes }
+				991 = { is_controlled_by_ROOT_or_subject = yes }
+				992 = { is_controlled_by_ROOT_or_subject = yes }
+				993 = { is_controlled_by_ROOT_or_subject = yes }
+				1023 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_MEX_required_states_tt
+				277 = { is_controlled_by_ROOT_or_subject = yes }
+				474 = { is_controlled_by_ROOT_or_subject = yes }
+				475 = { is_controlled_by_ROOT_or_subject = yes }
+				476 = { is_controlled_by_ROOT_or_subject = yes }
+				477 = { is_controlled_by_ROOT_or_subject = yes }
+				478 = { is_controlled_by_ROOT_or_subject = yes }
+				479 = { is_controlled_by_ROOT_or_subject = yes }
+				480 = { is_controlled_by_ROOT_or_subject = yes }
+				481 = { is_controlled_by_ROOT_or_subject = yes }
+				482 = { is_controlled_by_ROOT_or_subject = yes }
+				483 = { is_controlled_by_ROOT_or_subject = yes }
+				484 = { is_controlled_by_ROOT_or_subject = yes }
+				485 = { is_controlled_by_ROOT_or_subject = yes }
+				929 = { is_controlled_by_ROOT_or_subject = yes }
+				930 = { is_controlled_by_ROOT_or_subject = yes }
+				931 = { is_controlled_by_ROOT_or_subject = yes }
+				932 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			USA = {
+				custom_effect_tooltip = integrate_country_CAN_coring_states_tt
+				hidden_effect = {
+					transfer_state = 276
+					transfer_state = 331
+					transfer_state = 332
+					transfer_state = 464
+					transfer_state = 465
+					transfer_state = 466
+					transfer_state = 467
+					transfer_state = 468
+					transfer_state = 469
+					transfer_state = 470
+					transfer_state = 471
+					transfer_state = 472
+					transfer_state = 473
+					transfer_state = 682
+					transfer_state = 683
+					transfer_state = 739
+					transfer_state = 740
+					transfer_state = 860
+					transfer_state = 861
+					transfer_state = 862
+					transfer_state = 863
+					transfer_state = 864
+					transfer_state = 865
+					transfer_state = 866
+					transfer_state = 867
+				}
+				custom_effect_tooltip = integrate_country_USA_coring_states_tt
+				hidden_effect = {
+					transfer_state = 261
+					transfer_state = 357
+					transfer_state = 358
+					transfer_state = 359
+					transfer_state = 360
+					transfer_state = 361
+					transfer_state = 362
+					transfer_state = 363
+					transfer_state = 364
+					transfer_state = 365
+					transfer_state = 366
+					transfer_state = 367
+					transfer_state = 368
+					transfer_state = 369
+					transfer_state = 370
+					transfer_state = 371
+					transfer_state = 372
+					transfer_state = 373
+					transfer_state = 374
+					transfer_state = 375
+					transfer_state = 376
+					transfer_state = 377
+					transfer_state = 378
+					transfer_state = 379
+					transfer_state = 380
+					transfer_state = 381
+					transfer_state = 382
+					transfer_state = 383
+					transfer_state = 384
+					transfer_state = 385
+					transfer_state = 386
+					transfer_state = 387
+					transfer_state = 388
+					transfer_state = 389
+					transfer_state = 390
+					transfer_state = 391
+					transfer_state = 392
+					transfer_state = 393
+					transfer_state = 394
+					transfer_state = 395
+					transfer_state = 396
+					transfer_state = 463
+					transfer_state = 816
+					transfer_state = 921
+					transfer_state = 990
+					transfer_state = 991
+					transfer_state = 992
+					transfer_state = 993
+					transfer_state = 1023
+				}
+				custom_effect_tooltip = integrate_country_MEX_coring_states_tt
+				hidden_effect = {
+					transfer_state = 277
+					transfer_state = 474
+					transfer_state = 475
+					transfer_state = 476
+					transfer_state = 477
+					transfer_state = 478
+					transfer_state = 479
+					transfer_state = 480
+					transfer_state = 481
+					transfer_state = 482
+					transfer_state = 483
+					transfer_state = 484
+					transfer_state = 485
+					transfer_state = 929
+					transfer_state = 930
+					transfer_state = 931
+					transfer_state = 932
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	MEX_integrate_north_american = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			MEX = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_north_american_flag }
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_CAN_required_states_tt
+				276 = { is_controlled_by_ROOT_or_subject = yes }
+				331 = { is_controlled_by_ROOT_or_subject = yes }
+				332 = { is_controlled_by_ROOT_or_subject = yes }
+				464 = { is_controlled_by_ROOT_or_subject = yes }
+				465 = { is_controlled_by_ROOT_or_subject = yes }
+				466 = { is_controlled_by_ROOT_or_subject = yes }
+				467 = { is_controlled_by_ROOT_or_subject = yes }
+				468 = { is_controlled_by_ROOT_or_subject = yes }
+				469 = { is_controlled_by_ROOT_or_subject = yes }
+				470 = { is_controlled_by_ROOT_or_subject = yes }
+				471 = { is_controlled_by_ROOT_or_subject = yes }
+				472 = { is_controlled_by_ROOT_or_subject = yes }
+				473 = { is_controlled_by_ROOT_or_subject = yes }
+				682 = { is_controlled_by_ROOT_or_subject = yes }
+				683 = { is_controlled_by_ROOT_or_subject = yes }
+				739 = { is_controlled_by_ROOT_or_subject = yes }
+				740 = { is_controlled_by_ROOT_or_subject = yes }
+				860 = { is_controlled_by_ROOT_or_subject = yes }
+				861 = { is_controlled_by_ROOT_or_subject = yes }
+				862 = { is_controlled_by_ROOT_or_subject = yes }
+				863 = { is_controlled_by_ROOT_or_subject = yes }
+				864 = { is_controlled_by_ROOT_or_subject = yes }
+				865 = { is_controlled_by_ROOT_or_subject = yes }
+				866 = { is_controlled_by_ROOT_or_subject = yes }
+				867 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_USA_required_states_tt
+				261 = { is_controlled_by_ROOT_or_subject = yes }
+				357 = { is_controlled_by_ROOT_or_subject = yes }
+				358 = { is_controlled_by_ROOT_or_subject = yes }
+				359 = { is_controlled_by_ROOT_or_subject = yes }
+				360 = { is_controlled_by_ROOT_or_subject = yes }
+				361 = { is_controlled_by_ROOT_or_subject = yes }
+				362 = { is_controlled_by_ROOT_or_subject = yes }
+				363 = { is_controlled_by_ROOT_or_subject = yes }
+				364 = { is_controlled_by_ROOT_or_subject = yes }
+				365 = { is_controlled_by_ROOT_or_subject = yes }
+				366 = { is_controlled_by_ROOT_or_subject = yes }
+				367 = { is_controlled_by_ROOT_or_subject = yes }
+				368 = { is_controlled_by_ROOT_or_subject = yes }
+				369 = { is_controlled_by_ROOT_or_subject = yes }
+				370 = { is_controlled_by_ROOT_or_subject = yes }
+				371 = { is_controlled_by_ROOT_or_subject = yes }
+				372 = { is_controlled_by_ROOT_or_subject = yes }
+				373 = { is_controlled_by_ROOT_or_subject = yes }
+				374 = { is_controlled_by_ROOT_or_subject = yes }
+				375 = { is_controlled_by_ROOT_or_subject = yes }
+				376 = { is_controlled_by_ROOT_or_subject = yes }
+				377 = { is_controlled_by_ROOT_or_subject = yes }
+				378 = { is_controlled_by_ROOT_or_subject = yes }
+				379 = { is_controlled_by_ROOT_or_subject = yes }
+				380 = { is_controlled_by_ROOT_or_subject = yes }
+				381 = { is_controlled_by_ROOT_or_subject = yes }
+				382 = { is_controlled_by_ROOT_or_subject = yes }
+				383 = { is_controlled_by_ROOT_or_subject = yes }
+				384 = { is_controlled_by_ROOT_or_subject = yes }
+				385 = { is_controlled_by_ROOT_or_subject = yes }
+				386 = { is_controlled_by_ROOT_or_subject = yes }
+				387 = { is_controlled_by_ROOT_or_subject = yes }
+				388 = { is_controlled_by_ROOT_or_subject = yes }
+				389 = { is_controlled_by_ROOT_or_subject = yes }
+				390 = { is_controlled_by_ROOT_or_subject = yes }
+				391 = { is_controlled_by_ROOT_or_subject = yes }
+				392 = { is_controlled_by_ROOT_or_subject = yes }
+				393 = { is_controlled_by_ROOT_or_subject = yes }
+				394 = { is_controlled_by_ROOT_or_subject = yes }
+				395 = { is_controlled_by_ROOT_or_subject = yes }
+				396 = { is_controlled_by_ROOT_or_subject = yes }
+				463 = { is_controlled_by_ROOT_or_subject = yes }
+				816 = { is_controlled_by_ROOT_or_subject = yes }
+				921 = { is_controlled_by_ROOT_or_subject = yes }
+				990 = { is_controlled_by_ROOT_or_subject = yes }
+				991 = { is_controlled_by_ROOT_or_subject = yes }
+				992 = { is_controlled_by_ROOT_or_subject = yes }
+				993 = { is_controlled_by_ROOT_or_subject = yes }
+				1023 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_MEX_required_states_tt
+				277 = { is_controlled_by_ROOT_or_subject = yes }
+				474 = { is_controlled_by_ROOT_or_subject = yes }
+				475 = { is_controlled_by_ROOT_or_subject = yes }
+				476 = { is_controlled_by_ROOT_or_subject = yes }
+				477 = { is_controlled_by_ROOT_or_subject = yes }
+				478 = { is_controlled_by_ROOT_or_subject = yes }
+				479 = { is_controlled_by_ROOT_or_subject = yes }
+				480 = { is_controlled_by_ROOT_or_subject = yes }
+				481 = { is_controlled_by_ROOT_or_subject = yes }
+				482 = { is_controlled_by_ROOT_or_subject = yes }
+				483 = { is_controlled_by_ROOT_or_subject = yes }
+				484 = { is_controlled_by_ROOT_or_subject = yes }
+				485 = { is_controlled_by_ROOT_or_subject = yes }
+				929 = { is_controlled_by_ROOT_or_subject = yes }
+				930 = { is_controlled_by_ROOT_or_subject = yes }
+				931 = { is_controlled_by_ROOT_or_subject = yes }
+				932 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			MEX = {
+				custom_effect_tooltip = integrate_country_CAN_coring_states_tt
+				hidden_effect = {
+					transfer_state = 276
+					transfer_state = 331
+					transfer_state = 332
+					transfer_state = 464
+					transfer_state = 465
+					transfer_state = 466
+					transfer_state = 467
+					transfer_state = 468
+					transfer_state = 469
+					transfer_state = 470
+					transfer_state = 471
+					transfer_state = 472
+					transfer_state = 473
+					transfer_state = 682
+					transfer_state = 683
+					transfer_state = 739
+					transfer_state = 740
+					transfer_state = 860
+					transfer_state = 861
+					transfer_state = 862
+					transfer_state = 863
+					transfer_state = 864
+					transfer_state = 865
+					transfer_state = 866
+					transfer_state = 867
+				}
+				custom_effect_tooltip = integrate_country_USA_coring_states_tt
+				hidden_effect = {
+					transfer_state = 261
+					transfer_state = 357
+					transfer_state = 358
+					transfer_state = 359
+					transfer_state = 360
+					transfer_state = 361
+					transfer_state = 362
+					transfer_state = 363
+					transfer_state = 364
+					transfer_state = 365
+					transfer_state = 366
+					transfer_state = 367
+					transfer_state = 368
+					transfer_state = 369
+					transfer_state = 370
+					transfer_state = 371
+					transfer_state = 372
+					transfer_state = 373
+					transfer_state = 374
+					transfer_state = 375
+					transfer_state = 376
+					transfer_state = 377
+					transfer_state = 378
+					transfer_state = 379
+					transfer_state = 380
+					transfer_state = 381
+					transfer_state = 382
+					transfer_state = 383
+					transfer_state = 384
+					transfer_state = 385
+					transfer_state = 386
+					transfer_state = 387
+					transfer_state = 388
+					transfer_state = 389
+					transfer_state = 390
+					transfer_state = 391
+					transfer_state = 392
+					transfer_state = 393
+					transfer_state = 394
+					transfer_state = 395
+					transfer_state = 396
+					transfer_state = 463
+					transfer_state = 816
+					transfer_state = 921
+					transfer_state = 990
+					transfer_state = 991
+					transfer_state = 992
+					transfer_state = 993
+					transfer_state = 1023
+				}
+				custom_effect_tooltip = integrate_country_MEX_coring_states_tt
+				hidden_effect = {
+					transfer_state = 277
+					transfer_state = 474
+					transfer_state = 475
+					transfer_state = 476
+					transfer_state = 477
+					transfer_state = 478
+					transfer_state = 479
+					transfer_state = 480
+					transfer_state = 481
+					transfer_state = 482
+					transfer_state = 483
+					transfer_state = 484
+					transfer_state = 485
+					transfer_state = 929
+					transfer_state = 930
+					transfer_state = 931
+					transfer_state = 932
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
 
 form_greater_china_category = {
 	form_greater_china = {
@@ -259,7 +915,6 @@ form_greater_china_category = {
 				original_tag = MAN
 			}
 		}
-		fire_only_once = yes
 		visible = {
 			OR = {
 				original_tag = CHI
@@ -268,6 +923,7 @@ form_greater_china_category = {
 				has_cosmetic_tag = CHI_warlord_leader
 				has_cosmetic_tag = CHI_warlord_PRC
 			}
+			NOT = { has_global_flag = form_greater_china_flag }
 			owns_state = 283
 			owns_state = 287
 			owns_state = 322
@@ -435,6 +1091,7 @@ form_greater_china_category = {
 		}
 
 		complete_effect = {
+			set_global_flag = form_greater_china_flag
 			434 = { add_core_of = ROOT } #藏南
 			329 = { add_core_of = ROOT } #唐努乌梁
 			#外蒙古
@@ -488,6 +1145,1044 @@ form_greater_china_category = {
 		ai_will_do = {
 			factor = 200
 		}
+	}
+}
+integrate_greater_china_category = {
+	CHI_integrate_greater_china = {
+		icon = generic_form_nation
+		visible = {
+			NOT = { has_global_flag = form_greater_china_flag }
+			CHI = {
+				is_subject_of = ROOT
+				owns_state = 283
+				owns_state = 287
+				owns_state = 322
+				owns_state = 325
+				owns_state = 328
+				owns_state = 524
+				owns_state = 591
+				owns_state = 592
+				owns_state = 593
+				owns_state = 594
+				owns_state = 595
+				owns_state = 596
+				owns_state = 597
+				owns_state = 598
+				owns_state = 599
+				owns_state = 600
+				owns_state = 601
+				owns_state = 602
+				owns_state = 603
+				owns_state = 604
+				owns_state = 605
+				owns_state = 606
+				owns_state = 607
+				owns_state = 608
+				owns_state = 609
+				owns_state = 610
+				owns_state = 611
+				owns_state = 612
+				owns_state = 613
+				owns_state = 614
+				owns_state = 615
+				owns_state = 616
+				owns_state = 617
+				owns_state = 618
+				owns_state = 619
+				owns_state = 620
+				owns_state = 621
+				owns_state = 622
+				owns_state = 714
+				owns_state = 715
+				owns_state = 716
+				owns_state = 717
+				owns_state = 744
+				owns_state = 746
+				owns_state = 747
+				owns_state = 748
+				owns_state = 749
+				owns_state = 750
+				owns_state = 751
+				owns_state = 752
+				owns_state = 753
+				owns_state = 754
+				owns_state = 755
+				owns_state = 756
+				owns_state = 757
+				owns_state = 758
+				owns_state = 759
+				owns_state = 760
+				owns_state = 761
+				owns_state = 941
+				owns_state = 942
+				owns_state = 943
+				owns_state = 944
+				owns_state = 945
+				owns_state = 946
+				owns_state = 947
+				owns_state = 326
+				owns_state = 728
+				owns_state = 729
+				owns_state = 743
+				owns_state = 745
+			}
+		}
+		available = {
+			434 = { is_controlled_by_ROOT_or_subject = yes }
+			329 = { is_controlled_by_ROOT_or_subject = yes }
+			330 = { is_controlled_by_ROOT_or_subject = yes }
+			817 = { is_controlled_by_ROOT_or_subject = yes }
+			818 = { is_controlled_by_ROOT_or_subject = yes }
+			819 = { is_controlled_by_ROOT_or_subject = yes }
+			820 = { is_controlled_by_ROOT_or_subject = yes }
+			408 = { is_controlled_by_ROOT_or_subject = yes }
+			409 = { is_controlled_by_ROOT_or_subject = yes }
+			560 = { is_controlled_by_ROOT_or_subject = yes }
+			561 = { is_controlled_by_ROOT_or_subject = yes }
+			657 = { is_controlled_by_ROOT_or_subject = yes }
+			537 = { is_controlled_by_ROOT_or_subject = yes }
+			655 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			CHI = {
+				transfer_state = 434
+				transfer_state = 329
+				transfer_state = 330
+				transfer_state = 817
+				transfer_state = 818
+				transfer_state = 819
+				transfer_state = 820
+				transfer_state = 408
+				transfer_state = 409
+				transfer_state = 560
+				transfer_state = 561
+				transfer_state = 657
+				transfer_state = 537
+				transfer_state = 655
+				if = {
+					limit = { 563 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 563
+				}
+				if = {
+					limit = { 441 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 441
+				}
+				if = {
+					limit = { 787 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 787
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	PRC_integrate_greater_china = {
+		icon = generic_form_nation
+		visible = {
+			NOT = { has_global_flag = form_greater_china_flag }
+			PRC = {
+				is_subject_of = ROOT
+				owns_state = 283
+				owns_state = 287
+				owns_state = 322
+				owns_state = 325
+				owns_state = 328
+				owns_state = 524
+				owns_state = 591
+				owns_state = 592
+				owns_state = 593
+				owns_state = 594
+				owns_state = 595
+				owns_state = 596
+				owns_state = 597
+				owns_state = 598
+				owns_state = 599
+				owns_state = 600
+				owns_state = 601
+				owns_state = 602
+				owns_state = 603
+				owns_state = 604
+				owns_state = 605
+				owns_state = 606
+				owns_state = 607
+				owns_state = 608
+				owns_state = 609
+				owns_state = 610
+				owns_state = 611
+				owns_state = 612
+				owns_state = 613
+				owns_state = 614
+				owns_state = 615
+				owns_state = 616
+				owns_state = 617
+				owns_state = 618
+				owns_state = 619
+				owns_state = 620
+				owns_state = 621
+				owns_state = 622
+				owns_state = 714
+				owns_state = 715
+				owns_state = 716
+				owns_state = 717
+				owns_state = 744
+				owns_state = 746
+				owns_state = 747
+				owns_state = 748
+				owns_state = 749
+				owns_state = 750
+				owns_state = 751
+				owns_state = 752
+				owns_state = 753
+				owns_state = 754
+				owns_state = 755
+				owns_state = 756
+				owns_state = 757
+				owns_state = 758
+				owns_state = 759
+				owns_state = 760
+				owns_state = 761
+				owns_state = 941
+				owns_state = 942
+				owns_state = 943
+				owns_state = 944
+				owns_state = 945
+				owns_state = 946
+				owns_state = 947
+				owns_state = 326
+				owns_state = 728
+				owns_state = 729
+				owns_state = 743
+				owns_state = 745
+			}
+		}
+		available = {
+			434 = { is_controlled_by_ROOT_or_subject = yes }
+			329 = { is_controlled_by_ROOT_or_subject = yes }
+			330 = { is_controlled_by_ROOT_or_subject = yes }
+			817 = { is_controlled_by_ROOT_or_subject = yes }
+			818 = { is_controlled_by_ROOT_or_subject = yes }
+			819 = { is_controlled_by_ROOT_or_subject = yes }
+			820 = { is_controlled_by_ROOT_or_subject = yes }
+			408 = { is_controlled_by_ROOT_or_subject = yes }
+			409 = { is_controlled_by_ROOT_or_subject = yes }
+			560 = { is_controlled_by_ROOT_or_subject = yes }
+			561 = { is_controlled_by_ROOT_or_subject = yes }
+			657 = { is_controlled_by_ROOT_or_subject = yes }
+			537 = { is_controlled_by_ROOT_or_subject = yes }
+			655 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			PRC = {
+				transfer_state = 434
+				transfer_state = 329
+				transfer_state = 330
+				transfer_state = 817
+				transfer_state = 818
+				transfer_state = 819
+				transfer_state = 820
+				transfer_state = 408
+				transfer_state = 409
+				transfer_state = 560
+				transfer_state = 561
+				transfer_state = 657
+				transfer_state = 537
+				transfer_state = 655
+				if = {
+					limit = { 563 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 563
+				}
+				if = {
+					limit = { 441 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 441
+				}
+				if = {
+					limit = { 787 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 787
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	GXC_integrate_greater_china = {
+		icon = generic_form_nation
+		visible = {
+			NOT = { has_global_flag = form_greater_china_flag }
+			GXC = {
+				is_subject_of = ROOT
+				OR = {
+					has_cosmetic_tag = CHI_warlord_leader
+					has_cosmetic_tag = CHI_warlord_PRC
+				}
+				owns_state = 283
+				owns_state = 287
+				owns_state = 322
+				owns_state = 325
+				owns_state = 328
+				owns_state = 524
+				owns_state = 591
+				owns_state = 592
+				owns_state = 593
+				owns_state = 594
+				owns_state = 595
+				owns_state = 596
+				owns_state = 597
+				owns_state = 598
+				owns_state = 599
+				owns_state = 600
+				owns_state = 601
+				owns_state = 602
+				owns_state = 603
+				owns_state = 604
+				owns_state = 605
+				owns_state = 606
+				owns_state = 607
+				owns_state = 608
+				owns_state = 609
+				owns_state = 610
+				owns_state = 611
+				owns_state = 612
+				owns_state = 613
+				owns_state = 614
+				owns_state = 615
+				owns_state = 616
+				owns_state = 617
+				owns_state = 618
+				owns_state = 619
+				owns_state = 620
+				owns_state = 621
+				owns_state = 622
+				owns_state = 714
+				owns_state = 715
+				owns_state = 716
+				owns_state = 717
+				owns_state = 744
+				owns_state = 746
+				owns_state = 747
+				owns_state = 748
+				owns_state = 749
+				owns_state = 750
+				owns_state = 751
+				owns_state = 752
+				owns_state = 753
+				owns_state = 754
+				owns_state = 755
+				owns_state = 756
+				owns_state = 757
+				owns_state = 758
+				owns_state = 759
+				owns_state = 760
+				owns_state = 761
+				owns_state = 941
+				owns_state = 942
+				owns_state = 943
+				owns_state = 944
+				owns_state = 945
+				owns_state = 946
+				owns_state = 947
+				owns_state = 326
+				owns_state = 728
+				owns_state = 729
+				owns_state = 743
+				owns_state = 745
+			}
+		}
+		available = {
+			434 = { is_controlled_by_ROOT_or_subject = yes }
+			329 = { is_controlled_by_ROOT_or_subject = yes }
+			330 = { is_controlled_by_ROOT_or_subject = yes }
+			817 = { is_controlled_by_ROOT_or_subject = yes }
+			818 = { is_controlled_by_ROOT_or_subject = yes }
+			819 = { is_controlled_by_ROOT_or_subject = yes }
+			820 = { is_controlled_by_ROOT_or_subject = yes }
+			408 = { is_controlled_by_ROOT_or_subject = yes }
+			409 = { is_controlled_by_ROOT_or_subject = yes }
+			560 = { is_controlled_by_ROOT_or_subject = yes }
+			561 = { is_controlled_by_ROOT_or_subject = yes }
+			657 = { is_controlled_by_ROOT_or_subject = yes }
+			537 = { is_controlled_by_ROOT_or_subject = yes }
+			655 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			GXC = {
+				transfer_state = 434
+				transfer_state = 329
+				transfer_state = 330
+				transfer_state = 817
+				transfer_state = 818
+				transfer_state = 819
+				transfer_state = 820
+				transfer_state = 408
+				transfer_state = 409
+				transfer_state = 560
+				transfer_state = 561
+				transfer_state = 657
+				transfer_state = 537
+				transfer_state = 655
+				if = {
+					limit = { 563 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 563
+				}
+				if = {
+					limit = { 441 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 441
+				}
+				if = {
+					limit = { 787 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 787
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	YUN_integrate_greater_china = {
+		icon = generic_form_nation
+		visible = {
+			NOT = { has_global_flag = form_greater_china_flag }
+			YUN = {
+				is_subject_of = ROOT
+				OR = {
+					has_cosmetic_tag = CHI_warlord_leader
+					has_cosmetic_tag = CHI_warlord_PRC
+				}
+				owns_state = 283
+				owns_state = 287
+				owns_state = 322
+				owns_state = 325
+				owns_state = 328
+				owns_state = 524
+				owns_state = 591
+				owns_state = 592
+				owns_state = 593
+				owns_state = 594
+				owns_state = 595
+				owns_state = 596
+				owns_state = 597
+				owns_state = 598
+				owns_state = 599
+				owns_state = 600
+				owns_state = 601
+				owns_state = 602
+				owns_state = 603
+				owns_state = 604
+				owns_state = 605
+				owns_state = 606
+				owns_state = 607
+				owns_state = 608
+				owns_state = 609
+				owns_state = 610
+				owns_state = 611
+				owns_state = 612
+				owns_state = 613
+				owns_state = 614
+				owns_state = 615
+				owns_state = 616
+				owns_state = 617
+				owns_state = 618
+				owns_state = 619
+				owns_state = 620
+				owns_state = 621
+				owns_state = 622
+				owns_state = 714
+				owns_state = 715
+				owns_state = 716
+				owns_state = 717
+				owns_state = 744
+				owns_state = 746
+				owns_state = 747
+				owns_state = 748
+				owns_state = 749
+				owns_state = 750
+				owns_state = 751
+				owns_state = 752
+				owns_state = 753
+				owns_state = 754
+				owns_state = 755
+				owns_state = 756
+				owns_state = 757
+				owns_state = 758
+				owns_state = 759
+				owns_state = 760
+				owns_state = 761
+				owns_state = 941
+				owns_state = 942
+				owns_state = 943
+				owns_state = 944
+				owns_state = 945
+				owns_state = 946
+				owns_state = 947
+				owns_state = 326
+				owns_state = 728
+				owns_state = 729
+				owns_state = 743
+				owns_state = 745
+			}
+		}
+		available = {
+			434 = { is_controlled_by_ROOT_or_subject = yes }
+			329 = { is_controlled_by_ROOT_or_subject = yes }
+			330 = { is_controlled_by_ROOT_or_subject = yes }
+			817 = { is_controlled_by_ROOT_or_subject = yes }
+			818 = { is_controlled_by_ROOT_or_subject = yes }
+			819 = { is_controlled_by_ROOT_or_subject = yes }
+			820 = { is_controlled_by_ROOT_or_subject = yes }
+			408 = { is_controlled_by_ROOT_or_subject = yes }
+			409 = { is_controlled_by_ROOT_or_subject = yes }
+			560 = { is_controlled_by_ROOT_or_subject = yes }
+			561 = { is_controlled_by_ROOT_or_subject = yes }
+			657 = { is_controlled_by_ROOT_or_subject = yes }
+			537 = { is_controlled_by_ROOT_or_subject = yes }
+			655 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			YUN = {
+				transfer_state = 434
+				transfer_state = 329
+				transfer_state = 330
+				transfer_state = 817
+				transfer_state = 818
+				transfer_state = 819
+				transfer_state = 820
+				transfer_state = 408
+				transfer_state = 409
+				transfer_state = 560
+				transfer_state = 561
+				transfer_state = 657
+				transfer_state = 537
+				transfer_state = 655
+				if = {
+					limit = { 563 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 563
+				}
+				if = {
+					limit = { 441 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 441
+				}
+				if = {
+					limit = { 787 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 787
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	SHX_integrate_greater_china = {
+		icon = generic_form_nation
+		visible = {
+			NOT = { has_global_flag = form_greater_china_flag }
+			SHX = {
+				is_subject_of = ROOT
+				OR = {
+					has_cosmetic_tag = CHI_warlord_leader
+					has_cosmetic_tag = CHI_warlord_PRC
+				}
+				owns_state = 283
+				owns_state = 287
+				owns_state = 322
+				owns_state = 325
+				owns_state = 328
+				owns_state = 524
+				owns_state = 591
+				owns_state = 592
+				owns_state = 593
+				owns_state = 594
+				owns_state = 595
+				owns_state = 596
+				owns_state = 597
+				owns_state = 598
+				owns_state = 599
+				owns_state = 600
+				owns_state = 601
+				owns_state = 602
+				owns_state = 603
+				owns_state = 604
+				owns_state = 605
+				owns_state = 606
+				owns_state = 607
+				owns_state = 608
+				owns_state = 609
+				owns_state = 610
+				owns_state = 611
+				owns_state = 612
+				owns_state = 613
+				owns_state = 614
+				owns_state = 615
+				owns_state = 616
+				owns_state = 617
+				owns_state = 618
+				owns_state = 619
+				owns_state = 620
+				owns_state = 621
+				owns_state = 622
+				owns_state = 714
+				owns_state = 715
+				owns_state = 716
+				owns_state = 717
+				owns_state = 744
+				owns_state = 746
+				owns_state = 747
+				owns_state = 748
+				owns_state = 749
+				owns_state = 750
+				owns_state = 751
+				owns_state = 752
+				owns_state = 753
+				owns_state = 754
+				owns_state = 755
+				owns_state = 756
+				owns_state = 757
+				owns_state = 758
+				owns_state = 759
+				owns_state = 760
+				owns_state = 761
+				owns_state = 941
+				owns_state = 942
+				owns_state = 943
+				owns_state = 944
+				owns_state = 945
+				owns_state = 946
+				owns_state = 947
+				owns_state = 326
+				owns_state = 728
+				owns_state = 729
+				owns_state = 743
+				owns_state = 745
+			}
+		}
+		available = {
+			434 = { is_controlled_by_ROOT_or_subject = yes }
+			329 = { is_controlled_by_ROOT_or_subject = yes }
+			330 = { is_controlled_by_ROOT_or_subject = yes }
+			817 = { is_controlled_by_ROOT_or_subject = yes }
+			818 = { is_controlled_by_ROOT_or_subject = yes }
+			819 = { is_controlled_by_ROOT_or_subject = yes }
+			820 = { is_controlled_by_ROOT_or_subject = yes }
+			408 = { is_controlled_by_ROOT_or_subject = yes }
+			409 = { is_controlled_by_ROOT_or_subject = yes }
+			560 = { is_controlled_by_ROOT_or_subject = yes }
+			561 = { is_controlled_by_ROOT_or_subject = yes }
+			657 = { is_controlled_by_ROOT_or_subject = yes }
+			537 = { is_controlled_by_ROOT_or_subject = yes }
+			655 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			SHX = {
+				transfer_state = 434
+				transfer_state = 329
+				transfer_state = 330
+				transfer_state = 817
+				transfer_state = 818
+				transfer_state = 819
+				transfer_state = 820
+				transfer_state = 408
+				transfer_state = 409
+				transfer_state = 560
+				transfer_state = 561
+				transfer_state = 657
+				transfer_state = 537
+				transfer_state = 655
+				if = {
+					limit = { 563 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 563
+				}
+				if = {
+					limit = { 441 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 441
+				}
+				if = {
+					limit = { 787 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 787
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	XSM_integrate_greater_china = {
+		icon = generic_form_nation
+		visible = {
+			NOT = { has_global_flag = form_greater_china_flag }
+			XSM = {
+				is_subject_of = ROOT
+				OR = {
+					has_cosmetic_tag = CHI_warlord_leader
+					has_cosmetic_tag = CHI_warlord_PRC
+				}
+				owns_state = 283
+				owns_state = 287
+				owns_state = 322
+				owns_state = 325
+				owns_state = 328
+				owns_state = 524
+				owns_state = 591
+				owns_state = 592
+				owns_state = 593
+				owns_state = 594
+				owns_state = 595
+				owns_state = 596
+				owns_state = 597
+				owns_state = 598
+				owns_state = 599
+				owns_state = 600
+				owns_state = 601
+				owns_state = 602
+				owns_state = 603
+				owns_state = 604
+				owns_state = 605
+				owns_state = 606
+				owns_state = 607
+				owns_state = 608
+				owns_state = 609
+				owns_state = 610
+				owns_state = 611
+				owns_state = 612
+				owns_state = 613
+				owns_state = 614
+				owns_state = 615
+				owns_state = 616
+				owns_state = 617
+				owns_state = 618
+				owns_state = 619
+				owns_state = 620
+				owns_state = 621
+				owns_state = 622
+				owns_state = 714
+				owns_state = 715
+				owns_state = 716
+				owns_state = 717
+				owns_state = 744
+				owns_state = 746
+				owns_state = 747
+				owns_state = 748
+				owns_state = 749
+				owns_state = 750
+				owns_state = 751
+				owns_state = 752
+				owns_state = 753
+				owns_state = 754
+				owns_state = 755
+				owns_state = 756
+				owns_state = 757
+				owns_state = 758
+				owns_state = 759
+				owns_state = 760
+				owns_state = 761
+				owns_state = 941
+				owns_state = 942
+				owns_state = 943
+				owns_state = 944
+				owns_state = 945
+				owns_state = 946
+				owns_state = 947
+				owns_state = 326
+				owns_state = 728
+				owns_state = 729
+				owns_state = 743
+				owns_state = 745
+			}
+		}
+		available = {
+			434 = { is_controlled_by_ROOT_or_subject = yes }
+			329 = { is_controlled_by_ROOT_or_subject = yes }
+			330 = { is_controlled_by_ROOT_or_subject = yes }
+			817 = { is_controlled_by_ROOT_or_subject = yes }
+			818 = { is_controlled_by_ROOT_or_subject = yes }
+			819 = { is_controlled_by_ROOT_or_subject = yes }
+			820 = { is_controlled_by_ROOT_or_subject = yes }
+			408 = { is_controlled_by_ROOT_or_subject = yes }
+			409 = { is_controlled_by_ROOT_or_subject = yes }
+			560 = { is_controlled_by_ROOT_or_subject = yes }
+			561 = { is_controlled_by_ROOT_or_subject = yes }
+			657 = { is_controlled_by_ROOT_or_subject = yes }
+			537 = { is_controlled_by_ROOT_or_subject = yes }
+			655 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			XSM = {
+				transfer_state = 434
+				transfer_state = 329
+				transfer_state = 330
+				transfer_state = 817
+				transfer_state = 818
+				transfer_state = 819
+				transfer_state = 820
+				transfer_state = 408
+				transfer_state = 409
+				transfer_state = 560
+				transfer_state = 561
+				transfer_state = 657
+				transfer_state = 537
+				transfer_state = 655
+				if = {
+					limit = { 563 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 563
+				}
+				if = {
+					limit = { 441 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 441
+				}
+				if = {
+					limit = { 787 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 787
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	SIK_integrate_greater_china = {
+		icon = generic_form_nation
+		visible = {
+			NOT = { has_global_flag = form_greater_china_flag }
+			SIK = {
+				is_subject_of = ROOT
+				OR = {
+					has_cosmetic_tag = CHI_warlord_leader
+					has_cosmetic_tag = CHI_warlord_PRC
+				}
+				owns_state = 283
+				owns_state = 287
+				owns_state = 322
+				owns_state = 325
+				owns_state = 328
+				owns_state = 524
+				owns_state = 591
+				owns_state = 592
+				owns_state = 593
+				owns_state = 594
+				owns_state = 595
+				owns_state = 596
+				owns_state = 597
+				owns_state = 598
+				owns_state = 599
+				owns_state = 600
+				owns_state = 601
+				owns_state = 602
+				owns_state = 603
+				owns_state = 604
+				owns_state = 605
+				owns_state = 606
+				owns_state = 607
+				owns_state = 608
+				owns_state = 609
+				owns_state = 610
+				owns_state = 611
+				owns_state = 612
+				owns_state = 613
+				owns_state = 614
+				owns_state = 615
+				owns_state = 616
+				owns_state = 617
+				owns_state = 618
+				owns_state = 619
+				owns_state = 620
+				owns_state = 621
+				owns_state = 622
+				owns_state = 714
+				owns_state = 715
+				owns_state = 716
+				owns_state = 717
+				owns_state = 744
+				owns_state = 746
+				owns_state = 747
+				owns_state = 748
+				owns_state = 749
+				owns_state = 750
+				owns_state = 751
+				owns_state = 752
+				owns_state = 753
+				owns_state = 754
+				owns_state = 755
+				owns_state = 756
+				owns_state = 757
+				owns_state = 758
+				owns_state = 759
+				owns_state = 760
+				owns_state = 761
+				owns_state = 941
+				owns_state = 942
+				owns_state = 943
+				owns_state = 944
+				owns_state = 945
+				owns_state = 946
+				owns_state = 947
+				owns_state = 326
+				owns_state = 728
+				owns_state = 729
+				owns_state = 743
+				owns_state = 745
+			}
+		}
+		available = {
+			434 = { is_controlled_by_ROOT_or_subject = yes }
+			329 = { is_controlled_by_ROOT_or_subject = yes }
+			330 = { is_controlled_by_ROOT_or_subject = yes }
+			817 = { is_controlled_by_ROOT_or_subject = yes }
+			818 = { is_controlled_by_ROOT_or_subject = yes }
+			819 = { is_controlled_by_ROOT_or_subject = yes }
+			820 = { is_controlled_by_ROOT_or_subject = yes }
+			408 = { is_controlled_by_ROOT_or_subject = yes }
+			409 = { is_controlled_by_ROOT_or_subject = yes }
+			560 = { is_controlled_by_ROOT_or_subject = yes }
+			561 = { is_controlled_by_ROOT_or_subject = yes }
+			657 = { is_controlled_by_ROOT_or_subject = yes }
+			537 = { is_controlled_by_ROOT_or_subject = yes }
+			655 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			SIK = {
+				transfer_state = 434
+				transfer_state = 329
+				transfer_state = 330
+				transfer_state = 817
+				transfer_state = 818
+				transfer_state = 819
+				transfer_state = 820
+				transfer_state = 408
+				transfer_state = 409
+				transfer_state = 560
+				transfer_state = 561
+				transfer_state = 657
+				transfer_state = 537
+				transfer_state = 655
+				if = {
+					limit = { 563 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 563
+				}
+				if = {
+					limit = { 441 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 441
+				}
+				if = {
+					limit = { 787 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 787
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	MAN_integrate_greater_china = {
+		icon = generic_form_nation
+		visible = {
+			NOT = { has_global_flag = form_greater_china_flag }
+			MAN = {
+				is_subject_of = ROOT
+				owns_state = 283
+				owns_state = 287
+				owns_state = 322
+				owns_state = 325
+				owns_state = 328
+				owns_state = 524
+				owns_state = 591
+				owns_state = 592
+				owns_state = 593
+				owns_state = 594
+				owns_state = 595
+				owns_state = 596
+				owns_state = 597
+				owns_state = 598
+				owns_state = 599
+				owns_state = 600
+				owns_state = 601
+				owns_state = 602
+				owns_state = 603
+				owns_state = 604
+				owns_state = 605
+				owns_state = 606
+				owns_state = 607
+				owns_state = 608
+				owns_state = 609
+				owns_state = 610
+				owns_state = 611
+				owns_state = 612
+				owns_state = 613
+				owns_state = 614
+				owns_state = 615
+				owns_state = 616
+				owns_state = 617
+				owns_state = 618
+				owns_state = 619
+				owns_state = 620
+				owns_state = 621
+				owns_state = 622
+				owns_state = 714
+				owns_state = 715
+				owns_state = 716
+				owns_state = 717
+				owns_state = 744
+				owns_state = 746
+				owns_state = 747
+				owns_state = 748
+				owns_state = 749
+				owns_state = 750
+				owns_state = 751
+				owns_state = 752
+				owns_state = 753
+				owns_state = 754
+				owns_state = 755
+				owns_state = 756
+				owns_state = 757
+				owns_state = 758
+				owns_state = 759
+				owns_state = 760
+				owns_state = 761
+				owns_state = 941
+				owns_state = 942
+				owns_state = 943
+				owns_state = 944
+				owns_state = 945
+				owns_state = 946
+				owns_state = 947
+				owns_state = 326
+				owns_state = 728
+				owns_state = 729
+				owns_state = 743
+				owns_state = 745
+			}
+		}
+		available = {
+			434 = { is_controlled_by_ROOT_or_subject = yes }
+			329 = { is_controlled_by_ROOT_or_subject = yes }
+			330 = { is_controlled_by_ROOT_or_subject = yes }
+			817 = { is_controlled_by_ROOT_or_subject = yes }
+			818 = { is_controlled_by_ROOT_or_subject = yes }
+			819 = { is_controlled_by_ROOT_or_subject = yes }
+			820 = { is_controlled_by_ROOT_or_subject = yes }
+			408 = { is_controlled_by_ROOT_or_subject = yes }
+			409 = { is_controlled_by_ROOT_or_subject = yes }
+			560 = { is_controlled_by_ROOT_or_subject = yes }
+			561 = { is_controlled_by_ROOT_or_subject = yes }
+			657 = { is_controlled_by_ROOT_or_subject = yes }
+			537 = { is_controlled_by_ROOT_or_subject = yes }
+			655 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			MAN = {
+				transfer_state = 434
+				transfer_state = 329
+				transfer_state = 330
+				transfer_state = 817
+				transfer_state = 818
+				transfer_state = 819
+				transfer_state = 820
+				transfer_state = 408
+				transfer_state = 409
+				transfer_state = 560
+				transfer_state = 561
+				transfer_state = 657
+				transfer_state = 537
+				transfer_state = 655
+				if = {
+					limit = { 563 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 563
+				}
+				if = {
+					limit = { 441 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 441
+				}
+				if = {
+					limit = { 787 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 787
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
 	}
 }
 
@@ -852,5 +2547,144 @@ back_tsarist_russia_category = {
 		ai_will_do = {
 			factor = 200
 		}
+	}
+}
+
+integrate_greater_german_reich_category = {
+	integrate_greater_german_reich = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			NOT = { has_global_flag = form_greater_german_reich_flag }
+			GER = {
+				is_subject_of = ROOT
+				controls_state = 5
+				controls_state = 763
+				controls_state = 51
+				controls_state = 42
+				controls_state = 56
+				controls_state = 57
+				controls_state = 55
+				controls_state = 50
+				controls_state = 59
+				controls_state = 58
+				controls_state = 998
+				controls_state = 60
+				controls_state = 54
+				controls_state = 52
+				controls_state = 53
+				controls_state = 61
+				controls_state = 64
+				controls_state = 65
+				controls_state = 62
+				controls_state = 68
+				controls_state = 66
+				controls_state = 67
+				controls_state = 63
+				controls_state = 989 #Ostrhineland
+				controls_state = 922 #Frankfurt
+				controls_state = 923 #Baden
+				controls_state = 998 #Southern Schleswig
+			}
+		}
+		available = {
+			153 = { is_controlled_by_ROOT_or_subject = yes }
+			152 = { is_controlled_by_ROOT_or_subject = yes }
+			4 = { is_controlled_by_ROOT_or_subject = yes }
+			848 = { is_controlled_by_ROOT_or_subject = yes }
+			69 = { is_controlled_by_ROOT_or_subject = yes }
+			74 = { is_controlled_by_ROOT_or_subject = yes }
+			8 = { is_controlled_by_ROOT_or_subject = yes } # Luxembourg
+			28 = { is_controlled_by_ROOT_or_subject = yes } # Alsace
+			965 = { is_controlled_by_ROOT_or_subject = yes } # Eupen-Malmedy
+			# Poland
+			85 = { is_controlled_by_ROOT_or_subject = yes }
+			807 = { is_controlled_by_ROOT_or_subject = yes }
+			86 = { is_controlled_by_ROOT_or_subject = yes }
+			762 = { is_controlled_by_ROOT_or_subject = yes }
+			#Lithuania
+			188 = { is_controlled_by_ROOT_or_subject = yes }
+			#Denmark
+			964 = { is_controlled_by_ROOT_or_subject = yes }
+			#Yugoslavia
+			102 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			GER = {
+				transfer_state = 153
+				transfer_state = 152
+				transfer_state = 4
+				transfer_state = 848
+				transfer_state = 69
+				transfer_state = 74
+				transfer_state = 8
+				transfer_state = 28
+				transfer_state = 965
+				transfer_state = 85
+				transfer_state = 807
+				transfer_state = 86
+				transfer_state = 762
+				transfer_state = 188
+				transfer_state = 964
+				transfer_state = 102
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
+integrate_greater_italy_category = {
+	integrate_greater_italy = {
+		icon = generic_form_nation
+		visible = {
+			NOT = { has_global_flag = greater_italy_flag }
+			ITA = {
+				is_subject_of = ROOT
+				has_completed_focus = ITA_towards_a_greater_italy
+				controls_state = 852
+				controls_state = 736
+				controls_state = 160
+				controls_state = 39
+				controls_state = 850
+				controls_state = 159
+				controls_state = 158
+				controls_state = 161
+				controls_state = 162
+				controls_state = 157
+				controls_state = 2
+				controls_state = 849
+				controls_state = 117
+				controls_state = 156
+				controls_state = 115
+				controls_state = 114
+			}
+		}
+		available = {
+			1 = { is_controlled_by_ROOT_or_subject = yes } # Corsica
+			846 = { is_controlled_by_ROOT_or_subject = yes } # Ticino
+			735 = { is_controlled_by_ROOT_or_subject = yes } # Savoy
+			163 = { is_controlled_by_ROOT_or_subject = yes } # Zara
+			103 = { is_controlled_by_ROOT_or_subject = yes } # Dalmatia
+			853 = { is_controlled_by_ROOT_or_subject = yes } # Ljubljana
+			116 = { is_controlled_by_ROOT_or_subject = yes } # Malta
+			182 = { is_controlled_by_ROOT_or_subject = yes } # Crete
+			164 = { is_controlled_by_ROOT_or_subject = yes } # Dodecaneso
+		}
+		complete_effect = {
+			ITA = {
+				transfer_state = 1 # Corsica
+				transfer_state = 846 # Ticino
+				transfer_state = 735 # Savoy
+				transfer_state = 163 # Zara
+				transfer_state = 103 # Dalmatia
+				transfer_state = 853 # Ljubljana
+				transfer_state = 116 # Malta
+				transfer_state = 182 # Crete
+				transfer_state = 164 # Dodecaneso
+			}
+		}
+		ai_will_do = { factor = 200 }
 	}
 }

@@ -1,3 +1,2249 @@
+integrate_scandinavia_category = {
+	NOR_integrate_scandinavia = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			NOR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_scandinavia_flag }
+		}
+		available = {
+			# Norway
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_norway_required_states_tt
+				all_state = {
+					OR = {
+						region = 11
+						region = 191
+						state = 1027
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Sweden
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_sweden_required_states_tt
+				all_state = {
+					OR = {
+						region = 10
+						region = 192
+						state = 124
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Denmark / European Mainland
+			custom_trigger_tooltip = {
+				tooltip = integrate_scandinavia_denmark_required_states_tt
+				all_state = {
+					OR = {
+						region = 277
+						state = 1024
+						#state = 337
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			# Norway
+			custom_effect_tooltip = integrate_country_norway_coring_states_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							region = 11
+							region = 191
+							state = 1027
+						}
+					}
+					transfer_state_to = NOR
+				}
+			}
+			# Sweden
+			custom_effect_tooltip = integrate_country_sweden_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 10
+							region = 192
+							state = 124
+						}
+					}
+					transfer_state_to = NOR
+				}
+				if = {
+					limit = {
+						145 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+					145 = { transfer_state_to = NOR }
+				}
+			}
+			# Denmark / European Mainland
+			custom_effect_tooltip = integrate_scandinavia_denmark_coring_states_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							region = 277
+							state = 1024
+							#state = 337
+						}
+					}
+					transfer_state_to = NOR
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	DEN_integrate_scandinavia = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			DEN = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_scandinavia_flag }
+		}
+		available = {
+			# Norway
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_norway_required_states_tt
+				all_state = {
+					OR = {
+						region = 11
+						region = 191
+						state = 1027
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Sweden
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_sweden_required_states_tt
+				all_state = {
+					OR = {
+						region = 10
+						region = 192
+						state = 124
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Denmark / European Mainland
+			custom_trigger_tooltip = {
+				tooltip = integrate_scandinavia_denmark_required_states_tt
+				all_state = {
+					OR = {
+						region = 277
+						state = 1024
+						#state = 337
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			# Norway
+			custom_effect_tooltip = integrate_country_norway_coring_states_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							region = 11
+							region = 191
+							state = 1027
+						}
+					}
+					transfer_state_to = DEN
+				}
+			}
+			# Sweden
+			custom_effect_tooltip = integrate_country_sweden_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 10
+							region = 192
+							state = 124
+						}
+					}
+					transfer_state_to = DEN
+				}
+				if = {
+					limit = {
+						145 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+					145 = { transfer_state_to = DEN }
+				}
+			}
+			# Denmark / European Mainland
+			custom_effect_tooltip = integrate_scandinavia_denmark_coring_states_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							region = 277
+							state = 1024
+							#state = 337
+						}
+					}
+					transfer_state_to = DEN
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	SWE_integrate_scandinavia = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			SWE = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_scandinavia_flag }
+		}
+		available = {
+			# Norway
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_norway_required_states_tt
+				all_state = {
+					OR = {
+						region = 11
+						region = 191
+						state = 1027
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Sweden
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_sweden_required_states_tt
+				all_state = {
+					OR = {
+						region = 10
+						region = 192
+						state = 124
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Denmark / European Mainland
+			custom_trigger_tooltip = {
+				tooltip = integrate_scandinavia_denmark_required_states_tt
+				all_state = {
+					OR = {
+						region = 277
+						state = 1024
+						#state = 337
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			# Norway
+			custom_effect_tooltip = integrate_country_norway_coring_states_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							region = 11
+							region = 191
+							state = 1027
+						}
+					}
+					transfer_state_to = SWE
+				}
+			}
+			# Sweden
+			custom_effect_tooltip = integrate_country_sweden_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 10
+							region = 192
+							state = 124
+						}
+					}
+					transfer_state_to = SWE
+				}
+				if = {
+					limit = {
+						145 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+					145 = { transfer_state_to = SWE }
+				}
+			}
+			# Denmark / European Mainland
+			custom_effect_tooltip = integrate_scandinavia_denmark_coring_states_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							region = 277
+							state = 1024
+							#state = 337
+						}
+					}
+					transfer_state_to = SWE
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	SAM_integrate_scandinavia = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			SAM = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_scandinavia_flag }
+		}
+		available = {
+			# Norway
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_norway_required_states_tt
+				all_state = {
+					OR = {
+						region = 11
+						region = 191
+						state = 1027
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Sweden
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_sweden_required_states_tt
+				all_state = {
+					OR = {
+						region = 10
+						region = 192
+						state = 124
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Denmark / European Mainland
+			custom_trigger_tooltip = {
+				tooltip = integrate_scandinavia_denmark_required_states_tt
+				all_state = {
+					OR = {
+						region = 277
+						state = 1024
+						#state = 337
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			# Norway
+			custom_effect_tooltip = integrate_country_norway_coring_states_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							region = 11
+							region = 191
+							state = 1027
+						}
+					}
+					transfer_state_to = SAM
+				}
+			}
+			# Sweden
+			custom_effect_tooltip = integrate_country_sweden_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 10
+							region = 192
+							state = 124
+						}
+					}
+					transfer_state_to = SAM
+				}
+				if = {
+					limit = {
+						145 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+					145 = { transfer_state_to = SAM }
+				}
+			}
+			# Denmark / European Mainland
+			custom_effect_tooltip = integrate_scandinavia_denmark_coring_states_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							region = 277
+							state = 1024
+							#state = 337
+						}
+					}
+					transfer_state_to = SAM
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	KAR_integrate_scandinavia = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			KAR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_scandinavia_flag }
+		}
+		available = {
+			# Norway
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_norway_required_states_tt
+				all_state = {
+					OR = {
+						region = 11
+						region = 191
+						state = 1027
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Sweden
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_sweden_required_states_tt
+				all_state = {
+					OR = {
+						region = 10
+						region = 192
+						state = 124
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Denmark / European Mainland
+			custom_trigger_tooltip = {
+				tooltip = integrate_scandinavia_denmark_required_states_tt
+				all_state = {
+					OR = {
+						region = 277
+						state = 1024
+						#state = 337
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			# Norway
+			custom_effect_tooltip = integrate_country_norway_coring_states_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							region = 11
+							region = 191
+							state = 1027
+						}
+					}
+					transfer_state_to = KAR
+				}
+			}
+			# Sweden
+			custom_effect_tooltip = integrate_country_sweden_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 10
+							region = 192
+							state = 124
+						}
+					}
+					transfer_state_to = KAR
+				}
+				if = {
+					limit = {
+						145 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+					145 = { transfer_state_to = KAR }
+				}
+			}
+			# Denmark / European Mainland
+			custom_effect_tooltip = integrate_scandinavia_denmark_coring_states_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							region = 277
+							state = 1024
+							#state = 337
+						}
+					}
+					transfer_state_to = KAR
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	EST_integrate_scandinavia = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+			has_dlc = "No Step Back"
+		}
+		visible = {
+			is_historical_focus_on = no
+			EST = {
+				is_subject_of = ROOT
+				has_completed_focus = EST_form_scandinavia
+			}
+			NOT = { has_global_flag = form_scandinavia_flag }
+		}
+		available = {
+			# Norway
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_norway_required_states_tt
+				all_state = {
+					OR = {
+						region = 11
+						region = 191
+						state = 1027
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Sweden
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_sweden_required_states_tt
+				all_state = {
+					OR = {
+						region = 10
+						region = 192
+						state = 124
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Denmark / European Mainland
+			custom_trigger_tooltip = {
+				tooltip = integrate_scandinavia_denmark_required_states_tt
+				all_state = {
+					OR = {
+						region = 277
+						state = 1024
+						#state = 337
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			# Norway
+			custom_effect_tooltip = integrate_country_norway_coring_states_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							region = 11
+							region = 191
+							state = 1027
+						}
+					}
+					transfer_state_to = EST
+				}
+			}
+			# Sweden
+			custom_effect_tooltip = integrate_country_sweden_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 10
+							region = 192
+							state = 124
+						}
+					}
+					transfer_state_to = EST
+				}
+				if = {
+					limit = {
+						145 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+					145 = { transfer_state_to = EST }
+				}
+			}
+			# Denmark / European Mainland
+			custom_effect_tooltip = integrate_scandinavia_denmark_coring_states_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							region = 277
+							state = 1024
+							#state = 337
+						}
+					}
+					transfer_state_to = EST
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
+
+integrate_nordic_league_category = {
+	NOR_integrate_nordic_league = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			NOR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_nordic_league_flag }
+		}
+		available = {
+			# Norway
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_norway_required_states_tt
+				all_state = {
+					OR = {
+						region = 11
+						region = 191
+						state = 1027
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Sweden
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_sweden_required_states_tt
+				all_state = {
+					OR = {
+						region = 10
+						region = 192
+						state = 124
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Denmark
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_denmark_required_states_tt
+				all_state = {
+					OR = {
+						region = 277
+						state = 1024
+						state = 337
+						state = 101
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Iceland 
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_iceland_recuired_states_tt
+				all_state = {
+					OR = {
+						state = 1043
+						state = 100
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Finland
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_finland_required_states_tt
+				all_state = {
+					OR = {
+						NOT = { 
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+						is_controlled_by_ROOT_or_subject = yes
+					}
+				}
+				#111 = { is_controlled_by_ROOT_or_subject = yes }
+				#145 = { is_controlled_by_ROOT_or_subject = yes }
+				#148 = { is_controlled_by_ROOT_or_subject = yes }
+				#149 = { is_controlled_by_ROOT_or_subject = yes }
+				#150 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			# Norway
+			custom_effect_tooltip = integrate_country_norway_coring_states_tt
+			hidden_effect = {
+				hidden_effect = {
+					every_state = {
+						limit = {
+							OR = {
+								region = 11
+								region = 191
+								state = 1027
+							}
+						}
+						transfer_state_to = NOR
+					}
+				}
+			}
+			# Sweden
+			custom_effect_tooltip = integrate_country_sweden_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 10
+							region = 192
+							AND = {
+								region = 9	#just because there is Gotland and it is a separate state
+								NOT = {
+									state = 145	#not Aland, not here
+								}
+							}
+						}
+					}
+					transfer_state_to = NOR
+				}
+			}
+			# Denmark
+			custom_effect_tooltip = integrate_country_denmark_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 277
+							state = 1024
+							state = 337
+							state = 101
+							NOT = {
+								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
+							}
+						}
+					}
+					transfer_state_to = NOR
+				}
+			}
+			# Iceland
+			custom_effect_tooltip = integrate_country_iceland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							state = 100
+							state = 1043
+						}
+					}
+					transfer_state_to = NOR
+				}
+			}
+			# Finland
+			custom_effect_tooltip = integrate_country_finland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+					}
+					transfer_state_to = NOR
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_country_KAR_required_states_tt
+						146 = { is_controlled_by_ROOT_or_subject = yes }
+						147 = { is_controlled_by_ROOT_or_subject = yes }
+						213 = { is_controlled_by_ROOT_or_subject = yes }
+						215 = { is_controlled_by_ROOT_or_subject = yes }
+						216 = { is_controlled_by_ROOT_or_subject = yes }
+						722 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_country_KAR_coring_states_tt
+				hidden_effect = {
+					NOR = {
+						transfer_state = 146
+						transfer_state = 147
+						transfer_state = 213
+						transfer_state = 215
+						transfer_state = 216
+						transfer_state = 722
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	DEN_integrate_nordic_league = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			DEN = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_nordic_league_flag }
+		}
+		available = {
+			# Norway
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_norway_required_states_tt
+				all_state = {
+					OR = {
+						region = 11
+						region = 191
+						state = 1027
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Sweden
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_sweden_required_states_tt
+				all_state = {
+					OR = {
+						region = 10
+						region = 192
+						state = 124
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Denmark
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_denmark_required_states_tt
+				all_state = {
+					OR = {
+						region = 277
+						state = 1024
+						state = 337
+						state = 101
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Iceland 
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_iceland_recuired_states_tt
+				all_state = {
+					OR = {
+						state = 1043
+						state = 100
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Finland
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_finland_required_states_tt
+				all_state = {
+					OR = {
+						NOT = { 
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+						is_controlled_by_ROOT_or_subject = yes
+					}
+				}
+				#111 = { is_controlled_by_ROOT_or_subject = yes }
+				#145 = { is_controlled_by_ROOT_or_subject = yes }
+				#148 = { is_controlled_by_ROOT_or_subject = yes }
+				#149 = { is_controlled_by_ROOT_or_subject = yes }
+				#150 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			# Norway
+			custom_effect_tooltip = integrate_country_norway_coring_states_tt
+			hidden_effect = {
+				hidden_effect = {
+					every_state = {
+						limit = {
+							OR = {
+								region = 11
+								region = 191
+								state = 1027
+							}
+						}
+						transfer_state_to = DEN
+					}
+				}
+			}
+			# Sweden
+			custom_effect_tooltip = integrate_country_sweden_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 10
+							region = 192
+							AND = {
+								region = 9	#just because there is Gotland and it is a separate state
+								NOT = {
+									state = 145	#not Aland, not here
+								}
+							}
+						}
+					}
+					transfer_state_to = DEN
+				}
+			}
+			# Denmark
+			custom_effect_tooltip = integrate_country_denmark_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 277
+							state = 1024
+							state = 337
+							state = 101
+							NOT = {
+								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
+							}
+						}
+					}
+					transfer_state_to = DEN
+				}
+			}
+			# Iceland
+			custom_effect_tooltip = integrate_country_iceland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							state = 100
+							state = 1043
+						}
+					}
+					transfer_state_to = DEN
+				}
+			}
+			# Finland
+			custom_effect_tooltip = integrate_country_finland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+					}
+					transfer_state_to = DEN
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_country_KAR_required_states_tt
+						146 = { is_controlled_by_ROOT_or_subject = yes }
+						147 = { is_controlled_by_ROOT_or_subject = yes }
+						213 = { is_controlled_by_ROOT_or_subject = yes }
+						215 = { is_controlled_by_ROOT_or_subject = yes }
+						216 = { is_controlled_by_ROOT_or_subject = yes }
+						722 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_country_KAR_coring_states_tt
+				hidden_effect = {
+					DEN = {
+						transfer_state = 146
+						transfer_state = 147
+						transfer_state = 213
+						transfer_state = 215
+						transfer_state = 216
+						transfer_state = 722
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	SWE_integrate_nordic_league = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			SWE = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_nordic_league_flag }
+		}
+		available = {
+			# Norway
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_norway_required_states_tt
+				all_state = {
+					OR = {
+						region = 11
+						region = 191
+						state = 1027
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Sweden
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_sweden_required_states_tt
+				all_state = {
+					OR = {
+						region = 10
+						region = 192
+						state = 124
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Denmark
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_denmark_required_states_tt
+				all_state = {
+					OR = {
+						region = 277
+						state = 1024
+						state = 337
+						state = 101
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Iceland 
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_iceland_recuired_states_tt
+				all_state = {
+					OR = {
+						state = 1043
+						state = 100
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Finland
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_finland_required_states_tt
+				all_state = {
+					OR = {
+						NOT = { 
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+						is_controlled_by_ROOT_or_subject = yes
+					}
+				}
+				#111 = { is_controlled_by_ROOT_or_subject = yes }
+				#145 = { is_controlled_by_ROOT_or_subject = yes }
+				#148 = { is_controlled_by_ROOT_or_subject = yes }
+				#149 = { is_controlled_by_ROOT_or_subject = yes }
+				#150 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			# Norway
+			custom_effect_tooltip = integrate_country_norway_coring_states_tt
+			hidden_effect = {
+				hidden_effect = {
+					every_state = {
+						limit = {
+							OR = {
+								region = 11
+								region = 191
+								state = 1027
+							}
+						}
+						transfer_state_to = SWE
+					}
+				}
+			}
+			# Sweden
+			custom_effect_tooltip = integrate_country_sweden_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 10
+							region = 192
+							AND = {
+								region = 9	#just because there is Gotland and it is a separate state
+								NOT = {
+									state = 145	#not Aland, not here
+								}
+							}
+						}
+					}
+					transfer_state_to = SWE
+				}
+			}
+			# Denmark
+			custom_effect_tooltip = integrate_country_denmark_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 277
+							state = 1024
+							state = 337
+							state = 101
+							NOT = {
+								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
+							}
+						}
+					}
+					transfer_state_to = SWE
+				}
+			}
+			# Iceland
+			custom_effect_tooltip = integrate_country_iceland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							state = 100
+							state = 1043
+						}
+					}
+					transfer_state_to = SWE
+				}
+			}
+			# Finland
+			custom_effect_tooltip = integrate_country_finland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+					}
+					transfer_state_to = SWE
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_country_KAR_required_states_tt
+						146 = { is_controlled_by_ROOT_or_subject = yes }
+						147 = { is_controlled_by_ROOT_or_subject = yes }
+						213 = { is_controlled_by_ROOT_or_subject = yes }
+						215 = { is_controlled_by_ROOT_or_subject = yes }
+						216 = { is_controlled_by_ROOT_or_subject = yes }
+						722 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_country_KAR_coring_states_tt
+				hidden_effect = {
+					SWE = {
+						transfer_state = 146
+						transfer_state = 147
+						transfer_state = 213
+						transfer_state = 215
+						transfer_state = 216
+						transfer_state = 722
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	FIN_integrate_nordic_league = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			FIN = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_nordic_league_flag }
+		}
+		available = {
+			# Norway
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_norway_required_states_tt
+				all_state = {
+					OR = {
+						region = 11
+						region = 191
+						state = 1027
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Sweden
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_sweden_required_states_tt
+				all_state = {
+					OR = {
+						region = 10
+						region = 192
+						state = 124
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Denmark
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_denmark_required_states_tt
+				all_state = {
+					OR = {
+						region = 277
+						state = 1024
+						state = 337
+						state = 101
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Iceland 
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_iceland_recuired_states_tt
+				all_state = {
+					OR = {
+						state = 1043
+						state = 100
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Finland
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_finland_required_states_tt
+				all_state = {
+					OR = {
+						NOT = { 
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+						is_controlled_by_ROOT_or_subject = yes
+					}
+				}
+				#111 = { is_controlled_by_ROOT_or_subject = yes }
+				#145 = { is_controlled_by_ROOT_or_subject = yes }
+				#148 = { is_controlled_by_ROOT_or_subject = yes }
+				#149 = { is_controlled_by_ROOT_or_subject = yes }
+				#150 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			# Norway
+			custom_effect_tooltip = integrate_country_norway_coring_states_tt
+			hidden_effect = {
+				hidden_effect = {
+					every_state = {
+						limit = {
+							OR = {
+								region = 11
+								region = 191
+								state = 1027
+							}
+						}
+						transfer_state_to = FIN
+					}
+				}
+			}
+			# Sweden
+			custom_effect_tooltip = integrate_country_sweden_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 10
+							region = 192
+							AND = {
+								region = 9	#just because there is Gotland and it is a separate state
+								NOT = {
+									state = 145	#not Aland, not here
+								}
+							}
+						}
+					}
+					transfer_state_to = FIN
+				}
+			}
+			# Denmark
+			custom_effect_tooltip = integrate_country_denmark_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 277
+							state = 1024
+							state = 337
+							state = 101
+							NOT = {
+								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
+							}
+						}
+					}
+					transfer_state_to = FIN
+				}
+			}
+			# Iceland
+			custom_effect_tooltip = integrate_country_iceland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							state = 100
+							state = 1043
+						}
+					}
+					transfer_state_to = FIN
+				}
+			}
+			# Finland
+			custom_effect_tooltip = integrate_country_finland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+					}
+					transfer_state_to = FIN
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_country_KAR_required_states_tt
+						146 = { is_controlled_by_ROOT_or_subject = yes }
+						147 = { is_controlled_by_ROOT_or_subject = yes }
+						213 = { is_controlled_by_ROOT_or_subject = yes }
+						215 = { is_controlled_by_ROOT_or_subject = yes }
+						216 = { is_controlled_by_ROOT_or_subject = yes }
+						722 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_country_KAR_coring_states_tt
+				hidden_effect = {
+					FIN = {
+						transfer_state = 146
+						transfer_state = 147
+						transfer_state = 213
+						transfer_state = 215
+						transfer_state = 216
+						transfer_state = 722
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	ICE_integrate_nordic_league = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			ICE = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_nordic_league_flag }
+		}
+		available = {
+			# Norway
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_norway_required_states_tt
+				all_state = {
+					OR = {
+						region = 11
+						region = 191
+						state = 1027
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Sweden
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_sweden_required_states_tt
+				all_state = {
+					OR = {
+						region = 10
+						region = 192
+						state = 124
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Denmark
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_denmark_required_states_tt
+				all_state = {
+					OR = {
+						region = 277
+						state = 1024
+						state = 337
+						state = 101
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Iceland 
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_iceland_recuired_states_tt
+				all_state = {
+					OR = {
+						state = 1043
+						state = 100
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Finland
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_finland_required_states_tt
+				all_state = {
+					OR = {
+						NOT = { 
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+						is_controlled_by_ROOT_or_subject = yes
+					}
+				}
+				#111 = { is_controlled_by_ROOT_or_subject = yes }
+				#145 = { is_controlled_by_ROOT_or_subject = yes }
+				#148 = { is_controlled_by_ROOT_or_subject = yes }
+				#149 = { is_controlled_by_ROOT_or_subject = yes }
+				#150 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			# Norway
+			custom_effect_tooltip = integrate_country_norway_coring_states_tt
+			hidden_effect = {
+				hidden_effect = {
+					every_state = {
+						limit = {
+							OR = {
+								region = 11
+								region = 191
+								state = 1027
+							}
+						}
+						transfer_state_to = ICE
+					}
+				}
+			}
+			# Sweden
+			custom_effect_tooltip = integrate_country_sweden_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 10
+							region = 192
+							AND = {
+								region = 9	#just because there is Gotland and it is a separate state
+								NOT = {
+									state = 145	#not Aland, not here
+								}
+							}
+						}
+					}
+					transfer_state_to = ICE
+				}
+			}
+			# Denmark
+			custom_effect_tooltip = integrate_country_denmark_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 277
+							state = 1024
+							state = 337
+							state = 101
+							NOT = {
+								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
+							}
+						}
+					}
+					transfer_state_to = ICE
+				}
+			}
+			# Iceland
+			custom_effect_tooltip = integrate_country_iceland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							state = 100
+							state = 1043
+						}
+					}
+					transfer_state_to = ICE
+				}
+			}
+			# Finland
+			custom_effect_tooltip = integrate_country_finland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+					}
+					transfer_state_to = ICE
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_country_KAR_required_states_tt
+						146 = { is_controlled_by_ROOT_or_subject = yes }
+						147 = { is_controlled_by_ROOT_or_subject = yes }
+						213 = { is_controlled_by_ROOT_or_subject = yes }
+						215 = { is_controlled_by_ROOT_or_subject = yes }
+						216 = { is_controlled_by_ROOT_or_subject = yes }
+						722 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_country_KAR_coring_states_tt
+				hidden_effect = {
+					ICE = {
+						transfer_state = 146
+						transfer_state = 147
+						transfer_state = 213
+						transfer_state = 215
+						transfer_state = 216
+						transfer_state = 722
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	SAM_integrate_nordic_league = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			SAM = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_nordic_league_flag }
+		}
+		available = {
+			# Norway
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_norway_required_states_tt
+				all_state = {
+					OR = {
+						region = 11
+						region = 191
+						state = 1027
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Sweden
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_sweden_required_states_tt
+				all_state = {
+					OR = {
+						region = 10
+						region = 192
+						state = 124
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Denmark
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_denmark_required_states_tt
+				all_state = {
+					OR = {
+						region = 277
+						state = 1024
+						state = 337
+						state = 101
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Iceland 
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_iceland_recuired_states_tt
+				all_state = {
+					OR = {
+						state = 1043
+						state = 100
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Finland
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_finland_required_states_tt
+				all_state = {
+					OR = {
+						NOT = { 
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+						is_controlled_by_ROOT_or_subject = yes
+					}
+				}
+				#111 = { is_controlled_by_ROOT_or_subject = yes }
+				#145 = { is_controlled_by_ROOT_or_subject = yes }
+				#148 = { is_controlled_by_ROOT_or_subject = yes }
+				#149 = { is_controlled_by_ROOT_or_subject = yes }
+				#150 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			# Norway
+			custom_effect_tooltip = integrate_country_norway_coring_states_tt
+			hidden_effect = {
+				hidden_effect = {
+					every_state = {
+						limit = {
+							OR = {
+								region = 11
+								region = 191
+								state = 1027
+							}
+						}
+						transfer_state_to = SAM
+					}
+				}
+			}
+			# Sweden
+			custom_effect_tooltip = integrate_country_sweden_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 10
+							region = 192
+							AND = {
+								region = 9	#just because there is Gotland and it is a separate state
+								NOT = {
+									state = 145	#not Aland, not here
+								}
+							}
+						}
+					}
+					transfer_state_to = SAM
+				}
+			}
+			# Denmark
+			custom_effect_tooltip = integrate_country_denmark_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 277
+							state = 1024
+							state = 337
+							state = 101
+							NOT = {
+								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
+							}
+						}
+					}
+					transfer_state_to = SAM
+				}
+			}
+			# Iceland
+			custom_effect_tooltip = integrate_country_iceland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							state = 100
+							state = 1043
+						}
+					}
+					transfer_state_to = SAM
+				}
+			}
+			# Finland
+			custom_effect_tooltip = integrate_country_finland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+					}
+					transfer_state_to = SAM
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_country_KAR_required_states_tt
+						146 = { is_controlled_by_ROOT_or_subject = yes }
+						147 = { is_controlled_by_ROOT_or_subject = yes }
+						213 = { is_controlled_by_ROOT_or_subject = yes }
+						215 = { is_controlled_by_ROOT_or_subject = yes }
+						216 = { is_controlled_by_ROOT_or_subject = yes }
+						722 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_country_KAR_coring_states_tt
+				hidden_effect = {
+					SAM = {
+						transfer_state = 146
+						transfer_state = 147
+						transfer_state = 213
+						transfer_state = 215
+						transfer_state = 216
+						transfer_state = 722
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	KAR_integrate_nordic_league = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			KAR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_nordic_league_flag }
+		}
+		available = {
+			# Norway
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_norway_required_states_tt
+				all_state = {
+					OR = {
+						region = 11
+						region = 191
+						state = 1027
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Sweden
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_sweden_required_states_tt
+				all_state = {
+					OR = {
+						region = 10
+						region = 192
+						state = 124
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Denmark
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_denmark_required_states_tt
+				all_state = {
+					OR = {
+						region = 277
+						state = 1024
+						state = 337
+						state = 101
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Iceland 
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_iceland_recuired_states_tt
+				all_state = {
+					OR = {
+						state = 1043
+						state = 100
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Finland
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_finland_required_states_tt
+				all_state = {
+					OR = {
+						NOT = { 
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+						is_controlled_by_ROOT_or_subject = yes
+					}
+				}
+				#111 = { is_controlled_by_ROOT_or_subject = yes }
+				#145 = { is_controlled_by_ROOT_or_subject = yes }
+				#148 = { is_controlled_by_ROOT_or_subject = yes }
+				#149 = { is_controlled_by_ROOT_or_subject = yes }
+				#150 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			# Norway
+			custom_effect_tooltip = integrate_country_norway_coring_states_tt
+			hidden_effect = {
+				hidden_effect = {
+					every_state = {
+						limit = {
+							OR = {
+								region = 11
+								region = 191
+								state = 1027
+							}
+						}
+						transfer_state_to = KAR
+					}
+				}
+			}
+			# Sweden
+			custom_effect_tooltip = integrate_country_sweden_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 10
+							region = 192
+							AND = {
+								region = 9	#just because there is Gotland and it is a separate state
+								NOT = {
+									state = 145	#not Aland, not here
+								}
+							}
+						}
+					}
+					transfer_state_to = KAR
+				}
+			}
+			# Denmark
+			custom_effect_tooltip = integrate_country_denmark_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 277
+							state = 1024
+							state = 337
+							state = 101
+							NOT = {
+								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
+							}
+						}
+					}
+					transfer_state_to = KAR
+				}
+			}
+			# Iceland
+			custom_effect_tooltip = integrate_country_iceland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							state = 100
+							state = 1043
+						}
+					}
+					transfer_state_to = KAR
+				}
+			}
+			# Finland
+			custom_effect_tooltip = integrate_country_finland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+					}
+					transfer_state_to = KAR
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	EST_integrate_nordic_league = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+			has_dlc = "No Step Back"
+		}
+		visible = {
+			is_historical_focus_on = no
+			EST = {
+				is_subject_of = ROOT
+				has_completed_focus = EST_form_scandinavia
+			}
+			NOT = { has_global_flag = form_nordic_league_flag }
+		}
+		available = {
+			# Norway
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_norway_required_states_tt
+				all_state = {
+					OR = {
+						region = 11
+						region = 191
+						state = 1027
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Sweden
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_sweden_required_states_tt
+				all_state = {
+					OR = {
+						region = 10
+						region = 192
+						state = 124
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Denmark
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_denmark_required_states_tt
+				all_state = {
+					OR = {
+						region = 277
+						state = 1024
+						state = 337
+						state = 101
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Iceland 
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_iceland_recuired_states_tt
+				all_state = {
+					OR = {
+						state = 1043
+						state = 100
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Finland
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_finland_required_states_tt
+				all_state = {
+					OR = {
+						NOT = { 
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+						is_controlled_by_ROOT_or_subject = yes
+					}
+				}
+				#111 = { is_controlled_by_ROOT_or_subject = yes }
+				#145 = { is_controlled_by_ROOT_or_subject = yes }
+				#148 = { is_controlled_by_ROOT_or_subject = yes }
+				#149 = { is_controlled_by_ROOT_or_subject = yes }
+				#150 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			# Norway
+			custom_effect_tooltip = integrate_country_norway_coring_states_tt
+			hidden_effect = {
+				hidden_effect = {
+					every_state = {
+						limit = {
+							OR = {
+								region = 11
+								region = 191
+								state = 1027
+							}
+						}
+						transfer_state_to = EST
+					}
+				}
+			}
+			# Sweden
+			custom_effect_tooltip = integrate_country_sweden_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 10
+							region = 192
+							AND = {
+								region = 9	#just because there is Gotland and it is a separate state
+								NOT = {
+									state = 145	#not Aland, not here
+								}
+							}
+						}
+					}
+					transfer_state_to = EST
+				}
+			}
+			# Denmark
+			custom_effect_tooltip = integrate_country_denmark_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 277
+							state = 1024
+							state = 337
+							state = 101
+							NOT = {
+								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
+							}
+						}
+					}
+					transfer_state_to = EST
+				}
+			}
+			# Iceland
+			custom_effect_tooltip = integrate_country_iceland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							state = 100
+							state = 1043
+						}
+					}
+					transfer_state_to = EST
+				}
+			}
+			# Finland
+			custom_effect_tooltip = integrate_country_finland_coring_states_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							AND = {
+								region = 12
+								NOT = {
+									state = 213	#not Murmansk
+								}
+							}
+							AND = {
+								region = 9
+								NOT = {
+									state = 124	#Aland, not Gotland
+								}
+							}
+						}
+					}
+					transfer_state_to = EST
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_country_KAR_required_states_tt
+						146 = { is_controlled_by_ROOT_or_subject = yes }
+						147 = { is_controlled_by_ROOT_or_subject = yes }
+						213 = { is_controlled_by_ROOT_or_subject = yes }
+						215 = { is_controlled_by_ROOT_or_subject = yes }
+						216 = { is_controlled_by_ROOT_or_subject = yes }
+						722 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_country_KAR_coring_states_tt
+				hidden_effect = {
+					EST = {
+						transfer_state = 146
+						transfer_state = 147
+						transfer_state = 213
+						transfer_state = 215
+						transfer_state = 216
+						transfer_state = 722
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
 integrate_gran_colombia_category = {
 	PAN_integrate_gran_colombia = {
 		icon = generic_form_nation

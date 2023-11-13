@@ -106,12 +106,25 @@ form_north_american_category = {
 		zoom = 1000
 	}
 }
+integrate_north_american_category = {
+	icon = generic_formable_nations
+}
 
 form_greater_china_category = {
 	icon = generic_formable_nations
 	picture = GFX_decision_cat_picture_chi_political_support
 }
+integrate_greater_china_category = {
+	icon = generic_formable_nations
+}
 
 back_tsarist_russia_category = {
+	icon = generic_formable_nations
+}
+
+integrate_greater_german_reich_category = {
+	icon = generic_formable_nations
+}
+integrate_greater_italy_category = {
 	icon = generic_formable_nations
 }

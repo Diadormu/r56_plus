@@ -1,3 +1,9 @@
+integrate_scandinavia_category = {
+	icon = generic_formable_nations
+}
+integrate_nordic_league_category = {
+	icon = generic_formable_nations
+}
 integrate_gran_colombia_category = {
 	icon = generic_formable_nations
 }
