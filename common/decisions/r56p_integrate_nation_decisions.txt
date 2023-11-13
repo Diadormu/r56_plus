@@ -496,7 +496,7 @@ integrate_austria_hungary_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = { factor = 0 }
 	}
 	CZE_integrate_austria_hungary = {
 		icon = generic_form_nation
@@ -644,7 +644,7 @@ integrate_austria_hungary_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = { factor = 0 }
 	}
 	CRO_integrate_austria_hungary = {
 		icon = generic_form_nation
@@ -792,7 +792,7 @@ integrate_austria_hungary_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = { factor = 0 }
 	}
 	HUN_integrate_austria_hungary = {
 		icon = generic_form_nation
@@ -943,7 +943,7 @@ integrate_austria_hungary_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = { factor = 0 }
 	}
 	HUN_integrate_austro_hungarian_empire = {
 		icon = generic_form_nation
@@ -1121,7 +1121,7 @@ integrate_commonwealth_category = {
 				transfer_state = 936
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = { factor = 0 }
 	}
 	LIT_integrate_commonwealth = {
 		icon = generic_form_nation
@@ -1180,7 +1180,7 @@ integrate_commonwealth_category = {
 				transfer_state = 936
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = { factor = 0 }
 	}
 }
 
