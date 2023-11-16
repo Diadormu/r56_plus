@@ -3726,6 +3726,7 @@ form_mutapa_category = {
 			controls_state = 542
 			controls_state = 545
 			controls_state = 544
+			controls_state = 896
 			controls_state = 938
 			controls_state = 939
 			controls_state = 940
@@ -3752,6 +3753,7 @@ form_mutapa_category = {
 			542 = { add_core_of = ROOT }
 			545 = { add_core_of = ROOT }
 			544 = { add_core_of = ROOT }
+			896 = { add_core_of = ROOT }
 			938 = { add_core_of = ROOT }
 			939 = { add_core_of = ROOT }
 			940 = { add_core_of = ROOT }
@@ -6851,6 +6853,7 @@ form_arabia_category = {
 				controls_state = 665
 				controls_state = 460
 				controls_state = 513
+				controls_state = 514
 				controls_state = 933
 				controls_state = 459
 				controls_state = 461
@@ -6962,6 +6965,7 @@ form_arabia_category = {
 				665 = { add_core_of = ROOT }
 				460 = { add_core_of = ROOT }
 				513 = { add_core_of = ROOT }
+				514 = { add_core_of = ROOT }
 				933 = { add_core_of = ROOT }
 				459 = { add_core_of = ROOT }
 				461 = { add_core_of = ROOT }
@@ -7001,6 +7005,8 @@ form_arabia_category = {
 				552 = { add_core_of = ROOT }
 				767 = { add_core_of = ROOT }
 				883 = { add_core_of = ROOT }
+				884 = { add_core_of = ROOT }
+				885 = { add_core_of = ROOT }
 				886 = { add_core_of = ROOT }
 				887 = { add_core_of = ROOT }
 				765 = { add_core_of = ROOT }	#Qatar
@@ -8228,10 +8234,10 @@ form_polynesia_category = {
 		}
 
 		available = {
-			OR = {
+			#OR = {
 			#	is_subject = no
-				has_autonomy_state = autonomy_dominion #New Zealand should be able to do it
-			}
+			#	has_autonomy_state = autonomy_dominion #New Zealand should be able to do it
+			#}
 			# Polynesia
 			controls_state = 284 #North Island
 			controls_state = 629 #Hawaii

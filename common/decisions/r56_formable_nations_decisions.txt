@@ -9,7 +9,8 @@ unite_the_levant_category = {
                 original_tag = JOR
             }
         }
-        fire_only_once = yes
+        #fire_only_once = yes
+        visible = { NOT = { has_global_flag = form_greater_syria_flag } }
         available = {
         #   is_subject = no
             custom_trigger_tooltip = {
@@ -51,7 +52,7 @@ unite_the_levant_category = {
                 }
                 news_event = { id = r56.news_event.34 hours = 6 }
             }
-            set_province_name = { id = 1086 name = "Al-Quds" }
+            set_province_name = { id = 1086 name = "圣城" }
             custom_effect_tooltip = form_country_gs_iraq_kuwait_coring_states_tt
             hidden_effect = {
                 add_state_core = 676
@@ -74,6 +75,7 @@ unite_the_levant_category = {
             add_ideas = generic_recent_political_unification
             add_ideas = generic_recent_army_unification
             add_ideas = generic_recent_economic_unification
+            set_global_flag = form_greater_syria_flag
         }
 
         ai_will_do = {
@@ -147,7 +149,8 @@ unify_the_peninsula_category = {
 
 form_peru_bolivia_category = {
     form_peru_bolivia = {
-        fire_only_once = yes
+        #fire_only_once = yes
+        visible = { NOT = { has_global_flag = form_peru_bolivia_flag } }
         icon = generic_form_nation
 
         allowed = {
@@ -191,6 +194,7 @@ form_peru_bolivia_category = {
         complete_effect = {
             set_country_flag = formed_peru_bolivia
             set_cosmetic_tag = PRB
+            set_global_flag = form_peru_bolivia_flag
             688 = { add_core_of = ROOT }
             506 = { add_core_of = ROOT }
             490 = { add_core_of = ROOT }
@@ -221,7 +225,8 @@ form_prussia_category = {
     form_prussia = {
         icon = generic_form_nation
         cost = 0
-        fire_only_once = yes
+        #fire_only_once = yes
+        visible = { NOT = { has_global_flag = form_prussia_flag } }
 
         allowed = { original_tag = DNZ }
 
@@ -269,6 +274,7 @@ form_prussia_category = {
             add_state_core = 62
             add_state_core = 5
             #set_cosmetic_tag = PRS
+            set_global_flag = form_prussia_flag
             add_ideas = generic_recent_political_unification
             add_ideas = generic_recent_army_unification
             add_ideas = generic_recent_economic_unification
@@ -585,7 +591,8 @@ form_carribean_category = {
                 original_tag = CRC
             }
         }
-        fire_only_once = yes
+        #fire_only_once = yes
+        visible = { NOT = { has_global_flag = form_caribbean_flag } }
         available = {
             994 = { is_controlled_by = ROOT }
             315 = { is_controlled_by = ROOT }
@@ -612,6 +619,7 @@ form_carribean_category = {
             972 = {
                 add_core_of = ROOT
             }
+            set_global_flag = form_caribbean_flag
         }
         ai_will_do = {
             factor = 50
@@ -1164,7 +1172,8 @@ form_nation_mod_category = {
 
 		visible = {
 			original_tag = MOR
-			NOT = { has_country_flag = country_formed_greater_morocco }
+			#NOT = { has_country_flag = country_formed_greater_morocco }
+			NOT = { has_global_flag = integrate_greater_morocco_flag }
 
 		}
 
@@ -1182,6 +1191,7 @@ form_nation_mod_category = {
 
 			hidden_effect = {
 				set_country_flag = country_formed_greater_morocco
+				set_global_flag = integrate_greater_morocco_flag
 			}
 		}
 
@@ -1191,7 +1201,7 @@ form_nation_mod_category = {
 	}
 
     form_la_plata = {
-        fire_only_once = yes
+        #fire_only_once = yes
         icon = generic_form_nation
         days_re_enable = 0
 
@@ -1212,6 +1222,7 @@ form_nation_mod_category = {
                 }
                 NOT = { has_country_flag = r56_hide_formables }
             }
+            NOT = { has_global_flag = form_la_plata_flag }
         }
         available = { #Argentina, Uruguay, Paraguay
             all_state = {
@@ -1235,6 +1246,7 @@ form_nation_mod_category = {
         }
         complete_effect = {
             set_cosmetic_tag = PLA
+            set_global_flag = form_la_plata_flag
             if = {
                 limit = {
                     278 = { is_capital = no }
@@ -1260,7 +1272,7 @@ form_nation_mod_category = {
         }
     }
     form_west_african_union = {
-        fire_only_once = yes
+        #fire_only_once = yes
         icon = generic_form_nation
 
         allowed = {
@@ -1272,17 +1284,19 @@ form_nation_mod_category = {
                 original_tag = DAH
                 original_tag = GNA
                 original_tag = NGA
-
+                original_tag = GHA
                 original_tag = LIB
                 original_tag = MLI
+                original_tag = NGR
             }
 
         }
         visible = {
             #avoid west africa - Ancient Mali combo
-            NOT = {
-                has_cosmetic_tag = MALI_UNITED
-            }
+            #NOT = {
+            #    has_cosmetic_tag = MALI_UNITED
+            #}
+            NOT = { has_global_flag = form_west_african_union_flag }
         }
         available = { #
             all_state = {
@@ -1329,6 +1343,12 @@ form_nation_mod_category = {
             }
             all_state = {
                 OR = {
+                    NOT = { is_core_of = GHA }
+                    is_controlled_by = ROOT
+                }
+            }
+            all_state = {
+                OR = {
                     NOT = { is_core_of = SIE }
                     is_controlled_by = ROOT
                 }
@@ -1338,10 +1358,17 @@ form_nation_mod_category = {
                     NOT = { is_core_of = LIB }
                     is_controlled_by = ROOT
                 }
-            }            
+            }
+            all_state = {
+                OR = {
+                    NOT = { is_core_of = NGR }
+                    is_controlled_by = ROOT
+                }
+            }
         }
         complete_effect = {
             set_cosmetic_tag = WAU_UNITED
+            set_global_flag = form_west_african_union_flag
             #if = {
             #    limit = {
             #        278 = { is_capital = no }
@@ -1359,11 +1386,12 @@ form_nation_mod_category = {
                             is_core_of = SEN
                             is_core_of = GNA
                             is_core_of = NGA
+                            is_core_of = GHA
                             is_core_of = LIB
                             is_core_of = SIE
                             is_core_of = GNB
                             is_core_of = GAM
-                            is_core_of = LIB
+                            is_core_of = NGR
                         }
                     }
                     add_core_of = PREV #ROOT
@@ -1380,7 +1408,7 @@ form_nation_mod_category = {
         }
     }
     reform_the_empire_of_mali = {
-        fire_only_once = yes
+        #fire_only_once = yes
         icon = generic_form_nation
 
         allowed = {
@@ -1395,9 +1423,10 @@ form_nation_mod_category = {
         }
         visible = {
             #avoid west africa - Ancient Mali combo
-            NOT = {
-                has_cosmetic_tag = WAU_UNITED
-            }
+            #NOT = {
+            #    has_cosmetic_tag = WAU_UNITED
+            #}
+            NOT = { has_global_flag = reform_the_empire_of_mali_flag }
         }
         available = { #
             all_state = {
@@ -1433,6 +1462,7 @@ form_nation_mod_category = {
         }
         complete_effect = {
             set_cosmetic_tag = MALI_UNITED
+            set_global_flag = reform_the_empire_of_mali_flag
             #if = {
             #    limit = {
             #        278 = { is_capital = no }
@@ -1739,7 +1769,7 @@ form_nation_mod_category = {
 #	}
     form_idel_ural = {
         icon = generic_form_nation
-        fire_only_once = yes
+        #fire_only_once = yes
         allowed = { original_tag = TAT }
 
         available = {
@@ -1749,6 +1779,7 @@ form_nation_mod_category = {
             controls_state = 651
             controls_state = 582
             controls_state = 401
+            NOT = { has_global_flag = reunited_idel_ural_flag }
         }
 
         complete_effect = {
@@ -1762,6 +1793,7 @@ form_nation_mod_category = {
             add_ideas = generic_recent_economic_unification
             set_country_flag = reunited_idel_ural
             set_cosmetic_tag = IDEL_URAL
+            set_global_flag = reunited_idel_ural_flag
         }
 
         ai_will_do = {
@@ -1913,7 +1945,7 @@ form_nation_mod_category = {
 
     unite_the_cossack_hosts = {
         icon = generic_form_nation
-        fire_only_once = yes
+        #fire_only_once = yes
         allowed = {
             OR = {
                 original_tag = DON
@@ -1922,7 +1954,7 @@ form_nation_mod_category = {
         }
         visible = {
             NOT = {
-                has_cosmetic_tag = COSSACKS_UNITED
+                has_global_flag = unite_the_cossack_hosts_flag
             }
         }
         available = {
@@ -1957,6 +1989,7 @@ form_nation_mod_category = {
             add_ideas = generic_recent_army_unification
             add_ideas = generic_recent_economic_unification
             set_country_flag = cossacks_united
+            set_global_flag = unite_the_cossack_hosts_flag
         }
 
         ai_will_do = {
@@ -1967,7 +2000,8 @@ form_nation_mod_category = {
         # Dravidar Kazhagam leader of the Dravidian unification movement as part of the Justice party in India - soc dem.
         # S. P. Adithanar was in Singapore before 1942 but was clearly militant later in life. Closest thing to a fascist?
         icon = generic_form_nation
-        fire_only_once = yes
+        #fire_only_once = yes
+        visible = { NOT = { has_global_flag = form_a_dravidian_state_flag } }
         allowed = { original_tag = SRL }
 
         available = {
@@ -1998,6 +2032,7 @@ form_nation_mod_category = {
             add_ideas = generic_recent_economic_unification
             set_country_flag = reunited_idel_ural
             set_cosmetic_tag = DRAVIDIAN_UNITED
+            set_global_flag = form_a_dravidian_state_flag
         }
 
         ai_will_do = {
@@ -2156,7 +2191,8 @@ form_hispanoamerica_category = {
                 original_tag = VEN
             }
         }
-        fire_only_once = yes
+        #fire_only_once = yes
+        visible = { NOT = { has_global_flag = form_hispanomerica_flag } }
         available = {
         
             any_state = {
@@ -2358,7 +2394,8 @@ form_pru_hispanoamerica_category = {    #seperated to use a different name etc
         allowed = {
                 original_tag = PRU   
         }
-        fire_only_once = yes
+        #fire_only_once = yes
+        visible = { NOT = { has_global_flag = form_hispanomerica_flag } }
         available = {
             OR = {
                 has_completed_focus = PRU_hispanism     #only for very Spanish-embracing people
@@ -2480,7 +2517,7 @@ form_pru_hispanoamerica_category = {    #seperated to use a different name etc
 reform_the_mamluks_category = {
     reform_the_mamluks = {
         icon = generic_form_nation
-        fire_only_once = yes
+        #fire_only_once = yes
 
         allowed = {
             OR = {
@@ -2493,7 +2530,8 @@ reform_the_mamluks_category = {
         }
 
         visible = {
-            NOT = { has_government = communism }
+            #NOT = { has_government = communism }
+            NOT = { has_global_flag = reform_the_mamluks_flag }
         }
 
         available = {
@@ -2550,6 +2588,7 @@ reform_the_mamluks_category = {
         complete_effect = {
             custom_effect_tooltip = form_country_gs_required_coring_states_tt
             set_cosmetic_tag = MAM
+            set_global_flag = reform_the_mamluks_flag
             add_ideas = generic_recent_political_unification
             add_ideas = generic_recent_army_unification
             add_ideas = generic_recent_economic_unification

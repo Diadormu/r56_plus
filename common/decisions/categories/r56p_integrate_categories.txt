@@ -64,3 +64,40 @@ integrate_idel_ural_category = {
 integrate_east_africa_category = {
 	icon = generic_formable_nations
 }
+#==========road to 56 ==========#
+integrate_the_levant_category = {
+	icon = generic_formable_nations
+}
+integrate_peru_bolivia_category = {
+	icon = generic_formable_nations
+}
+integrate_prussia_category = {
+	icon = generic_formable_nations
+}
+integrate_carribean_category = {
+	icon = generic_formable_nations
+}
+integrate_greater_morocco_category = {
+	icon = generic_formable_nations
+}
+integrate_la_plata = {
+	icon = generic_formable_nations
+}
+integrate_west_african_union = {
+	icon = generic_formable_nations
+}
+integrate_the_empire_of_mali = {
+	icon = generic_formable_nations
+}
+integrate_a_dravidian_state = {
+	icon = generic_formable_nations
+}
+integrate_hispanoamerica_category = {
+	icon = generic_formable_nations
+}
+integrate_the_mamluks_category = {
+	icon = generic_formable_nations
+}
+integrate_alamannia_category = {
+	icon = generic_formable_nations
+}

@@ -51,7 +51,7 @@ integrate_scandinavia_category = {
 			# Norway
 			custom_effect_tooltip = integrate_country_norway_coring_states_tt
 			hidden_effect = {
-				every_owned_state = {
+				every_state = {
 					limit = {
 						OR = {
 							region = 11
@@ -85,7 +85,7 @@ integrate_scandinavia_category = {
 			# Denmark / European Mainland
 			custom_effect_tooltip = integrate_scandinavia_denmark_coring_states_tt
 			hidden_effect = {
-				every_owned_state = {
+				every_state = {
 					limit = {
 						OR = {
 							region = 277
@@ -151,7 +151,7 @@ integrate_scandinavia_category = {
 			# Norway
 			custom_effect_tooltip = integrate_country_norway_coring_states_tt
 			hidden_effect = {
-				every_owned_state = {
+				every_state = {
 					limit = {
 						OR = {
 							region = 11
@@ -185,7 +185,7 @@ integrate_scandinavia_category = {
 			# Denmark / European Mainland
 			custom_effect_tooltip = integrate_scandinavia_denmark_coring_states_tt
 			hidden_effect = {
-				every_owned_state = {
+				every_state = {
 					limit = {
 						OR = {
 							region = 277
@@ -251,7 +251,7 @@ integrate_scandinavia_category = {
 			# Norway
 			custom_effect_tooltip = integrate_country_norway_coring_states_tt
 			hidden_effect = {
-				every_owned_state = {
+				every_state = {
 					limit = {
 						OR = {
 							region = 11
@@ -285,7 +285,7 @@ integrate_scandinavia_category = {
 			# Denmark / European Mainland
 			custom_effect_tooltip = integrate_scandinavia_denmark_coring_states_tt
 			hidden_effect = {
-				every_owned_state = {
+				every_state = {
 					limit = {
 						OR = {
 							region = 277
@@ -351,7 +351,7 @@ integrate_scandinavia_category = {
 			# Norway
 			custom_effect_tooltip = integrate_country_norway_coring_states_tt
 			hidden_effect = {
-				every_owned_state = {
+				every_state = {
 					limit = {
 						OR = {
 							region = 11
@@ -385,7 +385,7 @@ integrate_scandinavia_category = {
 			# Denmark / European Mainland
 			custom_effect_tooltip = integrate_scandinavia_denmark_coring_states_tt
 			hidden_effect = {
-				every_owned_state = {
+				every_state = {
 					limit = {
 						OR = {
 							region = 277
@@ -451,7 +451,7 @@ integrate_scandinavia_category = {
 			# Norway
 			custom_effect_tooltip = integrate_country_norway_coring_states_tt
 			hidden_effect = {
-				every_owned_state = {
+				every_state = {
 					limit = {
 						OR = {
 							region = 11
@@ -485,7 +485,7 @@ integrate_scandinavia_category = {
 			# Denmark / European Mainland
 			custom_effect_tooltip = integrate_scandinavia_denmark_coring_states_tt
 			hidden_effect = {
-				every_owned_state = {
+				every_state = {
 					limit = {
 						OR = {
 							region = 277
@@ -555,7 +555,7 @@ integrate_scandinavia_category = {
 			# Norway
 			custom_effect_tooltip = integrate_country_norway_coring_states_tt
 			hidden_effect = {
-				every_owned_state = {
+				every_state = {
 					limit = {
 						OR = {
 							region = 11
@@ -589,7 +589,7 @@ integrate_scandinavia_category = {
 			# Denmark / European Mainland
 			custom_effect_tooltip = integrate_scandinavia_denmark_coring_states_tt
 			hidden_effect = {
-				every_owned_state = {
+				every_state = {
 					limit = {
 						OR = {
 							region = 277
@@ -3964,6 +3964,7 @@ integrate_mutapa_category = {
 			542 = { is_controlled_by_ROOT_or_subject = yes }
 			545 = { is_controlled_by_ROOT_or_subject = yes }
 			544 = { is_controlled_by_ROOT_or_subject = yes }
+			896 = { is_controlled_by_ROOT_or_subject = yes }
 			938 = { is_controlled_by_ROOT_or_subject = yes }
 			939 = { is_controlled_by_ROOT_or_subject = yes }
 			940 = { is_controlled_by_ROOT_or_subject = yes }
@@ -3977,6 +3978,7 @@ integrate_mutapa_category = {
 				transfer_state = 542
 				transfer_state = 545
 				transfer_state = 544
+				transfer_state = 896
 				transfer_state = 938
 				transfer_state = 939
 				transfer_state = 940
@@ -4002,6 +4004,7 @@ integrate_mutapa_category = {
 			542 = { is_controlled_by_ROOT_or_subject = yes }
 			545 = { is_controlled_by_ROOT_or_subject = yes }
 			544 = { is_controlled_by_ROOT_or_subject = yes }
+			896 = { is_controlled_by_ROOT_or_subject = yes }
 			938 = { is_controlled_by_ROOT_or_subject = yes }
 			939 = { is_controlled_by_ROOT_or_subject = yes }
 			940 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4015,6 +4018,7 @@ integrate_mutapa_category = {
 				transfer_state = 542
 				transfer_state = 545
 				transfer_state = 544
+				transfer_state = 896
 				transfer_state = 938
 				transfer_state = 939
 				transfer_state = 940
@@ -4040,6 +4044,7 @@ integrate_mutapa_category = {
 			542 = { is_controlled_by_ROOT_or_subject = yes }
 			545 = { is_controlled_by_ROOT_or_subject = yes }
 			544 = { is_controlled_by_ROOT_or_subject = yes }
+			896 = { is_controlled_by_ROOT_or_subject = yes }
 			938 = { is_controlled_by_ROOT_or_subject = yes }
 			939 = { is_controlled_by_ROOT_or_subject = yes }
 			940 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4053,6 +4058,7 @@ integrate_mutapa_category = {
 				transfer_state = 542
 				transfer_state = 545
 				transfer_state = 544
+				transfer_state = 896
 				transfer_state = 938
 				transfer_state = 939
 				transfer_state = 940
@@ -4078,6 +4084,7 @@ integrate_mutapa_category = {
 			542 = { is_controlled_by_ROOT_or_subject = yes }
 			545 = { is_controlled_by_ROOT_or_subject = yes }
 			544 = { is_controlled_by_ROOT_or_subject = yes }
+			896 = { is_controlled_by_ROOT_or_subject = yes }
 			938 = { is_controlled_by_ROOT_or_subject = yes }
 			939 = { is_controlled_by_ROOT_or_subject = yes }
 			940 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4091,6 +4098,7 @@ integrate_mutapa_category = {
 				transfer_state = 542
 				transfer_state = 545
 				transfer_state = 544
+				transfer_state = 896
 				transfer_state = 938
 				transfer_state = 939
 				transfer_state = 940
@@ -4116,6 +4124,7 @@ integrate_mutapa_category = {
 			542 = { is_controlled_by_ROOT_or_subject = yes }
 			545 = { is_controlled_by_ROOT_or_subject = yes }
 			544 = { is_controlled_by_ROOT_or_subject = yes }
+			896 = { is_controlled_by_ROOT_or_subject = yes }
 			938 = { is_controlled_by_ROOT_or_subject = yes }
 			939 = { is_controlled_by_ROOT_or_subject = yes }
 			940 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4129,6 +4138,7 @@ integrate_mutapa_category = {
 				transfer_state = 542
 				transfer_state = 545
 				transfer_state = 544
+				transfer_state = 896
 				transfer_state = 938
 				transfer_state = 939
 				transfer_state = 940
@@ -4154,6 +4164,7 @@ integrate_mutapa_category = {
 			542 = { is_controlled_by_ROOT_or_subject = yes }
 			545 = { is_controlled_by_ROOT_or_subject = yes }
 			544 = { is_controlled_by_ROOT_or_subject = yes }
+			896 = { is_controlled_by_ROOT_or_subject = yes }
 			938 = { is_controlled_by_ROOT_or_subject = yes }
 			939 = { is_controlled_by_ROOT_or_subject = yes }
 			940 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4167,6 +4178,7 @@ integrate_mutapa_category = {
 				transfer_state = 542
 				transfer_state = 545
 				transfer_state = 544
+				transfer_state = 896
 				transfer_state = 938
 				transfer_state = 939
 				transfer_state = 940
@@ -4224,6 +4236,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4296,6 +4309,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -4348,6 +4362,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -4424,6 +4446,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4496,6 +4519,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -4548,6 +4572,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -4624,6 +4656,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4696,6 +4729,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -4748,6 +4782,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -4824,6 +4866,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4896,6 +4939,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -4948,6 +4992,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -5024,6 +5076,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -5096,6 +5149,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -5148,6 +5202,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -5224,6 +5286,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -5296,6 +5359,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -5348,6 +5412,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -5424,6 +5496,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -5496,6 +5569,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -5548,6 +5622,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -5624,6 +5706,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -5696,6 +5779,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -5748,6 +5832,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -5824,6 +5916,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -5896,6 +5989,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -5948,6 +6042,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -6024,6 +6126,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -6096,6 +6199,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -6148,6 +6252,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -6224,6 +6336,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -6296,6 +6409,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -6348,6 +6462,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -6424,6 +6546,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -6496,6 +6619,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -6548,6 +6672,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -6624,6 +6756,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -6696,6 +6829,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -6748,6 +6882,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -6824,6 +6966,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -6896,6 +7039,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -6948,6 +7092,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -7024,6 +7176,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -7096,6 +7249,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -7148,6 +7302,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -7224,6 +7386,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -7296,6 +7459,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -7348,6 +7512,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -7424,6 +7596,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -7496,6 +7669,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -7548,6 +7722,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -7627,6 +7809,7 @@ integrate_arabia_category = {
 				665 = { is_controlled_by_ROOT_or_subject = yes }
 				460 = { is_controlled_by_ROOT_or_subject = yes }
 				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
 				933 = { is_controlled_by_ROOT_or_subject = yes }
 				459 = { is_controlled_by_ROOT_or_subject = yes }
 				461 = { is_controlled_by_ROOT_or_subject = yes }
@@ -7699,6 +7882,7 @@ integrate_arabia_category = {
 					transfer_state = 665
 					transfer_state = 460
 					transfer_state = 513
+					transfer_state = 514
 					transfer_state = 933
 					transfer_state = 459
 					transfer_state = 461
@@ -7751,6 +7935,14 @@ integrate_arabia_category = {
 				if = {
 					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
 				}
 				if = {
 					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -9184,10 +9376,8 @@ integrate_cossack_hosts = {
 	DON_integrate_cossack_hosts = {
 		icon = generic_form_nation
 		visible = {
-			DON = {
-				is_subject_of = ROOT
-				NOT = { has_country_flag = cossacks_united }
-			}
+			DON = { is_subject_of = ROOT }
+			NOT = { has_global_flag = unite_the_cossack_hosts_flag }
 		}
 		available = {
 			218 = { is_controlled_by_ROOT_or_subject = yes }
@@ -9216,10 +9406,8 @@ integrate_cossack_hosts = {
 	KUB_integrate_cossack_hosts = {
 		icon = generic_form_nation
 		visible = {
-			KUB = {
-				is_subject_of = ROOT
-				NOT = { has_country_flag = cossacks_united }
-			}
+			KUB = { is_subject_of = ROOT }
+			NOT = { has_global_flag = unite_the_cossack_hosts_flag }
 		}
 		available = {
 			218 = { is_controlled_by_ROOT_or_subject = yes }
@@ -12013,10 +12201,8 @@ integrate_idel_ural = {
 	TAT_integrate_idel_ural = {
 		icon = generic_form_nation
 		visible = {
-			TAT = {
-				is_subject_of = ROOT
-				NOT = { has_country_flag = reunited_idel_ural }
-			}
+			TAT = { is_subject_of = ROOT }
+			NOT = { has_global_flag = reunited_idel_ural_flag }
 		}
 		available = {
 			652 = { is_controlled_by_ROOT_or_subject = yes }
@@ -12408,6 +12594,3663 @@ integrate_east_africa_category = {
 					limit = { 708 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 708
 				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
+#==========road to 56 ==========#
+
+integrate_the_levant_category = {
+	LEB_integrate_greater_syria = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			LEB = {
+				is_subject_of = ROOT
+				NOT = {
+					has_cosmetic_tag = ARA_UNIFIED
+					has_completed_focus = PAL_islamists
+				}
+			}
+			NOT = { has_global_flag = form_greater_syria_flag }
+		}
+		available = {
+			680 = { is_controlled_by_ROOT_or_subject = yes }
+			677 = { is_controlled_by_ROOT_or_subject = yes }
+			554 = { is_controlled_by_ROOT_or_subject = yes }
+			553 = { is_controlled_by_ROOT_or_subject = yes }
+			454 = { is_controlled_by_ROOT_or_subject = yes }
+			1016 = { is_controlled_by_ROOT_or_subject = yes }
+			1017 = { is_controlled_by_ROOT_or_subject = yes }
+			949 = { is_controlled_by_ROOT_or_subject = yes }
+			966 = { is_controlled_by_ROOT_or_subject = yes }
+			455 = { is_controlled_by_ROOT_or_subject = yes }
+			1021 = { is_controlled_by_ROOT_or_subject = yes }
+			1022 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = JOR
+						is_core_of = LEB
+						is_core_of = PAL
+						is_core_of = SYR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = LEB
+				#Siria, Libano, Palestina, Jordan
+			}
+			LEB = {
+				if = {
+					limit = { 799 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 799
+				}
+				if = {
+					limit = { 676 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 676
+				}
+				if = {
+					limit = { 675 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 675
+				}
+				if = {
+					limit = { 291 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 291
+				}
+				if = {
+					limit = { 656 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 656
+				}
+				if = {
+					limit = { 183 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 183
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	SYR_integrate_greater_syria = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			SYR = {
+				is_subject_of = ROOT
+				NOT = {
+					has_cosmetic_tag = ARA_UNIFIED
+					has_completed_focus = PAL_islamists
+				}
+			}
+			NOT = { has_global_flag = form_greater_syria_flag }
+		}
+		available = {
+			680 = { is_controlled_by_ROOT_or_subject = yes }
+			677 = { is_controlled_by_ROOT_or_subject = yes }
+			554 = { is_controlled_by_ROOT_or_subject = yes }
+			553 = { is_controlled_by_ROOT_or_subject = yes }
+			454 = { is_controlled_by_ROOT_or_subject = yes }
+			1016 = { is_controlled_by_ROOT_or_subject = yes }
+			1017 = { is_controlled_by_ROOT_or_subject = yes }
+			949 = { is_controlled_by_ROOT_or_subject = yes }
+			966 = { is_controlled_by_ROOT_or_subject = yes }
+			455 = { is_controlled_by_ROOT_or_subject = yes }
+			1021 = { is_controlled_by_ROOT_or_subject = yes }
+			1022 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = JOR
+						is_core_of = LEB
+						is_core_of = PAL
+						is_core_of = SYR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = SYR
+				#Siria, Libano, Palestina, Jordan
+			}
+			SYR = {
+				if = {
+					limit = { 799 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 799
+				}
+				if = {
+					limit = { 676 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 676
+				}
+				if = {
+					limit = { 675 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 675
+				}
+				if = {
+					limit = { 291 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 291
+				}
+				if = {
+					limit = { 656 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 656
+				}
+				if = {
+					limit = { 183 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 183
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	JOR_integrate_greater_syria = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			JOR = {
+				is_subject_of = ROOT
+				NOT = {
+					has_cosmetic_tag = ARA_UNIFIED
+					has_completed_focus = PAL_islamists
+				}
+			}
+			NOT = { has_global_flag = form_greater_syria_flag }
+		}
+		available = {
+			680 = { is_controlled_by_ROOT_or_subject = yes }
+			677 = { is_controlled_by_ROOT_or_subject = yes }
+			554 = { is_controlled_by_ROOT_or_subject = yes }
+			553 = { is_controlled_by_ROOT_or_subject = yes }
+			454 = { is_controlled_by_ROOT_or_subject = yes }
+			1016 = { is_controlled_by_ROOT_or_subject = yes }
+			1017 = { is_controlled_by_ROOT_or_subject = yes }
+			949 = { is_controlled_by_ROOT_or_subject = yes }
+			966 = { is_controlled_by_ROOT_or_subject = yes }
+			455 = { is_controlled_by_ROOT_or_subject = yes }
+			1021 = { is_controlled_by_ROOT_or_subject = yes }
+			1022 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = JOR
+						is_core_of = LEB
+						is_core_of = PAL
+						is_core_of = SYR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = JOR
+				#Siria, Libano, Palestina, Jordan
+			}
+			JOR = {
+				if = {
+					limit = { 799 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 799
+				}
+				if = {
+					limit = { 676 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 676
+				}
+				if = {
+					limit = { 675 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 675
+				}
+				if = {
+					limit = { 291 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 291
+				}
+				if = {
+					limit = { 656 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 656
+				}
+				if = {
+					limit = { 183 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 183
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
+integrate_peru_bolivia_category = {
+	BOL_integrate_peru_bolivia = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			BOL = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_peru_bolivia_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = PRU }
+					is_core_of = ECU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = BOL }
+					is_core_of = PAR
+					is_core_of = CHL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect= {
+			BOL = {
+				transfer_state = 688
+				transfer_state = 506
+				transfer_state = 490
+			}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = BOL
+						is_core_of = PRU
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = BOL
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	PRU_integrate_peru_bolivia = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			PRU = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_peru_bolivia_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = PRU }
+					is_core_of = ECU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = BOL }
+					is_core_of = PAR
+					is_core_of = CHL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect= {
+			PRU = {
+				transfer_state = 688
+				transfer_state = 506
+				transfer_state = 490
+			}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = BOL
+						is_core_of = PRU
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = PRU
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
+integrate_prussia_category = {
+	DNZ_integrate_prussia = {
+		icon = generic_form_nation
+		fire_only_once = yes
+		visible = {
+			is_historical_focus_on = no
+			DNZ = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_prussia_flag }
+		}
+		available = {
+			64 = { is_controlled_by_ROOT_or_subject = yes }
+			68 = { is_controlled_by_ROOT_or_subject = yes }
+			63 = { is_controlled_by_ROOT_or_subject = yes }
+			66 = { is_controlled_by_ROOT_or_subject = yes }
+			67 = { is_controlled_by_ROOT_or_subject = yes }
+			807 = { is_controlled_by_ROOT_or_subject = yes }
+			86 = { is_controlled_by_ROOT_or_subject = yes }
+			762 = { is_controlled_by_ROOT_or_subject = yes }
+			85 = { is_controlled_by_ROOT_or_subject = yes }
+			62 = { is_controlled_by_ROOT_or_subject = yes }
+			5 = { is_controlled_by_ROOT_or_subject = yes }
+			763 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			DNZ = {
+				transfer_state = 64
+				transfer_state = 68
+				transfer_state = 63
+				transfer_state = 66
+				transfer_state = 67
+				transfer_state = 807
+				transfer_state = 86
+				transfer_state = 762
+				transfer_state = 85
+				transfer_state = 62
+				transfer_state = 5
+				transfer_state = 763
+				if = {
+					limit = { 188 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 188
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
+integrate_carribean_category = {
+	DOM_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			DOM = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = DOM
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = DOM
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				DOM = { transfer_state = 972 }
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	HAI_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			HAI = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = HAI
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = HAI
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				HAI = { transfer_state = 972 }
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	CUB_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			CUB = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = CUB
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = CUB
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				CUB = { transfer_state = 972 }
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	JAM_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			JAM = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = JAM
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = JAM
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				JAM = { transfer_state = 972 }
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	PUE_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			PUE = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = PUE
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = PUE
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				PUE = { transfer_state = 972 }
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	BAH_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			BAH = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = BAH
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = BAH
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				BAH = { transfer_state = 972 }
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	TRI_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			TRI = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = TRI
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = TRI
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				TRI = { transfer_state = 972 }
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	GDL_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			GDL = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = GDL
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = GDL
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				GDL = { transfer_state = 972 }
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	CRC_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			CRC = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = CRC
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = CRC
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				CRC = { transfer_state = 972 }
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
+integrate_greater_morocco_category = {
+	MOR_integrate_greater_morocco = {
+		icon = generic_form_nation
+		visible = {
+			MOR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = integrate_greater_morocco_flag }
+		}
+		available = {
+			699 = { is_controlled_by_ROOT_or_subject = yes }
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			786 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			MOR = {
+				transfer_state = 699
+				transfer_state = 557
+				transfer_state = 786
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
+integrate_la_plata = {
+	BOL_integrate_la_plata = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			BOL = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_la_plata_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = ARG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = URG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = PAR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = { is_core_of = ARG is_core_of = PAR is_core_of = URG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = BOL
+			}
+			if = {
+				limit = { 506 = { is_controlled_by_ROOT_or_subject = yes } }
+				BOL = { transfer_state = 972 }
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	ARG_integrate_la_plata = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			ARG = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_la_plata_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = ARG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = URG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = PAR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = { is_core_of = ARG is_core_of = PAR is_core_of = URG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = ARG
+			}
+			if = {
+				limit = { 506 = { is_controlled_by_ROOT_or_subject = yes } }
+				ARG = { transfer_state = 972 }
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	URG_integrate_la_plata = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			URG = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_la_plata_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = ARG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = URG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = PAR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = { is_core_of = ARG is_core_of = PAR is_core_of = URG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = URG
+			}
+			if = {
+				limit = { 506 = { is_controlled_by_ROOT_or_subject = yes } }
+				URG = { transfer_state = 972 }
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	PAR_integrate_la_plata = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			PAR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_la_plata_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = ARG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = URG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = PAR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = { is_core_of = ARG is_core_of = PAR is_core_of = URG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = PAR
+			}
+			if = {
+				limit = { 506 = { is_controlled_by_ROOT_or_subject = yes } }
+				PAR = { transfer_state = 972 }
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	CHL_integrate_la_plata = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			CHL = {
+				is_subject_of = ROOT
+				NOT = { has_country_flag = r56_hide_formables }
+			}
+			NOT = { has_global_flag = form_la_plata_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = ARG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = URG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = PAR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = { is_core_of = ARG is_core_of = PAR is_core_of = URG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = CHL
+			}
+			if = {
+				limit = { 506 = { is_controlled_by_ROOT_or_subject = yes } }
+				CHL = { transfer_state = 972 }
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
+integrate_the_empire_of_mali = {
+	SEN_integrate_the_empire_of_mali = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			SEN = { is_subject_of = ROOT }
+			NOT = { has_global_flag = reform_the_empire_of_mali_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GAM }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = MLI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = VOL }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = GAM
+						is_core_of = SEN
+						is_core_of = MLI
+						is_core_of = VOL
+						is_core_of = GNB
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = SEN
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	GAM_integrate_the_empire_of_mali = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			GAM = { is_subject_of = ROOT }
+			NOT = { has_global_flag = reform_the_empire_of_mali_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GAM }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = MLI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = VOL }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = GAM
+						is_core_of = SEN
+						is_core_of = MLI
+						is_core_of = VOL
+						is_core_of = GNB
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = GAM
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	MLI_integrate_the_empire_of_mali = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			MLI = { is_subject_of = ROOT }
+			NOT = { has_global_flag = reform_the_empire_of_mali_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GAM }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = MLI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = VOL }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = GAM
+						is_core_of = SEN
+						is_core_of = MLI
+						is_core_of = VOL
+						is_core_of = GNB
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = MLI
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	VOL_integrate_the_empire_of_mali = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			VOL = { is_subject_of = ROOT }
+			NOT = { has_global_flag = reform_the_empire_of_mali_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GAM }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = MLI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = VOL }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = GAM
+						is_core_of = SEN
+						is_core_of = MLI
+						is_core_of = VOL
+						is_core_of = GNB
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = VOL
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	GNB_integrate_the_empire_of_mali = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			GNB = { is_subject_of = ROOT }
+			NOT = { has_global_flag = reform_the_empire_of_mali_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GAM }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = MLI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = VOL }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = GAM
+						is_core_of = SEN
+						is_core_of = MLI
+						is_core_of = VOL
+						is_core_of = GNB
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = GNB
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
+integrate_west_african_union = {
+	SEN_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			SEN = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = TOG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = IVO }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = CMR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = DAH }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GHA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SIE }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = LIB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = IVO
+						is_core_of = CMR
+						is_core_of = DAH
+						is_core_of = TOG
+						is_core_of = SEN
+						is_core_of = GNA
+						is_core_of = NGA
+						is_core_of = GHA
+						is_core_of = LIB
+						is_core_of = SIE
+						is_core_of = GNB
+						is_core_of = GAM
+						is_core_of = NGR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = SEN
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	TOG_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			TOG = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = TOG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = IVO }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = CMR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = DAH }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GHA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SIE }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = LIB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = IVO
+						is_core_of = CMR
+						is_core_of = DAH
+						is_core_of = TOG
+						is_core_of = SEN
+						is_core_of = GNA
+						is_core_of = NGA
+						is_core_of = GHA
+						is_core_of = LIB
+						is_core_of = SIE
+						is_core_of = GNB
+						is_core_of = GAM
+						is_core_of = NGR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = TOG
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	IVO_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			IVO = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = TOG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = IVO }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = CMR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = DAH }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GHA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SIE }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = LIB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = IVO
+						is_core_of = CMR
+						is_core_of = DAH
+						is_core_of = TOG
+						is_core_of = SEN
+						is_core_of = GNA
+						is_core_of = NGA
+						is_core_of = GHA
+						is_core_of = LIB
+						is_core_of = SIE
+						is_core_of = GNB
+						is_core_of = GAM
+						is_core_of = NGR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = IVO
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	CMR_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			CMR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = TOG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = IVO }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = CMR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = DAH }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GHA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SIE }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = LIB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = IVO
+						is_core_of = CMR
+						is_core_of = DAH
+						is_core_of = TOG
+						is_core_of = SEN
+						is_core_of = GNA
+						is_core_of = NGA
+						is_core_of = GHA
+						is_core_of = LIB
+						is_core_of = SIE
+						is_core_of = GNB
+						is_core_of = GAM
+						is_core_of = NGR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = CMR
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	DAH_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			DAH = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = TOG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = IVO }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = CMR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = DAH }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GHA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SIE }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = LIB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = IVO
+						is_core_of = CMR
+						is_core_of = DAH
+						is_core_of = TOG
+						is_core_of = SEN
+						is_core_of = GNA
+						is_core_of = NGA
+						is_core_of = GHA
+						is_core_of = LIB
+						is_core_of = SIE
+						is_core_of = GNB
+						is_core_of = GAM
+						is_core_of = NGR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = DAH
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	GNA_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			GNA = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = TOG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = IVO }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = CMR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = DAH }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GHA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SIE }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = LIB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = IVO
+						is_core_of = CMR
+						is_core_of = DAH
+						is_core_of = TOG
+						is_core_of = SEN
+						is_core_of = GNA
+						is_core_of = NGA
+						is_core_of = GHA
+						is_core_of = LIB
+						is_core_of = SIE
+						is_core_of = GNB
+						is_core_of = GAM
+						is_core_of = NGR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = GNA
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	NGA_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			NGA = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = TOG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = IVO }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = CMR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = DAH }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GHA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SIE }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = LIB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = IVO
+						is_core_of = CMR
+						is_core_of = DAH
+						is_core_of = TOG
+						is_core_of = SEN
+						is_core_of = GNA
+						is_core_of = NGA
+						is_core_of = GHA
+						is_core_of = LIB
+						is_core_of = SIE
+						is_core_of = GNB
+						is_core_of = GAM
+						is_core_of = NGR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = NGA
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	GHA_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			GHA = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = TOG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = IVO }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = CMR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = DAH }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GHA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SIE }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = LIB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = IVO
+						is_core_of = CMR
+						is_core_of = DAH
+						is_core_of = TOG
+						is_core_of = SEN
+						is_core_of = GNA
+						is_core_of = NGA
+						is_core_of = GHA
+						is_core_of = LIB
+						is_core_of = SIE
+						is_core_of = GNB
+						is_core_of = GAM
+						is_core_of = NGR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = GHA
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	LIB_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			LIB = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = TOG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = IVO }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = CMR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = DAH }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GHA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SIE }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = LIB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = IVO
+						is_core_of = CMR
+						is_core_of = DAH
+						is_core_of = TOG
+						is_core_of = SEN
+						is_core_of = GNA
+						is_core_of = NGA
+						is_core_of = GHA
+						is_core_of = LIB
+						is_core_of = SIE
+						is_core_of = GNB
+						is_core_of = GAM
+						is_core_of = NGR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = LIB
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	MLI_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			MLI = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = TOG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = IVO }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = CMR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = DAH }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GHA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SIE }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = LIB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = IVO
+						is_core_of = CMR
+						is_core_of = DAH
+						is_core_of = TOG
+						is_core_of = SEN
+						is_core_of = GNA
+						is_core_of = NGA
+						is_core_of = GHA
+						is_core_of = LIB
+						is_core_of = SIE
+						is_core_of = GNB
+						is_core_of = GAM
+						is_core_of = NGR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = MLI
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	NGR_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			NGR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SEN }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = TOG }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = IVO }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = CMR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = DAH }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GNA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = GHA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = SIE }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = LIB }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			all_state = {
+				OR = {
+					NOT = { is_core_of = NGR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						is_core_of = IVO
+						is_core_of = CMR
+						is_core_of = DAH
+						is_core_of = TOG
+						is_core_of = SEN
+						is_core_of = GNA
+						is_core_of = NGA
+						is_core_of = GHA
+						is_core_of = LIB
+						is_core_of = SIE
+						is_core_of = GNB
+						is_core_of = GAM
+						is_core_of = NGR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = NGR
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
+integrate_a_dravidian_state = {
+	SRL_integrate_a_dravidian_state = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			SRL = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_a_dravidian_state_flag }
+		}
+		available = {
+			422 = { is_controlled_by_ROOT_or_subject = yes }
+			423 = { is_controlled_by_ROOT_or_subject = yes }
+			424 = { is_controlled_by_ROOT_or_subject = yes }
+			425 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			SRL = {
+				transfer_state = 422
+				transfer_state = 423
+				transfer_state = 424
+				transfer_state = 425
+				if = {
+					limit = { 320 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 320
+				}
+				if = {
+					limit = { 321 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 321
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
+integrate_hispanoamerica_category = {
+	ARG_integrate_hispanoamerica = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			ARG = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_hispanomerica_flag }
+		}
+		available = {
+			any_state = {
+				AND = {
+					is_core_of = ARG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = ECU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = CHL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = COL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PRU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = BOL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = URG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = VEN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAR
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = ARG is_core_of = ECU is_core_of = PAR is_core_of = CHL is_core_of = COL is_core_of = PAN is_core_of = PRU is_core_of = BOL is_core_of = URG is_core_of = VEN is_core_of = ELS is_core_of = COS is_core_of = GUA is_core_of = HON is_core_of = NIC is_core_of = MEX is_core_of = CUB is_core_of = DOM
+						state = 311 #Belize
+						state = 686 #Puerto Rico
+						state = 695 #Curação
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = ARG
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	ECU_integrate_hispanoamerica = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			ECU = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_hispanomerica_flag }
+		}
+		available = {
+			any_state = {
+				AND = {
+					is_core_of = ARG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = ECU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = CHL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = COL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PRU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = BOL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = URG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = VEN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAR
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = ARG is_core_of = ECU is_core_of = PAR is_core_of = CHL is_core_of = COL is_core_of = PAN is_core_of = PRU is_core_of = BOL is_core_of = URG is_core_of = VEN is_core_of = ELS is_core_of = COS is_core_of = GUA is_core_of = HON is_core_of = NIC is_core_of = MEX is_core_of = CUB is_core_of = DOM
+						state = 311 #Belize
+						state = 686 #Puerto Rico
+						state = 695 #Curação
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = ECU
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	PAR_integrate_hispanoamerica = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			PAR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_hispanomerica_flag }
+		}
+		available = {
+			any_state = {
+				AND = {
+					is_core_of = ARG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = ECU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = CHL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = COL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PRU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = BOL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = URG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = VEN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAR
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = ARG is_core_of = ECU is_core_of = PAR is_core_of = CHL is_core_of = COL is_core_of = PAN is_core_of = PRU is_core_of = BOL is_core_of = URG is_core_of = VEN is_core_of = ELS is_core_of = COS is_core_of = GUA is_core_of = HON is_core_of = NIC is_core_of = MEX is_core_of = CUB is_core_of = DOM
+						state = 311 #Belize
+						state = 686 #Puerto Rico
+						state = 695 #Curação
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = PAR
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	CHL_integrate_hispanoamerica = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			CHL = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_hispanomerica_flag }
+		}
+		available = {
+			any_state = {
+				AND = {
+					is_core_of = ARG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = ECU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = CHL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = COL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PRU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = BOL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = URG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = VEN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAR
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = ARG is_core_of = ECU is_core_of = PAR is_core_of = CHL is_core_of = COL is_core_of = PAN is_core_of = PRU is_core_of = BOL is_core_of = URG is_core_of = VEN is_core_of = ELS is_core_of = COS is_core_of = GUA is_core_of = HON is_core_of = NIC is_core_of = MEX is_core_of = CUB is_core_of = DOM
+						state = 311 #Belize
+						state = 686 #Puerto Rico
+						state = 695 #Curação
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = CHL
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	COL_integrate_hispanoamerica = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			COL = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_hispanomerica_flag }
+		}
+		available = {
+			any_state = {
+				AND = {
+					is_core_of = ARG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = ECU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = CHL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = COL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PRU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = BOL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = URG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = VEN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAR
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = ARG is_core_of = ECU is_core_of = PAR is_core_of = CHL is_core_of = COL is_core_of = PAN is_core_of = PRU is_core_of = BOL is_core_of = URG is_core_of = VEN is_core_of = ELS is_core_of = COS is_core_of = GUA is_core_of = HON is_core_of = NIC is_core_of = MEX is_core_of = CUB is_core_of = DOM
+						state = 311 #Belize
+						state = 686 #Puerto Rico
+						state = 695 #Curação
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = COL
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	PAN_integrate_hispanoamerica = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			PAN = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_hispanomerica_flag }
+		}
+		available = {
+			any_state = {
+				AND = {
+					is_core_of = ARG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = ECU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = CHL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = COL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PRU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = BOL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = URG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = VEN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAR
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = ARG is_core_of = ECU is_core_of = PAR is_core_of = CHL is_core_of = COL is_core_of = PAN is_core_of = PRU is_core_of = BOL is_core_of = URG is_core_of = VEN is_core_of = ELS is_core_of = COS is_core_of = GUA is_core_of = HON is_core_of = NIC is_core_of = MEX is_core_of = CUB is_core_of = DOM
+						state = 311 #Belize
+						state = 686 #Puerto Rico
+						state = 695 #Curação
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = PAN
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	BOL_integrate_hispanoamerica = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			BOL = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_hispanomerica_flag }
+		}
+		available = {
+			any_state = {
+				AND = {
+					is_core_of = ARG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = ECU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = CHL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = COL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PRU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = BOL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = URG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = VEN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAR
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = ARG is_core_of = ECU is_core_of = PAR is_core_of = CHL is_core_of = COL is_core_of = PAN is_core_of = PRU is_core_of = BOL is_core_of = URG is_core_of = VEN is_core_of = ELS is_core_of = COS is_core_of = GUA is_core_of = HON is_core_of = NIC is_core_of = MEX is_core_of = CUB is_core_of = DOM
+						state = 311 #Belize
+						state = 686 #Puerto Rico
+						state = 695 #Curação
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = BOL
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	URG_integrate_hispanoamerica = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			URG = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_hispanomerica_flag }
+		}
+		available = {
+			any_state = {
+				AND = {
+					is_core_of = ARG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = ECU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = CHL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = COL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PRU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = BOL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = URG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = VEN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAR
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = ARG is_core_of = ECU is_core_of = PAR is_core_of = CHL is_core_of = COL is_core_of = PAN is_core_of = PRU is_core_of = BOL is_core_of = URG is_core_of = VEN is_core_of = ELS is_core_of = COS is_core_of = GUA is_core_of = HON is_core_of = NIC is_core_of = MEX is_core_of = CUB is_core_of = DOM
+						state = 311 #Belize
+						state = 686 #Puerto Rico
+						state = 695 #Curação
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = URG
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	VEN_integrate_hispanoamerica = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			VEN = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_hispanomerica_flag }
+		}
+		available = {
+			any_state = {
+				AND = {
+					is_core_of = ARG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = ECU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = CHL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = COL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PRU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = BOL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = URG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = VEN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAR
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = ARG is_core_of = ECU is_core_of = PAR is_core_of = CHL is_core_of = COL is_core_of = PAN is_core_of = PRU is_core_of = BOL is_core_of = URG is_core_of = VEN is_core_of = ELS is_core_of = COS is_core_of = GUA is_core_of = HON is_core_of = NIC is_core_of = MEX is_core_of = CUB is_core_of = DOM
+						state = 311 #Belize
+						state = 686 #Puerto Rico
+						state = 695 #Curação
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = VEN
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	PRU_integrate_hispanoamerica = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			PRU = {
+				is_subject_of = ROOT
+				OR = {
+					has_completed_focus = PRU_hispanism	 #only for very Spanish-embracing people
+					has_completed_focus = PRU_our_revolution
+				}
+				NOT = { has_completed_focus = PRU_incaism }
+			}
+			NOT = { has_global_flag = form_hispanomerica_flag }
+		}
+		available = {
+			any_state = {
+				AND = {
+					is_core_of = ARG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = ECU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = CHL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = COL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PRU
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = BOL
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = URG
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = VEN
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			any_state = {
+				AND = {
+					is_core_of = PAR
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = ARG is_core_of = ECU is_core_of = PAR is_core_of = CHL is_core_of = COL is_core_of = PAN is_core_of = PRU is_core_of = BOL is_core_of = URG is_core_of = VEN is_core_of = ELS is_core_of = COS is_core_of = GUA is_core_of = HON is_core_of = NIC is_core_of = MEX is_core_of = CUB is_core_of = DOM
+						state = 311 #Belize
+						state = 686 #Puerto Rico
+						state = 695 #Curação
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = PRU
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
+integrate_the_mamluks_category = {
+	EGY_integrate_the_mamluks = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			EGY = {
+				is_subject_of = ROOT
+				NOT = { has_cosmetic_tag = ARA_UNIFIED }
+			}
+			NOT = { has_global_flag = reform_the_mamluks_flag }
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_egyptian_tt
+				907 = { is_controlled_by_ROOT_or_subject = yes }
+				911 = { is_controlled_by_ROOT_or_subject = yes }
+				995 = { is_controlled_by_ROOT_or_subject = yes }
+				447 = { is_controlled_by_ROOT_or_subject = yes }
+				452 = { is_controlled_by_ROOT_or_subject = yes }
+				456 = { is_controlled_by_ROOT_or_subject = yes }
+				457 = { is_controlled_by_ROOT_or_subject = yes }
+				453 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_palestinian_tt
+				454 = { is_controlled_by_ROOT_or_subject = yes }
+				1016 = { is_controlled_by_ROOT_or_subject = yes }
+				1017 = { is_controlled_by_ROOT_or_subject = yes }
+				966 = { is_controlled_by_ROOT_or_subject = yes }
+				949 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_jordanian_tt
+				455 = { is_controlled_by_ROOT_or_subject = yes }
+				1021 = { is_controlled_by_ROOT_or_subject = yes }
+				1022 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			553 = { is_controlled_by_ROOT_or_subject = yes }
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_syrian_tt
+				554 = { is_controlled_by_ROOT_or_subject = yes }
+				677 = { is_controlled_by_ROOT_or_subject = yes }
+				680 = { is_controlled_by_ROOT_or_subject = yes }
+				799 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			855 = { is_controlled_by_ROOT_or_subject = yes }
+			679 = { is_controlled_by_ROOT_or_subject = yes }
+			344 = { is_controlled_by_ROOT_or_subject = yes }
+			451 = { is_controlled_by_ROOT_or_subject = yes }
+			663 = { is_controlled_by_ROOT_or_subject = yes }
+			450 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			custom_effect_tooltip = integrate_country_gs_required_coring_states_tt
+			hidden_effect = {
+				EGY = {
+					transfer_state = 907
+					transfer_state = 911
+					transfer_state = 995
+					transfer_state = 447
+					transfer_state = 452
+					transfer_state = 456
+					transfer_state = 457
+					transfer_state = 453
+					transfer_state = 454
+					transfer_state = 1016
+					transfer_state = 1017
+					transfer_state = 966
+					transfer_state = 949
+					transfer_state = 455
+					transfer_state = 1021
+					transfer_state = 1022
+					transfer_state = 855
+					transfer_state = 679
+					transfer_state = 553
+					transfer_state = 554
+					transfer_state = 677
+					transfer_state = 680
+					transfer_state = 799
+					transfer_state = 344
+					transfer_state = 451
+					transfer_state = 663
+					transfer_state = 450
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	PAL_integrate_the_mamluks = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			PAL = {
+				is_subject_of = ROOT
+				NOT = { has_cosmetic_tag = ARA_UNIFIED }
+			}
+			NOT = { has_global_flag = reform_the_mamluks_flag }
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_egyptian_tt
+				907 = { is_controlled_by_ROOT_or_subject = yes }
+				911 = { is_controlled_by_ROOT_or_subject = yes }
+				995 = { is_controlled_by_ROOT_or_subject = yes }
+				447 = { is_controlled_by_ROOT_or_subject = yes }
+				452 = { is_controlled_by_ROOT_or_subject = yes }
+				456 = { is_controlled_by_ROOT_or_subject = yes }
+				457 = { is_controlled_by_ROOT_or_subject = yes }
+				453 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_palestinian_tt
+				454 = { is_controlled_by_ROOT_or_subject = yes }
+				1016 = { is_controlled_by_ROOT_or_subject = yes }
+				1017 = { is_controlled_by_ROOT_or_subject = yes }
+				966 = { is_controlled_by_ROOT_or_subject = yes }
+				949 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_jordanian_tt
+				455 = { is_controlled_by_ROOT_or_subject = yes }
+				1021 = { is_controlled_by_ROOT_or_subject = yes }
+				1022 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			553 = { is_controlled_by_ROOT_or_subject = yes }
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_syrian_tt
+				554 = { is_controlled_by_ROOT_or_subject = yes }
+				677 = { is_controlled_by_ROOT_or_subject = yes }
+				680 = { is_controlled_by_ROOT_or_subject = yes }
+				799 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			855 = { is_controlled_by_ROOT_or_subject = yes }
+			679 = { is_controlled_by_ROOT_or_subject = yes }
+			344 = { is_controlled_by_ROOT_or_subject = yes }
+			451 = { is_controlled_by_ROOT_or_subject = yes }
+			663 = { is_controlled_by_ROOT_or_subject = yes }
+			450 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			custom_effect_tooltip = integrate_country_gs_required_coring_states_tt
+			hidden_effect = {
+				PAL = {
+					transfer_state = 907
+					transfer_state = 911
+					transfer_state = 995
+					transfer_state = 447
+					transfer_state = 452
+					transfer_state = 456
+					transfer_state = 457
+					transfer_state = 453
+					transfer_state = 454
+					transfer_state = 1016
+					transfer_state = 1017
+					transfer_state = 966
+					transfer_state = 949
+					transfer_state = 455
+					transfer_state = 1021
+					transfer_state = 1022
+					transfer_state = 855
+					transfer_state = 679
+					transfer_state = 553
+					transfer_state = 554
+					transfer_state = 677
+					transfer_state = 680
+					transfer_state = 799
+					transfer_state = 344
+					transfer_state = 451
+					transfer_state = 663
+					transfer_state = 450
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	LBA_integrate_the_mamluks = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			LBA = {
+				is_subject_of = ROOT
+				NOT = { has_cosmetic_tag = ARA_UNIFIED }
+			}
+			NOT = { has_global_flag = reform_the_mamluks_flag }
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_egyptian_tt
+				907 = { is_controlled_by_ROOT_or_subject = yes }
+				911 = { is_controlled_by_ROOT_or_subject = yes }
+				995 = { is_controlled_by_ROOT_or_subject = yes }
+				447 = { is_controlled_by_ROOT_or_subject = yes }
+				452 = { is_controlled_by_ROOT_or_subject = yes }
+				456 = { is_controlled_by_ROOT_or_subject = yes }
+				457 = { is_controlled_by_ROOT_or_subject = yes }
+				453 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_palestinian_tt
+				454 = { is_controlled_by_ROOT_or_subject = yes }
+				1016 = { is_controlled_by_ROOT_or_subject = yes }
+				1017 = { is_controlled_by_ROOT_or_subject = yes }
+				966 = { is_controlled_by_ROOT_or_subject = yes }
+				949 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_jordanian_tt
+				455 = { is_controlled_by_ROOT_or_subject = yes }
+				1021 = { is_controlled_by_ROOT_or_subject = yes }
+				1022 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			553 = { is_controlled_by_ROOT_or_subject = yes }
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_syrian_tt
+				554 = { is_controlled_by_ROOT_or_subject = yes }
+				677 = { is_controlled_by_ROOT_or_subject = yes }
+				680 = { is_controlled_by_ROOT_or_subject = yes }
+				799 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			855 = { is_controlled_by_ROOT_or_subject = yes }
+			679 = { is_controlled_by_ROOT_or_subject = yes }
+			344 = { is_controlled_by_ROOT_or_subject = yes }
+			451 = { is_controlled_by_ROOT_or_subject = yes }
+			663 = { is_controlled_by_ROOT_or_subject = yes }
+			450 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			custom_effect_tooltip = integrate_country_gs_required_coring_states_tt
+			hidden_effect = {
+				LBA = {
+					transfer_state = 907
+					transfer_state = 911
+					transfer_state = 995
+					transfer_state = 447
+					transfer_state = 452
+					transfer_state = 456
+					transfer_state = 457
+					transfer_state = 453
+					transfer_state = 454
+					transfer_state = 1016
+					transfer_state = 1017
+					transfer_state = 966
+					transfer_state = 949
+					transfer_state = 455
+					transfer_state = 1021
+					transfer_state = 1022
+					transfer_state = 855
+					transfer_state = 679
+					transfer_state = 553
+					transfer_state = 554
+					transfer_state = 677
+					transfer_state = 680
+					transfer_state = 799
+					transfer_state = 344
+					transfer_state = 451
+					transfer_state = 663
+					transfer_state = 450
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	LEB_integrate_the_mamluks = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			LEB = {
+				is_subject_of = ROOT
+				NOT = { has_cosmetic_tag = ARA_UNIFIED }
+			}
+			NOT = { has_global_flag = reform_the_mamluks_flag }
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_egyptian_tt
+				907 = { is_controlled_by_ROOT_or_subject = yes }
+				911 = { is_controlled_by_ROOT_or_subject = yes }
+				995 = { is_controlled_by_ROOT_or_subject = yes }
+				447 = { is_controlled_by_ROOT_or_subject = yes }
+				452 = { is_controlled_by_ROOT_or_subject = yes }
+				456 = { is_controlled_by_ROOT_or_subject = yes }
+				457 = { is_controlled_by_ROOT_or_subject = yes }
+				453 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_palestinian_tt
+				454 = { is_controlled_by_ROOT_or_subject = yes }
+				1016 = { is_controlled_by_ROOT_or_subject = yes }
+				1017 = { is_controlled_by_ROOT_or_subject = yes }
+				966 = { is_controlled_by_ROOT_or_subject = yes }
+				949 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_jordanian_tt
+				455 = { is_controlled_by_ROOT_or_subject = yes }
+				1021 = { is_controlled_by_ROOT_or_subject = yes }
+				1022 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			553 = { is_controlled_by_ROOT_or_subject = yes }
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_syrian_tt
+				554 = { is_controlled_by_ROOT_or_subject = yes }
+				677 = { is_controlled_by_ROOT_or_subject = yes }
+				680 = { is_controlled_by_ROOT_or_subject = yes }
+				799 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			855 = { is_controlled_by_ROOT_or_subject = yes }
+			679 = { is_controlled_by_ROOT_or_subject = yes }
+			344 = { is_controlled_by_ROOT_or_subject = yes }
+			451 = { is_controlled_by_ROOT_or_subject = yes }
+			663 = { is_controlled_by_ROOT_or_subject = yes }
+			450 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			custom_effect_tooltip = integrate_country_gs_required_coring_states_tt
+			hidden_effect = {
+				LEB = {
+					transfer_state = 907
+					transfer_state = 911
+					transfer_state = 995
+					transfer_state = 447
+					transfer_state = 452
+					transfer_state = 456
+					transfer_state = 457
+					transfer_state = 453
+					transfer_state = 454
+					transfer_state = 1016
+					transfer_state = 1017
+					transfer_state = 966
+					transfer_state = 949
+					transfer_state = 455
+					transfer_state = 1021
+					transfer_state = 1022
+					transfer_state = 855
+					transfer_state = 679
+					transfer_state = 553
+					transfer_state = 554
+					transfer_state = 677
+					transfer_state = 680
+					transfer_state = 799
+					transfer_state = 344
+					transfer_state = 451
+					transfer_state = 663
+					transfer_state = 450
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	SYR_integrate_the_mamluks = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			SYR = {
+				is_subject_of = ROOT
+				NOT = { has_cosmetic_tag = ARA_UNIFIED }
+			}
+			NOT = { has_global_flag = reform_the_mamluks_flag }
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_egyptian_tt
+				907 = { is_controlled_by_ROOT_or_subject = yes }
+				911 = { is_controlled_by_ROOT_or_subject = yes }
+				995 = { is_controlled_by_ROOT_or_subject = yes }
+				447 = { is_controlled_by_ROOT_or_subject = yes }
+				452 = { is_controlled_by_ROOT_or_subject = yes }
+				456 = { is_controlled_by_ROOT_or_subject = yes }
+				457 = { is_controlled_by_ROOT_or_subject = yes }
+				453 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_palestinian_tt
+				454 = { is_controlled_by_ROOT_or_subject = yes }
+				1016 = { is_controlled_by_ROOT_or_subject = yes }
+				1017 = { is_controlled_by_ROOT_or_subject = yes }
+				966 = { is_controlled_by_ROOT_or_subject = yes }
+				949 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_jordanian_tt
+				455 = { is_controlled_by_ROOT_or_subject = yes }
+				1021 = { is_controlled_by_ROOT_or_subject = yes }
+				1022 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			553 = { is_controlled_by_ROOT_or_subject = yes }
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_mamluks_required_states_syrian_tt
+				554 = { is_controlled_by_ROOT_or_subject = yes }
+				677 = { is_controlled_by_ROOT_or_subject = yes }
+				680 = { is_controlled_by_ROOT_or_subject = yes }
+				799 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			855 = { is_controlled_by_ROOT_or_subject = yes }
+			679 = { is_controlled_by_ROOT_or_subject = yes }
+			344 = { is_controlled_by_ROOT_or_subject = yes }
+			451 = { is_controlled_by_ROOT_or_subject = yes }
+			663 = { is_controlled_by_ROOT_or_subject = yes }
+			450 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			custom_effect_tooltip = integrate_country_gs_required_coring_states_tt
+			hidden_effect = {
+				SYR = {
+					transfer_state = 907
+					transfer_state = 911
+					transfer_state = 995
+					transfer_state = 447
+					transfer_state = 452
+					transfer_state = 456
+					transfer_state = 457
+					transfer_state = 453
+					transfer_state = 454
+					transfer_state = 1016
+					transfer_state = 1017
+					transfer_state = 966
+					transfer_state = 949
+					transfer_state = 455
+					transfer_state = 1021
+					transfer_state = 1022
+					transfer_state = 855
+					transfer_state = 679
+					transfer_state = 553
+					transfer_state = 554
+					transfer_state = 677
+					transfer_state = 680
+					transfer_state = 799
+					transfer_state = 344
+					transfer_state = 451
+					transfer_state = 663
+					transfer_state = 450
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
+integrate_alamannia_category = {
+	SWI_integrate_alamannia = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			is_historical_focus_on = no
+			SWI = {
+				is_subject_of = ROOT
+				has_completed_focus = SWI_irredentism
+			}
+			NOT = { has_global_flag = SWI_formed_alamannia }
+		}
+		available = {
+			153 = { is_controlled_by_ROOT_or_subject = yes }
+			28 = { is_controlled_by_ROOT_or_subject = yes }
+			42 = { is_controlled_by_ROOT_or_subject = yes }
+			50 = { is_controlled_by_ROOT_or_subject = yes }
+			52 = { is_controlled_by_ROOT_or_subject = yes }
+			53 = { is_controlled_by_ROOT_or_subject = yes }
+			54 = { is_controlled_by_ROOT_or_subject = yes }
+			923 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			SWI = {
+				transfer_state = 153
+				transfer_state = 28
+				transfer_state = 42
+				transfer_state = 50
+				transfer_state = 52
+				transfer_state = 53
+				transfer_state = 54
+				transfer_state = 923
 			}
 		}
 		ai_will_do = { factor = 200 }
