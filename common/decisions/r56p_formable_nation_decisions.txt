@@ -1,3 +1,33 @@
+form_nation_mod_category = {
+	get_core_from_subject = {
+		icon = generic_form_nation
+		visible = {
+			any_subject_country = {
+				any_controlled_state = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		available = {
+			any_subject_country = {
+				any_controlled_state = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		complete_effect = {
+			every_state = {
+				limit = {
+					controller = { is_subject_of = ROOT }
+					is_core_of = ROOT
+				}
+				transfer_state_to = ROOT
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
+
 form_north_american_category = {
 	form_north_american = {
 		icon = generic_form_nation

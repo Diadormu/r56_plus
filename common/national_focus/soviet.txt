@@ -11304,14 +11304,17 @@ focus_tree = {
 	focus = {
 		id = SOV_covert_support_for_spanish_poum
 		icon = GFX_focus_SOV_support_spanish_poum
-		prerequisite = { focus = SOV_reverse_the_collectivization_process }
+		prerequisite = { focus = SOV_reverse_the_collectivization_process focus = SOV_the_left_opposition }
 		mutually_exclusive = { focus = SOV_concessions_to_foreign_powers }
 		x = 1
 		y = 2
 		relative_position_id = SOV_reverse_the_collectivization_process
 		cost = 5
 		available = {
-			SOV_soviet_civil_war_not_started = yes
+			OR = {
+				SOV_soviet_civil_war_not_started = yes
+				has_global_flag = SOV_soviet_civil_war_over
+			}
 			NOT = { has_global_flag = scw_over } #Allowed Soviets to do this before SCW starts, so that they can make Spanish AI go POUM
 			OR = {
 				NOT = { has_global_flag = SPR_anarchist_uprising_flag }
