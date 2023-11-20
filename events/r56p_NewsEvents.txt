@@ -14,20 +14,84 @@ news_event = {
 				original_tag = USA
 				original_tag = MEX
 			}
-			NOT = { has_war_with = FROM }
 		}
 	}
 	option = {
 		name = wtt_news.3000.b
 		trigger = {
-			NOT = { original_tag = CAN }
-			NOT = { original_tag = USA }
-			NOT = { original_tag = MEX }
+			NOR = {
+				original_tag = CAN
+				original_tag = USA
+				original_tag = MEX
+			}
 			NOT = { has_war_with = FROM }
 		}
 	}
 	option = {
 		name = wtt_news.53.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+}
+
+#The Unification of the Balkans
+news_event = {
+	id = wtt_news.3001
+	title = bftb_news.10.t
+	desc = wtt_news.3001.desc
+	picture = GFX_news_event_bulgarian_ff_troops
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bftb_news.10.a
+		trigger = {
+			OR = {
+				original_tag = YUG
+				original_tag = ALB
+				original_tag = GRE
+				original_tag = BUL
+				original_tag = ROM
+			}
+		}
+	}
+
+	option = {
+		name = bftb_news.10.b
+		trigger = {
+			NOR = {
+				original_tag = YUG
+				original_tag = ALB
+				original_tag = GRE
+				original_tag = BUL
+				original_tag = ROM
+			}
+			is_in_faction_with = FROM
+			BUL_is_balkan_nation = yes
+		}
+	}
+
+	option = {
+		name = bftb_news.10.c
+		trigger = {
+			NOR = {
+				original_tag = YUG
+				original_tag = ALB
+				original_tag = GRE
+				original_tag = BUL
+				original_tag = ROM
+			}
+			OR = {
+				BUL_is_balkan_nation = no
+				NOT = { is_in_faction_with = FROM }
+			}
+			NOT = { has_war_with = FROM }
+		}
+	}
+
+	option = {
+		name = bftb_news.10.d
 		trigger = {
 			has_war_with = FROM
 		}
