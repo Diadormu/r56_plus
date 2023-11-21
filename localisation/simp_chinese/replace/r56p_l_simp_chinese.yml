@@ -114,7 +114,7 @@
   ALB_integrate_united_balkan: "向[ALB.GetName]移交领土"
   integrate_country_ALB_required_states_tt: "§Y[ALB.GetName]§!的所有地区被§Y[Root.GetName]§!或是§Y[Root.GetName]§!的傀儡控制。"
   integrate_country_ALB_coring_states_tt: "成为§Y[ALB.GetName]§!的所有地区的拥有者及控制者。"
-  GRE_integrate_united_balkan: "向[GRE.GetName]移交领土"
+  GRE_integrate_united_balkan: "向[GRE.GetName]移交领土（可以再成立大希腊或拜占庭）"
   integrate_country_GRE_required_states_tt: "§Y[GRE.GetName]§!的所有地区被§Y[Root.GetName]§!或是§Y[Root.GetName]§!的傀儡控制。"
   integrate_country_GRE_coring_states_tt: "成为§Y[GRE.GetName]§!的所有地区的拥有者及控制者。"
   BUL_integrate_united_balkan: "向[BUL.GetName]移交领土"
@@ -123,6 +123,9 @@
   ROM_integrate_united_balkan: "向[ROM.GetName]移交领土"
   integrate_country_ROM_required_states_tt: "§Y[ROM.GetName]§!的所有地区被§Y[Root.GetName]§!或是§Y[Root.GetName]§!的傀儡控制。"
   integrate_country_ROM_coring_states_tt: "成为§Y[ROM.GetName]§!的所有地区的拥有者及控制者。"
+  SER_integrate_united_balkan: "向[SER.GetName]移交领土"
+  CRO_integrate_united_balkan: "向[CRO.GetName]移交领土（可以再成立奥匈）"
+  MNT_integrate_united_balkan: "向[MNT.GetName]移交领土"
 
   integrate_greater_german_reich_category: "整合大德意志"
   integrate_greater_german_reich: "向[GER.GetName]移交领土"

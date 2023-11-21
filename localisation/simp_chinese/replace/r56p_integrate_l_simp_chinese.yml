@@ -46,7 +46,7 @@
   CZE_integrate_austria_hungary: "向[CZE.GetName]移交领土（推荐，有独立国策）"
   integrate_country_CZE_required_states_tt: "§Y[CZE.GetName]§!的所有地区被§Y[Root.GetName]§!或是§Y[Root.GetName]§!的傀儡控制。"
   integrate_country_CZE_coring_states_tt: "成为§Y[CZE.GetName]§!的所有地区的拥有者及控制者。"
-  CRO_integrate_austria_hungary: "向[CRO.GetName]移交领土"
+  CRO_integrate_austria_hungary: "向[CRO.GetName]移交领土（推荐，可以再成立巴尔干）"
   integrate_country_CRO_required_states_tt: "§Y[CRO.GetName]§!的所有地区被§Y[Root.GetName]§!或是§Y[Root.GetName]§!的傀儡控制。"
   integrate_country_CRO_coring_states_tt: "成为§Y[CRO.GetName]§!的所有地区的拥有者及控制者。"
   HUN_integrate_austria_hungary: "向[HUN.GetName]移交领土（推荐，有独立国策）"

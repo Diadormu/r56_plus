@@ -7751,10 +7751,10 @@ form_greater_german_reich_category = {
 
 		visible = {
 			original_tag = GER
-			OR = {
-				has_government = fascism
-				has_government = neutrality
-			}
+			#OR = {
+			#	has_government = fascism
+			#	has_government = neutrality
+			#}
 			NOT = { has_global_flag = form_greater_german_reich_flag }
 		}
 
@@ -12280,10 +12280,10 @@ greater_italy_category = {
 		}
 
 		available = {
-			OR = {
-				has_completed_focus = ITA_towards_a_greater_italy
-				has_completed_focus = ITA_mare_nostrum_bba
-			}
+			#OR = {
+			#	has_completed_focus = ITA_towards_a_greater_italy
+			#	has_completed_focus = ITA_mare_nostrum_bba
+			#}
 			custom_trigger_tooltip = {
 				tooltip = greater_italy_required_states
 				controls_state = 852 # Istria
@@ -12404,7 +12404,12 @@ greater_italy_category = {
 		}
 
 		complete_effect = {
-			set_cosmetic_tag = greater_italy 
+			if = {
+				limit = {
+					NOT = { has_completed_focus = ITA_socialist_republic }
+				}
+				set_cosmetic_tag = greater_italy
+			}
 			
 			custom_effect_tooltip = greater_italy_effect_tooltip
 			

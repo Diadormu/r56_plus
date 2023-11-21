@@ -2591,6 +2591,9 @@ form_united_balkan_category = {
 				original_tag = GRE
 				original_tag = BUL
 				original_tag = ROM
+				original_tag = SER
+				original_tag = CRO
+				original_tag = MNT
 			}
 			has_dlc = "Battle for the Bosporus"
 		}
@@ -2601,6 +2604,9 @@ form_united_balkan_category = {
 				original_tag = GRE
 				original_tag = BUL
 				original_tag = ROM
+				original_tag = SER
+				original_tag = CRO
+				original_tag = MNT
 			}
 			NOT = {
 				has_global_flag = form_united_balkan_flag
@@ -2616,6 +2622,7 @@ form_united_balkan_category = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_YUG_required_states_tt
 				controls_state = 104
+				controls_state = 105
 				controls_state = 106
 				controls_state = 107
 				controls_state = 108
@@ -2630,6 +2637,7 @@ form_united_balkan_category = {
 				controls_state = 959
 				controls_state = 961
 				controls_state = 962
+				controls_state = 963
 			}
 			custom_trigger_tooltip = {
 				tooltip = form_country_ALB_required_states_tt
@@ -2794,6 +2802,7 @@ integrate_united_balkan_category = {
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_YUG_required_states_tt
 				104 = { is_controlled_by_ROOT_or_subject = yes }
+				105 = { is_controlled_by_ROOT_or_subject = yes }
 				106 = { is_controlled_by_ROOT_or_subject = yes }
 				107 = { is_controlled_by_ROOT_or_subject = yes }
 				108 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2808,6 +2817,7 @@ integrate_united_balkan_category = {
 				959 = { is_controlled_by_ROOT_or_subject = yes }
 				961 = { is_controlled_by_ROOT_or_subject = yes }
 				962 = { is_controlled_by_ROOT_or_subject = yes }
+				963 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_ALB_required_states_tt
@@ -3002,6 +3012,7 @@ integrate_united_balkan_category = {
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_YUG_required_states_tt
 				104 = { is_controlled_by_ROOT_or_subject = yes }
+				105 = { is_controlled_by_ROOT_or_subject = yes }
 				106 = { is_controlled_by_ROOT_or_subject = yes }
 				107 = { is_controlled_by_ROOT_or_subject = yes }
 				108 = { is_controlled_by_ROOT_or_subject = yes }
@@ -3016,6 +3027,7 @@ integrate_united_balkan_category = {
 				959 = { is_controlled_by_ROOT_or_subject = yes }
 				961 = { is_controlled_by_ROOT_or_subject = yes }
 				962 = { is_controlled_by_ROOT_or_subject = yes }
+				963 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_ALB_required_states_tt
@@ -3210,6 +3222,7 @@ integrate_united_balkan_category = {
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_YUG_required_states_tt
 				104 = { is_controlled_by_ROOT_or_subject = yes }
+				105 = { is_controlled_by_ROOT_or_subject = yes }
 				106 = { is_controlled_by_ROOT_or_subject = yes }
 				107 = { is_controlled_by_ROOT_or_subject = yes }
 				108 = { is_controlled_by_ROOT_or_subject = yes }
@@ -3224,6 +3237,7 @@ integrate_united_balkan_category = {
 				959 = { is_controlled_by_ROOT_or_subject = yes }
 				961 = { is_controlled_by_ROOT_or_subject = yes }
 				962 = { is_controlled_by_ROOT_or_subject = yes }
+				963 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_ALB_required_states_tt
@@ -3419,6 +3433,7 @@ integrate_united_balkan_category = {
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_YUG_required_states_tt
 				104 = { is_controlled_by_ROOT_or_subject = yes }
+				105 = { is_controlled_by_ROOT_or_subject = yes }
 				106 = { is_controlled_by_ROOT_or_subject = yes }
 				107 = { is_controlled_by_ROOT_or_subject = yes }
 				108 = { is_controlled_by_ROOT_or_subject = yes }
@@ -3433,6 +3448,7 @@ integrate_united_balkan_category = {
 				959 = { is_controlled_by_ROOT_or_subject = yes }
 				961 = { is_controlled_by_ROOT_or_subject = yes }
 				962 = { is_controlled_by_ROOT_or_subject = yes }
+				963 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_ALB_required_states_tt
@@ -3627,6 +3643,7 @@ integrate_united_balkan_category = {
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_YUG_required_states_tt
 				104 = { is_controlled_by_ROOT_or_subject = yes }
+				105 = { is_controlled_by_ROOT_or_subject = yes }
 				106 = { is_controlled_by_ROOT_or_subject = yes }
 				107 = { is_controlled_by_ROOT_or_subject = yes }
 				108 = { is_controlled_by_ROOT_or_subject = yes }
@@ -3641,6 +3658,7 @@ integrate_united_balkan_category = {
 				959 = { is_controlled_by_ROOT_or_subject = yes }
 				961 = { is_controlled_by_ROOT_or_subject = yes }
 				962 = { is_controlled_by_ROOT_or_subject = yes }
+				963 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_ALB_required_states_tt
@@ -3679,6 +3697,636 @@ integrate_united_balkan_category = {
 		}
 		complete_effect = {
 			ROM = {
+				custom_effect_tooltip = integrate_country_YUG_coring_states_tt
+				hidden_effect = {
+					if = {
+						limit = { 45 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 45
+					}
+					if = {
+						limit = { 102 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 102
+					}
+					if = {
+						limit = { 103 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 103
+					}
+					transfer_state = 104
+					if = {
+						limit = { 105 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 105
+					}
+					transfer_state = 106
+					transfer_state = 107
+					transfer_state = 108
+					transfer_state = 109
+					if = {
+						limit = { 163 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 163
+					}
+					if = {
+						limit = { 736 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 736
+					}
+					if = {
+						limit = { 764 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 764
+					}
+					transfer_state = 802
+					transfer_state = 803
+					transfer_state = 804
+					if = {
+						limit = { 852 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 852
+					}
+					if = {
+						limit = { 853 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 853
+					}
+					transfer_state = 950
+					if = {
+						limit = { 952 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 952
+					}
+					transfer_state = 953
+					transfer_state = 956
+					transfer_state = 958
+					transfer_state = 959
+					transfer_state = 961
+					transfer_state = 962
+					if = {
+						limit = { 963 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 963
+					}
+				}
+				custom_effect_tooltip = integrate_country_ALB_coring_states_tt
+				hidden_effect = {
+					transfer_state = 44
+					transfer_state = 805
+					transfer_state = 910
+				}
+				custom_effect_tooltip = integrate_country_GRE_coring_states_tt
+				hidden_effect = {
+					transfer_state = 47
+					if = {
+						limit = { 164 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 164
+					}
+					if = {
+						limit = { 182 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 182
+					}
+					transfer_state = 184
+					transfer_state = 185
+					transfer_state = 186
+					transfer_state = 187
+					transfer_state = 731
+				}
+				custom_effect_tooltip = integrate_country_BUL_coring_states_tt
+				hidden_effect = {
+					transfer_state = 48
+					transfer_state = 77
+					transfer_state = 106
+					transfer_state = 184
+					transfer_state = 211
+					transfer_state = 212
+					transfer_state = 801
+					transfer_state = 803
+				}
+				custom_effect_tooltip = integrate_country_ROM_coring_states_tt
+				hidden_effect = {
+					transfer_state = 46
+					if = {
+						limit = { 76 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 76
+					}
+					transfer_state = 77
+					if = {
+						limit = { 78 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 78
+					}
+					transfer_state = 79
+					if = {
+						limit = { 80 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 80
+					}
+					transfer_state = 81
+					if = {
+						limit = { 82 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 82
+					}
+					if = {
+						limit = { 83 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 83
+					}
+					if = {
+						limit = { 84 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 84
+					}
+					if = {
+						limit = { 766 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 766
+					}
+					transfer_state = 955
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	SER_integrate_united_balkan = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Battle for the Bosporus"
+		}
+		visible = {
+			is_historical_focus_on = no
+			SER = {
+				is_subject_of = ROOT
+				OR = {
+					has_government = democratic
+					has_government = communism
+				}
+			}
+			NOT = { has_global_flag = form_united_balkan_flag }
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_YUG_required_states_tt
+				104 = { is_controlled_by_ROOT_or_subject = yes }
+				105 = { is_controlled_by_ROOT_or_subject = yes }
+				106 = { is_controlled_by_ROOT_or_subject = yes }
+				107 = { is_controlled_by_ROOT_or_subject = yes }
+				108 = { is_controlled_by_ROOT_or_subject = yes }
+				109 = { is_controlled_by_ROOT_or_subject = yes }
+				802 = { is_controlled_by_ROOT_or_subject = yes }
+				803 = { is_controlled_by_ROOT_or_subject = yes }
+				804 = { is_controlled_by_ROOT_or_subject = yes }
+				950 = { is_controlled_by_ROOT_or_subject = yes }
+				953 = { is_controlled_by_ROOT_or_subject = yes }
+				956 = { is_controlled_by_ROOT_or_subject = yes }
+				958 = { is_controlled_by_ROOT_or_subject = yes }
+				959 = { is_controlled_by_ROOT_or_subject = yes }
+				961 = { is_controlled_by_ROOT_or_subject = yes }
+				962 = { is_controlled_by_ROOT_or_subject = yes }
+				963 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_ALB_required_states_tt
+				44 = { is_controlled_by_ROOT_or_subject = yes }
+				805 = { is_controlled_by_ROOT_or_subject = yes }
+				910 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_GRE_required_states_tt
+				47 = { is_controlled_by_ROOT_or_subject = yes }
+				184 = { is_controlled_by_ROOT_or_subject = yes }
+				185 = { is_controlled_by_ROOT_or_subject = yes }
+				186 = { is_controlled_by_ROOT_or_subject = yes }
+				187 = { is_controlled_by_ROOT_or_subject = yes }
+				731 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_BUL_required_states_tt
+				48 = { is_controlled_by_ROOT_or_subject = yes }
+				77 = { is_controlled_by_ROOT_or_subject = yes }
+				106 = { is_controlled_by_ROOT_or_subject = yes }
+				184 = { is_controlled_by_ROOT_or_subject = yes }
+				211 = { is_controlled_by_ROOT_or_subject = yes }
+				212 = { is_controlled_by_ROOT_or_subject = yes }
+				801 = { is_controlled_by_ROOT_or_subject = yes }
+				803 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_ROM_required_states_tt
+				46 = { is_controlled_by_ROOT_or_subject = yes }
+				77 = { is_controlled_by_ROOT_or_subject = yes }
+				79 = { is_controlled_by_ROOT_or_subject = yes }
+				81 = { is_controlled_by_ROOT_or_subject = yes }
+				955 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			SER = {
+				custom_effect_tooltip = integrate_country_YUG_coring_states_tt
+				hidden_effect = {
+					if = {
+						limit = { 45 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 45
+					}
+					if = {
+						limit = { 102 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 102
+					}
+					if = {
+						limit = { 103 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 103
+					}
+					transfer_state = 104
+					if = {
+						limit = { 105 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 105
+					}
+					transfer_state = 106
+					transfer_state = 107
+					transfer_state = 108
+					transfer_state = 109
+					if = {
+						limit = { 163 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 163
+					}
+					if = {
+						limit = { 736 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 736
+					}
+					if = {
+						limit = { 764 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 764
+					}
+					transfer_state = 802
+					transfer_state = 803
+					transfer_state = 804
+					if = {
+						limit = { 852 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 852
+					}
+					if = {
+						limit = { 853 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 853
+					}
+					transfer_state = 950
+					if = {
+						limit = { 952 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 952
+					}
+					transfer_state = 953
+					transfer_state = 956
+					transfer_state = 958
+					transfer_state = 959
+					transfer_state = 961
+					transfer_state = 962
+					if = {
+						limit = { 963 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 963
+					}
+				}
+				custom_effect_tooltip = integrate_country_ALB_coring_states_tt
+				hidden_effect = {
+					transfer_state = 44
+					transfer_state = 805
+					transfer_state = 910
+				}
+				custom_effect_tooltip = integrate_country_GRE_coring_states_tt
+				hidden_effect = {
+					transfer_state = 47
+					if = {
+						limit = { 164 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 164
+					}
+					if = {
+						limit = { 182 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 182
+					}
+					transfer_state = 184
+					transfer_state = 185
+					transfer_state = 186
+					transfer_state = 187
+					transfer_state = 731
+				}
+				custom_effect_tooltip = integrate_country_BUL_coring_states_tt
+				hidden_effect = {
+					transfer_state = 48
+					transfer_state = 77
+					transfer_state = 106
+					transfer_state = 184
+					transfer_state = 211
+					transfer_state = 212
+					transfer_state = 801
+					transfer_state = 803
+				}
+				custom_effect_tooltip = integrate_country_ROM_coring_states_tt
+				hidden_effect = {
+					transfer_state = 46
+					if = {
+						limit = { 76 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 76
+					}
+					transfer_state = 77
+					if = {
+						limit = { 78 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 78
+					}
+					transfer_state = 79
+					if = {
+						limit = { 80 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 80
+					}
+					transfer_state = 81
+					if = {
+						limit = { 82 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 82
+					}
+					if = {
+						limit = { 83 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 83
+					}
+					if = {
+						limit = { 84 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 84
+					}
+					if = {
+						limit = { 766 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 766
+					}
+					transfer_state = 955
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	CRO_integrate_united_balkan = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Battle for the Bosporus"
+		}
+		visible = {
+			is_historical_focus_on = no
+			CRO = {
+				is_subject_of = ROOT
+				OR = {
+					has_government = democratic
+					has_government = communism
+				}
+			}
+			NOT = { has_global_flag = form_united_balkan_flag }
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_YUG_required_states_tt
+				104 = { is_controlled_by_ROOT_or_subject = yes }
+				105 = { is_controlled_by_ROOT_or_subject = yes }
+				106 = { is_controlled_by_ROOT_or_subject = yes }
+				107 = { is_controlled_by_ROOT_or_subject = yes }
+				108 = { is_controlled_by_ROOT_or_subject = yes }
+				109 = { is_controlled_by_ROOT_or_subject = yes }
+				802 = { is_controlled_by_ROOT_or_subject = yes }
+				803 = { is_controlled_by_ROOT_or_subject = yes }
+				804 = { is_controlled_by_ROOT_or_subject = yes }
+				950 = { is_controlled_by_ROOT_or_subject = yes }
+				953 = { is_controlled_by_ROOT_or_subject = yes }
+				956 = { is_controlled_by_ROOT_or_subject = yes }
+				958 = { is_controlled_by_ROOT_or_subject = yes }
+				959 = { is_controlled_by_ROOT_or_subject = yes }
+				961 = { is_controlled_by_ROOT_or_subject = yes }
+				962 = { is_controlled_by_ROOT_or_subject = yes }
+				963 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_ALB_required_states_tt
+				44 = { is_controlled_by_ROOT_or_subject = yes }
+				805 = { is_controlled_by_ROOT_or_subject = yes }
+				910 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_GRE_required_states_tt
+				47 = { is_controlled_by_ROOT_or_subject = yes }
+				184 = { is_controlled_by_ROOT_or_subject = yes }
+				185 = { is_controlled_by_ROOT_or_subject = yes }
+				186 = { is_controlled_by_ROOT_or_subject = yes }
+				187 = { is_controlled_by_ROOT_or_subject = yes }
+				731 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_BUL_required_states_tt
+				48 = { is_controlled_by_ROOT_or_subject = yes }
+				77 = { is_controlled_by_ROOT_or_subject = yes }
+				106 = { is_controlled_by_ROOT_or_subject = yes }
+				184 = { is_controlled_by_ROOT_or_subject = yes }
+				211 = { is_controlled_by_ROOT_or_subject = yes }
+				212 = { is_controlled_by_ROOT_or_subject = yes }
+				801 = { is_controlled_by_ROOT_or_subject = yes }
+				803 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_ROM_required_states_tt
+				46 = { is_controlled_by_ROOT_or_subject = yes }
+				77 = { is_controlled_by_ROOT_or_subject = yes }
+				79 = { is_controlled_by_ROOT_or_subject = yes }
+				81 = { is_controlled_by_ROOT_or_subject = yes }
+				955 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			CRO = {
+				custom_effect_tooltip = integrate_country_YUG_coring_states_tt
+				hidden_effect = {
+					if = {
+						limit = { 45 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 45
+					}
+					if = {
+						limit = { 102 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 102
+					}
+					if = {
+						limit = { 103 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 103
+					}
+					transfer_state = 104
+					if = {
+						limit = { 105 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 105
+					}
+					transfer_state = 106
+					transfer_state = 107
+					transfer_state = 108
+					transfer_state = 109
+					if = {
+						limit = { 163 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 163
+					}
+					if = {
+						limit = { 736 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 736
+					}
+					if = {
+						limit = { 764 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 764
+					}
+					transfer_state = 802
+					transfer_state = 803
+					transfer_state = 804
+					if = {
+						limit = { 852 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 852
+					}
+					if = {
+						limit = { 853 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 853
+					}
+					transfer_state = 950
+					if = {
+						limit = { 952 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 952
+					}
+					transfer_state = 953
+					transfer_state = 956
+					transfer_state = 958
+					transfer_state = 959
+					transfer_state = 961
+					transfer_state = 962
+					if = {
+						limit = { 963 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 963
+					}
+				}
+				custom_effect_tooltip = integrate_country_ALB_coring_states_tt
+				hidden_effect = {
+					transfer_state = 44
+					transfer_state = 805
+					transfer_state = 910
+				}
+				custom_effect_tooltip = integrate_country_GRE_coring_states_tt
+				hidden_effect = {
+					transfer_state = 47
+					if = {
+						limit = { 164 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 164
+					}
+					if = {
+						limit = { 182 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 182
+					}
+					transfer_state = 184
+					transfer_state = 185
+					transfer_state = 186
+					transfer_state = 187
+					transfer_state = 731
+				}
+				custom_effect_tooltip = integrate_country_BUL_coring_states_tt
+				hidden_effect = {
+					transfer_state = 48
+					transfer_state = 77
+					transfer_state = 106
+					transfer_state = 184
+					transfer_state = 211
+					transfer_state = 212
+					transfer_state = 801
+					transfer_state = 803
+				}
+				custom_effect_tooltip = integrate_country_ROM_coring_states_tt
+				hidden_effect = {
+					transfer_state = 46
+					if = {
+						limit = { 76 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 76
+					}
+					transfer_state = 77
+					if = {
+						limit = { 78 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 78
+					}
+					transfer_state = 79
+					if = {
+						limit = { 80 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 80
+					}
+					transfer_state = 81
+					if = {
+						limit = { 82 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 82
+					}
+					if = {
+						limit = { 83 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 83
+					}
+					if = {
+						limit = { 84 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 84
+					}
+					if = {
+						limit = { 766 = { is_controlled_by_ROOT_or_subject = yes } }
+						transfer_state = 766
+					}
+					transfer_state = 955
+				}
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+	MNT_integrate_united_balkan = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Battle for the Bosporus"
+		}
+		visible = {
+			is_historical_focus_on = no
+			MNT = {
+				is_subject_of = ROOT
+				OR = {
+					has_government = democratic
+					has_government = communism
+				}
+			}
+			NOT = { has_global_flag = form_united_balkan_flag }
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_YUG_required_states_tt
+				104 = { is_controlled_by_ROOT_or_subject = yes }
+				105 = { is_controlled_by_ROOT_or_subject = yes }
+				106 = { is_controlled_by_ROOT_or_subject = yes }
+				107 = { is_controlled_by_ROOT_or_subject = yes }
+				108 = { is_controlled_by_ROOT_or_subject = yes }
+				109 = { is_controlled_by_ROOT_or_subject = yes }
+				802 = { is_controlled_by_ROOT_or_subject = yes }
+				803 = { is_controlled_by_ROOT_or_subject = yes }
+				804 = { is_controlled_by_ROOT_or_subject = yes }
+				950 = { is_controlled_by_ROOT_or_subject = yes }
+				953 = { is_controlled_by_ROOT_or_subject = yes }
+				956 = { is_controlled_by_ROOT_or_subject = yes }
+				958 = { is_controlled_by_ROOT_or_subject = yes }
+				959 = { is_controlled_by_ROOT_or_subject = yes }
+				961 = { is_controlled_by_ROOT_or_subject = yes }
+				962 = { is_controlled_by_ROOT_or_subject = yes }
+				963 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_ALB_required_states_tt
+				44 = { is_controlled_by_ROOT_or_subject = yes }
+				805 = { is_controlled_by_ROOT_or_subject = yes }
+				910 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_GRE_required_states_tt
+				47 = { is_controlled_by_ROOT_or_subject = yes }
+				184 = { is_controlled_by_ROOT_or_subject = yes }
+				185 = { is_controlled_by_ROOT_or_subject = yes }
+				186 = { is_controlled_by_ROOT_or_subject = yes }
+				187 = { is_controlled_by_ROOT_or_subject = yes }
+				731 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_BUL_required_states_tt
+				48 = { is_controlled_by_ROOT_or_subject = yes }
+				77 = { is_controlled_by_ROOT_or_subject = yes }
+				106 = { is_controlled_by_ROOT_or_subject = yes }
+				184 = { is_controlled_by_ROOT_or_subject = yes }
+				211 = { is_controlled_by_ROOT_or_subject = yes }
+				212 = { is_controlled_by_ROOT_or_subject = yes }
+				801 = { is_controlled_by_ROOT_or_subject = yes }
+				803 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_ROM_required_states_tt
+				46 = { is_controlled_by_ROOT_or_subject = yes }
+				77 = { is_controlled_by_ROOT_or_subject = yes }
+				79 = { is_controlled_by_ROOT_or_subject = yes }
+				81 = { is_controlled_by_ROOT_or_subject = yes }
+				955 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			MNT = {
 				custom_effect_tooltip = integrate_country_YUG_coring_states_tt
 				hidden_effect = {
 					if = {
@@ -3909,7 +4557,6 @@ integrate_greater_italy_category = {
 			NOT = { has_global_flag = greater_italy_flag }
 			ITA = {
 				is_subject_of = ROOT
-				has_completed_focus = ITA_towards_a_greater_italy
 				controls_state = 852
 				controls_state = 736
 				controls_state = 160

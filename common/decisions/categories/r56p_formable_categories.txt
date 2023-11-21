@@ -133,6 +133,7 @@ form_united_balkan_category = {
 			FROM = {
 				OR = {
 					state = 104
+					state = 105
 					state = 106
 					state = 107
 					state = 108
@@ -147,6 +148,7 @@ form_united_balkan_category = {
 					state = 959
 					state = 961
 					state = 962
+					state = 963
 					state = 44
 					state = 805
 					state = 910
@@ -172,7 +174,7 @@ form_united_balkan_category = {
 				}
 			}
 		}
-		zoom = 800
+		zoom = 400
 	}
 }
 integrate_united_balkan_category = {

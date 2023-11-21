@@ -10635,7 +10635,7 @@ focus_tree = {
 		completion_reward = {
 			#TODO_Manu: Need to do something here because it is super redundant with everything else
 
-			custom_effect_tooltip = form_greater_italy_tt
+			#custom_effect_tooltip = form_greater_italy_tt
 
 			#TODO_Manu: What if Italian allies/subjects control these?
 
@@ -14546,7 +14546,7 @@ focus_tree = {
 				create_faction = "italy_empire_faction"
 			}
 
-			unlock_decision_tooltip = proclaim_greater_italy
+			#unlock_decision_tooltip = proclaim_greater_italy
 			unlock_decision_tooltip = form_roman_empire
 
 			random_owned_controlled_state = {
