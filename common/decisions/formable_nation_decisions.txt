@@ -27,38 +27,67 @@ form_scandinavia_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = form_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191					
-						state = 1027
-					}
-					is_controlled_by = ROOT 
-				}
+				#all_state = {
+				#	OR = {
+				#		region = 11
+				#		region = 191					
+				#		state = 1027
+				#	}
+				#	is_controlled_by = ROOT 
+				#}
+				controls_state = 110
+				controls_state = 142
+				controls_state = 143
+				controls_state = 144
+				controls_state = 967
+				controls_state = 967
+				controls_state = 1027
+				controls_state = 1031
+				controls_state = 1032
+				controls_state = 1033
+				controls_state = 1034
+				controls_state = 1035
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = form_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by = ROOT 
-				}
+				#all_state = {
+				#	OR = {
+				#		region = 10
+				#		region = 192
+				#		state = 124
+				#	}
+				#	is_controlled_by = ROOT 
+				#}
+				controls_state = 38
+				controls_state = 124
+				controls_state = 138
+				controls_state = 139
+				controls_state = 140
+				controls_state = 141
+				controls_state = 666
+				controls_state = 968
+				controls_state = 969
+				controls_state = 1026
+				controls_state = 1028
+				controls_state = 1029
+				controls_state = 1030
 			}
 			# Denmark / European Mainland
 			custom_trigger_tooltip = {
 				tooltip = form_scandinavia_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						#state = 337				
-					}
-					is_controlled_by = ROOT 
-				}
+				#all_state = {
+				#	OR = {
+				#		region = 277
+				#		state = 1024
+				#		#state = 337				
+				#	}
+				#	is_controlled_by = ROOT 
+				#}
+				controls_state = 37
+				controls_state = 99
+				controls_state = 964
+				controls_state = 1024
 			}
 		}
 
@@ -166,79 +195,126 @@ form_nordic_league_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = form_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191					
-						state = 1027
-					}
-					is_controlled_by = ROOT 
-				}
+				#all_state = {
+				#	OR = {
+				#		region = 11
+				#		region = 191					
+				#		state = 1027
+				#	}
+				#	is_controlled_by = ROOT 
+				#}
+				controls_state = 110
+				controls_state = 142
+				controls_state = 143
+				controls_state = 144
+				controls_state = 967
+				controls_state = 967
+				controls_state = 1027
+				controls_state = 1031
+				controls_state = 1032
+				controls_state = 1033
+				controls_state = 1034
+				controls_state = 1035
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = form_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by = ROOT 
-				}
+				#all_state = {
+				#	OR = {
+				#		region = 10
+				#		region = 192
+				#		state = 124
+				#	}
+				#	is_controlled_by = ROOT 
+				#}
+				controls_state = 38
+				controls_state = 124
+				controls_state = 138
+				controls_state = 139
+				controls_state = 140
+				controls_state = 141
+				controls_state = 666
+				controls_state = 968
+				controls_state = 969
+				controls_state = 1026
+				controls_state = 1028
+				controls_state = 1029
+				controls_state = 1030
 			}
 			# Denmark
 			custom_trigger_tooltip = {
 				tooltip = form_country_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						state = 337		
-						state = 101		
-					}
-					is_controlled_by = ROOT 
-				}
+				#all_state = {
+				#	OR = {
+				#		region = 277
+				#		state = 1024
+				#		state = 337		
+				#		state = 101		
+				#	}
+				#	is_controlled_by = ROOT 
+				#}
+				controls_state = 37
+				controls_state = 99
+				controls_state = 101
+				controls_state = 337
+				controls_state = 964
+				controls_state = 1024
+				controls_state = 1025
 			}
 			# Iceland 
 			custom_trigger_tooltip = {
 				tooltip = form_country_iceland_recuired_states_tt
-				all_state = {
-					OR = {
-						state = 1043	
-						state = 100	
-					}
-					is_controlled_by = ROOT 
-				}
+				#all_state = {
+				#	OR = {
+				#		state = 1043	
+				#		state = 100	
+				#	}
+				#	is_controlled_by = ROOT 
+				#}
+				controls_state = 100
+				controls_state = 1043
 			}
 			# Finland
 			custom_trigger_tooltip = {
 				tooltip = form_country_finland_required_states_tt
-				all_state = {
-					OR = {
-						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
-							AND = {
-								region = 12
-								NOT = {
-									state = 213	#not Murmansk
-								}
-							}
-							AND = {
-								region = 9
-								NOT = {
-									state = 124	#Aland, not Gotland
-								}
-							}
-						}
-						is_controlled_by = ROOT 
-					}
-				}
+				#all_state = {
+				#	OR = {
+				#		NOT = { 
+				#			region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+				#			AND = {
+				#				region = 12
+				#				NOT = {
+				#					state = 213	#not Murmansk
+				#				}
+				#			}
+				#			AND = {
+				#				region = 9
+				#				NOT = {
+				#					state = 124	#Aland, not Gotland
+				#				}
+				#			}
+				#		}
+				#		is_controlled_by = ROOT 
+				#	}
+				#}
 				#controls_state = 111
 				#controls_state = 145
 				#controls_state = 148
 				#controls_state = 149
 				#controls_state = 150
+				controls_state = 111
+				controls_state = 145
+				controls_state = 146
+				controls_state = 147
+				controls_state = 148
+				controls_state = 149
+				controls_state = 150
+				controls_state = 722
+				controls_state = 1036
+				controls_state = 1037
+				controls_state = 1038
+				controls_state = 1039
+				controls_state = 1040
 			}
 		}
 
@@ -277,6 +353,25 @@ form_nordic_league_category = {
 					}
 				}
 			}
+
+			if = {
+				limit = {
+					NOR = {
+						is_subject_of = ROOT
+					}
+				}
+				
+				NOR = {
+					every_unit_leader = {
+						set_nationality = ROOT
+					}
+				}
+				
+				annex_country = {
+					target = NOR
+					transfer_troops = yes
+				}
+			}
 			# Sweden
 			custom_effect_tooltip = form_country_sweden_coring_states_tt
 			hidden_effect = {
@@ -296,6 +391,25 @@ form_nordic_league_category = {
 					add_core_of = ROOT
 				}
 			}
+
+			if = {
+				limit = {
+					SWE = {
+						is_subject_of = ROOT
+					}
+				}
+				
+				SWE = {
+					every_unit_leader = {
+						set_nationality = ROOT
+					}
+				}
+				
+				annex_country = {
+					target = SWE
+					transfer_troops = yes
+				}
+			}
 			# Denmark
 			custom_effect_tooltip = form_country_denmark_coring_states_tt
 			hidden_effect = {
@@ -312,6 +426,25 @@ form_nordic_league_category = {
 						}
 					}
 					add_core_of = ROOT
+				}
+			}
+
+			if = {
+				limit = {
+					DEN = {
+						is_subject_of = ROOT
+					}
+				}
+				
+				DEN = {
+					every_unit_leader = {
+						set_nationality = ROOT
+					}
+				}				
+				
+				annex_country = {
+					target = DEN
+					transfer_troops = yes
 				}
 			}
 			# Iceland
@@ -349,6 +482,33 @@ form_nordic_league_category = {
 						}
 					}
 					add_core_of = ROOT
+				}
+			}
+			
+			if = {
+				limit = {
+					FIN = {
+						is_subject_of = ROOT
+						OR = {
+							is_subject_of = ROOT
+							all_core_state = {
+								controller = {
+									tag = ROOT
+								} 
+							}
+						}
+					}
+				}
+				
+				FIN = {
+					every_unit_leader = {
+						set_nationality = ROOT
+					}
+				}
+
+				annex_country = {
+					target = FIN
+					transfer_troops = yes
 				}
 			}
 			hidden_effect = {

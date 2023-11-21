@@ -13,38 +13,43 @@ integrate_scandinavia_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191
-						state = 1027
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				110 = { is_controlled_by_ROOT_or_subject = yes }
+				142 = { is_controlled_by_ROOT_or_subject = yes }
+				143 = { is_controlled_by_ROOT_or_subject = yes }
+				144 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				1027 = { is_controlled_by_ROOT_or_subject = yes }
+				1031 = { is_controlled_by_ROOT_or_subject = yes }
+				1032 = { is_controlled_by_ROOT_or_subject = yes }
+				1033 = { is_controlled_by_ROOT_or_subject = yes }
+				1034 = { is_controlled_by_ROOT_or_subject = yes }
+				1035 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				38 = { is_controlled_by_ROOT_or_subject = yes }
+				124 = { is_controlled_by_ROOT_or_subject = yes }
+				138 = { is_controlled_by_ROOT_or_subject = yes }
+				139 = { is_controlled_by_ROOT_or_subject = yes }
+				140 = { is_controlled_by_ROOT_or_subject = yes }
+				141 = { is_controlled_by_ROOT_or_subject = yes }
+				666 = { is_controlled_by_ROOT_or_subject = yes }
+				968 = { is_controlled_by_ROOT_or_subject = yes }
+				969 = { is_controlled_by_ROOT_or_subject = yes }
+				1026 = { is_controlled_by_ROOT_or_subject = yes }
+				1028 = { is_controlled_by_ROOT_or_subject = yes }
+				1029 = { is_controlled_by_ROOT_or_subject = yes }
+				1030 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Denmark / European Mainland
 			custom_trigger_tooltip = {
 				tooltip = integrate_scandinavia_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						#state = 337
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				37 = { is_controlled_by_ROOT_or_subject = yes }
+				99 = { is_controlled_by_ROOT_or_subject = yes }
+				964 = { is_controlled_by_ROOT_or_subject = yes }
+				1024 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -113,38 +118,43 @@ integrate_scandinavia_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191
-						state = 1027
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				110 = { is_controlled_by_ROOT_or_subject = yes }
+				142 = { is_controlled_by_ROOT_or_subject = yes }
+				143 = { is_controlled_by_ROOT_or_subject = yes }
+				144 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				1027 = { is_controlled_by_ROOT_or_subject = yes }
+				1031 = { is_controlled_by_ROOT_or_subject = yes }
+				1032 = { is_controlled_by_ROOT_or_subject = yes }
+				1033 = { is_controlled_by_ROOT_or_subject = yes }
+				1034 = { is_controlled_by_ROOT_or_subject = yes }
+				1035 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				38 = { is_controlled_by_ROOT_or_subject = yes }
+				124 = { is_controlled_by_ROOT_or_subject = yes }
+				138 = { is_controlled_by_ROOT_or_subject = yes }
+				139 = { is_controlled_by_ROOT_or_subject = yes }
+				140 = { is_controlled_by_ROOT_or_subject = yes }
+				141 = { is_controlled_by_ROOT_or_subject = yes }
+				666 = { is_controlled_by_ROOT_or_subject = yes }
+				968 = { is_controlled_by_ROOT_or_subject = yes }
+				969 = { is_controlled_by_ROOT_or_subject = yes }
+				1026 = { is_controlled_by_ROOT_or_subject = yes }
+				1028 = { is_controlled_by_ROOT_or_subject = yes }
+				1029 = { is_controlled_by_ROOT_or_subject = yes }
+				1030 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Denmark / European Mainland
 			custom_trigger_tooltip = {
 				tooltip = integrate_scandinavia_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						#state = 337
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				37 = { is_controlled_by_ROOT_or_subject = yes }
+				99 = { is_controlled_by_ROOT_or_subject = yes }
+				964 = { is_controlled_by_ROOT_or_subject = yes }
+				1024 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -213,38 +223,43 @@ integrate_scandinavia_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191
-						state = 1027
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				110 = { is_controlled_by_ROOT_or_subject = yes }
+				142 = { is_controlled_by_ROOT_or_subject = yes }
+				143 = { is_controlled_by_ROOT_or_subject = yes }
+				144 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				1027 = { is_controlled_by_ROOT_or_subject = yes }
+				1031 = { is_controlled_by_ROOT_or_subject = yes }
+				1032 = { is_controlled_by_ROOT_or_subject = yes }
+				1033 = { is_controlled_by_ROOT_or_subject = yes }
+				1034 = { is_controlled_by_ROOT_or_subject = yes }
+				1035 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				38 = { is_controlled_by_ROOT_or_subject = yes }
+				124 = { is_controlled_by_ROOT_or_subject = yes }
+				138 = { is_controlled_by_ROOT_or_subject = yes }
+				139 = { is_controlled_by_ROOT_or_subject = yes }
+				140 = { is_controlled_by_ROOT_or_subject = yes }
+				141 = { is_controlled_by_ROOT_or_subject = yes }
+				666 = { is_controlled_by_ROOT_or_subject = yes }
+				968 = { is_controlled_by_ROOT_or_subject = yes }
+				969 = { is_controlled_by_ROOT_or_subject = yes }
+				1026 = { is_controlled_by_ROOT_or_subject = yes }
+				1028 = { is_controlled_by_ROOT_or_subject = yes }
+				1029 = { is_controlled_by_ROOT_or_subject = yes }
+				1030 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Denmark / European Mainland
 			custom_trigger_tooltip = {
 				tooltip = integrate_scandinavia_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						#state = 337
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				37 = { is_controlled_by_ROOT_or_subject = yes }
+				99 = { is_controlled_by_ROOT_or_subject = yes }
+				964 = { is_controlled_by_ROOT_or_subject = yes }
+				1024 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -313,38 +328,43 @@ integrate_scandinavia_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191
-						state = 1027
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				110 = { is_controlled_by_ROOT_or_subject = yes }
+				142 = { is_controlled_by_ROOT_or_subject = yes }
+				143 = { is_controlled_by_ROOT_or_subject = yes }
+				144 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				1027 = { is_controlled_by_ROOT_or_subject = yes }
+				1031 = { is_controlled_by_ROOT_or_subject = yes }
+				1032 = { is_controlled_by_ROOT_or_subject = yes }
+				1033 = { is_controlled_by_ROOT_or_subject = yes }
+				1034 = { is_controlled_by_ROOT_or_subject = yes }
+				1035 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				38 = { is_controlled_by_ROOT_or_subject = yes }
+				124 = { is_controlled_by_ROOT_or_subject = yes }
+				138 = { is_controlled_by_ROOT_or_subject = yes }
+				139 = { is_controlled_by_ROOT_or_subject = yes }
+				140 = { is_controlled_by_ROOT_or_subject = yes }
+				141 = { is_controlled_by_ROOT_or_subject = yes }
+				666 = { is_controlled_by_ROOT_or_subject = yes }
+				968 = { is_controlled_by_ROOT_or_subject = yes }
+				969 = { is_controlled_by_ROOT_or_subject = yes }
+				1026 = { is_controlled_by_ROOT_or_subject = yes }
+				1028 = { is_controlled_by_ROOT_or_subject = yes }
+				1029 = { is_controlled_by_ROOT_or_subject = yes }
+				1030 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Denmark / European Mainland
 			custom_trigger_tooltip = {
 				tooltip = integrate_scandinavia_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						#state = 337
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				37 = { is_controlled_by_ROOT_or_subject = yes }
+				99 = { is_controlled_by_ROOT_or_subject = yes }
+				964 = { is_controlled_by_ROOT_or_subject = yes }
+				1024 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -413,38 +433,43 @@ integrate_scandinavia_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191
-						state = 1027
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				110 = { is_controlled_by_ROOT_or_subject = yes }
+				142 = { is_controlled_by_ROOT_or_subject = yes }
+				143 = { is_controlled_by_ROOT_or_subject = yes }
+				144 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				1027 = { is_controlled_by_ROOT_or_subject = yes }
+				1031 = { is_controlled_by_ROOT_or_subject = yes }
+				1032 = { is_controlled_by_ROOT_or_subject = yes }
+				1033 = { is_controlled_by_ROOT_or_subject = yes }
+				1034 = { is_controlled_by_ROOT_or_subject = yes }
+				1035 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				38 = { is_controlled_by_ROOT_or_subject = yes }
+				124 = { is_controlled_by_ROOT_or_subject = yes }
+				138 = { is_controlled_by_ROOT_or_subject = yes }
+				139 = { is_controlled_by_ROOT_or_subject = yes }
+				140 = { is_controlled_by_ROOT_or_subject = yes }
+				141 = { is_controlled_by_ROOT_or_subject = yes }
+				666 = { is_controlled_by_ROOT_or_subject = yes }
+				968 = { is_controlled_by_ROOT_or_subject = yes }
+				969 = { is_controlled_by_ROOT_or_subject = yes }
+				1026 = { is_controlled_by_ROOT_or_subject = yes }
+				1028 = { is_controlled_by_ROOT_or_subject = yes }
+				1029 = { is_controlled_by_ROOT_or_subject = yes }
+				1030 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Denmark / European Mainland
 			custom_trigger_tooltip = {
 				tooltip = integrate_scandinavia_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						#state = 337
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				37 = { is_controlled_by_ROOT_or_subject = yes }
+				99 = { is_controlled_by_ROOT_or_subject = yes }
+				964 = { is_controlled_by_ROOT_or_subject = yes }
+				1024 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -517,38 +542,43 @@ integrate_scandinavia_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191
-						state = 1027
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				110 = { is_controlled_by_ROOT_or_subject = yes }
+				142 = { is_controlled_by_ROOT_or_subject = yes }
+				143 = { is_controlled_by_ROOT_or_subject = yes }
+				144 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				1027 = { is_controlled_by_ROOT_or_subject = yes }
+				1031 = { is_controlled_by_ROOT_or_subject = yes }
+				1032 = { is_controlled_by_ROOT_or_subject = yes }
+				1033 = { is_controlled_by_ROOT_or_subject = yes }
+				1034 = { is_controlled_by_ROOT_or_subject = yes }
+				1035 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				38 = { is_controlled_by_ROOT_or_subject = yes }
+				124 = { is_controlled_by_ROOT_or_subject = yes }
+				138 = { is_controlled_by_ROOT_or_subject = yes }
+				139 = { is_controlled_by_ROOT_or_subject = yes }
+				140 = { is_controlled_by_ROOT_or_subject = yes }
+				141 = { is_controlled_by_ROOT_or_subject = yes }
+				666 = { is_controlled_by_ROOT_or_subject = yes }
+				968 = { is_controlled_by_ROOT_or_subject = yes }
+				969 = { is_controlled_by_ROOT_or_subject = yes }
+				1026 = { is_controlled_by_ROOT_or_subject = yes }
+				1028 = { is_controlled_by_ROOT_or_subject = yes }
+				1029 = { is_controlled_by_ROOT_or_subject = yes }
+				1030 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Denmark / European Mainland
 			custom_trigger_tooltip = {
 				tooltip = integrate_scandinavia_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						#state = 337
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				37 = { is_controlled_by_ROOT_or_subject = yes }
+				99 = { is_controlled_by_ROOT_or_subject = yes }
+				964 = { is_controlled_by_ROOT_or_subject = yes }
+				1024 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -620,74 +650,69 @@ integrate_nordic_league_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191
-						state = 1027
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				110 = { is_controlled_by_ROOT_or_subject = yes }
+				142 = { is_controlled_by_ROOT_or_subject = yes }
+				143 = { is_controlled_by_ROOT_or_subject = yes }
+				144 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				1027 = { is_controlled_by_ROOT_or_subject = yes }
+				1031 = { is_controlled_by_ROOT_or_subject = yes }
+				1032 = { is_controlled_by_ROOT_or_subject = yes }
+				1033 = { is_controlled_by_ROOT_or_subject = yes }
+				1034 = { is_controlled_by_ROOT_or_subject = yes }
+				1035 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				38 = { is_controlled_by_ROOT_or_subject = yes }
+				124 = { is_controlled_by_ROOT_or_subject = yes }
+				138 = { is_controlled_by_ROOT_or_subject = yes }
+				139 = { is_controlled_by_ROOT_or_subject = yes }
+				140 = { is_controlled_by_ROOT_or_subject = yes }
+				141 = { is_controlled_by_ROOT_or_subject = yes }
+				666 = { is_controlled_by_ROOT_or_subject = yes }
+				968 = { is_controlled_by_ROOT_or_subject = yes }
+				969 = { is_controlled_by_ROOT_or_subject = yes }
+				1026 = { is_controlled_by_ROOT_or_subject = yes }
+				1028 = { is_controlled_by_ROOT_or_subject = yes }
+				1029 = { is_controlled_by_ROOT_or_subject = yes }
+				1030 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Denmark
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						state = 337
-						state = 101
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				37 = { is_controlled_by_ROOT_or_subject = yes }
+				99 = { is_controlled_by_ROOT_or_subject = yes }
+				101 = { is_controlled_by_ROOT_or_subject = yes }
+				337 = { is_controlled_by_ROOT_or_subject = yes }
+				964 = { is_controlled_by_ROOT_or_subject = yes }
+				1024 = { is_controlled_by_ROOT_or_subject = yes }
+				1025 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Iceland 
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_iceland_recuired_states_tt
-				all_state = {
-					OR = {
-						state = 1043
-						state = 100
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				100 = { is_controlled_by_ROOT_or_subject = yes }
+				1043 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Finland
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_finland_required_states_tt
-				all_state = {
-					OR = {
-						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
-							AND = {
-								region = 12
-								NOT = {
-									state = 213	#not Murmansk
-								}
-							}
-							AND = {
-								region = 9
-								NOT = {
-									state = 124	#Aland, not Gotland
-								}
-							}
-						}
-						is_controlled_by_ROOT_or_subject = yes
-					}
-				}
+				111 = { is_controlled_by_ROOT_or_subject = yes }
+				145 = { is_controlled_by_ROOT_or_subject = yes }
+				146 = { is_controlled_by_ROOT_or_subject = yes }
+				147 = { is_controlled_by_ROOT_or_subject = yes }
+				148 = { is_controlled_by_ROOT_or_subject = yes }
+				149 = { is_controlled_by_ROOT_or_subject = yes }
+				150 = { is_controlled_by_ROOT_or_subject = yes }
+				722 = { is_controlled_by_ROOT_or_subject = yes }
+				1036 = { is_controlled_by_ROOT_or_subject = yes }
+				1037 = { is_controlled_by_ROOT_or_subject = yes }
+				1038 = { is_controlled_by_ROOT_or_subject = yes }
+				1039 = { is_controlled_by_ROOT_or_subject = yes }
+				1040 = { is_controlled_by_ROOT_or_subject = yes }
 				#111 = { is_controlled_by_ROOT_or_subject = yes }
 				#145 = { is_controlled_by_ROOT_or_subject = yes }
 				#148 = { is_controlled_by_ROOT_or_subject = yes }
@@ -720,12 +745,7 @@ integrate_nordic_league_category = {
 						OR = {
 							region = 10
 							region = 192
-							AND = {
-								region = 9	#just because there is Gotland and it is a separate state
-								NOT = {
-									state = 145	#not Aland, not here
-								}
-							}
+							state = 124
 						}
 					}
 					transfer_state_to = NOR
@@ -741,9 +761,6 @@ integrate_nordic_league_category = {
 							state = 1024
 							state = 337
 							state = 101
-							NOT = {
-								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
-							}
 						}
 					}
 					transfer_state_to = NOR
@@ -755,8 +772,8 @@ integrate_nordic_league_category = {
 				every_state = {
 					limit = {
 						OR = {
-							state = 100
 							state = 1043
+							state = 100
 						}
 					}
 					transfer_state_to = NOR
@@ -827,74 +844,69 @@ integrate_nordic_league_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191
-						state = 1027
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				110 = { is_controlled_by_ROOT_or_subject = yes }
+				142 = { is_controlled_by_ROOT_or_subject = yes }
+				143 = { is_controlled_by_ROOT_or_subject = yes }
+				144 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				1027 = { is_controlled_by_ROOT_or_subject = yes }
+				1031 = { is_controlled_by_ROOT_or_subject = yes }
+				1032 = { is_controlled_by_ROOT_or_subject = yes }
+				1033 = { is_controlled_by_ROOT_or_subject = yes }
+				1034 = { is_controlled_by_ROOT_or_subject = yes }
+				1035 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				38 = { is_controlled_by_ROOT_or_subject = yes }
+				124 = { is_controlled_by_ROOT_or_subject = yes }
+				138 = { is_controlled_by_ROOT_or_subject = yes }
+				139 = { is_controlled_by_ROOT_or_subject = yes }
+				140 = { is_controlled_by_ROOT_or_subject = yes }
+				141 = { is_controlled_by_ROOT_or_subject = yes }
+				666 = { is_controlled_by_ROOT_or_subject = yes }
+				968 = { is_controlled_by_ROOT_or_subject = yes }
+				969 = { is_controlled_by_ROOT_or_subject = yes }
+				1026 = { is_controlled_by_ROOT_or_subject = yes }
+				1028 = { is_controlled_by_ROOT_or_subject = yes }
+				1029 = { is_controlled_by_ROOT_or_subject = yes }
+				1030 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Denmark
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						state = 337
-						state = 101
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				37 = { is_controlled_by_ROOT_or_subject = yes }
+				99 = { is_controlled_by_ROOT_or_subject = yes }
+				101 = { is_controlled_by_ROOT_or_subject = yes }
+				337 = { is_controlled_by_ROOT_or_subject = yes }
+				964 = { is_controlled_by_ROOT_or_subject = yes }
+				1024 = { is_controlled_by_ROOT_or_subject = yes }
+				1025 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Iceland 
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_iceland_recuired_states_tt
-				all_state = {
-					OR = {
-						state = 1043
-						state = 100
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				100 = { is_controlled_by_ROOT_or_subject = yes }
+				1043 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Finland
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_finland_required_states_tt
-				all_state = {
-					OR = {
-						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
-							AND = {
-								region = 12
-								NOT = {
-									state = 213	#not Murmansk
-								}
-							}
-							AND = {
-								region = 9
-								NOT = {
-									state = 124	#Aland, not Gotland
-								}
-							}
-						}
-						is_controlled_by_ROOT_or_subject = yes
-					}
-				}
+				111 = { is_controlled_by_ROOT_or_subject = yes }
+				145 = { is_controlled_by_ROOT_or_subject = yes }
+				146 = { is_controlled_by_ROOT_or_subject = yes }
+				147 = { is_controlled_by_ROOT_or_subject = yes }
+				148 = { is_controlled_by_ROOT_or_subject = yes }
+				149 = { is_controlled_by_ROOT_or_subject = yes }
+				150 = { is_controlled_by_ROOT_or_subject = yes }
+				722 = { is_controlled_by_ROOT_or_subject = yes }
+				1036 = { is_controlled_by_ROOT_or_subject = yes }
+				1037 = { is_controlled_by_ROOT_or_subject = yes }
+				1038 = { is_controlled_by_ROOT_or_subject = yes }
+				1039 = { is_controlled_by_ROOT_or_subject = yes }
+				1040 = { is_controlled_by_ROOT_or_subject = yes }
 				#111 = { is_controlled_by_ROOT_or_subject = yes }
 				#145 = { is_controlled_by_ROOT_or_subject = yes }
 				#148 = { is_controlled_by_ROOT_or_subject = yes }
@@ -927,12 +939,7 @@ integrate_nordic_league_category = {
 						OR = {
 							region = 10
 							region = 192
-							AND = {
-								region = 9	#just because there is Gotland and it is a separate state
-								NOT = {
-									state = 145	#not Aland, not here
-								}
-							}
+							state = 124
 						}
 					}
 					transfer_state_to = DEN
@@ -948,9 +955,6 @@ integrate_nordic_league_category = {
 							state = 1024
 							state = 337
 							state = 101
-							NOT = {
-								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
-							}
 						}
 					}
 					transfer_state_to = DEN
@@ -962,8 +966,8 @@ integrate_nordic_league_category = {
 				every_state = {
 					limit = {
 						OR = {
-							state = 100
 							state = 1043
+							state = 100
 						}
 					}
 					transfer_state_to = DEN
@@ -1034,74 +1038,69 @@ integrate_nordic_league_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191
-						state = 1027
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				110 = { is_controlled_by_ROOT_or_subject = yes }
+				142 = { is_controlled_by_ROOT_or_subject = yes }
+				143 = { is_controlled_by_ROOT_or_subject = yes }
+				144 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				1027 = { is_controlled_by_ROOT_or_subject = yes }
+				1031 = { is_controlled_by_ROOT_or_subject = yes }
+				1032 = { is_controlled_by_ROOT_or_subject = yes }
+				1033 = { is_controlled_by_ROOT_or_subject = yes }
+				1034 = { is_controlled_by_ROOT_or_subject = yes }
+				1035 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				38 = { is_controlled_by_ROOT_or_subject = yes }
+				124 = { is_controlled_by_ROOT_or_subject = yes }
+				138 = { is_controlled_by_ROOT_or_subject = yes }
+				139 = { is_controlled_by_ROOT_or_subject = yes }
+				140 = { is_controlled_by_ROOT_or_subject = yes }
+				141 = { is_controlled_by_ROOT_or_subject = yes }
+				666 = { is_controlled_by_ROOT_or_subject = yes }
+				968 = { is_controlled_by_ROOT_or_subject = yes }
+				969 = { is_controlled_by_ROOT_or_subject = yes }
+				1026 = { is_controlled_by_ROOT_or_subject = yes }
+				1028 = { is_controlled_by_ROOT_or_subject = yes }
+				1029 = { is_controlled_by_ROOT_or_subject = yes }
+				1030 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Denmark
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						state = 337
-						state = 101
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				37 = { is_controlled_by_ROOT_or_subject = yes }
+				99 = { is_controlled_by_ROOT_or_subject = yes }
+				101 = { is_controlled_by_ROOT_or_subject = yes }
+				337 = { is_controlled_by_ROOT_or_subject = yes }
+				964 = { is_controlled_by_ROOT_or_subject = yes }
+				1024 = { is_controlled_by_ROOT_or_subject = yes }
+				1025 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Iceland 
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_iceland_recuired_states_tt
-				all_state = {
-					OR = {
-						state = 1043
-						state = 100
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				100 = { is_controlled_by_ROOT_or_subject = yes }
+				1043 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Finland
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_finland_required_states_tt
-				all_state = {
-					OR = {
-						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
-							AND = {
-								region = 12
-								NOT = {
-									state = 213	#not Murmansk
-								}
-							}
-							AND = {
-								region = 9
-								NOT = {
-									state = 124	#Aland, not Gotland
-								}
-							}
-						}
-						is_controlled_by_ROOT_or_subject = yes
-					}
-				}
+				111 = { is_controlled_by_ROOT_or_subject = yes }
+				145 = { is_controlled_by_ROOT_or_subject = yes }
+				146 = { is_controlled_by_ROOT_or_subject = yes }
+				147 = { is_controlled_by_ROOT_or_subject = yes }
+				148 = { is_controlled_by_ROOT_or_subject = yes }
+				149 = { is_controlled_by_ROOT_or_subject = yes }
+				150 = { is_controlled_by_ROOT_or_subject = yes }
+				722 = { is_controlled_by_ROOT_or_subject = yes }
+				1036 = { is_controlled_by_ROOT_or_subject = yes }
+				1037 = { is_controlled_by_ROOT_or_subject = yes }
+				1038 = { is_controlled_by_ROOT_or_subject = yes }
+				1039 = { is_controlled_by_ROOT_or_subject = yes }
+				1040 = { is_controlled_by_ROOT_or_subject = yes }
 				#111 = { is_controlled_by_ROOT_or_subject = yes }
 				#145 = { is_controlled_by_ROOT_or_subject = yes }
 				#148 = { is_controlled_by_ROOT_or_subject = yes }
@@ -1134,12 +1133,7 @@ integrate_nordic_league_category = {
 						OR = {
 							region = 10
 							region = 192
-							AND = {
-								region = 9	#just because there is Gotland and it is a separate state
-								NOT = {
-									state = 145	#not Aland, not here
-								}
-							}
+							state = 124
 						}
 					}
 					transfer_state_to = SWE
@@ -1155,9 +1149,6 @@ integrate_nordic_league_category = {
 							state = 1024
 							state = 337
 							state = 101
-							NOT = {
-								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
-							}
 						}
 					}
 					transfer_state_to = SWE
@@ -1169,8 +1160,8 @@ integrate_nordic_league_category = {
 				every_state = {
 					limit = {
 						OR = {
-							state = 100
 							state = 1043
+							state = 100
 						}
 					}
 					transfer_state_to = SWE
@@ -1214,7 +1205,7 @@ integrate_nordic_league_category = {
 				}
 				custom_effect_tooltip = integrate_country_KAR_coring_states_tt
 				hidden_effect = {
-					SWE = {
+					FIN = {
 						transfer_state = 146
 						transfer_state = 147
 						transfer_state = 213
@@ -1241,74 +1232,69 @@ integrate_nordic_league_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191
-						state = 1027
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				110 = { is_controlled_by_ROOT_or_subject = yes }
+				142 = { is_controlled_by_ROOT_or_subject = yes }
+				143 = { is_controlled_by_ROOT_or_subject = yes }
+				144 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				1027 = { is_controlled_by_ROOT_or_subject = yes }
+				1031 = { is_controlled_by_ROOT_or_subject = yes }
+				1032 = { is_controlled_by_ROOT_or_subject = yes }
+				1033 = { is_controlled_by_ROOT_or_subject = yes }
+				1034 = { is_controlled_by_ROOT_or_subject = yes }
+				1035 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				38 = { is_controlled_by_ROOT_or_subject = yes }
+				124 = { is_controlled_by_ROOT_or_subject = yes }
+				138 = { is_controlled_by_ROOT_or_subject = yes }
+				139 = { is_controlled_by_ROOT_or_subject = yes }
+				140 = { is_controlled_by_ROOT_or_subject = yes }
+				141 = { is_controlled_by_ROOT_or_subject = yes }
+				666 = { is_controlled_by_ROOT_or_subject = yes }
+				968 = { is_controlled_by_ROOT_or_subject = yes }
+				969 = { is_controlled_by_ROOT_or_subject = yes }
+				1026 = { is_controlled_by_ROOT_or_subject = yes }
+				1028 = { is_controlled_by_ROOT_or_subject = yes }
+				1029 = { is_controlled_by_ROOT_or_subject = yes }
+				1030 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Denmark
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						state = 337
-						state = 101
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				37 = { is_controlled_by_ROOT_or_subject = yes }
+				99 = { is_controlled_by_ROOT_or_subject = yes }
+				101 = { is_controlled_by_ROOT_or_subject = yes }
+				337 = { is_controlled_by_ROOT_or_subject = yes }
+				964 = { is_controlled_by_ROOT_or_subject = yes }
+				1024 = { is_controlled_by_ROOT_or_subject = yes }
+				1025 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Iceland 
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_iceland_recuired_states_tt
-				all_state = {
-					OR = {
-						state = 1043
-						state = 100
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				100 = { is_controlled_by_ROOT_or_subject = yes }
+				1043 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Finland
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_finland_required_states_tt
-				all_state = {
-					OR = {
-						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
-							AND = {
-								region = 12
-								NOT = {
-									state = 213	#not Murmansk
-								}
-							}
-							AND = {
-								region = 9
-								NOT = {
-									state = 124	#Aland, not Gotland
-								}
-							}
-						}
-						is_controlled_by_ROOT_or_subject = yes
-					}
-				}
+				111 = { is_controlled_by_ROOT_or_subject = yes }
+				145 = { is_controlled_by_ROOT_or_subject = yes }
+				146 = { is_controlled_by_ROOT_or_subject = yes }
+				147 = { is_controlled_by_ROOT_or_subject = yes }
+				148 = { is_controlled_by_ROOT_or_subject = yes }
+				149 = { is_controlled_by_ROOT_or_subject = yes }
+				150 = { is_controlled_by_ROOT_or_subject = yes }
+				722 = { is_controlled_by_ROOT_or_subject = yes }
+				1036 = { is_controlled_by_ROOT_or_subject = yes }
+				1037 = { is_controlled_by_ROOT_or_subject = yes }
+				1038 = { is_controlled_by_ROOT_or_subject = yes }
+				1039 = { is_controlled_by_ROOT_or_subject = yes }
+				1040 = { is_controlled_by_ROOT_or_subject = yes }
 				#111 = { is_controlled_by_ROOT_or_subject = yes }
 				#145 = { is_controlled_by_ROOT_or_subject = yes }
 				#148 = { is_controlled_by_ROOT_or_subject = yes }
@@ -1341,12 +1327,7 @@ integrate_nordic_league_category = {
 						OR = {
 							region = 10
 							region = 192
-							AND = {
-								region = 9	#just because there is Gotland and it is a separate state
-								NOT = {
-									state = 145	#not Aland, not here
-								}
-							}
+							state = 124
 						}
 					}
 					transfer_state_to = FIN
@@ -1362,9 +1343,6 @@ integrate_nordic_league_category = {
 							state = 1024
 							state = 337
 							state = 101
-							NOT = {
-								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
-							}
 						}
 					}
 					transfer_state_to = FIN
@@ -1376,8 +1354,8 @@ integrate_nordic_league_category = {
 				every_state = {
 					limit = {
 						OR = {
-							state = 100
 							state = 1043
+							state = 100
 						}
 					}
 					transfer_state_to = FIN
@@ -1448,74 +1426,69 @@ integrate_nordic_league_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191
-						state = 1027
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				110 = { is_controlled_by_ROOT_or_subject = yes }
+				142 = { is_controlled_by_ROOT_or_subject = yes }
+				143 = { is_controlled_by_ROOT_or_subject = yes }
+				144 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				1027 = { is_controlled_by_ROOT_or_subject = yes }
+				1031 = { is_controlled_by_ROOT_or_subject = yes }
+				1032 = { is_controlled_by_ROOT_or_subject = yes }
+				1033 = { is_controlled_by_ROOT_or_subject = yes }
+				1034 = { is_controlled_by_ROOT_or_subject = yes }
+				1035 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				38 = { is_controlled_by_ROOT_or_subject = yes }
+				124 = { is_controlled_by_ROOT_or_subject = yes }
+				138 = { is_controlled_by_ROOT_or_subject = yes }
+				139 = { is_controlled_by_ROOT_or_subject = yes }
+				140 = { is_controlled_by_ROOT_or_subject = yes }
+				141 = { is_controlled_by_ROOT_or_subject = yes }
+				666 = { is_controlled_by_ROOT_or_subject = yes }
+				968 = { is_controlled_by_ROOT_or_subject = yes }
+				969 = { is_controlled_by_ROOT_or_subject = yes }
+				1026 = { is_controlled_by_ROOT_or_subject = yes }
+				1028 = { is_controlled_by_ROOT_or_subject = yes }
+				1029 = { is_controlled_by_ROOT_or_subject = yes }
+				1030 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Denmark
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						state = 337
-						state = 101
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				37 = { is_controlled_by_ROOT_or_subject = yes }
+				99 = { is_controlled_by_ROOT_or_subject = yes }
+				101 = { is_controlled_by_ROOT_or_subject = yes }
+				337 = { is_controlled_by_ROOT_or_subject = yes }
+				964 = { is_controlled_by_ROOT_or_subject = yes }
+				1024 = { is_controlled_by_ROOT_or_subject = yes }
+				1025 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Iceland 
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_iceland_recuired_states_tt
-				all_state = {
-					OR = {
-						state = 1043
-						state = 100
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				100 = { is_controlled_by_ROOT_or_subject = yes }
+				1043 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Finland
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_finland_required_states_tt
-				all_state = {
-					OR = {
-						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
-							AND = {
-								region = 12
-								NOT = {
-									state = 213	#not Murmansk
-								}
-							}
-							AND = {
-								region = 9
-								NOT = {
-									state = 124	#Aland, not Gotland
-								}
-							}
-						}
-						is_controlled_by_ROOT_or_subject = yes
-					}
-				}
+				111 = { is_controlled_by_ROOT_or_subject = yes }
+				145 = { is_controlled_by_ROOT_or_subject = yes }
+				146 = { is_controlled_by_ROOT_or_subject = yes }
+				147 = { is_controlled_by_ROOT_or_subject = yes }
+				148 = { is_controlled_by_ROOT_or_subject = yes }
+				149 = { is_controlled_by_ROOT_or_subject = yes }
+				150 = { is_controlled_by_ROOT_or_subject = yes }
+				722 = { is_controlled_by_ROOT_or_subject = yes }
+				1036 = { is_controlled_by_ROOT_or_subject = yes }
+				1037 = { is_controlled_by_ROOT_or_subject = yes }
+				1038 = { is_controlled_by_ROOT_or_subject = yes }
+				1039 = { is_controlled_by_ROOT_or_subject = yes }
+				1040 = { is_controlled_by_ROOT_or_subject = yes }
 				#111 = { is_controlled_by_ROOT_or_subject = yes }
 				#145 = { is_controlled_by_ROOT_or_subject = yes }
 				#148 = { is_controlled_by_ROOT_or_subject = yes }
@@ -1548,12 +1521,7 @@ integrate_nordic_league_category = {
 						OR = {
 							region = 10
 							region = 192
-							AND = {
-								region = 9	#just because there is Gotland and it is a separate state
-								NOT = {
-									state = 145	#not Aland, not here
-								}
-							}
+							state = 124
 						}
 					}
 					transfer_state_to = ICE
@@ -1569,9 +1537,6 @@ integrate_nordic_league_category = {
 							state = 1024
 							state = 337
 							state = 101
-							NOT = {
-								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
-							}
 						}
 					}
 					transfer_state_to = ICE
@@ -1583,8 +1548,8 @@ integrate_nordic_league_category = {
 				every_state = {
 					limit = {
 						OR = {
-							state = 100
 							state = 1043
+							state = 100
 						}
 					}
 					transfer_state_to = ICE
@@ -1655,74 +1620,69 @@ integrate_nordic_league_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191
-						state = 1027
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				110 = { is_controlled_by_ROOT_or_subject = yes }
+				142 = { is_controlled_by_ROOT_or_subject = yes }
+				143 = { is_controlled_by_ROOT_or_subject = yes }
+				144 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				1027 = { is_controlled_by_ROOT_or_subject = yes }
+				1031 = { is_controlled_by_ROOT_or_subject = yes }
+				1032 = { is_controlled_by_ROOT_or_subject = yes }
+				1033 = { is_controlled_by_ROOT_or_subject = yes }
+				1034 = { is_controlled_by_ROOT_or_subject = yes }
+				1035 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				38 = { is_controlled_by_ROOT_or_subject = yes }
+				124 = { is_controlled_by_ROOT_or_subject = yes }
+				138 = { is_controlled_by_ROOT_or_subject = yes }
+				139 = { is_controlled_by_ROOT_or_subject = yes }
+				140 = { is_controlled_by_ROOT_or_subject = yes }
+				141 = { is_controlled_by_ROOT_or_subject = yes }
+				666 = { is_controlled_by_ROOT_or_subject = yes }
+				968 = { is_controlled_by_ROOT_or_subject = yes }
+				969 = { is_controlled_by_ROOT_or_subject = yes }
+				1026 = { is_controlled_by_ROOT_or_subject = yes }
+				1028 = { is_controlled_by_ROOT_or_subject = yes }
+				1029 = { is_controlled_by_ROOT_or_subject = yes }
+				1030 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Denmark
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						state = 337
-						state = 101
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				37 = { is_controlled_by_ROOT_or_subject = yes }
+				99 = { is_controlled_by_ROOT_or_subject = yes }
+				101 = { is_controlled_by_ROOT_or_subject = yes }
+				337 = { is_controlled_by_ROOT_or_subject = yes }
+				964 = { is_controlled_by_ROOT_or_subject = yes }
+				1024 = { is_controlled_by_ROOT_or_subject = yes }
+				1025 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Iceland 
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_iceland_recuired_states_tt
-				all_state = {
-					OR = {
-						state = 1043
-						state = 100
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				100 = { is_controlled_by_ROOT_or_subject = yes }
+				1043 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Finland
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_finland_required_states_tt
-				all_state = {
-					OR = {
-						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
-							AND = {
-								region = 12
-								NOT = {
-									state = 213	#not Murmansk
-								}
-							}
-							AND = {
-								region = 9
-								NOT = {
-									state = 124	#Aland, not Gotland
-								}
-							}
-						}
-						is_controlled_by_ROOT_or_subject = yes
-					}
-				}
+				111 = { is_controlled_by_ROOT_or_subject = yes }
+				145 = { is_controlled_by_ROOT_or_subject = yes }
+				146 = { is_controlled_by_ROOT_or_subject = yes }
+				147 = { is_controlled_by_ROOT_or_subject = yes }
+				148 = { is_controlled_by_ROOT_or_subject = yes }
+				149 = { is_controlled_by_ROOT_or_subject = yes }
+				150 = { is_controlled_by_ROOT_or_subject = yes }
+				722 = { is_controlled_by_ROOT_or_subject = yes }
+				1036 = { is_controlled_by_ROOT_or_subject = yes }
+				1037 = { is_controlled_by_ROOT_or_subject = yes }
+				1038 = { is_controlled_by_ROOT_or_subject = yes }
+				1039 = { is_controlled_by_ROOT_or_subject = yes }
+				1040 = { is_controlled_by_ROOT_or_subject = yes }
 				#111 = { is_controlled_by_ROOT_or_subject = yes }
 				#145 = { is_controlled_by_ROOT_or_subject = yes }
 				#148 = { is_controlled_by_ROOT_or_subject = yes }
@@ -1862,74 +1822,69 @@ integrate_nordic_league_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191
-						state = 1027
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				110 = { is_controlled_by_ROOT_or_subject = yes }
+				142 = { is_controlled_by_ROOT_or_subject = yes }
+				143 = { is_controlled_by_ROOT_or_subject = yes }
+				144 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				1027 = { is_controlled_by_ROOT_or_subject = yes }
+				1031 = { is_controlled_by_ROOT_or_subject = yes }
+				1032 = { is_controlled_by_ROOT_or_subject = yes }
+				1033 = { is_controlled_by_ROOT_or_subject = yes }
+				1034 = { is_controlled_by_ROOT_or_subject = yes }
+				1035 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				38 = { is_controlled_by_ROOT_or_subject = yes }
+				124 = { is_controlled_by_ROOT_or_subject = yes }
+				138 = { is_controlled_by_ROOT_or_subject = yes }
+				139 = { is_controlled_by_ROOT_or_subject = yes }
+				140 = { is_controlled_by_ROOT_or_subject = yes }
+				141 = { is_controlled_by_ROOT_or_subject = yes }
+				666 = { is_controlled_by_ROOT_or_subject = yes }
+				968 = { is_controlled_by_ROOT_or_subject = yes }
+				969 = { is_controlled_by_ROOT_or_subject = yes }
+				1026 = { is_controlled_by_ROOT_or_subject = yes }
+				1028 = { is_controlled_by_ROOT_or_subject = yes }
+				1029 = { is_controlled_by_ROOT_or_subject = yes }
+				1030 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Denmark
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						state = 337
-						state = 101
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				37 = { is_controlled_by_ROOT_or_subject = yes }
+				99 = { is_controlled_by_ROOT_or_subject = yes }
+				101 = { is_controlled_by_ROOT_or_subject = yes }
+				337 = { is_controlled_by_ROOT_or_subject = yes }
+				964 = { is_controlled_by_ROOT_or_subject = yes }
+				1024 = { is_controlled_by_ROOT_or_subject = yes }
+				1025 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Iceland 
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_iceland_recuired_states_tt
-				all_state = {
-					OR = {
-						state = 1043
-						state = 100
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				100 = { is_controlled_by_ROOT_or_subject = yes }
+				1043 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Finland
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_finland_required_states_tt
-				all_state = {
-					OR = {
-						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
-							AND = {
-								region = 12
-								NOT = {
-									state = 213	#not Murmansk
-								}
-							}
-							AND = {
-								region = 9
-								NOT = {
-									state = 124	#Aland, not Gotland
-								}
-							}
-						}
-						is_controlled_by_ROOT_or_subject = yes
-					}
-				}
+				111 = { is_controlled_by_ROOT_or_subject = yes }
+				145 = { is_controlled_by_ROOT_or_subject = yes }
+				146 = { is_controlled_by_ROOT_or_subject = yes }
+				147 = { is_controlled_by_ROOT_or_subject = yes }
+				148 = { is_controlled_by_ROOT_or_subject = yes }
+				149 = { is_controlled_by_ROOT_or_subject = yes }
+				150 = { is_controlled_by_ROOT_or_subject = yes }
+				722 = { is_controlled_by_ROOT_or_subject = yes }
+				1036 = { is_controlled_by_ROOT_or_subject = yes }
+				1037 = { is_controlled_by_ROOT_or_subject = yes }
+				1038 = { is_controlled_by_ROOT_or_subject = yes }
+				1039 = { is_controlled_by_ROOT_or_subject = yes }
+				1040 = { is_controlled_by_ROOT_or_subject = yes }
 				#111 = { is_controlled_by_ROOT_or_subject = yes }
 				#145 = { is_controlled_by_ROOT_or_subject = yes }
 				#148 = { is_controlled_by_ROOT_or_subject = yes }
@@ -1962,12 +1917,7 @@ integrate_nordic_league_category = {
 						OR = {
 							region = 10
 							region = 192
-							AND = {
-								region = 9	#just because there is Gotland and it is a separate state
-								NOT = {
-									state = 145	#not Aland, not here
-								}
-							}
+							state = 124
 						}
 					}
 					transfer_state_to = KAR
@@ -1983,9 +1933,6 @@ integrate_nordic_league_category = {
 							state = 1024
 							state = 337
 							state = 101
-							NOT = {
-								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
-							}
 						}
 					}
 					transfer_state_to = KAR
@@ -1997,8 +1944,8 @@ integrate_nordic_league_category = {
 				every_state = {
 					limit = {
 						OR = {
-							state = 100
 							state = 1043
+							state = 100
 						}
 					}
 					transfer_state_to = KAR
@@ -2028,6 +1975,30 @@ integrate_nordic_league_category = {
 					transfer_state_to = KAR
 				}
 			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_country_KAR_required_states_tt
+						146 = { is_controlled_by_ROOT_or_subject = yes }
+						147 = { is_controlled_by_ROOT_or_subject = yes }
+						213 = { is_controlled_by_ROOT_or_subject = yes }
+						215 = { is_controlled_by_ROOT_or_subject = yes }
+						216 = { is_controlled_by_ROOT_or_subject = yes }
+						722 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_country_KAR_coring_states_tt
+				hidden_effect = {
+					FIN = {
+						transfer_state = 146
+						transfer_state = 147
+						transfer_state = 213
+						transfer_state = 215
+						transfer_state = 216
+						transfer_state = 722
+					}
+				}
+			}
 		}
 		ai_will_do = { factor = 200 }
 	}
@@ -2049,74 +2020,69 @@ integrate_nordic_league_category = {
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_norway_required_states_tt
-				all_state = {
-					OR = {
-						region = 11
-						region = 191
-						state = 1027
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				110 = { is_controlled_by_ROOT_or_subject = yes }
+				142 = { is_controlled_by_ROOT_or_subject = yes }
+				143 = { is_controlled_by_ROOT_or_subject = yes }
+				144 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				967 = { is_controlled_by_ROOT_or_subject = yes }
+				1027 = { is_controlled_by_ROOT_or_subject = yes }
+				1031 = { is_controlled_by_ROOT_or_subject = yes }
+				1032 = { is_controlled_by_ROOT_or_subject = yes }
+				1033 = { is_controlled_by_ROOT_or_subject = yes }
+				1034 = { is_controlled_by_ROOT_or_subject = yes }
+				1035 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Sweden
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_sweden_required_states_tt
-				all_state = {
-					OR = {
-						region = 10
-						region = 192
-						state = 124
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				38 = { is_controlled_by_ROOT_or_subject = yes }
+				124 = { is_controlled_by_ROOT_or_subject = yes }
+				138 = { is_controlled_by_ROOT_or_subject = yes }
+				139 = { is_controlled_by_ROOT_or_subject = yes }
+				140 = { is_controlled_by_ROOT_or_subject = yes }
+				141 = { is_controlled_by_ROOT_or_subject = yes }
+				666 = { is_controlled_by_ROOT_or_subject = yes }
+				968 = { is_controlled_by_ROOT_or_subject = yes }
+				969 = { is_controlled_by_ROOT_or_subject = yes }
+				1026 = { is_controlled_by_ROOT_or_subject = yes }
+				1028 = { is_controlled_by_ROOT_or_subject = yes }
+				1029 = { is_controlled_by_ROOT_or_subject = yes }
+				1030 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Denmark
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_denmark_required_states_tt
-				all_state = {
-					OR = {
-						region = 277
-						state = 1024
-						state = 337
-						state = 101
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				37 = { is_controlled_by_ROOT_or_subject = yes }
+				99 = { is_controlled_by_ROOT_or_subject = yes }
+				101 = { is_controlled_by_ROOT_or_subject = yes }
+				337 = { is_controlled_by_ROOT_or_subject = yes }
+				964 = { is_controlled_by_ROOT_or_subject = yes }
+				1024 = { is_controlled_by_ROOT_or_subject = yes }
+				1025 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Iceland 
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_iceland_recuired_states_tt
-				all_state = {
-					OR = {
-						state = 1043
-						state = 100
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				100 = { is_controlled_by_ROOT_or_subject = yes }
+				1043 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			# Finland
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_finland_required_states_tt
-				all_state = {
-					OR = {
-						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
-							AND = {
-								region = 12
-								NOT = {
-									state = 213	#not Murmansk
-								}
-							}
-							AND = {
-								region = 9
-								NOT = {
-									state = 124	#Aland, not Gotland
-								}
-							}
-						}
-						is_controlled_by_ROOT_or_subject = yes
-					}
-				}
+				111 = { is_controlled_by_ROOT_or_subject = yes }
+				145 = { is_controlled_by_ROOT_or_subject = yes }
+				146 = { is_controlled_by_ROOT_or_subject = yes }
+				147 = { is_controlled_by_ROOT_or_subject = yes }
+				148 = { is_controlled_by_ROOT_or_subject = yes }
+				149 = { is_controlled_by_ROOT_or_subject = yes }
+				150 = { is_controlled_by_ROOT_or_subject = yes }
+				722 = { is_controlled_by_ROOT_or_subject = yes }
+				1036 = { is_controlled_by_ROOT_or_subject = yes }
+				1037 = { is_controlled_by_ROOT_or_subject = yes }
+				1038 = { is_controlled_by_ROOT_or_subject = yes }
+				1039 = { is_controlled_by_ROOT_or_subject = yes }
+				1040 = { is_controlled_by_ROOT_or_subject = yes }
 				#111 = { is_controlled_by_ROOT_or_subject = yes }
 				#145 = { is_controlled_by_ROOT_or_subject = yes }
 				#148 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2149,12 +2115,7 @@ integrate_nordic_league_category = {
 						OR = {
 							region = 10
 							region = 192
-							AND = {
-								region = 9	#just because there is Gotland and it is a separate state
-								NOT = {
-									state = 145	#not Aland, not here
-								}
-							}
+							state = 124
 						}
 					}
 					transfer_state_to = EST
@@ -2170,9 +2131,6 @@ integrate_nordic_league_category = {
 							state = 1024
 							state = 337
 							state = 101
-							NOT = {
-								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
-							}
 						}
 					}
 					transfer_state_to = EST
@@ -2184,8 +2142,8 @@ integrate_nordic_league_category = {
 				every_state = {
 					limit = {
 						OR = {
-							state = 100
 							state = 1043
+							state = 100
 						}
 					}
 					transfer_state_to = EST
