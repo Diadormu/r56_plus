@@ -28,6 +28,121 @@ form_nation_mod_category = {
 	}
 }
 
+rename_cities_category = {
+	r56p_SOV_rename_constantinople = {
+		icon = generic_form_nation
+		cost = 10
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			797 = {
+				if = {
+					limit = { ROOT = { has_government = communism } }
+					NOT = { has_state_flag = renamed_by_sov_c }
+				}
+				else = { NOT = { has_state_flag = renamed_by_sov_o } }
+			}
+		}
+		available = {
+			797 = {
+				OWNER = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
+		}
+		complete_effect = {
+			if = {
+				limit = { ROOT = { has_government = communism } }
+				797 = { set_state_name = "苏维埃格勒" }
+				set_province_name = { id = 9833 name = "苏维埃格勒" }
+				set_state_flag = renamed_by_sov_c
+			}
+			else = {
+				797 = { set_state_name = "君士坦丁堡" }
+				set_province_name = { id = 9833 name = "君士坦丁堡" }
+				set_state_flag = renamed_by_sov_o
+			}
+			add_stability = 0.01
+			add_war_support = 0.01
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	r56p_GER_rename_berlin = {
+		icon = generic_form_nation
+		cost = 10
+		allowed = {
+			original_tag = GER
+		}
+		visible = {
+			date > 1942.1.1
+			has_global_flag = form_greater_german_reich_flag
+		}
+		available = {
+			has_war = no
+			has_government = fascism
+			custom_trigger_tooltip = {
+				tooltip = form_country_germany_required_states_tt
+				owns_state = 5
+				owns_state = 763
+				owns_state = 51
+				owns_state = 42
+				owns_state = 56
+				owns_state = 57
+				owns_state = 55
+				owns_state = 50
+				owns_state = 59
+				owns_state = 58
+				owns_state = 998
+				owns_state = 60
+				owns_state = 54
+				owns_state = 52
+				owns_state = 53
+				owns_state = 61
+				owns_state = 64
+				owns_state = 65
+				owns_state = 62
+				owns_state = 68
+				owns_state = 66
+				owns_state = 67
+				owns_state = 63
+				owns_state = 989
+				owns_state = 922
+				owns_state = 923
+				owns_state = 998
+				owns_state = 153
+				owns_state = 152
+				owns_state = 4
+				owns_state = 848
+				owns_state = 69
+				owns_state = 74
+				owns_state = 8
+				owns_state = 28
+				owns_state = 965
+				owns_state = 85
+				owns_state = 807
+				owns_state = 86
+				owns_state = 762
+				owns_state = 188
+				owns_state = 964
+				owns_state = 102
+			}
+			64 = { NOT = { has_state_flag = renamed_berlin_by_ger } }
+		}
+		complete_effect = {
+			set_province_name = { id = 6521 name = "日耳曼尼亚" }
+			set_state_flag = renamed_berlin_by_ger
+			add_stability = 0.01
+			add_war_support = 0.01
+		}
+	}
+}
+
 form_north_american_category = {
 	form_north_american = {
 		icon = generic_form_nation
@@ -4473,36 +4588,34 @@ integrate_greater_german_reich_category = {
 		}
 		visible = {
 			NOT = { has_global_flag = form_greater_german_reich_flag }
-			GER = {
-				is_subject_of = ROOT
-				controls_state = 5
-				controls_state = 763
-				controls_state = 51
-				controls_state = 42
-				controls_state = 56
-				controls_state = 57
-				controls_state = 55
-				controls_state = 50
-				controls_state = 59
-				controls_state = 58
-				controls_state = 998
-				controls_state = 60
-				controls_state = 54
-				controls_state = 52
-				controls_state = 53
-				controls_state = 61
-				controls_state = 64
-				controls_state = 65
-				controls_state = 62
-				controls_state = 68
-				controls_state = 66
-				controls_state = 67
-				controls_state = 63
-				controls_state = 989 #Ostrhineland
-				controls_state = 922 #Frankfurt
-				controls_state = 923 #Baden
-				controls_state = 998 #Southern Schleswig
-			}
+			GER = { is_subject_of = ROOT }
+			5 = { is_controlled_by_ROOT_or_subject = yes }
+			763 = { is_controlled_by_ROOT_or_subject = yes }
+			51 = { is_controlled_by_ROOT_or_subject = yes }
+			42 = { is_controlled_by_ROOT_or_subject = yes }
+			56 = { is_controlled_by_ROOT_or_subject = yes }
+			57 = { is_controlled_by_ROOT_or_subject = yes }
+			55 = { is_controlled_by_ROOT_or_subject = yes }
+			50 = { is_controlled_by_ROOT_or_subject = yes }
+			59 = { is_controlled_by_ROOT_or_subject = yes }
+			58 = { is_controlled_by_ROOT_or_subject = yes }
+			998 = { is_controlled_by_ROOT_or_subject = yes }
+			60 = { is_controlled_by_ROOT_or_subject = yes }
+			54 = { is_controlled_by_ROOT_or_subject = yes }
+			52 = { is_controlled_by_ROOT_or_subject = yes }
+			53 = { is_controlled_by_ROOT_or_subject = yes }
+			61 = { is_controlled_by_ROOT_or_subject = yes }
+			64 = { is_controlled_by_ROOT_or_subject = yes }
+			65 = { is_controlled_by_ROOT_or_subject = yes }
+			62 = { is_controlled_by_ROOT_or_subject = yes }
+			68 = { is_controlled_by_ROOT_or_subject = yes }
+			66 = { is_controlled_by_ROOT_or_subject = yes }
+			67 = { is_controlled_by_ROOT_or_subject = yes }
+			63 = { is_controlled_by_ROOT_or_subject = yes }
+			989 = { is_controlled_by_ROOT_or_subject = yes } #Ostrhineland
+			922 = { is_controlled_by_ROOT_or_subject = yes } #Frankfurt
+			923 = { is_controlled_by_ROOT_or_subject = yes } #Baden
+			998 = { is_controlled_by_ROOT_or_subject = yes } #Southern Schleswig
 		}
 		available = {
 			153 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4528,6 +4641,36 @@ integrate_greater_german_reich_category = {
 		}
 		complete_effect = {
 			GER = {
+				custom_effect_tooltip = form_country_germany_required_states_tt
+				hidden_effect = {
+					transfer_state = 5
+					transfer_state = 763
+					transfer_state = 51
+					transfer_state = 42
+					transfer_state = 56
+					transfer_state = 57
+					transfer_state = 55
+					transfer_state = 50
+					transfer_state = 59
+					transfer_state = 58
+					transfer_state = 998
+					transfer_state = 60
+					transfer_state = 54
+					transfer_state = 52
+					transfer_state = 53
+					transfer_state = 61
+					transfer_state = 64
+					transfer_state = 65
+					transfer_state = 62
+					transfer_state = 68
+					transfer_state = 66
+					transfer_state = 67
+					transfer_state = 63
+					transfer_state = 989
+					transfer_state = 922
+					transfer_state = 923
+					transfer_state = 998
+				}
 				transfer_state = 153
 				transfer_state = 152
 				transfer_state = 4
@@ -4555,25 +4698,23 @@ integrate_greater_italy_category = {
 		icon = generic_form_nation
 		visible = {
 			NOT = { has_global_flag = greater_italy_flag }
-			ITA = {
-				is_subject_of = ROOT
-				controls_state = 852
-				controls_state = 736
-				controls_state = 160
-				controls_state = 39
-				controls_state = 850
-				controls_state = 159
-				controls_state = 158
-				controls_state = 161
-				controls_state = 162
-				controls_state = 157
-				controls_state = 2
-				controls_state = 849
-				controls_state = 117
-				controls_state = 156
-				controls_state = 115
-				controls_state = 114
-			}
+			ITA = { is_subject_of = ROOT }
+			852 = { is_controlled_by_ROOT_or_subject = yes }
+			736 = { is_controlled_by_ROOT_or_subject = yes }
+			160 = { is_controlled_by_ROOT_or_subject = yes }
+			39 = { is_controlled_by_ROOT_or_subject = yes }
+			850 = { is_controlled_by_ROOT_or_subject = yes }
+			159 = { is_controlled_by_ROOT_or_subject = yes }
+			158 = { is_controlled_by_ROOT_or_subject = yes }
+			161 = { is_controlled_by_ROOT_or_subject = yes }
+			162 = { is_controlled_by_ROOT_or_subject = yes }
+			157 = { is_controlled_by_ROOT_or_subject = yes }
+			2 = { is_controlled_by_ROOT_or_subject = yes }
+			849 = { is_controlled_by_ROOT_or_subject = yes }
+			117 = { is_controlled_by_ROOT_or_subject = yes }
+			156 = { is_controlled_by_ROOT_or_subject = yes }
+			115 = { is_controlled_by_ROOT_or_subject = yes }
+			114 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		available = {
 			1 = { is_controlled_by_ROOT_or_subject = yes } # Corsica
@@ -4588,6 +4729,25 @@ integrate_greater_italy_category = {
 		}
 		complete_effect = {
 			ITA = {
+				custom_effect_tooltip = greater_italy_required_states
+				hidden_effect = {
+					transfer_state = 852
+					transfer_state = 736
+					transfer_state = 160
+					transfer_state = 39
+					transfer_state = 850
+					transfer_state = 159
+					transfer_state = 158
+					transfer_state = 161
+					transfer_state = 162
+					transfer_state = 157
+					transfer_state = 2
+					transfer_state = 849
+					transfer_state = 117
+					transfer_state = 156
+					transfer_state = 115
+					transfer_state = 114
+				}
 				transfer_state = 1 # Corsica
 				transfer_state = 846 # Ticino
 				transfer_state = 735 # Savoy

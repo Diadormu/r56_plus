@@ -10157,7 +10157,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_strengthen_the_regime }
 
 		x = -3
-		y = 1
+		y = 6
 		relative_position_id = ITA_strengthen_the_regime
 		cost = 5
 		available = {
@@ -10603,7 +10603,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ITA_mare_nostrum_bba }
 
 		x = 0
-		y = 4
+		y = 6
 		relative_position_id = ITA_strengthen_the_regime
 		cost = 5
 
@@ -14495,7 +14495,7 @@ focus_tree = {
 	focus = {
 		id = ITA_mare_nostrum_bba
 		icon = GFX_focus_ITA_mare_nostrum
-		prerequisite = { focus = ITA_setting_course focus = ITA_strengthen_the_regime focus = ITA_blackshirt_loyalty focus = ITA_socialist_republic focus = ITA_peace_preservation focus = ITA_the_enemies_of_capitalism }
+		prerequisite = { focus = ITA_setting_course focus = ITA_strengthen_the_regime focus = ITA_blackshirt_loyalty focus = ITA_il_sol_dell_avvenire focus = ITA_peace_preservation focus = ITA_the_enemies_of_capitalism }
 		mutually_exclusive = { focus = ITA_towards_a_greater_italy }
 		x = 31
 		y = 0
@@ -15115,7 +15115,7 @@ focus_tree = {
 		icon = GFX_focus_generic_vatican_state
 		prerequisite = { focus = ITA_strengthen_the_papacy }
 		x = 0
-		y = 6
+		y = 8
 		relative_position_id = ITA_strengthen_the_papacy
 		cost = 5
 

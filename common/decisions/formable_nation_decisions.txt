@@ -419,10 +419,7 @@ form_nordic_league_category = {
 							region = 277
 							state = 1024
 							state = 337		
-							state = 101
-							NOT = {
-								state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
-							}
+							state = 101		
 						}
 					}
 					add_core_of = ROOT
@@ -4165,7 +4162,10 @@ form_roman_empire_category = {
 				911 = { add_core_of = ROOT }	#Suez
 				973 = { add_core_of = ROOT }	#Andorra, free core because its encircled by coastal states required
  			}
-			
+			797 = { set_state_name = "君士坦丁堡" } }
+			set_province_name = { id = 9833 name = "君士坦丁堡" }
+			341 = { set_state_name = "色雷斯" }
+			set_province_name = { id = 11842 name = "亚德里亚堡" }
 			
 			hidden_effect = {
 				news_event = { id = wtt_news.64 hours = 6 }
