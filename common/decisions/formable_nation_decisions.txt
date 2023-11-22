@@ -2573,13 +2573,17 @@ form_european_union_category = {
 
 		complete_effect = {
 			if = {
+				limit = { original_tag = ENG }
+				set_cosmetic_tag = ENG_imperial_federation_unified #Europe-a-Nation
+			}
+			else_if = {
 				limit = {
-					NOT = { original_tag = ENG }
+					original_tag = ITA
+					has_cosmetic_tag = SPQR_UNIFIED
 				}
-				set_cosmetic_tag = EUR_UNIFIED
 			}
 			else = {
-				set_cosmetic_tag = ENG_imperial_federation_unified #Europe-a-Nation
+				set_cosmetic_tag = EUR_UNIFIED
 			}
 			8 = { add_core_of = ROOT }
 			# Netherlands
@@ -2847,6 +2851,7 @@ form_european_union_category = {
 				has_cosmetic_tag = EUR_UNIFIED
 				has_cosmetic_tag = ENG_imperial_federation_unified
 			}
+			NOT = { has_cosmetic_tag = SPQR_UNIFIED }
 			is_major = yes
 		}
 		fire_only_once = yes
@@ -3011,6 +3016,7 @@ form_european_union_category = {
 				has_cosmetic_tag = EUR_UNIFIED
 				has_cosmetic_tag = ENG_imperial_federation_unified
 			}
+			NOT = { has_cosmetic_tag = SPQR_UNIFIED }
 			is_major = yes
 		}
 
@@ -3144,6 +3150,7 @@ form_european_union_category = {
 			OR = {
 				has_cosmetic_tag = EUR_UNIFIED
 				has_cosmetic_tag = ENG_imperial_federation_unified
+				has_cosmetic_tag = SPQR_UNIFIED
 			}
 			is_major = yes
 		}
@@ -3280,6 +3287,7 @@ form_european_union_category = {
 			OR = {
 				has_cosmetic_tag = EUR_UNIFIED
 				has_cosmetic_tag = ENG_imperial_federation_unified
+				has_cosmetic_tag = SPQR_UNIFIED
 			}
 			is_major = yes
 		}
@@ -3419,6 +3427,7 @@ form_european_union_category = {
 			OR = {
 				has_cosmetic_tag = EUR_UNIFIED
 				has_cosmetic_tag = ENG_imperial_federation_unified
+				has_cosmetic_tag = SPQR_UNIFIED
 			}
 			is_major = yes
 		}
@@ -3552,6 +3561,7 @@ form_european_union_category = {
 				has_cosmetic_tag = EUR_UNIFIED
 				has_cosmetic_tag = ENG_imperial_federation_unified
 			}
+			NOT = { has_cosmetic_tag = SPQR_UNIFIED }
 			is_major = yes
 		}
 
@@ -3688,6 +3698,7 @@ form_european_union_category = {
 			OR = {
 				has_cosmetic_tag = EUR_UNIFIED
 				has_cosmetic_tag = ENG_imperial_federation_unified
+				has_cosmetic_tag = SPQR_UNIFIED
 			}
 			is_major = yes
 		}
@@ -3826,6 +3837,7 @@ form_european_union_category = {
 				has_cosmetic_tag = EUR_UNIFIED
 				has_cosmetic_tag = ENG_imperial_federation_unified
 			}
+			NOT = { has_cosmetic_tag = SPQR_UNIFIED }
 			is_major = yes
 		}
 	
@@ -4162,10 +4174,29 @@ form_roman_empire_category = {
 				911 = { add_core_of = ROOT }	#Suez
 				973 = { add_core_of = ROOT }	#Andorra, free core because its encircled by coastal states required
  			}
-			797 = { set_state_name = "君士坦丁堡" } }
+			797 = { set_state_name = "君士坦丁堡" }
 			set_province_name = { id = 9833 name = "君士坦丁堡" }
+			184 = { set_state_name = "东马其顿" }
+			731 = { set_state_name = "萨洛尼卡" }
+			184 = { set_state_name = "斯特里蒙" }
+			340 = { set_state_name = "普鲁萨" }
+			set_province_name = { id = 947 name = "旧堡" }
 			341 = { set_state_name = "色雷斯" }
 			set_province_name = { id = 11842 name = "亚德里亚堡" }
+			339 = { set_state_name = "萨摩斯" }
+			set_province_name = { id = 4112 name = "士麦那" }
+			set_province_name = { id = 928 name = "麦格尼西亚" }
+			342 = { set_state_name = "基比拉奥特" }
+			set_province_name = { id = 1005 name = "阿塔雷亚" }
+			347 = { set_state_name = "奥普提马通" }
+			set_province_name = { id = 11811 name = "尼科米底亚" }
+			set_province_name = { id = 973 name = "蓬托赫拉克里亚" }
+			345 = { set_state_name = "塞琉西亚" }
+			set_province_name = { id = 10056 name = "哈德良波利斯" }
+			344 = { set_state_name = "奇里乞亚" }
+			set_province_name = { id = 11746 name = "塔尔苏斯" }
+			set_province_name = { id = 958 name = "泽马尼西亚" }
+			set_province_name = { id = 9893 name = "安条克" }
 			
 			hidden_effect = {
 				news_event = { id = wtt_news.64 hours = 6 }
@@ -4682,6 +4713,10 @@ form_roman_empire_category = {
 			# Diyarbakir
 			350 = { add_core_of = ROOT }
 			
+			350 = { set_state_name = "梅利特纳" }
+			set_province_name = { id = 7620 name = "梅利特纳" }
+			set_province_name = { id = 9823 name = "查士丁纳波利斯" }
+			set_province_name = { id = 4512 name = "阿米达" }
 			
 			add_stability = -0.05
 			 
@@ -4768,6 +4803,28 @@ form_roman_empire_category = {
 			# Trabzon
 			354 = { add_core_of = ROOT }
 			
+			343 = { set_state_name = "色雷斯松" }
+			set_province_name = { id = 9878 name = "尼科波利斯" }
+			set_province_name = { id = 10041 name = "阿图达" }
+			49 = { set_state_name = "布克拉里翁" }
+			set_province_name = { id = 11747 name = "安卡拉" }
+			set_province_name = { id = 3951 name = "多利莱翁" }
+			346 = { set_state_name = "安纳托利亚" }
+			set_province_name = { id = 940 name = "伊科尼翁" }
+			356 = { set_state_name = "帕弗拉格尼亚" }
+			set_province_name = { id = 6995 name = "西诺佩" }
+			set_province_name = { id = 6938 name = "科穆宁堡" }
+			348 = { set_state_name = "卡帕多希亚" }
+			set_province_name = { id = 3870 name = "凯撒利亚" }
+			355 = { set_state_name = "亚美尼亚坎" }
+			set_province_name = { id = 11881 name = "阿米索斯" }
+			349 = { set_state_name = "科洛内亚" }
+			set_province_name = { id = 9777 name = "塞巴斯泰亚" }
+			798 = { set_state_name = "卡塔赫纳" }
+			set_province_name = { id = 987 name = "阿马西亚" }
+			set_province_name = { id = 3862 name = "陶伊翁" }
+			354 = { set_state_name = "查尔迪亚" }
+			set_province_name = { id = 9932 name = "特拉比松" }
 			
 			add_stability = -0.05
 			 
@@ -4830,6 +4887,12 @@ form_roman_empire_category = {
 			# Hakkari
 			352 = { add_core_of = ROOT }
 			
+			353 = { set_state_name = "曼齐克特" }
+			set_province_name = { id = 11853 name = "提奥多西波利斯" }
+			352 = { set_state_name = "胡布什基亚" }
+			set_province_name = { id = 12476 name = "康迪利斯" }
+			800 = { set_state_name = "瓦斯普拉坎" }
+			set_province_name = { id = 6935 name = "尤阿" }
 			
 			add_stability = -0.05
 			 

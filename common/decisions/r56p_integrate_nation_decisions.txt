@@ -1205,7 +1205,7 @@ integrate_nordic_league_category = {
 				}
 				custom_effect_tooltip = integrate_country_KAR_coring_states_tt
 				hidden_effect = {
-					FIN = {
+					SWE = {
 						transfer_state = 146
 						transfer_state = 147
 						transfer_state = 213
@@ -1989,7 +1989,7 @@ integrate_nordic_league_category = {
 				}
 				custom_effect_tooltip = integrate_country_KAR_coring_states_tt
 				hidden_effect = {
-					FIN = {
+					KAR = {
 						transfer_state = 146
 						transfer_state = 147
 						transfer_state = 213

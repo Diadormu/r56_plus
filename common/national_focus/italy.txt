@@ -10157,7 +10157,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_strengthen_the_regime }
 
 		x = -3
-		y = 6
+		y = 4
 		relative_position_id = ITA_strengthen_the_regime
 		cost = 5
 		available = {
@@ -10603,7 +10603,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ITA_mare_nostrum_bba }
 
 		x = 0
-		y = 6
+		y = 4
 		relative_position_id = ITA_strengthen_the_regime
 		cost = 5
 
@@ -15115,7 +15115,7 @@ focus_tree = {
 		icon = GFX_focus_generic_vatican_state
 		prerequisite = { focus = ITA_strengthen_the_papacy }
 		x = 0
-		y = 8
+		y = 6
 		relative_position_id = ITA_strengthen_the_papacy
 		cost = 5
 
@@ -22514,7 +22514,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_bring_back_exiled_intellectuals }
 
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = ITA_bring_back_exiled_intellectuals
 		cost = 5
 
@@ -22665,7 +22665,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_social_stability }
 		mutually_exclusive = { focus = ITA_reestablish_old_alliances }
 		x = -1
-		y = 1
+		y = 2
 		relative_position_id = ITA_social_stability
 		cost = 5
 		available = {
@@ -23040,7 +23040,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_social_stability }
 		mutually_exclusive = { focus = ITA_italia_libera }
 		x = 1
-		y = 1
+		y = 2
 		relative_position_id = ITA_social_stability
 		cost = 5
 
