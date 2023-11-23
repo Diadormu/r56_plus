@@ -2415,6 +2415,9 @@ form_european_union_category = {
 				original_tag = VNZ				
 				original_tag = GRE
 				original_tag = LIE
+				original_tag = POR
+				original_tag = SPA
+				original_tag = SPR
 			}
 			OR = {
 				has_dlc = "Waking the Tiger"
@@ -2589,6 +2592,23 @@ form_european_union_category = {
 						original_tag = LIE
 					}
 					has_global_flag = form_hre_flag
+				}
+				AND = {
+					OR = {
+						original_tag = POR
+						original_tag = SPA
+						original_tag = SPR
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+					has_cosmetic_tag = ESU_POR_unified
+					OR = {
+						has_completed_focus = POR_the_iberian_socialist_union
+						has_completed_focus = SPA_restore_the_iberian_union
+						has_completed_focus = SPR_a_red_iberia
+					}
 				}
 			}  
 			NOT = { has_global_flag = form_european_union_flag }
@@ -3109,6 +3129,22 @@ form_european_union_category = {
 					}
 					has_global_flag = form_hre_flag
 				}
+				AND = {
+					OR = {
+						original_tag = POR
+						original_tag = SPA
+						original_tag = SPR
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+					OR = {
+						has_completed_focus = POR_the_iberian_socialist_union
+						has_completed_focus = SPA_restore_the_iberian_union
+						has_completed_focus = SPR_a_red_iberia
+					}
+				}
 			}
 			OR = {
 				has_cosmetic_tag = EUR_UNIFIED
@@ -3182,6 +3218,9 @@ form_european_union_category = {
 				original_tag = VNZ
 				original_tag = GRE
 				original_tag = LIE
+				original_tag = POR
+				original_tag = SPA
+				original_tag = SPR
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -3280,6 +3319,22 @@ form_european_union_category = {
 					}
 					has_global_flag = form_hre_flag
 				}
+				AND = {
+					OR = {
+						original_tag = POR
+						original_tag = SPA
+						original_tag = SPR
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+					OR = {
+						has_completed_focus = POR_the_iberian_socialist_union
+						has_completed_focus = SPA_restore_the_iberian_union
+						has_completed_focus = SPR_a_red_iberia
+					}
+				}
 			}
 			OR = {
 				has_cosmetic_tag = EUR_UNIFIED
@@ -3349,6 +3404,9 @@ form_european_union_category = {
 				original_tag = VNZ
 				original_tag = GRE
 				original_tag = LIE
+				original_tag = POR
+				original_tag = SPA
+				original_tag = SPR
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -3453,6 +3511,22 @@ form_european_union_category = {
 					}
 					has_global_flag = form_hre_flag
 				}
+				AND = {
+					OR = {
+						original_tag = POR
+						original_tag = SPA
+						original_tag = SPR
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+					OR = {
+						has_completed_focus = POR_the_iberian_socialist_union
+						has_completed_focus = SPA_restore_the_iberian_union
+						has_completed_focus = SPR_a_red_iberia
+					}
+				}
 			}
 			OR = {
 				has_cosmetic_tag = EUR_UNIFIED
@@ -3528,6 +3602,9 @@ form_european_union_category = {
 				original_tag = VNZ
 				original_tag = GRE
 				original_tag = LIE
+				original_tag = POR
+				original_tag = SPA
+				original_tag = SPR
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -3631,6 +3708,22 @@ form_european_union_category = {
 					}
 					has_global_flag = form_hre_flag
 				}
+				AND = {
+					OR = {
+						original_tag = POR
+						original_tag = SPA
+						original_tag = SPR
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+					OR = {
+						has_completed_focus = POR_the_iberian_socialist_union
+						has_completed_focus = SPA_restore_the_iberian_union
+						has_completed_focus = SPR_a_red_iberia
+					}
+				}
 			}
 			OR = {
 				has_cosmetic_tag = EUR_UNIFIED
@@ -3701,6 +3794,9 @@ form_european_union_category = {
 				original_tag = VNZ
 				original_tag = GRE
 				original_tag = LIE
+				original_tag = POR
+				original_tag = SPA
+				original_tag = SPR
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -3789,6 +3885,22 @@ form_european_union_category = {
 					}
 					has_global_flag = form_hre_flag
 				}
+				AND = {
+					OR = {
+						original_tag = POR
+						original_tag = SPA
+						original_tag = SPR
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+					OR = {
+						has_completed_focus = POR_the_iberian_socialist_union
+						has_completed_focus = SPA_restore_the_iberian_union
+						has_completed_focus = SPR_a_red_iberia
+					}
+				}
 			}
 			OR = {
 				has_cosmetic_tag = EUR_UNIFIED
@@ -3860,6 +3972,9 @@ form_european_union_category = {
 				original_tag = VNZ
 				original_tag = GRE
 				original_tag = LIE
+				original_tag = POR
+				original_tag = SPA
+				original_tag = SPR
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -3960,6 +4075,22 @@ form_european_union_category = {
 					}
 					has_global_flag = form_hre_flag
 				}
+				AND = {
+					OR = {
+						original_tag = POR
+						original_tag = SPA
+						original_tag = SPR
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+					OR = {
+						has_completed_focus = POR_the_iberian_socialist_union
+						has_completed_focus = SPA_restore_the_iberian_union
+						has_completed_focus = SPR_a_red_iberia
+					}
+				}
 			}
 			OR = {
 				has_cosmetic_tag = EUR_UNIFIED
@@ -4035,6 +4166,9 @@ form_european_union_category = {
 				original_tag = VNZ
 				original_tag = GRE
 				original_tag = LIE
+				original_tag = POR
+				original_tag = SPA
+				original_tag = SPR
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -4121,6 +4255,22 @@ form_european_union_category = {
 						original_tag = LIE
 					}
 					has_global_flag = form_hre_flag
+				}
+				AND = {
+					OR = {
+						original_tag = POR
+						original_tag = SPA
+						original_tag = SPR
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+					OR = {
+						has_completed_focus = POR_the_iberian_socialist_union
+						has_completed_focus = SPA_restore_the_iberian_union
+						has_completed_focus = SPR_a_red_iberia
+					}
 				}
 			}
 			OR = {
