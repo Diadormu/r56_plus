@@ -1020,6 +1020,10 @@ technologies = {
 			acclimatization_cold_climate_gain_factor = 0.05
 		}
 
+		on_research_complete = {
+			add_potential_special_forces_tree = yes
+		}
+
 		path = {
 			leads_to_tech = advanced_special_forces
 			research_cost_coeff = 1
