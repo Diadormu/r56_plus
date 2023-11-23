@@ -57,14 +57,18 @@ rename_cities_category = {
 		complete_effect = {
 			if = {
 				limit = { ROOT = { has_government = communism } }
-				797 = { set_state_name = "苏维埃格勒" }
+				797 = {
+					set_state_name = "苏维埃格勒"
+					hidden_effect = { set_state_flag = renamed_by_sov_c }
+				}
 				set_province_name = { id = 9833 name = "苏维埃格勒" }
-				set_state_flag = renamed_by_sov_c
 			}
 			else = {
-				797 = { set_state_name = "君士坦丁堡" }
+				797 = {
+					set_state_name = "君士坦丁堡"
+					hidden_effect = { set_state_flag = renamed_by_sov_o }
+				}
 				set_province_name = { id = 9833 name = "君士坦丁堡" }
-				set_state_flag = renamed_by_sov_o
 			}
 			add_stability = 0.01
 			add_war_support = 0.01
@@ -81,13 +85,14 @@ rename_cities_category = {
 		}
 		visible = {
 			date > 1942.1.1
-			has_global_flag = form_greater_german_reich_flag
 		}
 		available = {
 			has_war = no
 			has_government = fascism
+			has_global_flag = form_greater_german_reich_flag
 			custom_trigger_tooltip = {
 				tooltip = form_country_germany_required_states_tt
+				64 = { NOT = { has_state_flag = renamed_berlin_by_ger } }
 				owns_state = 5
 				owns_state = 763
 				owns_state = 51
@@ -132,13 +137,14 @@ rename_cities_category = {
 				owns_state = 964
 				owns_state = 102
 			}
-			64 = { NOT = { has_state_flag = renamed_berlin_by_ger } }
 		}
 		complete_effect = {
 			set_province_name = { id = 6521 name = "日耳曼尼亚" }
-			set_state_flag = renamed_berlin_by_ger
 			add_stability = 0.01
 			add_war_support = 0.01
+			hidden_effect = {
+				64 = { set_state_flag = renamed_berlin_by_ger }
+			}
 		}
 	}
 }

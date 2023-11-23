@@ -1,8 +1,8 @@
 ﻿l_simp_chinese:
   get_core_from_subject: "从傀儡国收回核心领土"
 
-  r56p_SOV_rename_constantinople: "重命名伊斯坦布尔"
-  r56p_GER_rename_berlin: "重命名柏林"
+  r56p_SOV_rename_constantinople: "重命名[9833.GetName]"
+  r56p_GER_rename_berlin: "重命名[6521.GetName]"
 
   EUR_AUS_membership: "奥地利成员资格"
   form_country_AUS_required_states_tt: "控制§Y奥地利§!的所有地区。"
