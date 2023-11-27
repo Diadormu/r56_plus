@@ -1391,15 +1391,15 @@ technologies = {
 		force_use_small_tech_layout = yes
 		
 		allow = { 
-			AND = {
+			#AND = {
 				has_tech = shocktroops 
-				can_unlock_new_special_forces_tree = yes
-			}
+			#	can_unlock_new_special_forces_tree = yes
+			#}
 		}
 		
-		on_research_complete = {
-			remove_potential_special_forces_tree = yes
-		}
+		#on_research_complete = {
+		#	remove_potential_special_forces_tree = yes
+		#}
 		
 		path = {
 			leads_to_tech = shocktroop_level_1_a
