@@ -4,14 +4,20 @@ form_nation_mod_category = {
 		visible = {
 			any_subject_country = {
 				any_controlled_state = {
-					is_core_of = ROOT
+					OR = {
+						is_core_of = ROOT
+						is_claimed_by = ROOT
+					}
 				}
 			}
 		}
 		available = {
 			any_subject_country = {
 				any_controlled_state = {
-					is_core_of = ROOT
+					OR = {
+						is_core_of = ROOT
+						is_claimed_by = ROOT
+					}
 				}
 			}
 		}
@@ -19,12 +25,296 @@ form_nation_mod_category = {
 			every_state = {
 				limit = {
 					controller = { is_subject_of = ROOT }
-					is_core_of = ROOT
+					OR = {
+						is_core_of = ROOT
+						is_claimed_by = ROOT
+					}
 				}
 				transfer_state_to = ROOT
 			}
 		}
 		ai_will_do = { factor = 0 }
+	}
+
+	HUN_integrate_transylvania = {
+		icon = generic_form_nation
+		allowed = { original_tag = HUN }
+		visible = {
+			original_tag = HUN
+			has_completed_focus = HUN_demand_transylvania
+			OR = {
+				76 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				82 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				83 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				84 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+			}
+		}
+		available = {
+			OR = {
+				76 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				82 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				83 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				84 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+			}
+		}
+		cost = 20
+		days_remove = 60
+		remove_effect = {
+			76 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+			82 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+			83 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+			84 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	HUN_integrate_southern_slovakia = {
+		icon = generic_form_nation
+		allowed = { original_tag = HUN }
+		visible = {
+			original_tag = HUN
+			has_completed_focus = HUN_demand_southern_slovakia
+			OR = {
+				664 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				996 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+			}
+		}
+		available = {
+			OR = {
+				664 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				996 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+			}
+		}
+		cost = 20
+		days_remove = 60
+		remove_effect = {
+			664 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+			996 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	HUN_integrate_vojvodina = {
+		icon = generic_form_nation
+		allowed = { original_tag = HUN }
+		visible = {
+			original_tag = HUN
+			has_completed_focus = HUN_demand_the_vojvodina
+			OR = {
+				45 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				764 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				952 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+			}
+		}
+		available = {
+			OR = {
+				45 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				764 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				952 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+			}
+		}
+		cost = 20
+		days_remove = 60
+		remove_effect = {
+			45 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+			764 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+			952 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	HUN_integrate_greater_hungary = {
+		icon = generic_form_nation
+		allowed = { original_tag = HUN }
+		visible = {
+			original_tag = HUN
+			has_completed_focus = HUN_proclaim_greater_hungary
+			OR = {
+				70 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				71 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				73 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				109 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				956 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				958 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				959 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+			}
+		}
+		available = {
+			OR = {
+				70 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				71 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				73 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				109 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				956 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				958 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+				959 = {
+					is_controlled_by_ROOT_or_subject = yes
+					NOT = { is_core_of = HUN }
+				}
+			}
+		}
+		cost = 30
+		days_remove = 90
+		remove_effect = {
+			70 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+			71 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+			73 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+			109 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+			956 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+			958 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+			959 = {
+				add_core_of = HUN
+				transfer_state_to = HUN
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
 	}
 }
 
@@ -2562,8 +2852,8 @@ back_tsarist_russia_category = {
 			}
 		}
 		fire_only_once = yes
-		cost = 10
-		days_remove = 30
+		cost = 20
+		days_remove = 60
 		remove_effect = {
 			custom_effect_tooltip = form_country_BLR_coring_states_tt
 			hidden_effect = {
@@ -2629,8 +2919,8 @@ back_tsarist_russia_category = {
 			}
 		}
 		fire_only_once = yes
-		cost = 10
-		days_remove = 30
+		cost = 20
+		days_remove = 60
 		remove_effect = {
 			custom_effect_tooltip = form_country_UKR_coring_states_tt
 			hidden_effect = {
@@ -2680,8 +2970,8 @@ back_tsarist_russia_category = {
 			}
 		}
 		fire_only_once = yes
-		cost = 10
-		days_remove = 30
+		cost = 20
+		days_remove = 60
 		remove_effect = {
 			custom_effect_tooltip = form_country_AZR_coring_states_tt
 			hidden_effect = {

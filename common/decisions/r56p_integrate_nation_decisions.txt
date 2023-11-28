@@ -12558,6 +12558,36 @@ integrate_east_africa_category = {
 	}
 }
 
+integrate_horn_of_africa_africa_category = {
+	ETH_integrate_horn_of_africa_africa = {
+		icon = generic_form_nation
+		allowed = { has_dlc = "By Blood Alone" }
+		visible = { ETH = { is_subject_of = ROOT } }
+		available = {
+			908 = { is_controlled_by_ROOT_or_subject = yes }	# Afar
+			550 = { is_controlled_by_ROOT_or_subject = yes }	# Eritrea
+			268 = { is_controlled_by_ROOT_or_subject = yes }	# French Somaliland
+			269 = { is_controlled_by_ROOT_or_subject = yes }	# British Somaliland
+			559 = { is_controlled_by_ROOT_or_subject = yes }	# Somaliland
+			844 = { is_controlled_by_ROOT_or_subject = yes }	# Jubaland
+			906 = { is_controlled_by_ROOT_or_subject = yes }	# Socotra
+		}
+		fire_only_once = yes
+		complete_effect = {
+			ETH = {
+				transfer_state = 908
+				transfer_state = 550
+				transfer_state = 268
+				transfer_state = 269
+				transfer_state = 559
+				transfer_state = 844
+				transfer_state = 906
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
 #==========road to 56 ==========#
 
 integrate_the_levant_category = {

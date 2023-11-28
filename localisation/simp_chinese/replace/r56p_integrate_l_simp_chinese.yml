@@ -209,6 +209,9 @@
   RWA_integrate_east_africa: "向[RWA.GetName]移交领土"
   BRD_integrate_east_africa: "向[BRD.GetName]移交领土"
 
+  integrate_horn_of_africa_africa_category: "整合非洲之角"
+  ETH_integrate_horn_of_africa_africa: "向[ETH.GetName]移交领土"
+
   #==========road to 56 ==========#
 
   integrate_the_levant_category: "整合大叙利亚"
