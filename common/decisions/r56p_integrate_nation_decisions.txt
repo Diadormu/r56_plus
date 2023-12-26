@@ -4164,6 +4164,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -4238,6 +4243,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -4374,6 +4384,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -4448,6 +4463,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -4584,6 +4604,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -4658,6 +4683,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -4794,6 +4824,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -4868,6 +4903,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -5004,6 +5044,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -5078,6 +5123,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -5214,6 +5264,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -5288,6 +5343,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -5424,6 +5484,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -5498,6 +5563,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -5634,6 +5704,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -5708,6 +5783,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -5844,6 +5924,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -5918,6 +6003,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -6054,6 +6144,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -6128,6 +6223,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -6264,6 +6364,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -6338,6 +6443,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -6474,6 +6584,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -6548,6 +6663,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -6684,6 +6804,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -6758,6 +6883,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -6894,6 +7024,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -6968,6 +7103,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -7104,6 +7244,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -7178,6 +7323,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -7314,6 +7464,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -7388,6 +7543,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -7524,6 +7684,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -7598,6 +7763,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -7737,6 +7907,11 @@ integrate_arabia_category = {
 				676 = { is_controlled_by_ROOT_or_subject = yes }
 				675 = { is_controlled_by_ROOT_or_subject = yes }
 				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_SAU_required_states_tt
@@ -7811,6 +7986,11 @@ integrate_arabia_category = {
 					transfer_state = 676
 					transfer_state = 675
 					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
 				}
 				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
 				hidden_effect = {
@@ -12971,6 +13151,10 @@ integrate_carribean_category = {
 				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
 				DOM = { transfer_state = 972 }
 			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				DOM = { transfer_state = 1050 }
+			}
 		}
 		ai_will_do = { factor = 200 }
 	}
@@ -13004,6 +13188,10 @@ integrate_carribean_category = {
 			if = {
 				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
 				HAI = { transfer_state = 972 }
+			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				HAI = { transfer_state = 1050 }
 			}
 		}
 		ai_will_do = { factor = 200 }
@@ -13039,6 +13227,10 @@ integrate_carribean_category = {
 				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
 				CUB = { transfer_state = 972 }
 			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				CUB = { transfer_state = 1050 }
+			}
 		}
 		ai_will_do = { factor = 200 }
 	}
@@ -13072,6 +13264,10 @@ integrate_carribean_category = {
 			if = {
 				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
 				JAM = { transfer_state = 972 }
+			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				JAM = { transfer_state = 1050 }
 			}
 		}
 		ai_will_do = { factor = 200 }
@@ -13107,6 +13303,10 @@ integrate_carribean_category = {
 				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
 				PUE = { transfer_state = 972 }
 			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				PUE = { transfer_state = 1050 }
+			}
 		}
 		ai_will_do = { factor = 200 }
 	}
@@ -13140,6 +13340,10 @@ integrate_carribean_category = {
 			if = {
 				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
 				BAH = { transfer_state = 972 }
+			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				BAH = { transfer_state = 1050 }
 			}
 		}
 		ai_will_do = { factor = 200 }
@@ -13175,6 +13379,10 @@ integrate_carribean_category = {
 				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
 				TRI = { transfer_state = 972 }
 			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				TRI = { transfer_state = 1050 }
+			}
 		}
 		ai_will_do = { factor = 200 }
 	}
@@ -13209,6 +13417,10 @@ integrate_carribean_category = {
 				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
 				GDL = { transfer_state = 972 }
 			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				GDL = { transfer_state = 1050 }
+			}
 		}
 		ai_will_do = { factor = 200 }
 	}
@@ -13242,6 +13454,10 @@ integrate_carribean_category = {
 			if = {
 				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
 				CRC = { transfer_state = 972 }
+			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				CRC = { transfer_state = 1050 }
 			}
 		}
 		ai_will_do = { factor = 200 }

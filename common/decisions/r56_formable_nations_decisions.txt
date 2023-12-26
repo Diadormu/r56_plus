@@ -619,6 +619,9 @@ form_carribean_category = {
             972 = {
                 add_core_of = ROOT
             }
+            1050 = {
+                add_core_of = ROOT
+            }
             set_global_flag = form_caribbean_flag
         }
         ai_will_do = {
