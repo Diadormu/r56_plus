@@ -2347,6 +2347,7 @@ integrate_gran_colombia_category = {
 			486 = { is_controlled_by_ROOT_or_subject = yes }
 			306 = { is_controlled_by_ROOT_or_subject = yes }
 			493 = { is_controlled_by_ROOT_or_subject = yes }
+			1051 = { is_controlled_by_ROOT_or_subject = yes }
 			489 = { is_controlled_by_ROOT_or_subject = yes }
 			307 = { is_controlled_by_ROOT_or_subject = yes }
 			488 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2362,6 +2363,7 @@ integrate_gran_colombia_category = {
 				transfer_state = 486
 				transfer_state = 306
 				transfer_state = 493
+				transfer_state = 1051
 				transfer_state = 489
 				transfer_state = 307
 				transfer_state = 488
@@ -2405,6 +2407,7 @@ integrate_gran_colombia_category = {
 			486 = { is_controlled_by_ROOT_or_subject = yes }
 			306 = { is_controlled_by_ROOT_or_subject = yes }
 			493 = { is_controlled_by_ROOT_or_subject = yes }
+			1051 = { is_controlled_by_ROOT_or_subject = yes }
 			489 = { is_controlled_by_ROOT_or_subject = yes }
 			307 = { is_controlled_by_ROOT_or_subject = yes }
 			488 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2420,6 +2423,7 @@ integrate_gran_colombia_category = {
 				transfer_state = 486
 				transfer_state = 306
 				transfer_state = 493
+				transfer_state = 1051
 				transfer_state = 489
 				transfer_state = 307
 				transfer_state = 488
@@ -2463,6 +2467,7 @@ integrate_gran_colombia_category = {
 			486 = { is_controlled_by_ROOT_or_subject = yes }
 			306 = { is_controlled_by_ROOT_or_subject = yes }
 			493 = { is_controlled_by_ROOT_or_subject = yes }
+			1051 = { is_controlled_by_ROOT_or_subject = yes }
 			489 = { is_controlled_by_ROOT_or_subject = yes }
 			307 = { is_controlled_by_ROOT_or_subject = yes }
 			488 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2478,6 +2483,7 @@ integrate_gran_colombia_category = {
 				transfer_state = 486
 				transfer_state = 306
 				transfer_state = 493
+				transfer_state = 1051
 				transfer_state = 489
 				transfer_state = 307
 				transfer_state = 488
@@ -2521,6 +2527,7 @@ integrate_gran_colombia_category = {
 			486 = { is_controlled_by_ROOT_or_subject = yes }
 			306 = { is_controlled_by_ROOT_or_subject = yes }
 			493 = { is_controlled_by_ROOT_or_subject = yes }
+			1051 = { is_controlled_by_ROOT_or_subject = yes }
 			489 = { is_controlled_by_ROOT_or_subject = yes }
 			307 = { is_controlled_by_ROOT_or_subject = yes }
 			488 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2536,6 +2543,7 @@ integrate_gran_colombia_category = {
 				transfer_state = 486
 				transfer_state = 306
 				transfer_state = 493
+				transfer_state = 1051
 				transfer_state = 489
 				transfer_state = 307
 				transfer_state = 488
@@ -2579,6 +2587,7 @@ integrate_gran_colombia_category = {
 			486 = { is_controlled_by_ROOT_or_subject = yes }
 			306 = { is_controlled_by_ROOT_or_subject = yes }
 			493 = { is_controlled_by_ROOT_or_subject = yes }
+			1051 = { is_controlled_by_ROOT_or_subject = yes }
 			489 = { is_controlled_by_ROOT_or_subject = yes }
 			307 = { is_controlled_by_ROOT_or_subject = yes }
 			488 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2594,6 +2603,7 @@ integrate_gran_colombia_category = {
 				transfer_state = 486
 				transfer_state = 306
 				transfer_state = 493
+				transfer_state = 1051
 				transfer_state = 489
 				transfer_state = 307
 				transfer_state = 488
@@ -2637,6 +2647,7 @@ integrate_gran_colombia_category = {
 			486 = { is_controlled_by_ROOT_or_subject = yes }
 			306 = { is_controlled_by_ROOT_or_subject = yes }
 			493 = { is_controlled_by_ROOT_or_subject = yes }
+			1051 = { is_controlled_by_ROOT_or_subject = yes }
 			489 = { is_controlled_by_ROOT_or_subject = yes }
 			307 = { is_controlled_by_ROOT_or_subject = yes }
 			488 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2652,6 +2663,7 @@ integrate_gran_colombia_category = {
 				transfer_state = 486
 				transfer_state = 306
 				transfer_state = 493
+				transfer_state = 1051
 				transfer_state = 489
 				transfer_state = 307
 				transfer_state = 488
