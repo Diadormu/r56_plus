@@ -102,9 +102,7 @@ form_nation_mod_category = {
 			}
 		}
 
-		ai_will_do = {
-			factor = 200
-		}
+		ai_will_do = { factor = 200 }
 	}
 	HUN_integrate_southern_slovakia = {
 		icon = generic_form_nation
@@ -148,9 +146,7 @@ form_nation_mod_category = {
 			}
 		}
 
-		ai_will_do = {
-			factor = 200
-		}
+		ai_will_do = { factor = 200 }
 	}
 	HUN_integrate_vojvodina = {
 		icon = generic_form_nation
@@ -206,9 +202,7 @@ form_nation_mod_category = {
 			}
 		}
 
-		ai_will_do = {
-			factor = 200
-		}
+		ai_will_do = { factor = 200 }
 	}
 	HUN_integrate_greater_hungary = {
 		icon = generic_form_nation
@@ -312,9 +306,7 @@ form_nation_mod_category = {
 			}
 		}
 
-		ai_will_do = {
-			factor = 200
-		}
+		ai_will_do = { factor = 200 }
 	}
 }
 
@@ -363,9 +355,7 @@ rename_cities_category = {
 			add_stability = 0.01
 			add_war_support = 0.01
 		}
-		ai_will_do = {
-			factor = 100
-		}
+		ai_will_do = { factor = 100 }
 	}
 	r56p_GER_rename_berlin = {
 		icon = generic_form_nation
@@ -436,6 +426,7 @@ rename_cities_category = {
 				64 = { set_state_flag = renamed_berlin_by_ger }
 			}
 		}
+		ai_will_do = { factor = 100 }
 	}
 }
 
@@ -900,7 +891,17 @@ integrate_north_american_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = CAN
+					original_tag = USA
+					original_tag = MEX
+				}
+			}
+		}
 	}
 	USA_integrate_north_american = {
 		icon = generic_form_nation
@@ -1118,7 +1119,17 @@ integrate_north_american_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = CAN
+					original_tag = USA
+					original_tag = MEX
+				}
+			}
+		}
 	}
 	MEX_integrate_north_american = {
 		icon = generic_form_nation
@@ -1336,7 +1347,17 @@ integrate_north_american_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = CAN
+					original_tag = USA
+					original_tag = MEX
+				}
+			}
+		}
 	}
 }
 
@@ -1525,7 +1546,7 @@ form_greater_china_category = {
 			controls_state = 560
 			controls_state = 561
 			controls_state = 657
-		#	controls_state = 563 #赤塔
+			#controls_state = 563 #赤塔
 			#库页岛
 			controls_state = 537
 			controls_state = 655
@@ -1714,7 +1735,22 @@ integrate_greater_china_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = CHI
+					original_tag = PRC
+					original_tag = GXC
+					original_tag = YUN
+					original_tag = SHX
+					original_tag = XSM
+					original_tag = SIK
+					original_tag = MAN
+				}
+			}
+		}
 	}
 	PRC_integrate_greater_china = {
 		icon = generic_form_nation
@@ -1841,7 +1877,22 @@ integrate_greater_china_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = CHI
+					original_tag = PRC
+					original_tag = GXC
+					original_tag = YUN
+					original_tag = SHX
+					original_tag = XSM
+					original_tag = SIK
+					original_tag = MAN
+				}
+			}
+		}
 	}
 	GXC_integrate_greater_china = {
 		icon = generic_form_nation
@@ -1972,7 +2023,22 @@ integrate_greater_china_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = CHI
+					original_tag = PRC
+					original_tag = GXC
+					original_tag = YUN
+					original_tag = SHX
+					original_tag = XSM
+					original_tag = SIK
+					original_tag = MAN
+				}
+			}
+		}
 	}
 	YUN_integrate_greater_china = {
 		icon = generic_form_nation
@@ -2103,7 +2169,22 @@ integrate_greater_china_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = CHI
+					original_tag = PRC
+					original_tag = GXC
+					original_tag = YUN
+					original_tag = SHX
+					original_tag = XSM
+					original_tag = SIK
+					original_tag = MAN
+				}
+			}
+		}
 	}
 	SHX_integrate_greater_china = {
 		icon = generic_form_nation
@@ -2234,7 +2315,22 @@ integrate_greater_china_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = CHI
+					original_tag = PRC
+					original_tag = GXC
+					original_tag = YUN
+					original_tag = SHX
+					original_tag = XSM
+					original_tag = SIK
+					original_tag = MAN
+				}
+			}
+		}
 	}
 	XSM_integrate_greater_china = {
 		icon = generic_form_nation
@@ -2365,7 +2461,22 @@ integrate_greater_china_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = CHI
+					original_tag = PRC
+					original_tag = GXC
+					original_tag = YUN
+					original_tag = SHX
+					original_tag = XSM
+					original_tag = SIK
+					original_tag = MAN
+				}
+			}
+		}
 	}
 	SIK_integrate_greater_china = {
 		icon = generic_form_nation
@@ -2496,7 +2607,22 @@ integrate_greater_china_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = CHI
+					original_tag = PRC
+					original_tag = GXC
+					original_tag = YUN
+					original_tag = SHX
+					original_tag = XSM
+					original_tag = SIK
+					original_tag = MAN
+				}
+			}
+		}
 	}
 	MAN_integrate_greater_china = {
 		icon = generic_form_nation
@@ -2623,7 +2749,22 @@ integrate_greater_china_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = CHI
+					original_tag = PRC
+					original_tag = GXC
+					original_tag = YUN
+					original_tag = SHX
+					original_tag = XSM
+					original_tag = SIK
+					original_tag = MAN
+				}
+			}
+		}
 	}
 }
 
@@ -3401,7 +3542,22 @@ integrate_united_balkan_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = YUG
+					original_tag = ALB
+					original_tag = GRE
+					original_tag = BUL
+					original_tag = ROM
+					original_tag = SER
+					original_tag = CRO
+					original_tag = MNT
+				}
+			}
+		}
 	}
 	ALB_integrate_united_balkan = {
 		icon = generic_form_nation
@@ -3611,7 +3767,22 @@ integrate_united_balkan_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = YUG
+					original_tag = ALB
+					original_tag = GRE
+					original_tag = BUL
+					original_tag = ROM
+					original_tag = SER
+					original_tag = CRO
+					original_tag = MNT
+				}
+			}
+		}
 	}
 	GRE_integrate_united_balkan = {
 		icon = generic_form_nation
@@ -3821,7 +3992,22 @@ integrate_united_balkan_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = YUG
+					original_tag = ALB
+					original_tag = GRE
+					original_tag = BUL
+					original_tag = ROM
+					original_tag = SER
+					original_tag = CRO
+					original_tag = MNT
+				}
+			}
+		}
 	}
 	BUL_integrate_united_balkan = {
 		icon = generic_form_nation
@@ -4032,7 +4218,22 @@ integrate_united_balkan_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = YUG
+					original_tag = ALB
+					original_tag = GRE
+					original_tag = BUL
+					original_tag = ROM
+					original_tag = SER
+					original_tag = CRO
+					original_tag = MNT
+				}
+			}
+		}
 	}
 	ROM_integrate_united_balkan = {
 		icon = generic_form_nation
@@ -4242,7 +4443,22 @@ integrate_united_balkan_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = YUG
+					original_tag = ALB
+					original_tag = GRE
+					original_tag = BUL
+					original_tag = ROM
+					original_tag = SER
+					original_tag = CRO
+					original_tag = MNT
+				}
+			}
+		}
 	}
 	SER_integrate_united_balkan = {
 		icon = generic_form_nation
@@ -4452,7 +4668,22 @@ integrate_united_balkan_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = YUG
+					original_tag = ALB
+					original_tag = GRE
+					original_tag = BUL
+					original_tag = ROM
+					original_tag = SER
+					original_tag = CRO
+					original_tag = MNT
+				}
+			}
+		}
 	}
 	CRO_integrate_united_balkan = {
 		icon = generic_form_nation
@@ -4662,7 +4893,22 @@ integrate_united_balkan_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = YUG
+					original_tag = ALB
+					original_tag = GRE
+					original_tag = BUL
+					original_tag = ROM
+					original_tag = SER
+					original_tag = CRO
+					original_tag = MNT
+				}
+			}
+		}
 	}
 	MNT_integrate_united_balkan = {
 		icon = generic_form_nation
@@ -4872,7 +5118,22 @@ integrate_united_balkan_category = {
 				}
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = YUG
+					original_tag = ALB
+					original_tag = GRE
+					original_tag = BUL
+					original_tag = ROM
+					original_tag = SER
+					original_tag = CRO
+					original_tag = MNT
+				}
+			}
+		}
 	}
 }
 
@@ -4985,7 +5246,13 @@ integrate_greater_german_reich_category = {
 				transfer_state = 102
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				original_tag = GER
+			}
+		}
 	}
 }
 
@@ -5055,6 +5322,12 @@ integrate_greater_italy_category = {
 				transfer_state = 164 # Dodecaneso
 			}
 		}
-		ai_will_do = { factor = 200 }
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				original_tag = ITA
+			}
+		}
 	}
 }
