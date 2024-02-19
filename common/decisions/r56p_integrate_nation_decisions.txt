@@ -2984,6 +2984,7 @@ integrate_austria_hungary_category = {
 				152 = { is_controlled_by_ROOT_or_subject = yes }
 				4 = { is_controlled_by_ROOT_or_subject = yes }
 				848 = { is_controlled_by_ROOT_or_subject = yes }
+				1054 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_CZE_required_states_tt
@@ -3044,6 +3045,7 @@ integrate_austria_hungary_category = {
 					transfer_state = 152
 					transfer_state = 4
 					transfer_state = 848
+					transfer_state = 1054
 				}
 				custom_effect_tooltip = integrate_country_CZE_coring_states_tt
 				hidden_effect = {
@@ -3143,6 +3145,7 @@ integrate_austria_hungary_category = {
 				152 = { is_controlled_by_ROOT_or_subject = yes }
 				4 = { is_controlled_by_ROOT_or_subject = yes }
 				848 = { is_controlled_by_ROOT_or_subject = yes }
+				1054 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_CZE_required_states_tt
@@ -3203,6 +3206,7 @@ integrate_austria_hungary_category = {
 					transfer_state = 152
 					transfer_state = 4
 					transfer_state = 848
+					transfer_state = 1054
 				}
 				custom_effect_tooltip = integrate_country_CZE_coring_states_tt
 				hidden_effect = {
@@ -3302,6 +3306,7 @@ integrate_austria_hungary_category = {
 				152 = { is_controlled_by_ROOT_or_subject = yes }
 				4 = { is_controlled_by_ROOT_or_subject = yes }
 				848 = { is_controlled_by_ROOT_or_subject = yes }
+				1054 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_CZE_required_states_tt
@@ -3362,6 +3367,7 @@ integrate_austria_hungary_category = {
 					transfer_state = 152
 					transfer_state = 4
 					transfer_state = 848
+					transfer_state = 1054
 				}
 				custom_effect_tooltip = integrate_country_CZE_coring_states_tt
 				hidden_effect = {
@@ -3464,6 +3470,7 @@ integrate_austria_hungary_category = {
 				152 = { is_controlled_by_ROOT_or_subject = yes }
 				4 = { is_controlled_by_ROOT_or_subject = yes }
 				848 = { is_controlled_by_ROOT_or_subject = yes }
+				1054 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_CZE_required_states_tt
@@ -3524,6 +3531,7 @@ integrate_austria_hungary_category = {
 					transfer_state = 152
 					transfer_state = 4
 					transfer_state = 848
+					transfer_state = 1054
 				}
 				custom_effect_tooltip = integrate_country_CZE_coring_states_tt
 				hidden_effect = {
@@ -19125,6 +19133,7 @@ integrate_alamannia_category = {
 			153 = { is_controlled_by_ROOT_or_subject = yes }
 			28 = { is_controlled_by_ROOT_or_subject = yes }
 			42 = { is_controlled_by_ROOT_or_subject = yes }
+			1053 = { is_controlled_by_ROOT_or_subject = yes }
 			50 = { is_controlled_by_ROOT_or_subject = yes }
 			52 = { is_controlled_by_ROOT_or_subject = yes }
 			53 = { is_controlled_by_ROOT_or_subject = yes }
@@ -19136,6 +19145,7 @@ integrate_alamannia_category = {
 				transfer_state = 153
 				transfer_state = 28
 				transfer_state = 42
+				transfer_state = 1053
 				transfer_state = 50
 				transfer_state = 52
 				transfer_state = 53

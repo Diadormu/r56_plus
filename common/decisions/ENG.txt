@@ -10092,7 +10092,7 @@ political_actions = {
 				}			
 			}
 			add_stability = embrace_german_heritage_var
-			set_party_name = { ideology = neutrality name = "萨克森-科堡-哥达王朝" }
+			set_party_name = { ideology = neutrality name = "萨克森-科堡-哥达王朝" long_name = "萨克森-科堡-哥达王朝" }
 		}
 
 		ai_will_do = {
