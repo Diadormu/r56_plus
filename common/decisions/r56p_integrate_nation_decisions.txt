@@ -3928,6 +3928,7 @@ integrate_united_netherlands_category = {
 			modifier = {
 				factor = 0
 				OR = {
+					original_tag = GER
 					original_tag = HOL
 					original_tag = BEL
 					original_tag = LUX

@@ -363,7 +363,7 @@ recreate_belgium_category = {
                 limit = { original_tag = FLA }
                 NOT = { has_government = fascism }
             }
-        #   is_subject = no
+            is_subject = no
             6 = { is_controlled_by = ROOT }
             34 = { is_controlled_by = ROOT }
         }

@@ -41,6 +41,12 @@
   UBF_united_balkan_federation_neutrality_subject: "$OVERLORDADJ$属巴尔干自治领"
   UBF_united_balkan_federation_neutrality_subject_DEF: "$OVERLORDADJ$属巴尔干自治领"
 
+  GER_autonomy_supervised_state: "联邦德国"
+  GER_autonomy_supervised_state_DEF: "德意志联邦共和国"
+  GER_autonomy_supervised_state_ADJ: "联邦德国"
+  GER_SOV_communism_autonomy_puppet: "民主德国"
+  GER_SOV_communism_autonomy_puppet_DEF: "德意志民主共和国"
+  GER_SOV_communism_autonomy_puppet_ADJ: "民主德国"
   GER_greater_german_reich: "大德意志"
   GER_greater_german_reich_ADJ: "大德意志"
   GER_greater_german_reich_communism: "德意志人民联盟"
