@@ -2549,6 +2549,7 @@ integrate_gran_colombia_category = {
 			489 = { is_controlled_by_ROOT_or_subject = yes }
 			307 = { is_controlled_by_ROOT_or_subject = yes }
 			488 = { is_controlled_by_ROOT_or_subject = yes }
+			1073 = { is_controlled_by_ROOT_or_subject = yes }
 			948 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
@@ -2565,6 +2566,7 @@ integrate_gran_colombia_category = {
 				transfer_state = 489
 				transfer_state = 307
 				transfer_state = 488
+				transfer_state = 1073
 				transfer_state = 948
 				if = {
 					limit = { 695 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -2622,6 +2624,7 @@ integrate_gran_colombia_category = {
 			489 = { is_controlled_by_ROOT_or_subject = yes }
 			307 = { is_controlled_by_ROOT_or_subject = yes }
 			488 = { is_controlled_by_ROOT_or_subject = yes }
+			1073 = { is_controlled_by_ROOT_or_subject = yes }
 			948 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
@@ -2638,6 +2641,7 @@ integrate_gran_colombia_category = {
 				transfer_state = 489
 				transfer_state = 307
 				transfer_state = 488
+				transfer_state = 1073
 				transfer_state = 948
 				if = {
 					limit = { 695 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -2695,6 +2699,7 @@ integrate_gran_colombia_category = {
 			489 = { is_controlled_by_ROOT_or_subject = yes }
 			307 = { is_controlled_by_ROOT_or_subject = yes }
 			488 = { is_controlled_by_ROOT_or_subject = yes }
+			1073 = { is_controlled_by_ROOT_or_subject = yes }
 			948 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
@@ -2711,6 +2716,7 @@ integrate_gran_colombia_category = {
 				transfer_state = 489
 				transfer_state = 307
 				transfer_state = 488
+				transfer_state = 1073
 				transfer_state = 948
 				if = {
 					limit = { 695 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -2768,6 +2774,7 @@ integrate_gran_colombia_category = {
 			489 = { is_controlled_by_ROOT_or_subject = yes }
 			307 = { is_controlled_by_ROOT_or_subject = yes }
 			488 = { is_controlled_by_ROOT_or_subject = yes }
+			1073 = { is_controlled_by_ROOT_or_subject = yes }
 			948 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
@@ -2784,6 +2791,7 @@ integrate_gran_colombia_category = {
 				transfer_state = 489
 				transfer_state = 307
 				transfer_state = 488
+				transfer_state = 1073
 				transfer_state = 948
 				if = {
 					limit = { 695 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -2841,6 +2849,7 @@ integrate_gran_colombia_category = {
 			489 = { is_controlled_by_ROOT_or_subject = yes }
 			307 = { is_controlled_by_ROOT_or_subject = yes }
 			488 = { is_controlled_by_ROOT_or_subject = yes }
+			1073 = { is_controlled_by_ROOT_or_subject = yes }
 			948 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
@@ -2857,6 +2866,7 @@ integrate_gran_colombia_category = {
 				transfer_state = 489
 				transfer_state = 307
 				transfer_state = 488
+				transfer_state = 1073
 				transfer_state = 948
 				if = {
 					limit = { 695 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -2914,6 +2924,7 @@ integrate_gran_colombia_category = {
 			489 = { is_controlled_by_ROOT_or_subject = yes }
 			307 = { is_controlled_by_ROOT_or_subject = yes }
 			488 = { is_controlled_by_ROOT_or_subject = yes }
+			1073 = { is_controlled_by_ROOT_or_subject = yes }
 			948 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
@@ -2930,6 +2941,7 @@ integrate_gran_colombia_category = {
 				transfer_state = 489
 				transfer_state = 307
 				transfer_state = 488
+				transfer_state = 1073
 				transfer_state = 948
 				if = {
 					limit = { 695 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -14390,6 +14402,7 @@ integrate_east_africa_category = {
 		}
 		available = {
 			546 = { is_controlled_by_ROOT_or_subject = yes }
+			1055 = { is_controlled_by_ROOT_or_subject = yes }
 			547 = { is_controlled_by_ROOT_or_subject = yes }
 			905 = { is_controlled_by_ROOT_or_subject = yes }
 			904 = { is_controlled_by_ROOT_or_subject = yes }
@@ -14398,6 +14411,7 @@ integrate_east_africa_category = {
 		complete_effect = {
 			KEN = {
 				transfer_state = 546
+				transfer_state = 1055
 				transfer_state = 547
 				transfer_state = 905
 				transfer_state = 904
@@ -14436,6 +14450,7 @@ integrate_east_africa_category = {
 					original_tag = KEN
 					original_tag = UGA
 					original_tag = TZN
+					original_tag = ZAN
 					original_tag = RWA
 					original_tag = BRD
 				}
@@ -14451,6 +14466,7 @@ integrate_east_africa_category = {
 		}
 		available = {
 			546 = { is_controlled_by_ROOT_or_subject = yes }
+			1055 = { is_controlled_by_ROOT_or_subject = yes }
 			547 = { is_controlled_by_ROOT_or_subject = yes }
 			905 = { is_controlled_by_ROOT_or_subject = yes }
 			904 = { is_controlled_by_ROOT_or_subject = yes }
@@ -14459,6 +14475,7 @@ integrate_east_africa_category = {
 		complete_effect = {
 			UGA = {
 				transfer_state = 546
+				transfer_state = 1055
 				transfer_state = 547
 				transfer_state = 905
 				transfer_state = 904
@@ -14497,6 +14514,7 @@ integrate_east_africa_category = {
 					original_tag = KEN
 					original_tag = UGA
 					original_tag = TZN
+					original_tag = ZAN
 					original_tag = RWA
 					original_tag = BRD
 				}
@@ -14512,6 +14530,7 @@ integrate_east_africa_category = {
 		}
 		available = {
 			546 = { is_controlled_by_ROOT_or_subject = yes }
+			1055 = { is_controlled_by_ROOT_or_subject = yes }
 			547 = { is_controlled_by_ROOT_or_subject = yes }
 			905 = { is_controlled_by_ROOT_or_subject = yes }
 			904 = { is_controlled_by_ROOT_or_subject = yes }
@@ -14520,6 +14539,7 @@ integrate_east_africa_category = {
 		complete_effect = {
 			TZN = {
 				transfer_state = 546
+				transfer_state = 1055
 				transfer_state = 547
 				transfer_state = 905
 				transfer_state = 904
@@ -14558,6 +14578,71 @@ integrate_east_africa_category = {
 					original_tag = KEN
 					original_tag = UGA
 					original_tag = TZN
+					original_tag = ZAN
+					original_tag = RWA
+					original_tag = BRD
+				}
+			}
+		}
+	}
+	ZAN_integrate_east_africa = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			ZAN = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_east_africa_flag }
+		}
+		available = {
+			546 = { is_controlled_by_ROOT_or_subject = yes }
+			1055 = { is_controlled_by_ROOT_or_subject = yes }
+			547 = { is_controlled_by_ROOT_or_subject = yes }
+			905 = { is_controlled_by_ROOT_or_subject = yes }
+			904 = { is_controlled_by_ROOT_or_subject = yes }
+			548 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			ZAN = {
+				transfer_state = 546
+				transfer_state = 1055
+				transfer_state = 547
+				transfer_state = 905
+				transfer_state = 904
+				transfer_state = 548
+				if = {
+					limit = { 768 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 768
+				}
+				if = {
+					limit = { 769 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 769
+				}
+				if = {
+					limit = { 770 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 770
+				}
+				if = {
+					limit = { 897 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 897
+				}
+				if = {
+					limit = { 837 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 837
+				}
+				if = {
+					limit = { 708 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 708
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = KEN
+					original_tag = UGA
+					original_tag = TZN
+					original_tag = ZAN
 					original_tag = RWA
 					original_tag = BRD
 				}
@@ -14573,6 +14658,7 @@ integrate_east_africa_category = {
 		}
 		available = {
 			546 = { is_controlled_by_ROOT_or_subject = yes }
+			1055 = { is_controlled_by_ROOT_or_subject = yes }
 			547 = { is_controlled_by_ROOT_or_subject = yes }
 			905 = { is_controlled_by_ROOT_or_subject = yes }
 			904 = { is_controlled_by_ROOT_or_subject = yes }
@@ -14581,6 +14667,7 @@ integrate_east_africa_category = {
 		complete_effect = {
 			RWA = {
 				transfer_state = 546
+				transfer_state = 1055
 				transfer_state = 547
 				transfer_state = 905
 				transfer_state = 904
@@ -14619,6 +14706,7 @@ integrate_east_africa_category = {
 					original_tag = KEN
 					original_tag = UGA
 					original_tag = TZN
+					original_tag = ZAN
 					original_tag = RWA
 					original_tag = BRD
 				}
@@ -14634,6 +14722,7 @@ integrate_east_africa_category = {
 		}
 		available = {
 			546 = { is_controlled_by_ROOT_or_subject = yes }
+			1055 = { is_controlled_by_ROOT_or_subject = yes }
 			547 = { is_controlled_by_ROOT_or_subject = yes }
 			905 = { is_controlled_by_ROOT_or_subject = yes }
 			904 = { is_controlled_by_ROOT_or_subject = yes }
@@ -14642,6 +14731,7 @@ integrate_east_africa_category = {
 		complete_effect = {
 			BRD = {
 				transfer_state = 546
+				transfer_state = 1055
 				transfer_state = 547
 				transfer_state = 905
 				transfer_state = 904
@@ -14680,6 +14770,7 @@ integrate_east_africa_category = {
 					original_tag = KEN
 					original_tag = UGA
 					original_tag = TZN
+					original_tag = ZAN
 					original_tag = RWA
 					original_tag = BRD
 				}
@@ -19158,6 +19249,78 @@ integrate_alamannia_category = {
 			modifier = {
 				factor = 0
 				original_tag = SWI
+			}
+		}
+	}
+}
+
+integrate_unite_tanganyika_zanzibar_category = {
+	TZN_integrate_unite_tanganyika_zanzibar = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			TZN = {
+				is_subject_of = ROOT
+				OR = {
+					has_government = democratic
+					has_government = communism
+					has_government = neutrality
+				}
+			}
+			NOT = { has_global_flag = TZA_formed_tanzania }
+		}
+		available = {
+			546 = { is_controlled_by_ROOT_or_subject = yes }
+			1055 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			TZN = {
+				transfer_state = 546
+				transfer_state = 1055
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = TZN
+					original_tag = ZAN
+				}
+			}
+		}
+	}
+	ZAN_integrate_unite_tanganyika_zanzibar = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			ZAN = {
+				is_subject_of = ROOT
+				OR = {
+					has_government = democratic
+					has_government = communism
+				}
+			}
+			NOT = { has_global_flag = TZA_formed_tanzania }
+		}
+		available = {
+			546 = { is_controlled_by_ROOT_or_subject = yes }
+			1055 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			ZAN = {
+				transfer_state = 546
+				transfer_state = 1055
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = TZN
+					original_tag = ZAN
+				}
 			}
 		}
 	}

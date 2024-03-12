@@ -296,3 +296,7 @@
 
   integrate_alamannia_category: "整合阿勒曼尼"
   SWI_integrate_alamannia: "向[SWI.GetName]移交领土"
+
+  integrate_unite_tanganyika_zanzibar_category: "整合[TZN.GetNonIdeologyName]和[ZAN.GetNonIdeologyName]"
+  TZN_integrate_unite_tanganyika_zanzibar: "向[TZN.GetName]移交领土（推荐，有额外核心）"
+  ZAN_integrate_unite_tanganyika_zanzibar: "向[ZAN.GetName]移交领土"

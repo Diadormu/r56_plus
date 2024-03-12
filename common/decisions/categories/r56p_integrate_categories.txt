@@ -104,3 +104,6 @@ integrate_the_mamluks_category = {
 integrate_alamannia_category = {
 	icon = generic_formable_nations
 }
+integrate_unite_tanganyika_zanzibar_category = {
+	icon = generic_formable_nations
+}

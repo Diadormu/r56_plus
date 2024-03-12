@@ -232,7 +232,7 @@ ENG_weapons_purchases_category = {
 			factor = 1
 			modifier = {
 				has_equipment = {
-					fighter_equipment < 1
+					small_plane_airframe < 1
 				}
 				factor = 5
 			}
@@ -9476,7 +9476,8 @@ political_actions = {
 		visible = {
 			tag = ENG
 			NOT = {
-				has_country_flag = ENG_edward_viii_abdicated
+				has_country_flag = ENG_edward_abdicating
+				has_country_flag = ENG_abdication_crisis_changed_mind
 				has_country_flag = edward_viii_married_wallis_simpson
 			}													  
 		}
@@ -9655,7 +9656,6 @@ political_actions = {
 				set_politics = { ruling_party = neutrality elections_allowed = no }
 				create_country_leader = {
 					name = "华里丝一世"
-					desc = "POLITICS_WALLIS_I_DESC"
 					picture = GFX_portrait_eng_wallis_simpson
 					expire = "1965.1.1"
 					ideology = absolute_monarchism
@@ -9709,7 +9709,6 @@ political_actions = {
 				set_politics = { ruling_party = neutrality elections_allowed = no }
 				create_country_leader = {
 					name = "华里丝一世"
-					desc = "POLITICS_WALLIS_I_DESC"
 					picture = GFX_portrait_eng_wallis_simpson
 					expire = "1965.1.1"
 					ideology = despotism
@@ -10026,7 +10025,6 @@ political_actions = {
 				set_politics = { ruling_party = neutrality elections_allowed = no }
 				create_country_leader = {
 					name = "华里丝一世"
-					desc = "POLITICS_WALLIS_I_DESC"
 					picture = GFX_portrait_eng_wallis_simpson
 					expire = "1965.1.1"
 					ideology = despotism
@@ -10127,6 +10125,10 @@ operations = {
 
 		ai_will_do = {
 			factor = 1
+			modifier = {	#factor of 1 means they cheap out and dont take it/take it late
+				factor = 1000
+				is_historical_focus_on = yes
+			}
 		}
 		
 		visible = {
