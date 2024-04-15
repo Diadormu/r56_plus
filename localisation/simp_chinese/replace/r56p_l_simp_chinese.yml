@@ -52,6 +52,7 @@
   form_country_AZR_required_states_tt: "控制§Y阿塞拜疆§!的所有核心地区。"
   form_country_AZR_coring_states_tt: "获得§Y阿塞拜疆§!所有地区的核心。\n"
 
+  ENG_franco_british_union: "$flag_franco_british_union$"
   ENG_claim_pan_north_american_state: "合并北美自治领"
   ENG_expand_pan_north_american_state: "扩大北美自治领"
   created_north_american: "已建立北美自治领"

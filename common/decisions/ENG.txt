@@ -10098,6 +10098,98 @@ political_actions = {
 		}
 	}
 
+	ENG_franco_british_union = {
+		icon = generic_prepare_civil_war
+		allowed = {
+			tag = ENG
+		}
+
+		visible = {
+			FRA = {
+				is_in_faction_with = ENG
+				has_government = ENG
+			}
+			NOT = {
+				has_global_flag = flag_franco_british_union
+				has_global_flag = form_france_british
+			}
+		}
+		cost = 200
+
+		available = {
+			NOT = {
+				16 = { is_controlled_by = FRA }
+				country_exists = OCC
+			}
+			FRA = {
+				has_war_together_with = ENG
+				has_civil_war = no
+				surrender_progress > 0.7
+			}
+		}
+
+		complete_effect = {
+			FRA = {
+				every_unit_leader = {
+					set_unit_leader_flag = flag_former_french_general
+					set_nationality = ENG
+				}
+			}
+			every_other_country = {
+				limit = {
+					is_puppet_of = FRA
+				}
+				puppet = ROOT
+			}
+			annex_country = { target = FRA transfer_troops = yes }
+			set_cosmetic_tag = FRA_UK
+			add_victory_points = {
+				province = 6103
+				value = 50
+			}
+			custom_effect_tooltip = FRA_franco_british_cores
+			hidden_effect = {
+				set_global_flag = form_france_british
+				every_state = {
+					limit = {
+						is_core_of = FRA
+					}
+					ENG = {
+						add_state_core = PREV
+					}
+				}
+				news_event = { hours = 6 id = news.35 }
+			}
+			add_ideas = generic_recent_political_unification
+			add_ideas = generic_recent_army_unification
+			add_ideas = generic_recent_economic_unification
+		
+			#Swiss event regarding hiding French soldiers in there after the Fall of France
+			hidden_effect = {	#linked with Fall of France, so replaced it here instead of own trigger - Fantom
+				if = {
+					limit = {
+						SWI = {
+							has_war = no
+						}
+					}
+					SWI = { country_event = EYE_swiss.4 }
+				}
+				if = {
+					limit = { 
+						SWI = {
+							has_government = neutrality
+						}
+					}
+					SWI = { news_event = { id = EYE_swiss.5 days = 45 } }
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
 }
 
 operations = {
