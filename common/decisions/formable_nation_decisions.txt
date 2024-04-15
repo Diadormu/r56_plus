@@ -14520,10 +14520,12 @@ greater_italy_category = {
 		}
 
 		available = {
-			#OR = {
-			#	has_completed_focus = ITA_towards_a_greater_italy
-			#	has_completed_focus = ITA_mare_nostrum_bba
-			#}
+			OR = {
+				has_completed_focus = ITA_towards_a_greater_italy
+				has_completed_focus = ITA_mare_nostrum_bba
+				has_government = communism
+				has_government = democratic
+			}
 			custom_trigger_tooltip = {
 				tooltip = greater_italy_required_states
 				controls_state = 852 # Istria

@@ -15070,27 +15070,35 @@ integrate_peru_bolivia_category = {
 			NOT = { has_global_flag = form_peru_bolivia_flag }
 		}
 		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = PRU }
-					is_core_of = ECU
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = BOL }
-					is_core_of = PAR
-					is_core_of = CHL
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			302 = { is_controlled_by_ROOT_or_subject = yes }
+			487 = { is_controlled_by_ROOT_or_subject = yes }
+			494 = { is_controlled_by_ROOT_or_subject = yes }
+			492 = { is_controlled_by_ROOT_or_subject = yes }
+			1061 = { is_controlled_by_ROOT_or_subject = yes }
+			303 = { is_controlled_by_ROOT_or_subject = yes }
+			491 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect= {
 			BOL = {
-				transfer_state = 688
-				transfer_state = 506
-				transfer_state = 490
+				transfer_state = 302
+				transfer_state = 487
+				transfer_state = 494
+				transfer_state = 492
+				transfer_state = 1061
+				transfer_state = 303
+				transfer_state = 491
+				if = {
+					limit = { 688 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 688
+				}
+				if = {
+					limit = { 506 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 506
+				}
+				if = {
+					limit = { 490 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 490
+				}
 			}
 			every_state = {
 				limit = {
@@ -15122,27 +15130,35 @@ integrate_peru_bolivia_category = {
 			NOT = { has_global_flag = form_peru_bolivia_flag }
 		}
 		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = PRU }
-					is_core_of = ECU
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = BOL }
-					is_core_of = PAR
-					is_core_of = CHL
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			302 = { is_controlled_by_ROOT_or_subject = yes }
+			487 = { is_controlled_by_ROOT_or_subject = yes }
+			494 = { is_controlled_by_ROOT_or_subject = yes }
+			492 = { is_controlled_by_ROOT_or_subject = yes }
+			1061 = { is_controlled_by_ROOT_or_subject = yes }
+			303 = { is_controlled_by_ROOT_or_subject = yes }
+			491 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect= {
 			PRU = {
-				transfer_state = 688
-				transfer_state = 506
-				transfer_state = 490
+				transfer_state = 302
+				transfer_state = 487
+				transfer_state = 494
+				transfer_state = 492
+				transfer_state = 1061
+				transfer_state = 303
+				transfer_state = 491
+				if = {
+					limit = { 688 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 688
+				}
+				if = {
+					limit = { 506 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 506
+				}
+				if = {
+					limit = { 490 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 490
+				}
 			}
 			every_state = {
 				limit = {
