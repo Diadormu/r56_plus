@@ -1554,6 +1554,10 @@ form_greater_china_category = {
 
 		complete_effect = {
 			set_global_flag = form_greater_china_flag
+			322 = { add_core_of = ROOT }
+			601 = { add_core_of = ROOT }
+			757 = { add_core_of = ROOT }
+			758 = { add_core_of = ROOT }
 			434 = { add_core_of = ROOT } #藏南
 			329 = { add_core_of = ROOT } #唐努乌梁
 			#外蒙古

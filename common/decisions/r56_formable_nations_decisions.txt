@@ -577,7 +577,7 @@ form_united_netherlands_category2 = {
 
         visible = {
             NOT = { has_global_flag = form_united_netherlands_flag
-			#	original_tag = HOL
+				original_tag = HOL
 			}
         }
 
@@ -805,6 +805,10 @@ celtic_unification_category = {
             controls_state = 123
             #BRI
             controls_state = 14
+
+			# isle of man
+			controls_state = 1042
+
         }
         complete_effect = {
 
@@ -824,6 +828,7 @@ celtic_unification_category = {
                 970 = { add_core_of = ROOT }
                 971 = { add_core_of = ROOT }
                 14 = { add_core_of = ROOT }
+				1042 = { add_core_of = ROOT }
                 news_event = { id = r56.news_event.33 hours = 6 }
 
                 if = {
@@ -1435,8 +1440,9 @@ form_nation_mod_category = {
                 original_tag = CMR
                 original_tag = DAH
                 original_tag = GNA
+				original_tag = GHA
                 original_tag = NGA
-                original_tag = GHA
+
                 original_tag = LIB
                 original_tag = MLI
                 original_tag = NGR
@@ -1489,13 +1495,13 @@ form_nation_mod_category = {
             }
             all_state = {
                 OR = {
-                    NOT = { is_core_of = NGA }
+                    NOT = { is_core_of = GHA }
                     is_controlled_by = ROOT
                 }
             }
             all_state = {
                 OR = {
-                    NOT = { is_core_of = GHA }
+                    NOT = { is_core_of = NGA }
                     is_controlled_by = ROOT
                 }
             }
@@ -1543,6 +1549,7 @@ form_nation_mod_category = {
                                     has_nationality = CMR
                                     has_nationality = DAH
                                     has_nationality = GNA
+									has_nationality = GHA
                                     has_nationality = NGA
                                     has_nationality = LIB
                                     has_nationality = MLI                                   
@@ -1566,8 +1573,8 @@ form_nation_mod_category = {
                             is_core_of = TOG
                             is_core_of = SEN
                             is_core_of = GNA
-                            is_core_of = NGA
                             is_core_of = GHA
+                            is_core_of = NGA
                             is_core_of = LIB
                             is_core_of = SIE
                             is_core_of = GNB
@@ -1585,7 +1592,7 @@ form_nation_mod_category = {
         }
 
         ai_will_do = {
-            factor = 50
+            factor = 500
         }
     }
     reform_the_empire_of_mali = {
@@ -2926,7 +2933,6 @@ EYE_form_alamannia_category = {
 
 		allowed = {
 			original_tag = SWI
-			has_dlc = "Waking the Tiger"
 		}
 
 		highlight_states = {
@@ -3052,6 +3058,51 @@ form_nation_mod_category = {
 				factor = 250
 				is_historical_focus_on = yes
 			}
+		}
+	}
+
+    form_greater_texas = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = TXS
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+                state = 375
+                state = 479
+                state = 480
+                state = 482
+			}
+		}
+
+		available = {
+		#	is_subject = no
+			controls_state = 375
+			controls_state = 479
+            controls_state = 480
+            controls_state = 482
+		}
+
+		visible = {
+			NOT = { has_global_flag = TXS_formed_greater_texas }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = TXS_greater
+			add_state_core = 375
+			add_state_core = 479
+            add_state_core = 480
+            add_state_core = 482
+			hidden_effect = {
+				set_global_flag = TXS_formed_greater_texas
+			}
+		}
+
+		ai_will_do = {
+			factor = 100
 		}
 	}
 }

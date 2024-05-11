@@ -1,9 +1,6 @@
 integrate_scandinavia_category = {
 	NOR_integrate_scandinavia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			NOR = { is_subject_of = ROOT }
@@ -114,7 +111,7 @@ integrate_scandinavia_category = {
 					original_tag = SWE
 					original_tag = DEN
 					original_tag = NOR
-					original_tag = SAM
+					original_tag = SMI
 					original_tag = KAR
 					original_tag = EST
 				}
@@ -123,9 +120,6 @@ integrate_scandinavia_category = {
 	}
 	DEN_integrate_scandinavia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			DEN = { is_subject_of = ROOT }
@@ -236,7 +230,7 @@ integrate_scandinavia_category = {
 					original_tag = SWE
 					original_tag = DEN
 					original_tag = NOR
-					original_tag = SAM
+					original_tag = SMI
 					original_tag = KAR
 					original_tag = EST
 				}
@@ -245,9 +239,6 @@ integrate_scandinavia_category = {
 	}
 	SWE_integrate_scandinavia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			SWE = { is_subject_of = ROOT }
@@ -358,21 +349,18 @@ integrate_scandinavia_category = {
 					original_tag = SWE
 					original_tag = DEN
 					original_tag = NOR
-					original_tag = SAM
+					original_tag = SMI
 					original_tag = KAR
 					original_tag = EST
 				}
 			}
 		}
 	}
-	SAM_integrate_scandinavia = {
+	SMI_integrate_scandinavia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
-			SAM = { is_subject_of = ROOT }
+			SMI = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_scandinavia_flag }
 		}
 		available = {
@@ -432,7 +420,7 @@ integrate_scandinavia_category = {
 							state = 1027
 						}
 					}
-					transfer_state_to = SAM
+					transfer_state_to = SMI
 				}
 			}
 			# Sweden
@@ -446,13 +434,13 @@ integrate_scandinavia_category = {
 							state = 124
 						}
 					}
-					transfer_state_to = SAM
+					transfer_state_to = SMI
 				}
 				if = {
 					limit = {
 						145 = { is_controlled_by_ROOT_or_subject = yes }
 					}
-					145 = { transfer_state_to = SAM }
+					145 = { transfer_state_to = SMI }
 				}
 			}
 			# Denmark / European Mainland
@@ -468,7 +456,7 @@ integrate_scandinavia_category = {
 							state = 998
 						}
 					}
-					transfer_state_to = SAM
+					transfer_state_to = SMI
 				}
 			}
 		}
@@ -480,7 +468,7 @@ integrate_scandinavia_category = {
 					original_tag = SWE
 					original_tag = DEN
 					original_tag = NOR
-					original_tag = SAM
+					original_tag = SMI
 					original_tag = KAR
 					original_tag = EST
 				}
@@ -489,9 +477,6 @@ integrate_scandinavia_category = {
 	}
 	KAR_integrate_scandinavia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			KAR = { is_subject_of = ROOT }
@@ -602,7 +587,7 @@ integrate_scandinavia_category = {
 					original_tag = SWE
 					original_tag = DEN
 					original_tag = NOR
-					original_tag = SAM
+					original_tag = SMI
 					original_tag = KAR
 					original_tag = EST
 				}
@@ -611,10 +596,6 @@ integrate_scandinavia_category = {
 	}
 	EST_integrate_scandinavia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-			has_dlc = "No Step Back"
-		}
 		visible = {
 			is_historical_focus_on = no
 			EST = {
@@ -728,7 +709,7 @@ integrate_scandinavia_category = {
 					original_tag = SWE
 					original_tag = DEN
 					original_tag = NOR
-					original_tag = SAM
+					original_tag = SMI
 					original_tag = KAR
 					original_tag = EST
 				}
@@ -740,9 +721,6 @@ integrate_scandinavia_category = {
 integrate_nordic_league_category = {
 	NOR_integrate_nordic_league = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			NOR = { is_subject_of = ROOT }
@@ -813,7 +791,7 @@ integrate_nordic_league_category = {
 				all_state = {
 					OR = {
 						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -900,7 +878,7 @@ integrate_nordic_league_category = {
 				every_state = {
 					limit = {
 						OR = {
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -953,7 +931,7 @@ integrate_nordic_league_category = {
 					original_tag = NOR
 					original_tag = FIN
 					original_tag = ICE
-					original_tag = SAM
+					original_tag = SMI
 					original_tag = KAR
 					original_tag = EST
 				}
@@ -962,9 +940,6 @@ integrate_nordic_league_category = {
 	}
 	DEN_integrate_nordic_league = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			DEN = { is_subject_of = ROOT }
@@ -1035,7 +1010,7 @@ integrate_nordic_league_category = {
 				all_state = {
 					OR = {
 						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -1122,7 +1097,7 @@ integrate_nordic_league_category = {
 				every_state = {
 					limit = {
 						OR = {
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -1175,7 +1150,7 @@ integrate_nordic_league_category = {
 					original_tag = NOR
 					original_tag = FIN
 					original_tag = ICE
-					original_tag = SAM
+					original_tag = SMI
 					original_tag = KAR
 					original_tag = EST
 				}
@@ -1184,9 +1159,6 @@ integrate_nordic_league_category = {
 	}
 	SWE_integrate_nordic_league = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			SWE = { is_subject_of = ROOT }
@@ -1257,7 +1229,7 @@ integrate_nordic_league_category = {
 				all_state = {
 					OR = {
 						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -1344,7 +1316,7 @@ integrate_nordic_league_category = {
 				every_state = {
 					limit = {
 						OR = {
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -1397,7 +1369,7 @@ integrate_nordic_league_category = {
 					original_tag = NOR
 					original_tag = FIN
 					original_tag = ICE
-					original_tag = SAM
+					original_tag = SMI
 					original_tag = KAR
 					original_tag = EST
 				}
@@ -1406,9 +1378,6 @@ integrate_nordic_league_category = {
 	}
 	FIN_integrate_nordic_league = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			FIN = { is_subject_of = ROOT }
@@ -1479,7 +1448,7 @@ integrate_nordic_league_category = {
 				all_state = {
 					OR = {
 						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -1566,7 +1535,7 @@ integrate_nordic_league_category = {
 				every_state = {
 					limit = {
 						OR = {
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -1619,7 +1588,7 @@ integrate_nordic_league_category = {
 					original_tag = NOR
 					original_tag = FIN
 					original_tag = ICE
-					original_tag = SAM
+					original_tag = SMI
 					original_tag = KAR
 					original_tag = EST
 				}
@@ -1628,9 +1597,6 @@ integrate_nordic_league_category = {
 	}
 	ICE_integrate_nordic_league = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			ICE = { is_subject_of = ROOT }
@@ -1701,7 +1667,7 @@ integrate_nordic_league_category = {
 				all_state = {
 					OR = {
 						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -1788,7 +1754,7 @@ integrate_nordic_league_category = {
 				every_state = {
 					limit = {
 						OR = {
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -1841,21 +1807,18 @@ integrate_nordic_league_category = {
 					original_tag = NOR
 					original_tag = FIN
 					original_tag = ICE
-					original_tag = SAM
+					original_tag = SMI
 					original_tag = KAR
 					original_tag = EST
 				}
 			}
 		}
 	}
-	SAM_integrate_nordic_league = {
+	SMI_integrate_nordic_league = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
-			SAM = { is_subject_of = ROOT }
+			SMI = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_nordic_league_flag }
 		}
 		available = {
@@ -1923,7 +1886,7 @@ integrate_nordic_league_category = {
 				all_state = {
 					OR = {
 						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -1955,7 +1918,7 @@ integrate_nordic_league_category = {
 								state = 1027
 							}
 						}
-						transfer_state_to = SAM
+						transfer_state_to = SMI
 					}
 				}
 			}
@@ -1975,7 +1938,7 @@ integrate_nordic_league_category = {
 							}
 						}
 					}
-					transfer_state_to = SAM
+					transfer_state_to = SMI
 				}
 			}
 			# Denmark
@@ -1993,7 +1956,7 @@ integrate_nordic_league_category = {
 							state = 998 #You're not getting a free core on Southern Schleswig, it's not Danish
 						}	
 					}
-					transfer_state_to = SAM
+					transfer_state_to = SMI
 				}
 			}
 			# Iceland
@@ -2006,7 +1969,7 @@ integrate_nordic_league_category = {
 							state = 100
 						}
 					}
-					transfer_state_to = SAM
+					transfer_state_to = SMI
 				}
 			}
 			# Finland
@@ -2015,7 +1978,7 @@ integrate_nordic_league_category = {
 				every_state = {
 					limit = {
 						OR = {
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -2030,7 +1993,7 @@ integrate_nordic_league_category = {
 							}
 						}
 					}
-					transfer_state_to = SAM
+					transfer_state_to = SMI
 				}
 			}
 			if = {
@@ -2047,7 +2010,7 @@ integrate_nordic_league_category = {
 				}
 				custom_effect_tooltip = integrate_country_KAR_coring_states_tt
 				hidden_effect = {
-					SAM = {
+					SMI = {
 						transfer_state = 146
 						transfer_state = 147
 						transfer_state = 213
@@ -2068,7 +2031,7 @@ integrate_nordic_league_category = {
 					original_tag = NOR
 					original_tag = FIN
 					original_tag = ICE
-					original_tag = SAM
+					original_tag = SMI
 					original_tag = KAR
 					original_tag = EST
 				}
@@ -2077,9 +2040,6 @@ integrate_nordic_league_category = {
 	}
 	KAR_integrate_nordic_league = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			KAR = { is_subject_of = ROOT }
@@ -2150,7 +2110,7 @@ integrate_nordic_league_category = {
 				all_state = {
 					OR = {
 						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -2237,7 +2197,7 @@ integrate_nordic_league_category = {
 				every_state = {
 					limit = {
 						OR = {
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -2290,7 +2250,7 @@ integrate_nordic_league_category = {
 					original_tag = NOR
 					original_tag = FIN
 					original_tag = ICE
-					original_tag = SAM
+					original_tag = SMI
 					original_tag = KAR
 					original_tag = EST
 				}
@@ -2299,10 +2259,6 @@ integrate_nordic_league_category = {
 	}
 	EST_integrate_nordic_league = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-			has_dlc = "No Step Back"
-		}
 		visible = {
 			is_historical_focus_on = no
 			EST = {
@@ -2376,7 +2332,7 @@ integrate_nordic_league_category = {
 				all_state = {
 					OR = {
 						NOT = { 
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -2463,7 +2419,7 @@ integrate_nordic_league_category = {
 				every_state = {
 					limit = {
 						OR = {
-							region = 13	#sorry, but you need Karelia, Petsamo and Salla too!
+							region = 13	#sorry, but you need Karelia, PetSMIo and Salla too!
 							AND = {
 								region = 12
 								NOT = {
@@ -2516,7 +2472,7 @@ integrate_nordic_league_category = {
 					original_tag = NOR
 					original_tag = FIN
 					original_tag = ICE
-					original_tag = SAM
+					original_tag = SMI
 					original_tag = KAR
 					original_tag = EST
 				}
@@ -2528,9 +2484,6 @@ integrate_nordic_league_category = {
 integrate_gran_colombia_category = {
 	PAN_integrate_gran_colombia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			PAN = { is_subject_of = ROOT }
@@ -2603,9 +2556,6 @@ integrate_gran_colombia_category = {
 	}
 	ECU_integrate_gran_colombia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			ECU = { is_subject_of = ROOT }
@@ -2678,9 +2628,6 @@ integrate_gran_colombia_category = {
 	}
 	COL_integrate_gran_colombia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			COL = { is_subject_of = ROOT }
@@ -2753,9 +2700,6 @@ integrate_gran_colombia_category = {
 	}
 	VEN_integrate_gran_colombia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			VEN = { is_subject_of = ROOT }
@@ -2828,9 +2772,6 @@ integrate_gran_colombia_category = {
 	}
 	CRC_integrate_gran_colombia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			CRC = { is_subject_of = ROOT }
@@ -2901,89 +2842,11 @@ integrate_gran_colombia_category = {
 			}
 		}
 	}
-	GYA_integrate_gran_colombia = {
-		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
-		visible = {
-			is_historical_focus_on = no
-			GYA = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_gran_colombia_flag }
-		}
-		available = {
-			491 = { is_controlled_by_ROOT_or_subject = yes }
-			304 = { is_controlled_by_ROOT_or_subject = yes }
-			937 = { is_controlled_by_ROOT_or_subject = yes }
-			305 = { is_controlled_by_ROOT_or_subject = yes }
-			490 = { is_controlled_by_ROOT_or_subject = yes }
-			486 = { is_controlled_by_ROOT_or_subject = yes }
-			306 = { is_controlled_by_ROOT_or_subject = yes }
-			493 = { is_controlled_by_ROOT_or_subject = yes }
-			1051 = { is_controlled_by_ROOT_or_subject = yes }
-			489 = { is_controlled_by_ROOT_or_subject = yes }
-			307 = { is_controlled_by_ROOT_or_subject = yes }
-			488 = { is_controlled_by_ROOT_or_subject = yes }
-			1073 = { is_controlled_by_ROOT_or_subject = yes }
-			948 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			GYA = {
-				transfer_state = 491
-				transfer_state = 304
-				transfer_state = 937
-				transfer_state = 305
-				transfer_state = 490
-				transfer_state = 486
-				transfer_state = 306
-				transfer_state = 493
-				transfer_state = 1051
-				transfer_state = 489
-				transfer_state = 307
-				transfer_state = 488
-				transfer_state = 1073
-				transfer_state = 948
-				if = {
-					limit = { 695 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 695
-				}
-				if = {
-					limit = { 687 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 687
-				}
-				if = {
-					limit = { 649 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 649
-				}
-				if = {
-					limit = { 685 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 685
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = PAN
-					original_tag = ECU
-					original_tag = COL
-					original_tag = VEN
-					original_tag = CRC
-					original_tag = GYA
-				}
-			}
-		}
-	}
 }
 
 integrate_austria_hungary_category = {
 	AUS_integrate_austria_hungary = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			AUS = { is_subject_of = ROOT }
@@ -3142,9 +3005,6 @@ integrate_austria_hungary_category = {
 	}
 	CZE_integrate_austria_hungary = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			CZE = { is_subject_of = ROOT }
@@ -3303,9 +3163,6 @@ integrate_austria_hungary_category = {
 	}
 	CRO_integrate_austria_hungary = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			CRO = { is_subject_of = ROOT }
@@ -3464,14 +3321,10 @@ integrate_austria_hungary_category = {
 	}
 	HUN_integrate_austria_hungary = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			HUN = { is_subject_of = ROOT }
 			NOT = {
-				has_dlc = "Death or Dishonor"
 				has_global_flag = form_austria_hungary_flag
 			}
 		}
@@ -3628,9 +3481,6 @@ integrate_austria_hungary_category = {
 	}
 	HUN_integrate_austro_hungarian_empire = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			HUN = {
 				is_subject_of = ROOT
@@ -3892,9 +3742,6 @@ integrate_commonwealth_category = {
 integrate_united_netherlands_category = {
 	HOL_integrate_united_netherlands = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			HOL = { is_subject_of = ROOT }
@@ -3940,9 +3787,6 @@ integrate_united_netherlands_category = {
 	}
 	BEL_integrate_united_netherlands = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			BEL = { is_subject_of = ROOT }
@@ -3987,9 +3831,6 @@ integrate_united_netherlands_category = {
 	}
 	LUX_integrate_united_netherlands = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			LUX = { is_subject_of = ROOT }
@@ -4034,9 +3875,6 @@ integrate_united_netherlands_category = {
 	}
 	WLL_integrate_united_netherlands = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			WLL = { is_subject_of = ROOT }
@@ -4081,9 +3919,6 @@ integrate_united_netherlands_category = {
 	}
 	FLA_integrate_united_netherlands = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			FLA = { is_subject_of = ROOT }
@@ -4131,9 +3966,6 @@ integrate_united_netherlands_category = {
 integrate_united_central_america_category = {
 	GUA_united_central_america = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			GUA = { is_subject_of = ROOT }
@@ -4176,9 +4008,6 @@ integrate_united_central_america_category = {
 	}
 	ELS_united_central_america = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			ELS = { is_subject_of = ROOT }
@@ -4221,9 +4050,6 @@ integrate_united_central_america_category = {
 	}
 	HON_united_central_america = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			HON = { is_subject_of = ROOT }
@@ -4266,9 +4092,6 @@ integrate_united_central_america_category = {
 	}
 	NIC_united_central_america = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			NIC = { is_subject_of = ROOT }
@@ -4311,9 +4134,6 @@ integrate_united_central_america_category = {
 	}
 	COS_united_central_america = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			COS = { is_subject_of = ROOT }
@@ -4359,12 +4179,6 @@ integrate_united_central_america_category = {
 integrate_baltic_federation_category = {
 	EST_integrate_baltic_federation = {
 		icon = generic_form_nation
-		allowed = {
-			OR = {
-				has_dlc = "Waking the Tiger"
-				has_dlc = "No Step Back"
-			}
-		}
 		visible = {
 			is_historical_focus_on = no
 			EST = { is_subject_of = ROOT }
@@ -4426,12 +4240,6 @@ integrate_baltic_federation_category = {
 	}
 	LAT_integrate_baltic_federation = {
 		icon = generic_form_nation
-		allowed = {
-			OR = {
-				has_dlc = "Waking the Tiger"
-				has_dlc = "No Step Back"
-			}
-		}
 		visible = {
 			is_historical_focus_on = no
 			LAT = { is_subject_of = ROOT }
@@ -4493,12 +4301,6 @@ integrate_baltic_federation_category = {
 	}
 	LIT_integrate_baltic_federation = {
 		icon = generic_form_nation
-		allowed = {
-			OR = {
-				has_dlc = "Waking the Tiger"
-				has_dlc = "No Step Back"
-			}
-		}
 		visible = {
 			is_historical_focus_on = no
 			LIT = { is_subject_of = ROOT }
@@ -4563,9 +4365,6 @@ integrate_baltic_federation_category = {
 integrate_mutapa_category = {
 	SAF_integrate_mutapa = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			SAF = { is_subject_of = ROOT }
@@ -4579,7 +4378,6 @@ integrate_mutapa_category = {
 			542 = { is_controlled_by_ROOT_or_subject = yes }
 			545 = { is_controlled_by_ROOT_or_subject = yes }
 			544 = { is_controlled_by_ROOT_or_subject = yes }
-			896 = { is_controlled_by_ROOT_or_subject = yes }
 			938 = { is_controlled_by_ROOT_or_subject = yes }
 			939 = { is_controlled_by_ROOT_or_subject = yes }
 			940 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4593,7 +4391,6 @@ integrate_mutapa_category = {
 				transfer_state = 542
 				transfer_state = 545
 				transfer_state = 544
-				transfer_state = 896
 				transfer_state = 938
 				transfer_state = 939
 				transfer_state = 940
@@ -4616,9 +4413,6 @@ integrate_mutapa_category = {
 	}
 	BOT_integrate_mutapa = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			BOT = { is_subject_of = ROOT }
@@ -4632,7 +4426,6 @@ integrate_mutapa_category = {
 			542 = { is_controlled_by_ROOT_or_subject = yes }
 			545 = { is_controlled_by_ROOT_or_subject = yes }
 			544 = { is_controlled_by_ROOT_or_subject = yes }
-			896 = { is_controlled_by_ROOT_or_subject = yes }
 			938 = { is_controlled_by_ROOT_or_subject = yes }
 			939 = { is_controlled_by_ROOT_or_subject = yes }
 			940 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4646,7 +4439,6 @@ integrate_mutapa_category = {
 				transfer_state = 542
 				transfer_state = 545
 				transfer_state = 544
-				transfer_state = 896
 				transfer_state = 938
 				transfer_state = 939
 				transfer_state = 940
@@ -4669,9 +4461,6 @@ integrate_mutapa_category = {
 	}
 	ZIM_integrate_mutapa = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			ZIM = { is_subject_of = ROOT }
@@ -4685,7 +4474,6 @@ integrate_mutapa_category = {
 			542 = { is_controlled_by_ROOT_or_subject = yes }
 			545 = { is_controlled_by_ROOT_or_subject = yes }
 			544 = { is_controlled_by_ROOT_or_subject = yes }
-			896 = { is_controlled_by_ROOT_or_subject = yes }
 			938 = { is_controlled_by_ROOT_or_subject = yes }
 			939 = { is_controlled_by_ROOT_or_subject = yes }
 			940 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4699,7 +4487,6 @@ integrate_mutapa_category = {
 				transfer_state = 542
 				transfer_state = 545
 				transfer_state = 544
-				transfer_state = 896
 				transfer_state = 938
 				transfer_state = 939
 				transfer_state = 940
@@ -4722,9 +4509,6 @@ integrate_mutapa_category = {
 	}
 	MZB_integrate_mutapa = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			MZB = { is_subject_of = ROOT }
@@ -4738,7 +4522,6 @@ integrate_mutapa_category = {
 			542 = { is_controlled_by_ROOT_or_subject = yes }
 			545 = { is_controlled_by_ROOT_or_subject = yes }
 			544 = { is_controlled_by_ROOT_or_subject = yes }
-			896 = { is_controlled_by_ROOT_or_subject = yes }
 			938 = { is_controlled_by_ROOT_or_subject = yes }
 			939 = { is_controlled_by_ROOT_or_subject = yes }
 			940 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4752,7 +4535,6 @@ integrate_mutapa_category = {
 				transfer_state = 542
 				transfer_state = 545
 				transfer_state = 544
-				transfer_state = 896
 				transfer_state = 938
 				transfer_state = 939
 				transfer_state = 940
@@ -4775,9 +4557,6 @@ integrate_mutapa_category = {
 	}
 	LES_integrate_mutapa = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			LES = { is_subject_of = ROOT }
@@ -4791,7 +4570,6 @@ integrate_mutapa_category = {
 			542 = { is_controlled_by_ROOT_or_subject = yes }
 			545 = { is_controlled_by_ROOT_or_subject = yes }
 			544 = { is_controlled_by_ROOT_or_subject = yes }
-			896 = { is_controlled_by_ROOT_or_subject = yes }
 			938 = { is_controlled_by_ROOT_or_subject = yes }
 			939 = { is_controlled_by_ROOT_or_subject = yes }
 			940 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4805,7 +4583,6 @@ integrate_mutapa_category = {
 				transfer_state = 542
 				transfer_state = 545
 				transfer_state = 544
-				transfer_state = 896
 				transfer_state = 938
 				transfer_state = 939
 				transfer_state = 940
@@ -4828,9 +4605,6 @@ integrate_mutapa_category = {
 	}
 	SWA_integrate_mutapa = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			SWA = { is_subject_of = ROOT }
@@ -4844,7 +4618,6 @@ integrate_mutapa_category = {
 			542 = { is_controlled_by_ROOT_or_subject = yes }
 			545 = { is_controlled_by_ROOT_or_subject = yes }
 			544 = { is_controlled_by_ROOT_or_subject = yes }
-			896 = { is_controlled_by_ROOT_or_subject = yes }
 			938 = { is_controlled_by_ROOT_or_subject = yes }
 			939 = { is_controlled_by_ROOT_or_subject = yes }
 			940 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4858,7 +4631,6 @@ integrate_mutapa_category = {
 				transfer_state = 542
 				transfer_state = 545
 				transfer_state = 544
-				transfer_state = 896
 				transfer_state = 938
 				transfer_state = 939
 				transfer_state = 940
@@ -4884,9 +4656,6 @@ integrate_mutapa_category = {
 integrate_arabia_category = {
 	IRQ_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			IRQ = { is_subject_of = ROOT }
@@ -4894,6 +4663,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4944,6 +4715,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -4968,11 +4742,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			IRQ = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -5021,6 +4798,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -5045,14 +4824,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -5129,9 +4913,6 @@ integrate_arabia_category = {
 	}
 	SAU_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			SAU = { is_subject_of = ROOT }
@@ -5139,6 +4920,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -5189,6 +4972,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -5213,11 +4999,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			SAU = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -5266,6 +5055,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -5290,14 +5081,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -5374,9 +5170,6 @@ integrate_arabia_category = {
 	}
 	YEM_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			YEM = { is_subject_of = ROOT }
@@ -5384,6 +5177,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -5434,6 +5229,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -5458,11 +5256,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			YEM = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -5511,6 +5312,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -5535,14 +5338,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -5619,9 +5427,6 @@ integrate_arabia_category = {
 	}
 	OMA_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			OMA = { is_subject_of = ROOT }
@@ -5629,6 +5434,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -5679,6 +5486,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -5703,11 +5513,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			OMA = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -5756,6 +5569,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -5780,14 +5595,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -5864,9 +5684,6 @@ integrate_arabia_category = {
 	}
 	EGY_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			EGY = { is_subject_of = ROOT }
@@ -5874,6 +5691,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -5924,6 +5743,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -5948,11 +5770,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			EGY = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -6001,6 +5826,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -6025,14 +5852,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -6109,9 +5941,6 @@ integrate_arabia_category = {
 	}
 	SUD_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			SUD = { is_subject_of = ROOT }
@@ -6119,6 +5948,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -6169,6 +6000,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -6193,11 +6027,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			SUD = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -6246,6 +6083,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -6270,14 +6109,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -6354,9 +6198,6 @@ integrate_arabia_category = {
 	}
 	LBA_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			LBA = { is_subject_of = ROOT }
@@ -6364,6 +6205,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -6414,6 +6257,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -6438,11 +6284,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			LBA = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -6491,6 +6340,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -6515,14 +6366,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -6599,9 +6455,6 @@ integrate_arabia_category = {
 	}
 	JOR_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			JOR = { is_subject_of = ROOT }
@@ -6609,6 +6462,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -6659,6 +6514,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -6683,11 +6541,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			JOR = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -6736,6 +6597,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -6760,14 +6623,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -6844,9 +6712,6 @@ integrate_arabia_category = {
 	}
 	PAL_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			PAL = { is_subject_of = ROOT }
@@ -6854,6 +6719,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -6904,6 +6771,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -6928,11 +6798,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			PAL = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -6981,6 +6854,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -7005,14 +6880,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -7089,9 +6969,6 @@ integrate_arabia_category = {
 	}
 	LEB_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			LEB = { is_subject_of = ROOT }
@@ -7099,6 +6976,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -7149,6 +7028,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -7173,11 +7055,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			LEB = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -7226,6 +7111,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -7250,14 +7137,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -7334,9 +7226,6 @@ integrate_arabia_category = {
 	}
 	SYR_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			SYR = { is_subject_of = ROOT }
@@ -7344,6 +7233,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -7394,6 +7285,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -7418,11 +7312,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			SYR = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -7471,6 +7368,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -7495,14 +7394,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -7579,9 +7483,6 @@ integrate_arabia_category = {
 	}
 	KUW_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			KUW = { is_subject_of = ROOT }
@@ -7589,6 +7490,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -7639,6 +7542,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -7663,11 +7569,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			KUW = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -7716,6 +7625,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -7740,14 +7651,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -7824,9 +7740,6 @@ integrate_arabia_category = {
 	}
 	UAE_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			UAE = { is_subject_of = ROOT }
@@ -7834,6 +7747,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -7884,6 +7799,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -7908,11 +7826,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			UAE = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -7961,6 +7882,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -7985,14 +7908,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -8069,9 +7997,6 @@ integrate_arabia_category = {
 	}
 	QAT_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			QAT = { is_subject_of = ROOT }
@@ -8079,6 +8004,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -8129,6 +8056,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -8153,11 +8083,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			QAT = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -8206,6 +8139,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -8230,14 +8165,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -8314,9 +8254,6 @@ integrate_arabia_category = {
 	}
 	TUN_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			TUN = { is_subject_of = ROOT }
@@ -8324,6 +8261,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -8374,6 +8313,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -8398,11 +8340,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			TUN = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -8451,6 +8396,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -8475,14 +8422,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -8559,9 +8511,6 @@ integrate_arabia_category = {
 	}
 	ALG_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			ALG = { is_subject_of = ROOT }
@@ -8569,6 +8518,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -8619,6 +8570,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -8643,11 +8597,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			ALG = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -8696,6 +8653,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -8720,14 +8679,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -8804,9 +8768,6 @@ integrate_arabia_category = {
 	}
 	MOR_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			MOR = { is_subject_of = ROOT }
@@ -8814,6 +8775,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -8864,6 +8827,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -8888,11 +8854,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			MOR = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -8941,6 +8910,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -8965,14 +8936,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -9049,9 +9025,6 @@ integrate_arabia_category = {
 	}
 	ADU_integrate_arabia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			ADU = { is_subject_of = ROOT }
@@ -9062,6 +9035,8 @@ integrate_arabia_category = {
 		}
 		available = {
 			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_IRQ_required_states_tt
 				676 = { is_controlled_by_ROOT_or_subject = yes }
@@ -9112,6 +9087,9 @@ integrate_arabia_category = {
 				680 = { is_controlled_by_ROOT_or_subject = yes }
 				553 = { is_controlled_by_ROOT_or_subject = yes }
 				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_arabia_britain_required_states_tt
@@ -9136,11 +9114,14 @@ integrate_arabia_category = {
 				656 = { is_controlled_by_ROOT_or_subject = yes }
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
 			ADU = {
 				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
 				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
 				hidden_effect = {
 					transfer_state = 676
@@ -9189,6 +9170,8 @@ integrate_arabia_category = {
 					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
 				}
 				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
 				hidden_effect = {
@@ -9213,14 +9196,19 @@ integrate_arabia_category = {
 					transfer_state = 656
 					transfer_state = 658
 					transfer_state = 659
+					transfer_state = 979
 				}
 				if = {
 					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 273
 				}
 				if = {
-					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 979
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
 				}
 				if = {
 					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -9297,102 +9285,77 @@ integrate_arabia_category = {
 	}
 }
 
-integrate_majapahit_empire_category = {
-	INS_integrate_majapahit_empire = {
+integrate_malayan_confederation_category = {
+	INS_integrate_malayan_confederation = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			INS = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_majapahit_empire_flag }
+			NOT = { has_global_flag = form_malayan_confederation_flag }
 		}
 		available = {
-			all_state = {
-				OR = {
-					NOT = { 
-						region = 187
-						state = 909	#Riau Islands
-						region = 158
-						AND = {	#Shall include Indonesian Calimantan
-							region = 159
-							NOT = {
-								state = 333	#Sarawak
-								state = 916	#Sabah
-							}
-						}
-						AND = {
-							region = 93
-							NOT = {
-								state = 721	#no East Timor
-							}
-						}
-						region = 91
-						state = 669
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { 
-						AND = {
-							region = 188
-							NOT = {
-								state = 724
-								state = 977
-							}
-						}
-						state = 333	#Sarawak
-						state = 916	#Sabah
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			974 = { is_controlled_by_ROOT_or_subject = yes }
+			672 = { is_controlled_by_ROOT_or_subject = yes }
+			335 = { is_controlled_by_ROOT_or_subject = yes }
+			976 = { is_controlled_by_ROOT_or_subject = yes }
+			446 = { is_controlled_by_ROOT_or_subject = yes }
+			667 = { is_controlled_by_ROOT_or_subject = yes }
+			978 = { is_controlled_by_ROOT_or_subject = yes }
+			334 = { is_controlled_by_ROOT_or_subject = yes }
+			977 = { is_controlled_by_ROOT_or_subject = yes }
+			673 = { is_controlled_by_ROOT_or_subject = yes }
+			975 = { is_controlled_by_ROOT_or_subject = yes }
+			668 = { is_controlled_by_ROOT_or_subject = yes }
+			669 = { is_controlled_by_ROOT_or_subject = yes }
+			738 = { is_controlled_by_ROOT_or_subject = yes }
+			909 = { is_controlled_by_ROOT_or_subject = yes }
+			333 = { is_controlled_by_ROOT_or_subject = yes }	#Sarawak
+			916 = { is_controlled_by_ROOT_or_subject = yes }	#Sabah
+			336 = { is_controlled_by_ROOT_or_subject = yes }
+			951 = { is_controlled_by_ROOT_or_subject = yes }
+			915 = { is_controlled_by_ROOT_or_subject = yes }
+			960 = { is_controlled_by_ROOT_or_subject = yes }
+			914 = { is_controlled_by_ROOT_or_subject = yes }
+			1014 = { is_controlled_by_ROOT_or_subject = yes }	#Brunei
+			627 = { is_controlled_by_ROOT_or_subject = yes }
+			628 = { is_controlled_by_ROOT_or_subject = yes }
+			626 = { is_controlled_by_ROOT_or_subject = yes }
+			625 = { is_controlled_by_ROOT_or_subject = yes }
+			624 = { is_controlled_by_ROOT_or_subject = yes }
+			623 = { is_controlled_by_ROOT_or_subject = yes }
+			327 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
-			every_state = {
-				limit = {
-					OR= {
-						region = 187
-						state = 909	#Riau Islands
-						region = 158
-						AND = {	#Shall include Indonesian Calimantan
-							region = 159
-							NOT = {
-								state = 333	#Sarawak
-								state = 916	#Sabah
-							}
-						}
-						AND = {
-							region = 93
-							NOT = {
-								state = 721	#no East Timor
-							}
-						}
-						region = 91
-						state = 669
-					}
-				}
-				transfer_state_to = INS
-			}
-			every_state = {
-				limit = {
-					OR= {
-						AND = {
-							region = 188
-							NOT = {
-								state = 724
-								state = 977
-							}
-						}
-						state = 333	#Sarawak
-						state = 916	#Sabah
-					}
-				}
-				transfer_state_to = INS
-			}
+			transfer_state = 974
+			transfer_state = 672
+			transfer_state = 335
+			transfer_state = 976
+			transfer_state = 446
+			transfer_state = 667
+			transfer_state = 978
+			transfer_state = 334
+			transfer_state = 977
+			transfer_state = 673
+			transfer_state = 975
+			transfer_state = 668
+			transfer_state = 669
+			transfer_state = 738
+			transfer_state = 909
+			transfer_state = 333	#Sarawak
+			transfer_state = 916	#Sabah
+			transfer_state = 336
+			transfer_state = 951
+			transfer_state = 915
+			transfer_state = 960
+			transfer_state = 914
+			transfer_state = 1014	#Brunei
+			transfer_state = 627
+			transfer_state = 628
+			transfer_state = 626
+			transfer_state = 625
+			transfer_state = 624
+			transfer_state = 623
+			transfer_state = 327
 			INS = {
 				if = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -9403,10 +9366,6 @@ integrate_majapahit_empire_category = {
 					transfer_state = 523
 				}
 				if = {
-					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 669
-				}
-				if = {
 					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 737
 				}
@@ -9419,107 +9378,84 @@ integrate_majapahit_empire_category = {
 				OR = {
 					original_tag = INS
 					original_tag = MAL
+					original_tag = PHI
 					original_tag = SGP
 					original_tag = SWK
+					original_tag = BRN
 				}
 			}
 		}
 	}
-	MAL_integrate_majapahit_empire = {
+	MAL_integrate_malayan_confederation = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			MAL = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_majapahit_empire_flag }
+			NOT = { has_global_flag = form_malayan_confederation_flag }
 		}
 		available = {
-			all_state = {
-				OR = {
-					NOT = { 
-						region = 187
-						state = 909	#Riau Islands
-						region = 158
-						AND = {	#Shall include Indonesian Calimantan
-							region = 159
-							NOT = {
-								state = 333	#Sarawak
-								state = 916	#Sabah
-							}
-						}
-						AND = {
-							region = 93
-							NOT = {
-								state = 721	#no East Timor
-							}
-						}
-						region = 91
-						state = 669
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { 
-						AND = {
-							region = 188
-							NOT = {
-								state = 724
-								state = 977
-							}
-						}
-						state = 333	#Sarawak
-						state = 916	#Sabah
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			974 = { is_controlled_by_ROOT_or_subject = yes }
+			672 = { is_controlled_by_ROOT_or_subject = yes }
+			335 = { is_controlled_by_ROOT_or_subject = yes }
+			976 = { is_controlled_by_ROOT_or_subject = yes }
+			446 = { is_controlled_by_ROOT_or_subject = yes }
+			667 = { is_controlled_by_ROOT_or_subject = yes }
+			978 = { is_controlled_by_ROOT_or_subject = yes }
+			334 = { is_controlled_by_ROOT_or_subject = yes }
+			977 = { is_controlled_by_ROOT_or_subject = yes }
+			673 = { is_controlled_by_ROOT_or_subject = yes }
+			975 = { is_controlled_by_ROOT_or_subject = yes }
+			668 = { is_controlled_by_ROOT_or_subject = yes }
+			669 = { is_controlled_by_ROOT_or_subject = yes }
+			738 = { is_controlled_by_ROOT_or_subject = yes }
+			909 = { is_controlled_by_ROOT_or_subject = yes }
+			333 = { is_controlled_by_ROOT_or_subject = yes }	#Sarawak
+			916 = { is_controlled_by_ROOT_or_subject = yes }	#Sabah
+			336 = { is_controlled_by_ROOT_or_subject = yes }
+			951 = { is_controlled_by_ROOT_or_subject = yes }
+			915 = { is_controlled_by_ROOT_or_subject = yes }
+			960 = { is_controlled_by_ROOT_or_subject = yes }
+			914 = { is_controlled_by_ROOT_or_subject = yes }
+			1014 = { is_controlled_by_ROOT_or_subject = yes }	#Brunei
+			627 = { is_controlled_by_ROOT_or_subject = yes }
+			628 = { is_controlled_by_ROOT_or_subject = yes }
+			626 = { is_controlled_by_ROOT_or_subject = yes }
+			625 = { is_controlled_by_ROOT_or_subject = yes }
+			624 = { is_controlled_by_ROOT_or_subject = yes }
+			623 = { is_controlled_by_ROOT_or_subject = yes }
+			327 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
-			every_state = {
-				limit = {
-					OR= {
-						region = 187
-						state = 909	#Riau Islands
-						region = 158
-						AND = {	#Shall include Indonesian Calimantan
-							region = 159
-							NOT = {
-								state = 333	#Sarawak
-								state = 916	#Sabah
-							}
-						}
-						AND = {
-							region = 93
-							NOT = {
-								state = 721	#no East Timor
-							}
-						}
-						region = 91
-						state = 669
-					}
-				}
-				transfer_state_to = MAL
-			}
-			every_state = {
-				limit = {
-					OR= {
-						AND = {
-							region = 188
-							NOT = {
-								state = 724
-								state = 977
-							}
-						}
-						state = 333	#Sarawak
-						state = 916	#Sabah
-					}
-				}
-				transfer_state_to = MAL
-			}
+			transfer_state = 974
+			transfer_state = 672
+			transfer_state = 335
+			transfer_state = 976
+			transfer_state = 446
+			transfer_state = 667
+			transfer_state = 978
+			transfer_state = 334
+			transfer_state = 977
+			transfer_state = 673
+			transfer_state = 975
+			transfer_state = 668
+			transfer_state = 669
+			transfer_state = 738
+			transfer_state = 909
+			transfer_state = 333	#Sarawak
+			transfer_state = 916	#Sabah
+			transfer_state = 336
+			transfer_state = 951
+			transfer_state = 915
+			transfer_state = 960
+			transfer_state = 914
+			transfer_state = 1014	#Brunei
+			transfer_state = 627
+			transfer_state = 628
+			transfer_state = 626
+			transfer_state = 625
+			transfer_state = 624
+			transfer_state = 623
+			transfer_state = 327
 			MAL = {
 				if = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -9530,8 +9466,104 @@ integrate_majapahit_empire_category = {
 					transfer_state = 523
 				}
 				if = {
-					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 669
+					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 737
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = INS
+					original_tag = MAL
+					original_tag = PHI
+					original_tag = SGP
+					original_tag = SWK
+					original_tag = BRN
+				}
+			}
+		}
+	}
+	PHI_integrate_malayan_confederation = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			PHI = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_malayan_confederation_flag }
+		}
+		available = {
+			974 = { is_controlled_by_ROOT_or_subject = yes }
+			672 = { is_controlled_by_ROOT_or_subject = yes }
+			335 = { is_controlled_by_ROOT_or_subject = yes }
+			976 = { is_controlled_by_ROOT_or_subject = yes }
+			446 = { is_controlled_by_ROOT_or_subject = yes }
+			667 = { is_controlled_by_ROOT_or_subject = yes }
+			978 = { is_controlled_by_ROOT_or_subject = yes }
+			334 = { is_controlled_by_ROOT_or_subject = yes }
+			977 = { is_controlled_by_ROOT_or_subject = yes }
+			673 = { is_controlled_by_ROOT_or_subject = yes }
+			975 = { is_controlled_by_ROOT_or_subject = yes }
+			668 = { is_controlled_by_ROOT_or_subject = yes }
+			669 = { is_controlled_by_ROOT_or_subject = yes }
+			738 = { is_controlled_by_ROOT_or_subject = yes }
+			909 = { is_controlled_by_ROOT_or_subject = yes }
+			333 = { is_controlled_by_ROOT_or_subject = yes }	#Sarawak
+			916 = { is_controlled_by_ROOT_or_subject = yes }	#Sabah
+			336 = { is_controlled_by_ROOT_or_subject = yes }
+			951 = { is_controlled_by_ROOT_or_subject = yes }
+			915 = { is_controlled_by_ROOT_or_subject = yes }
+			960 = { is_controlled_by_ROOT_or_subject = yes }
+			914 = { is_controlled_by_ROOT_or_subject = yes }
+			1014 = { is_controlled_by_ROOT_or_subject = yes }	#Brunei
+			627 = { is_controlled_by_ROOT_or_subject = yes }
+			628 = { is_controlled_by_ROOT_or_subject = yes }
+			626 = { is_controlled_by_ROOT_or_subject = yes }
+			625 = { is_controlled_by_ROOT_or_subject = yes }
+			624 = { is_controlled_by_ROOT_or_subject = yes }
+			623 = { is_controlled_by_ROOT_or_subject = yes }
+			327 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			transfer_state = 974
+			transfer_state = 672
+			transfer_state = 335
+			transfer_state = 976
+			transfer_state = 446
+			transfer_state = 667
+			transfer_state = 978
+			transfer_state = 334
+			transfer_state = 977
+			transfer_state = 673
+			transfer_state = 975
+			transfer_state = 668
+			transfer_state = 669
+			transfer_state = 738
+			transfer_state = 909
+			transfer_state = 333	#Sarawak
+			transfer_state = 916	#Sabah
+			transfer_state = 336
+			transfer_state = 951
+			transfer_state = 915
+			transfer_state = 960
+			transfer_state = 914
+			transfer_state = 1014	#Brunei
+			transfer_state = 627
+			transfer_state = 628
+			transfer_state = 626
+			transfer_state = 625
+			transfer_state = 624
+			transfer_state = 623
+			transfer_state = 327
+			PHI = {
+				if = {
+					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 721
+				}
+				if = {
+					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 523
 				}
 				if = {
 					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -9546,107 +9578,84 @@ integrate_majapahit_empire_category = {
 				OR = {
 					original_tag = INS
 					original_tag = MAL
+					original_tag = PHI
 					original_tag = SGP
 					original_tag = SWK
+					original_tag = BRN
 				}
 			}
 		}
 	}
-	SGP_integrate_majapahit_empire = {
+	SGP_integrate_malayan_confederation = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			SGP = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_majapahit_empire_flag }
+			NOT = { has_global_flag = form_malayan_confederation_flag }
 		}
 		available = {
-			all_state = {
-				OR = {
-					NOT = { 
-						region = 187
-						state = 909	#Riau Islands
-						region = 158
-						AND = {	#Shall include Indonesian Calimantan
-							region = 159
-							NOT = {
-								state = 333	#Sarawak
-								state = 916	#Sabah
-							}
-						}
-						AND = {
-							region = 93
-							NOT = {
-								state = 721	#no East Timor
-							}
-						}
-						region = 91
-						state = 669
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { 
-						AND = {
-							region = 188
-							NOT = {
-								state = 724
-								state = 977
-							}
-						}
-						state = 333	#Sarawak
-						state = 916	#Sabah
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			974 = { is_controlled_by_ROOT_or_subject = yes }
+			672 = { is_controlled_by_ROOT_or_subject = yes }
+			335 = { is_controlled_by_ROOT_or_subject = yes }
+			976 = { is_controlled_by_ROOT_or_subject = yes }
+			446 = { is_controlled_by_ROOT_or_subject = yes }
+			667 = { is_controlled_by_ROOT_or_subject = yes }
+			978 = { is_controlled_by_ROOT_or_subject = yes }
+			334 = { is_controlled_by_ROOT_or_subject = yes }
+			977 = { is_controlled_by_ROOT_or_subject = yes }
+			673 = { is_controlled_by_ROOT_or_subject = yes }
+			975 = { is_controlled_by_ROOT_or_subject = yes }
+			668 = { is_controlled_by_ROOT_or_subject = yes }
+			669 = { is_controlled_by_ROOT_or_subject = yes }
+			738 = { is_controlled_by_ROOT_or_subject = yes }
+			909 = { is_controlled_by_ROOT_or_subject = yes }
+			333 = { is_controlled_by_ROOT_or_subject = yes }	#Sarawak
+			916 = { is_controlled_by_ROOT_or_subject = yes }	#Sabah
+			336 = { is_controlled_by_ROOT_or_subject = yes }
+			951 = { is_controlled_by_ROOT_or_subject = yes }
+			915 = { is_controlled_by_ROOT_or_subject = yes }
+			960 = { is_controlled_by_ROOT_or_subject = yes }
+			914 = { is_controlled_by_ROOT_or_subject = yes }
+			1014 = { is_controlled_by_ROOT_or_subject = yes }	#Brunei
+			627 = { is_controlled_by_ROOT_or_subject = yes }
+			628 = { is_controlled_by_ROOT_or_subject = yes }
+			626 = { is_controlled_by_ROOT_or_subject = yes }
+			625 = { is_controlled_by_ROOT_or_subject = yes }
+			624 = { is_controlled_by_ROOT_or_subject = yes }
+			623 = { is_controlled_by_ROOT_or_subject = yes }
+			327 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
-			every_state = {
-				limit = {
-					OR= {
-						region = 187
-						state = 909	#Riau Islands
-						region = 158
-						AND = {	#Shall include Indonesian Calimantan
-							region = 159
-							NOT = {
-								state = 333	#Sarawak
-								state = 916	#Sabah
-							}
-						}
-						AND = {
-							region = 93
-							NOT = {
-								state = 721	#no East Timor
-							}
-						}
-						region = 91
-						state = 669
-					}
-				}
-				transfer_state_to = SGP
-			}
-			every_state = {
-				limit = {
-					OR= {
-						AND = {
-							region = 188
-							NOT = {
-								state = 724
-								state = 977
-							}
-						}
-						state = 333	#Sarawak
-						state = 916	#Sabah
-					}
-				}
-				transfer_state_to = SGP
-			}
+			transfer_state = 974
+			transfer_state = 672
+			transfer_state = 335
+			transfer_state = 976
+			transfer_state = 446
+			transfer_state = 667
+			transfer_state = 978
+			transfer_state = 334
+			transfer_state = 977
+			transfer_state = 673
+			transfer_state = 975
+			transfer_state = 668
+			transfer_state = 669
+			transfer_state = 738
+			transfer_state = 909
+			transfer_state = 333	#Sarawak
+			transfer_state = 916	#Sabah
+			transfer_state = 336
+			transfer_state = 951
+			transfer_state = 915
+			transfer_state = 960
+			transfer_state = 914
+			transfer_state = 1014	#Brunei
+			transfer_state = 627
+			transfer_state = 628
+			transfer_state = 626
+			transfer_state = 625
+			transfer_state = 624
+			transfer_state = 623
+			transfer_state = 327
 			SGP = {
 				if = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -9657,123 +9666,96 @@ integrate_majapahit_empire_category = {
 					transfer_state = 523
 				}
 				if = {
-					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 669
-				}
-				if = {
 					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 737
 				}
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 200
 			modifier = {
 				factor = 0
 				OR = {
 					original_tag = INS
 					original_tag = MAL
+					original_tag = PHI
 					original_tag = SGP
 					original_tag = SWK
+					original_tag = BRN
 				}
 			}
 		}
 	}
-	SWK_integrate_majapahit_empire = {
+	SWK_integrate_malayan_confederation = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			SWK = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_majapahit_empire_flag }
+			NOT = { has_global_flag = form_malayan_confederation_flag }
 		}
 		available = {
-			all_state = {
-				OR = {
-					NOT = { 
-						region = 187
-						state = 909	#Riau Islands
-						region = 158
-						AND = {	#Shall include Indonesian Calimantan
-							region = 159
-							NOT = {
-								state = 333	#Sarawak
-								state = 916	#Sabah
-							}
-						}
-						AND = {
-							region = 93
-							NOT = {
-								state = 721	#no East Timor
-							}
-						}
-						region = 91
-						state = 669
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { 
-						AND = {
-							region = 188
-							NOT = {
-								state = 724
-								state = 977
-							}
-						}
-						state = 333	#Sarawak
-						state = 916	#Sabah
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			974 = { is_controlled_by_ROOT_or_subject = yes }
+			672 = { is_controlled_by_ROOT_or_subject = yes }
+			335 = { is_controlled_by_ROOT_or_subject = yes }
+			976 = { is_controlled_by_ROOT_or_subject = yes }
+			446 = { is_controlled_by_ROOT_or_subject = yes }
+			667 = { is_controlled_by_ROOT_or_subject = yes }
+			978 = { is_controlled_by_ROOT_or_subject = yes }
+			334 = { is_controlled_by_ROOT_or_subject = yes }
+			977 = { is_controlled_by_ROOT_or_subject = yes }
+			673 = { is_controlled_by_ROOT_or_subject = yes }
+			975 = { is_controlled_by_ROOT_or_subject = yes }
+			668 = { is_controlled_by_ROOT_or_subject = yes }
+			669 = { is_controlled_by_ROOT_or_subject = yes }
+			738 = { is_controlled_by_ROOT_or_subject = yes }
+			909 = { is_controlled_by_ROOT_or_subject = yes }
+			333 = { is_controlled_by_ROOT_or_subject = yes }	#Sarawak
+			916 = { is_controlled_by_ROOT_or_subject = yes }	#Sabah
+			336 = { is_controlled_by_ROOT_or_subject = yes }
+			951 = { is_controlled_by_ROOT_or_subject = yes }
+			915 = { is_controlled_by_ROOT_or_subject = yes }
+			960 = { is_controlled_by_ROOT_or_subject = yes }
+			914 = { is_controlled_by_ROOT_or_subject = yes }
+			1014 = { is_controlled_by_ROOT_or_subject = yes }	#Brunei
+			627 = { is_controlled_by_ROOT_or_subject = yes }
+			628 = { is_controlled_by_ROOT_or_subject = yes }
+			626 = { is_controlled_by_ROOT_or_subject = yes }
+			625 = { is_controlled_by_ROOT_or_subject = yes }
+			624 = { is_controlled_by_ROOT_or_subject = yes }
+			623 = { is_controlled_by_ROOT_or_subject = yes }
+			327 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
-			every_state = {
-				limit = {
-					OR= {
-						region = 187
-						state = 909	#Riau Islands
-						region = 158
-						AND = {	#Shall include Indonesian Calimantan
-							region = 159
-							NOT = {
-								state = 333	#Sarawak
-								state = 916	#Sabah
-							}
-						}
-						AND = {
-							region = 93
-							NOT = {
-								state = 721	#no East Timor
-							}
-						}
-						region = 91
-						state = 669
-					}
-				}
-				transfer_state_to = SWK
-			}
-			every_state = {
-				limit = {
-					OR= {
-						AND = {
-							region = 188
-							NOT = {
-								state = 724
-								state = 977
-							}
-						}
-						state = 333	#Sarawak
-						state = 916	#Sabah
-					}
-				}
-				transfer_state_to = SWK
-			}
+			transfer_state = 974
+			transfer_state = 672
+			transfer_state = 335
+			transfer_state = 976
+			transfer_state = 446
+			transfer_state = 667
+			transfer_state = 978
+			transfer_state = 334
+			transfer_state = 977
+			transfer_state = 673
+			transfer_state = 975
+			transfer_state = 668
+			transfer_state = 669
+			transfer_state = 738
+			transfer_state = 909
+			transfer_state = 333	#Sarawak
+			transfer_state = 916	#Sabah
+			transfer_state = 336
+			transfer_state = 951
+			transfer_state = 915
+			transfer_state = 960
+			transfer_state = 914
+			transfer_state = 1014	#Brunei
+			transfer_state = 627
+			transfer_state = 628
+			transfer_state = 626
+			transfer_state = 625
+			transfer_state = 624
+			transfer_state = 623
+			transfer_state = 327
 			SWK = {
 				if = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -9784,8 +9766,104 @@ integrate_majapahit_empire_category = {
 					transfer_state = 523
 				}
 				if = {
-					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 669
+					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 737
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = INS
+					original_tag = MAL
+					original_tag = PHI
+					original_tag = SGP
+					original_tag = SWK
+					original_tag = BRN
+				}
+			}
+		}
+	}
+	BRN_integrate_malayan_confederation = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			BRN = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_malayan_confederation_flag }
+		}
+		available = {
+			974 = { is_controlled_by_ROOT_or_subject = yes }
+			672 = { is_controlled_by_ROOT_or_subject = yes }
+			335 = { is_controlled_by_ROOT_or_subject = yes }
+			976 = { is_controlled_by_ROOT_or_subject = yes }
+			446 = { is_controlled_by_ROOT_or_subject = yes }
+			667 = { is_controlled_by_ROOT_or_subject = yes }
+			978 = { is_controlled_by_ROOT_or_subject = yes }
+			334 = { is_controlled_by_ROOT_or_subject = yes }
+			977 = { is_controlled_by_ROOT_or_subject = yes }
+			673 = { is_controlled_by_ROOT_or_subject = yes }
+			975 = { is_controlled_by_ROOT_or_subject = yes }
+			668 = { is_controlled_by_ROOT_or_subject = yes }
+			669 = { is_controlled_by_ROOT_or_subject = yes }
+			738 = { is_controlled_by_ROOT_or_subject = yes }
+			909 = { is_controlled_by_ROOT_or_subject = yes }
+			333 = { is_controlled_by_ROOT_or_subject = yes }	#Sarawak
+			916 = { is_controlled_by_ROOT_or_subject = yes }	#Sabah
+			336 = { is_controlled_by_ROOT_or_subject = yes }
+			951 = { is_controlled_by_ROOT_or_subject = yes }
+			915 = { is_controlled_by_ROOT_or_subject = yes }
+			960 = { is_controlled_by_ROOT_or_subject = yes }
+			914 = { is_controlled_by_ROOT_or_subject = yes }
+			1014 = { is_controlled_by_ROOT_or_subject = yes }	#Brunei
+			627 = { is_controlled_by_ROOT_or_subject = yes }
+			628 = { is_controlled_by_ROOT_or_subject = yes }
+			626 = { is_controlled_by_ROOT_or_subject = yes }
+			625 = { is_controlled_by_ROOT_or_subject = yes }
+			624 = { is_controlled_by_ROOT_or_subject = yes }
+			623 = { is_controlled_by_ROOT_or_subject = yes }
+			327 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			transfer_state = 974
+			transfer_state = 672
+			transfer_state = 335
+			transfer_state = 976
+			transfer_state = 446
+			transfer_state = 667
+			transfer_state = 978
+			transfer_state = 334
+			transfer_state = 977
+			transfer_state = 673
+			transfer_state = 975
+			transfer_state = 668
+			transfer_state = 669
+			transfer_state = 738
+			transfer_state = 909
+			transfer_state = 333	#Sarawak
+			transfer_state = 916	#Sabah
+			transfer_state = 336
+			transfer_state = 951
+			transfer_state = 915
+			transfer_state = 960
+			transfer_state = 914
+			transfer_state = 1014	#Brunei
+			transfer_state = 627
+			transfer_state = 628
+			transfer_state = 626
+			transfer_state = 625
+			transfer_state = 624
+			transfer_state = 623
+			transfer_state = 327
+			BRN = {
+				if = {
+					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 721
+				}
+				if = {
+					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 523
 				}
 				if = {
 					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -9794,14 +9872,16 @@ integrate_majapahit_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 200
 			modifier = {
 				factor = 0
 				OR = {
 					original_tag = INS
 					original_tag = MAL
+					original_tag = PHI
 					original_tag = SGP
 					original_tag = SWK
+					original_tag = BRN
 				}
 			}
 		}
@@ -9811,9 +9891,6 @@ integrate_majapahit_empire_category = {
 integrate_rattanakosin_kingdom_category = {
 	SIA_integrate_rattanakosin_kingdom = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			SIA = { is_subject_of = ROOT }
@@ -9904,36 +9981,60 @@ integrate_polynesia_category = {
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
+			642 = { is_controlled_by_ROOT_or_subject = yes }
+			643 = { is_controlled_by_ROOT_or_subject = yes }
 			641 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
+			727 = { is_controlled_by_ROOT_or_subject = yes }
 			723 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
+			734 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			HAW = {
 				transfer_state = 284
 				transfer_state = 629
+				transfer_state = 642
+				transfer_state = 643
+				transfer_state = 641
+				transfer_state = 727
+				transfer_state = 723
+				transfer_state = 726
+				transfer_state = 734
 				if = {
-					limit = { 630 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 630
+					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 725
 				}
 				if = {
-					limit = { 631 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 631
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
+					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 639
 				}
 				if = {
 					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 633
 				}
 				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
+					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 684
+				}
+				if = {
+					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 647
+				}
+				if = {
+					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 638
+				}
+				if = {
+					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 646
+				}
+				if = {
+					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 648
+				}
+				if = {
+					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 632
 				}
 				if = {
 					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -9943,47 +10044,21 @@ integrate_polynesia_category = {
 					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 636
 				}
-				transfer_state = 638
 				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				transfer_state = 641
-				if = {
-					limit = { 642 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 642
+					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 634
 				}
 				if = {
-					limit = { 643 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 643
+					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 737
 				}
 				if = {
-					limit = { 645 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 645
-				}
-				transfer_state = 646
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
+					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 523
 				}
 				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				transfer_state = 684
-				transfer_state = 723
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				transfer_state = 726
-				if = {
-					limit = { 727 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 727
-				}
-				if = {
-					limit = { 734 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 734
+					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 669
 				}
 			}
 		}
@@ -9996,6 +10071,7 @@ integrate_polynesia_category = {
 					original_tag = TAH
 					original_tag = GUM
 					original_tag = FSM
+					original_tag = TON
 					original_tag = SAM
 					original_tag = SOL
 					original_tag = FIJ
@@ -10014,36 +10090,60 @@ integrate_polynesia_category = {
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
+			642 = { is_controlled_by_ROOT_or_subject = yes }
+			643 = { is_controlled_by_ROOT_or_subject = yes }
 			641 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
+			727 = { is_controlled_by_ROOT_or_subject = yes }
 			723 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
+			734 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			TAH = {
 				transfer_state = 284
 				transfer_state = 629
+				transfer_state = 642
+				transfer_state = 643
+				transfer_state = 641
+				transfer_state = 727
+				transfer_state = 723
+				transfer_state = 726
+				transfer_state = 734
 				if = {
-					limit = { 630 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 630
+					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 725
 				}
 				if = {
-					limit = { 631 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 631
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
+					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 639
 				}
 				if = {
 					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 633
 				}
 				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
+					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 684
+				}
+				if = {
+					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 647
+				}
+				if = {
+					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 638
+				}
+				if = {
+					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 646
+				}
+				if = {
+					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 648
+				}
+				if = {
+					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 632
 				}
 				if = {
 					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -10053,47 +10153,21 @@ integrate_polynesia_category = {
 					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 636
 				}
-				transfer_state = 638
 				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				transfer_state = 641
-				if = {
-					limit = { 642 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 642
+					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 634
 				}
 				if = {
-					limit = { 643 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 643
+					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 737
 				}
 				if = {
-					limit = { 645 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 645
-				}
-				transfer_state = 646
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
+					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 523
 				}
 				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				transfer_state = 684
-				transfer_state = 723
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				transfer_state = 726
-				if = {
-					limit = { 727 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 727
-				}
-				if = {
-					limit = { 734 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 734
+					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 669
 				}
 			}
 		}
@@ -10106,6 +10180,7 @@ integrate_polynesia_category = {
 					original_tag = TAH
 					original_tag = GUM
 					original_tag = FSM
+					original_tag = TON
 					original_tag = SAM
 					original_tag = SOL
 					original_tag = FIJ
@@ -10124,36 +10199,60 @@ integrate_polynesia_category = {
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
+			642 = { is_controlled_by_ROOT_or_subject = yes }
+			643 = { is_controlled_by_ROOT_or_subject = yes }
 			641 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
+			727 = { is_controlled_by_ROOT_or_subject = yes }
 			723 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
+			734 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			GUM = {
 				transfer_state = 284
 				transfer_state = 629
+				transfer_state = 642
+				transfer_state = 643
+				transfer_state = 641
+				transfer_state = 727
+				transfer_state = 723
+				transfer_state = 726
+				transfer_state = 734
 				if = {
-					limit = { 630 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 630
+					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 725
 				}
 				if = {
-					limit = { 631 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 631
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
+					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 639
 				}
 				if = {
 					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 633
 				}
 				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
+					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 684
+				}
+				if = {
+					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 647
+				}
+				if = {
+					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 638
+				}
+				if = {
+					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 646
+				}
+				if = {
+					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 648
+				}
+				if = {
+					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 632
 				}
 				if = {
 					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -10163,47 +10262,21 @@ integrate_polynesia_category = {
 					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 636
 				}
-				transfer_state = 638
 				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				transfer_state = 641
-				if = {
-					limit = { 642 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 642
+					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 634
 				}
 				if = {
-					limit = { 643 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 643
+					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 737
 				}
 				if = {
-					limit = { 645 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 645
-				}
-				transfer_state = 646
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
+					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 523
 				}
 				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				transfer_state = 684
-				transfer_state = 723
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				transfer_state = 726
-				if = {
-					limit = { 727 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 727
-				}
-				if = {
-					limit = { 734 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 734
+					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 669
 				}
 			}
 		}
@@ -10216,6 +10289,7 @@ integrate_polynesia_category = {
 					original_tag = TAH
 					original_tag = GUM
 					original_tag = FSM
+					original_tag = TON
 					original_tag = SAM
 					original_tag = SOL
 					original_tag = FIJ
@@ -10234,36 +10308,60 @@ integrate_polynesia_category = {
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
+			642 = { is_controlled_by_ROOT_or_subject = yes }
+			643 = { is_controlled_by_ROOT_or_subject = yes }
 			641 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
+			727 = { is_controlled_by_ROOT_or_subject = yes }
 			723 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
+			734 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			FSM = {
 				transfer_state = 284
 				transfer_state = 629
+				transfer_state = 642
+				transfer_state = 643
+				transfer_state = 641
+				transfer_state = 727
+				transfer_state = 723
+				transfer_state = 726
+				transfer_state = 734
 				if = {
-					limit = { 630 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 630
+					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 725
 				}
 				if = {
-					limit = { 631 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 631
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
+					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 639
 				}
 				if = {
 					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 633
 				}
 				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
+					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 684
+				}
+				if = {
+					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 647
+				}
+				if = {
+					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 638
+				}
+				if = {
+					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 646
+				}
+				if = {
+					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 648
+				}
+				if = {
+					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 632
 				}
 				if = {
 					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -10273,47 +10371,21 @@ integrate_polynesia_category = {
 					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 636
 				}
-				transfer_state = 638
 				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				transfer_state = 641
-				if = {
-					limit = { 642 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 642
+					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 634
 				}
 				if = {
-					limit = { 643 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 643
+					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 737
 				}
 				if = {
-					limit = { 645 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 645
-				}
-				transfer_state = 646
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
+					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 523
 				}
 				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				transfer_state = 684
-				transfer_state = 723
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				transfer_state = 726
-				if = {
-					limit = { 727 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 727
-				}
-				if = {
-					limit = { 734 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 734
+					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 669
 				}
 			}
 		}
@@ -10326,6 +10398,116 @@ integrate_polynesia_category = {
 					original_tag = TAH
 					original_tag = GUM
 					original_tag = FSM
+					original_tag = TON
+					original_tag = SAM
+					original_tag = SOL
+					original_tag = FIJ
+					original_tag = NZL
+				}
+			}
+		}
+	}
+	TON_integrate_polynesia = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			TON = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_polynesia_flag }
+		}
+		available = {
+			284 = { is_controlled_by_ROOT_or_subject = yes }
+			629 = { is_controlled_by_ROOT_or_subject = yes }
+			642 = { is_controlled_by_ROOT_or_subject = yes }
+			643 = { is_controlled_by_ROOT_or_subject = yes }
+			641 = { is_controlled_by_ROOT_or_subject = yes }
+			727 = { is_controlled_by_ROOT_or_subject = yes }
+			723 = { is_controlled_by_ROOT_or_subject = yes }
+			726 = { is_controlled_by_ROOT_or_subject = yes }
+			734 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			TON = {
+				transfer_state = 284
+				transfer_state = 629
+				transfer_state = 642
+				transfer_state = 643
+				transfer_state = 641
+				transfer_state = 727
+				transfer_state = 723
+				transfer_state = 726
+				transfer_state = 734
+				if = {
+					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 725
+				}
+				if = {
+					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 639
+				}
+				if = {
+					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 633
+				}
+				if = {
+					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 684
+				}
+				if = {
+					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 647
+				}
+				if = {
+					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 638
+				}
+				if = {
+					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 646
+				}
+				if = {
+					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 648
+				}
+				if = {
+					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 632
+				}
+				if = {
+					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 635
+				}
+				if = {
+					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 636
+				}
+				if = {
+					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 634
+				}
+				if = {
+					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 737
+				}
+				if = {
+					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 523
+				}
+				if = {
+					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 669
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = HAW
+					original_tag = TAH
+					original_tag = GUM
+					original_tag = FSM
+					original_tag = TON
 					original_tag = SAM
 					original_tag = SOL
 					original_tag = FIJ
@@ -10344,36 +10526,60 @@ integrate_polynesia_category = {
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
+			642 = { is_controlled_by_ROOT_or_subject = yes }
+			643 = { is_controlled_by_ROOT_or_subject = yes }
 			641 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
+			727 = { is_controlled_by_ROOT_or_subject = yes }
 			723 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
+			734 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			SAM = {
 				transfer_state = 284
 				transfer_state = 629
+				transfer_state = 642
+				transfer_state = 643
+				transfer_state = 641
+				transfer_state = 727
+				transfer_state = 723
+				transfer_state = 726
+				transfer_state = 734
 				if = {
-					limit = { 630 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 630
+					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 725
 				}
 				if = {
-					limit = { 631 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 631
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
+					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 639
 				}
 				if = {
 					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 633
 				}
 				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
+					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 684
+				}
+				if = {
+					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 647
+				}
+				if = {
+					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 638
+				}
+				if = {
+					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 646
+				}
+				if = {
+					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 648
+				}
+				if = {
+					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 632
 				}
 				if = {
 					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -10383,47 +10589,21 @@ integrate_polynesia_category = {
 					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 636
 				}
-				transfer_state = 638
 				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				transfer_state = 641
-				if = {
-					limit = { 642 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 642
+					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 634
 				}
 				if = {
-					limit = { 643 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 643
+					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 737
 				}
 				if = {
-					limit = { 645 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 645
-				}
-				transfer_state = 646
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
+					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 523
 				}
 				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				transfer_state = 684
-				transfer_state = 723
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				transfer_state = 726
-				if = {
-					limit = { 727 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 727
-				}
-				if = {
-					limit = { 734 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 734
+					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 669
 				}
 			}
 		}
@@ -10436,6 +10616,7 @@ integrate_polynesia_category = {
 					original_tag = TAH
 					original_tag = GUM
 					original_tag = FSM
+					original_tag = TON
 					original_tag = SAM
 					original_tag = SOL
 					original_tag = FIJ
@@ -10454,36 +10635,60 @@ integrate_polynesia_category = {
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
+			642 = { is_controlled_by_ROOT_or_subject = yes }
+			643 = { is_controlled_by_ROOT_or_subject = yes }
 			641 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
+			727 = { is_controlled_by_ROOT_or_subject = yes }
 			723 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
+			734 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			SOL = {
 				transfer_state = 284
 				transfer_state = 629
+				transfer_state = 642
+				transfer_state = 643
+				transfer_state = 641
+				transfer_state = 727
+				transfer_state = 723
+				transfer_state = 726
+				transfer_state = 734
 				if = {
-					limit = { 630 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 630
+					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 725
 				}
 				if = {
-					limit = { 631 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 631
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
+					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 639
 				}
 				if = {
 					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 633
 				}
 				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
+					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 684
+				}
+				if = {
+					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 647
+				}
+				if = {
+					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 638
+				}
+				if = {
+					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 646
+				}
+				if = {
+					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 648
+				}
+				if = {
+					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 632
 				}
 				if = {
 					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -10493,47 +10698,21 @@ integrate_polynesia_category = {
 					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 636
 				}
-				transfer_state = 638
 				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				transfer_state = 641
-				if = {
-					limit = { 642 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 642
+					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 634
 				}
 				if = {
-					limit = { 643 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 643
+					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 737
 				}
 				if = {
-					limit = { 645 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 645
-				}
-				transfer_state = 646
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
+					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 523
 				}
 				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				transfer_state = 684
-				transfer_state = 723
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				transfer_state = 726
-				if = {
-					limit = { 727 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 727
-				}
-				if = {
-					limit = { 734 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 734
+					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 669
 				}
 			}
 		}
@@ -10546,6 +10725,7 @@ integrate_polynesia_category = {
 					original_tag = TAH
 					original_tag = GUM
 					original_tag = FSM
+					original_tag = TON
 					original_tag = SAM
 					original_tag = SOL
 					original_tag = FIJ
@@ -10564,36 +10744,60 @@ integrate_polynesia_category = {
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
+			642 = { is_controlled_by_ROOT_or_subject = yes }
+			643 = { is_controlled_by_ROOT_or_subject = yes }
 			641 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
+			727 = { is_controlled_by_ROOT_or_subject = yes }
 			723 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
+			734 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			FIJ = {
 				transfer_state = 284
 				transfer_state = 629
+				transfer_state = 642
+				transfer_state = 643
+				transfer_state = 641
+				transfer_state = 727
+				transfer_state = 723
+				transfer_state = 726
+				transfer_state = 734
 				if = {
-					limit = { 630 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 630
+					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 725
 				}
 				if = {
-					limit = { 631 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 631
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
+					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 639
 				}
 				if = {
 					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 633
 				}
 				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
+					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 684
+				}
+				if = {
+					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 647
+				}
+				if = {
+					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 638
+				}
+				if = {
+					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 646
+				}
+				if = {
+					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 648
+				}
+				if = {
+					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 632
 				}
 				if = {
 					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -10603,47 +10807,21 @@ integrate_polynesia_category = {
 					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 636
 				}
-				transfer_state = 638
 				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				transfer_state = 641
-				if = {
-					limit = { 642 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 642
+					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 634
 				}
 				if = {
-					limit = { 643 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 643
+					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 737
 				}
 				if = {
-					limit = { 645 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 645
-				}
-				transfer_state = 646
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
+					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 523
 				}
 				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				transfer_state = 684
-				transfer_state = 723
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				transfer_state = 726
-				if = {
-					limit = { 727 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 727
-				}
-				if = {
-					limit = { 734 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 734
+					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 669
 				}
 			}
 		}
@@ -10656,6 +10834,7 @@ integrate_polynesia_category = {
 					original_tag = TAH
 					original_tag = GUM
 					original_tag = FSM
+					original_tag = TON
 					original_tag = SAM
 					original_tag = SOL
 					original_tag = FIJ
@@ -10674,36 +10853,60 @@ integrate_polynesia_category = {
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
+			642 = { is_controlled_by_ROOT_or_subject = yes }
+			643 = { is_controlled_by_ROOT_or_subject = yes }
 			641 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
+			727 = { is_controlled_by_ROOT_or_subject = yes }
 			723 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
+			734 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			NZL = {
 				transfer_state = 284
 				transfer_state = 629
+				transfer_state = 642
+				transfer_state = 643
+				transfer_state = 641
+				transfer_state = 727
+				transfer_state = 723
+				transfer_state = 726
+				transfer_state = 734
 				if = {
-					limit = { 630 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 630
+					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 725
 				}
 				if = {
-					limit = { 631 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 631
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
+					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 639
 				}
 				if = {
 					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 633
 				}
 				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
+					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 684
+				}
+				if = {
+					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 647
+				}
+				if = {
+					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 638
+				}
+				if = {
+					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 646
+				}
+				if = {
+					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 648
+				}
+				if = {
+					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 632
 				}
 				if = {
 					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -10713,52 +10916,26 @@ integrate_polynesia_category = {
 					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 636
 				}
-				transfer_state = 638
 				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				transfer_state = 641
-				if = {
-					limit = { 642 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 642
+					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 634
 				}
 				if = {
-					limit = { 643 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 643
+					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 737
 				}
 				if = {
-					limit = { 645 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 645
-				}
-				transfer_state = 646
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
+					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 523
 				}
 				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				transfer_state = 684
-				transfer_state = 723
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				transfer_state = 726
-				if = {
-					limit = { 727 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 727
-				}
-				if = {
-					limit = { 734 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 734
+					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 669
 				}
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			factor = 0
 			modifier = {
 				factor = 0
 				OR = {
@@ -10766,6 +10943,7 @@ integrate_polynesia_category = {
 					original_tag = TAH
 					original_tag = GUM
 					original_tag = FSM
+					original_tag = TON
 					original_tag = SAM
 					original_tag = SOL
 					original_tag = FIJ
@@ -19226,9 +19404,6 @@ integrate_the_mamluks_category = {
 integrate_alamannia_category = {
 	SWI_integrate_alamannia = {
 		icon = generic_form_nation
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
 		visible = {
 			is_historical_focus_on = no
 			SWI = {
@@ -19338,6 +19513,38 @@ integrate_unite_tanganyika_zanzibar_category = {
 					original_tag = TZN
 					original_tag = ZAN
 				}
+			}
+		}
+	}
+}
+
+integrate_greater_texas_category = {
+	TXS_integrate_greater_texas = {
+		icon = generic_form_nation
+		visible = {
+			is_historical_focus_on = no
+			TXS = { is_subject_of = ROOT }
+			NOT = { has_global_flag = TXS_formed_greater_texas }
+		}
+		available = {
+				375 = { is_controlled_by_ROOT_or_subject = yes }
+				479 = { is_controlled_by_ROOT_or_subject = yes }
+				480 = { is_controlled_by_ROOT_or_subject = yes }
+				482 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			TXS = {
+				transfer_state = 375
+				transfer_state = 479
+				transfer_state = 480
+				transfer_state = 482
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				original_tag = TXS
 			}
 		}
 	}

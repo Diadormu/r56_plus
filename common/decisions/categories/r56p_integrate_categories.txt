@@ -28,7 +28,7 @@ integrate_mutapa_category = {
 integrate_arabia_category = {
 	icon = generic_formable_nations
 }
-integrate_majapahit_empire_category = {
+integrate_malayan_confederation_category = {
 	icon = generic_formable_nations
 }
 integrate_rattanakosin_kingdom_category = {
@@ -105,5 +105,8 @@ integrate_alamannia_category = {
 	icon = generic_formable_nations
 }
 integrate_unite_tanganyika_zanzibar_category = {
+	icon = generic_formable_nations
+}
+integrate_greater_texas_category = {
 	icon = generic_formable_nations
 }
