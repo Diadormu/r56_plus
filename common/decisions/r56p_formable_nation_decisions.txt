@@ -5183,6 +5183,7 @@ integrate_greater_german_reich_category = {
 			152 = { is_controlled_by_ROOT_or_subject = yes }
 			4 = { is_controlled_by_ROOT_or_subject = yes }
 			848 = { is_controlled_by_ROOT_or_subject = yes }
+			1054 = { is_controlled_by_ROOT_or_subject = yes }
 			69 = { is_controlled_by_ROOT_or_subject = yes }
 			74 = { is_controlled_by_ROOT_or_subject = yes }
 			8 = { is_controlled_by_ROOT_or_subject = yes } # Luxembourg
@@ -5236,6 +5237,7 @@ integrate_greater_german_reich_category = {
 				transfer_state = 152
 				transfer_state = 4
 				transfer_state = 848
+				transfer_state = 1054
 				transfer_state = 69
 				transfer_state = 74
 				transfer_state = 8
