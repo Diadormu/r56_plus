@@ -2,7 +2,7 @@ integrate_scandinavia_category = {
 	NOR_integrate_scandinavia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			NOR = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_scandinavia_flag }
 		}
@@ -121,7 +121,7 @@ integrate_scandinavia_category = {
 	DEN_integrate_scandinavia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			DEN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_scandinavia_flag }
 		}
@@ -240,7 +240,7 @@ integrate_scandinavia_category = {
 	SWE_integrate_scandinavia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SWE = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_scandinavia_flag }
 		}
@@ -359,7 +359,7 @@ integrate_scandinavia_category = {
 	SMI_integrate_scandinavia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SMI = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_scandinavia_flag }
 		}
@@ -478,7 +478,7 @@ integrate_scandinavia_category = {
 	KAR_integrate_scandinavia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			KAR = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_scandinavia_flag }
 		}
@@ -597,7 +597,7 @@ integrate_scandinavia_category = {
 	EST_integrate_scandinavia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			EST = {
 				is_subject_of = ROOT
 				has_completed_focus = EST_form_scandinavia
@@ -722,7 +722,7 @@ integrate_nordic_league_category = {
 	NOR_integrate_nordic_league = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			NOR = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_nordic_league_flag }
 		}
@@ -941,7 +941,7 @@ integrate_nordic_league_category = {
 	DEN_integrate_nordic_league = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			DEN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_nordic_league_flag }
 		}
@@ -1160,7 +1160,7 @@ integrate_nordic_league_category = {
 	SWE_integrate_nordic_league = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SWE = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_nordic_league_flag }
 		}
@@ -1379,7 +1379,7 @@ integrate_nordic_league_category = {
 	FIN_integrate_nordic_league = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			FIN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_nordic_league_flag }
 		}
@@ -1598,7 +1598,7 @@ integrate_nordic_league_category = {
 	ICE_integrate_nordic_league = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ICE = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_nordic_league_flag }
 		}
@@ -1817,7 +1817,7 @@ integrate_nordic_league_category = {
 	SMI_integrate_nordic_league = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SMI = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_nordic_league_flag }
 		}
@@ -2041,7 +2041,7 @@ integrate_nordic_league_category = {
 	KAR_integrate_nordic_league = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			KAR = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_nordic_league_flag }
 		}
@@ -2260,7 +2260,7 @@ integrate_nordic_league_category = {
 	EST_integrate_nordic_league = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			EST = {
 				is_subject_of = ROOT
 				has_completed_focus = EST_form_scandinavia
@@ -2485,7 +2485,7 @@ integrate_gran_colombia_category = {
 	PAN_integrate_gran_colombia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			PAN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_gran_colombia_flag }
 		}
@@ -2557,7 +2557,7 @@ integrate_gran_colombia_category = {
 	ECU_integrate_gran_colombia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ECU = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_gran_colombia_flag }
 		}
@@ -2629,7 +2629,7 @@ integrate_gran_colombia_category = {
 	COL_integrate_gran_colombia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			COL = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_gran_colombia_flag }
 		}
@@ -2701,7 +2701,7 @@ integrate_gran_colombia_category = {
 	VEN_integrate_gran_colombia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			VEN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_gran_colombia_flag }
 		}
@@ -2773,7 +2773,7 @@ integrate_gran_colombia_category = {
 	CRC_integrate_gran_colombia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			CRC = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_gran_colombia_flag }
 		}
@@ -2848,7 +2848,7 @@ integrate_austria_hungary_category = {
 	AUS_integrate_austria_hungary = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			AUS = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_austria_hungary_flag }
 		}
@@ -3006,7 +3006,7 @@ integrate_austria_hungary_category = {
 	CZE_integrate_austria_hungary = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			CZE = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_austria_hungary_flag }
 		}
@@ -3164,7 +3164,7 @@ integrate_austria_hungary_category = {
 	CRO_integrate_austria_hungary = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			CRO = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_austria_hungary_flag }
 		}
@@ -3322,7 +3322,7 @@ integrate_austria_hungary_category = {
 	HUN_integrate_austria_hungary = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			HUN = { is_subject_of = ROOT }
 			NOT = {
 				has_dlc = "Death or Dishonor"
@@ -3605,7 +3605,7 @@ integrate_commonwealth_category = {
 	POL_integrate_commonwealth = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			POL = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_commonwealth_flag }
 		}
@@ -3673,7 +3673,7 @@ integrate_commonwealth_category = {
 	LIT_integrate_commonwealth = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			LIT = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_commonwealth_flag }
 		}
@@ -3744,7 +3744,7 @@ integrate_united_netherlands_category = {
 	HOL_integrate_united_netherlands = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			HOL = { is_subject_of = ROOT }
 			NOT = {
 				has_global_flag = form_united_netherlands_flag
@@ -3789,7 +3789,7 @@ integrate_united_netherlands_category = {
 	BEL_integrate_united_netherlands = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			BEL = { is_subject_of = ROOT }
 			NOT = {
 				has_global_flag = form_united_netherlands_flag
@@ -3833,7 +3833,7 @@ integrate_united_netherlands_category = {
 	LUX_integrate_united_netherlands = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			LUX = { is_subject_of = ROOT }
 			NOT = {
 				has_global_flag = form_united_netherlands_flag
@@ -3877,7 +3877,7 @@ integrate_united_netherlands_category = {
 	WLL_integrate_united_netherlands = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			WLL = { is_subject_of = ROOT }
 			NOT = {
 				has_global_flag = form_united_netherlands_flag
@@ -3921,7 +3921,7 @@ integrate_united_netherlands_category = {
 	FLA_integrate_united_netherlands = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			FLA = { is_subject_of = ROOT }
 			NOT = {
 				has_global_flag = form_united_netherlands_flag
@@ -3968,7 +3968,7 @@ integrate_united_central_america_category = {
 	GUA_united_central_america = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			GUA = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_united_central_america_flag }
 		}
@@ -4010,7 +4010,7 @@ integrate_united_central_america_category = {
 	ELS_united_central_america = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ELS = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_united_central_america_flag }
 		}
@@ -4052,7 +4052,7 @@ integrate_united_central_america_category = {
 	HON_united_central_america = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			HON = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_united_central_america_flag }
 		}
@@ -4094,7 +4094,7 @@ integrate_united_central_america_category = {
 	NIC_united_central_america = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			NIC = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_united_central_america_flag }
 		}
@@ -4136,7 +4136,7 @@ integrate_united_central_america_category = {
 	COS_united_central_america = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			COS = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_united_central_america_flag }
 		}
@@ -4181,7 +4181,7 @@ integrate_baltic_federation_category = {
 	EST_integrate_baltic_federation = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			EST = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_baltic_federation_flag }
 		}
@@ -4242,7 +4242,7 @@ integrate_baltic_federation_category = {
 	LAT_integrate_baltic_federation = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			LAT = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_baltic_federation_flag }
 		}
@@ -4303,7 +4303,7 @@ integrate_baltic_federation_category = {
 	LIT_integrate_baltic_federation = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			LIT = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_baltic_federation_flag }
 		}
@@ -4367,7 +4367,7 @@ integrate_mutapa_category = {
 	SAF_integrate_mutapa = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SAF = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_mutapa_flag }
 		}
@@ -4415,7 +4415,7 @@ integrate_mutapa_category = {
 	BOT_integrate_mutapa = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			BOT = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_mutapa_flag }
 		}
@@ -4463,7 +4463,7 @@ integrate_mutapa_category = {
 	ZIM_integrate_mutapa = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ZIM = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_mutapa_flag }
 		}
@@ -4511,7 +4511,7 @@ integrate_mutapa_category = {
 	MZB_integrate_mutapa = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			MZB = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_mutapa_flag }
 		}
@@ -4559,7 +4559,7 @@ integrate_mutapa_category = {
 	LES_integrate_mutapa = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			LES = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_mutapa_flag }
 		}
@@ -4607,7 +4607,7 @@ integrate_mutapa_category = {
 	SWA_integrate_mutapa = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SWA = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_mutapa_flag }
 		}
@@ -4658,7 +4658,7 @@ integrate_arabia_category = {
 	IRQ_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			IRQ = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -4915,7 +4915,7 @@ integrate_arabia_category = {
 	SAU_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SAU = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -5172,7 +5172,7 @@ integrate_arabia_category = {
 	YEM_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			YEM = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -5429,7 +5429,7 @@ integrate_arabia_category = {
 	OMA_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			OMA = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -5686,7 +5686,7 @@ integrate_arabia_category = {
 	EGY_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			EGY = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -5943,7 +5943,7 @@ integrate_arabia_category = {
 	SUD_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SUD = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -6200,7 +6200,7 @@ integrate_arabia_category = {
 	LBA_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			LBA = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -6457,7 +6457,7 @@ integrate_arabia_category = {
 	JOR_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			JOR = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -6714,7 +6714,7 @@ integrate_arabia_category = {
 	PAL_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			PAL = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -6971,7 +6971,7 @@ integrate_arabia_category = {
 	LEB_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			LEB = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -7228,7 +7228,7 @@ integrate_arabia_category = {
 	SYR_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SYR = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -7485,7 +7485,7 @@ integrate_arabia_category = {
 	KUW_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			KUW = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -7742,7 +7742,7 @@ integrate_arabia_category = {
 	UAE_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			UAE = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -7999,7 +7999,7 @@ integrate_arabia_category = {
 	QAT_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			QAT = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -8256,7 +8256,7 @@ integrate_arabia_category = {
 	TUN_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			TUN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -8513,7 +8513,7 @@ integrate_arabia_category = {
 	ALG_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ALG = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -8770,7 +8770,7 @@ integrate_arabia_category = {
 	MOR_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			MOR = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -9027,7 +9027,7 @@ integrate_arabia_category = {
 	ADU_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ADU = { is_subject_of = ROOT }
 			NOT = {
 				has_dlc = "La Resistance"
@@ -9290,7 +9290,7 @@ integrate_malayan_confederation_category = {
 	INS_integrate_malayan_confederation = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			INS = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_malayan_confederation_flag }
 		}
@@ -9390,7 +9390,7 @@ integrate_malayan_confederation_category = {
 	MAL_integrate_malayan_confederation = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			MAL = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_malayan_confederation_flag }
 		}
@@ -9490,7 +9490,7 @@ integrate_malayan_confederation_category = {
 	PHI_integrate_malayan_confederation = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			PHI = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_malayan_confederation_flag }
 		}
@@ -9590,7 +9590,7 @@ integrate_malayan_confederation_category = {
 	SGP_integrate_malayan_confederation = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SGP = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_malayan_confederation_flag }
 		}
@@ -9690,7 +9690,7 @@ integrate_malayan_confederation_category = {
 	SWK_integrate_malayan_confederation = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SWK = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_malayan_confederation_flag }
 		}
@@ -9790,7 +9790,7 @@ integrate_malayan_confederation_category = {
 	BRN_integrate_malayan_confederation = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			BRN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_malayan_confederation_flag }
 		}
@@ -9893,7 +9893,7 @@ integrate_rattanakosin_kingdom_category = {
 	SIA_integrate_rattanakosin_kingdom = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SIA = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_rattanakosin_kingdom_flag }
 		}
@@ -9975,12 +9975,13 @@ integrate_polynesia_category = {
 	HAW_integrate_polynesia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			HAW = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
@@ -9993,6 +9994,7 @@ integrate_polynesia_category = {
 		complete_effect = {
 			HAW = {
 				transfer_state = 284
+				transfer_state = 630
 				transfer_state = 629
 				transfer_state = 642
 				transfer_state = 643
@@ -10060,6 +10062,10 @@ integrate_polynesia_category = {
 				if = {
 					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 669
+				}
+				if = {
+					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 738
 				}
 			}
 		}
@@ -10084,12 +10090,13 @@ integrate_polynesia_category = {
 	TAH_integrate_polynesia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			TAH = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
@@ -10102,6 +10109,7 @@ integrate_polynesia_category = {
 		complete_effect = {
 			TAH = {
 				transfer_state = 284
+				transfer_state = 630
 				transfer_state = 629
 				transfer_state = 642
 				transfer_state = 643
@@ -10169,6 +10177,10 @@ integrate_polynesia_category = {
 				if = {
 					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 669
+				}
+				if = {
+					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 738
 				}
 			}
 		}
@@ -10193,12 +10205,13 @@ integrate_polynesia_category = {
 	GUM_integrate_polynesia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			GUM = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
@@ -10211,6 +10224,7 @@ integrate_polynesia_category = {
 		complete_effect = {
 			GUM = {
 				transfer_state = 284
+				transfer_state = 630
 				transfer_state = 629
 				transfer_state = 642
 				transfer_state = 643
@@ -10278,6 +10292,10 @@ integrate_polynesia_category = {
 				if = {
 					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 669
+				}
+				if = {
+					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 738
 				}
 			}
 		}
@@ -10302,12 +10320,13 @@ integrate_polynesia_category = {
 	FSM_integrate_polynesia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			FSM = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
@@ -10320,6 +10339,7 @@ integrate_polynesia_category = {
 		complete_effect = {
 			FSM = {
 				transfer_state = 284
+				transfer_state = 630
 				transfer_state = 629
 				transfer_state = 642
 				transfer_state = 643
@@ -10387,6 +10407,10 @@ integrate_polynesia_category = {
 				if = {
 					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 669
+				}
+				if = {
+					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 738
 				}
 			}
 		}
@@ -10411,12 +10435,13 @@ integrate_polynesia_category = {
 	TON_integrate_polynesia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			TON = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
@@ -10429,6 +10454,7 @@ integrate_polynesia_category = {
 		complete_effect = {
 			TON = {
 				transfer_state = 284
+				transfer_state = 630
 				transfer_state = 629
 				transfer_state = 642
 				transfer_state = 643
@@ -10496,6 +10522,10 @@ integrate_polynesia_category = {
 				if = {
 					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 669
+				}
+				if = {
+					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 738
 				}
 			}
 		}
@@ -10520,12 +10550,13 @@ integrate_polynesia_category = {
 	SAM_integrate_polynesia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SAM = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
@@ -10538,6 +10569,7 @@ integrate_polynesia_category = {
 		complete_effect = {
 			SAM = {
 				transfer_state = 284
+				transfer_state = 630
 				transfer_state = 629
 				transfer_state = 642
 				transfer_state = 643
@@ -10605,6 +10637,10 @@ integrate_polynesia_category = {
 				if = {
 					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 669
+				}
+				if = {
+					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 738
 				}
 			}
 		}
@@ -10629,12 +10665,13 @@ integrate_polynesia_category = {
 	SOL_integrate_polynesia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SOL = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
@@ -10647,6 +10684,7 @@ integrate_polynesia_category = {
 		complete_effect = {
 			SOL = {
 				transfer_state = 284
+				transfer_state = 630
 				transfer_state = 629
 				transfer_state = 642
 				transfer_state = 643
@@ -10714,6 +10752,10 @@ integrate_polynesia_category = {
 				if = {
 					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 669
+				}
+				if = {
+					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 738
 				}
 			}
 		}
@@ -10738,12 +10780,13 @@ integrate_polynesia_category = {
 	FIJ_integrate_polynesia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			FIJ = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
@@ -10756,6 +10799,7 @@ integrate_polynesia_category = {
 		complete_effect = {
 			FIJ = {
 				transfer_state = 284
+				transfer_state = 630
 				transfer_state = 629
 				transfer_state = 642
 				transfer_state = 643
@@ -10823,6 +10867,10 @@ integrate_polynesia_category = {
 				if = {
 					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 669
+				}
+				if = {
+					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 738
 				}
 			}
 		}
@@ -10847,12 +10895,13 @@ integrate_polynesia_category = {
 	NZL_integrate_polynesia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			NZL = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
@@ -10865,6 +10914,7 @@ integrate_polynesia_category = {
 		complete_effect = {
 			NZL = {
 				transfer_state = 284
+				transfer_state = 630
 				transfer_state = 629
 				transfer_state = 642
 				transfer_state = 643
@@ -10932,6 +10982,10 @@ integrate_polynesia_category = {
 				if = {
 					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 669
+				}
+				if = {
+					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 738
 				}
 			}
 		}
@@ -10962,7 +11016,7 @@ integrate_greater_greece_category = {
 			has_dlc = "Battle for the Bosporus"
 		}
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			GRE = {
 				is_subject_of = ROOT
 				OR = { 
@@ -11135,7 +11189,7 @@ integrate_mountainous_republic_category = {
 	DAG_integrate_mountainous_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			DAG = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_mountainous_republic_flag }
 		}
@@ -11176,7 +11230,7 @@ integrate_mountainous_republic_category = {
 	CIN_integrate_mountainous_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			CIN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_mountainous_republic_flag }
 		}
@@ -11217,7 +11271,7 @@ integrate_mountainous_republic_category = {
 	NOA_integrate_mountainous_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			NOA = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_mountainous_republic_flag }
 		}
@@ -11258,7 +11312,7 @@ integrate_mountainous_republic_category = {
 	KBK_integrate_mountainous_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			KBK = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_mountainous_republic_flag }
 		}
@@ -11299,7 +11353,7 @@ integrate_mountainous_republic_category = {
 	ABK_integrate_mountainous_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ABK = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_mountainous_republic_flag }
 		}
@@ -11346,7 +11400,7 @@ integrate_transcaucasus_category = {
 			has_dlc = "No Step Back"
 		}
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			GEO = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_transcaucasia_flag }
 		}
@@ -11440,7 +11494,7 @@ integrate_transcaucasus_category = {
 			has_dlc = "No Step Back"
 		}
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ARM = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_transcaucasia_flag }
 		}
@@ -11534,7 +11588,7 @@ integrate_transcaucasus_category = {
 			has_dlc = "No Step Back"
 		}
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			AZR = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_transcaucasia_flag }
 		}
@@ -11628,7 +11682,7 @@ integrate_siberia_category = {
 	YAK_integrate_siberian_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			YAK = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_siberian_republic_flag }
 		}
@@ -11800,7 +11854,7 @@ integrate_siberia_category = {
 	FER_integrate_siberian_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			FER = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_siberian_republic_flag }
 		}
@@ -11972,7 +12026,7 @@ integrate_siberia_category = {
 	CKK_integrate_siberian_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			CKK = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_siberian_republic_flag }
 		}
@@ -12144,7 +12198,7 @@ integrate_siberia_category = {
 	VLA_integrate_siberian_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			VLA = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_siberian_republic_flag }
 		}
@@ -12316,7 +12370,7 @@ integrate_siberia_category = {
 	BYA_integrate_siberian_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			BYA = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_siberian_republic_flag }
 		}
@@ -12488,7 +12542,7 @@ integrate_siberia_category = {
 	TAY_integrate_siberian_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			TAY = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_siberian_republic_flag }
 		}
@@ -12660,7 +12714,7 @@ integrate_siberia_category = {
 	ALT_integrate_siberian_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ALT = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_siberian_republic_flag }
 		}
@@ -12832,7 +12886,7 @@ integrate_siberia_category = {
 	YAM_integrate_siberian_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			YAM = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_siberian_republic_flag }
 		}
@@ -13004,7 +13058,7 @@ integrate_siberia_category = {
 	OVO_integrate_siberian_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			OVO = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_siberian_republic_flag }
 		}
@@ -13176,7 +13230,7 @@ integrate_siberia_category = {
 	TAN_integrate_siberian_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			TAN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_siberian_republic_flag }
 		}
@@ -13351,7 +13405,7 @@ integrate_turkestan_category = {
 	TAN_integrate_turkestan = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			TAN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_turkestan_flag }
 		}
@@ -13442,7 +13496,7 @@ integrate_turkestan_category = {
 	KAZ_integrate_turkestan = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			KAZ = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_turkestan_flag }
 		}
@@ -13533,7 +13587,7 @@ integrate_turkestan_category = {
 	UZB_integrate_turkestan = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			UZB = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_turkestan_flag }
 		}
@@ -13624,7 +13678,7 @@ integrate_turkestan_category = {
 	KYR_integrate_turkestan = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			KYR = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_turkestan_flag }
 		}
@@ -13715,7 +13769,7 @@ integrate_turkestan_category = {
 	TAJ_integrate_turkestan = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			TAJ = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_turkestan_flag }
 		}
@@ -13806,7 +13860,7 @@ integrate_turkestan_category = {
 	TMS_integrate_turkestan = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			TMS = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_turkestan_flag }
 		}
@@ -13897,7 +13951,7 @@ integrate_turkestan_category = {
 	SIK_integrate_turkestan = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SIK = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_turkestan_flag }
 		}
@@ -13988,7 +14042,7 @@ integrate_turkestan_category = {
 	TNG_integrate_turkestan = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			TNG = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_turkestan_flag }
 		}
@@ -14079,7 +14133,7 @@ integrate_turkestan_category = {
 	BUK_integrate_turkestan = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			BUK = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_turkestan_flag }
 		}
@@ -14170,7 +14224,7 @@ integrate_turkestan_category = {
 	KHI_integrate_turkestan = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			KHI = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_turkestan_flag }
 		}
@@ -14261,7 +14315,7 @@ integrate_turkestan_category = {
 	KKP_integrate_turkestan = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			KKP = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_turkestan_flag }
 		}
@@ -14388,7 +14442,7 @@ integrate_idel_ural_category = {
 	MEL_integrate_idel_uralic_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			MEL = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_idel_ural_flag }
 		}
@@ -14425,7 +14479,7 @@ integrate_idel_ural_category = {
 	CHU_integrate_idel_uralic_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			CHU = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_idel_ural_flag }
 		}
@@ -14462,7 +14516,7 @@ integrate_idel_ural_category = {
 	TAT_integrate_idel_uralic_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			TAT = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_idel_ural_flag }
 		}
@@ -14499,7 +14553,7 @@ integrate_idel_ural_category = {
 	UDM_integrate_idel_uralic_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			UDM = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_idel_ural_flag }
 		}
@@ -14536,7 +14590,7 @@ integrate_idel_ural_category = {
 	BSK_integrate_idel_uralic_republic = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			BSK = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_idel_ural_flag }
 		}
@@ -14576,7 +14630,7 @@ integrate_east_africa_category = {
 	KEN_integrate_east_africa = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			KEN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_east_africa_flag }
 		}
@@ -14640,7 +14694,7 @@ integrate_east_africa_category = {
 	UGA_integrate_east_africa = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			UGA = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_east_africa_flag }
 		}
@@ -14704,7 +14758,7 @@ integrate_east_africa_category = {
 	TZN_integrate_east_africa = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			TZN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_east_africa_flag }
 		}
@@ -14768,7 +14822,7 @@ integrate_east_africa_category = {
 	ZAN_integrate_east_africa = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ZAN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_east_africa_flag }
 		}
@@ -14832,7 +14886,7 @@ integrate_east_africa_category = {
 	RWA_integrate_east_africa = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			RWA = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_east_africa_flag }
 		}
@@ -14896,7 +14950,7 @@ integrate_east_africa_category = {
 	BRD_integrate_east_africa = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			BRD = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_east_africa_flag }
 		}
@@ -15001,7 +15055,7 @@ integrate_the_levant_category = {
 	LEB_integrate_greater_syria = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			LEB = {
 				is_subject_of = ROOT
 				NOT = {
@@ -15081,7 +15135,7 @@ integrate_the_levant_category = {
 	SYR_integrate_greater_syria = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SYR = {
 				is_subject_of = ROOT
 				NOT = {
@@ -15161,7 +15215,7 @@ integrate_the_levant_category = {
 	JOR_integrate_greater_syria = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			JOR = {
 				is_subject_of = ROOT
 				NOT = {
@@ -15244,7 +15298,7 @@ integrate_peru_bolivia_category = {
 	BOL_integrate_peru_bolivia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			BOL = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_peru_bolivia_flag }
 		}
@@ -15304,7 +15358,7 @@ integrate_peru_bolivia_category = {
 	PRU_integrate_peru_bolivia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			PRU = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_peru_bolivia_flag }
 		}
@@ -15368,7 +15422,7 @@ integrate_prussia_category = {
 		icon = generic_form_nation
 		fire_only_once = yes
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			DNZ = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_prussia_flag }
 		}
@@ -15938,7 +15992,7 @@ integrate_la_plata = {
 	BOL_integrate_la_plata = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			BOL = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_la_plata_flag }
 		}
@@ -15992,7 +16046,7 @@ integrate_la_plata = {
 	ARG_integrate_la_plata = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ARG = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_la_plata_flag }
 		}
@@ -16046,7 +16100,7 @@ integrate_la_plata = {
 	URG_integrate_la_plata = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			URG = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_la_plata_flag }
 		}
@@ -16100,7 +16154,7 @@ integrate_la_plata = {
 	PAR_integrate_la_plata = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			PAR = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_la_plata_flag }
 		}
@@ -16154,7 +16208,7 @@ integrate_la_plata = {
 	CHL_integrate_la_plata = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			CHL = {
 				is_subject_of = ROOT
 				NOT = { has_country_flag = r56_hide_formables }
@@ -16214,7 +16268,7 @@ integrate_the_empire_of_mali = {
 	SEN_integrate_the_empire_of_mali = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SEN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = reform_the_empire_of_mali_flag }
 		}
@@ -16282,7 +16336,7 @@ integrate_the_empire_of_mali = {
 	GAM_integrate_the_empire_of_mali = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			GAM = { is_subject_of = ROOT }
 			NOT = { has_global_flag = reform_the_empire_of_mali_flag }
 		}
@@ -16350,7 +16404,7 @@ integrate_the_empire_of_mali = {
 	MLI_integrate_the_empire_of_mali = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			MLI = { is_subject_of = ROOT }
 			NOT = { has_global_flag = reform_the_empire_of_mali_flag }
 		}
@@ -16418,7 +16472,7 @@ integrate_the_empire_of_mali = {
 	VOL_integrate_the_empire_of_mali = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			VOL = { is_subject_of = ROOT }
 			NOT = { has_global_flag = reform_the_empire_of_mali_flag }
 		}
@@ -16486,7 +16540,7 @@ integrate_the_empire_of_mali = {
 	GNB_integrate_the_empire_of_mali = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			GNB = { is_subject_of = ROOT }
 			NOT = { has_global_flag = reform_the_empire_of_mali_flag }
 		}
@@ -16557,7 +16611,7 @@ integrate_west_african_union = {
 	SEN_integrate_west_african_union = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SEN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_west_african_union_flag }
 		}
@@ -16675,7 +16729,7 @@ integrate_west_african_union = {
 	TOG_integrate_west_african_union = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			TOG = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_west_african_union_flag }
 		}
@@ -16793,7 +16847,7 @@ integrate_west_african_union = {
 	IVO_integrate_west_african_union = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			IVO = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_west_african_union_flag }
 		}
@@ -16911,7 +16965,7 @@ integrate_west_african_union = {
 	CMR_integrate_west_african_union = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			CMR = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_west_african_union_flag }
 		}
@@ -17029,7 +17083,7 @@ integrate_west_african_union = {
 	DAH_integrate_west_african_union = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			DAH = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_west_african_union_flag }
 		}
@@ -17147,7 +17201,7 @@ integrate_west_african_union = {
 	GNA_integrate_west_african_union = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			GNA = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_west_african_union_flag }
 		}
@@ -17265,7 +17319,7 @@ integrate_west_african_union = {
 	NGA_integrate_west_african_union = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			NGA = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_west_african_union_flag }
 		}
@@ -17383,7 +17437,7 @@ integrate_west_african_union = {
 	GHA_integrate_west_african_union = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			GHA = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_west_african_union_flag }
 		}
@@ -17501,7 +17555,7 @@ integrate_west_african_union = {
 	LIB_integrate_west_african_union = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			LIB = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_west_african_union_flag }
 		}
@@ -17619,7 +17673,7 @@ integrate_west_african_union = {
 	MLI_integrate_west_african_union = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			MLI = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_west_african_union_flag }
 		}
@@ -17737,7 +17791,7 @@ integrate_west_african_union = {
 	NGR_integrate_west_african_union = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			NGR = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_west_african_union_flag }
 		}
@@ -17858,7 +17912,7 @@ integrate_a_dravidian_state = {
 	SRL_integrate_a_dravidian_state = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SRL = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_a_dravidian_state_flag }
 		}
@@ -17898,7 +17952,7 @@ integrate_hispanoamerica_category = {
 	ARG_integrate_hispanoamerica = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ARG = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_hispanomerica_flag }
 		}
@@ -17999,7 +18053,7 @@ integrate_hispanoamerica_category = {
 	ECU_integrate_hispanoamerica = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ECU = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_hispanomerica_flag }
 		}
@@ -18100,7 +18154,7 @@ integrate_hispanoamerica_category = {
 	PAR_integrate_hispanoamerica = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			PAR = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_hispanomerica_flag }
 		}
@@ -18201,7 +18255,7 @@ integrate_hispanoamerica_category = {
 	CHL_integrate_hispanoamerica = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			CHL = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_hispanomerica_flag }
 		}
@@ -18302,7 +18356,7 @@ integrate_hispanoamerica_category = {
 	COL_integrate_hispanoamerica = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			COL = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_hispanomerica_flag }
 		}
@@ -18403,7 +18457,7 @@ integrate_hispanoamerica_category = {
 	PAN_integrate_hispanoamerica = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			PAN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_hispanomerica_flag }
 		}
@@ -18504,7 +18558,7 @@ integrate_hispanoamerica_category = {
 	BOL_integrate_hispanoamerica = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			BOL = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_hispanomerica_flag }
 		}
@@ -18605,7 +18659,7 @@ integrate_hispanoamerica_category = {
 	URG_integrate_hispanoamerica = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			URG = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_hispanomerica_flag }
 		}
@@ -18706,7 +18760,7 @@ integrate_hispanoamerica_category = {
 	VEN_integrate_hispanoamerica = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			VEN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_hispanomerica_flag }
 		}
@@ -18807,7 +18861,7 @@ integrate_hispanoamerica_category = {
 	PRU_integrate_hispanoamerica = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			PRU = {
 				is_subject_of = ROOT
 				OR = {
@@ -18908,7 +18962,7 @@ integrate_the_mamluks_category = {
 	EGY_integrate_the_mamluks = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			EGY = {
 				is_subject_of = ROOT
 				NOT = { has_cosmetic_tag = ARA_UNIFIED }
@@ -19007,7 +19061,7 @@ integrate_the_mamluks_category = {
 	PAL_integrate_the_mamluks = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			PAL = {
 				is_subject_of = ROOT
 				NOT = { has_cosmetic_tag = ARA_UNIFIED }
@@ -19106,7 +19160,7 @@ integrate_the_mamluks_category = {
 	LBA_integrate_the_mamluks = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			LBA = {
 				is_subject_of = ROOT
 				NOT = { has_cosmetic_tag = ARA_UNIFIED }
@@ -19205,7 +19259,7 @@ integrate_the_mamluks_category = {
 	LEB_integrate_the_mamluks = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			LEB = {
 				is_subject_of = ROOT
 				NOT = { has_cosmetic_tag = ARA_UNIFIED }
@@ -19304,7 +19358,7 @@ integrate_the_mamluks_category = {
 	SYR_integrate_the_mamluks = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SYR = {
 				is_subject_of = ROOT
 				NOT = { has_cosmetic_tag = ARA_UNIFIED }
@@ -19406,7 +19460,7 @@ integrate_alamannia_category = {
 	SWI_integrate_alamannia = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SWI = {
 				is_subject_of = ROOT
 				has_completed_focus = SWI_irredentism
@@ -19451,7 +19505,7 @@ integrate_unite_tanganyika_zanzibar_category = {
 	TZN_integrate_unite_tanganyika_zanzibar = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			TZN = {
 				is_subject_of = ROOT
 				OR = {
@@ -19486,7 +19540,7 @@ integrate_unite_tanganyika_zanzibar_category = {
 	ZAN_integrate_unite_tanganyika_zanzibar = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ZAN = {
 				is_subject_of = ROOT
 				OR = {
@@ -19523,7 +19577,7 @@ integrate_greater_texas_category = {
 	TXS_integrate_greater_texas = {
 		icon = generic_form_nation
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			TXS = { is_subject_of = ROOT }
 			NOT = { has_global_flag = TXS_formed_greater_texas }
 		}

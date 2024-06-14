@@ -667,10 +667,10 @@ form_north_american_category = {
 
 		ai_will_do = {
 			factor = 200
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
+			#modifier = {
+			#	factor = 0
+			#	is_historical_focus_on = yes
+			#}
 		}
 	}
 }
@@ -681,7 +681,7 @@ integrate_north_american_category = {
 			has_dlc = "Waking the Tiger"
 		}
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			CAN = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_north_american_flag }
 		}
@@ -909,7 +909,7 @@ integrate_north_american_category = {
 			has_dlc = "Waking the Tiger"
 		}
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			USA = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_north_american_flag }
 		}
@@ -1137,7 +1137,7 @@ integrate_north_american_category = {
 			has_dlc = "Waking the Tiger"
 		}
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			MEX = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_north_american_flag }
 		}
@@ -3330,10 +3330,10 @@ form_united_balkan_category = {
 
 		ai_will_do = {
 			factor = 200
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
+			#modifier = {
+			#	factor = 0
+			#	is_historical_focus_on = yes
+			#}
 		}
 	}
 }
@@ -3344,7 +3344,7 @@ integrate_united_balkan_category = {
 			has_dlc = "Battle for the Bosporus"
 		}
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			YUG = {
 				is_subject_of = ROOT
 				OR = {
@@ -3569,7 +3569,7 @@ integrate_united_balkan_category = {
 			has_dlc = "Battle for the Bosporus"
 		}
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ALB = {
 				is_subject_of = ROOT
 				OR = {
@@ -3794,7 +3794,7 @@ integrate_united_balkan_category = {
 			has_dlc = "Battle for the Bosporus"
 		}
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			GRE = {
 				is_subject_of = ROOT
 				OR = {
@@ -4019,7 +4019,7 @@ integrate_united_balkan_category = {
 			has_dlc = "Battle for the Bosporus"
 		}
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			BUL = {
 				is_subject_of = ROOT
 				has_completed_focus = BUL_the_unification_of_the_balkans
@@ -4245,7 +4245,7 @@ integrate_united_balkan_category = {
 			has_dlc = "Battle for the Bosporus"
 		}
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			ROM = {
 				is_subject_of = ROOT
 				OR = {
@@ -4470,7 +4470,7 @@ integrate_united_balkan_category = {
 			has_dlc = "Battle for the Bosporus"
 		}
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			SER = {
 				is_subject_of = ROOT
 				OR = {
@@ -4695,7 +4695,7 @@ integrate_united_balkan_category = {
 			has_dlc = "Battle for the Bosporus"
 		}
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			CRO = {
 				is_subject_of = ROOT
 				OR = {
@@ -4920,7 +4920,7 @@ integrate_united_balkan_category = {
 			has_dlc = "Battle for the Bosporus"
 		}
 		visible = {
-			is_historical_focus_on = no
+			#is_historical_focus_on = no
 			MNT = {
 				is_subject_of = ROOT
 				OR = {
@@ -5291,6 +5291,7 @@ integrate_greater_italy_category = {
 			735 = { is_controlled_by_ROOT_or_subject = yes } # Savoy
 			163 = { is_controlled_by_ROOT_or_subject = yes } # Zara
 			103 = { is_controlled_by_ROOT_or_subject = yes } # Dalmatia
+			958 = { is_controlled_by_ROOT_or_subject = yes } # R56: Kvarner
 			853 = { is_controlled_by_ROOT_or_subject = yes } # Ljubljana
 			116 = { is_controlled_by_ROOT_or_subject = yes } # Malta
 			182 = { is_controlled_by_ROOT_or_subject = yes } # Crete
@@ -5322,6 +5323,7 @@ integrate_greater_italy_category = {
 				transfer_state = 735 # Savoy
 				transfer_state = 163 # Zara
 				transfer_state = 103 # Dalmatia
+				transfer_state = 958 # R56: Kvarner
 				transfer_state = 853 # Ljubljana
 				transfer_state = 116 # Malta
 				transfer_state = 182 # Crete
