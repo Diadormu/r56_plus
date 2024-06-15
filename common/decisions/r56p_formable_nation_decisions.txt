@@ -308,6 +308,32 @@ form_nation_mod_category = {
 
 		ai_will_do = { factor = 200 }
 	}
+
+	ENG_integrate_IRE = {
+		icon = generic_form_nation
+		allowed = { original_tag = ENG }
+		visible = {
+			original_tag = ENG
+			has_completed_focus = ENG_reinforce_the_empire
+		}
+		available = {
+			controls_state = 113
+			controls_state = 134
+			controls_state = 135
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 70
+		remove_effect = {
+			113 = { add_core_of = ENG }
+			134 = { add_core_of = ENG }
+			135 = { add_core_of = ENG }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
 }
 
 rename_cities_category = {
@@ -1531,6 +1557,8 @@ form_greater_china_category = {
 			controls_state = 745 #大连
 			controls_state = 434 #藏南
 			controls_state = 329 #唐努乌梁
+			controls_state = 586 #阿拉木图
+			controls_state = 732 #帕米尔
 			#外蒙古
 			custom_trigger_tooltip = {
 				tooltip = controls_MON
@@ -1560,6 +1588,15 @@ form_greater_china_category = {
 			758 = { add_core_of = ROOT }
 			434 = { add_core_of = ROOT } #藏南
 			329 = { add_core_of = ROOT } #唐努乌梁
+			586 = { add_core_of = ROOT } #阿拉木图
+			732 = { add_core_of = ROOT } #帕米尔
+			if = {
+				limit = {
+					589 = { is_controlled_by_ROOT_or_subject = yes }
+				}
+				589 = { add_core_of = ROOT } #阿亚古兹
+				transfer_state = 589
+			}
 			#外蒙古
 			330 = { add_core_of = ROOT }
 			817 = { add_core_of = ROOT }
@@ -1594,8 +1631,9 @@ form_greater_china_category = {
 				transfer_state = 787
 			}
 
-			434 = { set_state_name = "藏南" }
+			#434 = { set_state_name = "藏南" }
 			329 = { set_state_name = "唐努乌梁" }
+			732 = { set_state_name = "帕米尔" }
 			408 = { set_state_name = "海参崴" }
 			set_province_name = { id = 957 name = "海参崴" }
 			set_province_name = { id = 11750 name = "双城子" }
@@ -1696,6 +1734,8 @@ integrate_greater_china_category = {
 		available = {
 			434 = { is_controlled_by_ROOT_or_subject = yes }
 			329 = { is_controlled_by_ROOT_or_subject = yes }
+			586 = { is_controlled_by_ROOT_or_subject = yes }
+			732 = { is_controlled_by_ROOT_or_subject = yes }
 			330 = { is_controlled_by_ROOT_or_subject = yes }
 			817 = { is_controlled_by_ROOT_or_subject = yes }
 			818 = { is_controlled_by_ROOT_or_subject = yes }
@@ -1713,6 +1753,12 @@ integrate_greater_china_category = {
 			CHI = {
 				transfer_state = 434
 				transfer_state = 329
+				transfer_state = 586
+				transfer_state = 732
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 330
 				transfer_state = 817
 				transfer_state = 818
@@ -1838,6 +1884,8 @@ integrate_greater_china_category = {
 		available = {
 			434 = { is_controlled_by_ROOT_or_subject = yes }
 			329 = { is_controlled_by_ROOT_or_subject = yes }
+			586 = { is_controlled_by_ROOT_or_subject = yes }
+			732 = { is_controlled_by_ROOT_or_subject = yes }
 			330 = { is_controlled_by_ROOT_or_subject = yes }
 			817 = { is_controlled_by_ROOT_or_subject = yes }
 			818 = { is_controlled_by_ROOT_or_subject = yes }
@@ -1855,6 +1903,12 @@ integrate_greater_china_category = {
 			PRC = {
 				transfer_state = 434
 				transfer_state = 329
+				transfer_state = 586
+				transfer_state = 732
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 330
 				transfer_state = 817
 				transfer_state = 818
@@ -1984,6 +2038,8 @@ integrate_greater_china_category = {
 		available = {
 			434 = { is_controlled_by_ROOT_or_subject = yes }
 			329 = { is_controlled_by_ROOT_or_subject = yes }
+			586 = { is_controlled_by_ROOT_or_subject = yes }
+			732 = { is_controlled_by_ROOT_or_subject = yes }
 			330 = { is_controlled_by_ROOT_or_subject = yes }
 			817 = { is_controlled_by_ROOT_or_subject = yes }
 			818 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2001,6 +2057,12 @@ integrate_greater_china_category = {
 			GXC = {
 				transfer_state = 434
 				transfer_state = 329
+				transfer_state = 586
+				transfer_state = 732
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 330
 				transfer_state = 817
 				transfer_state = 818
@@ -2130,6 +2192,8 @@ integrate_greater_china_category = {
 		available = {
 			434 = { is_controlled_by_ROOT_or_subject = yes }
 			329 = { is_controlled_by_ROOT_or_subject = yes }
+			586 = { is_controlled_by_ROOT_or_subject = yes }
+			732 = { is_controlled_by_ROOT_or_subject = yes }
 			330 = { is_controlled_by_ROOT_or_subject = yes }
 			817 = { is_controlled_by_ROOT_or_subject = yes }
 			818 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2147,6 +2211,12 @@ integrate_greater_china_category = {
 			YUN = {
 				transfer_state = 434
 				transfer_state = 329
+				transfer_state = 586
+				transfer_state = 732
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 330
 				transfer_state = 817
 				transfer_state = 818
@@ -2276,6 +2346,8 @@ integrate_greater_china_category = {
 		available = {
 			434 = { is_controlled_by_ROOT_or_subject = yes }
 			329 = { is_controlled_by_ROOT_or_subject = yes }
+			586 = { is_controlled_by_ROOT_or_subject = yes }
+			732 = { is_controlled_by_ROOT_or_subject = yes }
 			330 = { is_controlled_by_ROOT_or_subject = yes }
 			817 = { is_controlled_by_ROOT_or_subject = yes }
 			818 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2293,6 +2365,12 @@ integrate_greater_china_category = {
 			SHX = {
 				transfer_state = 434
 				transfer_state = 329
+				transfer_state = 586
+				transfer_state = 732
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 330
 				transfer_state = 817
 				transfer_state = 818
@@ -2422,6 +2500,8 @@ integrate_greater_china_category = {
 		available = {
 			434 = { is_controlled_by_ROOT_or_subject = yes }
 			329 = { is_controlled_by_ROOT_or_subject = yes }
+			586 = { is_controlled_by_ROOT_or_subject = yes }
+			732 = { is_controlled_by_ROOT_or_subject = yes }
 			330 = { is_controlled_by_ROOT_or_subject = yes }
 			817 = { is_controlled_by_ROOT_or_subject = yes }
 			818 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2439,6 +2519,12 @@ integrate_greater_china_category = {
 			XSM = {
 				transfer_state = 434
 				transfer_state = 329
+				transfer_state = 586
+				transfer_state = 732
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 330
 				transfer_state = 817
 				transfer_state = 818
@@ -2568,6 +2654,8 @@ integrate_greater_china_category = {
 		available = {
 			434 = { is_controlled_by_ROOT_or_subject = yes }
 			329 = { is_controlled_by_ROOT_or_subject = yes }
+			586 = { is_controlled_by_ROOT_or_subject = yes }
+			732 = { is_controlled_by_ROOT_or_subject = yes }
 			330 = { is_controlled_by_ROOT_or_subject = yes }
 			817 = { is_controlled_by_ROOT_or_subject = yes }
 			818 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2585,6 +2673,12 @@ integrate_greater_china_category = {
 			SIK = {
 				transfer_state = 434
 				transfer_state = 329
+				transfer_state = 586
+				transfer_state = 732
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 330
 				transfer_state = 817
 				transfer_state = 818
@@ -2710,6 +2804,8 @@ integrate_greater_china_category = {
 		available = {
 			434 = { is_controlled_by_ROOT_or_subject = yes }
 			329 = { is_controlled_by_ROOT_or_subject = yes }
+			586 = { is_controlled_by_ROOT_or_subject = yes }
+			732 = { is_controlled_by_ROOT_or_subject = yes }
 			330 = { is_controlled_by_ROOT_or_subject = yes }
 			817 = { is_controlled_by_ROOT_or_subject = yes }
 			818 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2727,6 +2823,12 @@ integrate_greater_china_category = {
 			MAN = {
 				transfer_state = 434
 				transfer_state = 329
+				transfer_state = 586
+				transfer_state = 732
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 330
 				transfer_state = 817
 				transfer_state = 818

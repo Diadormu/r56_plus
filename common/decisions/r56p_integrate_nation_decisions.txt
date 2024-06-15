@@ -13415,10 +13415,10 @@ integrate_turkestan_category = {
 			406 = { is_controlled_by_ROOT_or_subject = yes }
 			407 = { is_controlled_by_ROOT_or_subject = yes }
 			583 = { is_controlled_by_ROOT_or_subject = yes }
-			586 = { is_controlled_by_ROOT_or_subject = yes }
+			#586 = { is_controlled_by_ROOT_or_subject = yes }
 			587 = { is_controlled_by_ROOT_or_subject = yes }
 			588 = { is_controlled_by_ROOT_or_subject = yes }
-			589 = { is_controlled_by_ROOT_or_subject = yes }
+			#589 = { is_controlled_by_ROOT_or_subject = yes }
 			590 = { is_controlled_by_ROOT_or_subject = yes }
 			881 = { is_controlled_by_ROOT_or_subject = yes }
 			882 = { is_controlled_by_ROOT_or_subject = yes }
@@ -13427,7 +13427,7 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
-			732 = { is_controlled_by_ROOT_or_subject = yes }
+			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
 			584 = { is_controlled_by_ROOT_or_subject = yes }
 			832 = { is_controlled_by_ROOT_or_subject = yes }
@@ -13439,10 +13439,16 @@ integrate_turkestan_category = {
 				transfer_state = 406
 				transfer_state = 407
 				transfer_state = 583
-				transfer_state = 586
+				if = {
+					limit = { 586 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 586
+				}
 				transfer_state = 587
 				transfer_state = 588
-				transfer_state = 589
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 590
 				transfer_state = 881
 				transfer_state = 882
@@ -13451,7 +13457,10 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
-				transfer_state = 732
+				if = {
+					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 732
+				}
 				transfer_state = 742
 				transfer_state = 584
 				transfer_state = 832
@@ -13506,10 +13515,10 @@ integrate_turkestan_category = {
 			406 = { is_controlled_by_ROOT_or_subject = yes }
 			407 = { is_controlled_by_ROOT_or_subject = yes }
 			583 = { is_controlled_by_ROOT_or_subject = yes }
-			586 = { is_controlled_by_ROOT_or_subject = yes }
+			#586 = { is_controlled_by_ROOT_or_subject = yes }
 			587 = { is_controlled_by_ROOT_or_subject = yes }
 			588 = { is_controlled_by_ROOT_or_subject = yes }
-			589 = { is_controlled_by_ROOT_or_subject = yes }
+			#589 = { is_controlled_by_ROOT_or_subject = yes }
 			590 = { is_controlled_by_ROOT_or_subject = yes }
 			881 = { is_controlled_by_ROOT_or_subject = yes }
 			882 = { is_controlled_by_ROOT_or_subject = yes }
@@ -13518,7 +13527,7 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
-			732 = { is_controlled_by_ROOT_or_subject = yes }
+			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
 			584 = { is_controlled_by_ROOT_or_subject = yes }
 			832 = { is_controlled_by_ROOT_or_subject = yes }
@@ -13530,10 +13539,16 @@ integrate_turkestan_category = {
 				transfer_state = 406
 				transfer_state = 407
 				transfer_state = 583
-				transfer_state = 586
+				if = {
+					limit = { 586 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 586
+				}
 				transfer_state = 587
 				transfer_state = 588
-				transfer_state = 589
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 590
 				transfer_state = 881
 				transfer_state = 882
@@ -13542,7 +13557,10 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
-				transfer_state = 732
+				if = {
+					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 732
+				}
 				transfer_state = 742
 				transfer_state = 584
 				transfer_state = 832
@@ -13597,10 +13615,10 @@ integrate_turkestan_category = {
 			406 = { is_controlled_by_ROOT_or_subject = yes }
 			407 = { is_controlled_by_ROOT_or_subject = yes }
 			583 = { is_controlled_by_ROOT_or_subject = yes }
-			586 = { is_controlled_by_ROOT_or_subject = yes }
+			#586 = { is_controlled_by_ROOT_or_subject = yes }
 			587 = { is_controlled_by_ROOT_or_subject = yes }
 			588 = { is_controlled_by_ROOT_or_subject = yes }
-			589 = { is_controlled_by_ROOT_or_subject = yes }
+			#589 = { is_controlled_by_ROOT_or_subject = yes }
 			590 = { is_controlled_by_ROOT_or_subject = yes }
 			881 = { is_controlled_by_ROOT_or_subject = yes }
 			882 = { is_controlled_by_ROOT_or_subject = yes }
@@ -13609,7 +13627,7 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
-			732 = { is_controlled_by_ROOT_or_subject = yes }
+			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
 			584 = { is_controlled_by_ROOT_or_subject = yes }
 			832 = { is_controlled_by_ROOT_or_subject = yes }
@@ -13621,10 +13639,16 @@ integrate_turkestan_category = {
 				transfer_state = 406
 				transfer_state = 407
 				transfer_state = 583
-				transfer_state = 586
+				if = {
+					limit = { 586 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 586
+				}
 				transfer_state = 587
 				transfer_state = 588
-				transfer_state = 589
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 590
 				transfer_state = 881
 				transfer_state = 882
@@ -13633,7 +13657,10 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
-				transfer_state = 732
+				if = {
+					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 732
+				}
 				transfer_state = 742
 				transfer_state = 584
 				transfer_state = 832
@@ -13688,10 +13715,10 @@ integrate_turkestan_category = {
 			406 = { is_controlled_by_ROOT_or_subject = yes }
 			407 = { is_controlled_by_ROOT_or_subject = yes }
 			583 = { is_controlled_by_ROOT_or_subject = yes }
-			586 = { is_controlled_by_ROOT_or_subject = yes }
+			#586 = { is_controlled_by_ROOT_or_subject = yes }
 			587 = { is_controlled_by_ROOT_or_subject = yes }
 			588 = { is_controlled_by_ROOT_or_subject = yes }
-			589 = { is_controlled_by_ROOT_or_subject = yes }
+			#589 = { is_controlled_by_ROOT_or_subject = yes }
 			590 = { is_controlled_by_ROOT_or_subject = yes }
 			881 = { is_controlled_by_ROOT_or_subject = yes }
 			882 = { is_controlled_by_ROOT_or_subject = yes }
@@ -13700,7 +13727,7 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
-			732 = { is_controlled_by_ROOT_or_subject = yes }
+			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
 			584 = { is_controlled_by_ROOT_or_subject = yes }
 			832 = { is_controlled_by_ROOT_or_subject = yes }
@@ -13712,10 +13739,16 @@ integrate_turkestan_category = {
 				transfer_state = 406
 				transfer_state = 407
 				transfer_state = 583
-				transfer_state = 586
+				if = {
+					limit = { 586 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 586
+				}
 				transfer_state = 587
 				transfer_state = 588
-				transfer_state = 589
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 590
 				transfer_state = 881
 				transfer_state = 882
@@ -13724,7 +13757,10 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
-				transfer_state = 732
+				if = {
+					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 732
+				}
 				transfer_state = 742
 				transfer_state = 584
 				transfer_state = 832
@@ -13779,10 +13815,10 @@ integrate_turkestan_category = {
 			406 = { is_controlled_by_ROOT_or_subject = yes }
 			407 = { is_controlled_by_ROOT_or_subject = yes }
 			583 = { is_controlled_by_ROOT_or_subject = yes }
-			586 = { is_controlled_by_ROOT_or_subject = yes }
+			#586 = { is_controlled_by_ROOT_or_subject = yes }
 			587 = { is_controlled_by_ROOT_or_subject = yes }
 			588 = { is_controlled_by_ROOT_or_subject = yes }
-			589 = { is_controlled_by_ROOT_or_subject = yes }
+			#589 = { is_controlled_by_ROOT_or_subject = yes }
 			590 = { is_controlled_by_ROOT_or_subject = yes }
 			881 = { is_controlled_by_ROOT_or_subject = yes }
 			882 = { is_controlled_by_ROOT_or_subject = yes }
@@ -13791,7 +13827,7 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
-			732 = { is_controlled_by_ROOT_or_subject = yes }
+			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
 			584 = { is_controlled_by_ROOT_or_subject = yes }
 			832 = { is_controlled_by_ROOT_or_subject = yes }
@@ -13803,10 +13839,16 @@ integrate_turkestan_category = {
 				transfer_state = 406
 				transfer_state = 407
 				transfer_state = 583
-				transfer_state = 586
+				if = {
+					limit = { 586 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 586
+				}
 				transfer_state = 587
 				transfer_state = 588
-				transfer_state = 589
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 590
 				transfer_state = 881
 				transfer_state = 882
@@ -13815,7 +13857,10 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
-				transfer_state = 732
+				if = {
+					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 732
+				}
 				transfer_state = 742
 				transfer_state = 584
 				transfer_state = 832
@@ -13870,10 +13915,10 @@ integrate_turkestan_category = {
 			406 = { is_controlled_by_ROOT_or_subject = yes }
 			407 = { is_controlled_by_ROOT_or_subject = yes }
 			583 = { is_controlled_by_ROOT_or_subject = yes }
-			586 = { is_controlled_by_ROOT_or_subject = yes }
+			#586 = { is_controlled_by_ROOT_or_subject = yes }
 			587 = { is_controlled_by_ROOT_or_subject = yes }
 			588 = { is_controlled_by_ROOT_or_subject = yes }
-			589 = { is_controlled_by_ROOT_or_subject = yes }
+			#589 = { is_controlled_by_ROOT_or_subject = yes }
 			590 = { is_controlled_by_ROOT_or_subject = yes }
 			881 = { is_controlled_by_ROOT_or_subject = yes }
 			882 = { is_controlled_by_ROOT_or_subject = yes }
@@ -13882,7 +13927,7 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
-			732 = { is_controlled_by_ROOT_or_subject = yes }
+			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
 			584 = { is_controlled_by_ROOT_or_subject = yes }
 			832 = { is_controlled_by_ROOT_or_subject = yes }
@@ -13894,10 +13939,16 @@ integrate_turkestan_category = {
 				transfer_state = 406
 				transfer_state = 407
 				transfer_state = 583
-				transfer_state = 586
+				if = {
+					limit = { 586 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 586
+				}
 				transfer_state = 587
 				transfer_state = 588
-				transfer_state = 589
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 590
 				transfer_state = 881
 				transfer_state = 882
@@ -13906,7 +13957,10 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
-				transfer_state = 732
+				if = {
+					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 732
+				}
 				transfer_state = 742
 				transfer_state = 584
 				transfer_state = 832
@@ -13961,10 +14015,10 @@ integrate_turkestan_category = {
 			406 = { is_controlled_by_ROOT_or_subject = yes }
 			407 = { is_controlled_by_ROOT_or_subject = yes }
 			583 = { is_controlled_by_ROOT_or_subject = yes }
-			586 = { is_controlled_by_ROOT_or_subject = yes }
+			#586 = { is_controlled_by_ROOT_or_subject = yes }
 			587 = { is_controlled_by_ROOT_or_subject = yes }
 			588 = { is_controlled_by_ROOT_or_subject = yes }
-			589 = { is_controlled_by_ROOT_or_subject = yes }
+			#589 = { is_controlled_by_ROOT_or_subject = yes }
 			590 = { is_controlled_by_ROOT_or_subject = yes }
 			881 = { is_controlled_by_ROOT_or_subject = yes }
 			882 = { is_controlled_by_ROOT_or_subject = yes }
@@ -13973,7 +14027,7 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
-			732 = { is_controlled_by_ROOT_or_subject = yes }
+			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
 			584 = { is_controlled_by_ROOT_or_subject = yes }
 			832 = { is_controlled_by_ROOT_or_subject = yes }
@@ -13985,10 +14039,16 @@ integrate_turkestan_category = {
 				transfer_state = 406
 				transfer_state = 407
 				transfer_state = 583
-				transfer_state = 586
+				if = {
+					limit = { 586 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 586
+				}
 				transfer_state = 587
 				transfer_state = 588
-				transfer_state = 589
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 590
 				transfer_state = 881
 				transfer_state = 882
@@ -13997,7 +14057,10 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
-				transfer_state = 732
+				if = {
+					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 732
+				}
 				transfer_state = 742
 				transfer_state = 584
 				transfer_state = 832
@@ -14052,10 +14115,10 @@ integrate_turkestan_category = {
 			406 = { is_controlled_by_ROOT_or_subject = yes }
 			407 = { is_controlled_by_ROOT_or_subject = yes }
 			583 = { is_controlled_by_ROOT_or_subject = yes }
-			586 = { is_controlled_by_ROOT_or_subject = yes }
+			#586 = { is_controlled_by_ROOT_or_subject = yes }
 			587 = { is_controlled_by_ROOT_or_subject = yes }
 			588 = { is_controlled_by_ROOT_or_subject = yes }
-			589 = { is_controlled_by_ROOT_or_subject = yes }
+			#589 = { is_controlled_by_ROOT_or_subject = yes }
 			590 = { is_controlled_by_ROOT_or_subject = yes }
 			881 = { is_controlled_by_ROOT_or_subject = yes }
 			882 = { is_controlled_by_ROOT_or_subject = yes }
@@ -14064,7 +14127,7 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
-			732 = { is_controlled_by_ROOT_or_subject = yes }
+			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
 			584 = { is_controlled_by_ROOT_or_subject = yes }
 			832 = { is_controlled_by_ROOT_or_subject = yes }
@@ -14076,10 +14139,16 @@ integrate_turkestan_category = {
 				transfer_state = 406
 				transfer_state = 407
 				transfer_state = 583
-				transfer_state = 586
+				if = {
+					limit = { 586 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 586
+				}
 				transfer_state = 587
 				transfer_state = 588
-				transfer_state = 589
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 590
 				transfer_state = 881
 				transfer_state = 882
@@ -14088,7 +14157,10 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
-				transfer_state = 732
+				if = {
+					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 732
+				}
 				transfer_state = 742
 				transfer_state = 584
 				transfer_state = 832
@@ -14143,10 +14215,10 @@ integrate_turkestan_category = {
 			406 = { is_controlled_by_ROOT_or_subject = yes }
 			407 = { is_controlled_by_ROOT_or_subject = yes }
 			583 = { is_controlled_by_ROOT_or_subject = yes }
-			586 = { is_controlled_by_ROOT_or_subject = yes }
+			#586 = { is_controlled_by_ROOT_or_subject = yes }
 			587 = { is_controlled_by_ROOT_or_subject = yes }
 			588 = { is_controlled_by_ROOT_or_subject = yes }
-			589 = { is_controlled_by_ROOT_or_subject = yes }
+			#589 = { is_controlled_by_ROOT_or_subject = yes }
 			590 = { is_controlled_by_ROOT_or_subject = yes }
 			881 = { is_controlled_by_ROOT_or_subject = yes }
 			882 = { is_controlled_by_ROOT_or_subject = yes }
@@ -14155,7 +14227,7 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
-			732 = { is_controlled_by_ROOT_or_subject = yes }
+			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
 			584 = { is_controlled_by_ROOT_or_subject = yes }
 			832 = { is_controlled_by_ROOT_or_subject = yes }
@@ -14167,10 +14239,16 @@ integrate_turkestan_category = {
 				transfer_state = 406
 				transfer_state = 407
 				transfer_state = 583
-				transfer_state = 586
+				if = {
+					limit = { 586 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 586
+				}
 				transfer_state = 587
 				transfer_state = 588
-				transfer_state = 589
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 590
 				transfer_state = 881
 				transfer_state = 882
@@ -14179,7 +14257,10 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
-				transfer_state = 732
+				if = {
+					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 732
+				}
 				transfer_state = 742
 				transfer_state = 584
 				transfer_state = 832
@@ -14234,10 +14315,10 @@ integrate_turkestan_category = {
 			406 = { is_controlled_by_ROOT_or_subject = yes }
 			407 = { is_controlled_by_ROOT_or_subject = yes }
 			583 = { is_controlled_by_ROOT_or_subject = yes }
-			586 = { is_controlled_by_ROOT_or_subject = yes }
+			#586 = { is_controlled_by_ROOT_or_subject = yes }
 			587 = { is_controlled_by_ROOT_or_subject = yes }
 			588 = { is_controlled_by_ROOT_or_subject = yes }
-			589 = { is_controlled_by_ROOT_or_subject = yes }
+			#589 = { is_controlled_by_ROOT_or_subject = yes }
 			590 = { is_controlled_by_ROOT_or_subject = yes }
 			881 = { is_controlled_by_ROOT_or_subject = yes }
 			882 = { is_controlled_by_ROOT_or_subject = yes }
@@ -14246,7 +14327,7 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
-			732 = { is_controlled_by_ROOT_or_subject = yes }
+			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
 			584 = { is_controlled_by_ROOT_or_subject = yes }
 			832 = { is_controlled_by_ROOT_or_subject = yes }
@@ -14258,10 +14339,16 @@ integrate_turkestan_category = {
 				transfer_state = 406
 				transfer_state = 407
 				transfer_state = 583
-				transfer_state = 586
+				if = {
+					limit = { 586 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 586
+				}
 				transfer_state = 587
 				transfer_state = 588
-				transfer_state = 589
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 590
 				transfer_state = 881
 				transfer_state = 882
@@ -14270,7 +14357,10 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
-				transfer_state = 732
+				if = {
+					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 732
+				}
 				transfer_state = 742
 				transfer_state = 584
 				transfer_state = 832
@@ -14325,10 +14415,10 @@ integrate_turkestan_category = {
 			406 = { is_controlled_by_ROOT_or_subject = yes }
 			407 = { is_controlled_by_ROOT_or_subject = yes }
 			583 = { is_controlled_by_ROOT_or_subject = yes }
-			586 = { is_controlled_by_ROOT_or_subject = yes }
+			#586 = { is_controlled_by_ROOT_or_subject = yes }
 			587 = { is_controlled_by_ROOT_or_subject = yes }
 			588 = { is_controlled_by_ROOT_or_subject = yes }
-			589 = { is_controlled_by_ROOT_or_subject = yes }
+			#589 = { is_controlled_by_ROOT_or_subject = yes }
 			590 = { is_controlled_by_ROOT_or_subject = yes }
 			881 = { is_controlled_by_ROOT_or_subject = yes }
 			882 = { is_controlled_by_ROOT_or_subject = yes }
@@ -14337,7 +14427,7 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
-			732 = { is_controlled_by_ROOT_or_subject = yes }
+			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
 			584 = { is_controlled_by_ROOT_or_subject = yes }
 			832 = { is_controlled_by_ROOT_or_subject = yes }
@@ -14349,10 +14439,16 @@ integrate_turkestan_category = {
 				transfer_state = 406
 				transfer_state = 407
 				transfer_state = 583
-				transfer_state = 586
+				if = {
+					limit = { 586 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 586
+				}
 				transfer_state = 587
 				transfer_state = 588
-				transfer_state = 589
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
 				transfer_state = 590
 				transfer_state = 881
 				transfer_state = 882
@@ -14361,7 +14457,10 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
-				transfer_state = 732
+				if = {
+					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 732
+				}
 				transfer_state = 742
 				transfer_state = 584
 				transfer_state = 832
