@@ -215,7 +215,18 @@
   integrate_horn_of_africa_africa_category: "整合非洲之角"
   ETH_integrate_horn_of_africa_africa: "向[ETH.GetName]移交领土"
 
-  #==========road to 56 ==========#
+  #========== TOA ==========#
+
+  integrate_hispaniola_category: "整合伊斯帕尼奥拉"
+  HAI_unite_hispaniola: "向[HAI.GetName]移交领土"
+  DOM_unite_hispaniola: "向[DOM.GetName]移交领土"
+
+  integrate_guianas_category: "整合圭亚那"
+  GYA_unite_guiana: "向[GYA.GetName]移交领土"
+  SUR_unite_guiana: "向[SUR.GetName]移交领土"
+  CAY_unite_guiana: "向[CAY.GetName]移交领土"
+
+  #========== road to 56 ==========#
 
   integrate_the_levant_category: "整合大叙利亚"
   LEB_integrate_greater_syria: "向[LEB.GetName]移交领土"

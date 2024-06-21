@@ -15190,7 +15190,337 @@ integrate_horn_of_africa_africa_category = {
 	}
 }
 
-#==========road to 56 ==========#
+#========== TOA ==========#
+
+integrate_hispaniola_category = {
+	HAI_unite_hispaniola = {
+		icon = generic_form_nation
+		visible = {
+			#is_historical_focus_on = no
+			HAI = {
+				is_subject_of = ROOT
+				NOT = { has_cosmetic_tag = CAB }
+			}
+			NOT = { has_global_flag = hispaniola_flag }
+		}
+		available = {
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			HAI = {
+				transfer_state = 319
+				transfer_state = 318
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = HAI
+					original_tag = DOM
+				}
+			}
+		}
+	}
+	DOM_unite_hispaniola = {
+		icon = generic_form_nation
+		visible = {
+			#is_historical_focus_on = no
+			DOM = {
+				is_subject_of = ROOT
+				NOT = { has_cosmetic_tag = CAB }
+			}
+			NOT = { has_global_flag = hispaniola_flag }
+		}
+		available = {
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			DOM = {
+				transfer_state = 319
+				transfer_state = 318
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = HAI
+					original_tag = DOM
+				}
+			}
+		}
+	}
+}
+
+integrate_peru_bolivia_category = {
+	BOL_integrate_peru_bolivia = {
+		icon = generic_form_nation
+		visible = {
+			#is_historical_focus_on = no
+			BOL = { is_subject_of = ROOT }
+			NOT = { has_global_flag = peru_bolivia_revived_flag }
+		}
+		available = {
+			491 = { is_controlled_by_ROOT_or_subject = yes }
+			303 = { is_controlled_by_ROOT_or_subject = yes }
+			494 = { is_controlled_by_ROOT_or_subject = yes }
+			492 = { is_controlled_by_ROOT_or_subject = yes }
+			487 = { is_controlled_by_ROOT_or_subject = yes }
+			302 = { is_controlled_by_ROOT_or_subject = yes }
+			1061 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect= {
+			BOL = {
+				transfer_state = 491
+				transfer_state = 303
+				transfer_state = 494
+				transfer_state = 492
+				transfer_state = 487
+				transfer_state = 302
+				if = {
+					limit = { 490 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 490
+				}
+				if = {
+					limit = { 688 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 688
+				}
+				if = {
+					limit = { 506 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 506
+				}
+				transfer_state = 1061
+				if = {
+					limit = { 1069 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1069
+				}
+				if = {
+					limit = { 1071 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1071
+				}
+				if = {
+					limit = { 1064 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1064
+				}
+				if = {
+					limit = { 1052 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1052
+				}
+				if = {
+					limit = { 1058 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1058
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = BOL
+					original_tag = PRU
+				}
+			}
+		}
+	}
+	PRU_integrate_peru_bolivia = {
+		icon = generic_form_nation
+		visible = {
+			#is_historical_focus_on = no
+			PRU = { is_subject_of = ROOT }
+			NOT = { has_global_flag = peru_bolivia_revived_flag }
+		}
+		available = {
+			491 = { is_controlled_by_ROOT_or_subject = yes }
+			303 = { is_controlled_by_ROOT_or_subject = yes }
+			494 = { is_controlled_by_ROOT_or_subject = yes }
+			492 = { is_controlled_by_ROOT_or_subject = yes }
+			487 = { is_controlled_by_ROOT_or_subject = yes }
+			302 = { is_controlled_by_ROOT_or_subject = yes }
+			1061 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect= {
+			PRU = {
+				transfer_state = 491
+				transfer_state = 303
+				transfer_state = 494
+				transfer_state = 492
+				transfer_state = 487
+				transfer_state = 302
+				if = {
+					limit = { 490 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 490
+				}
+				if = {
+					limit = { 688 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 688
+				}
+				if = {
+					limit = { 506 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 506
+				}
+				transfer_state = 1061
+				if = {
+					limit = { 1069 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1069
+				}
+				if = {
+					limit = { 1071 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1071
+				}
+				if = {
+					limit = { 1064 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1064
+				}
+				if = {
+					limit = { 1052 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1052
+				}
+				if = {
+					limit = { 1058 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1058
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = BOL
+					original_tag = PRU
+				}
+			}
+		}
+	}
+}
+
+integrate_guianas_category = {
+	GYA_unite_guiana = {
+		icon = generic_form_nation
+		visible = {
+			#is_historical_focus_on = no
+			GYA = { is_subject_of = ROOT }
+			NOT = { has_global_flag = guiana_flag }
+		}
+		available = {
+			309 = { is_controlled_by_ROOT_or_subject = yes }
+			310 = { is_controlled_by_ROOT_or_subject = yes }
+			687 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			GYA = {
+				transfer_state = 309
+				transfer_state = 310
+				transfer_state = 687
+				if = {
+					limit = { 488 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 488
+				}
+				if = {
+					limit = { 1056 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1056
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = GYA
+					original_tag = SUR
+					original_tag = CAY
+				}
+			}
+		}
+	}
+	SUR_unite_guiana = {
+		icon = generic_form_nation
+		visible = {
+			#is_historical_focus_on = no
+			SUR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = guiana_flag }
+		}
+		available = {
+			309 = { is_controlled_by_ROOT_or_subject = yes }
+			310 = { is_controlled_by_ROOT_or_subject = yes }
+			687 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			SUR = {
+				transfer_state = 309
+				transfer_state = 310
+				transfer_state = 687
+				if = {
+					limit = { 488 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 488
+				}
+				if = {
+					limit = { 1056 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1056
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = GYA
+					original_tag = SUR
+					original_tag = CAY
+				}
+			}
+		}
+	}
+	CAY_unite_guiana = {
+		icon = generic_form_nation
+		visible = {
+			#is_historical_focus_on = no
+			CAY = { is_subject_of = ROOT }
+			NOT = { has_global_flag = guiana_flag }
+		}
+		available = {
+			309 = { is_controlled_by_ROOT_or_subject = yes }
+			310 = { is_controlled_by_ROOT_or_subject = yes }
+			687 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			CAY = {
+				transfer_state = 309
+				transfer_state = 310
+				transfer_state = 687
+				if = {
+					limit = { 488 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 488
+				}
+				if = {
+					limit = { 1056 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1056
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = GYA
+					original_tag = SUR
+					original_tag = CAY
+				}
+			}
+		}
+	}
+}
+
+#========== road to 56 ==========#
 
 integrate_the_levant_category = {
 	LEB_integrate_greater_syria = {
@@ -15435,128 +15765,128 @@ integrate_the_levant_category = {
 	}
 }
 
-integrate_peru_bolivia_category = {
-	BOL_integrate_peru_bolivia = {
-		icon = generic_form_nation
-		visible = {
-			#is_historical_focus_on = no
-			BOL = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_peru_bolivia_flag }
-		}
-		available = {
-			302 = { is_controlled_by_ROOT_or_subject = yes }
-			487 = { is_controlled_by_ROOT_or_subject = yes }
-			494 = { is_controlled_by_ROOT_or_subject = yes }
-			492 = { is_controlled_by_ROOT_or_subject = yes }
-			1061 = { is_controlled_by_ROOT_or_subject = yes }
-			303 = { is_controlled_by_ROOT_or_subject = yes }
-			491 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect= {
-			BOL = {
-				transfer_state = 302
-				transfer_state = 487
-				transfer_state = 494
-				transfer_state = 492
-				transfer_state = 1061
-				transfer_state = 303
-				transfer_state = 491
-				if = {
-					limit = { 688 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 688
-				}
-				if = {
-					limit = { 506 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 506
-				}
-				if = {
-					limit = { 490 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 490
-				}
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = BOL
-						is_core_of = PRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = BOL
-			}
-		}
-		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = BOL
-					original_tag = PRU
-				}
-			}
-		}
-	}
-	PRU_integrate_peru_bolivia = {
-		icon = generic_form_nation
-		visible = {
-			#is_historical_focus_on = no
-			PRU = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_peru_bolivia_flag }
-		}
-		available = {
-			302 = { is_controlled_by_ROOT_or_subject = yes }
-			487 = { is_controlled_by_ROOT_or_subject = yes }
-			494 = { is_controlled_by_ROOT_or_subject = yes }
-			492 = { is_controlled_by_ROOT_or_subject = yes }
-			1061 = { is_controlled_by_ROOT_or_subject = yes }
-			303 = { is_controlled_by_ROOT_or_subject = yes }
-			491 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect= {
-			PRU = {
-				transfer_state = 302
-				transfer_state = 487
-				transfer_state = 494
-				transfer_state = 492
-				transfer_state = 1061
-				transfer_state = 303
-				transfer_state = 491
-				if = {
-					limit = { 688 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 688
-				}
-				if = {
-					limit = { 506 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 506
-				}
-				if = {
-					limit = { 490 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 490
-				}
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = BOL
-						is_core_of = PRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = PRU
-			}
-		}
-		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = BOL
-					original_tag = PRU
-				}
-			}
-		}
-	}
-}
+#integrate_peru_bolivia_category = {
+#	BOL_integrate_peru_bolivia = {
+#		icon = generic_form_nation
+#		visible = {
+#			#is_historical_focus_on = no
+#			BOL = { is_subject_of = ROOT }
+#			NOT = { has_global_flag = form_peru_bolivia_flag }
+#		}
+#		available = {
+#			302 = { is_controlled_by_ROOT_or_subject = yes }
+#			487 = { is_controlled_by_ROOT_or_subject = yes }
+#			494 = { is_controlled_by_ROOT_or_subject = yes }
+#			492 = { is_controlled_by_ROOT_or_subject = yes }
+#			1061 = { is_controlled_by_ROOT_or_subject = yes }
+#			303 = { is_controlled_by_ROOT_or_subject = yes }
+#			491 = { is_controlled_by_ROOT_or_subject = yes }
+#		}
+#		complete_effect= {
+#			BOL = {
+#				transfer_state = 302
+#				transfer_state = 487
+#				transfer_state = 494
+#				transfer_state = 492
+#				transfer_state = 1061
+#				transfer_state = 303
+#				transfer_state = 491
+#				if = {
+#					limit = { 688 = { is_controlled_by_ROOT_or_subject = yes } }
+#					transfer_state = 688
+#				}
+#				if = {
+#					limit = { 506 = { is_controlled_by_ROOT_or_subject = yes } }
+#					transfer_state = 506
+#				}
+#				if = {
+#					limit = { 490 = { is_controlled_by_ROOT_or_subject = yes } }
+#					transfer_state = 490
+#				}
+#			}
+#			every_state = {
+#				limit = {
+#					OR = {
+#						is_core_of = BOL
+#						is_core_of = PRU
+#					}
+#					is_controlled_by_ROOT_or_subject = yes
+#				}
+#				transfer_state_to = BOL
+#			}
+#		}
+#		ai_will_do = {
+#			factor = 200
+#			modifier = {
+#				factor = 0
+#				OR = {
+#					original_tag = BOL
+#					original_tag = PRU
+#				}
+#			}
+#		}
+#	}
+#	PRU_integrate_peru_bolivia = {
+#		icon = generic_form_nation
+#		visible = {
+#			#is_historical_focus_on = no
+#			PRU = { is_subject_of = ROOT }
+#			NOT = { has_global_flag = form_peru_bolivia_flag }
+#		}
+#		available = {
+#			302 = { is_controlled_by_ROOT_or_subject = yes }
+#			487 = { is_controlled_by_ROOT_or_subject = yes }
+#			494 = { is_controlled_by_ROOT_or_subject = yes }
+#			492 = { is_controlled_by_ROOT_or_subject = yes }
+#			1061 = { is_controlled_by_ROOT_or_subject = yes }
+#			303 = { is_controlled_by_ROOT_or_subject = yes }
+#			491 = { is_controlled_by_ROOT_or_subject = yes }
+#		}
+#		complete_effect= {
+#			PRU = {
+#				transfer_state = 302
+#				transfer_state = 487
+#				transfer_state = 494
+#				transfer_state = 492
+#				transfer_state = 1061
+#				transfer_state = 303
+#				transfer_state = 491
+#				if = {
+#					limit = { 688 = { is_controlled_by_ROOT_or_subject = yes } }
+#					transfer_state = 688
+#				}
+#				if = {
+#					limit = { 506 = { is_controlled_by_ROOT_or_subject = yes } }
+#					transfer_state = 506
+#				}
+#				if = {
+#					limit = { 490 = { is_controlled_by_ROOT_or_subject = yes } }
+#					transfer_state = 490
+#				}
+#			}
+#			every_state = {
+#				limit = {
+#					OR = {
+#						is_core_of = BOL
+#						is_core_of = PRU
+#					}
+#					is_controlled_by_ROOT_or_subject = yes
+#				}
+#				transfer_state_to = PRU
+#			}
+#		}
+#		ai_will_do = {
+#			factor = 200
+#			modifier = {
+#				factor = 0
+#				OR = {
+#					original_tag = BOL
+#					original_tag = PRU
+#				}
+#			}
+#		}
+#	}
+#}
 
 integrate_prussia_category = {
 	DNZ_integrate_prussia = {

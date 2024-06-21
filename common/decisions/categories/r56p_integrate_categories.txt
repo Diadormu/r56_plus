@@ -67,7 +67,14 @@ integrate_east_africa_category = {
 integrate_horn_of_africa_africa_category = {
 	icon = generic_formable_nations
 }
-#==========road to 56 ==========#
+#========== TOA ==========#
+integrate_hispaniola_category = {
+	icon = generic_formable_nations
+}
+integrate_guianas_category = {
+	icon = generic_formable_nations
+}
+#========== road to 56 ==========#
 integrate_the_levant_category = {
 	icon = generic_formable_nations
 }
