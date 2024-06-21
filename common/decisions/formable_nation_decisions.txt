@@ -1326,6 +1326,7 @@ form_united_central_america_category = {
 				original_tag = HON
 				original_tag = NIC
 				original_tag = COS
+				original_tag = BLZ
 			}
 			NOT = { has_global_flag = form_united_central_america_flag }
 		}
@@ -5044,7 +5045,7 @@ form_roman_empire_category = {
 			set_province_name = { id = 9833 name = "君士坦丁堡" }
 			184 = { set_state_name = "东马其顿" }
 			731 = { set_state_name = "萨洛尼卡" }
-			184 = { set_state_name = "斯特里蒙" }
+			184 = { set_state_name = "斯特律门" }
 			340 = { set_state_name = "普鲁萨" }
 			set_province_name = { id = 947 name = "旧堡" }
 			341 = { set_state_name = "色雷斯" }
@@ -5056,13 +5057,24 @@ form_roman_empire_category = {
 			set_province_name = { id = 1005 name = "阿塔雷亚" }
 			347 = { set_state_name = "奥普提马通" }
 			set_province_name = { id = 11811 name = "尼科米底亚" }
-			#set_province_name = { id = 973 name = "蓬托赫拉克里亚" }
+			set_province_name = { id = 973 name = "蓬托赫拉克里亚" }
 			345 = { set_state_name = "塞琉西亚" }
 			set_province_name = { id = 10056 name = "哈德良波利斯" }
 			344 = { set_state_name = "奇里乞亚" }
 			set_province_name = { id = 11746 name = "塔尔苏斯" }
 			#set_province_name = { id = 958 name = "泽马尼西亚" }
 			set_province_name = { id = 9893 name = "安条克" }
+			set_province_name = { id = 914 name = "吉诺卡斯特" }
+			44 = { set_state_name = "伊利里亚" }
+			set_province_name = { id = 9914 name = "卡斯特里堤" }
+			set_province_name = { id = 11767 name = "奥伦" }
+			105 = { set_state_name = "都拉奇翁" }
+			set_province_name = { id = 9809 name = "底耳哈琴" }
+			set_province_name = { id = 914 name = "吉诺卡斯特" }
+			set_province_name = { id = 3924 name = "斯帕拉托" }
+			104 = { set_state_name = "博索纳" }
+			799 = { set_state_name = "安条克" }
+			set_province_name = { id = 12029 name = "安提阿" }
 			
 			hidden_effect = {
 				news_event = { id = wtt_news.64 hours = 6 }
@@ -5490,6 +5502,27 @@ form_roman_empire_category = {
 
 			# R56, West Sandzak
 			963 = { add_core_of = ROOT }
+
+			48 = { set_state_name = "瓦拉几亚" }
+			set_province_name = { id = 6652 name = "佩伦达瓦" }
+			46 = { set_state_name = "帕里斯特隆" }
+			set_province_name = { id = 9617 name = "科斯米迪斯" }
+			set_province_name = { id = 3663 name = "塔尔诺沃" }
+			77 = { set_state_name = "阿其亚鲁斯" }
+			set_province_name = { id = 11597 name = "墨森布瑞亚" }
+			766 = { set_state_name = "锡利斯特拉" }
+			set_province_name = { id = 6727 name = "维利萨里奥斯" }
+			212 = { set_state_name = "菲利普波里斯" }
+			set_province_name = { id = 6923 name = "菲利普波里斯" }
+			211 = { set_state_name = "皮尔戈斯" }
+			set_province_name = { id = 9902 name = "佩罗斯" }
+			set_province_name = { id = 9783 name = "奥德索斯" }
+			106 = { set_state_name = "博尔加里亚斯" }
+			set_province_name = { id = 3882 name = "斯库皮" }
+			107 = { set_state_name = "塞尔曼" }
+			set_province_name = { id = 11586 name = "贝尔格莱德" }
+			108 = { set_state_name = "皮兹伦" }
+			set_province_name = { id = 9602 name = "纳伊斯斯" }
 
 			
 			add_stability = -0.05
@@ -6136,6 +6169,7 @@ form_roman_empire_category = {
 			# R56, Posavina
 			962 = { add_core_of = ROOT }
 			
+			set_province_name = { id = 11581 name = "唯尼泽罗斯" }
 			
 			add_stability = -0.05
 			 
@@ -7410,23 +7444,23 @@ form_byzantine_empire_category = {
 				add_state_core = 187
 				add_state_core = 182
 				731 = { set_state_name = "萨洛尼卡" }
-				184 = { set_state_name = "斯特里蒙" }
+				184 = { set_state_name = "斯特律门" }
 			}
 			# Turkey
 			custom_effect_tooltip = form_country_turkey_coring_states_tt
 			hidden_effect = {
 				341 = { add_core_of = ROOT }
 				340 = { set_state_name = "色雷斯" }
-				set_province_name = { id = 947 name = "普吕萨" }
+				set_province_name = { id = 947 name = "普鲁萨" }
 				340 = { add_core_of = ROOT }
-				340 = { set_state_name = "普吕萨" }
-				set_province_name = { id = 947 name = "普吕萨" }
+				340 = { set_state_name = "普鲁萨" }
+				set_province_name = { id = 947 name = "普鲁萨" }
 				339 = { add_core_of = ROOT }
 				339 = { set_state_name = "萨摩斯" }
 				set_province_name = { id = 4112 name = "士麦那" }
 				342 = { add_core_of = ROOT }
 				342 = { set_state_name = "基比拉奥特" }
-				set_province_name = { id = 1005 name = "阿塔雷亚" }
+				set_province_name = { id = 1005 name = "安塔利亚" }
 				343 = { add_core_of = ROOT }
 				343 = { set_state_name = "色雷斯松" }
 				set_province_name = { id = 9878 name = "尼科波利斯" }
@@ -7450,7 +7484,7 @@ form_byzantine_empire_category = {
 				set_province_name = { id = 6995 name = "西诺佩" }
 				set_province_name = { id = 6938 name = "科穆宁堡" }
 				348 = { add_core_of = ROOT }
-				348 = { set_state_name = "卡帕多希亚" }
+				348 = { set_state_name = "卡帕多西亚" }
 				set_province_name = { id = 3870 name = "凯撒利亚" }
 				344 = { add_core_of = ROOT }
 				344 = { set_state_name = "奇里乞亚" }
@@ -7469,14 +7503,14 @@ form_byzantine_empire_category = {
 				set_province_name = { id = 3862 name = "陶伊翁" }
 				350 = { add_core_of = ROOT }
 				350 = { set_state_name = "梅利特纳" }
-				set_province_name = { id = 7620 name = "梅利特纳" }
+				set_province_name = { id = 7620 name = "马拉蒂亚" }
 				set_province_name = { id = 9823 name = "查士丁纳波利斯" }
 				set_province_name = { id = 4512 name = "阿米达" }
 				354 = { add_core_of = ROOT }
 				354 = { set_state_name = "查尔迪亚" }
 				set_province_name = { id = 9932 name = "特拉比松" }
 				353 = { add_core_of = ROOT }
-				353 = { set_state_name = "曼齐克特" }
+				353 = { set_state_name = "曼齐刻尔特" }
 				set_province_name = { id = 11853 name = "提奥多西波利斯" }
 				352 = { add_core_of = ROOT }
 				352 = { set_state_name = "胡布什基亚" }
@@ -7831,11 +7865,18 @@ form_byzantine_empire_category = {
 			custom_effect_tooltip = form_country_yugoslavia_coring_states_tt
 			hidden_effect = {
 				103 = { add_core_of = ROOT }
+				set_province_name = { id = 3924 name = "斯帕拉托" }
 				109 = { add_core_of = ROOT }
+				set_province_name = { id = 11581 name = "唯尼泽罗斯" }
 				104 = { add_core_of = ROOT }
+				104 = { set_state_name = "博索纳" }
 				107 = { add_core_of = ROOT }
+				107 = { set_state_name = "塞尔曼" }
+				set_province_name = { id = 11586 name = "贝尔格莱德" }
 				105 = { add_core_of = ROOT }
 				108 = { add_core_of = ROOT }
+				108 = { set_state_name = "皮兹伦" }
+				set_province_name = { id = 9602 name = "纳伊斯斯" }
 				106 = { add_core_of = ROOT }
 				963 = { add_core_of = ROOT }
 				962 = { add_core_of = ROOT }
@@ -14713,15 +14754,15 @@ greater_italy_category = {
 							controls_state = 1 # Corsica
 						}
 					}
-					OR = {
-						ITA = { 
-						controls_state = 846 # Ticino 
-						}
-						any_country = {
-							is_subject_of = ITA
-							controls_state = 846 # Ticino
-						}
-					}
+					#OR = {
+					#	ITA = { 
+					#	controls_state = 846 # Ticino 
+					#	}
+					#	any_country = {
+					#		is_subject_of = ITA
+					#		controls_state = 846 # Ticino
+					#	}
+					#}
 					OR = {
 						ITA = { 
 						controls_state = 735 # Savoy 
@@ -14838,9 +14879,11 @@ greater_italy_category = {
 				} 
 				
 				# Ticino
+				if = {
+					limit = { 846 = { is_controlled_by_ROOT_or_subject = yes } }
 				ITA = {
 					transfer_state = 846
-				}
+				}}
 				846 = { add_core_of = ROOT }
 				
 				# Savoy

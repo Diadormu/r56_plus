@@ -4175,6 +4175,48 @@ integrate_united_central_america_category = {
 			}
 		}
 	}
+	BLZ_united_central_america = {
+		icon = generic_form_nation
+		visible = {
+			#is_historical_focus_on = no
+			BLZ = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_united_central_america_flag }
+		}
+		available = {
+			313 = { is_controlled_by_ROOT_or_subject = yes }
+			314 = { is_controlled_by_ROOT_or_subject = yes }
+			312 = { is_controlled_by_ROOT_or_subject = yes }
+			317 = { is_controlled_by_ROOT_or_subject = yes }
+			316 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			BLZ = {
+				transfer_state = 313
+				transfer_state = 314
+				transfer_state = 312
+				transfer_state = 317
+				transfer_state = 316
+				if = {
+					limit = { 311 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 311
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = GUA
+					original_tag = ELS
+					original_tag = HON
+					original_tag = NIC
+					original_tag = COS
+					original_tag = BLZ
+				}
+			}
+		}
+	}
 }
 
 integrate_baltic_federation_category = {

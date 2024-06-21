@@ -41,7 +41,7 @@ form_nation_mod_category = {
 		allowed = { original_tag = HUN }
 		visible = {
 			original_tag = HUN
-			has_completed_focus = HUN_demand_transylvania
+			#has_completed_focus = HUN_demand_transylvania
 			OR = {
 				76 = {
 					is_controlled_by_ROOT_or_subject = yes
@@ -109,7 +109,7 @@ form_nation_mod_category = {
 		allowed = { original_tag = HUN }
 		visible = {
 			original_tag = HUN
-			has_completed_focus = HUN_demand_southern_slovakia
+			#has_completed_focus = HUN_demand_southern_slovakia
 			OR = {
 				664 = {
 					is_controlled_by_ROOT_or_subject = yes
@@ -153,7 +153,7 @@ form_nation_mod_category = {
 		allowed = { original_tag = HUN }
 		visible = {
 			original_tag = HUN
-			has_completed_focus = HUN_demand_the_vojvodina
+			#has_completed_focus = HUN_demand_the_vojvodina
 			OR = {
 				45 = {
 					is_controlled_by_ROOT_or_subject = yes
