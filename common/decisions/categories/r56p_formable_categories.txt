@@ -1,3 +1,13 @@
+form_nation_mod_category = {
+	icon = generic_formable_nations
+	picture = GFX_decision_cat_picture_chi_political_support
+	priority = 30
+}
+rename_cities_category = {
+	icon = category_generic
+	priority = 5
+}
+
 form_north_american_category = {
 	icon = generic_formable_nations
 
@@ -77,12 +87,6 @@ form_north_american_category = {
 					state = 396
 					state = 463
 					state = 816
-					state = 921
-					state = 990
-					state = 991
-					state = 992
-					state = 993
-					state = 1023
 					state = 277
 					state = 474
 					state = 475
@@ -96,10 +100,6 @@ form_north_american_category = {
 					state = 483
 					state = 484
 					state = 485
-					state = 929
-					state = 930
-					state = 931
-					state = 932
 				}
 			}
 		}
@@ -181,13 +181,6 @@ form_greater_china_category = {
 					state = 759
 					state = 760
 					state = 761
-					state = 941
-					state = 942
-					state = 943
-					state = 944
-					state = 945
-					state = 946
-					state = 947
 					state = 326
 					state = 728
 					state = 729
@@ -246,14 +239,6 @@ form_united_balkan_category = {
 					state = 802
 					state = 803
 					state = 804
-					state = 950
-					state = 953
-					state = 956
-					state = 958
-					state = 959
-					state = 961
-					state = 962
-					state = 963
 					state = 44
 					state = 805
 					state = 910
@@ -275,7 +260,6 @@ form_united_balkan_category = {
 					state = 77
 					state = 79
 					state = 81
-					state = 955
 				}
 			}
 		}
@@ -288,6 +272,7 @@ integrate_united_balkan_category = {
 
 integrate_greater_german_reich_category = {
 	icon = generic_formable_nations
+	allowed = { has_dlc = "Waking the Tiger" }
 }
 integrate_greater_italy_category = {
 	icon = generic_formable_nations

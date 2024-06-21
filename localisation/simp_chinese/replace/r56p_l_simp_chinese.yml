@@ -1,4 +1,8 @@
 ﻿l_simp_chinese:
+  form_nation_mod_category: "国家统一"
+  rename_cities_category: "标记土地"
+  formable_cored_states_tt: "获得§Y所有所需地区§!的§Y核心§!"
+
   get_core_from_subject: "从傀儡国收回核心领土"
   HUN_integrate_transylvania: "整合特兰西瓦尼亚"
   HUN_integrate_southern_slovakia: "整合南斯洛伐克"
@@ -9,6 +13,15 @@
   r56p_SOV_rename_constantinople: "重命名[9833.GetName]"
   r56p_GER_rename_berlin: "重命名[6521.GetName]"
 
+  EUR_spanish_membership: "西班牙成员资格"
+  form_country_spain_required_states_tt: "控制西班牙全部核心地区"
+  form_eu_spain_coring_states_tt: "获得西班牙所有地区的核心"
+  EUR_portuguese_membership: "葡萄牙成员资格"
+  form_country_portugal_required_states_tt: "控制葡萄牙全部核心地区"
+  form_eu_portugal_coring_states_tt: "获得葡萄牙所有地区的核心"
+  EUR_danish_membership: "丹麦成员资格"
+  EUR_swedish_membership: "瑞典成员资格"
+  EUR_norwegian_membership: "挪威成员资格"
   EUR_AUS_membership: "奥地利成员资格"
   form_country_AUS_required_states_tt: "控制§Y奥地利§!的所有地区。"
   form_country_AUS_coring_states_tt: "获得§Y奥地利§!所有地区的核心。\n"
@@ -22,7 +35,7 @@
   form_country_KAR_required_states_tt: "控制§Y卡累利阿§!的所有地区。"
   form_country_KAR_coring_states_tt: "获得§Y卡累利阿§!所有地区的核心。\n"
 
-  RULE_ALLOW_RELEASE_NATIONS_SOVIET_TOOLTIP: "§Y[ROOT.GetNameDefCap]§!不能释放该国家\n除非先完成§Y$SOV_freedom_of_debate_unity_of_action$§!国策\n或 §Y$SOV_autonomous_soviet_republics$§!国策\n或§Y$SOV_the_peoples_revolution$§!国策\n或§Y$SOV_socialist_humanism$§!国策\n或§Y$SOV_reconvene_the_zemsky_sobor$§!国策\n 或§Y$SOV_rebuild_the_duma$§!国策。"
+  RULE_ALLOW_RELEASE_NATIONS_SOVIET_TOOLTIP: "§Y[ROOT.GetNameDefCap]§!不能释放该国家\n除非先完成§Y$SOV_freedom_of_debate_unity_of_action$§!国策\n或 §Y$SOV_autonomous_soviet_republics$§!国策\n或§Y$SOV_the_peoples_revolution$§!国策\n或§Y$SOV_for_the_common_good$§!国策\n或§Y$SOV_reconvene_the_zemsky_sobor$§!国策"
   claim_southern_don: "整合顿河南岸"
   back_tsarist_russia_category: "收复沙俄故土"
   claim_FIN: "整合芬兰"

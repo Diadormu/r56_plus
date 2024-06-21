@@ -39,28 +39,7 @@ form_nation_mod_category = {
 	HUN_integrate_transylvania = {
 		icon = generic_form_nation
 		allowed = { original_tag = HUN }
-		visible = {
-			original_tag = HUN
-			#has_completed_focus = HUN_demand_transylvania
-			OR = {
-				76 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				82 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				83 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				84 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-			}
-		}
+		visible = { original_tag = HUN }
 		available = {
 			OR = {
 				76 = {
@@ -81,9 +60,8 @@ form_nation_mod_category = {
 				}
 			}
 		}
-		cost = 20
-		days_remove = 60
-		remove_effect = {
+		fire_only_once = yes
+		complete_effect = {
 			76 = {
 				add_core_of = HUN
 				transfer_state_to = HUN
@@ -107,40 +85,18 @@ form_nation_mod_category = {
 	HUN_integrate_southern_slovakia = {
 		icon = generic_form_nation
 		allowed = { original_tag = HUN }
-		visible = {
-			original_tag = HUN
-			#has_completed_focus = HUN_demand_southern_slovakia
-			OR = {
-				664 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				996 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-			}
-		}
+		visible = { original_tag = HUN }
 		available = {
 			OR = {
 				664 = {
 					is_controlled_by_ROOT_or_subject = yes
 					NOT = { is_core_of = HUN }
 				}
-				996 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
 			}
 		}
-		cost = 20
-		days_remove = 60
-		remove_effect = {
+		fire_only_once = yes
+		complete_effect = {
 			664 = {
-				add_core_of = HUN
-				transfer_state_to = HUN
-			}
-			996 = {
 				add_core_of = HUN
 				transfer_state_to = HUN
 			}
@@ -151,24 +107,7 @@ form_nation_mod_category = {
 	HUN_integrate_vojvodina = {
 		icon = generic_form_nation
 		allowed = { original_tag = HUN }
-		visible = {
-			original_tag = HUN
-			#has_completed_focus = HUN_demand_the_vojvodina
-			OR = {
-				45 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				764 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				952 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-			}
-		}
+		visible = { original_tag = HUN }
 		available = {
 			OR = {
 				45 = {
@@ -179,128 +118,15 @@ form_nation_mod_category = {
 					is_controlled_by_ROOT_or_subject = yes
 					NOT = { is_core_of = HUN }
 				}
-				952 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
 			}
 		}
-		cost = 20
-		days_remove = 60
-		remove_effect = {
+		fire_only_once = yes
+		complete_effect = {
 			45 = {
 				add_core_of = HUN
 				transfer_state_to = HUN
 			}
 			764 = {
-				add_core_of = HUN
-				transfer_state_to = HUN
-			}
-			952 = {
-				add_core_of = HUN
-				transfer_state_to = HUN
-			}
-		}
-
-		ai_will_do = { factor = 200 }
-	}
-	HUN_integrate_greater_hungary = {
-		icon = generic_form_nation
-		allowed = { original_tag = HUN }
-		visible = {
-			original_tag = HUN
-			has_completed_focus = HUN_proclaim_greater_hungary
-			OR = {
-				70 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				71 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				73 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				109 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				956 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				958 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				959 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-			}
-		}
-		available = {
-			OR = {
-				70 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				71 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				73 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				109 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				956 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				958 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				959 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-			}
-		}
-		cost = 30
-		days_remove = 90
-		remove_effect = {
-			70 = {
-				add_core_of = HUN
-				transfer_state_to = HUN
-			}
-			71 = {
-				add_core_of = HUN
-				transfer_state_to = HUN
-			}
-			73 = {
-				add_core_of = HUN
-				transfer_state_to = HUN
-			}
-			109 = {
-				add_core_of = HUN
-				transfer_state_to = HUN
-			}
-			956 = {
-				add_core_of = HUN
-				transfer_state_to = HUN
-			}
-			958 = {
-				add_core_of = HUN
-				transfer_state_to = HUN
-			}
-			959 = {
 				add_core_of = HUN
 				transfer_state_to = HUN
 			}
@@ -314,7 +140,7 @@ form_nation_mod_category = {
 		allowed = { original_tag = ENG }
 		visible = {
 			original_tag = ENG
-			has_completed_focus = ENG_reinforce_the_empire
+			has_completed_focus = uk_empire_focus
 		}
 		available = {
 			controls_state = 113
@@ -551,12 +377,6 @@ form_north_american_category = {
 				controls_state = 396
 				controls_state = 463
 				controls_state = 816
-				controls_state = 921
-				controls_state = 990
-				controls_state = 991
-				controls_state = 992
-				controls_state = 993
-				controls_state = 1023
 			}
 			custom_trigger_tooltip = {
 				tooltip = form_country_MEX_required_states_tt
@@ -573,10 +393,6 @@ form_north_american_category = {
 				controls_state = 483
 				controls_state = 484
 				controls_state = 485
-				controls_state = 929
-				controls_state = 930
-				controls_state = 931
-				controls_state = 932
 			}
 		}
 
@@ -655,12 +471,6 @@ form_north_american_category = {
 				396 = { add_core_of = ROOT }
 				463 = { add_core_of = ROOT }
 				816 = { add_core_of = ROOT }
-				921 = { add_core_of = ROOT }
-				990 = { add_core_of = ROOT }
-				991 = { add_core_of = ROOT }
-				992 = { add_core_of = ROOT }
-				993 = { add_core_of = ROOT }
-				1023 = { add_core_of = ROOT }
 			}
 			custom_effect_tooltip = form_country_MEX_coring_states_tt
 			hidden_effect = {
@@ -677,18 +487,11 @@ form_north_american_category = {
 				483 = { add_core_of = ROOT }
 				484 = { add_core_of = ROOT }
 				485 = { add_core_of = ROOT }
-				929 = { add_core_of = ROOT }
-				930 = { add_core_of = ROOT }
-				931 = { add_core_of = ROOT }
-				932 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.3000 hours = 6 }
 				set_global_flag = form_north_american_flag
 			}
-			add_ideas = generic_recent_political_unification
-			add_ideas = generic_recent_army_unification
-			add_ideas = generic_recent_economic_unification
 		}
 
 		ai_will_do = {
@@ -785,12 +588,6 @@ integrate_north_american_category = {
 				396 = { is_controlled_by_ROOT_or_subject = yes }
 				463 = { is_controlled_by_ROOT_or_subject = yes }
 				816 = { is_controlled_by_ROOT_or_subject = yes }
-				921 = { is_controlled_by_ROOT_or_subject = yes }
-				990 = { is_controlled_by_ROOT_or_subject = yes }
-				991 = { is_controlled_by_ROOT_or_subject = yes }
-				992 = { is_controlled_by_ROOT_or_subject = yes }
-				993 = { is_controlled_by_ROOT_or_subject = yes }
-				1023 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_MEX_required_states_tt
@@ -807,10 +604,6 @@ integrate_north_american_category = {
 				483 = { is_controlled_by_ROOT_or_subject = yes }
 				484 = { is_controlled_by_ROOT_or_subject = yes }
 				485 = { is_controlled_by_ROOT_or_subject = yes }
-				929 = { is_controlled_by_ROOT_or_subject = yes }
-				930 = { is_controlled_by_ROOT_or_subject = yes }
-				931 = { is_controlled_by_ROOT_or_subject = yes }
-				932 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -888,12 +681,6 @@ integrate_north_american_category = {
 					transfer_state = 396
 					transfer_state = 463
 					transfer_state = 816
-					transfer_state = 921
-					transfer_state = 990
-					transfer_state = 991
-					transfer_state = 992
-					transfer_state = 993
-					transfer_state = 1023
 				}
 				custom_effect_tooltip = integrate_country_MEX_coring_states_tt
 				hidden_effect = {
@@ -910,10 +697,6 @@ integrate_north_american_category = {
 					transfer_state = 483
 					transfer_state = 484
 					transfer_state = 485
-					transfer_state = 929
-					transfer_state = 930
-					transfer_state = 931
-					transfer_state = 932
 				}
 			}
 		}
@@ -1013,12 +796,6 @@ integrate_north_american_category = {
 				396 = { is_controlled_by_ROOT_or_subject = yes }
 				463 = { is_controlled_by_ROOT_or_subject = yes }
 				816 = { is_controlled_by_ROOT_or_subject = yes }
-				921 = { is_controlled_by_ROOT_or_subject = yes }
-				990 = { is_controlled_by_ROOT_or_subject = yes }
-				991 = { is_controlled_by_ROOT_or_subject = yes }
-				992 = { is_controlled_by_ROOT_or_subject = yes }
-				993 = { is_controlled_by_ROOT_or_subject = yes }
-				1023 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_MEX_required_states_tt
@@ -1035,10 +812,6 @@ integrate_north_american_category = {
 				483 = { is_controlled_by_ROOT_or_subject = yes }
 				484 = { is_controlled_by_ROOT_or_subject = yes }
 				485 = { is_controlled_by_ROOT_or_subject = yes }
-				929 = { is_controlled_by_ROOT_or_subject = yes }
-				930 = { is_controlled_by_ROOT_or_subject = yes }
-				931 = { is_controlled_by_ROOT_or_subject = yes }
-				932 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -1116,12 +889,6 @@ integrate_north_american_category = {
 					transfer_state = 396
 					transfer_state = 463
 					transfer_state = 816
-					transfer_state = 921
-					transfer_state = 990
-					transfer_state = 991
-					transfer_state = 992
-					transfer_state = 993
-					transfer_state = 1023
 				}
 				custom_effect_tooltip = integrate_country_MEX_coring_states_tt
 				hidden_effect = {
@@ -1138,10 +905,6 @@ integrate_north_american_category = {
 					transfer_state = 483
 					transfer_state = 484
 					transfer_state = 485
-					transfer_state = 929
-					transfer_state = 930
-					transfer_state = 931
-					transfer_state = 932
 				}
 			}
 		}
@@ -1241,12 +1004,6 @@ integrate_north_american_category = {
 				396 = { is_controlled_by_ROOT_or_subject = yes }
 				463 = { is_controlled_by_ROOT_or_subject = yes }
 				816 = { is_controlled_by_ROOT_or_subject = yes }
-				921 = { is_controlled_by_ROOT_or_subject = yes }
-				990 = { is_controlled_by_ROOT_or_subject = yes }
-				991 = { is_controlled_by_ROOT_or_subject = yes }
-				992 = { is_controlled_by_ROOT_or_subject = yes }
-				993 = { is_controlled_by_ROOT_or_subject = yes }
-				1023 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_MEX_required_states_tt
@@ -1263,10 +1020,6 @@ integrate_north_american_category = {
 				483 = { is_controlled_by_ROOT_or_subject = yes }
 				484 = { is_controlled_by_ROOT_or_subject = yes }
 				485 = { is_controlled_by_ROOT_or_subject = yes }
-				929 = { is_controlled_by_ROOT_or_subject = yes }
-				930 = { is_controlled_by_ROOT_or_subject = yes }
-				931 = { is_controlled_by_ROOT_or_subject = yes }
-				932 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -1344,12 +1097,6 @@ integrate_north_american_category = {
 					transfer_state = 396
 					transfer_state = 463
 					transfer_state = 816
-					transfer_state = 921
-					transfer_state = 990
-					transfer_state = 991
-					transfer_state = 992
-					transfer_state = 993
-					transfer_state = 1023
 				}
 				custom_effect_tooltip = integrate_country_MEX_coring_states_tt
 				hidden_effect = {
@@ -1366,10 +1113,6 @@ integrate_north_american_category = {
 					transfer_state = 483
 					transfer_state = 484
 					transfer_state = 485
-					transfer_state = 929
-					transfer_state = 930
-					transfer_state = 931
-					transfer_state = 932
 				}
 			}
 		}
@@ -1471,13 +1214,6 @@ form_greater_china_category = {
 			owns_state = 759
 			owns_state = 760
 			owns_state = 761
-			owns_state = 941
-			owns_state = 942
-			owns_state = 943
-			owns_state = 944
-			owns_state = 945
-			owns_state = 946
-			owns_state = 947
 		}
 
 		available = {
@@ -1542,13 +1278,6 @@ form_greater_china_category = {
 				owns_state = 759
 				owns_state = 760
 				owns_state = 761
-				owns_state = 941
-				owns_state = 942
-				owns_state = 943
-				owns_state = 944
-				owns_state = 945
-				owns_state = 946
-				owns_state = 947
 			}
 			controls_state = 326 #香港
 			controls_state = 728 #广州湾
@@ -1631,9 +1360,9 @@ form_greater_china_category = {
 				transfer_state = 787
 			}
 
-			#434 = { set_state_name = "藏南" }
+			434 = { set_state_name = "藏南" }
 			329 = { set_state_name = "唐努乌梁" }
-			732 = { set_state_name = "帕米尔" }
+			#732 = { set_state_name = "帕米尔" }
 			408 = { set_state_name = "海参崴" }
 			set_province_name = { id = 957 name = "海参崴" }
 			set_province_name = { id = 11750 name = "双城子" }
@@ -1717,13 +1446,6 @@ integrate_greater_china_category = {
 				owns_state = 759
 				owns_state = 760
 				owns_state = 761
-				owns_state = 941
-				owns_state = 942
-				owns_state = 943
-				owns_state = 944
-				owns_state = 945
-				owns_state = 946
-				owns_state = 947
 				owns_state = 326
 				owns_state = 728
 				owns_state = 729
@@ -1867,13 +1589,6 @@ integrate_greater_china_category = {
 				owns_state = 759
 				owns_state = 760
 				owns_state = 761
-				owns_state = 941
-				owns_state = 942
-				owns_state = 943
-				owns_state = 944
-				owns_state = 945
-				owns_state = 946
-				owns_state = 947
 				owns_state = 326
 				owns_state = 728
 				owns_state = 729
@@ -2021,13 +1736,6 @@ integrate_greater_china_category = {
 				owns_state = 759
 				owns_state = 760
 				owns_state = 761
-				owns_state = 941
-				owns_state = 942
-				owns_state = 943
-				owns_state = 944
-				owns_state = 945
-				owns_state = 946
-				owns_state = 947
 				owns_state = 326
 				owns_state = 728
 				owns_state = 729
@@ -2175,13 +1883,6 @@ integrate_greater_china_category = {
 				owns_state = 759
 				owns_state = 760
 				owns_state = 761
-				owns_state = 941
-				owns_state = 942
-				owns_state = 943
-				owns_state = 944
-				owns_state = 945
-				owns_state = 946
-				owns_state = 947
 				owns_state = 326
 				owns_state = 728
 				owns_state = 729
@@ -2329,13 +2030,6 @@ integrate_greater_china_category = {
 				owns_state = 759
 				owns_state = 760
 				owns_state = 761
-				owns_state = 941
-				owns_state = 942
-				owns_state = 943
-				owns_state = 944
-				owns_state = 945
-				owns_state = 946
-				owns_state = 947
 				owns_state = 326
 				owns_state = 728
 				owns_state = 729
@@ -2483,13 +2177,6 @@ integrate_greater_china_category = {
 				owns_state = 759
 				owns_state = 760
 				owns_state = 761
-				owns_state = 941
-				owns_state = 942
-				owns_state = 943
-				owns_state = 944
-				owns_state = 945
-				owns_state = 946
-				owns_state = 947
 				owns_state = 326
 				owns_state = 728
 				owns_state = 729
@@ -2637,13 +2324,6 @@ integrate_greater_china_category = {
 				owns_state = 759
 				owns_state = 760
 				owns_state = 761
-				owns_state = 941
-				owns_state = 942
-				owns_state = 943
-				owns_state = 944
-				owns_state = 945
-				owns_state = 946
-				owns_state = 947
 				owns_state = 326
 				owns_state = 728
 				owns_state = 729
@@ -2787,13 +2467,6 @@ integrate_greater_china_category = {
 				owns_state = 759
 				owns_state = 760
 				owns_state = 761
-				owns_state = 941
-				owns_state = 942
-				owns_state = 943
-				owns_state = 944
-				owns_state = 945
-				owns_state = 946
-				owns_state = 947
 				owns_state = 326
 				owns_state = 728
 				owns_state = 729
@@ -2878,15 +2551,13 @@ back_tsarist_russia_category = {
 	claim_FIN = {
 		icon = generic_form_nation
 		allowed = { original_tag = SOV }
-		visible = {
-			original_tag = SOV
+		visible = { original_tag = SOV }
+
+		available = {
 			OR = {
 				has_completed_focus = SOV_secure_leningrad
 				has_completed_focus = SOV_secure_finland
 			}
-		}
-
-		available = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_FIN_required_states_tt
 				controls_state = 111
@@ -2897,6 +2568,11 @@ back_tsarist_russia_category = {
 				controls_state = 149
 				controls_state = 150
 				controls_state = 722
+				controls_state = 926
+				controls_state = 927
+				controls_state = 928
+				controls_state = 929
+				controls_state = 930
 			}
 			core_compliance = {
 				occupied_country_tag = FIN
@@ -2926,15 +2602,13 @@ back_tsarist_russia_category = {
 	claim_EST = {
 		icon = generic_form_nation
 		allowed = { original_tag = SOV }
-		visible = {
-			original_tag = SOV
+		visible = { original_tag = SOV }
+
+		available = {
 			OR = {
 				has_completed_focus = SOV_baltic_security
 				has_completed_focus = SOV_secure_the_baltics
 			}
-		}
-
-		available = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_EST_required_states_tt
 				controls_state = 13
@@ -2972,15 +2646,13 @@ back_tsarist_russia_category = {
 	claim_LAT = {
 		icon = generic_form_nation
 		allowed = { original_tag = SOV }
-		visible = {
-			original_tag = SOV
+		visible = { original_tag = SOV }
+
+		available = {
 			OR = {
 				has_completed_focus = SOV_baltic_security
 				has_completed_focus = SOV_secure_the_baltics
 			}
-		}
-
-		available = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_LAT_required_states_tt
 				controls_state = 12
@@ -3018,15 +2690,13 @@ back_tsarist_russia_category = {
 	claim_LIT = {
 		icon = generic_form_nation
 		allowed = { original_tag = SOV }
-		visible = {
-			original_tag = SOV
+		visible = { original_tag = SOV }
+
+		available = {
 			OR = {
 				has_completed_focus = SOV_baltic_security
 				has_completed_focus = SOV_secure_the_baltics
 			}
-		}
-
-		available = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_LIT_required_states_tt
 				controls_state = 11
@@ -3065,27 +2735,24 @@ back_tsarist_russia_category = {
 	claim_BLR = {
 		icon = generic_form_nation
 		allowed = { original_tag = SOV }
-		visible = {
-			original_tag = SOV
+		visible = { original_tag = SOV }
+
+		available = {
 			OR = {
 				has_completed_focus = SOV_claims_on_poland
 				has_completed_focus = SOV_westward_bound
 			}
-		}
-
-		available = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_BLR_required_states_tt
 				controls_state = 94
 				controls_state = 95
 				controls_state = 96
+				controls_state = 97
 				controls_state = 194
 				controls_state = 204
 				controls_state = 206
 				controls_state = 207
 				controls_state = 241
-				controls_state = 935
-				controls_state = 936
 			}
 			OR = {
 				core_compliance = {
@@ -3122,17 +2789,16 @@ back_tsarist_russia_category = {
 	claim_UKR = {
 		icon = generic_form_nation
 		allowed = { original_tag = SOV }
-		visible = {
-			original_tag = SOV
+		visible = { original_tag = SOV }
+
+		available = {
 			OR = {
 				has_completed_focus = SOV_claims_on_poland
 				has_completed_focus = SOV_westward_bound
 			}
-		}
-
-		available = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_UKR_required_states_tt
+				controls_state = 80
 				controls_state = 89
 				controls_state = 91
 				controls_state = 93
@@ -3152,6 +2818,7 @@ back_tsarist_russia_category = {
 				controls_state = 227
 				controls_state = 228
 				controls_state = 259
+				controls_state = 766
 				controls_state = 834
 			}
 			OR = {
@@ -3189,21 +2856,14 @@ back_tsarist_russia_category = {
 	claim_AZR = {
 		icon = generic_form_nation
 		allowed = { original_tag = SOV }
-		visible = {
-			original_tag = SOV
-			NOT = {
-				has_completed_focus = SOV_dissolve_the_treaty_agreement_nsb
-				has_completed_focus = SOV_new_union_treaty_nsb
-			}
-		}
+		visible = { original_tag = SOV }
 
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_AZR_required_states_tt
 				controls_state = 229
 				controls_state = 419
-				controls_state = 987
-				controls_state = 988
+				controls_state = 420
 			}
 			OR = {
 				core_compliance = {
@@ -3288,14 +2948,6 @@ form_united_balkan_category = {
 				controls_state = 802
 				controls_state = 803
 				controls_state = 804
-				controls_state = 950
-				controls_state = 953
-				controls_state = 956
-				controls_state = 958
-				controls_state = 959
-				controls_state = 961
-				controls_state = 962
-				controls_state = 963
 			}
 			custom_trigger_tooltip = {
 				tooltip = form_country_ALB_required_states_tt
@@ -3329,7 +2981,6 @@ form_united_balkan_category = {
 				controls_state = 77
 				controls_state = 79
 				controls_state = 81
-				controls_state = 955
 			}
 		}
 
@@ -3368,15 +3019,6 @@ form_united_balkan_category = {
 				804 = { add_core_of = ROOT }
 				852 = { add_core_of = ROOT }
 				853 = { add_core_of = ROOT }
-				950 = { add_core_of = ROOT }
-				952 = { add_core_of = ROOT }
-				953 = { add_core_of = ROOT }
-				956 = { add_core_of = ROOT }
-				958 = { add_core_of = ROOT }
-				959 = { add_core_of = ROOT }
-				961 = { add_core_of = ROOT }
-				962 = { add_core_of = ROOT }
-				963 = { add_core_of = ROOT }
 			}
 			custom_effect_tooltip = form_country_ALB_coring_states_tt
 			hidden_effect = {
@@ -3419,15 +3061,11 @@ form_united_balkan_category = {
 				83 = { add_core_of = ROOT }
 				84 = { add_core_of = ROOT }
 				766 = { add_core_of = ROOT }
-				955 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.3001 hours = 6 }
 				set_global_flag = form_united_balkan_flag
 			}
-			add_ideas = generic_recent_political_unification
-			add_ideas = generic_recent_army_unification
-			add_ideas = generic_recent_economic_unification
 		}
 
 		ai_will_do = {
@@ -3468,14 +3106,6 @@ integrate_united_balkan_category = {
 				802 = { is_controlled_by_ROOT_or_subject = yes }
 				803 = { is_controlled_by_ROOT_or_subject = yes }
 				804 = { is_controlled_by_ROOT_or_subject = yes }
-				950 = { is_controlled_by_ROOT_or_subject = yes }
-				953 = { is_controlled_by_ROOT_or_subject = yes }
-				956 = { is_controlled_by_ROOT_or_subject = yes }
-				958 = { is_controlled_by_ROOT_or_subject = yes }
-				959 = { is_controlled_by_ROOT_or_subject = yes }
-				961 = { is_controlled_by_ROOT_or_subject = yes }
-				962 = { is_controlled_by_ROOT_or_subject = yes }
-				963 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_ALB_required_states_tt
@@ -3509,7 +3139,6 @@ integrate_united_balkan_category = {
 				77 = { is_controlled_by_ROOT_or_subject = yes }
 				79 = { is_controlled_by_ROOT_or_subject = yes }
 				81 = { is_controlled_by_ROOT_or_subject = yes }
-				955 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -3559,21 +3188,6 @@ integrate_united_balkan_category = {
 					if = {
 						limit = { 853 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 853
-					}
-					transfer_state = 950
-					if = {
-						limit = { 952 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 952
-					}
-					transfer_state = 953
-					transfer_state = 956
-					transfer_state = 958
-					transfer_state = 959
-					transfer_state = 961
-					transfer_state = 962
-					if = {
-						limit = { 963 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 963
 					}
 				}
 				custom_effect_tooltip = integrate_country_ALB_coring_states_tt
@@ -3644,7 +3258,6 @@ integrate_united_balkan_category = {
 						limit = { 766 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 766
 					}
-					transfer_state = 955
 				}
 			}
 		}
@@ -3693,14 +3306,6 @@ integrate_united_balkan_category = {
 				802 = { is_controlled_by_ROOT_or_subject = yes }
 				803 = { is_controlled_by_ROOT_or_subject = yes }
 				804 = { is_controlled_by_ROOT_or_subject = yes }
-				950 = { is_controlled_by_ROOT_or_subject = yes }
-				953 = { is_controlled_by_ROOT_or_subject = yes }
-				956 = { is_controlled_by_ROOT_or_subject = yes }
-				958 = { is_controlled_by_ROOT_or_subject = yes }
-				959 = { is_controlled_by_ROOT_or_subject = yes }
-				961 = { is_controlled_by_ROOT_or_subject = yes }
-				962 = { is_controlled_by_ROOT_or_subject = yes }
-				963 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_ALB_required_states_tt
@@ -3734,7 +3339,6 @@ integrate_united_balkan_category = {
 				77 = { is_controlled_by_ROOT_or_subject = yes }
 				79 = { is_controlled_by_ROOT_or_subject = yes }
 				81 = { is_controlled_by_ROOT_or_subject = yes }
-				955 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -3785,21 +3389,6 @@ integrate_united_balkan_category = {
 						limit = { 853 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 853
 					}
-					transfer_state = 950
-					if = {
-						limit = { 952 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 952
-					}
-					transfer_state = 953
-					transfer_state = 956
-					transfer_state = 958
-					transfer_state = 959
-					transfer_state = 961
-					transfer_state = 962
-					if = {
-						limit = { 963 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 963
-					}
 				}
 				custom_effect_tooltip = integrate_country_ALB_coring_states_tt
 				hidden_effect = {
@@ -3869,7 +3458,6 @@ integrate_united_balkan_category = {
 						limit = { 766 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 766
 					}
-					transfer_state = 955
 				}
 			}
 		}
@@ -3918,14 +3506,6 @@ integrate_united_balkan_category = {
 				802 = { is_controlled_by_ROOT_or_subject = yes }
 				803 = { is_controlled_by_ROOT_or_subject = yes }
 				804 = { is_controlled_by_ROOT_or_subject = yes }
-				950 = { is_controlled_by_ROOT_or_subject = yes }
-				953 = { is_controlled_by_ROOT_or_subject = yes }
-				956 = { is_controlled_by_ROOT_or_subject = yes }
-				958 = { is_controlled_by_ROOT_or_subject = yes }
-				959 = { is_controlled_by_ROOT_or_subject = yes }
-				961 = { is_controlled_by_ROOT_or_subject = yes }
-				962 = { is_controlled_by_ROOT_or_subject = yes }
-				963 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_ALB_required_states_tt
@@ -3959,7 +3539,6 @@ integrate_united_balkan_category = {
 				77 = { is_controlled_by_ROOT_or_subject = yes }
 				79 = { is_controlled_by_ROOT_or_subject = yes }
 				81 = { is_controlled_by_ROOT_or_subject = yes }
-				955 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -4010,21 +3589,6 @@ integrate_united_balkan_category = {
 						limit = { 853 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 853
 					}
-					transfer_state = 950
-					if = {
-						limit = { 952 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 952
-					}
-					transfer_state = 953
-					transfer_state = 956
-					transfer_state = 958
-					transfer_state = 959
-					transfer_state = 961
-					transfer_state = 962
-					if = {
-						limit = { 963 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 963
-					}
 				}
 				custom_effect_tooltip = integrate_country_ALB_coring_states_tt
 				hidden_effect = {
@@ -4094,7 +3658,6 @@ integrate_united_balkan_category = {
 						limit = { 766 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 766
 					}
-					transfer_state = 955
 				}
 			}
 		}
@@ -4144,14 +3707,6 @@ integrate_united_balkan_category = {
 				802 = { is_controlled_by_ROOT_or_subject = yes }
 				803 = { is_controlled_by_ROOT_or_subject = yes }
 				804 = { is_controlled_by_ROOT_or_subject = yes }
-				950 = { is_controlled_by_ROOT_or_subject = yes }
-				953 = { is_controlled_by_ROOT_or_subject = yes }
-				956 = { is_controlled_by_ROOT_or_subject = yes }
-				958 = { is_controlled_by_ROOT_or_subject = yes }
-				959 = { is_controlled_by_ROOT_or_subject = yes }
-				961 = { is_controlled_by_ROOT_or_subject = yes }
-				962 = { is_controlled_by_ROOT_or_subject = yes }
-				963 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_ALB_required_states_tt
@@ -4185,7 +3740,6 @@ integrate_united_balkan_category = {
 				77 = { is_controlled_by_ROOT_or_subject = yes }
 				79 = { is_controlled_by_ROOT_or_subject = yes }
 				81 = { is_controlled_by_ROOT_or_subject = yes }
-				955 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -4236,21 +3790,6 @@ integrate_united_balkan_category = {
 						limit = { 853 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 853
 					}
-					transfer_state = 950
-					if = {
-						limit = { 952 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 952
-					}
-					transfer_state = 953
-					transfer_state = 956
-					transfer_state = 958
-					transfer_state = 959
-					transfer_state = 961
-					transfer_state = 962
-					if = {
-						limit = { 963 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 963
-					}
 				}
 				custom_effect_tooltip = integrate_country_ALB_coring_states_tt
 				hidden_effect = {
@@ -4320,7 +3859,6 @@ integrate_united_balkan_category = {
 						limit = { 766 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 766
 					}
-					transfer_state = 955
 				}
 			}
 		}
@@ -4369,14 +3907,6 @@ integrate_united_balkan_category = {
 				802 = { is_controlled_by_ROOT_or_subject = yes }
 				803 = { is_controlled_by_ROOT_or_subject = yes }
 				804 = { is_controlled_by_ROOT_or_subject = yes }
-				950 = { is_controlled_by_ROOT_or_subject = yes }
-				953 = { is_controlled_by_ROOT_or_subject = yes }
-				956 = { is_controlled_by_ROOT_or_subject = yes }
-				958 = { is_controlled_by_ROOT_or_subject = yes }
-				959 = { is_controlled_by_ROOT_or_subject = yes }
-				961 = { is_controlled_by_ROOT_or_subject = yes }
-				962 = { is_controlled_by_ROOT_or_subject = yes }
-				963 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_ALB_required_states_tt
@@ -4410,7 +3940,6 @@ integrate_united_balkan_category = {
 				77 = { is_controlled_by_ROOT_or_subject = yes }
 				79 = { is_controlled_by_ROOT_or_subject = yes }
 				81 = { is_controlled_by_ROOT_or_subject = yes }
-				955 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -4461,21 +3990,6 @@ integrate_united_balkan_category = {
 						limit = { 853 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 853
 					}
-					transfer_state = 950
-					if = {
-						limit = { 952 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 952
-					}
-					transfer_state = 953
-					transfer_state = 956
-					transfer_state = 958
-					transfer_state = 959
-					transfer_state = 961
-					transfer_state = 962
-					if = {
-						limit = { 963 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 963
-					}
 				}
 				custom_effect_tooltip = integrate_country_ALB_coring_states_tt
 				hidden_effect = {
@@ -4545,7 +4059,6 @@ integrate_united_balkan_category = {
 						limit = { 766 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 766
 					}
-					transfer_state = 955
 				}
 			}
 		}
@@ -4594,14 +4107,6 @@ integrate_united_balkan_category = {
 				802 = { is_controlled_by_ROOT_or_subject = yes }
 				803 = { is_controlled_by_ROOT_or_subject = yes }
 				804 = { is_controlled_by_ROOT_or_subject = yes }
-				950 = { is_controlled_by_ROOT_or_subject = yes }
-				953 = { is_controlled_by_ROOT_or_subject = yes }
-				956 = { is_controlled_by_ROOT_or_subject = yes }
-				958 = { is_controlled_by_ROOT_or_subject = yes }
-				959 = { is_controlled_by_ROOT_or_subject = yes }
-				961 = { is_controlled_by_ROOT_or_subject = yes }
-				962 = { is_controlled_by_ROOT_or_subject = yes }
-				963 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_ALB_required_states_tt
@@ -4635,7 +4140,6 @@ integrate_united_balkan_category = {
 				77 = { is_controlled_by_ROOT_or_subject = yes }
 				79 = { is_controlled_by_ROOT_or_subject = yes }
 				81 = { is_controlled_by_ROOT_or_subject = yes }
-				955 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -4686,21 +4190,6 @@ integrate_united_balkan_category = {
 						limit = { 853 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 853
 					}
-					transfer_state = 950
-					if = {
-						limit = { 952 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 952
-					}
-					transfer_state = 953
-					transfer_state = 956
-					transfer_state = 958
-					transfer_state = 959
-					transfer_state = 961
-					transfer_state = 962
-					if = {
-						limit = { 963 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 963
-					}
 				}
 				custom_effect_tooltip = integrate_country_ALB_coring_states_tt
 				hidden_effect = {
@@ -4770,7 +4259,6 @@ integrate_united_balkan_category = {
 						limit = { 766 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 766
 					}
-					transfer_state = 955
 				}
 			}
 		}
@@ -4819,14 +4307,6 @@ integrate_united_balkan_category = {
 				802 = { is_controlled_by_ROOT_or_subject = yes }
 				803 = { is_controlled_by_ROOT_or_subject = yes }
 				804 = { is_controlled_by_ROOT_or_subject = yes }
-				950 = { is_controlled_by_ROOT_or_subject = yes }
-				953 = { is_controlled_by_ROOT_or_subject = yes }
-				956 = { is_controlled_by_ROOT_or_subject = yes }
-				958 = { is_controlled_by_ROOT_or_subject = yes }
-				959 = { is_controlled_by_ROOT_or_subject = yes }
-				961 = { is_controlled_by_ROOT_or_subject = yes }
-				962 = { is_controlled_by_ROOT_or_subject = yes }
-				963 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_ALB_required_states_tt
@@ -4860,7 +4340,6 @@ integrate_united_balkan_category = {
 				77 = { is_controlled_by_ROOT_or_subject = yes }
 				79 = { is_controlled_by_ROOT_or_subject = yes }
 				81 = { is_controlled_by_ROOT_or_subject = yes }
-				955 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -4911,21 +4390,6 @@ integrate_united_balkan_category = {
 						limit = { 853 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 853
 					}
-					transfer_state = 950
-					if = {
-						limit = { 952 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 952
-					}
-					transfer_state = 953
-					transfer_state = 956
-					transfer_state = 958
-					transfer_state = 959
-					transfer_state = 961
-					transfer_state = 962
-					if = {
-						limit = { 963 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 963
-					}
 				}
 				custom_effect_tooltip = integrate_country_ALB_coring_states_tt
 				hidden_effect = {
@@ -4995,7 +4459,6 @@ integrate_united_balkan_category = {
 						limit = { 766 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 766
 					}
-					transfer_state = 955
 				}
 			}
 		}
@@ -5044,14 +4507,6 @@ integrate_united_balkan_category = {
 				802 = { is_controlled_by_ROOT_or_subject = yes }
 				803 = { is_controlled_by_ROOT_or_subject = yes }
 				804 = { is_controlled_by_ROOT_or_subject = yes }
-				950 = { is_controlled_by_ROOT_or_subject = yes }
-				953 = { is_controlled_by_ROOT_or_subject = yes }
-				956 = { is_controlled_by_ROOT_or_subject = yes }
-				958 = { is_controlled_by_ROOT_or_subject = yes }
-				959 = { is_controlled_by_ROOT_or_subject = yes }
-				961 = { is_controlled_by_ROOT_or_subject = yes }
-				962 = { is_controlled_by_ROOT_or_subject = yes }
-				963 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_ALB_required_states_tt
@@ -5085,7 +4540,6 @@ integrate_united_balkan_category = {
 				77 = { is_controlled_by_ROOT_or_subject = yes }
 				79 = { is_controlled_by_ROOT_or_subject = yes }
 				81 = { is_controlled_by_ROOT_or_subject = yes }
-				955 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -5136,21 +4590,6 @@ integrate_united_balkan_category = {
 						limit = { 853 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 853
 					}
-					transfer_state = 950
-					if = {
-						limit = { 952 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 952
-					}
-					transfer_state = 953
-					transfer_state = 956
-					transfer_state = 958
-					transfer_state = 959
-					transfer_state = 961
-					transfer_state = 962
-					if = {
-						limit = { 963 = { is_controlled_by_ROOT_or_subject = yes } }
-						transfer_state = 963
-					}
 				}
 				custom_effect_tooltip = integrate_country_ALB_coring_states_tt
 				hidden_effect = {
@@ -5220,7 +4659,6 @@ integrate_united_balkan_category = {
 						limit = { 766 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 766
 					}
-					transfer_state = 955
 				}
 			}
 		}
@@ -5252,6 +4690,7 @@ integrate_greater_german_reich_category = {
 		visible = {
 			NOT = { has_global_flag = form_greater_german_reich_flag }
 			GER = { is_subject_of = ROOT }
+			4 = { is_controlled_by_ROOT_or_subject = yes }
 			5 = { is_controlled_by_ROOT_or_subject = yes }
 			763 = { is_controlled_by_ROOT_or_subject = yes }
 			51 = { is_controlled_by_ROOT_or_subject = yes }
@@ -5262,7 +4701,6 @@ integrate_greater_german_reich_category = {
 			50 = { is_controlled_by_ROOT_or_subject = yes }
 			59 = { is_controlled_by_ROOT_or_subject = yes }
 			58 = { is_controlled_by_ROOT_or_subject = yes }
-			998 = { is_controlled_by_ROOT_or_subject = yes }
 			60 = { is_controlled_by_ROOT_or_subject = yes }
 			54 = { is_controlled_by_ROOT_or_subject = yes }
 			52 = { is_controlled_by_ROOT_or_subject = yes }
@@ -5275,29 +4713,24 @@ integrate_greater_german_reich_category = {
 			66 = { is_controlled_by_ROOT_or_subject = yes }
 			67 = { is_controlled_by_ROOT_or_subject = yes }
 			63 = { is_controlled_by_ROOT_or_subject = yes }
-			989 = { is_controlled_by_ROOT_or_subject = yes } #Ostrhineland
-			922 = { is_controlled_by_ROOT_or_subject = yes } #Frankfurt
-			923 = { is_controlled_by_ROOT_or_subject = yes } #Baden
-			998 = { is_controlled_by_ROOT_or_subject = yes } #Southern Schleswig
+			909 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		available = {
 			153 = { is_controlled_by_ROOT_or_subject = yes }
 			152 = { is_controlled_by_ROOT_or_subject = yes }
 			4 = { is_controlled_by_ROOT_or_subject = yes }
 			848 = { is_controlled_by_ROOT_or_subject = yes }
-			1054 = { is_controlled_by_ROOT_or_subject = yes }
 			69 = { is_controlled_by_ROOT_or_subject = yes }
 			74 = { is_controlled_by_ROOT_or_subject = yes }
 			8 = { is_controlled_by_ROOT_or_subject = yes } # Luxembourg
 			28 = { is_controlled_by_ROOT_or_subject = yes } # Alsace
-			965 = { is_controlled_by_ROOT_or_subject = yes } # Eupen-Malmedy
 			# Poland
 			85 = { is_controlled_by_ROOT_or_subject = yes }
 			807 = { is_controlled_by_ROOT_or_subject = yes }
 			86 = { is_controlled_by_ROOT_or_subject = yes }
 			762 = { is_controlled_by_ROOT_or_subject = yes }
 			#Lithuania
-			188 = { is_controlled_by_ROOT_or_subject = yes }
+			#188 = { is_controlled_by_ROOT_or_subject = yes }
 			#Denmark
 			964 = { is_controlled_by_ROOT_or_subject = yes }
 			#Yugoslavia
@@ -5307,6 +4740,7 @@ integrate_greater_german_reich_category = {
 			GER = {
 				custom_effect_tooltip = form_country_germany_required_states_tt
 				hidden_effect = {
+					transfer_state = 4
 					transfer_state = 5
 					transfer_state = 763
 					transfer_state = 51
@@ -5317,7 +4751,6 @@ integrate_greater_german_reich_category = {
 					transfer_state = 50
 					transfer_state = 59
 					transfer_state = 58
-					transfer_state = 998
 					transfer_state = 60
 					transfer_state = 54
 					transfer_state = 52
@@ -5330,16 +4763,12 @@ integrate_greater_german_reich_category = {
 					transfer_state = 66
 					transfer_state = 67
 					transfer_state = 63
-					transfer_state = 989
-					transfer_state = 922
-					transfer_state = 923
-					transfer_state = 998
+					transfer_state = 909
 				}
 				transfer_state = 153
 				transfer_state = 152
 				transfer_state = 4
 				transfer_state = 848
-				transfer_state = 1054
 				transfer_state = 69
 				transfer_state = 74
 				transfer_state = 8
@@ -5349,9 +4778,17 @@ integrate_greater_german_reich_category = {
 				transfer_state = 807
 				transfer_state = 86
 				transfer_state = 762
-				transfer_state = 188
+				if = {
+					limit = { 188 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 188
+				}
 				transfer_state = 964
 				transfer_state = 102
+				if = {
+					limit = { 853 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 853
+				}
+				
 			}
 		}
 		ai_will_do = {
@@ -5389,11 +4826,9 @@ integrate_greater_italy_category = {
 		}
 		available = {
 			1 = { is_controlled_by_ROOT_or_subject = yes } # Corsica
-			846 = { is_controlled_by_ROOT_or_subject = yes } # Ticino
 			735 = { is_controlled_by_ROOT_or_subject = yes } # Savoy
 			163 = { is_controlled_by_ROOT_or_subject = yes } # Zara
 			103 = { is_controlled_by_ROOT_or_subject = yes } # Dalmatia
-			958 = { is_controlled_by_ROOT_or_subject = yes } # R56: Kvarner
 			853 = { is_controlled_by_ROOT_or_subject = yes } # Ljubljana
 			116 = { is_controlled_by_ROOT_or_subject = yes } # Malta
 			182 = { is_controlled_by_ROOT_or_subject = yes } # Crete
@@ -5421,11 +4856,13 @@ integrate_greater_italy_category = {
 					transfer_state = 114
 				}
 				transfer_state = 1 # Corsica
-				transfer_state = 846 # Ticino
+				if = {
+					limit = { 846 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 846 # Ticino
+				}
 				transfer_state = 735 # Savoy
 				transfer_state = 163 # Zara
 				transfer_state = 103 # Dalmatia
-				transfer_state = 958 # R56: Kvarner
 				transfer_state = 853 # Ljubljana
 				transfer_state = 116 # Malta
 				transfer_state = 182 # Crete

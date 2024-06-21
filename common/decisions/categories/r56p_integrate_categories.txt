@@ -1,65 +1,98 @@
 integrate_scandinavia_category = {
 	icon = generic_formable_nations
+	allowed = {
+		OR = {
+			has_dlc = "Waking the Tiger"
+			has_dlc = "Arms Against Tyranny"
+		}
+	}
 }
 integrate_nordic_league_category = {
 	icon = generic_formable_nations
+	allowed = {
+		OR = {
+			has_dlc = "Waking the Tiger"
+			has_dlc = "Arms Against Tyranny"
+		}
+	}
+}
+integrate_north_sea_category = {
+	icon = generic_formable_nations
+	allowed = { has_dlc = "Arms Against Tyranny" }
+}
+integrate_baltic_sea_empire_category = {
+	icon = generic_formable_nations
+	allowed = { has_dlc = "Arms Against Tyranny" }
 }
 integrate_gran_colombia_category = {
 	icon = generic_formable_nations
+	allowed = { has_dlc = "Waking the Tiger" }
 }
 integrate_austria_hungary_category = {
 	icon = generic_formable_nations
+	allowed = { has_dlc = "Waking the Tiger" }
 }
 integrate_commonwealth_category = {
 	icon = generic_formable_nations
 }
 integrate_united_netherlands_category = {
 	icon = generic_formable_nations
+	allowed = { has_dlc = "Waking the Tiger" }
 }
 integrate_united_central_america_category = {
 	icon = generic_formable_nations
+	allowed = { has_dlc = "Waking the Tiger" }
 }
 integrate_baltic_federation_category = {
 	icon = generic_formable_nations
+	allowed = {
+		OR = {
+			has_dlc = "Waking the Tiger"
+			has_dlc = "No Step Back"
+		}
+	}
 }
 integrate_mutapa_category = {
 	icon = generic_formable_nations
+	allowed = { has_dlc = "Waking the Tiger" }
 }
 integrate_arabia_category = {
 	icon = generic_formable_nations
+	allowed = { has_dlc = "Waking the Tiger" }
 }
-integrate_malayan_confederation_category = {
+integrate_majapahit_empire_category = {
 	icon = generic_formable_nations
+	allowed = { has_dlc = "Waking the Tiger" }
 }
 integrate_rattanakosin_kingdom_category = {
 	icon = generic_formable_nations
+	allowed = { has_dlc = "Waking the Tiger" }
 }
 integrate_polynesia_category = {
 	icon = generic_formable_nations
 }
 integrate_greater_greece_category = {
 	icon = generic_formable_nations
-}
-integrate_cossack_hosts = {
-	icon = generic_formable_nations
+	allowed = { has_dlc = "Battle for the Bosporus" }
 }
 integrate_turkestan_category = {
 	icon = generic_formable_nations
 }
 integrate_mountainous_republic_category = {
 	icon = generic_formable_nations
+	allowed = { has_dlc = "No Step Back" }
 }
 integrate_siberia_category = {
 	icon = generic_formable_nations
+	allowed = { has_dlc = "No Step Back" }
 }
 integrate_transcaucasus_category = {
 	icon = generic_formable_nations
-}
-integrate_idel_ural = {
-	icon = generic_formable_nations
+	allowed = { has_dlc = "No Step Back" }
 }
 integrate_idel_ural_category = {
 	icon = generic_formable_nations
+	allowed = { has_dlc = "No Step Back" }
 }
 integrate_east_africa_category = {
 	icon = generic_formable_nations
@@ -74,46 +107,6 @@ integrate_hispaniola_category = {
 integrate_guianas_category = {
 	icon = generic_formable_nations
 }
-#========== road to 56 ==========#
-integrate_the_levant_category = {
-	icon = generic_formable_nations
-}
 integrate_peru_bolivia_category = {
-	icon = generic_formable_nations
-}
-integrate_prussia_category = {
-	icon = generic_formable_nations
-}
-integrate_carribean_category = {
-	icon = generic_formable_nations
-}
-integrate_greater_morocco_category = {
-	icon = generic_formable_nations
-}
-integrate_la_plata = {
-	icon = generic_formable_nations
-}
-integrate_west_african_union = {
-	icon = generic_formable_nations
-}
-integrate_the_empire_of_mali = {
-	icon = generic_formable_nations
-}
-integrate_a_dravidian_state = {
-	icon = generic_formable_nations
-}
-integrate_hispanoamerica_category = {
-	icon = generic_formable_nations
-}
-integrate_the_mamluks_category = {
-	icon = generic_formable_nations
-}
-integrate_alamannia_category = {
-	icon = generic_formable_nations
-}
-integrate_unite_tanganyika_zanzibar_category = {
-	icon = generic_formable_nations
-}
-integrate_greater_texas_category = {
 	icon = generic_formable_nations
 }

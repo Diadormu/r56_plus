@@ -30,12 +30,7 @@ hispaniola_category = {
 				original_tag = DOM # Dominican Republic
 			}
 			
-			NOT = {
-				OR = {
-					has_cosmetic_tag = CAB
-					has_global_flag = hispaniola_flag
-				} 
-			}
+			NOT = { has_global_flag = hispaniola_flag }
 			
 		}
 
@@ -74,12 +69,6 @@ hispaniola_category = {
 				}
 
 			}
-			add_political_power = -50
-
-			add_ideas = generic_recent_political_unification
-			add_ideas = generic_recent_army_unification
-			add_ideas = generic_recent_economic_unification
-
 		}
 
 		ai_will_do = {
@@ -134,7 +123,7 @@ peru_bolivia_category = {
 			}
 
 			# Tacna
-			1061 = {
+			947 = {
 				is_owned_and_controlled_by = ROOT
 			}
 
@@ -270,72 +259,68 @@ peru_bolivia_category = {
 			IF =  {
 				limit = {
 					NOT = {
-						1061 = {
+						947 = {
 							is_core_of = ROOT
 						}
 					}
 				}
-				1061 = { add_core_of = ROOT }
+				947 = { add_core_of = ROOT }
 			}
 
 			IF =  {
 				limit = {
 					NOT = {
-						1069 = {
+						957 = {
 							is_core_of = ROOT
 						}
 					}
 				}
-				1069 = { add_core_of = ROOT }
+				957 = { add_core_of = ROOT }
 			}
 
 			IF =  {
 				limit = {
 					NOT = {
-						1071 = {
+						959 = {
 							is_core_of = ROOT
 						}
 					}
 				}
-				1071 = { add_core_of = ROOT }
+				959 = { add_core_of = ROOT }
 			}
 
 			IF =  {
 				limit = {
 					NOT = {
-						1064 = {
+						951 = {
 							is_core_of = ROOT
 						}
 					}
 				}
-				1064 = { add_core_of = ROOT }
+				951 = { add_core_of = ROOT }
 			}
 
 			IF =  {
 				limit = {
 					NOT = {
-						1052 = {
+						940 = {
 							is_core_of = ROOT
 						}
 					}
 				}
-				1052 = { add_core_of = ROOT }
+				940 = { add_core_of = ROOT }
 			}
 
 			IF =  {
 				limit = {
 					NOT = {
-						1058 = {
+						942 = {
 							is_core_of = ROOT
 						}
 					}
 				}
-				1058 = { add_core_of = ROOT }
+				942 = { add_core_of = ROOT }
 			}
-
-			add_ideas = generic_recent_political_unification
-			add_ideas = generic_recent_army_unification
-			add_ideas = generic_recent_economic_unification			
 
 			hidden_effect = {
 				set_global_flag = peru_bolivia_revived_flag
@@ -455,21 +440,43 @@ guianas_category = {
 				488 = { add_core_of = ROOT }
 			}
 
-			# Rio Branco - Amapa
+			# Amapa
 			IF =  {
 				limit = {
 					NOT = {
-						1056 = {
+						939 = {
 							is_core_of = ROOT
 						}
 					}
 				}
-				1056 = { add_core_of = ROOT }
+				939 = { add_core_of = ROOT }
 			}
 
-			add_ideas = generic_recent_political_unification
-			add_ideas = generic_recent_army_unification
-			add_ideas = generic_recent_economic_unification			
+			# Rio Branco
+			IF =  {
+				limit = {
+					NOT = {
+						969 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				969 = { add_core_of = ROOT }
+			}
+
+			hidden_effect = {
+				# Guianan Rainforest
+				IF =  {
+					limit = {
+						NOT = {
+							968 = {
+								is_core_of = ROOT
+							}
+						}
+					}
+					968 = { add_core_of = ROOT }
+				}
+			}
 
 			hidden_effect = {
 				set_global_flag = guiana_flag
@@ -479,6 +486,7 @@ guianas_category = {
 					days = 1
 					random_days = 2
 				}
+
 			}
 		}
 
