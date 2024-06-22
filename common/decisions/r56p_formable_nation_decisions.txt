@@ -235,7 +235,7 @@ rename_cities_category = {
 				owns_state = 50
 				owns_state = 59
 				owns_state = 58
-				owns_state = 998
+				#owns_state = 998
 				owns_state = 60
 				owns_state = 54
 				owns_state = 52
@@ -248,10 +248,10 @@ rename_cities_category = {
 				owns_state = 66
 				owns_state = 67
 				owns_state = 63
-				owns_state = 989
-				owns_state = 922
-				owns_state = 923
-				owns_state = 998
+				owns_state = 909
+				#owns_state = 922
+				#owns_state = 923
+				#owns_state = 998
 				owns_state = 153
 				owns_state = 152
 				owns_state = 4
@@ -266,7 +266,7 @@ rename_cities_category = {
 				owns_state = 86
 				owns_state = 762
 				owns_state = 188
-				owns_state = 964
+				#owns_state = 964
 				owns_state = 102
 			}
 		}
@@ -2954,6 +2954,7 @@ form_united_balkan_category = {
 				controls_state = 44
 				controls_state = 805
 				controls_state = 910
+				controls_state = 934
 			}
 			custom_trigger_tooltip = {
 				tooltip = form_country_GRE_required_states_tt
@@ -3025,6 +3026,7 @@ form_united_balkan_category = {
 				44 = { add_core_of = ROOT }
 				805 = { add_core_of = ROOT }
 				910 = { add_core_of = ROOT }
+				934 = { add_core_of = ROOT }
 			}
 			custom_effect_tooltip = form_country_GRE_coring_states_tt
 			hidden_effect = {
@@ -3112,6 +3114,7 @@ integrate_united_balkan_category = {
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
 				910 = { is_controlled_by_ROOT_or_subject = yes }
+				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_GRE_required_states_tt
@@ -3195,6 +3198,7 @@ integrate_united_balkan_category = {
 					transfer_state = 44
 					transfer_state = 805
 					transfer_state = 910
+					transfer_state = 934
 				}
 				custom_effect_tooltip = integrate_country_GRE_coring_states_tt
 				hidden_effect = {
@@ -3312,6 +3316,7 @@ integrate_united_balkan_category = {
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
 				910 = { is_controlled_by_ROOT_or_subject = yes }
+				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_GRE_required_states_tt
@@ -3395,6 +3400,7 @@ integrate_united_balkan_category = {
 					transfer_state = 44
 					transfer_state = 805
 					transfer_state = 910
+					transfer_state = 934
 				}
 				custom_effect_tooltip = integrate_country_GRE_coring_states_tt
 				hidden_effect = {
@@ -3512,6 +3518,7 @@ integrate_united_balkan_category = {
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
 				910 = { is_controlled_by_ROOT_or_subject = yes }
+				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_GRE_required_states_tt
@@ -3595,6 +3602,7 @@ integrate_united_balkan_category = {
 					transfer_state = 44
 					transfer_state = 805
 					transfer_state = 910
+					transfer_state = 934
 				}
 				custom_effect_tooltip = integrate_country_GRE_coring_states_tt
 				hidden_effect = {
@@ -3713,6 +3721,7 @@ integrate_united_balkan_category = {
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
 				910 = { is_controlled_by_ROOT_or_subject = yes }
+				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_GRE_required_states_tt
@@ -3796,6 +3805,7 @@ integrate_united_balkan_category = {
 					transfer_state = 44
 					transfer_state = 805
 					transfer_state = 910
+					transfer_state = 934
 				}
 				custom_effect_tooltip = integrate_country_GRE_coring_states_tt
 				hidden_effect = {
@@ -3913,6 +3923,7 @@ integrate_united_balkan_category = {
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
 				910 = { is_controlled_by_ROOT_or_subject = yes }
+				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_GRE_required_states_tt
@@ -3996,6 +4007,7 @@ integrate_united_balkan_category = {
 					transfer_state = 44
 					transfer_state = 805
 					transfer_state = 910
+					transfer_state = 934
 				}
 				custom_effect_tooltip = integrate_country_GRE_coring_states_tt
 				hidden_effect = {
@@ -4113,6 +4125,7 @@ integrate_united_balkan_category = {
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
 				910 = { is_controlled_by_ROOT_or_subject = yes }
+				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_GRE_required_states_tt
@@ -4196,6 +4209,7 @@ integrate_united_balkan_category = {
 					transfer_state = 44
 					transfer_state = 805
 					transfer_state = 910
+					transfer_state = 934
 				}
 				custom_effect_tooltip = integrate_country_GRE_coring_states_tt
 				hidden_effect = {
@@ -4313,6 +4327,7 @@ integrate_united_balkan_category = {
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
 				910 = { is_controlled_by_ROOT_or_subject = yes }
+				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_GRE_required_states_tt
@@ -4396,6 +4411,7 @@ integrate_united_balkan_category = {
 					transfer_state = 44
 					transfer_state = 805
 					transfer_state = 910
+					transfer_state = 934
 				}
 				custom_effect_tooltip = integrate_country_GRE_coring_states_tt
 				hidden_effect = {
@@ -4513,6 +4529,7 @@ integrate_united_balkan_category = {
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
 				910 = { is_controlled_by_ROOT_or_subject = yes }
+				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_GRE_required_states_tt
@@ -4596,6 +4613,7 @@ integrate_united_balkan_category = {
 					transfer_state = 44
 					transfer_state = 805
 					transfer_state = 910
+					transfer_state = 934
 				}
 				custom_effect_tooltip = integrate_country_GRE_coring_states_tt
 				hidden_effect = {
@@ -4690,7 +4708,6 @@ integrate_greater_german_reich_category = {
 		visible = {
 			NOT = { has_global_flag = form_greater_german_reich_flag }
 			GER = { is_subject_of = ROOT }
-			4 = { is_controlled_by_ROOT_or_subject = yes }
 			5 = { is_controlled_by_ROOT_or_subject = yes }
 			763 = { is_controlled_by_ROOT_or_subject = yes }
 			51 = { is_controlled_by_ROOT_or_subject = yes }
@@ -4732,7 +4749,7 @@ integrate_greater_german_reich_category = {
 			#Lithuania
 			#188 = { is_controlled_by_ROOT_or_subject = yes }
 			#Denmark
-			964 = { is_controlled_by_ROOT_or_subject = yes }
+			#964 = { is_controlled_by_ROOT_or_subject = yes }
 			#Yugoslavia
 			102 = { is_controlled_by_ROOT_or_subject = yes }
 		}
@@ -4740,7 +4757,6 @@ integrate_greater_german_reich_category = {
 			GER = {
 				custom_effect_tooltip = form_country_germany_required_states_tt
 				hidden_effect = {
-					transfer_state = 4
 					transfer_state = 5
 					transfer_state = 763
 					transfer_state = 51
@@ -4782,7 +4798,7 @@ integrate_greater_german_reich_category = {
 					limit = { 188 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 188
 				}
-				transfer_state = 964
+				#transfer_state = 964
 				transfer_state = 102
 				if = {
 					limit = { 853 = { is_controlled_by_ROOT_or_subject = yes } }

@@ -1,4 +1,4 @@
-# 56之路++
+# 可成立国家优化 & 解互斥plus
 
 - [x] 陆军空军学说、特种部队科技和学说、军工和将领特质解互斥；
 - [x] 特种部队科技完成时将添加一个特种部队专业化分支；
@@ -31,4 +31,4 @@
 - [x] 允许意大利红蓝线成立大意大利和罗马；
 - [x] 修改部分国家完整名称；
 
-[⭐Github🌟](https://github.com/Diadormu/r56_plus)
+[⭐Github🌟](https://github.com/Diadormu/r56_plus/tree/VO)

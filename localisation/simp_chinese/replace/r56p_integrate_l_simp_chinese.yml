@@ -134,8 +134,8 @@
   ADU_integrate_arabia: "向[ADU.GetName]移交领土"
 
   integrate_majapahit_empire_category: "整合满者伯夷"
-  INS_integrate_majapahit_empire: "向[INS.GetName]移交领土（推荐，有独立国策）"
-  MAL_integrate_majapahit_empire: "向[MAL.GetName]移交领土（推荐，有独立国策）"
+  INS_integrate_majapahit_empire: "向[INS.GetName]移交领土"
+  MAL_integrate_majapahit_empire: "向[MAL.GetName]移交领土"
   SGP_integrate_majapahit_empire: "向[SGP.GetName]移交领土"
   SWK_integrate_majapahit_empire: "向[SWK.GetName]移交领土"
 
@@ -231,5 +231,5 @@
   CAY_unite_guiana: "向[CAY.GetName]移交领土"
 
   integrate_peru_bolivia_category: "整合秘鲁-玻利维亚"
-  BOL_integrate_peru_bolivia: "向[BOL.GetName]移交领土（推荐，能吃普拉廷）"
-  PRU_integrate_peru_bolivia: "向[PRU.GetName]移交领土（推荐，有独立国策）"
+  BOL_integrate_peru_bolivia: "向[BOL.GetName]移交领土"
+  PRU_integrate_peru_bolivia: "向[PRU.GetName]移交领土"

@@ -7652,7 +7652,6 @@ form_greater_german_reich_category = {
 		#	is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = form_country_germany_required_states_tt
-				controls_state = 4
 				controls_state = 5
 				controls_state = 763
 				controls_state = 51
@@ -7697,7 +7696,7 @@ form_greater_german_reich_category = {
 			#Lithuania
 			#controls_state = 188
 			#Denmark
-			controls_state = 964
+			#controls_state = 964
 			#Yugoslavia
 			controls_state = 102
 		}
@@ -7716,7 +7715,6 @@ form_greater_german_reich_category = {
 			custom_effect_tooltip = formable_cored_states_tt	
 			hidden_effect = {
 				set_global_flag = form_greater_german_reich_flag
-				add_state_core = 4
 				add_state_core = 5
 				add_state_core = 763
 				add_state_core = 51
@@ -7753,7 +7751,7 @@ form_greater_german_reich_category = {
 				add_state_core = 86
 				add_state_core = 762
 				add_state_core = 188
-				add_state_core = 964
+				#add_state_core = 964
 				add_state_core = 102
 				add_state_core = 853
 			}
