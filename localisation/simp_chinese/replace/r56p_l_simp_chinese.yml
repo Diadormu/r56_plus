@@ -2,6 +2,7 @@
   form_nation_mod_category: "国家统一"
   rename_cities_category: "标记土地"
   formable_cored_states_tt: "获得§Y所有所需地区§!的§Y核心§!"
+  is_controlled_by_ROOT_or_subject: "被§Y[Root.GetName]§!控制或是§Y[Root.GetName]§!的傀儡。"
 
   get_core_from_subject: "从傀儡国收回核心领土"
   HUN_integrate_transylvania: "整合特兰西瓦尼亚"
