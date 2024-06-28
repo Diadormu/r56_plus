@@ -104,18 +104,7 @@ integrate_scandinavia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SWE
-					original_tag = DEN
-					original_tag = NOR
-					original_tag = SMI
-					original_tag = KAR
-					original_tag = EST
-				}
-			}
+			factor = 0
 		}
 	}
 	DEN_integrate_scandinavia = {
@@ -223,18 +212,7 @@ integrate_scandinavia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SWE
-					original_tag = DEN
-					original_tag = NOR
-					original_tag = SMI
-					original_tag = KAR
-					original_tag = EST
-				}
-			}
+			factor = 0
 		}
 	}
 	SWE_integrate_scandinavia = {
@@ -461,18 +439,7 @@ integrate_scandinavia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SWE
-					original_tag = DEN
-					original_tag = NOR
-					original_tag = SMI
-					original_tag = KAR
-					original_tag = EST
-				}
-			}
+			factor = 0
 		}
 	}
 	KAR_integrate_scandinavia = {
@@ -580,18 +547,7 @@ integrate_scandinavia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SWE
-					original_tag = DEN
-					original_tag = NOR
-					original_tag = SMI
-					original_tag = KAR
-					original_tag = EST
-				}
-			}
+			factor = 0
 		}
 	}
 	EST_integrate_scandinavia = {
@@ -702,18 +658,7 @@ integrate_scandinavia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SWE
-					original_tag = DEN
-					original_tag = NOR
-					original_tag = SMI
-					original_tag = KAR
-					original_tag = EST
-				}
-			}
+			factor = 0
 		}
 	}
 }
@@ -922,20 +867,7 @@ integrate_nordic_league_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SWE
-					original_tag = DEN
-					original_tag = NOR
-					original_tag = FIN
-					original_tag = ICE
-					original_tag = SMI
-					original_tag = KAR
-					original_tag = EST
-				}
-			}
+			factor = 0
 		}
 	}
 	DEN_integrate_nordic_league = {
@@ -1141,20 +1073,7 @@ integrate_nordic_league_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SWE
-					original_tag = DEN
-					original_tag = NOR
-					original_tag = FIN
-					original_tag = ICE
-					original_tag = SMI
-					original_tag = KAR
-					original_tag = EST
-				}
-			}
+			factor = 0
 		}
 	}
 	SWE_integrate_nordic_league = {
@@ -1579,20 +1498,7 @@ integrate_nordic_league_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SWE
-					original_tag = DEN
-					original_tag = NOR
-					original_tag = FIN
-					original_tag = ICE
-					original_tag = SMI
-					original_tag = KAR
-					original_tag = EST
-				}
-			}
+			factor = 0
 		}
 	}
 	ICE_integrate_nordic_league = {
@@ -1798,20 +1704,7 @@ integrate_nordic_league_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SWE
-					original_tag = DEN
-					original_tag = NOR
-					original_tag = FIN
-					original_tag = ICE
-					original_tag = SMI
-					original_tag = KAR
-					original_tag = EST
-				}
-			}
+			factor = 0
 		}
 	}
 	SMI_integrate_nordic_league = {
@@ -2022,20 +1915,7 @@ integrate_nordic_league_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SWE
-					original_tag = DEN
-					original_tag = NOR
-					original_tag = FIN
-					original_tag = ICE
-					original_tag = SMI
-					original_tag = KAR
-					original_tag = EST
-				}
-			}
+			factor = 0
 		}
 	}
 	KAR_integrate_nordic_league = {
@@ -2241,20 +2121,7 @@ integrate_nordic_league_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SWE
-					original_tag = DEN
-					original_tag = NOR
-					original_tag = FIN
-					original_tag = ICE
-					original_tag = SMI
-					original_tag = KAR
-					original_tag = EST
-				}
-			}
+			factor = 0
 		}
 	}
 	EST_integrate_nordic_league = {
@@ -2463,20 +2330,7 @@ integrate_nordic_league_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SWE
-					original_tag = DEN
-					original_tag = NOR
-					original_tag = FIN
-					original_tag = ICE
-					original_tag = SMI
-					original_tag = KAR
-					original_tag = EST
-				}
-			}
+			factor = 0
 		}
 	}
 }
@@ -2541,17 +2395,6 @@ integrate_gran_colombia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = PAN
-					original_tag = ECU
-					original_tag = COL
-					original_tag = VEN
-					original_tag = CRC
-					original_tag = GYA
-				}
-			}
 		}
 	}
 	ECU_integrate_gran_colombia = {
@@ -2613,17 +2456,6 @@ integrate_gran_colombia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = PAN
-					original_tag = ECU
-					original_tag = COL
-					original_tag = VEN
-					original_tag = CRC
-					original_tag = GYA
-				}
-			}
 		}
 	}
 	COL_integrate_gran_colombia = {
@@ -2684,7 +2516,7 @@ integrate_gran_colombia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			factor = 100
 			modifier = {
 				factor = 0
 				OR = {
@@ -2829,17 +2661,6 @@ integrate_gran_colombia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = PAN
-					original_tag = ECU
-					original_tag = COL
-					original_tag = VEN
-					original_tag = CRC
-					original_tag = GYA
-				}
-			}
 		}
 	}
 }
@@ -2991,7 +2812,7 @@ integrate_austria_hungary_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 100
 			modifier = {
 				factor = 0
 				OR = {
@@ -3149,7 +2970,7 @@ integrate_austria_hungary_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -3308,15 +3129,6 @@ integrate_austria_hungary_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = AUS
-					original_tag = CZE
-					original_tag = CRO
-					original_tag = HUN
-				}
-			}
 		}
 	}
 	HUN_integrate_austria_hungary = {
@@ -3661,13 +3473,6 @@ integrate_commonwealth_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = POL
-					original_tag = LIT
-				}
-			}
 		}
 	}
 	LIT_integrate_commonwealth = {
@@ -3818,16 +3623,6 @@ integrate_united_netherlands_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = HOL
-					original_tag = BEL
-					original_tag = LUX
-					original_tag = WLL
-					original_tag = FLA
-				}
-			}
 		}
 	}
 	LUX_integrate_united_netherlands = {
@@ -3862,16 +3657,6 @@ integrate_united_netherlands_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = HOL
-					original_tag = BEL
-					original_tag = LUX
-					original_tag = WLL
-					original_tag = FLA
-				}
-			}
 		}
 	}
 	WLL_integrate_united_netherlands = {
@@ -3906,16 +3691,6 @@ integrate_united_netherlands_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = HOL
-					original_tag = BEL
-					original_tag = LUX
-					original_tag = WLL
-					original_tag = FLA
-				}
-			}
 		}
 	}
 	FLA_integrate_united_netherlands = {
@@ -3950,16 +3725,6 @@ integrate_united_netherlands_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = HOL
-					original_tag = BEL
-					original_tag = LUX
-					original_tag = WLL
-					original_tag = FLA
-				}
-			}
 		}
 	}
 }
@@ -3994,17 +3759,6 @@ integrate_united_central_america_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = GUA
-					original_tag = ELS
-					original_tag = HON
-					original_tag = NIC
-					original_tag = COS
-					original_tag = BLZ
-				}
-			}
 		}
 	}
 	ELS_united_central_america = {
@@ -4035,7 +3789,7 @@ integrate_united_central_america_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			factor = 100
 			modifier = {
 				factor = 0
 				OR = {
@@ -4120,17 +3874,6 @@ integrate_united_central_america_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = GUA
-					original_tag = ELS
-					original_tag = HON
-					original_tag = NIC
-					original_tag = COS
-					original_tag = BLZ
-				}
-			}
 		}
 	}
 	COS_united_central_america = {
@@ -4162,17 +3905,6 @@ integrate_united_central_america_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = GUA
-					original_tag = ELS
-					original_tag = HON
-					original_tag = NIC
-					original_tag = COS
-					original_tag = BLZ
-				}
-			}
 		}
 	}
 	BLZ_united_central_america = {
@@ -4204,17 +3936,6 @@ integrate_united_central_america_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = GUA
-					original_tag = ELS
-					original_tag = HON
-					original_tag = NIC
-					original_tag = COS
-					original_tag = BLZ
-				}
-			}
 		}
 	}
 }
@@ -4271,14 +3992,6 @@ integrate_baltic_federation_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = EST
-					original_tag = LAT
-					original_tag = LIT
-				}
-			}
 		}
 	}
 	LAT_integrate_baltic_federation = {
@@ -4332,14 +4045,6 @@ integrate_baltic_federation_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = EST
-					original_tag = LAT
-					original_tag = LIT
-				}
-			}
 		}
 	}
 	LIT_integrate_baltic_federation = {
@@ -4392,7 +4097,7 @@ integrate_baltic_federation_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -4489,17 +4194,6 @@ integrate_mutapa_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SAF
-					original_tag = BOT
-					original_tag = ZIM
-					original_tag = MZB
-					original_tag = LES
-					original_tag = SWA
-				}
-			}
 		}
 	}
 	ZIM_integrate_mutapa = {
@@ -4537,17 +4231,6 @@ integrate_mutapa_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SAF
-					original_tag = BOT
-					original_tag = ZIM
-					original_tag = MZB
-					original_tag = LES
-					original_tag = SWA
-				}
-			}
 		}
 	}
 	MZB_integrate_mutapa = {
@@ -4585,17 +4268,6 @@ integrate_mutapa_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SAF
-					original_tag = BOT
-					original_tag = ZIM
-					original_tag = MZB
-					original_tag = LES
-					original_tag = SWA
-				}
-			}
 		}
 	}
 	LES_integrate_mutapa = {
@@ -4633,17 +4305,6 @@ integrate_mutapa_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SAF
-					original_tag = BOT
-					original_tag = ZIM
-					original_tag = MZB
-					original_tag = LES
-					original_tag = SWA
-				}
-			}
 		}
 	}
 	SWA_integrate_mutapa = {
@@ -4681,17 +4342,6 @@ integrate_mutapa_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SAF
-					original_tag = BOT
-					original_tag = ZIM
-					original_tag = MZB
-					original_tag = LES
-					original_tag = SWA
-				}
-			}
 		}
 	}
 }
@@ -4929,29 +4579,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	SAU_integrate_arabia = {
@@ -5186,29 +4813,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	YEM_integrate_arabia = {
@@ -5443,29 +5047,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	OMA_integrate_arabia = {
@@ -5700,29 +5281,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	EGY_integrate_arabia = {
@@ -6214,29 +5772,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	LBA_integrate_arabia = {
@@ -6471,29 +6006,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	JOR_integrate_arabia = {
@@ -6728,29 +6240,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	PAL_integrate_arabia = {
@@ -6985,29 +6474,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	LEB_integrate_arabia = {
@@ -7242,29 +6708,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	SYR_integrate_arabia = {
@@ -7499,29 +6942,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	KUW_integrate_arabia = {
@@ -7756,29 +7176,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	UAE_integrate_arabia = {
@@ -8013,29 +7410,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	QAT_integrate_arabia = {
@@ -8270,29 +7644,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	TUN_integrate_arabia = {
@@ -8527,29 +7878,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	ALG_integrate_arabia = {
@@ -8784,29 +8112,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	MOR_integrate_arabia = {
@@ -9041,29 +8346,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 	ADU_integrate_arabia = {
@@ -9301,29 +8583,6 @@ integrate_arabia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = IRQ
-					original_tag = SAU
-					original_tag = YEM
-					original_tag = OMA
-					original_tag = EGY
-					original_tag = SUD
-					original_tag = LBA
-					original_tag = JOR
-					original_tag = PAL
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = KUW
-					original_tag = UAE
-					original_tag = QAT
-					original_tag = TUN
-					original_tag = ALG
-					original_tag = MOR
-					original_tag = ADU
-				}
-			}
 		}
 	}
 }
@@ -9415,18 +8674,7 @@ integrate_malayan_confederation_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = INS
-					original_tag = MAL
-					original_tag = PHI
-					original_tag = SGP
-					original_tag = SWK
-					original_tag = BRN
-				}
-			}
+			factor = 0
 		}
 	}
 	MAL_integrate_malayan_confederation = {
@@ -9615,18 +8863,7 @@ integrate_malayan_confederation_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = INS
-					original_tag = MAL
-					original_tag = PHI
-					original_tag = SGP
-					original_tag = SWK
-					original_tag = BRN
-				}
-			}
+			factor = 0
 		}
 	}
 	SGP_integrate_malayan_confederation = {
@@ -9715,18 +8952,7 @@ integrate_malayan_confederation_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = INS
-					original_tag = MAL
-					original_tag = PHI
-					original_tag = SGP
-					original_tag = SWK
-					original_tag = BRN
-				}
-			}
+			factor = 0
 		}
 	}
 	SWK_integrate_malayan_confederation = {
@@ -9815,18 +9041,7 @@ integrate_malayan_confederation_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = INS
-					original_tag = MAL
-					original_tag = PHI
-					original_tag = SGP
-					original_tag = SWK
-					original_tag = BRN
-				}
-			}
+			factor = 0
 		}
 	}
 	BRN_integrate_malayan_confederation = {
@@ -9915,18 +9130,7 @@ integrate_malayan_confederation_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = INS
-					original_tag = MAL
-					original_tag = PHI
-					original_tag = SGP
-					original_tag = SWK
-					original_tag = BRN
-				}
-			}
+			factor = 0
 		}
 	}
 }
@@ -10113,20 +9317,6 @@ integrate_polynesia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = HAW
-					original_tag = TAH
-					original_tag = GUM
-					original_tag = FSM
-					original_tag = TON
-					original_tag = SAM
-					original_tag = SOL
-					original_tag = FIJ
-					original_tag = NZL
-				}
-			}
 		}
 	}
 	TAH_integrate_polynesia = {
@@ -10228,20 +9418,6 @@ integrate_polynesia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = HAW
-					original_tag = TAH
-					original_tag = GUM
-					original_tag = FSM
-					original_tag = TON
-					original_tag = SAM
-					original_tag = SOL
-					original_tag = FIJ
-					original_tag = NZL
-				}
-			}
 		}
 	}
 	GUM_integrate_polynesia = {
@@ -10343,20 +9519,6 @@ integrate_polynesia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = HAW
-					original_tag = TAH
-					original_tag = GUM
-					original_tag = FSM
-					original_tag = TON
-					original_tag = SAM
-					original_tag = SOL
-					original_tag = FIJ
-					original_tag = NZL
-				}
-			}
 		}
 	}
 	FSM_integrate_polynesia = {
@@ -10458,20 +9620,6 @@ integrate_polynesia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = HAW
-					original_tag = TAH
-					original_tag = GUM
-					original_tag = FSM
-					original_tag = TON
-					original_tag = SAM
-					original_tag = SOL
-					original_tag = FIJ
-					original_tag = NZL
-				}
-			}
 		}
 	}
 	TON_integrate_polynesia = {
@@ -10573,20 +9721,6 @@ integrate_polynesia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = HAW
-					original_tag = TAH
-					original_tag = GUM
-					original_tag = FSM
-					original_tag = TON
-					original_tag = SAM
-					original_tag = SOL
-					original_tag = FIJ
-					original_tag = NZL
-				}
-			}
 		}
 	}
 	SAM_integrate_polynesia = {
@@ -10688,20 +9822,6 @@ integrate_polynesia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = HAW
-					original_tag = TAH
-					original_tag = GUM
-					original_tag = FSM
-					original_tag = TON
-					original_tag = SAM
-					original_tag = SOL
-					original_tag = FIJ
-					original_tag = NZL
-				}
-			}
 		}
 	}
 	SOL_integrate_polynesia = {
@@ -10803,20 +9923,6 @@ integrate_polynesia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = HAW
-					original_tag = TAH
-					original_tag = GUM
-					original_tag = FSM
-					original_tag = TON
-					original_tag = SAM
-					original_tag = SOL
-					original_tag = FIJ
-					original_tag = NZL
-				}
-			}
 		}
 	}
 	FIJ_integrate_polynesia = {
@@ -10918,20 +10024,6 @@ integrate_polynesia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = HAW
-					original_tag = TAH
-					original_tag = GUM
-					original_tag = FSM
-					original_tag = TON
-					original_tag = SAM
-					original_tag = SOL
-					original_tag = FIJ
-					original_tag = NZL
-				}
-			}
 		}
 	}
 	NZL_integrate_polynesia = {
@@ -11032,7 +10124,7 @@ integrate_polynesia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -11216,13 +10308,6 @@ integrate_cossack_hosts = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = DON
-					original_tag = KUB
-				}
-			}
 		}
 	}
 }
@@ -11297,17 +10382,7 @@ integrate_mountainous_republic_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = DAG
-					original_tag = CIN
-					original_tag = NOA
-					original_tag = KBK
-					original_tag = ABK
-				}
-			}
+			factor = 0
 		}
 	}
 	NOA_integrate_mountainous_republic = {
@@ -11338,17 +10413,7 @@ integrate_mountainous_republic_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = DAG
-					original_tag = CIN
-					original_tag = NOA
-					original_tag = KBK
-					original_tag = ABK
-				}
-			}
+			factor = 0
 		}
 	}
 	KBK_integrate_mountainous_republic = {
@@ -11379,17 +10444,7 @@ integrate_mountainous_republic_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = DAG
-					original_tag = CIN
-					original_tag = NOA
-					original_tag = KBK
-					original_tag = ABK
-				}
-			}
+			factor = 0
 		}
 	}
 	ABK_integrate_mountainous_republic = {
@@ -11420,17 +10475,7 @@ integrate_mountainous_republic_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = DAG
-					original_tag = CIN
-					original_tag = NOA
-					original_tag = KBK
-					original_tag = ABK
-				}
-			}
+			factor = 0
 		}
 	}
 }
@@ -11520,14 +10565,6 @@ integrate_transcaucasus_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = GEO
-					original_tag = ARM
-					original_tag = AZR
-				}
-			}
 		}
 	}
 	ARM_integrate_transcaucasian_republic = {
@@ -11614,14 +10651,6 @@ integrate_transcaucasus_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = GEO
-					original_tag = ARM
-					original_tag = AZR
-				}
-			}
 		}
 	}
 	AZR_integrate_transcaucasian_republic = {
@@ -12048,21 +11077,6 @@ integrate_siberia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YAK
-					original_tag = FER
-					original_tag = CKK
-					original_tag = VLA
-					original_tag = BYA
-					original_tag = TAY
-					original_tag = ALT
-					original_tag = YAM
-					original_tag = OVO
-					original_tag = TAN
-				}
-			}
 		}
 	}
 	CKK_integrate_siberian_republic = {
@@ -12220,21 +11234,6 @@ integrate_siberia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YAK
-					original_tag = FER
-					original_tag = CKK
-					original_tag = VLA
-					original_tag = BYA
-					original_tag = TAY
-					original_tag = ALT
-					original_tag = YAM
-					original_tag = OVO
-					original_tag = TAN
-				}
-			}
 		}
 	}
 	VLA_integrate_siberian_republic = {
@@ -12392,21 +11391,6 @@ integrate_siberia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YAK
-					original_tag = FER
-					original_tag = CKK
-					original_tag = VLA
-					original_tag = BYA
-					original_tag = TAY
-					original_tag = ALT
-					original_tag = YAM
-					original_tag = OVO
-					original_tag = TAN
-				}
-			}
 		}
 	}
 	BYA_integrate_siberian_republic = {
@@ -12564,21 +11548,6 @@ integrate_siberia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YAK
-					original_tag = FER
-					original_tag = CKK
-					original_tag = VLA
-					original_tag = BYA
-					original_tag = TAY
-					original_tag = ALT
-					original_tag = YAM
-					original_tag = OVO
-					original_tag = TAN
-				}
-			}
 		}
 	}
 	TAY_integrate_siberian_republic = {
@@ -12736,21 +11705,6 @@ integrate_siberia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YAK
-					original_tag = FER
-					original_tag = CKK
-					original_tag = VLA
-					original_tag = BYA
-					original_tag = TAY
-					original_tag = ALT
-					original_tag = YAM
-					original_tag = OVO
-					original_tag = TAN
-				}
-			}
 		}
 	}
 	ALT_integrate_siberian_republic = {
@@ -12908,21 +11862,6 @@ integrate_siberia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YAK
-					original_tag = FER
-					original_tag = CKK
-					original_tag = VLA
-					original_tag = BYA
-					original_tag = TAY
-					original_tag = ALT
-					original_tag = YAM
-					original_tag = OVO
-					original_tag = TAN
-				}
-			}
 		}
 	}
 	YAM_integrate_siberian_republic = {
@@ -13080,21 +12019,6 @@ integrate_siberia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YAK
-					original_tag = FER
-					original_tag = CKK
-					original_tag = VLA
-					original_tag = BYA
-					original_tag = TAY
-					original_tag = ALT
-					original_tag = YAM
-					original_tag = OVO
-					original_tag = TAN
-				}
-			}
 		}
 	}
 	OVO_integrate_siberian_republic = {
@@ -13252,21 +12176,6 @@ integrate_siberia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YAK
-					original_tag = FER
-					original_tag = CKK
-					original_tag = VLA
-					original_tag = BYA
-					original_tag = TAY
-					original_tag = ALT
-					original_tag = YAM
-					original_tag = OVO
-					original_tag = TAN
-				}
-			}
 		}
 	}
 	TAN_integrate_siberian_republic = {
@@ -13424,21 +12333,6 @@ integrate_siberia_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YAK
-					original_tag = FER
-					original_tag = CKK
-					original_tag = VLA
-					original_tag = BYA
-					original_tag = TAY
-					original_tag = ALT
-					original_tag = YAM
-					original_tag = OVO
-					original_tag = TAN
-				}
-			}
 		}
 	}
 }
@@ -13525,23 +12419,7 @@ integrate_turkestan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = TAN
-					original_tag = KAZ
-					original_tag = UZB
-					original_tag = KYR
-					original_tag = TAJ
-					original_tag = TMS
-					original_tag = SIK
-					original_tag = TNG
-					original_tag = BUK
-					original_tag = KHI
-					original_tag = KKP
-				}
-			}
+			factor = 0
 		}
 	}
 	KAZ_integrate_turkestan = {
@@ -13725,23 +12603,7 @@ integrate_turkestan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = TAN
-					original_tag = KAZ
-					original_tag = UZB
-					original_tag = KYR
-					original_tag = TAJ
-					original_tag = TMS
-					original_tag = SIK
-					original_tag = TNG
-					original_tag = BUK
-					original_tag = KHI
-					original_tag = KKP
-				}
-			}
+			factor = 0
 		}
 	}
 	KYR_integrate_turkestan = {
@@ -13825,23 +12687,7 @@ integrate_turkestan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = TAN
-					original_tag = KAZ
-					original_tag = UZB
-					original_tag = KYR
-					original_tag = TAJ
-					original_tag = TMS
-					original_tag = SIK
-					original_tag = TNG
-					original_tag = BUK
-					original_tag = KHI
-					original_tag = KKP
-				}
-			}
+			factor = 0
 		}
 	}
 	TAJ_integrate_turkestan = {
@@ -13925,23 +12771,7 @@ integrate_turkestan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = TAN
-					original_tag = KAZ
-					original_tag = UZB
-					original_tag = KYR
-					original_tag = TAJ
-					original_tag = TMS
-					original_tag = SIK
-					original_tag = TNG
-					original_tag = BUK
-					original_tag = KHI
-					original_tag = KKP
-				}
-			}
+			factor = 0
 		}
 	}
 	TMS_integrate_turkestan = {
@@ -14025,23 +12855,7 @@ integrate_turkestan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = TAN
-					original_tag = KAZ
-					original_tag = UZB
-					original_tag = KYR
-					original_tag = TAJ
-					original_tag = TMS
-					original_tag = SIK
-					original_tag = TNG
-					original_tag = BUK
-					original_tag = KHI
-					original_tag = KKP
-				}
-			}
+			factor = 0
 		}
 	}
 	SIK_integrate_turkestan = {
@@ -14125,23 +12939,7 @@ integrate_turkestan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = TAN
-					original_tag = KAZ
-					original_tag = UZB
-					original_tag = KYR
-					original_tag = TAJ
-					original_tag = TMS
-					original_tag = SIK
-					original_tag = TNG
-					original_tag = BUK
-					original_tag = KHI
-					original_tag = KKP
-				}
-			}
+			factor = 0
 		}
 	}
 	TNG_integrate_turkestan = {
@@ -14225,23 +13023,7 @@ integrate_turkestan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = TAN
-					original_tag = KAZ
-					original_tag = UZB
-					original_tag = KYR
-					original_tag = TAJ
-					original_tag = TMS
-					original_tag = SIK
-					original_tag = TNG
-					original_tag = BUK
-					original_tag = KHI
-					original_tag = KKP
-				}
-			}
+			factor = 0
 		}
 	}
 	BUK_integrate_turkestan = {
@@ -14325,23 +13107,7 @@ integrate_turkestan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = TAN
-					original_tag = KAZ
-					original_tag = UZB
-					original_tag = KYR
-					original_tag = TAJ
-					original_tag = TMS
-					original_tag = SIK
-					original_tag = TNG
-					original_tag = BUK
-					original_tag = KHI
-					original_tag = KKP
-				}
-			}
+			factor = 0
 		}
 	}
 	KHI_integrate_turkestan = {
@@ -14425,23 +13191,7 @@ integrate_turkestan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = TAN
-					original_tag = KAZ
-					original_tag = UZB
-					original_tag = KYR
-					original_tag = TAJ
-					original_tag = TMS
-					original_tag = SIK
-					original_tag = TNG
-					original_tag = BUK
-					original_tag = KHI
-					original_tag = KKP
-				}
-			}
+			factor = 0
 		}
 	}
 	KKP_integrate_turkestan = {
@@ -14525,23 +13275,7 @@ integrate_turkestan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = TAN
-					original_tag = KAZ
-					original_tag = UZB
-					original_tag = KYR
-					original_tag = TAJ
-					original_tag = TMS
-					original_tag = SIK
-					original_tag = TNG
-					original_tag = BUK
-					original_tag = KHI
-					original_tag = KKP
-				}
-			}
+			factor = 0
 		}
 	}
 }
@@ -14605,16 +13339,6 @@ integrate_idel_ural_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = MEL
-					original_tag = CHU
-					original_tag = TAT
-					original_tag = UDM
-					original_tag = BSK
-				}
-			}
 		}
 	}
 	CHU_integrate_idel_uralic_republic = {
@@ -14642,16 +13366,6 @@ integrate_idel_ural_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = MEL
-					original_tag = CHU
-					original_tag = TAT
-					original_tag = UDM
-					original_tag = BSK
-				}
-			}
 		}
 	}
 	TAT_integrate_idel_uralic_republic = {
@@ -14716,16 +13430,6 @@ integrate_idel_ural_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = MEL
-					original_tag = CHU
-					original_tag = TAT
-					original_tag = UDM
-					original_tag = BSK
-				}
-			}
 		}
 	}
 	BSK_integrate_idel_uralic_republic = {
@@ -14753,16 +13457,6 @@ integrate_idel_ural_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = MEL
-					original_tag = CHU
-					original_tag = TAT
-					original_tag = UDM
-					original_tag = BSK
-				}
-			}
 		}
 	}
 }
@@ -14883,17 +13577,6 @@ integrate_east_africa_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = KEN
-					original_tag = UGA
-					original_tag = TZN
-					original_tag = ZAN
-					original_tag = RWA
-					original_tag = BRD
-				}
-			}
 		}
 	}
 	TZN_integrate_east_africa = {
@@ -14947,17 +13630,6 @@ integrate_east_africa_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = KEN
-					original_tag = UGA
-					original_tag = TZN
-					original_tag = ZAN
-					original_tag = RWA
-					original_tag = BRD
-				}
-			}
 		}
 	}
 	ZAN_integrate_east_africa = {
@@ -15011,17 +13683,6 @@ integrate_east_africa_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = KEN
-					original_tag = UGA
-					original_tag = TZN
-					original_tag = ZAN
-					original_tag = RWA
-					original_tag = BRD
-				}
-			}
 		}
 	}
 	RWA_integrate_east_africa = {
@@ -15075,17 +13736,6 @@ integrate_east_africa_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = KEN
-					original_tag = UGA
-					original_tag = TZN
-					original_tag = ZAN
-					original_tag = RWA
-					original_tag = BRD
-				}
-			}
 		}
 	}
 	BRD_integrate_east_africa = {
@@ -15139,17 +13789,6 @@ integrate_east_africa_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = KEN
-					original_tag = UGA
-					original_tag = TZN
-					original_tag = ZAN
-					original_tag = RWA
-					original_tag = BRD
-				}
-			}
 		}
 	}
 }
@@ -15214,7 +13853,7 @@ integrate_hispaniola_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -15246,13 +13885,6 @@ integrate_hispaniola_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = HAI
-					original_tag = DOM
-				}
-			}
 		}
 	}
 }
@@ -15318,14 +13950,7 @@ integrate_peru_bolivia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = BOL
-					original_tag = PRU
-				}
-			}
+			factor = 0
 		}
 	}
 	PRU_integrate_peru_bolivia = {
@@ -15429,7 +14054,7 @@ integrate_guianas_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -15469,14 +14094,6 @@ integrate_guianas_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = GYA
-					original_tag = SUR
-					original_tag = CAY
-				}
-			}
 		}
 	}
 	CAY_unite_guiana = {
@@ -15508,14 +14125,6 @@ integrate_guianas_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = GYA
-					original_tag = SUR
-					original_tag = CAY
-				}
-			}
 		}
 	}
 }
@@ -15593,14 +14202,6 @@ integrate_the_levant_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = JOR
-				}
-			}
 		}
 	}
 	SYR_integrate_greater_syria = {
@@ -15753,14 +14354,6 @@ integrate_the_levant_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = LEB
-					original_tag = SYR
-					original_tag = JOR
-				}
-			}
 		}
 	}
 }
@@ -15980,20 +14573,6 @@ integrate_carribean_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = DOM
-					original_tag = HAI
-					original_tag = CUB
-					original_tag = JAM
-					original_tag = PUE
-					original_tag = BAH
-					original_tag = TRI
-					original_tag = GDL
-					original_tag = CRC
-				}
-			}
 		}
 	}
 	HAI_integrate_caribbean = {
@@ -16034,20 +14613,6 @@ integrate_carribean_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = DOM
-					original_tag = HAI
-					original_tag = CUB
-					original_tag = JAM
-					original_tag = PUE
-					original_tag = BAH
-					original_tag = TRI
-					original_tag = GDL
-					original_tag = CRC
-				}
-			}
 		}
 	}
 	CUB_integrate_caribbean = {
@@ -16142,20 +14707,6 @@ integrate_carribean_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = DOM
-					original_tag = HAI
-					original_tag = CUB
-					original_tag = JAM
-					original_tag = PUE
-					original_tag = BAH
-					original_tag = TRI
-					original_tag = GDL
-					original_tag = CRC
-				}
-			}
 		}
 	}
 	PUE_integrate_caribbean = {
@@ -16196,20 +14747,6 @@ integrate_carribean_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = DOM
-					original_tag = HAI
-					original_tag = CUB
-					original_tag = JAM
-					original_tag = PUE
-					original_tag = BAH
-					original_tag = TRI
-					original_tag = GDL
-					original_tag = CRC
-				}
-			}
 		}
 	}
 	BAH_integrate_caribbean = {
@@ -16250,20 +14787,6 @@ integrate_carribean_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = DOM
-					original_tag = HAI
-					original_tag = CUB
-					original_tag = JAM
-					original_tag = PUE
-					original_tag = BAH
-					original_tag = TRI
-					original_tag = GDL
-					original_tag = CRC
-				}
-			}
 		}
 	}
 	TRI_integrate_caribbean = {
@@ -16304,20 +14827,6 @@ integrate_carribean_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = DOM
-					original_tag = HAI
-					original_tag = CUB
-					original_tag = JAM
-					original_tag = PUE
-					original_tag = BAH
-					original_tag = TRI
-					original_tag = GDL
-					original_tag = CRC
-				}
-			}
 		}
 	}
 	GDL_integrate_caribbean = {
@@ -16358,20 +14867,6 @@ integrate_carribean_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = DOM
-					original_tag = HAI
-					original_tag = CUB
-					original_tag = JAM
-					original_tag = PUE
-					original_tag = BAH
-					original_tag = TRI
-					original_tag = GDL
-					original_tag = CRC
-				}
-			}
 		}
 	}
 	CRC_integrate_caribbean = {
@@ -16412,20 +14907,6 @@ integrate_carribean_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = DOM
-					original_tag = HAI
-					original_tag = CUB
-					original_tag = JAM
-					original_tag = PUE
-					original_tag = BAH
-					original_tag = TRI
-					original_tag = GDL
-					original_tag = CRC
-				}
-			}
 		}
 	}
 }
@@ -16502,16 +14983,6 @@ integrate_la_plata = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = BOL
-					original_tag = ARG
-					original_tag = URG
-					original_tag = PAR
-					original_tag = CHL
-				}
-			}
 		}
 	}
 	ARG_integrate_la_plata = {
@@ -16556,16 +15027,6 @@ integrate_la_plata = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = BOL
-					original_tag = ARG
-					original_tag = URG
-					original_tag = PAR
-					original_tag = CHL
-				}
-			}
 		}
 	}
 	URG_integrate_la_plata = {
@@ -16610,16 +15071,6 @@ integrate_la_plata = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = BOL
-					original_tag = ARG
-					original_tag = URG
-					original_tag = PAR
-					original_tag = CHL
-				}
-			}
 		}
 	}
 	PAR_integrate_la_plata = {
@@ -16664,16 +15115,6 @@ integrate_la_plata = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = BOL
-					original_tag = ARG
-					original_tag = URG
-					original_tag = PAR
-					original_tag = CHL
-				}
-			}
 		}
 	}
 	CHL_integrate_la_plata = {
@@ -16791,17 +15232,7 @@ integrate_the_empire_of_mali = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SEN
-					original_tag = GAM
-					original_tag = MLI
-					original_tag = VOL
-					original_tag = GNB
-				}
-			}
+			factor = 0
 		}
 	}
 	GAM_integrate_the_empire_of_mali = {
@@ -16860,16 +15291,6 @@ integrate_the_empire_of_mali = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SEN
-					original_tag = GAM
-					original_tag = MLI
-					original_tag = VOL
-					original_tag = GNB
-				}
-			}
 		}
 	}
 	MLI_integrate_the_empire_of_mali = {
@@ -16996,16 +15417,6 @@ integrate_the_empire_of_mali = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SEN
-					original_tag = GAM
-					original_tag = MLI
-					original_tag = VOL
-					original_tag = GNB
-				}
-			}
 		}
 	}
 	GNB_integrate_the_empire_of_mali = {
@@ -17064,16 +15475,6 @@ integrate_the_empire_of_mali = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SEN
-					original_tag = GAM
-					original_tag = MLI
-					original_tag = VOL
-					original_tag = GNB
-				}
-			}
 		}
 	}
 }
@@ -17178,23 +15579,7 @@ integrate_west_african_union = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SEN
-					original_tag = TOG
-					original_tag = IVO
-					original_tag = CMR
-					original_tag = DAH
-					original_tag = GNA
-					original_tag = NGA
-					original_tag = GHA
-					original_tag = LIB
-					original_tag = MLI
-					original_tag = NGR
-				}
-			}
+			factor = 0
 		}
 	}
 	TOG_integrate_west_african_union = {
@@ -17297,22 +15682,6 @@ integrate_west_african_union = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SEN
-					original_tag = TOG
-					original_tag = IVO
-					original_tag = CMR
-					original_tag = DAH
-					original_tag = GNA
-					original_tag = NGA
-					original_tag = GHA
-					original_tag = LIB
-					original_tag = MLI
-					original_tag = NGR
-				}
-			}
 		}
 	}
 	IVO_integrate_west_african_union = {
@@ -17415,22 +15784,6 @@ integrate_west_african_union = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SEN
-					original_tag = TOG
-					original_tag = IVO
-					original_tag = CMR
-					original_tag = DAH
-					original_tag = GNA
-					original_tag = NGA
-					original_tag = GHA
-					original_tag = LIB
-					original_tag = MLI
-					original_tag = NGR
-				}
-			}
 		}
 	}
 	CMR_integrate_west_african_union = {
@@ -17533,22 +15886,6 @@ integrate_west_african_union = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SEN
-					original_tag = TOG
-					original_tag = IVO
-					original_tag = CMR
-					original_tag = DAH
-					original_tag = GNA
-					original_tag = NGA
-					original_tag = GHA
-					original_tag = LIB
-					original_tag = MLI
-					original_tag = NGR
-				}
-			}
 		}
 	}
 	DAH_integrate_west_african_union = {
@@ -17651,22 +15988,6 @@ integrate_west_african_union = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SEN
-					original_tag = TOG
-					original_tag = IVO
-					original_tag = CMR
-					original_tag = DAH
-					original_tag = GNA
-					original_tag = NGA
-					original_tag = GHA
-					original_tag = LIB
-					original_tag = MLI
-					original_tag = NGR
-				}
-			}
 		}
 	}
 	GNA_integrate_west_african_union = {
@@ -17769,22 +16090,6 @@ integrate_west_african_union = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SEN
-					original_tag = TOG
-					original_tag = IVO
-					original_tag = CMR
-					original_tag = DAH
-					original_tag = GNA
-					original_tag = NGA
-					original_tag = GHA
-					original_tag = LIB
-					original_tag = MLI
-					original_tag = NGR
-				}
-			}
 		}
 	}
 	NGA_integrate_west_african_union = {
@@ -17887,22 +16192,6 @@ integrate_west_african_union = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SEN
-					original_tag = TOG
-					original_tag = IVO
-					original_tag = CMR
-					original_tag = DAH
-					original_tag = GNA
-					original_tag = NGA
-					original_tag = GHA
-					original_tag = LIB
-					original_tag = MLI
-					original_tag = NGR
-				}
-			}
 		}
 	}
 	GHA_integrate_west_african_union = {
@@ -18005,22 +16294,6 @@ integrate_west_african_union = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SEN
-					original_tag = TOG
-					original_tag = IVO
-					original_tag = CMR
-					original_tag = DAH
-					original_tag = GNA
-					original_tag = NGA
-					original_tag = GHA
-					original_tag = LIB
-					original_tag = MLI
-					original_tag = NGR
-				}
-			}
 		}
 	}
 	LIB_integrate_west_african_union = {
@@ -18123,22 +16396,6 @@ integrate_west_african_union = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SEN
-					original_tag = TOG
-					original_tag = IVO
-					original_tag = CMR
-					original_tag = DAH
-					original_tag = GNA
-					original_tag = NGA
-					original_tag = GHA
-					original_tag = LIB
-					original_tag = MLI
-					original_tag = NGR
-				}
-			}
 		}
 	}
 	MLI_integrate_west_african_union = {
@@ -18359,22 +16616,6 @@ integrate_west_african_union = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = SEN
-					original_tag = TOG
-					original_tag = IVO
-					original_tag = CMR
-					original_tag = DAH
-					original_tag = GNA
-					original_tag = NGA
-					original_tag = GHA
-					original_tag = LIB
-					original_tag = MLI
-					original_tag = NGR
-				}
-			}
 		}
 	}
 }
@@ -18505,20 +16746,6 @@ integrate_hispanoamerica_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = ARG
-					original_tag = ECU
-					original_tag = PAR
-					original_tag = CHL
-					original_tag = COL
-					original_tag = PAN
-					original_tag = BOL
-					original_tag = URG
-					original_tag = VEN
-				}
-			}
 		}
 	}
 	ECU_integrate_hispanoamerica = {
@@ -18606,20 +16833,6 @@ integrate_hispanoamerica_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = ARG
-					original_tag = ECU
-					original_tag = PAR
-					original_tag = CHL
-					original_tag = COL
-					original_tag = PAN
-					original_tag = BOL
-					original_tag = URG
-					original_tag = VEN
-				}
-			}
 		}
 	}
 	PAR_integrate_hispanoamerica = {
@@ -18707,20 +16920,6 @@ integrate_hispanoamerica_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = ARG
-					original_tag = ECU
-					original_tag = PAR
-					original_tag = CHL
-					original_tag = COL
-					original_tag = PAN
-					original_tag = BOL
-					original_tag = URG
-					original_tag = VEN
-				}
-			}
 		}
 	}
 	CHL_integrate_hispanoamerica = {
@@ -18808,20 +17007,6 @@ integrate_hispanoamerica_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = ARG
-					original_tag = ECU
-					original_tag = PAR
-					original_tag = CHL
-					original_tag = COL
-					original_tag = PAN
-					original_tag = BOL
-					original_tag = URG
-					original_tag = VEN
-				}
-			}
 		}
 	}
 	COL_integrate_hispanoamerica = {
@@ -18908,21 +17093,7 @@ integrate_hispanoamerica_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = ARG
-					original_tag = ECU
-					original_tag = PAR
-					original_tag = CHL
-					original_tag = COL
-					original_tag = PAN
-					original_tag = BOL
-					original_tag = URG
-					original_tag = VEN
-				}
-			}
+			factor = 0
 		}
 	}
 	PAN_integrate_hispanoamerica = {
@@ -19010,20 +17181,6 @@ integrate_hispanoamerica_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = ARG
-					original_tag = ECU
-					original_tag = PAR
-					original_tag = CHL
-					original_tag = COL
-					original_tag = PAN
-					original_tag = BOL
-					original_tag = URG
-					original_tag = VEN
-				}
-			}
 		}
 	}
 	BOL_integrate_hispanoamerica = {
@@ -19111,20 +17268,6 @@ integrate_hispanoamerica_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = ARG
-					original_tag = ECU
-					original_tag = PAR
-					original_tag = CHL
-					original_tag = COL
-					original_tag = PAN
-					original_tag = BOL
-					original_tag = URG
-					original_tag = VEN
-				}
-			}
 		}
 	}
 	URG_integrate_hispanoamerica = {
@@ -19212,20 +17355,6 @@ integrate_hispanoamerica_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = ARG
-					original_tag = ECU
-					original_tag = PAR
-					original_tag = CHL
-					original_tag = COL
-					original_tag = PAN
-					original_tag = BOL
-					original_tag = URG
-					original_tag = VEN
-				}
-			}
 		}
 	}
 	VEN_integrate_hispanoamerica = {
@@ -19312,21 +17441,7 @@ integrate_hispanoamerica_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = ARG
-					original_tag = ECU
-					original_tag = PAR
-					original_tag = CHL
-					original_tag = COL
-					original_tag = PAN
-					original_tag = BOL
-					original_tag = URG
-					original_tag = VEN
-				}
-			}
+			factor = 0
 		}
 	}
 	PRU_integrate_hispanoamerica = {
@@ -19420,11 +17535,7 @@ integrate_hispanoamerica_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				original_tag = PRU
-			}
+			factor = 0
 		}
 	}
 }
@@ -19616,16 +17727,6 @@ integrate_the_mamluks_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = EGY
-					original_tag = PAL
-					original_tag = LBA
-					original_tag = LEB
-					original_tag = SYR
-				}
-			}
 		}
 	}
 	LBA_integrate_the_mamluks = {
@@ -19715,16 +17816,6 @@ integrate_the_mamluks_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = EGY
-					original_tag = PAL
-					original_tag = LBA
-					original_tag = LEB
-					original_tag = SYR
-				}
-			}
 		}
 	}
 	LEB_integrate_the_mamluks = {
@@ -19814,16 +17905,6 @@ integrate_the_mamluks_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = EGY
-					original_tag = PAL
-					original_tag = LBA
-					original_tag = LEB
-					original_tag = SYR
-				}
-			}
 		}
 	}
 	SYR_integrate_the_mamluks = {
@@ -19913,16 +17994,6 @@ integrate_the_mamluks_category = {
 		}
 		ai_will_do = {
 			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = EGY
-					original_tag = PAL
-					original_tag = LBA
-					original_tag = LEB
-					original_tag = SYR
-				}
-			}
 		}
 	}
 }
@@ -20032,14 +18103,7 @@ integrate_unite_tanganyika_zanzibar_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = TZN
-					original_tag = ZAN
-				}
-			}
+			factor = 0
 		}
 	}
 }

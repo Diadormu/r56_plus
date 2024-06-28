@@ -81,9 +81,7 @@ form_nation_mod_category = {
 				}
 			}
 		}
-		cost = 20
-		days_remove = 60
-		remove_effect = {
+		complete_effect = {
 			76 = {
 				add_core_of = HUN
 				transfer_state_to = HUN
@@ -133,9 +131,7 @@ form_nation_mod_category = {
 				}
 			}
 		}
-		cost = 20
-		days_remove = 60
-		remove_effect = {
+		complete_effect = {
 			664 = {
 				add_core_of = HUN
 				transfer_state_to = HUN
@@ -185,9 +181,7 @@ form_nation_mod_category = {
 				}
 			}
 		}
-		cost = 20
-		days_remove = 60
-		remove_effect = {
+		complete_effect = {
 			45 = {
 				add_core_of = HUN
 				transfer_state_to = HUN
@@ -1146,15 +1140,7 @@ integrate_north_american_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = CAN
-					original_tag = USA
-					original_tag = MEX
-				}
-			}
+			factor = 0
 		}
 	}
 	MEX_integrate_north_american = {
@@ -1374,15 +1360,7 @@ integrate_north_american_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = CAN
-					original_tag = USA
-					original_tag = MEX
-				}
-			}
+			factor = 0
 		}
 	}
 }
@@ -1786,7 +1764,7 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			factor = 100
 			modifier = {
 				factor = 0
 				OR = {
@@ -1936,7 +1914,11 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			factor = 0
+			modifier = {
+				factor = 200
+				has_government = communism
+			}
 			modifier = {
 				factor = 0
 				OR = {
@@ -2090,20 +2072,7 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = CHI
-					original_tag = PRC
-					original_tag = GXC
-					original_tag = YUN
-					original_tag = SHX
-					original_tag = XSM
-					original_tag = SIK
-					original_tag = MAN
-				}
-			}
+			factor = 0
 		}
 	}
 	YUN_integrate_greater_china = {
@@ -2244,20 +2213,7 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = CHI
-					original_tag = PRC
-					original_tag = GXC
-					original_tag = YUN
-					original_tag = SHX
-					original_tag = XSM
-					original_tag = SIK
-					original_tag = MAN
-				}
-			}
+			factor = 0
 		}
 	}
 	SHX_integrate_greater_china = {
@@ -2398,20 +2354,7 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = CHI
-					original_tag = PRC
-					original_tag = GXC
-					original_tag = YUN
-					original_tag = SHX
-					original_tag = XSM
-					original_tag = SIK
-					original_tag = MAN
-				}
-			}
+			factor = 0
 		}
 	}
 	XSM_integrate_greater_china = {
@@ -2552,20 +2495,7 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = CHI
-					original_tag = PRC
-					original_tag = GXC
-					original_tag = YUN
-					original_tag = SHX
-					original_tag = XSM
-					original_tag = SIK
-					original_tag = MAN
-				}
-			}
+			factor = 0
 		}
 	}
 	SIK_integrate_greater_china = {
@@ -2706,20 +2636,7 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = CHI
-					original_tag = PRC
-					original_tag = GXC
-					original_tag = YUN
-					original_tag = SHX
-					original_tag = XSM
-					original_tag = SIK
-					original_tag = MAN
-				}
-			}
+			factor = 0
 		}
 	}
 	MAN_integrate_greater_china = {
@@ -2856,7 +2773,17 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			factor = 0
+			modifier = {
+				factor = 200
+				AND = {
+					original_tag = JAP
+					OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+			}
 			modifier = {
 				factor = 0
 				OR = {
@@ -2878,15 +2805,13 @@ back_tsarist_russia_category = {
 	claim_FIN = {
 		icon = generic_form_nation
 		allowed = { original_tag = SOV }
-		visible = {
-			original_tag = SOV
+		visible = { original_tag = SOV }
+
+		available = {
 			OR = {
 				has_completed_focus = SOV_secure_leningrad
 				has_completed_focus = SOV_secure_finland
 			}
-		}
-
-		available = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_FIN_required_states_tt
 				controls_state = 111
@@ -2926,15 +2851,13 @@ back_tsarist_russia_category = {
 	claim_EST = {
 		icon = generic_form_nation
 		allowed = { original_tag = SOV }
-		visible = {
-			original_tag = SOV
+		visible = { original_tag = SOV }
+
+		available = {
 			OR = {
 				has_completed_focus = SOV_baltic_security
 				has_completed_focus = SOV_secure_the_baltics
 			}
-		}
-
-		available = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_EST_required_states_tt
 				controls_state = 13
@@ -2972,15 +2895,13 @@ back_tsarist_russia_category = {
 	claim_LAT = {
 		icon = generic_form_nation
 		allowed = { original_tag = SOV }
-		visible = {
-			original_tag = SOV
+		visible = { original_tag = SOV }
+
+		available = {
 			OR = {
 				has_completed_focus = SOV_baltic_security
 				has_completed_focus = SOV_secure_the_baltics
 			}
-		}
-
-		available = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_LAT_required_states_tt
 				controls_state = 12
@@ -3018,15 +2939,13 @@ back_tsarist_russia_category = {
 	claim_LIT = {
 		icon = generic_form_nation
 		allowed = { original_tag = SOV }
-		visible = {
-			original_tag = SOV
+		visible = { original_tag = SOV }
+
+		available = {
 			OR = {
 				has_completed_focus = SOV_baltic_security
 				has_completed_focus = SOV_secure_the_baltics
 			}
-		}
-
-		available = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_LIT_required_states_tt
 				controls_state = 11
@@ -3065,15 +2984,13 @@ back_tsarist_russia_category = {
 	claim_BLR = {
 		icon = generic_form_nation
 		allowed = { original_tag = SOV }
-		visible = {
-			original_tag = SOV
+		visible = { original_tag = SOV }
+
+		available = {
 			OR = {
 				has_completed_focus = SOV_claims_on_poland
 				has_completed_focus = SOV_westward_bound
 			}
-		}
-
-		available = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_BLR_required_states_tt
 				controls_state = 94
@@ -3122,15 +3039,13 @@ back_tsarist_russia_category = {
 	claim_UKR = {
 		icon = generic_form_nation
 		allowed = { original_tag = SOV }
-		visible = {
-			original_tag = SOV
+		visible = { original_tag = SOV }
+
+		available = {
 			OR = {
 				has_completed_focus = SOV_claims_on_poland
 				has_completed_focus = SOV_westward_bound
 			}
-		}
-
-		available = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_UKR_required_states_tt
 				controls_state = 89
@@ -3189,15 +3104,13 @@ back_tsarist_russia_category = {
 	claim_AZR = {
 		icon = generic_form_nation
 		allowed = { original_tag = SOV }
-		visible = {
-			original_tag = SOV
+		visible = { original_tag = SOV }
+
+		available = {
 			NOT = {
 				has_completed_focus = SOV_dissolve_the_treaty_agreement_nsb
 				has_completed_focus = SOV_new_union_treaty_nsb
 			}
-		}
-
-		available = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_AZR_required_states_tt
 				controls_state = 229
@@ -3874,20 +3787,7 @@ integrate_united_balkan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YUG
-					original_tag = ALB
-					original_tag = GRE
-					original_tag = BUL
-					original_tag = ROM
-					original_tag = SER
-					original_tag = CRO
-					original_tag = MNT
-				}
-			}
+			factor = 0
 		}
 	}
 	GRE_integrate_united_balkan = {
@@ -4099,20 +3999,7 @@ integrate_united_balkan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YUG
-					original_tag = ALB
-					original_tag = GRE
-					original_tag = BUL
-					original_tag = ROM
-					original_tag = SER
-					original_tag = CRO
-					original_tag = MNT
-				}
-			}
+			factor = 0
 		}
 	}
 	BUL_integrate_united_balkan = {
@@ -4325,20 +4212,7 @@ integrate_united_balkan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YUG
-					original_tag = ALB
-					original_tag = GRE
-					original_tag = BUL
-					original_tag = ROM
-					original_tag = SER
-					original_tag = CRO
-					original_tag = MNT
-				}
-			}
+			factor = 0
 		}
 	}
 	ROM_integrate_united_balkan = {
@@ -4550,20 +4424,7 @@ integrate_united_balkan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YUG
-					original_tag = ALB
-					original_tag = GRE
-					original_tag = BUL
-					original_tag = ROM
-					original_tag = SER
-					original_tag = CRO
-					original_tag = MNT
-				}
-			}
+			factor = 0
 		}
 	}
 	SER_integrate_united_balkan = {
@@ -4775,20 +4636,7 @@ integrate_united_balkan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YUG
-					original_tag = ALB
-					original_tag = GRE
-					original_tag = BUL
-					original_tag = ROM
-					original_tag = SER
-					original_tag = CRO
-					original_tag = MNT
-				}
-			}
+			factor = 0
 		}
 	}
 	CRO_integrate_united_balkan = {
@@ -5000,20 +4848,7 @@ integrate_united_balkan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YUG
-					original_tag = ALB
-					original_tag = GRE
-					original_tag = BUL
-					original_tag = ROM
-					original_tag = SER
-					original_tag = CRO
-					original_tag = MNT
-				}
-			}
+			factor = 0
 		}
 	}
 	MNT_integrate_united_balkan = {
@@ -5225,20 +5060,7 @@ integrate_united_balkan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = YUG
-					original_tag = ALB
-					original_tag = GRE
-					original_tag = BUL
-					original_tag = ROM
-					original_tag = SER
-					original_tag = CRO
-					original_tag = MNT
-				}
-			}
+			factor = 0
 		}
 	}
 }
