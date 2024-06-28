@@ -909,15 +909,7 @@ integrate_north_american_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = CAN
-					original_tag = USA
-					original_tag = MEX
-				}
-			}
+			factor = 0
 		}
 	}
 	MEX_integrate_north_american = {
@@ -1117,15 +1109,7 @@ integrate_north_american_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = CAN
-					original_tag = USA
-					original_tag = MEX
-				}
-			}
+			factor = 0
 		}
 	}
 }
@@ -1508,7 +1492,7 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			factor = 100
 			modifier = {
 				factor = 0
 				OR = {
@@ -1651,7 +1635,11 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			factor = 0
+			modifier = {
+				factor = 200
+				has_government = communism
+			}
 			modifier = {
 				factor = 0
 				OR = {
@@ -1798,20 +1786,7 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = CHI
-					original_tag = PRC
-					original_tag = GXC
-					original_tag = YUN
-					original_tag = SHX
-					original_tag = XSM
-					original_tag = SIK
-					original_tag = MAN
-				}
-			}
+			factor = 0
 		}
 	}
 	YUN_integrate_greater_china = {
@@ -1945,20 +1920,7 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = CHI
-					original_tag = PRC
-					original_tag = GXC
-					original_tag = YUN
-					original_tag = SHX
-					original_tag = XSM
-					original_tag = SIK
-					original_tag = MAN
-				}
-			}
+			factor = 0
 		}
 	}
 	SHX_integrate_greater_china = {
@@ -2092,20 +2054,7 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = CHI
-					original_tag = PRC
-					original_tag = GXC
-					original_tag = YUN
-					original_tag = SHX
-					original_tag = XSM
-					original_tag = SIK
-					original_tag = MAN
-				}
-			}
+			factor = 0
 		}
 	}
 	XSM_integrate_greater_china = {
@@ -2239,20 +2188,7 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = CHI
-					original_tag = PRC
-					original_tag = GXC
-					original_tag = YUN
-					original_tag = SHX
-					original_tag = XSM
-					original_tag = SIK
-					original_tag = MAN
-				}
-			}
+			factor = 0
 		}
 	}
 	SIK_integrate_greater_china = {
@@ -2386,20 +2322,7 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = CHI
-					original_tag = PRC
-					original_tag = GXC
-					original_tag = YUN
-					original_tag = SHX
-					original_tag = XSM
-					original_tag = SIK
-					original_tag = MAN
-				}
-			}
+			factor = 0
 		}
 	}
 	MAN_integrate_greater_china = {
@@ -2529,7 +2452,17 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			factor = 0
+			modifier = {
+				factor = 200
+				AND = {
+					original_tag = JAP
+					OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+			}
 			modifier = {
 				factor = 0
 				OR = {

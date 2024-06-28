@@ -6553,9 +6553,9 @@ generic_artillery_organization = {
 		}
 		
 		#mutually_exclusive = {
-			generic_mio_trait_improved_direct_fire_targeting
-			generic_mio_trait_advanced_trajectory_calculations
-		}
+		#	generic_mio_trait_improved_direct_fire_targeting
+		#	generic_mio_trait_advanced_trajectory_calculations
+		#}
 		
 		limit_to_equipment_type = { 
 			anti_air_equipment
@@ -6579,9 +6579,9 @@ generic_artillery_organization = {
 		}
 
 		#mutually_exclusive = { 
-			generic_mio_trait_improved_direct_fire_targeting
-			generic_mio_trait_advanced_anti_air_targeting
-		}
+		#	generic_mio_trait_improved_direct_fire_targeting
+		#	generic_mio_trait_advanced_anti_air_targeting
+		#}
 
 		limit_to_equipment_type = { 
 			artillery_equipment
