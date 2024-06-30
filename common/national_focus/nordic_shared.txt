@@ -335,20 +335,34 @@ shared_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		is_faction_leader = yes 
-		any_allied_country = {
-			NORDIC_is_nordic = yes 
-		}	
+		OR = {
+			AND = {
+				is_faction_leader = yes 
+				any_allied_country = {
+					NORDIC_is_nordic = yes 
+				}	
+			}
+			OR = {
+				AND = {
+					has_global_flag = form_scandinavia_flag
+					has_cosmetic_tag = SCA_UNIFIED
+				}
+				AND = {
+					has_global_flag = form_nordic_league_flag
+					has_cosmetic_tag = NDC_UNIFIED
+				}
+			}
+		}
 		is_subject = no 
 		NORDIC_alliance_created_already = no 
-		if = {
-			limit = { original_tag = SWE }
-			NOT ={ has_completed_focus = SWE_central_nordic_army_command }
-		}
-		if = {
-			limit = { original_tag = FIN }
-			NOT ={ has_completed_focus = FIN_finnish_supremacy_in_the_north }
-		}
+		#if = {
+		#	limit = { original_tag = SWE }
+		#	NOT ={ has_completed_focus = SWE_central_nordic_army_command }
+		#}
+		#if = {
+		#	limit = { original_tag = FIN }
+		#	NOT ={ has_completed_focus = FIN_finnish_supremacy_in_the_north }
+		#}
 	}
 	ai_will_do = {
 		base = 1
@@ -394,7 +408,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_stability > 0.5
 		has_war_support > 0.25
 	}
@@ -428,8 +452,20 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
-		is_faction_leader = yes
+		OR = {
+			AND = {
+				NORDIC_basic_available_trigger = yes
+				is_faction_leader = yes
+			}
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 	}
 
 	search_filters = { FOCUS_FILTER_POLITICAL }
@@ -520,7 +556,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_stability > 0.55
 		num_of_civilian_factories > 15	
 	}
@@ -552,7 +598,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 	}
 
 	search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
@@ -631,8 +687,20 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes	
-		is_faction_leader = yes 
+		OR = {
+			AND = {
+				NORDIC_basic_available_trigger = yes
+				is_faction_leader = yes 
+			}
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}	
 	}
 
 	search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
@@ -776,7 +844,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_stability > 0.55
 		num_of_civilian_factories > 17	
 	}
@@ -834,8 +912,20 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
-		is_faction_leader = yes 
+		OR = {
+			AND = {
+				NORDIC_basic_available_trigger = yes
+				is_faction_leader = yes 
+			}
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 	}
 
 	search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }
@@ -994,7 +1084,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_army_manpower = { size > 84999 } 
 		num_divisions > 15
 	}
@@ -1038,7 +1138,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_army_manpower = { size > 89999 } 
 		num_divisions > 20
 	}
@@ -1089,7 +1199,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_army_manpower = { size > 89999 } 
 		num_divisions > 20
 	}
@@ -1166,7 +1286,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_tech = motorised_infantry
 		has_army_size = {
 			size > 7
@@ -1234,7 +1364,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_army_size = {
 			size > 30
 			type = infantry
@@ -1307,7 +1447,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_navy_size = {
 			size > 24
 		}
@@ -1356,7 +1506,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_navy_size = {
 			size > 34
 		}
@@ -1434,7 +1594,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_navy_size = {
 			size > 19
 		}
@@ -1466,7 +1636,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		any_owned_state = {
 			is_controlled_by = PREV 
 			custom_trigger_tooltip = {
@@ -1624,7 +1804,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		any_owned_state = {
 			is_controlled_by = PREV 
 			custom_trigger_tooltip = {
@@ -1783,7 +1973,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		any_owned_state = {
 			is_controlled_by = PREV 
 			custom_trigger_tooltip = {
@@ -1941,7 +2141,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_of_naval_factories > 14
 		num_researched_technologies > 25
 	}
@@ -1986,7 +2196,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_navy_size = {
 			size > 39
 		}
@@ -2067,7 +2287,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes	
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}	
 	}
 
 	search_filters = { FOCUS_FILTER_RESEARCH }
@@ -2114,7 +2344,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes	
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}	
 		has_navy_size = {
 			size > 29
 		}
@@ -2209,7 +2449,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_deployed_air_force_size = {
 			size > 199
 		}
@@ -2264,7 +2514,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_deployed_air_force_size = {
 			size > 349
 		}
@@ -2312,7 +2572,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_deployed_air_force_size = {
 			size > 299
 		}
@@ -2373,7 +2643,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 	}
 
 	search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -2420,7 +2700,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		OR = {
 			has_deployed_air_force_size = {
 				size > 249
@@ -2516,7 +2806,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		OR = {
 			has_deployed_air_force_size = {
 				size > 349
@@ -2607,7 +2907,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_tech = decimetric_radar
 		has_tech = interwar_antiair
 		air_base > 9
@@ -2744,7 +3054,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_navy_size = {
 			size > 0
 			type = carrier
@@ -2849,7 +3169,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_researched_technologies > 25
 
 	}
@@ -2884,7 +3214,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_researched_technologies > 50
 	}
 
@@ -2928,7 +3268,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_researched_technologies > 30
 	}
 
@@ -2992,7 +3342,17 @@ joint_focus = {
 
 	available = {
 		num_of_civilian_factories > 15	
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 	}
 
 	search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -3067,7 +3427,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_of_civilian_factories > 20
 	}
 
@@ -3108,7 +3478,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_of_civilian_factories > 20
 	}
 
@@ -3167,7 +3547,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_of_civilian_factories > 25
 	}
 
@@ -3290,7 +3680,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_of_naval_factories > 15
 	}
 
@@ -3358,7 +3758,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_of_civilian_factories > 25
 	}
 
@@ -3399,7 +3809,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_researched_technologies > 30
 	}
 
@@ -3443,7 +3863,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 	}
 
 	search_filters = { FOCUS_FILTER_RESEARCH }
@@ -3477,7 +3907,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_researched_technologies > 50
 	}
 
@@ -3523,7 +3963,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_tech = nuclear_reactor
 		num_researched_technologies > 55
 		num_of_civilian_factories > 25
@@ -3599,7 +4049,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_researched_technologies > 55
 	}
 
@@ -3645,7 +4105,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		has_deployed_air_force_size = {
 			size > 999
 		}
@@ -3712,7 +4182,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_of_military_factories > 10
 	}
 
@@ -3790,7 +4270,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_of_military_factories > 20
 	}
 
@@ -3853,7 +4343,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_of_military_factories > 15
 		any_owned_state = {
 			arms_factory > 3
@@ -3951,7 +4451,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_of_military_factories > 15
 	}
 
@@ -4006,7 +4516,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_of_military_factories > 25
 	}
 
@@ -4070,7 +4590,17 @@ joint_focus = {
 	text_icon = NORDIC_focus_style
 
 	available = {
-		NORDIC_basic_available_trigger = yes
+		OR = {
+			NORDIC_basic_available_trigger = yes
+			AND = {
+				has_global_flag = form_scandinavia_flag
+				has_cosmetic_tag = SCA_UNIFIED
+			}
+			AND = {
+				has_global_flag = form_nordic_league_flag
+				has_cosmetic_tag = NDC_UNIFIED
+			}
+		}
 		num_of_military_factories > 20
 		num_researched_technologies > 45
 	}
