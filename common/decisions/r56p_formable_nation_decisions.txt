@@ -2886,7 +2886,6 @@ form_united_balkan_category = {
 				tooltip = form_country_ALB_required_states_tt
 				controls_state = 44
 				controls_state = 805
-				controls_state = 910
 				controls_state = 934
 			}
 			custom_trigger_tooltip = {
@@ -3046,7 +3045,6 @@ integrate_united_balkan_category = {
 				tooltip = integrate_country_ALB_required_states_tt
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
-				910 = { is_controlled_by_ROOT_or_subject = yes }
 				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
@@ -3248,7 +3246,6 @@ integrate_united_balkan_category = {
 				tooltip = integrate_country_ALB_required_states_tt
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
-				910 = { is_controlled_by_ROOT_or_subject = yes }
 				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
@@ -3450,7 +3447,6 @@ integrate_united_balkan_category = {
 				tooltip = integrate_country_ALB_required_states_tt
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
-				910 = { is_controlled_by_ROOT_or_subject = yes }
 				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
@@ -3653,7 +3649,6 @@ integrate_united_balkan_category = {
 				tooltip = integrate_country_ALB_required_states_tt
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
-				910 = { is_controlled_by_ROOT_or_subject = yes }
 				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
@@ -3855,7 +3850,6 @@ integrate_united_balkan_category = {
 				tooltip = integrate_country_ALB_required_states_tt
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
-				910 = { is_controlled_by_ROOT_or_subject = yes }
 				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
@@ -4057,7 +4051,6 @@ integrate_united_balkan_category = {
 				tooltip = integrate_country_ALB_required_states_tt
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
-				910 = { is_controlled_by_ROOT_or_subject = yes }
 				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
@@ -4259,7 +4252,6 @@ integrate_united_balkan_category = {
 				tooltip = integrate_country_ALB_required_states_tt
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
-				910 = { is_controlled_by_ROOT_or_subject = yes }
 				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
@@ -4461,7 +4453,6 @@ integrate_united_balkan_category = {
 				tooltip = integrate_country_ALB_required_states_tt
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
-				910 = { is_controlled_by_ROOT_or_subject = yes }
 				934 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
