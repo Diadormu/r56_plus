@@ -151,8 +151,12 @@
   SER_integrate_united_balkan: "向[SER.GetName]移交领土"
   CRO_integrate_united_balkan: "向[CRO.GetName]移交领土（可以再成立奥匈）"
   MNT_integrate_united_balkan: "向[MNT.GetName]移交领土"
+  integrate_grester_HUN: "整合大匈牙利"
 
   integrate_greater_german_reich_category: "整合大德意志"
+  reform_greater_german_reich: "重新整合大德意志领土"
   integrate_greater_german_reich: "向[GER.GetName]移交领土"
+  greater_italy_flag: "已成立大意大利"
+  rename_greater_italy: "恢复国名"
   integrate_greater_italy_category: "整合大意大利"
   integrate_greater_italy: "向[ITA.GetName]移交领土"

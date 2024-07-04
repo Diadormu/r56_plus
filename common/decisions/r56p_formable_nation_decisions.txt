@@ -4621,6 +4621,102 @@ integrate_united_balkan_category = {
 			}
 		}
 	}
+	integrate_grester_HUN = {
+		icon = generic_form_nation
+		visible = {
+			HUN = { is_subject_of = ROOT }
+			has_global_flag = form_united_balkan_flag
+			NOT = { AND = { HUN = {
+				controls_state = 155
+				controls_state = 43
+				controls_state = 154
+				controls_state = 76
+				controls_state = 82
+				controls_state = 83
+				controls_state = 84
+				controls_state = 664
+				controls_state = 45
+				controls_state = 764
+			}}}
+		}
+		available = {
+			155 = { is_controlled_by_ROOT_or_subject = yes }
+			43 = { is_controlled_by_ROOT_or_subject = yes }
+			154 = { is_controlled_by_ROOT_or_subject = yes }
+			76 = { is_controlled_by_ROOT_or_subject = yes }
+			82 = { is_controlled_by_ROOT_or_subject = yes }
+			83 = { is_controlled_by_ROOT_or_subject = yes }
+			84 = { is_controlled_by_ROOT_or_subject = yes }
+			664 = { is_controlled_by_ROOT_or_subject = yes }
+			45 = { is_controlled_by_ROOT_or_subject = yes }
+			764 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			HUN = {
+				transfer_state = 155
+				transfer_state = 43
+				transfer_state = 154
+				transfer_state = 76
+				transfer_state = 82
+				transfer_state = 83
+				transfer_state = 84
+				transfer_state = 664
+				transfer_state = 45
+				transfer_state = 764
+			}
+		}
+		ai_will_do = { factor = 200 }
+	}
+}
+
+form_greater_german_reich_category = {
+	reform_greater_german_reich = {
+		icon = generic_form_nation
+		allowed = {
+			original_tag = GER
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			original_tag = GER
+			has_global_flag = form_greater_german_reich_flag
+			NOT = { AND = {
+				69 = { is_core_of = GER }
+				74 = { is_core_of = GER }
+				8 = { is_core_of = GER }
+				28 = { is_core_of = GER }
+				85 = { is_core_of = GER }
+				807 = { is_core_of = GER }
+				86 = { is_core_of = GER }
+				762 = { is_core_of = GER }
+				102 = { is_core_of = GER }
+			}}
+		}
+		available = {
+			#controls_state = 69
+			#controls_state = 74
+			#controls_state = 8
+			#controls_state = 28
+			controls_state = 85
+			controls_state = 807
+			controls_state = 86
+			controls_state = 762
+			controls_state = 102
+		}
+		complete_effect = {
+			add_state_core = 69
+			add_state_core = 74
+			add_state_core = 8
+			add_state_core = 28
+			add_state_core = 85
+			add_state_core = 807
+			add_state_core = 86
+			add_state_core = 762
+			add_state_core = 102
+			add_state_core = 853
+		}
+
+		ai_will_do = { factor = 200 }
+	}
 }
 
 integrate_greater_german_reich_category = {
@@ -4738,6 +4834,43 @@ integrate_greater_german_reich_category = {
 				original_tag = GER
 			}
 		}
+	}
+}
+
+greater_italy_category = {
+	rename_greater_italy = {
+		icon = generic_form_nation
+		allowed = {
+			original_tag = ITA # Italy
+		}
+		visible = {
+			original_tag = ITA
+			has_global_flag = greater_italy_flag
+			has_cosmetic_tag = ITA_rsi
+		}
+		available = {
+			original_tag = ITA
+			has_civil_war = no
+		}
+		complete_effect = {
+			set_cosmetic_tag = greater_italy
+			#every_character = {
+			#	limit = {
+			#		#NOT = { has_character_flag = ITA_cw_character_fascist_side_flag }
+			#		OR = {
+			#			has_character_flag = ITA_cw_character_monarchist_side_flag
+			#			has_unit_leader_flag = ITA_cw_unit_leader_monarchist_side_flag
+			#			has_character_flag = ITA_cw_character_antifascist_side_flag
+			#			has_unit_leader_flag = ITA_cw_unit_leader_antifascist_side_flag
+			#			has_character_flag = ITA_cw_character_fascist_side_flag
+			#		}
+			#	}
+			#	#log = "[THIS.GetName] shouldn't be in [RSI.GetName]"
+			#	set_nationality = ITA
+			#}
+		}
+
+		ai_will_do = { factor = 200 }
 	}
 }
 
