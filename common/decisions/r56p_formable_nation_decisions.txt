@@ -4692,15 +4692,17 @@ form_greater_german_reich_category = {
 			}}
 		}
 		available = {
-			#controls_state = 69
-			#controls_state = 74
-			#controls_state = 8
-			#controls_state = 28
-			controls_state = 85
-			controls_state = 807
-			controls_state = 86
-			controls_state = 762
-			controls_state = 102
+			NOT = { AND = {
+				69 = { is_core_of = GER }
+				74 = { is_core_of = GER }
+				8 = { is_core_of = GER }
+				28 = { is_core_of = GER }
+				85 = { is_core_of = GER }
+				807 = { is_core_of = GER }
+				86 = { is_core_of = GER }
+				762 = { is_core_of = GER }
+				102 = { is_core_of = GER }
+			}}
 		}
 		complete_effect = {
 			add_state_core = 69
