@@ -3618,7 +3618,7 @@ technologies = {
 		}
 	}
 
-	r56_guerilla_warfare = { #Doctrine should encourge use of Militia and Recon
+	r56_guerilla_warfare = { 
 
 		doctrine_name = "ASYMMETRICAL_WARFARE_DOCTRINE"
 
@@ -4365,7 +4365,7 @@ technologies = {
 		}
 	}
 
-	r56_last_stand = {
+	r56_last_stand = { #Last Stand
 
 		xp_research_type = army
 		xp_unlock_cost = 100

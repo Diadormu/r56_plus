@@ -14594,7 +14594,6 @@ focus_tree = {
 				create_faction = "italy_empire_faction"
 			}
 
-			#unlock_decision_tooltip = proclaim_greater_italy
 			unlock_decision_tooltip = form_roman_empire
 
 			random_owned_controlled_state = {
@@ -22687,7 +22686,7 @@ focus_tree = {
 				}
 			}
 			custom_effect_tooltip = ITA_aid_for_the_spanish_republic_tt
-			custom_effect_tooltip = CHL_skip_one_line_tt
+			custom_effect_tooltip = r56_newline
 			add_relation_rule_override = {
                 target = SPR
                 can_send_volunteers = yes 
@@ -23232,7 +23231,6 @@ focus_tree = {
 				category = naval_equipment
 				category = air_equipment
 			}
-
 			every_other_country = {
 				limit = {
 					is_in_faction_with = ROOT
