@@ -2800,6 +2800,7 @@ form_european_union_category = {
 				original_tag = SAN #San Marino
 				original_tag = MNC #Monaco
 				original_tag = LIE #Liechtenstein
+				original_tag = GRE
 			}
 		}
 
@@ -3309,6 +3310,7 @@ form_european_union_category = {
 				original_tag = SAN #San Marino
 				original_tag = MNC #Monaco
 				original_tag = LIE #Liechtenstein
+				original_tag = GRE
 			}
 		}
 
@@ -3555,6 +3557,7 @@ form_european_union_category = {
 				original_tag = SAN #San Marino
 				original_tag = MNC #Monaco
 				original_tag = LIE #Liechtenstein
+				original_tag = GRE
 			}
 		}
 		fire_only_once = yes
@@ -3774,6 +3777,7 @@ form_european_union_category = {
 				original_tag = SAN #San Marino
 				original_tag = MNC #Monaco
 				original_tag = LIE #Liechtenstein
+				original_tag = GRE
 			}
 		}
 		fire_only_once = yes
@@ -4009,6 +4013,7 @@ form_european_union_category = {
 				original_tag = SAN #San Marino
 				original_tag = MNC #Monaco
 				original_tag = LIE #Liechtenstein
+				original_tag = GRE
 			}
 		}
 		fire_only_once = yes
@@ -4253,6 +4258,7 @@ form_european_union_category = {
 				original_tag = SAN #San Marino
 				original_tag = MNC #Monaco
 				original_tag = LIE #Liechtenstein
+				original_tag = GRE
 			}
 		}
 
@@ -4496,6 +4502,7 @@ form_european_union_category = {
 				original_tag = SAN #San Marino
 				original_tag = MNC #Monaco
 				original_tag = LIE #Liechtenstein
+				original_tag = GRE
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -4719,6 +4726,7 @@ form_european_union_category = {
 				original_tag = SAN #San Marino
 				original_tag = MNC #Monaco
 				original_tag = LIE #Liechtenstein
+				original_tag = GRE
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -4958,6 +4966,7 @@ form_european_union_category = {
 				original_tag = SAN #San Marino
 				original_tag = MNC #Monaco
 				original_tag = LIE #Liechtenstein
+				original_tag = GRE
 			}
 			has_dlc = "Waking the Tiger"
 		}
