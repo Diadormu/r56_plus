@@ -132,7 +132,7 @@
   integrate_rattanakosin_kingdom_category: "整合拉达那哥欣"
   SIA_integrate_rattanakosin_kingdom: "向[SIA.GetName]移交领土"
 
-  integrate_polynesia_category: "整合波利尼西亚"
+  integrate_polynesia_category: "整合大洋联合国"
   HAW_integrate_polynesia: "向[HAW.GetName]移交领土"
   TAH_integrate_polynesia: "向[TAH.GetName]移交领土"
   GUM_integrate_polynesia: "向[GUM.GetName]移交领土"
@@ -141,6 +141,10 @@
   SAM_integrate_polynesia: "向[SAM.GetName]移交领土"
   SOL_integrate_polynesia: "向[SOL.GetName]移交领土"
   FIJ_integrate_polynesia: "向[FIJ.GetName]移交领土"
+  NRU_integrate_polynesia: "向[NRU.GetName]移交领土"
+  VAN_integrate_polynesia: "向[VAN.GetName]移交领土"
+  KIR_integrate_polynesia: "向[KIR.GetName]移交领土"
+  PLU_integrate_polynesia: "向[PLU.GetName]移交领土"
   NZL_integrate_polynesia: "向[NZL.GetName]移交领土（推荐，有独立国策）"
 
   integrate_greater_greece_category: "整合大希腊"
@@ -250,6 +254,13 @@
   TRI_integrate_caribbean: "向[TRI.GetName]移交领土"
   GDL_integrate_caribbean: "向[GDL.GetName]移交领土"
   CRC_integrate_caribbean: "向[CRC.GetName]移交领土"
+  STK_integrate_caribbean: "向[STK.GetName]移交领土"
+  DMN_integrate_caribbean: "向[DMN.GetName]移交领土"
+  BAR_integrate_caribbean: "向[BAR.GetName]移交领土"
+  STL_integrate_caribbean: "向[STL.GetName]移交领土"
+  SVG_integrate_caribbean: "向[SVG.GetName]移交领土"
+  GRA_integrate_caribbean: "向[GRA.GetName]移交领土"
+  MAR_integrate_caribbean: "向[MAR.GetName]移交领土"
 
   integrate_greater_morocco_category: "整合大摩洛哥"
   MOR_integrate_greater_morocco: "向[MOR.GetName]移交领土"

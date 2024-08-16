@@ -2523,10 +2523,12 @@ integrate_austria_hungary_category = {
 				4 = { is_controlled_by_ROOT_or_subject = yes }
 				848 = { is_controlled_by_ROOT_or_subject = yes }
 				1054 = { is_controlled_by_ROOT_or_subject = yes }
+				1086 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_CZE_required_states_tt
 				69 = { is_controlled_by_ROOT_or_subject = yes }
+				1078 = { is_controlled_by_ROOT_or_subject = yes }
 				9 = { is_controlled_by_ROOT_or_subject = yes }
 				75 = { is_controlled_by_ROOT_or_subject = yes }
 				74 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2584,10 +2586,12 @@ integrate_austria_hungary_category = {
 					transfer_state = 4
 					transfer_state = 848
 					transfer_state = 1054
+					transfer_state = 1086
 				}
 				custom_effect_tooltip = integrate_country_CZE_coring_states_tt
 				hidden_effect = {
 					transfer_state = 69
+					transfer_state = 1078
 					transfer_state = 9
 					transfer_state = 75
 					transfer_state = 74
@@ -2680,10 +2684,12 @@ integrate_austria_hungary_category = {
 				4 = { is_controlled_by_ROOT_or_subject = yes }
 				848 = { is_controlled_by_ROOT_or_subject = yes }
 				1054 = { is_controlled_by_ROOT_or_subject = yes }
+				1086 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_CZE_required_states_tt
 				69 = { is_controlled_by_ROOT_or_subject = yes }
+				1078 = { is_controlled_by_ROOT_or_subject = yes }
 				9 = { is_controlled_by_ROOT_or_subject = yes }
 				75 = { is_controlled_by_ROOT_or_subject = yes }
 				74 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2741,10 +2747,12 @@ integrate_austria_hungary_category = {
 					transfer_state = 4
 					transfer_state = 848
 					transfer_state = 1054
+					transfer_state = 1086
 				}
 				custom_effect_tooltip = integrate_country_CZE_coring_states_tt
 				hidden_effect = {
 					transfer_state = 69
+					transfer_state = 1078
 					transfer_state = 9
 					transfer_state = 75
 					transfer_state = 74
@@ -2837,10 +2845,12 @@ integrate_austria_hungary_category = {
 				4 = { is_controlled_by_ROOT_or_subject = yes }
 				848 = { is_controlled_by_ROOT_or_subject = yes }
 				1054 = { is_controlled_by_ROOT_or_subject = yes }
+				1086 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_CZE_required_states_tt
 				69 = { is_controlled_by_ROOT_or_subject = yes }
+				1078 = { is_controlled_by_ROOT_or_subject = yes }
 				9 = { is_controlled_by_ROOT_or_subject = yes }
 				75 = { is_controlled_by_ROOT_or_subject = yes }
 				74 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2898,10 +2908,12 @@ integrate_austria_hungary_category = {
 					transfer_state = 4
 					transfer_state = 848
 					transfer_state = 1054
+					transfer_state = 1086
 				}
 				custom_effect_tooltip = integrate_country_CZE_coring_states_tt
 				hidden_effect = {
 					transfer_state = 69
+					transfer_state = 1078
 					transfer_state = 9
 					transfer_state = 75
 					transfer_state = 74
@@ -2986,10 +2998,12 @@ integrate_austria_hungary_category = {
 				4 = { is_controlled_by_ROOT_or_subject = yes }
 				848 = { is_controlled_by_ROOT_or_subject = yes }
 				1054 = { is_controlled_by_ROOT_or_subject = yes }
+				1086 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_CZE_required_states_tt
 				69 = { is_controlled_by_ROOT_or_subject = yes }
+				1078 = { is_controlled_by_ROOT_or_subject = yes }
 				9 = { is_controlled_by_ROOT_or_subject = yes }
 				75 = { is_controlled_by_ROOT_or_subject = yes }
 				74 = { is_controlled_by_ROOT_or_subject = yes }
@@ -3047,10 +3061,12 @@ integrate_austria_hungary_category = {
 					transfer_state = 4
 					transfer_state = 848
 					transfer_state = 1054
+					transfer_state = 1086
 				}
 				custom_effect_tooltip = integrate_country_CZE_coring_states_tt
 				hidden_effect = {
 					transfer_state = 69
+					transfer_state = 1078
 					transfer_state = 9
 					transfer_state = 75
 					transfer_state = 74
@@ -8939,93 +8955,53 @@ integrate_polynesia_category = {
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
+			631 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
+			648 = { is_controlled_by_ROOT_or_subject = yes }
+			632 = { is_controlled_by_ROOT_or_subject = yes }
+			638 = { is_controlled_by_ROOT_or_subject = yes }
+			647 = { is_controlled_by_ROOT_or_subject = yes }
+			684 = { is_controlled_by_ROOT_or_subject = yes }
+			633 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
+			639 = { is_controlled_by_ROOT_or_subject = yes }
 			727 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
+			725 = { is_controlled_by_ROOT_or_subject = yes }
+			634 = { is_controlled_by_ROOT_or_subject = yes }
+			635 = { is_controlled_by_ROOT_or_subject = yes }
+			636 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
 			734 = { is_controlled_by_ROOT_or_subject = yes }
+			641 = { is_controlled_by_ROOT_or_subject = yes }
+			284 = { is_controlled_by_ROOT_or_subject = yes }
+			723 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			HAW = {
-				transfer_state = 284
-				transfer_state = 630
 				transfer_state = 629
+				transfer_state = 631
+				transfer_state = 630
+				transfer_state = 648
+				transfer_state = 632
+				transfer_state = 638
+				transfer_state = 647
+				transfer_state = 684
+				transfer_state = 633
 				transfer_state = 642
 				transfer_state = 643
-				transfer_state = 641
+				transfer_state = 639
 				transfer_state = 727
-				transfer_state = 723
+				transfer_state = 725
+				transfer_state = 634
+				transfer_state = 635
+				transfer_state = 636
 				transfer_state = 726
 				transfer_state = 734
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				if = {
-					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 633
-				}
-				if = {
-					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 684
-				}
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
-				}
-				if = {
-					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 638
-				}
-				if = {
-					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 646
-				}
-				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
-				}
-				if = {
-					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 635
-				}
-				if = {
-					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 636
-				}
-				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
-				}
-				if = {
-					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 737
-				}
-				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
-				}
-				if = {
-					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 669
-				}
-				if = {
-					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 738
-				}
+				transfer_state = 641
+				transfer_state = 284
+				transfer_state = 723
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -9037,93 +9013,53 @@ integrate_polynesia_category = {
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
+			631 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
+			648 = { is_controlled_by_ROOT_or_subject = yes }
+			632 = { is_controlled_by_ROOT_or_subject = yes }
+			638 = { is_controlled_by_ROOT_or_subject = yes }
+			647 = { is_controlled_by_ROOT_or_subject = yes }
+			684 = { is_controlled_by_ROOT_or_subject = yes }
+			633 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
+			639 = { is_controlled_by_ROOT_or_subject = yes }
 			727 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
+			725 = { is_controlled_by_ROOT_or_subject = yes }
+			634 = { is_controlled_by_ROOT_or_subject = yes }
+			635 = { is_controlled_by_ROOT_or_subject = yes }
+			636 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
 			734 = { is_controlled_by_ROOT_or_subject = yes }
+			641 = { is_controlled_by_ROOT_or_subject = yes }
+			284 = { is_controlled_by_ROOT_or_subject = yes }
+			723 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			TAH = {
-				transfer_state = 284
-				transfer_state = 630
 				transfer_state = 629
+				transfer_state = 631
+				transfer_state = 630
+				transfer_state = 648
+				transfer_state = 632
+				transfer_state = 638
+				transfer_state = 647
+				transfer_state = 684
+				transfer_state = 633
 				transfer_state = 642
 				transfer_state = 643
-				transfer_state = 641
+				transfer_state = 639
 				transfer_state = 727
-				transfer_state = 723
+				transfer_state = 725
+				transfer_state = 634
+				transfer_state = 635
+				transfer_state = 636
 				transfer_state = 726
 				transfer_state = 734
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				if = {
-					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 633
-				}
-				if = {
-					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 684
-				}
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
-				}
-				if = {
-					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 638
-				}
-				if = {
-					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 646
-				}
-				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
-				}
-				if = {
-					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 635
-				}
-				if = {
-					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 636
-				}
-				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
-				}
-				if = {
-					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 737
-				}
-				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
-				}
-				if = {
-					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 669
-				}
-				if = {
-					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 738
-				}
+				transfer_state = 641
+				transfer_state = 284
+				transfer_state = 723
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -9135,93 +9071,53 @@ integrate_polynesia_category = {
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
+			631 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
+			648 = { is_controlled_by_ROOT_or_subject = yes }
+			632 = { is_controlled_by_ROOT_or_subject = yes }
+			638 = { is_controlled_by_ROOT_or_subject = yes }
+			647 = { is_controlled_by_ROOT_or_subject = yes }
+			684 = { is_controlled_by_ROOT_or_subject = yes }
+			633 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
+			639 = { is_controlled_by_ROOT_or_subject = yes }
 			727 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
+			725 = { is_controlled_by_ROOT_or_subject = yes }
+			634 = { is_controlled_by_ROOT_or_subject = yes }
+			635 = { is_controlled_by_ROOT_or_subject = yes }
+			636 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
 			734 = { is_controlled_by_ROOT_or_subject = yes }
+			641 = { is_controlled_by_ROOT_or_subject = yes }
+			284 = { is_controlled_by_ROOT_or_subject = yes }
+			723 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			GUM = {
-				transfer_state = 284
-				transfer_state = 630
 				transfer_state = 629
+				transfer_state = 631
+				transfer_state = 630
+				transfer_state = 648
+				transfer_state = 632
+				transfer_state = 638
+				transfer_state = 647
+				transfer_state = 684
+				transfer_state = 633
 				transfer_state = 642
 				transfer_state = 643
-				transfer_state = 641
+				transfer_state = 639
 				transfer_state = 727
-				transfer_state = 723
+				transfer_state = 725
+				transfer_state = 634
+				transfer_state = 635
+				transfer_state = 636
 				transfer_state = 726
 				transfer_state = 734
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				if = {
-					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 633
-				}
-				if = {
-					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 684
-				}
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
-				}
-				if = {
-					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 638
-				}
-				if = {
-					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 646
-				}
-				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
-				}
-				if = {
-					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 635
-				}
-				if = {
-					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 636
-				}
-				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
-				}
-				if = {
-					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 737
-				}
-				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
-				}
-				if = {
-					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 669
-				}
-				if = {
-					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 738
-				}
+				transfer_state = 641
+				transfer_state = 284
+				transfer_state = 723
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -9233,93 +9129,53 @@ integrate_polynesia_category = {
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
+			631 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
+			648 = { is_controlled_by_ROOT_or_subject = yes }
+			632 = { is_controlled_by_ROOT_or_subject = yes }
+			638 = { is_controlled_by_ROOT_or_subject = yes }
+			647 = { is_controlled_by_ROOT_or_subject = yes }
+			684 = { is_controlled_by_ROOT_or_subject = yes }
+			633 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
+			639 = { is_controlled_by_ROOT_or_subject = yes }
 			727 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
+			725 = { is_controlled_by_ROOT_or_subject = yes }
+			634 = { is_controlled_by_ROOT_or_subject = yes }
+			635 = { is_controlled_by_ROOT_or_subject = yes }
+			636 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
 			734 = { is_controlled_by_ROOT_or_subject = yes }
+			641 = { is_controlled_by_ROOT_or_subject = yes }
+			284 = { is_controlled_by_ROOT_or_subject = yes }
+			723 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			FSM = {
-				transfer_state = 284
-				transfer_state = 630
 				transfer_state = 629
+				transfer_state = 631
+				transfer_state = 630
+				transfer_state = 648
+				transfer_state = 632
+				transfer_state = 638
+				transfer_state = 647
+				transfer_state = 684
+				transfer_state = 633
 				transfer_state = 642
 				transfer_state = 643
-				transfer_state = 641
+				transfer_state = 639
 				transfer_state = 727
-				transfer_state = 723
+				transfer_state = 725
+				transfer_state = 634
+				transfer_state = 635
+				transfer_state = 636
 				transfer_state = 726
 				transfer_state = 734
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				if = {
-					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 633
-				}
-				if = {
-					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 684
-				}
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
-				}
-				if = {
-					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 638
-				}
-				if = {
-					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 646
-				}
-				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
-				}
-				if = {
-					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 635
-				}
-				if = {
-					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 636
-				}
-				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
-				}
-				if = {
-					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 737
-				}
-				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
-				}
-				if = {
-					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 669
-				}
-				if = {
-					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 738
-				}
+				transfer_state = 641
+				transfer_state = 284
+				transfer_state = 723
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -9331,93 +9187,53 @@ integrate_polynesia_category = {
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
+			631 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
+			648 = { is_controlled_by_ROOT_or_subject = yes }
+			632 = { is_controlled_by_ROOT_or_subject = yes }
+			638 = { is_controlled_by_ROOT_or_subject = yes }
+			647 = { is_controlled_by_ROOT_or_subject = yes }
+			684 = { is_controlled_by_ROOT_or_subject = yes }
+			633 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
+			639 = { is_controlled_by_ROOT_or_subject = yes }
 			727 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
+			725 = { is_controlled_by_ROOT_or_subject = yes }
+			634 = { is_controlled_by_ROOT_or_subject = yes }
+			635 = { is_controlled_by_ROOT_or_subject = yes }
+			636 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
 			734 = { is_controlled_by_ROOT_or_subject = yes }
+			641 = { is_controlled_by_ROOT_or_subject = yes }
+			284 = { is_controlled_by_ROOT_or_subject = yes }
+			723 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			TON = {
-				transfer_state = 284
-				transfer_state = 630
 				transfer_state = 629
+				transfer_state = 631
+				transfer_state = 630
+				transfer_state = 648
+				transfer_state = 632
+				transfer_state = 638
+				transfer_state = 647
+				transfer_state = 684
+				transfer_state = 633
 				transfer_state = 642
 				transfer_state = 643
-				transfer_state = 641
+				transfer_state = 639
 				transfer_state = 727
-				transfer_state = 723
+				transfer_state = 725
+				transfer_state = 634
+				transfer_state = 635
+				transfer_state = 636
 				transfer_state = 726
 				transfer_state = 734
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				if = {
-					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 633
-				}
-				if = {
-					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 684
-				}
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
-				}
-				if = {
-					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 638
-				}
-				if = {
-					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 646
-				}
-				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
-				}
-				if = {
-					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 635
-				}
-				if = {
-					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 636
-				}
-				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
-				}
-				if = {
-					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 737
-				}
-				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
-				}
-				if = {
-					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 669
-				}
-				if = {
-					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 738
-				}
+				transfer_state = 641
+				transfer_state = 284
+				transfer_state = 723
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -9429,93 +9245,53 @@ integrate_polynesia_category = {
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
+			631 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
+			648 = { is_controlled_by_ROOT_or_subject = yes }
+			632 = { is_controlled_by_ROOT_or_subject = yes }
+			638 = { is_controlled_by_ROOT_or_subject = yes }
+			647 = { is_controlled_by_ROOT_or_subject = yes }
+			684 = { is_controlled_by_ROOT_or_subject = yes }
+			633 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
+			639 = { is_controlled_by_ROOT_or_subject = yes }
 			727 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
+			725 = { is_controlled_by_ROOT_or_subject = yes }
+			634 = { is_controlled_by_ROOT_or_subject = yes }
+			635 = { is_controlled_by_ROOT_or_subject = yes }
+			636 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
 			734 = { is_controlled_by_ROOT_or_subject = yes }
+			641 = { is_controlled_by_ROOT_or_subject = yes }
+			284 = { is_controlled_by_ROOT_or_subject = yes }
+			723 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			SAM = {
-				transfer_state = 284
-				transfer_state = 630
 				transfer_state = 629
+				transfer_state = 631
+				transfer_state = 630
+				transfer_state = 648
+				transfer_state = 632
+				transfer_state = 638
+				transfer_state = 647
+				transfer_state = 684
+				transfer_state = 633
 				transfer_state = 642
 				transfer_state = 643
-				transfer_state = 641
+				transfer_state = 639
 				transfer_state = 727
-				transfer_state = 723
+				transfer_state = 725
+				transfer_state = 634
+				transfer_state = 635
+				transfer_state = 636
 				transfer_state = 726
 				transfer_state = 734
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				if = {
-					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 633
-				}
-				if = {
-					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 684
-				}
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
-				}
-				if = {
-					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 638
-				}
-				if = {
-					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 646
-				}
-				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
-				}
-				if = {
-					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 635
-				}
-				if = {
-					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 636
-				}
-				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
-				}
-				if = {
-					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 737
-				}
-				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
-				}
-				if = {
-					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 669
-				}
-				if = {
-					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 738
-				}
+				transfer_state = 641
+				transfer_state = 284
+				transfer_state = 723
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -9527,93 +9303,53 @@ integrate_polynesia_category = {
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
+			631 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
+			648 = { is_controlled_by_ROOT_or_subject = yes }
+			632 = { is_controlled_by_ROOT_or_subject = yes }
+			638 = { is_controlled_by_ROOT_or_subject = yes }
+			647 = { is_controlled_by_ROOT_or_subject = yes }
+			684 = { is_controlled_by_ROOT_or_subject = yes }
+			633 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
+			639 = { is_controlled_by_ROOT_or_subject = yes }
 			727 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
+			725 = { is_controlled_by_ROOT_or_subject = yes }
+			634 = { is_controlled_by_ROOT_or_subject = yes }
+			635 = { is_controlled_by_ROOT_or_subject = yes }
+			636 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
 			734 = { is_controlled_by_ROOT_or_subject = yes }
+			641 = { is_controlled_by_ROOT_or_subject = yes }
+			284 = { is_controlled_by_ROOT_or_subject = yes }
+			723 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			SOL = {
-				transfer_state = 284
-				transfer_state = 630
 				transfer_state = 629
+				transfer_state = 631
+				transfer_state = 630
+				transfer_state = 648
+				transfer_state = 632
+				transfer_state = 638
+				transfer_state = 647
+				transfer_state = 684
+				transfer_state = 633
 				transfer_state = 642
 				transfer_state = 643
-				transfer_state = 641
+				transfer_state = 639
 				transfer_state = 727
-				transfer_state = 723
+				transfer_state = 725
+				transfer_state = 634
+				transfer_state = 635
+				transfer_state = 636
 				transfer_state = 726
 				transfer_state = 734
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				if = {
-					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 633
-				}
-				if = {
-					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 684
-				}
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
-				}
-				if = {
-					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 638
-				}
-				if = {
-					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 646
-				}
-				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
-				}
-				if = {
-					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 635
-				}
-				if = {
-					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 636
-				}
-				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
-				}
-				if = {
-					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 737
-				}
-				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
-				}
-				if = {
-					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 669
-				}
-				if = {
-					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 738
-				}
+				transfer_state = 641
+				transfer_state = 284
+				transfer_state = 723
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -9625,93 +9361,285 @@ integrate_polynesia_category = {
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
+			631 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
+			648 = { is_controlled_by_ROOT_or_subject = yes }
+			632 = { is_controlled_by_ROOT_or_subject = yes }
+			638 = { is_controlled_by_ROOT_or_subject = yes }
+			647 = { is_controlled_by_ROOT_or_subject = yes }
+			684 = { is_controlled_by_ROOT_or_subject = yes }
+			633 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
+			639 = { is_controlled_by_ROOT_or_subject = yes }
 			727 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
+			725 = { is_controlled_by_ROOT_or_subject = yes }
+			634 = { is_controlled_by_ROOT_or_subject = yes }
+			635 = { is_controlled_by_ROOT_or_subject = yes }
+			636 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
 			734 = { is_controlled_by_ROOT_or_subject = yes }
+			641 = { is_controlled_by_ROOT_or_subject = yes }
+			284 = { is_controlled_by_ROOT_or_subject = yes }
+			723 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			FIJ = {
-				transfer_state = 284
-				transfer_state = 630
 				transfer_state = 629
+				transfer_state = 631
+				transfer_state = 630
+				transfer_state = 648
+				transfer_state = 632
+				transfer_state = 638
+				transfer_state = 647
+				transfer_state = 684
+				transfer_state = 633
 				transfer_state = 642
 				transfer_state = 643
-				transfer_state = 641
+				transfer_state = 639
 				transfer_state = 727
-				transfer_state = 723
+				transfer_state = 725
+				transfer_state = 634
+				transfer_state = 635
+				transfer_state = 636
 				transfer_state = 726
 				transfer_state = 734
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				if = {
-					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 633
-				}
-				if = {
-					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 684
-				}
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
-				}
-				if = {
-					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 638
-				}
-				if = {
-					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 646
-				}
-				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
-				}
-				if = {
-					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 635
-				}
-				if = {
-					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 636
-				}
-				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
-				}
-				if = {
-					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 737
-				}
-				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
-				}
-				if = {
-					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 669
-				}
-				if = {
-					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 738
-				}
+				transfer_state = 641
+				transfer_state = 284
+				transfer_state = 723
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	NRU_integrate_polynesia = {
+		icon = generic_form_nation
+		visible = {
+			NRU = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_polynesia_flag }
+		}
+		available = {
+			629 = { is_controlled_by_ROOT_or_subject = yes }
+			631 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
+			648 = { is_controlled_by_ROOT_or_subject = yes }
+			632 = { is_controlled_by_ROOT_or_subject = yes }
+			638 = { is_controlled_by_ROOT_or_subject = yes }
+			647 = { is_controlled_by_ROOT_or_subject = yes }
+			684 = { is_controlled_by_ROOT_or_subject = yes }
+			633 = { is_controlled_by_ROOT_or_subject = yes }
+			642 = { is_controlled_by_ROOT_or_subject = yes }
+			643 = { is_controlled_by_ROOT_or_subject = yes }
+			639 = { is_controlled_by_ROOT_or_subject = yes }
+			727 = { is_controlled_by_ROOT_or_subject = yes }
+			725 = { is_controlled_by_ROOT_or_subject = yes }
+			634 = { is_controlled_by_ROOT_or_subject = yes }
+			635 = { is_controlled_by_ROOT_or_subject = yes }
+			636 = { is_controlled_by_ROOT_or_subject = yes }
+			726 = { is_controlled_by_ROOT_or_subject = yes }
+			734 = { is_controlled_by_ROOT_or_subject = yes }
+			641 = { is_controlled_by_ROOT_or_subject = yes }
+			284 = { is_controlled_by_ROOT_or_subject = yes }
+			723 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			NRU = {
+				transfer_state = 629
+				transfer_state = 631
+				transfer_state = 630
+				transfer_state = 648
+				transfer_state = 632
+				transfer_state = 638
+				transfer_state = 647
+				transfer_state = 684
+				transfer_state = 633
+				transfer_state = 642
+				transfer_state = 643
+				transfer_state = 639
+				transfer_state = 727
+				transfer_state = 725
+				transfer_state = 634
+				transfer_state = 635
+				transfer_state = 636
+				transfer_state = 726
+				transfer_state = 734
+				transfer_state = 641
+				transfer_state = 284
+				transfer_state = 723
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	VAN_integrate_polynesia = {
+		icon = generic_form_nation
+		visible = {
+			VAN = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_polynesia_flag }
+		}
+		available = {
+			629 = { is_controlled_by_ROOT_or_subject = yes }
+			631 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
+			648 = { is_controlled_by_ROOT_or_subject = yes }
+			632 = { is_controlled_by_ROOT_or_subject = yes }
+			638 = { is_controlled_by_ROOT_or_subject = yes }
+			647 = { is_controlled_by_ROOT_or_subject = yes }
+			684 = { is_controlled_by_ROOT_or_subject = yes }
+			633 = { is_controlled_by_ROOT_or_subject = yes }
+			642 = { is_controlled_by_ROOT_or_subject = yes }
+			643 = { is_controlled_by_ROOT_or_subject = yes }
+			639 = { is_controlled_by_ROOT_or_subject = yes }
+			727 = { is_controlled_by_ROOT_or_subject = yes }
+			725 = { is_controlled_by_ROOT_or_subject = yes }
+			634 = { is_controlled_by_ROOT_or_subject = yes }
+			635 = { is_controlled_by_ROOT_or_subject = yes }
+			636 = { is_controlled_by_ROOT_or_subject = yes }
+			726 = { is_controlled_by_ROOT_or_subject = yes }
+			734 = { is_controlled_by_ROOT_or_subject = yes }
+			641 = { is_controlled_by_ROOT_or_subject = yes }
+			284 = { is_controlled_by_ROOT_or_subject = yes }
+			723 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			VAN = {
+				transfer_state = 629
+				transfer_state = 631
+				transfer_state = 630
+				transfer_state = 648
+				transfer_state = 632
+				transfer_state = 638
+				transfer_state = 647
+				transfer_state = 684
+				transfer_state = 633
+				transfer_state = 642
+				transfer_state = 643
+				transfer_state = 639
+				transfer_state = 727
+				transfer_state = 725
+				transfer_state = 634
+				transfer_state = 635
+				transfer_state = 636
+				transfer_state = 726
+				transfer_state = 734
+				transfer_state = 641
+				transfer_state = 284
+				transfer_state = 723
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	KIR_integrate_polynesia = {
+		icon = generic_form_nation
+		visible = {
+			KIR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_polynesia_flag }
+		}
+		available = {
+			629 = { is_controlled_by_ROOT_or_subject = yes }
+			631 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
+			648 = { is_controlled_by_ROOT_or_subject = yes }
+			632 = { is_controlled_by_ROOT_or_subject = yes }
+			638 = { is_controlled_by_ROOT_or_subject = yes }
+			647 = { is_controlled_by_ROOT_or_subject = yes }
+			684 = { is_controlled_by_ROOT_or_subject = yes }
+			633 = { is_controlled_by_ROOT_or_subject = yes }
+			642 = { is_controlled_by_ROOT_or_subject = yes }
+			643 = { is_controlled_by_ROOT_or_subject = yes }
+			639 = { is_controlled_by_ROOT_or_subject = yes }
+			727 = { is_controlled_by_ROOT_or_subject = yes }
+			725 = { is_controlled_by_ROOT_or_subject = yes }
+			634 = { is_controlled_by_ROOT_or_subject = yes }
+			635 = { is_controlled_by_ROOT_or_subject = yes }
+			636 = { is_controlled_by_ROOT_or_subject = yes }
+			726 = { is_controlled_by_ROOT_or_subject = yes }
+			734 = { is_controlled_by_ROOT_or_subject = yes }
+			641 = { is_controlled_by_ROOT_or_subject = yes }
+			284 = { is_controlled_by_ROOT_or_subject = yes }
+			723 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			KIR = {
+				transfer_state = 629
+				transfer_state = 631
+				transfer_state = 630
+				transfer_state = 648
+				transfer_state = 632
+				transfer_state = 638
+				transfer_state = 647
+				transfer_state = 684
+				transfer_state = 633
+				transfer_state = 642
+				transfer_state = 643
+				transfer_state = 639
+				transfer_state = 727
+				transfer_state = 725
+				transfer_state = 634
+				transfer_state = 635
+				transfer_state = 636
+				transfer_state = 726
+				transfer_state = 734
+				transfer_state = 641
+				transfer_state = 284
+				transfer_state = 723
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	PLU_integrate_polynesia = {
+		icon = generic_form_nation
+		visible = {
+			PLU = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_polynesia_flag }
+		}
+		available = {
+			629 = { is_controlled_by_ROOT_or_subject = yes }
+			631 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
+			648 = { is_controlled_by_ROOT_or_subject = yes }
+			632 = { is_controlled_by_ROOT_or_subject = yes }
+			638 = { is_controlled_by_ROOT_or_subject = yes }
+			647 = { is_controlled_by_ROOT_or_subject = yes }
+			684 = { is_controlled_by_ROOT_or_subject = yes }
+			633 = { is_controlled_by_ROOT_or_subject = yes }
+			642 = { is_controlled_by_ROOT_or_subject = yes }
+			643 = { is_controlled_by_ROOT_or_subject = yes }
+			639 = { is_controlled_by_ROOT_or_subject = yes }
+			727 = { is_controlled_by_ROOT_or_subject = yes }
+			725 = { is_controlled_by_ROOT_or_subject = yes }
+			634 = { is_controlled_by_ROOT_or_subject = yes }
+			635 = { is_controlled_by_ROOT_or_subject = yes }
+			636 = { is_controlled_by_ROOT_or_subject = yes }
+			726 = { is_controlled_by_ROOT_or_subject = yes }
+			734 = { is_controlled_by_ROOT_or_subject = yes }
+			641 = { is_controlled_by_ROOT_or_subject = yes }
+			284 = { is_controlled_by_ROOT_or_subject = yes }
+			723 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			PLU = {
+				transfer_state = 629
+				transfer_state = 631
+				transfer_state = 630
+				transfer_state = 648
+				transfer_state = 632
+				transfer_state = 638
+				transfer_state = 647
+				transfer_state = 684
+				transfer_state = 633
+				transfer_state = 642
+				transfer_state = 643
+				transfer_state = 639
+				transfer_state = 727
+				transfer_state = 725
+				transfer_state = 634
+				transfer_state = 635
+				transfer_state = 636
+				transfer_state = 726
+				transfer_state = 734
+				transfer_state = 641
+				transfer_state = 284
+				transfer_state = 723
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -9723,93 +9651,53 @@ integrate_polynesia_category = {
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
+			631 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
+			648 = { is_controlled_by_ROOT_or_subject = yes }
+			632 = { is_controlled_by_ROOT_or_subject = yes }
+			638 = { is_controlled_by_ROOT_or_subject = yes }
+			647 = { is_controlled_by_ROOT_or_subject = yes }
+			684 = { is_controlled_by_ROOT_or_subject = yes }
+			633 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
+			639 = { is_controlled_by_ROOT_or_subject = yes }
 			727 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
+			725 = { is_controlled_by_ROOT_or_subject = yes }
+			634 = { is_controlled_by_ROOT_or_subject = yes }
+			635 = { is_controlled_by_ROOT_or_subject = yes }
+			636 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
 			734 = { is_controlled_by_ROOT_or_subject = yes }
+			641 = { is_controlled_by_ROOT_or_subject = yes }
+			284 = { is_controlled_by_ROOT_or_subject = yes }
+			723 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			NZL = {
-				transfer_state = 284
-				transfer_state = 630
 				transfer_state = 629
+				transfer_state = 631
+				transfer_state = 630
+				transfer_state = 648
+				transfer_state = 632
+				transfer_state = 638
+				transfer_state = 647
+				transfer_state = 684
+				transfer_state = 633
 				transfer_state = 642
 				transfer_state = 643
-				transfer_state = 641
+				transfer_state = 639
 				transfer_state = 727
-				transfer_state = 723
+				transfer_state = 725
+				transfer_state = 634
+				transfer_state = 635
+				transfer_state = 636
 				transfer_state = 726
 				transfer_state = 734
-				if = {
-					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 725
-				}
-				if = {
-					limit = { 639 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 639
-				}
-				if = {
-					limit = { 633 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 633
-				}
-				if = {
-					limit = { 684 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 684
-				}
-				if = {
-					limit = { 647 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 647
-				}
-				if = {
-					limit = { 638 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 638
-				}
-				if = {
-					limit = { 646 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 646
-				}
-				if = {
-					limit = { 648 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 648
-				}
-				if = {
-					limit = { 632 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 632
-				}
-				if = {
-					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 635
-				}
-				if = {
-					limit = { 636 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 636
-				}
-				if = {
-					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 634
-				}
-				if = {
-					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 737
-				}
-				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
-				}
-				if = {
-					limit = { 669 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 669
-				}
-				if = {
-					limit = { 738 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 738
-				}
+				transfer_state = 641
+				transfer_state = 284
+				transfer_state = 723
 			}
 		}
 		ai_will_do = {
@@ -9825,6 +9713,10 @@ integrate_polynesia_category = {
 					original_tag = SAM
 					original_tag = SOL
 					original_tag = FIJ
+					original_tag = NRU
+					original_tag = VAN
+					original_tag = KIR
+					original_tag = PLU
 					original_tag = NZL
 				}
 			}
@@ -13486,6 +13378,10 @@ integrate_peru_bolivia_category = {
 				transfer_state = 494
 				transfer_state = 492
 				transfer_state = 487
+				if = {
+					limit = { 1077 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1077
+				}
 				transfer_state = 302
 				if = {
 					limit = { 490 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -13546,6 +13442,10 @@ integrate_peru_bolivia_category = {
 				transfer_state = 494
 				transfer_state = 492
 				transfer_state = 487
+				if = {
+					limit = { 1077 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1077
+				}
 				transfer_state = 302
 				if = {
 					limit = { 490 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -13617,6 +13517,10 @@ integrate_guianas_category = {
 					transfer_state = 488
 				}
 				if = {
+					limit = { 1073 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1073
+				}
+				if = {
 					limit = { 1056 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 1056
 				}
@@ -13655,6 +13559,10 @@ integrate_guianas_category = {
 					transfer_state = 488
 				}
 				if = {
+					limit = { 1073 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1073
+				}
+				if = {
 					limit = { 1056 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 1056
 				}
@@ -13681,6 +13589,10 @@ integrate_guianas_category = {
 				if = {
 					limit = { 488 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 488
+				}
+				if = {
+					limit = { 1073 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1073
 				}
 				if = {
 					limit = { 1056 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -14112,7 +14024,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = DOM
@@ -14150,7 +14062,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = HAI
@@ -14188,7 +14100,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = CUB
@@ -14216,6 +14128,13 @@ integrate_carribean_category = {
 					original_tag = TRI
 					original_tag = GDL
 					original_tag = CRC
+					original_tag = STK
+					original_tag = DMN
+					original_tag = BAR
+					original_tag = STL
+					original_tag = SVG
+					original_tag = GRA
+					original_tag = MAR
 				}
 			}
 		}
@@ -14242,7 +14161,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = JAM
@@ -14280,7 +14199,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = PUE
@@ -14318,7 +14237,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = BAH
@@ -14356,7 +14275,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = TRI
@@ -14394,7 +14313,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = GDL
@@ -14432,7 +14351,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = CRC
@@ -14444,6 +14363,272 @@ integrate_carribean_category = {
 			if = {
 				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
 				CRC = { transfer_state = 1050 }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	STK_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			STK = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = STK
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = STK
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				STK = { transfer_state = 972 }
+			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				STK = { transfer_state = 1050 }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	DMN_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			DMN = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = DMN
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = DMN
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				DMN = { transfer_state = 972 }
+			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				DMN = { transfer_state = 1050 }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	BAR_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			BAR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = BAR
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = BAR
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				BAR = { transfer_state = 972 }
+			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				BAR = { transfer_state = 1050 }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	STL_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			STL = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = STL
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = STL
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				STL = { transfer_state = 972 }
+			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				STL = { transfer_state = 1050 }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	SVG_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			SVG = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = SVG
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = SVG
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				SVG = { transfer_state = 972 }
+			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				SVG = { transfer_state = 1050 }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	GRA_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			GRA = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = GRA
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = GRA
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				GRA = { transfer_state = 972 }
+			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				GRA = { transfer_state = 1050 }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	MAR_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			MAR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = MAR
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = MAR
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				MAR = { transfer_state = 972 }
+			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				MAR = { transfer_state = 1050 }
 			}
 		}
 		ai_will_do = { factor = 0 }
