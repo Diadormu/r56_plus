@@ -1,0 +1,14 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			322 = { add_core_of = PRC }
+			601 = { add_core_of = PRC }
+			757 = { add_core_of = PRC }
+			758 = { add_core_of = PRC }
+			322 = { add_core_of = CHI }
+			601 = { add_core_of = CHI }
+			757 = { add_core_of = CHI }
+			758 = { add_core_of = CHI }
+		}
+	}
+}

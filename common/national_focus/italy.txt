@@ -16260,7 +16260,6 @@ focus_tree = {
 				}
 			}
 		}	  
-		}		  
 		select_effect = { #completes the focus instead of bypassing and granting the necessary flag
 			if = {
 				limit = {
