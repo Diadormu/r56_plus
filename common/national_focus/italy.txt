@@ -3309,7 +3309,7 @@ focus_tree = {
 		id = ITA_strengthen_northern_industry
 		icon = GFX_focus_ITA_northern_industry
 		prerequisite = { focus = ITA_finance_anic }
-		mutually_exclusive = { focus = ITA_modernize_the_mezzogiorno }
+		#mutually_exclusive = { focus = ITA_modernize_the_mezzogiorno }
 		x = -1
 		y = 1
 		relative_position_id = ITA_finance_anic
@@ -3399,7 +3399,7 @@ focus_tree = {
 		id = ITA_modernize_the_mezzogiorno
 		icon = GFX_focus_ITA_southern_industry
 		prerequisite = { focus = ITA_finance_anic }
-		mutually_exclusive = { focus = ITA_strengthen_northern_industry }
+		#mutually_exclusive = { focus = ITA_strengthen_northern_industry }
 		x = 1
 		y = 1
 		relative_position_id = ITA_finance_anic

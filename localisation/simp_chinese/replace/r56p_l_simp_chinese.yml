@@ -21,6 +21,8 @@
   nordic_league_KAR_membership: "卡累利阿成员资格"
   form_country_KAR_required_states_tt: "控制§Y卡累利阿§!的所有地区。"
   form_country_KAR_coring_states_tt: "获得§Y卡累利阿§!所有地区的核心。\n"
+  _improved_worker_conditions_: "改善工作环境"
+  _improved_worker_conditions__desc: "工厂中的劳作不仅辛苦，而且还充斥着许多危险。改善工厂作业人员的工作环境尽管会在短期内降低产出，但是从长远收益来看是值得的。"
 
   RULE_ALLOW_RELEASE_NATIONS_SOVIET_TOOLTIP: "§Y[ROOT.GetNameDefCap]§!不能释放该国家\n除非先完成§Y$SOV_freedom_of_debate_unity_of_action$§!国策\n或 §Y$SOV_autonomous_soviet_republics$§!国策\n或§Y$SOV_the_peoples_revolution$§!国策\n或§Y$SOV_for_the_common_good$§!国策\n或§Y$SOV_reconvene_the_zemsky_sobor$§!国策\n 或§Y$SOV_rebuild_the_duma$§!国策。"
   claim_southern_don: "整合顿河南岸"

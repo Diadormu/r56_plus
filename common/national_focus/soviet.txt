@@ -1580,7 +1580,7 @@ focus_tree = {
 		relative_position_id = SOV_finish_the_five_year_plan
 		cost = 5
 
-		mutually_exclusive = { focus = SOV_foreign_experts }
+		#mutually_exclusive = { focus = SOV_foreign_experts }
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 
@@ -1604,7 +1604,7 @@ focus_tree = {
 		relative_position_id = SOV_national_specialists
 		cost = 5
 
-		mutually_exclusive = { focus = SOV_national_specialists }
+		#mutually_exclusive = { focus = SOV_national_specialists }
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
@@ -7408,7 +7408,7 @@ focus_tree = {
 		relative_position_id = SOV_strengthen_the_mobilization_plan
 		cost = 5
 
-		mutually_exclusive = { focus = SOV_cohesion_first }
+		#mutually_exclusive = { focus = SOV_cohesion_first }
 
 		completion_reward = {
 			add_to_variable = { SOV_the_red_army_modifier_army_sub_unit_cavalry_speed_factor = 0.05 }
@@ -7472,7 +7472,7 @@ focus_tree = {
 		relative_position_id = SOV_strengthen_the_mobilization_plan
 		cost = 5
 
-		mutually_exclusive = { focus = SOV_restore_cossack_units }
+		#mutually_exclusive = { focus = SOV_restore_cossack_units }
 
 		available = {
 		}
