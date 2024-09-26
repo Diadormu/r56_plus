@@ -1338,7 +1338,7 @@ focus_tree = {
 		relative_position_id = SOV_finish_the_five_year_plan
 		cost = 5
 
-		mutually_exclusive = { focus = SOV_foreign_experts }
+		#mutually_exclusive = { focus = SOV_foreign_experts }
 
 		available = {
 
@@ -1366,7 +1366,7 @@ focus_tree = {
 		relative_position_id = SOV_national_specialists
 		cost = 5
 
-		mutually_exclusive = { focus = SOV_national_specialists }
+		#mutually_exclusive = { focus = SOV_national_specialists }
 
 		available = {
 
@@ -6065,7 +6065,7 @@ focus_tree = {
 		relative_position_id = SOV_strengthen_the_mobilization_plan
 		cost = 5
 
-		mutually_exclusive = { focus = SOV_cohesion_first }
+		#mutually_exclusive = { focus = SOV_cohesion_first }
 
 		available = {
 
@@ -6136,7 +6136,7 @@ focus_tree = {
 		relative_position_id = SOV_strengthen_the_mobilization_plan
 		cost = 5
 
-		mutually_exclusive = { focus = SOV_restore_cossack_units }
+		#mutually_exclusive = { focus = SOV_restore_cossack_units }
 
 		available = {
 		}

@@ -3060,6 +3060,7 @@ form_european_union_category = {
 			}
 			NOT = { has_cosmetic_tag = SPQR_UNIFIED }
 			is_major = yes
+			has_global_flag = form_european_union_flag
 		}
 		fire_only_once = yes
 		cost = 50
@@ -3236,6 +3237,7 @@ form_european_union_category = {
 				has_cosmetic_tag = HRE_UNIFIED
 			}
 			is_major = yes
+			has_global_flag = form_european_union_flag
 		}
 
 		remove_effect = {
@@ -3386,6 +3388,7 @@ form_european_union_category = {
 				has_cosmetic_tag = HRE_UNIFIED
 			}
 			is_major = yes
+			has_global_flag = form_european_union_flag
 		}
 
 		remove_effect = {
@@ -3540,6 +3543,7 @@ form_european_union_category = {
 				has_cosmetic_tag = HRE_UNIFIED
 			}
 			is_major = yes
+			has_global_flag = form_european_union_flag
 		}
 
 		remove_effect = {
@@ -3697,6 +3701,7 @@ form_european_union_category = {
 				has_cosmetic_tag = HRE_UNIFIED
 			}
 			is_major = yes
+			has_global_flag = form_european_union_flag
 		}
 
 		remove_effect = {
@@ -3839,6 +3844,7 @@ form_european_union_category = {
 				has_cosmetic_tag = HRE_UNIFIED
 			}
 			is_major = yes
+			has_global_flag = form_european_union_flag
 		}
 
 		remove_effect = {
@@ -3990,6 +3996,7 @@ form_european_union_category = {
 				has_cosmetic_tag = HRE_UNIFIED
 			}
 			is_major = yes
+			has_global_flag = form_european_union_flag
 		}
 
 		remove_effect = {
@@ -4134,6 +4141,7 @@ form_european_union_category = {
 			}
 			NOT = { has_cosmetic_tag = SPQR_UNIFIED }
 			is_major = yes
+			has_global_flag = form_european_union_flag
 		}
 	
 		remove_effect = {
@@ -4599,6 +4607,43 @@ form_roman_empire_category = {
 		}
 	}
 
+	_improved_worker_conditions_ = {
+
+		icon = generic_industry
+		allowed = {
+			original_tag = ITA
+			OR = {
+				has_dlc = "Waking the Tiger"
+				has_dlc = "By Blood Alone"
+			}
+		}
+
+		available = {
+			has_stability < 0.8
+		}
+		visible = {
+			original_tag = ITA
+			has_global_flag = form_roman_empire_flag
+		}
+
+		modifier = {
+			stability_weekly = 0.005
+			consumer_goods_factor = 0.10
+			industrial_capacity_factory = -0.1
+		}
+
+		fire_only_once = no
+		days_remove = 180
+		days_re_enable = 210
+
+		cost = 100
+
+		complete_effect = {}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
 
 	reintigrate_hispania = {
 
@@ -4813,8 +4858,10 @@ form_roman_empire_category = {
 		}
 
 		available = {
-			
-			controls_state = 766 #Southern Bessarabia
+			if = {
+				limit = { NOT = { is_in_faction_with = SOV } }
+				controls_state = 766 #Southern Bessarabia
+			}
 
 			controls_state = 46 #Muntenia
 
@@ -5176,8 +5223,10 @@ form_roman_empire_category = {
 		}
 
 		available = {
-			
-			controls_state = 230 #Armenia
+			if = {
+				limit = { NOT = { is_in_faction_with = SOV } }
+				controls_state = 230 #Armenia
+			}
 			controls_state = 800 #Van
 			controls_state = 353 #Tunceli
 			controls_state = 352 #Hakkari
