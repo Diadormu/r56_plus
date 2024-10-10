@@ -7405,6 +7405,237 @@ integrate_arabia_category = {
 		}
 		ai_will_do = { factor = 0 }
 	}
+	BHR_integrate_arabia = {
+		icon = generic_form_nation
+		visible = {
+			BHR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_arabia_flag }
+		}
+		available = {
+			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_IRQ_required_states_tt
+				676 = { is_controlled_by_ROOT_or_subject = yes }
+				675 = { is_controlled_by_ROOT_or_subject = yes }
+				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_SAU_required_states_tt
+				292 = { is_controlled_by_ROOT_or_subject = yes }
+				679 = { is_controlled_by_ROOT_or_subject = yes }
+				678 = { is_controlled_by_ROOT_or_subject = yes }
+				858 = { is_controlled_by_ROOT_or_subject = yes }
+				856 = { is_controlled_by_ROOT_or_subject = yes }
+				859 = { is_controlled_by_ROOT_or_subject = yes }
+				857 = { is_controlled_by_ROOT_or_subject = yes }
+				855 = { is_controlled_by_ROOT_or_subject = yes }
+				854 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_arabia_italy_required_states_tt
+				448 = { is_controlled_by_ROOT_or_subject = yes }
+				661 = { is_controlled_by_ROOT_or_subject = yes }
+				449 = { is_controlled_by_ROOT_or_subject = yes }
+				662 = { is_controlled_by_ROOT_or_subject = yes }
+				450 = { is_controlled_by_ROOT_or_subject = yes }
+				451 = { is_controlled_by_ROOT_or_subject = yes }
+				663 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_arabia_france_required_states_tt
+				# North Africa
+				458 = { is_controlled_by_ROOT_or_subject = yes }
+				665 = { is_controlled_by_ROOT_or_subject = yes }
+				460 = { is_controlled_by_ROOT_or_subject = yes }
+				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
+				933 = { is_controlled_by_ROOT_or_subject = yes }
+				459 = { is_controlled_by_ROOT_or_subject = yes }
+				461 = { is_controlled_by_ROOT_or_subject = yes }
+				462 = { is_controlled_by_ROOT_or_subject = yes }
+				# Syria
+				677 = { is_controlled_by_ROOT_or_subject = yes }
+				680 = { is_controlled_by_ROOT_or_subject = yes }
+				553 = { is_controlled_by_ROOT_or_subject = yes }
+				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_arabia_britain_required_states_tt
+				452 = { is_controlled_by_ROOT_or_subject = yes }
+				447 = { is_controlled_by_ROOT_or_subject = yes }
+				907 = { is_controlled_by_ROOT_or_subject = yes }	#Cairo
+				911 = { is_controlled_by_ROOT_or_subject = yes }	#Suez
+				456 = { is_controlled_by_ROOT_or_subject = yes }
+				457 = { is_controlled_by_ROOT_or_subject = yes }
+				995 = { is_controlled_by_ROOT_or_subject = yes }	#East Suez
+				453 = { is_controlled_by_ROOT_or_subject = yes }
+				551 = { is_controlled_by_ROOT_or_subject = yes }
+				549 = { is_controlled_by_ROOT_or_subject = yes }
+				454 = { is_controlled_by_ROOT_or_subject = yes }
+				1016 = { is_controlled_by_ROOT_or_subject = yes }
+				1017 = { is_controlled_by_ROOT_or_subject = yes }
+				949 = { is_controlled_by_ROOT_or_subject = yes }
+				966 = { is_controlled_by_ROOT_or_subject = yes }
+				455 = { is_controlled_by_ROOT_or_subject = yes }
+				1022 = { is_controlled_by_ROOT_or_subject = yes }
+				1021 = { is_controlled_by_ROOT_or_subject = yes }
+				656 = { is_controlled_by_ROOT_or_subject = yes }
+				658 = { is_controlled_by_ROOT_or_subject = yes }
+				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			BHR = {
+				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
+				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
+				hidden_effect = {
+					transfer_state = 676
+					transfer_state = 675
+					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
+				}
+				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
+				hidden_effect = {
+					transfer_state = 292
+					transfer_state = 679
+					transfer_state = 678
+					transfer_state = 858
+					transfer_state = 856
+					transfer_state = 859
+					transfer_state = 857
+					transfer_state = 855
+					transfer_state = 854
+				}
+				custom_effect_tooltip = integrate_arabia_italy_coring_states_tt
+				hidden_effect = {
+					transfer_state = 448
+					transfer_state = 661
+					transfer_state = 449
+					transfer_state = 662
+					transfer_state = 450
+					transfer_state = 451
+					transfer_state = 663
+				}
+				custom_effect_tooltip = integrate_arabia_france_coring_states_tt
+				hidden_effect = {
+					transfer_state = 458
+					transfer_state = 665
+					transfer_state = 460
+					transfer_state = 513
+					transfer_state = 514
+					transfer_state = 933
+					transfer_state = 459
+					transfer_state = 461
+					transfer_state = 677
+					transfer_state = 680
+					transfer_state = 553
+					transfer_state = 554
+					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
+				}
+				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
+				hidden_effect = {
+					transfer_state = 452
+					transfer_state = 447
+					transfer_state = 907	#Cairo
+					transfer_state = 911	#Suez
+					transfer_state = 456
+					transfer_state = 457
+					transfer_state = 995	#East Suez
+					transfer_state = 453
+					transfer_state = 551
+					transfer_state = 549
+					transfer_state = 454
+					transfer_state = 1016
+					transfer_state = 1017
+					transfer_state = 949
+					transfer_state = 966
+					transfer_state = 455
+					transfer_state = 1022
+					transfer_state = 1021
+					transfer_state = 656
+					transfer_state = 658
+					transfer_state = 659
+					transfer_state = 979
+				}
+				if = {
+					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 273
+				}
+				if = {
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
+				}
+				if = {
+					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 552
+				}
+				if = {
+					limit = { 767 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 767
+				}
+				if = {
+					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
+				}
+				if = {
+					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 886
+				}
+				if = {
+					limit = { 887 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 887
+				}
+				if = {
+					limit = { 765 = { is_controlled_by_ROOT_or_subject = yes } }	#Qatar
+					transfer_state = 765
+				}
+				if = {
+					limit = { 293 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 293
+				}
+				if = {
+					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 294
+				}
+				if = {
+					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 783
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
 	TUN_integrate_arabia = {
 		icon = generic_form_nation
 		visible = {
@@ -8193,6 +8424,474 @@ integrate_arabia_category = {
 		}
 		complete_effect = {
 			ADU = {
+				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
+				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
+				hidden_effect = {
+					transfer_state = 676
+					transfer_state = 675
+					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
+				}
+				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
+				hidden_effect = {
+					transfer_state = 292
+					transfer_state = 679
+					transfer_state = 678
+					transfer_state = 858
+					transfer_state = 856
+					transfer_state = 859
+					transfer_state = 857
+					transfer_state = 855
+					transfer_state = 854
+				}
+				custom_effect_tooltip = integrate_arabia_italy_coring_states_tt
+				hidden_effect = {
+					transfer_state = 448
+					transfer_state = 661
+					transfer_state = 449
+					transfer_state = 662
+					transfer_state = 450
+					transfer_state = 451
+					transfer_state = 663
+				}
+				custom_effect_tooltip = integrate_arabia_france_coring_states_tt
+				hidden_effect = {
+					transfer_state = 458
+					transfer_state = 665
+					transfer_state = 460
+					transfer_state = 513
+					transfer_state = 514
+					transfer_state = 933
+					transfer_state = 459
+					transfer_state = 461
+					transfer_state = 677
+					transfer_state = 680
+					transfer_state = 553
+					transfer_state = 554
+					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
+				}
+				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
+				hidden_effect = {
+					transfer_state = 452
+					transfer_state = 447
+					transfer_state = 907	#Cairo
+					transfer_state = 911	#Suez
+					transfer_state = 456
+					transfer_state = 457
+					transfer_state = 995	#East Suez
+					transfer_state = 453
+					transfer_state = 551
+					transfer_state = 549
+					transfer_state = 454
+					transfer_state = 1016
+					transfer_state = 1017
+					transfer_state = 949
+					transfer_state = 966
+					transfer_state = 455
+					transfer_state = 1022
+					transfer_state = 1021
+					transfer_state = 656
+					transfer_state = 658
+					transfer_state = 659
+					transfer_state = 979
+				}
+				if = {
+					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 273
+				}
+				if = {
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
+				}
+				if = {
+					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 552
+				}
+				if = {
+					limit = { 767 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 767
+				}
+				if = {
+					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
+				}
+				if = {
+					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 886
+				}
+				if = {
+					limit = { 887 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 887
+				}
+				if = {
+					limit = { 765 = { is_controlled_by_ROOT_or_subject = yes } }	#Qatar
+					transfer_state = 765
+				}
+				if = {
+					limit = { 293 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 293
+				}
+				if = {
+					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 294
+				}
+				if = {
+					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 783
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	DJI_integrate_arabia = {
+		icon = generic_form_nation
+		visible = {
+			DJI = { is_subject_of = ROOT }
+			NOT = {
+				has_dlc = "La Resistance"
+				has_global_flag = form_arabia_flag
+			}
+		}
+		available = {
+			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_IRQ_required_states_tt
+				676 = { is_controlled_by_ROOT_or_subject = yes }
+				675 = { is_controlled_by_ROOT_or_subject = yes }
+				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_SAU_required_states_tt
+				292 = { is_controlled_by_ROOT_or_subject = yes }
+				679 = { is_controlled_by_ROOT_or_subject = yes }
+				678 = { is_controlled_by_ROOT_or_subject = yes }
+				858 = { is_controlled_by_ROOT_or_subject = yes }
+				856 = { is_controlled_by_ROOT_or_subject = yes }
+				859 = { is_controlled_by_ROOT_or_subject = yes }
+				857 = { is_controlled_by_ROOT_or_subject = yes }
+				855 = { is_controlled_by_ROOT_or_subject = yes }
+				854 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_arabia_italy_required_states_tt
+				448 = { is_controlled_by_ROOT_or_subject = yes }
+				661 = { is_controlled_by_ROOT_or_subject = yes }
+				449 = { is_controlled_by_ROOT_or_subject = yes }
+				662 = { is_controlled_by_ROOT_or_subject = yes }
+				450 = { is_controlled_by_ROOT_or_subject = yes }
+				451 = { is_controlled_by_ROOT_or_subject = yes }
+				663 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_arabia_france_required_states_tt
+				# North Africa
+				458 = { is_controlled_by_ROOT_or_subject = yes }
+				665 = { is_controlled_by_ROOT_or_subject = yes }
+				460 = { is_controlled_by_ROOT_or_subject = yes }
+				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
+				933 = { is_controlled_by_ROOT_or_subject = yes }
+				459 = { is_controlled_by_ROOT_or_subject = yes }
+				461 = { is_controlled_by_ROOT_or_subject = yes }
+				462 = { is_controlled_by_ROOT_or_subject = yes }
+				# Syria
+				677 = { is_controlled_by_ROOT_or_subject = yes }
+				680 = { is_controlled_by_ROOT_or_subject = yes }
+				553 = { is_controlled_by_ROOT_or_subject = yes }
+				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_arabia_britain_required_states_tt
+				452 = { is_controlled_by_ROOT_or_subject = yes }
+				447 = { is_controlled_by_ROOT_or_subject = yes }
+				907 = { is_controlled_by_ROOT_or_subject = yes }	#Cairo
+				911 = { is_controlled_by_ROOT_or_subject = yes }	#Suez
+				456 = { is_controlled_by_ROOT_or_subject = yes }
+				457 = { is_controlled_by_ROOT_or_subject = yes }
+				995 = { is_controlled_by_ROOT_or_subject = yes }	#East Suez
+				453 = { is_controlled_by_ROOT_or_subject = yes }
+				551 = { is_controlled_by_ROOT_or_subject = yes }
+				549 = { is_controlled_by_ROOT_or_subject = yes }
+				454 = { is_controlled_by_ROOT_or_subject = yes }
+				1016 = { is_controlled_by_ROOT_or_subject = yes }
+				1017 = { is_controlled_by_ROOT_or_subject = yes }
+				949 = { is_controlled_by_ROOT_or_subject = yes }
+				966 = { is_controlled_by_ROOT_or_subject = yes }
+				455 = { is_controlled_by_ROOT_or_subject = yes }
+				1022 = { is_controlled_by_ROOT_or_subject = yes }
+				1021 = { is_controlled_by_ROOT_or_subject = yes }
+				656 = { is_controlled_by_ROOT_or_subject = yes }
+				658 = { is_controlled_by_ROOT_or_subject = yes }
+				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			DJI = {
+				transfer_state = 290
+				transfer_state = 783
+				transfer_state = 699
+				custom_effect_tooltip = integrate_country_IRQ_coring_states_tt
+				hidden_effect = {
+					transfer_state = 676
+					transfer_state = 675
+					transfer_state = 291
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1047
+					transfer_state = 1048
+					transfer_state = 1049
+				}
+				custom_effect_tooltip = integrate_country_SAU_coring_states_tt
+				hidden_effect = {
+					transfer_state = 292
+					transfer_state = 679
+					transfer_state = 678
+					transfer_state = 858
+					transfer_state = 856
+					transfer_state = 859
+					transfer_state = 857
+					transfer_state = 855
+					transfer_state = 854
+				}
+				custom_effect_tooltip = integrate_arabia_italy_coring_states_tt
+				hidden_effect = {
+					transfer_state = 448
+					transfer_state = 661
+					transfer_state = 449
+					transfer_state = 662
+					transfer_state = 450
+					transfer_state = 451
+					transfer_state = 663
+				}
+				custom_effect_tooltip = integrate_arabia_france_coring_states_tt
+				hidden_effect = {
+					transfer_state = 458
+					transfer_state = 665
+					transfer_state = 460
+					transfer_state = 513
+					transfer_state = 514
+					transfer_state = 933
+					transfer_state = 459
+					transfer_state = 461
+					transfer_state = 677
+					transfer_state = 680
+					transfer_state = 553
+					transfer_state = 554
+					transfer_state = 462
+					transfer_state = 557
+					transfer_state = 786
+				}
+				custom_effect_tooltip = integrate_arabia_britain_coring_states_tt
+				hidden_effect = {
+					transfer_state = 452
+					transfer_state = 447
+					transfer_state = 907	#Cairo
+					transfer_state = 911	#Suez
+					transfer_state = 456
+					transfer_state = 457
+					transfer_state = 995	#East Suez
+					transfer_state = 453
+					transfer_state = 551
+					transfer_state = 549
+					transfer_state = 454
+					transfer_state = 1016
+					transfer_state = 1017
+					transfer_state = 949
+					transfer_state = 966
+					transfer_state = 455
+					transfer_state = 1022
+					transfer_state = 1021
+					transfer_state = 656
+					transfer_state = 658
+					transfer_state = 659
+					transfer_state = 979
+				}
+				if = {
+					limit = { 273 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 273
+				}
+				if = {
+					limit = { 906 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 906
+				}
+				if = {
+					limit = { 1007 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1007
+				}
+				if = {
+					limit = { 552 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 552
+				}
+				if = {
+					limit = { 767 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 767
+				}
+				if = {
+					limit = { 883 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 883
+				}
+				if = {
+					limit = { 885 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 884
+				}
+				if = {
+					limit = { 884 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 885
+				}
+				if = {
+					limit = { 886 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 886
+				}
+				if = {
+					limit = { 887 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 887
+				}
+				if = {
+					limit = { 765 = { is_controlled_by_ROOT_or_subject = yes } }	#Qatar
+					transfer_state = 765
+				}
+				if = {
+					limit = { 293 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 293
+				}
+				if = {
+					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 294
+				}
+				if = {
+					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 783
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	COM_integrate_arabia = {
+		icon = generic_form_nation
+		visible = {
+			COM = { is_subject_of = ROOT }
+			NOT = {
+				has_dlc = "La Resistance"
+				has_global_flag = form_arabia_flag
+			}
+		}
+		available = {
+			290 = { is_controlled_by_ROOT_or_subject = yes }
+			783 = { is_controlled_by_ROOT_or_subject = yes }
+			699 = { is_controlled_by_ROOT_or_subject = yes }
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_IRQ_required_states_tt
+				676 = { is_controlled_by_ROOT_or_subject = yes }
+				675 = { is_controlled_by_ROOT_or_subject = yes }
+				291 = { is_controlled_by_ROOT_or_subject = yes }
+				1045 = { is_controlled_by_ROOT_or_subject = yes }
+				1046 = { is_controlled_by_ROOT_or_subject = yes }
+				1047 = { is_controlled_by_ROOT_or_subject = yes }
+				1048 = { is_controlled_by_ROOT_or_subject = yes }
+				1049 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_country_SAU_required_states_tt
+				292 = { is_controlled_by_ROOT_or_subject = yes }
+				679 = { is_controlled_by_ROOT_or_subject = yes }
+				678 = { is_controlled_by_ROOT_or_subject = yes }
+				858 = { is_controlled_by_ROOT_or_subject = yes }
+				856 = { is_controlled_by_ROOT_or_subject = yes }
+				859 = { is_controlled_by_ROOT_or_subject = yes }
+				857 = { is_controlled_by_ROOT_or_subject = yes }
+				855 = { is_controlled_by_ROOT_or_subject = yes }
+				854 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_arabia_italy_required_states_tt
+				448 = { is_controlled_by_ROOT_or_subject = yes }
+				661 = { is_controlled_by_ROOT_or_subject = yes }
+				449 = { is_controlled_by_ROOT_or_subject = yes }
+				662 = { is_controlled_by_ROOT_or_subject = yes }
+				450 = { is_controlled_by_ROOT_or_subject = yes }
+				451 = { is_controlled_by_ROOT_or_subject = yes }
+				663 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_arabia_france_required_states_tt
+				# North Africa
+				458 = { is_controlled_by_ROOT_or_subject = yes }
+				665 = { is_controlled_by_ROOT_or_subject = yes }
+				460 = { is_controlled_by_ROOT_or_subject = yes }
+				513 = { is_controlled_by_ROOT_or_subject = yes }
+				514 = { is_controlled_by_ROOT_or_subject = yes }
+				933 = { is_controlled_by_ROOT_or_subject = yes }
+				459 = { is_controlled_by_ROOT_or_subject = yes }
+				461 = { is_controlled_by_ROOT_or_subject = yes }
+				462 = { is_controlled_by_ROOT_or_subject = yes }
+				# Syria
+				677 = { is_controlled_by_ROOT_or_subject = yes }
+				680 = { is_controlled_by_ROOT_or_subject = yes }
+				553 = { is_controlled_by_ROOT_or_subject = yes }
+				554 = { is_controlled_by_ROOT_or_subject = yes }
+				# Mauritania
+				557 = { is_controlled_by_ROOT_or_subject = yes }
+				786 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = integrate_arabia_britain_required_states_tt
+				452 = { is_controlled_by_ROOT_or_subject = yes }
+				447 = { is_controlled_by_ROOT_or_subject = yes }
+				907 = { is_controlled_by_ROOT_or_subject = yes }	#Cairo
+				911 = { is_controlled_by_ROOT_or_subject = yes }	#Suez
+				456 = { is_controlled_by_ROOT_or_subject = yes }
+				457 = { is_controlled_by_ROOT_or_subject = yes }
+				995 = { is_controlled_by_ROOT_or_subject = yes }	#East Suez
+				453 = { is_controlled_by_ROOT_or_subject = yes }
+				551 = { is_controlled_by_ROOT_or_subject = yes }
+				549 = { is_controlled_by_ROOT_or_subject = yes }
+				454 = { is_controlled_by_ROOT_or_subject = yes }
+				1016 = { is_controlled_by_ROOT_or_subject = yes }
+				1017 = { is_controlled_by_ROOT_or_subject = yes }
+				949 = { is_controlled_by_ROOT_or_subject = yes }
+				966 = { is_controlled_by_ROOT_or_subject = yes }
+				455 = { is_controlled_by_ROOT_or_subject = yes }
+				1022 = { is_controlled_by_ROOT_or_subject = yes }
+				1021 = { is_controlled_by_ROOT_or_subject = yes }
+				656 = { is_controlled_by_ROOT_or_subject = yes }
+				658 = { is_controlled_by_ROOT_or_subject = yes }
+				659 = { is_controlled_by_ROOT_or_subject = yes }
+				979 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		complete_effect = {
+			COM = {
 				transfer_state = 290
 				transfer_state = 783
 				transfer_state = 699
@@ -13860,32 +14559,6 @@ integrate_the_levant_category = {
 				transfer_state_to = LEB
 				#Siria, Libano, Palestina, Jordan
 			}
-			LEB = {
-				if = {
-					limit = { 799 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 799
-				}
-				if = {
-					limit = { 676 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 676
-				}
-				if = {
-					limit = { 675 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 675
-				}
-				if = {
-					limit = { 291 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 291
-				}
-				if = {
-					limit = { 656 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 656
-				}
-				if = {
-					limit = { 183 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 183
-				}
-			}
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -13928,32 +14601,6 @@ integrate_the_levant_category = {
 				}
 				transfer_state_to = SYR
 				#Siria, Libano, Palestina, Jordan
-			}
-			SYR = {
-				if = {
-					limit = { 799 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 799
-				}
-				if = {
-					limit = { 676 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 676
-				}
-				if = {
-					limit = { 675 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 675
-				}
-				if = {
-					limit = { 291 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 291
-				}
-				if = {
-					limit = { 656 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 656
-				}
-				if = {
-					limit = { 183 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 183
-				}
 			}
 		}
 		ai_will_do = {
@@ -14007,32 +14654,6 @@ integrate_the_levant_category = {
 				}
 				transfer_state_to = JOR
 				#Siria, Libano, Palestina, Jordan
-			}
-			JOR = {
-				if = {
-					limit = { 799 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 799
-				}
-				if = {
-					limit = { 676 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 676
-				}
-				if = {
-					limit = { 675 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 675
-				}
-				if = {
-					limit = { 291 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 291
-				}
-				if = {
-					limit = { 656 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 656
-				}
-				if = {
-					limit = { 183 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 183
-				}
 			}
 		}
 		ai_will_do = { factor = 0 }

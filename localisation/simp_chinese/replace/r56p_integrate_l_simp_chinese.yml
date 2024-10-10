@@ -116,10 +116,13 @@
   KUW_integrate_arabia: "向[KUW.GetName]移交领土"
   UAE_integrate_arabia: "向[UAE.GetName]移交领土"
   QAT_integrate_arabia: "向[QAT.GetName]移交领土"
+  BHR_integrate_arabia: "向[BHR.GetName]移交领土"
   TUN_integrate_arabia: "向[TUN.GetName]移交领土"
   ALG_integrate_arabia: "向[ALG.GetName]移交领土"
   MOR_integrate_arabia: "向[MOR.GetName]移交领土（推荐，有额外核心）"
   ADU_integrate_arabia: "向[ADU.GetName]移交领土"
+  DJI_integrate_arabia: "向[DJI.GetName]移交领土"
+  COM_integrate_arabia: "向[COM.GetName]移交领土"
 
   integrate_malayan_confederation_category: "整合泛马来联邦"
   INS_integrate_malayan_confederation: "向[INS.GetName]移交领土（推荐，有独立国策）"
