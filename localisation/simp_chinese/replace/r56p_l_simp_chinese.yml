@@ -120,6 +120,7 @@
   SIK_integrate_greater_china: "向[SIK.GetName]移交领土"
   MAN_integrate_greater_china: "向[MAN.GetName]移交领土"
 
+  SPQR_balkan_expansion_decision: "彻底整合巴尔干地区"
   form_united_balkan_category: "巴尔干联邦之梦"
   form_united_balkan_category_desc: "现在是我们实现创建一个统一而独立的巴尔干联邦的美好愿景之时了，在这个国度中，无论出身、文化和信仰，每位公民都将享有平等自由的权利。"
   form_united_balkan: "巴尔干的统一"
