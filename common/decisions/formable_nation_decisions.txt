@@ -1230,6 +1230,8 @@ form_united_netherlands_category = {
 				controls_state = 6
 				controls_state = 34
 				controls_state = 965
+				controls_state = 1094
+				controls_state = 1095
 			}
 			# Luxembourg
 			controls_state = 8
@@ -1286,6 +1288,8 @@ form_united_netherlands_category = {
 				6 = { add_core_of = ROOT }
 				34 = { add_core_of = ROOT }
 				965 = { add_core_of = ROOT }
+				1094 = { add_core_of = ROOT }
+				1095 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.58 hours = 6 }
@@ -2833,6 +2837,8 @@ form_european_union_category = {
 				controls_state = 6
 				controls_state = 34
 				controls_state = 965
+				controls_state = 1094
+				controls_state = 1095
 			}
 			# France
 			custom_trigger_tooltip = {
@@ -9530,10 +9536,10 @@ form_hre_category = {
 				original_tag = SAX
 				original_tag = HAN
 				original_tag = MEK
-				original_tag = SHL											
+				original_tag = SHL
 				original_tag = WUR
 				original_tag = BAY
-				original_tag = BAD					
+				original_tag = BAD
 			}
 		}
 
@@ -9629,6 +9635,8 @@ form_hre_category = {
 				controls_state = 6
 				controls_state = 34
 				controls_state = 965
+				controls_state = 1094
+				controls_state = 1095
 			}
 		}
 
@@ -9818,6 +9826,8 @@ form_hre_category = {
 				6 = { add_core_of = ROOT }
 				34 = { add_core_of = ROOT }
 				965 = { add_core_of = ROOT }
+				1094 = { add_core_of = ROOT }
+				1095 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.70 hours = 6 }

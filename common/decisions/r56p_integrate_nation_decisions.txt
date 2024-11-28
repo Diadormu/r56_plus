@@ -3411,6 +3411,8 @@ integrate_united_netherlands_category = {
 			6 = { is_controlled_by_ROOT_or_subject = yes }
 			34 = { is_controlled_by_ROOT_or_subject = yes }
 			965 = { is_controlled_by_ROOT_or_subject = yes }
+			1094 = { is_controlled_by_ROOT_or_subject = yes }
+			1095 = { is_controlled_by_ROOT_or_subject = yes }
 			8 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
@@ -3421,6 +3423,8 @@ integrate_united_netherlands_category = {
 				transfer_state = 6
 				transfer_state = 34
 				transfer_state = 965
+				transfer_state = 1094
+				transfer_state = 1095
 				transfer_state = 8
 			}
 		}
@@ -3455,6 +3459,8 @@ integrate_united_netherlands_category = {
 			6 = { is_controlled_by_ROOT_or_subject = yes }
 			34 = { is_controlled_by_ROOT_or_subject = yes }
 			965 = { is_controlled_by_ROOT_or_subject = yes }
+			1094 = { is_controlled_by_ROOT_or_subject = yes }
+			1095 = { is_controlled_by_ROOT_or_subject = yes }
 			8 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
@@ -3465,6 +3471,8 @@ integrate_united_netherlands_category = {
 				transfer_state = 6
 				transfer_state = 34
 				transfer_state = 965
+				transfer_state = 1094
+				transfer_state = 1095
 				transfer_state = 8
 			}
 		}
@@ -3486,6 +3494,8 @@ integrate_united_netherlands_category = {
 			6 = { is_controlled_by_ROOT_or_subject = yes }
 			34 = { is_controlled_by_ROOT_or_subject = yes }
 			965 = { is_controlled_by_ROOT_or_subject = yes }
+			1094 = { is_controlled_by_ROOT_or_subject = yes }
+			1095 = { is_controlled_by_ROOT_or_subject = yes }
 			8 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
@@ -3496,6 +3506,8 @@ integrate_united_netherlands_category = {
 				transfer_state = 6
 				transfer_state = 34
 				transfer_state = 965
+				transfer_state = 1094
+				transfer_state = 1095
 				transfer_state = 8
 			}
 		}
@@ -3517,6 +3529,8 @@ integrate_united_netherlands_category = {
 			6 = { is_controlled_by_ROOT_or_subject = yes }
 			34 = { is_controlled_by_ROOT_or_subject = yes }
 			965 = { is_controlled_by_ROOT_or_subject = yes }
+			1094 = { is_controlled_by_ROOT_or_subject = yes }
+			1095 = { is_controlled_by_ROOT_or_subject = yes }
 			8 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
@@ -3527,6 +3541,8 @@ integrate_united_netherlands_category = {
 				transfer_state = 6
 				transfer_state = 34
 				transfer_state = 965
+				transfer_state = 1094
+				transfer_state = 1095
 				transfer_state = 8
 			}
 		}
@@ -3548,6 +3564,8 @@ integrate_united_netherlands_category = {
 			6 = { is_controlled_by_ROOT_or_subject = yes }
 			34 = { is_controlled_by_ROOT_or_subject = yes }
 			965 = { is_controlled_by_ROOT_or_subject = yes }
+			1094 = { is_controlled_by_ROOT_or_subject = yes }
+			1095 = { is_controlled_by_ROOT_or_subject = yes }
 			8 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
@@ -3558,6 +3576,8 @@ integrate_united_netherlands_category = {
 				transfer_state = 6
 				transfer_state = 34
 				transfer_state = 965
+				transfer_state = 1094
+				transfer_state = 1095
 				transfer_state = 8
 			}
 		}

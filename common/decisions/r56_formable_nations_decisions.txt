@@ -92,6 +92,8 @@ unite_the_levant_category = {
 
             }
 
+
+
             add_ideas = generic_recent_political_unification
             add_ideas = generic_recent_army_unification
             add_ideas = generic_recent_economic_unification
@@ -387,6 +389,12 @@ form_russia_category = {
             add_ideas = generic_recent_political_unification
             add_ideas = generic_recent_army_unification
             add_ideas = generic_recent_economic_unification
+            if = {
+                limit = {
+                    original_tag = LIE
+                }
+                set_country_flag = achievement_formed_russia
+            }
         }
     }
     reclaim_the_kuban_region = {
@@ -1040,6 +1048,7 @@ celtic_unification_category = {
                 add_core_of = ROOT 
                 set_state_name = "康沃尔"
             }
+
             add_ideas = generic_recent_political_unification
             add_ideas = generic_recent_army_unification
             add_ideas = generic_recent_economic_unification
@@ -1486,7 +1495,7 @@ form_nation_mod_category = {
 
 		visible = {
 			original_tag = MOR
-			#NOT = { has_country_flag = country_formed_greater_morocco }
+			NOT = { has_country_flag = country_formed_greater_morocco }
 			NOT = { has_global_flag = integrate_greater_morocco_flag }
 
 		}
@@ -3129,6 +3138,7 @@ EYE_form_alamannia_category = {
 			controls_state = 50
 			controls_state = 52
 			controls_state = 53
+            controls_state = 1053
 			controls_state = 54
 			controls_state = 923
 		}
