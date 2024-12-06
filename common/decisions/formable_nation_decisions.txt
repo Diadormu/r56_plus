@@ -139,7 +139,7 @@ form_scandinavia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -549,7 +549,7 @@ form_nordic_league_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -784,7 +784,7 @@ form_north_sea_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -976,7 +976,7 @@ form_baltic_sea_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -1078,7 +1078,7 @@ form_gran_colombia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -1546,7 +1546,7 @@ form_commonwealth_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -1624,7 +1624,7 @@ form_united_netherlands_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -1687,7 +1687,7 @@ form_united_central_america_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -1883,7 +1883,7 @@ form_baltic_federation_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -2020,7 +2020,7 @@ form_ottoman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -2130,7 +2130,7 @@ form_ottoman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -2185,7 +2185,7 @@ form_ottoman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -2236,7 +2236,7 @@ form_ottoman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -2300,7 +2300,7 @@ form_ottoman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -2364,7 +2364,7 @@ form_ottoman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -2414,7 +2414,7 @@ form_ottoman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -2472,7 +2472,7 @@ form_ottoman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -2548,7 +2548,7 @@ form_ottoman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -2602,7 +2602,7 @@ form_ottoman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -2668,7 +2668,7 @@ form_ottoman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -2730,7 +2730,7 @@ form_ottoman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -2784,7 +2784,7 @@ form_ottoman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -5913,7 +5913,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -6078,7 +6078,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -6148,7 +6148,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -6286,7 +6286,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -6343,7 +6343,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -6416,7 +6416,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -6524,7 +6524,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -6594,7 +6594,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -6656,7 +6656,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -6717,7 +6717,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -6795,7 +6795,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -6884,7 +6884,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -7001,7 +7001,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -7075,7 +7075,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -7132,7 +7132,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -7229,7 +7229,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -7290,7 +7290,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -7351,7 +7351,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -7444,7 +7444,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -7578,7 +7578,7 @@ form_roman_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -7795,7 +7795,7 @@ form_persian_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -7985,7 +7985,7 @@ form_byzantine_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -8157,7 +8157,7 @@ form_byzantine_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -8315,7 +8315,7 @@ form_byzantine_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -8395,7 +8395,7 @@ form_byzantine_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -8456,7 +8456,7 @@ form_byzantine_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -8530,7 +8530,7 @@ form_byzantine_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -8795,7 +8795,7 @@ form_arabia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -8880,7 +8880,7 @@ form_majapahit_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -8929,7 +8929,7 @@ form_rattanakosin_kingdom_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -9189,7 +9189,7 @@ form_hre_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 		}
 	}
 }
@@ -9473,7 +9473,7 @@ form_andalusia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -9555,7 +9555,7 @@ form_andalusia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -9612,7 +9612,7 @@ form_andalusia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -9737,7 +9737,7 @@ form_andalusia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -9835,7 +9835,7 @@ form_andalusia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -9905,7 +9905,7 @@ form_andalusia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -10005,7 +10005,7 @@ form_polynesia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -10338,7 +10338,7 @@ form_greater_greece_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -10384,7 +10384,7 @@ form_greater_greece_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -10432,7 +10432,7 @@ form_greater_greece_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -10472,7 +10472,7 @@ form_greater_greece_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -10516,7 +10516,7 @@ form_greater_greece_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -10560,7 +10560,7 @@ form_greater_greece_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -10852,7 +10852,7 @@ form_macedonian_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -11119,7 +11119,7 @@ form_turan_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -11178,7 +11178,7 @@ form_turan_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -11270,7 +11270,7 @@ form_turan_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -11348,7 +11348,7 @@ form_turan_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -11908,7 +11908,7 @@ form_transcaucasus_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -12046,7 +12046,7 @@ form_transcaucasus_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -12130,7 +12130,7 @@ form_transcaucasus_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -12663,7 +12663,7 @@ form_ethiopian_empire_category  = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -12760,7 +12760,7 @@ form_ethiopian_empire_category  = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -12815,7 +12815,7 @@ form_ethiopian_empire_category  = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -12868,7 +12868,7 @@ form_ethiopian_empire_category  = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
