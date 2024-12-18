@@ -9232,8 +9232,11 @@ form_greater_german_reich_category = {
 				state = 152
 				state = 4
 				state = 848
+				state = 975
+				state = 976
 				state = 69
 				state = 74
+				state = 972
 				state = 8 # Luxembourg
 				state = 28 # Alsace
 				# Poland
@@ -9247,6 +9250,7 @@ form_greater_german_reich_category = {
 				state = 912
 				#Yugoslavia
 				state = 102
+				state = 853
 			}
 		}
 
@@ -9293,9 +9297,12 @@ form_greater_german_reich_category = {
 				controls_state = 152
 				controls_state = 4
 				controls_state = 848
+				controls_state = 975
+				controls_state = 976
 			}
 			controls_state = 69
 			controls_state = 74
+			controls_state = 972
 			controls_state = 8 # Luxembourg
 			controls_state = 28 # Alsace
 			# Poland
@@ -9362,10 +9369,13 @@ form_greater_german_reich_category = {
 				add_state_core = 152
 				add_state_core = 4
 				add_state_core = 848
+				add_state_core = 975
+				add_state_core = 976
 				add_state_core = 69
 				add_state_core = 74
-				add_state_core = 8 
-				add_state_core = 28 
+				add_state_core = 972
+				add_state_core = 8
+				add_state_core = 28
 				add_state_core = 85
 				add_state_core = 807
 				add_state_core = 86
@@ -13672,6 +13682,36 @@ greater_italy_category = {
 	proclaim_greater_italy = { 
 
 		icon = generic_form_nation
+		on_map_mode = decision_view_only
+		highlight_states = { 
+			highlight_state_targets = {
+				state = 852
+				state = 736
+				state = 160
+				state = 39
+				state = 850
+				state = 159
+				state = 158
+				state = 161
+				state = 162
+				state = 157
+				state = 2
+				state = 849
+				state = 117
+				state = 156
+				state = 115
+				state = 114
+				state = 1
+				state = 846
+				state = 735
+				state = 163
+				state = 103
+				state = 853
+				state = 116
+				state = 182
+				state = 164
+			}
+		}
 
 		allowed = {
 			original_tag = ITA # Italy
@@ -13760,15 +13800,15 @@ greater_italy_category = {
 							controls_state = 103 # Dalmatia
 						}
 					}
-					OR = {
-						ITA = { 
-						controls_state = 853 # Ljubljana 
-						}
-						any_country = {
-							is_subject_of = ITA
-							controls_state = 853 # Ljubljana
-						}
-					}
+					#OR = {
+					#	ITA = { 
+					#	controls_state = 853 # Ljubljana 
+					#	}
+					#	any_country = {
+					#		is_subject_of = ITA
+					#		controls_state = 853 # Ljubljana
+					#	}
+					#}
 					OR = {
 						ITA = { 
 						controls_state = 116 # Malta 
