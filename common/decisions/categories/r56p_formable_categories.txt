@@ -248,8 +248,6 @@ form_united_balkan_category = {
 					state = 804
 					state = 950
 					state = 953
-					state = 956
-					state = 958
 					state = 959
 					state = 961
 					state = 962
@@ -291,50 +289,4 @@ integrate_greater_german_reich_category = {
 }
 integrate_greater_italy_category = {
 	icon = generic_formable_nations
-}
-
-greater_italy_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_picture_greater_italy
-	
-	allowed = {}
-	on_map_area = {
-		name = GEN_control_of_these_states_is_required_to_form_the_nation
-		target_array = global.r56_formables_states_array
-		target_trigger = {
-			FROM = {
-				OR = {
-					state = 852
-					state = 736
-					state = 160
-					state = 39
-					state = 850
-					state = 159
-					state = 158
-					state = 161
-					state = 162
-					state = 157
-					state = 2
-					state = 849
-					state = 117
-					state = 156
-					state = 115
-					state = 114
-					state = 1
-					state = 846
-					state = 735
-					state = 163
-					state = 103
-					state = 958
-					state = 853
-					state = 116
-					state = 182
-					state = 164
-				}
-			}
-		}
-		zoom = 800
-	}
 }

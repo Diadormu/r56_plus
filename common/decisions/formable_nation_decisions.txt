@@ -15147,6 +15147,39 @@ greater_italy_category = {
 	proclaim_greater_italy = { 
 
 		icon = generic_form_nation
+		on_map_mode = decision_view_only
+		highlight_states = { 
+			highlight_state_targets = {
+				state = 852
+				state = 736
+				state = 160
+				state = 39
+				state = 850
+				state = 159
+				state = 158
+				state = 161
+				state = 162
+				state = 157
+				state = 2
+				state = 849
+				state = 117
+				state = 156
+				state = 115
+				state = 114
+				state = 912
+				state = 957
+				state = 1
+				state = 846
+				state = 735
+				state = 163
+				state = 103
+				state = 958
+				state = 853
+				state = 116
+				state = 182
+				state = 164
+			}
+		}
 
 		allowed = {
 			original_tag = ITA # Italy
@@ -15177,6 +15210,8 @@ greater_italy_category = {
 				controls_state = 156 # Calabria
 				controls_state = 115 # Sicilia
 				controls_state = 114 # Sardegna
+				controls_state = 912
+				controls_state = 957
 			}  
 			custom_trigger_tooltip = {
 				tooltip = greater_italy_required_other_states 
@@ -15235,15 +15270,15 @@ greater_italy_category = {
 							controls_state = 958 # R56: Kvarner
 						}
 					}
-					OR = {
-						ITA = { 
-						controls_state = 853 # Ljubljana 
-						}
-						any_country = {
-							is_subject_of = ITA
-							controls_state = 853 # Ljubljana
-						}
-					}
+					#OR = {
+					#	ITA = { 
+					#	controls_state = 853 # Ljubljana 
+					#	}
+					#	any_country = {
+					#		is_subject_of = ITA
+					#		controls_state = 853 # Ljubljana
+					#	}
+					#}
 					OR = {
 						ITA = { 
 						controls_state = 116 # Malta 

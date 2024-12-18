@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
   get_core_from_subject: "从傀儡国收回核心领土"
   HUN_integrate_transylvania: "整合特兰西瓦尼亚"
-  HUN_integrate_southern_slovakia: "整合南斯洛伐克"
+  HUN_integrate_ss: "整合南斯洛伐克"
   HUN_integrate_vojvodina: "整合伏伊伏丁那"
   HUN_integrate_greater_hungary: "整合大匈牙利宣称"
   ENG_integrate_IRE: "收复爱尔兰"
@@ -137,6 +137,7 @@
   SER_integrate_united_balkan: "向[SER.GetName]移交领土"
   CRO_integrate_united_balkan: "向[CRO.GetName]移交领土（可以再成立奥匈）"
   MNT_integrate_united_balkan: "向[MNT.GetName]移交领土"
+  integrate_grester_HUN: "整合大匈牙利"
 
   integrate_greater_german_reich_category: "整合大德意志"
   integrate_greater_german_reich: "向[GER.GetName]移交领土"
