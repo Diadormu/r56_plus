@@ -1,4 +1,7 @@
 ﻿l_simp_chinese:
+  form_scandinavia_flag: "已成立斯堪的纳维亚"
+  form_nordic_league_flag: "已成立北欧"
+
   get_core_from_subject: "从傀儡国收回核心领土"
   HUN_integrate_transylvania: "整合特兰西瓦尼亚"
   HUN_integrate_ss: "整合南斯洛伐克"
