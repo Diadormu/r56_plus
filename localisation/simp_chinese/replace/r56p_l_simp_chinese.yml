@@ -7,6 +7,9 @@
   form_nordic_league_flag: "已成立北欧"
 
   get_core_from_subject: "从傀儡国收回核心领土"
+  cf_to_pp: "换取政治支持"
+  oth_disband_irregulars: "$ITA_disband_irregulars$"
+  oth_disband_irregulars_desc: "$ITA_disband_irregulars_desc$"
   HUN_integrate_transylvania: "整合特兰西瓦尼亚"
   HUN_integrate_southern_slovakia: "整合南斯洛伐克"
   HUN_integrate_vojvodina: "整合伏伊伏丁那"

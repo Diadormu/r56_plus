@@ -247,7 +247,7 @@ rename_cities_category = {
 			add_stability = 0.01
 			add_war_support = 0.01
 		}
-		ai_will_do = { factor = 100 }
+		ai_will_do = { base = 100 }
 	}
 }
 
@@ -1636,7 +1636,7 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 100
+			base = 100
 			modifier = {
 				factor = 0
 				OR = {
@@ -1779,9 +1779,9 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			base = 0
 			modifier = {
-				base = 200
+				add = 200
 				has_government = communism
 			}
 			modifier = {
@@ -2596,9 +2596,9 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			base = 0
 			modifier = {
-				base = 200
+				add = 200
 				AND = {
 					original_tag = JAP
 					OR = {
