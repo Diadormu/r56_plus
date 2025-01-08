@@ -1,0 +1,95 @@
+political_actions = {
+	cf_to_pp = {
+		icon = generic_decision
+		ai_will_do = { factor = 0 }
+		available = { num_of_civilian_factories_available_for_projects > 2 }
+		days_re_enable = 7
+		days_remove = 35
+		modifier = { civilian_factory_use = 2 }
+		remove_effect = { add_political_power = 90 }
+	}
+}
+
+operations = {
+	oth_disband_irregulars = {
+		icon = GFX_decision_generic_disband_irregulars
+		allowed = { NOT = { tag = ITA } }
+
+		available = {
+			OR = {
+				any_country_division = { division_has_majority_template = irregular_infantry }
+				has_template = "Camicie Nere"
+				has_template = "黑衫军"
+			}
+		}
+
+		visible = {
+			OR = {
+				any_country_division = { division_has_majority_template = irregular_infantry }
+				has_template = "Camicie Nere"
+				has_template = "黑衫军"
+			}
+		}
+
+		complete_effect = {
+			delete_units = {
+				division_template = "Banda Indigena Irregolare"
+				disband = yes #MP or weapons are not ours to take
+			}
+			delete_units = {
+				division_template = "土著民兵师"
+				disband = yes
+			}
+			delete_units = {
+				division_template = "Truppe Irregolari a Cavallo"
+				disband = yes #MP or weapons are not ours to take
+			}
+			delete_units = {
+				division_template = "殖民地骑警师"
+				disband = yes
+			}
+			delete_units = {
+				division_template = "Banda Irregolare Libica"
+				disband = yes #MP or weapons are not ours to take
+			}
+			delete_units = {
+				division_template = "利比亚班队"
+				disband = yes
+			}
+			delete_units = {
+				division_template = "Banda Irregolare Eritrea"
+				disband = yes #MP or weapons are not ours to take
+			}
+			delete_units = {
+				division_template = "厄立特里亚班队"
+				disband = yes
+			}
+			delete_units = {
+				division_template = "Banda Irregolare Somala"
+				disband = yes #MP or weapons are not ours to take
+			}
+			delete_units = {
+				division_template = "索马里班队"
+				disband = yes
+			}
+			delete_units = {
+				division_template = "Truppe Irregolari di Cammelli"
+				disband = yes #MP or weapons are not ours to take
+			}
+			delete_units = {
+				division_template = "非正规骆驼骑兵师"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Camicie Nere"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "黑衫军"
+				disband = yes
+			}
+		}
+
+		ai_will_do = { base = 0 }
+	}
+}

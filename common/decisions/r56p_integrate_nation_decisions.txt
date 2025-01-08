@@ -313,7 +313,7 @@ integrate_scandinavia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -1147,7 +1147,7 @@ integrate_nordic_league_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -2363,7 +2363,7 @@ integrate_gran_colombia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 100
+			base = 100
 			modifier = {
 				factor = 0
 				OR = {
@@ -2434,7 +2434,7 @@ integrate_gran_colombia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -2658,7 +2658,7 @@ integrate_austria_hungary_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 100
+			base = 100
 			modifier = {
 				factor = 0
 				OR = {
@@ -2819,7 +2819,7 @@ integrate_austria_hungary_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -3133,7 +3133,7 @@ integrate_austria_hungary_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -3257,7 +3257,7 @@ integrate_austria_hungary_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				original_tag = HUN
@@ -3382,7 +3382,7 @@ integrate_commonwealth_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -3429,7 +3429,7 @@ integrate_united_netherlands_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -3641,7 +3641,7 @@ integrate_united_central_america_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 100
+			base = 100
 			modifier = {
 				factor = 0
 				OR = {
@@ -3682,7 +3682,7 @@ integrate_united_central_america_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -3932,7 +3932,7 @@ integrate_baltic_federation_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -3979,7 +3979,7 @@ integrate_mutapa_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -5320,7 +5320,7 @@ integrate_arabia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -9225,7 +9225,7 @@ integrate_malayan_confederation_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -9657,7 +9657,7 @@ integrate_rattanakosin_kingdom_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				original_tag = SIA
@@ -9735,7 +9735,7 @@ integrate_polynesia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -10741,7 +10741,7 @@ integrate_greater_greece_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				original_tag = GRE
@@ -10780,7 +10780,7 @@ integrate_cossack_hosts = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -10850,7 +10850,7 @@ integrate_mountainous_republic_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -11226,7 +11226,7 @@ integrate_transcaucasus_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -11393,7 +11393,7 @@ integrate_siberia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -12961,7 +12961,7 @@ integrate_turkestan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -13735,7 +13735,7 @@ integrate_idel_ural = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				original_tag = TAT
@@ -13816,7 +13816,7 @@ integrate_idel_ural_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -13929,7 +13929,7 @@ integrate_east_africa_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -14222,7 +14222,7 @@ integrate_horn_of_africa_africa_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				original_tag = ETH
@@ -14254,7 +14254,7 @@ integrate_hispaniola_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -14415,7 +14415,7 @@ integrate_peru_bolivia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -14459,7 +14459,7 @@ integrate_guianas_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -14624,7 +14624,7 @@ integrate_the_levant_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -14846,7 +14846,7 @@ integrate_prussia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				original_tag = DNZ
@@ -14969,7 +14969,7 @@ integrate_carribean_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -15509,7 +15509,7 @@ integrate_greater_morocco_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				original_tag = MOR
@@ -15726,7 +15726,7 @@ integrate_la_plata = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -15906,7 +15906,7 @@ integrate_the_empire_of_mali = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -17021,7 +17021,7 @@ integrate_west_african_union = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -17171,7 +17171,7 @@ integrate_a_dravidian_state = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				original_tag = SRL
@@ -18116,7 +18116,7 @@ integrate_the_mamluks_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -18510,7 +18510,7 @@ integrate_alamannia_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				original_tag = SWI
@@ -18544,7 +18544,7 @@ integrate_unite_tanganyika_zanzibar_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -18602,7 +18602,7 @@ integrate_greater_texas_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				original_tag = TXS

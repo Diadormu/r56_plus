@@ -100,7 +100,7 @@ form_nation_mod_category = {
 			}
 		}
 
-		ai_will_do = { factor = 200 }
+		ai_will_do = { base = 200 }
 	}
 	HUN_integrate_ss = {
 		icon = generic_form_nation
@@ -142,7 +142,7 @@ form_nation_mod_category = {
 			}
 		}
 
-		ai_will_do = { factor = 200 }
+		ai_will_do = { base = 200 }
 	}
 	HUN_integrate_vojvodina = {
 		icon = generic_form_nation
@@ -184,7 +184,7 @@ form_nation_mod_category = {
 			}
 		}
 
-		ai_will_do = { factor = 200 }
+		ai_will_do = { base = 200 }
 	}
 	HUN_integrate_greater_hungary = {
 		icon = generic_form_nation
@@ -288,7 +288,7 @@ form_nation_mod_category = {
 			}
 		}
 
-		ai_will_do = { factor = 200 }
+		ai_will_do = { base = 200 }
 	}
 
 	ENG_integrate_IRE = {
@@ -313,7 +313,7 @@ form_nation_mod_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 		}
 	}
 }
@@ -363,7 +363,7 @@ rename_cities_category = {
 			add_stability = 0.01
 			add_war_support = 0.01
 		}
-		ai_will_do = { factor = 100 }
+		ai_will_do = { base = 100 }
 	}
 	r56p_GER_rename_berlin = {
 		icon = generic_form_nation
@@ -434,7 +434,7 @@ rename_cities_category = {
 				64 = { set_state_flag = renamed_berlin_by_ger }
 			}
 		}
-		ai_will_do = { factor = 100 }
+		ai_will_do = { base = 100 }
 	}
 }
 
@@ -674,7 +674,7 @@ form_north_american_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -900,7 +900,7 @@ integrate_north_american_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -1613,7 +1613,7 @@ form_greater_china_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 		}
 	}
 }
@@ -1752,7 +1752,7 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 100
+			base = 100
 			modifier = {
 				factor = 0
 				OR = {
@@ -1902,9 +1902,9 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			base = 0
 			modifier = {
-				factor = 200
+				add = 200
 				has_government = communism
 			}
 			modifier = {
@@ -2761,9 +2761,9 @@ integrate_greater_china_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			base = 0
 			modifier = {
-				factor = 200
+				add = 200
 				AND = {
 					original_tag = JAP
 					OR = {
@@ -2832,7 +2832,7 @@ back_tsarist_russia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 		}
 	}
 
@@ -2876,7 +2876,7 @@ back_tsarist_russia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 		}
 	}
 
@@ -2920,7 +2920,7 @@ back_tsarist_russia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 		}
 	}
 
@@ -2965,7 +2965,7 @@ back_tsarist_russia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 		}
 	}
 
@@ -3020,7 +3020,7 @@ back_tsarist_russia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 		}
 	}
 
@@ -3085,7 +3085,7 @@ back_tsarist_russia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 		}
 	}
 
@@ -3134,7 +3134,7 @@ back_tsarist_russia_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 		}
 	}
 }
@@ -3330,7 +3330,7 @@ form_united_balkan_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			base = 200
 			#modifier = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
@@ -3575,7 +3575,7 @@ integrate_united_balkan_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				OR = {
@@ -5433,7 +5433,7 @@ integrate_greater_german_reich_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				original_tag = GER
@@ -5521,7 +5521,7 @@ integrate_greater_italy_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
 			modifier = {
 				factor = 0
 				original_tag = ITA
