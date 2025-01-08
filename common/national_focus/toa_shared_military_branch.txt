@@ -54,7 +54,7 @@ shared_focus = {
 	}
 
 	offset = {
-		x = 74
+		x = 75
 		y = 0
 		trigger = {
 			tag = CHL
@@ -430,11 +430,11 @@ shared_focus = {
 	#	}
 	#}
 
-	allow_branch = { 
-		NOT = {
-			original_tag = CHL
-		}
-	}
+	#allow_branch = { 
+	#	NOT = {
+	#		original_tag = CHL
+	#	}
+	#}
 
 	available = {
 		#OR = {
@@ -489,14 +489,14 @@ shared_focus = {
 	icon = GFX_focus_generic_land_reclamation
 	relative_position_id = SMB_logistics_department
 	prerequisite = { focus = SMB_logistics_department }
-	allow_branch = {
-		OR = {
-			TAG = ARG
-			#TAG = CHL
-			TAG = PAR
-			TAG = URG
-		}
-	}
+	#allow_branch = {
+	#	OR = {
+	#		TAG = ARG
+	#		#TAG = CHL
+	#		TAG = PAR
+	#		TAG = URG
+	#	}
+	#}
 	x = 0
 	y = 1
 
@@ -606,11 +606,11 @@ shared_focus = {
 	icon = GFX_focus_generic_truck
 	relative_position_id = SMB_military_facilities
 	prerequisite = { focus = SMB_military_facilities focus = SMB_army_academy }
-	mutually_exclusive = { focus = SMB_regular_infantry }
+	#mutually_exclusive = { focus = SMB_regular_infantry }
 	x = 0
 	y = 1
 
-	cost = 10
+	cost = 5
 
 	available = {
 
@@ -704,7 +704,7 @@ shared_focus = {
 		}
 		value = GFX_goal_generic_amphibious_assault
 	} 
-	mutually_exclusive = { focus = SMB_foreign_designs }
+	#mutually_exclusive = { focus = SMB_foreign_designs }
 	relative_position_id = SMB_tank_warfare
 	prerequisite = { focus = SMB_tank_warfare }
 	x = 0
@@ -766,7 +766,7 @@ shared_focus = {
 shared_focus = {
 	id = SMB_tierra_del_fuego_training
 	icon = GFX_focus_SMB_tierra_del_fuego_training
-	mutually_exclusive = { focus = SMB_atacama_training }
+	#mutually_exclusive = { focus = SMB_atacama_training }
 	relative_position_id = SMB_domestic_production
 	prerequisite = { focus = SMB_domestic_production focus = SMB_foreign_designs }
 	x = -2
@@ -785,12 +785,12 @@ shared_focus = {
 		
 	}
 
-	allow_branch = {
-		OR = {
-			original_tag = ARG
-			original_tag = CHL
-		}
-	}
+	#allow_branch = {
+	#	OR = {
+	#		original_tag = ARG
+	#		original_tag = CHL
+	#	}
+	#}
 
 	ai_will_do = {
 			factor = 10
@@ -828,7 +828,7 @@ shared_focus = {
 shared_focus = {
 	id = SMB_atacama_training
 	icon = GFX_focus_SMB_atacama_training
-	mutually_exclusive = { focus = SMB_tierra_del_fuego_training }
+	#mutually_exclusive = { focus = SMB_tierra_del_fuego_training }
 	relative_position_id = SMB_domestic_production
 	prerequisite = { focus = SMB_domestic_production focus = SMB_foreign_designs }
 	x = -4
@@ -851,12 +851,12 @@ shared_focus = {
 		
 	}
 
-	allow_branch = {
-		OR = {
-			original_tag = ARG
-			original_tag = CHL
-		}
-	}
+	#allow_branch = {
+	#	OR = {
+	#		original_tag = ARG
+	#		original_tag = CHL
+	#	}
+	#}
 
 	completion_reward = {
 		IF = {
@@ -906,9 +906,9 @@ shared_focus = {
 		
 	}
 
-	allow_branch = {
-		original_tag = CHL
-	}
+	#allow_branch = {
+	#	original_tag = CHL
+	#}
 
 	ai_will_do = {
 			factor = 10
@@ -1045,11 +1045,11 @@ shared_focus = {
 	icon = GFX_goal_generic_allies_build_infantry
 	relative_position_id = SMB_army_academy
 	prerequisite = { focus = SMB_army_academy focus = SMB_military_facilities }
-	mutually_exclusive = { focus = SMB_motorized }
+	#mutually_exclusive = { focus = SMB_motorized }
 	x = 0
 	y = 1
 
-	cost = 10
+	cost = 5
 
 	ai_will_do = {
 			factor = 20
@@ -1145,7 +1145,7 @@ shared_focus = {
 shared_focus = {
 	id = SMB_foreign_designs
 	icon = GFX_focus_generic_license_production
-	mutually_exclusive = { focus = SMB_domestic_production }
+	#mutually_exclusive = { focus = SMB_domestic_production }
 	relative_position_id = SMB_artillery
 	prerequisite = { focus = SMB_tank_warfare focus = SMB_artillery}
 	x = 0
@@ -1247,11 +1247,11 @@ shared_focus = {
 	icon = GFX_focus_generic_full_social_mobilization
 	relative_position_id = SMB_foreign_advisors
 	prerequisite = { focus = SMB_foreign_advisors }
-	mutually_exclusive = { focus = SMB_conscription }
+	#mutually_exclusive = { focus = SMB_conscription }
 	x = -2
 	y = 1
 
-	cost = 10
+	cost = 5
 
 	ai_will_do = {
 			factor = 20
@@ -1271,7 +1271,7 @@ shared_focus = {
 				original_tag = CHL
 			}
 			custom_effect_tooltip = CHL_modify_chilean_army_ns_intro
-			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.15 tooltip = training_time_factor_tt }
+			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.10 tooltip = training_time_factor_tt }
 			add_to_variable = { JUNO_army_modifier_army_attack_factor = 0.02 tooltip = army_attack_factor_tt }
 			add_to_variable = { JUNO_army_modifier_army_org_factor = 0.01 tooltip = army_org_factor_tt }
 		}
@@ -1280,7 +1280,7 @@ shared_focus = {
 				original_tag = BRA
 			}
 			custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
-			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.15 tooltip = training_time_factor_tt }
+			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.10 tooltip = training_time_factor_tt }
 			add_to_variable = { JUNO_army_modifier_army_attack_factor = 0.02 tooltip = army_attack_factor_tt }
 			add_to_variable = { JUNO_army_modifier_army_org_factor = 0.01 tooltip = army_org_factor_tt }
 		}
@@ -1289,13 +1289,13 @@ shared_focus = {
 				original_tag = ARG
 			}
 			custom_effect_tooltip = ARG_modify_argentine_army_ns_intro
-			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.15 tooltip = training_time_factor_tt }
+			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.10 tooltip = training_time_factor_tt }
 			add_to_variable = { JUNO_army_modifier_army_attack_factor = 0.02 tooltip = army_attack_factor_tt }
 			add_to_variable = { JUNO_army_modifier_army_org_factor = 0.01 tooltip = army_org_factor_tt }
 		}
 		ELSE = {
 			custom_effect_tooltip = JUNO_modify_south_american_army_ns_intro
-			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.15 tooltip = training_time_factor_tt }
+			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.10 tooltip = training_time_factor_tt }
 			add_to_variable = { JUNO_army_modifier_army_attack_factor = 0.02 tooltip = army_attack_factor_tt }
 			add_to_variable = { JUNO_army_modifier_army_org_factor = 0.01 tooltip = army_org_factor_tt }
 		}
@@ -1307,11 +1307,11 @@ shared_focus = {
 	icon = GFX_focus_generic_limited_social_mobilization
 	relative_position_id = SMB_foreign_advisors
 	prerequisite = { focus = SMB_foreign_advisors }
-	mutually_exclusive = { focus = SMB_army_professionalism }
+	#mutually_exclusive = { focus = SMB_army_professionalism }
 	x = 2
 	y = 1
  
-	cost = 10
+	cost = 5
 
 	available = {
 
@@ -1331,7 +1331,7 @@ shared_focus = {
 				original_tag = CHL
 			}
 			custom_effect_tooltip = CHL_modify_chilean_army_ns_intro
-			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.25 tooltip = training_time_factor_tt }
+			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.15 tooltip = training_time_factor_tt }
 			add_to_variable = { JUNO_army_modifier_max_planning_factor = 0.05 tooltip = max_planning_factor_tt }
 			add_to_variable = { JUNO_army_modifier_army_artillery_defence_factor = 0.05 tooltip = army_artillery_defence_factor_tt }
 			add_to_variable = { JUNO_army_modifier_conscription = 0.015 tooltip = conscription_tt }
@@ -1341,7 +1341,7 @@ shared_focus = {
 				original_tag = BRA
 			}
 			custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
-			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.15 tooltip = training_time_factor_tt }
+			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.05 tooltip = training_time_factor_tt }
 			add_to_variable = { JUNO_army_modifier_conscription = 0.015 tooltip = conscription_tt }
 		}
 		ELSE_IF = {
@@ -1349,12 +1349,12 @@ shared_focus = {
 				original_tag = ARG
 			}
 			custom_effect_tooltip = ARG_modify_argentine_army_ns_intro
-			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.15 tooltip = training_time_factor_tt }
+			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.05 tooltip = training_time_factor_tt }
 			add_to_variable = { JUNO_army_modifier_conscription = 0.015 tooltip = conscription_tt }
 		}
 		ELSE = {
 			custom_effect_tooltip = JUNO_modify_south_american_army_ns_intro
-			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.15 tooltip = training_time_factor_tt }
+			add_to_variable = { JUNO_army_modifier_training_time_factor = 0.05 tooltip = training_time_factor_tt }
 			add_to_variable = { JUNO_army_modifier_conscription = 0.015 tooltip = conscription_tt }
 		}
 	}
@@ -1527,7 +1527,7 @@ shared_focus = {
 	icon = GFX_focus_SMB_special_forces_option_1
 	relative_position_id = SMB_special_forces
 	prerequisite = { focus = SMB_special_forces }
-	mutually_exclusive = { focus = SMB_special_forces_option_2 focus = SMB_special_forces_option_3 }
+	#mutually_exclusive = { focus = SMB_special_forces_option_2 focus = SMB_special_forces_option_3 }
 	x = -2
 	y = 1
 
@@ -1545,27 +1545,27 @@ shared_focus = {
 			factor = 10
 		}
 
-	allow_branch = {
-		NOT = {
-			OR = {
-				original_tag = BRA
-				original_tag = ARG
-			}
-		}
-	}
+	#allow_branch = {
+	#	NOT = {
+	#		OR = {
+	#			original_tag = BRA
+	#			original_tag = ARG
+	#		}
+	#	}
+	#}
 
-	offset = {
-		x = 1
-		y = 0
-		trigger = {
-			OR = {
-				original_tag = CHL
-				original_tag = URG
-				original_tag = PAR
-				original_tag = BOL
-			}
-		}
-	}
+	#offset = {
+	#	x = 1
+	#	y = 0
+	#	trigger = {
+	#		OR = {
+	#			original_tag = CHL
+	#			original_tag = URG
+	#			original_tag = PAR
+	#			original_tag = BOL
+	#		}
+	#	}
+	#}
 
 	completion_reward = {
 		IF = {
@@ -1613,7 +1613,7 @@ shared_focus = {
 	} 
 	relative_position_id = SMB_special_forces
 	prerequisite = { focus = SMB_special_forces }
-	mutually_exclusive = { focus = SMB_special_forces_option_1 focus = SMB_special_forces_option_3 }
+	#mutually_exclusive = { focus = SMB_special_forces_option_1 focus = SMB_special_forces_option_3 }
 	x = 2
 	y = 1
 
@@ -1631,20 +1631,20 @@ shared_focus = {
 			factor = 10
 		}
 
-	offset = {
-		x = -1
-		y = 0
-		trigger = {
-			OR = {
-				original_tag = CHL
-				original_tag = URG
-				original_tag = PAR
-				original_tag = BOL
-				original_tag = BRA
-				original_tag = ARG
-			}
-		}
-	}
+	#offset = {
+	#	x = -1
+	#	y = 0
+	#	trigger = {
+	#		OR = {
+	#			original_tag = CHL
+	#			original_tag = URG
+	#			original_tag = PAR
+	#			original_tag = BOL
+	#			original_tag = BRA
+	#			original_tag = ARG
+	#		}
+	#	}
+	#}
 
 	completion_reward = {
 		IF = {
@@ -1679,33 +1679,33 @@ shared_focus = {
 	icon = GFX_focus_SMB_special_forces_option_3 
 	relative_position_id = SMB_special_forces
 	prerequisite = { focus = SMB_special_forces }
-	mutually_exclusive = { focus = SMB_special_forces_option_1 focus = SMB_special_forces_option_2 }
+	#mutually_exclusive = { focus = SMB_special_forces_option_1 focus = SMB_special_forces_option_2 }
 	x = 0
 	y = 1
 
 	cost = 5
 
-	allow_branch = {
-		NOT = {
-			OR = {
-				original_tag = CHL
-				original_tag = URG
-				original_tag = PAR
-				original_tag = BOL
-			}
-		}
-	}
+	#allow_branch = {
+	#	NOT = {
+	#		OR = {
+	#			original_tag = CHL
+	#			original_tag = URG
+	#			original_tag = PAR
+	#			original_tag = BOL
+	#		}
+	#	}
+	#}
 
-	offset = {
-		x = -1
-		y = 0
-		trigger = {
-			OR = {
-				original_tag = BRA
-				original_tag = ARG
-			}
-		}
-	}
+	#offset = {
+	#	x = -1
+	#	y = 0
+	#	trigger = {
+	#		OR = {
+	#			original_tag = BRA
+	#			original_tag = ARG
+	#		}
+	#	}
+	#}
  
 	available = {
 
@@ -2070,9 +2070,9 @@ shared_focus = {
 		
 	}
 
-	allow_branch = {
-		original_tag = CHL
-	}
+	#allow_branch = {
+	#	original_tag = CHL
+	#}
 
 	ai_will_do = {
 			factor = 20
@@ -2099,16 +2099,16 @@ shared_focus = {
 	relative_position_id = SMB_army
 	prerequisite = { focus = SMB_army }
 	prerequisite = { focus = SMB_air_force}
-	x = 4
+	x = 5
 	y = 1
 
-	offset = {
-		x = 2
-		y = 0
-		trigger = {
-			tag = BRA
-		}
-	}
+	#offset = {
+	#	x = 2
+	#	y = 0
+	#	trigger = {
+	#		tag = BRA
+	#	}
+	#}
 
 	cost = 5
 
@@ -2165,18 +2165,18 @@ shared_focus = {
 	#icon = GFX_goal_generic_build_airforce
 	relative_position_id = SMB_army
 	#prerequisite = { focus = SMB_army }
-	x = 8
+	x = 10
 	y = 0
 
 	dynamic = yes
 
-	offset = {
-		x = 4
-		y = 0
-		trigger = {
-			tag = BRA
-		}
-	}
+	#offset = {
+	#	x = 4
+	#	y = 0
+	#	trigger = {
+	#		tag = BRA
+	#	}
+	#}
 
 	icon = {
 		trigger = {
@@ -2425,7 +2425,7 @@ shared_focus = {
 	id = SMB_domestic_designs
 	icon = GFX_focus_SMB_purchase_aircraft
 	relative_position_id = SMB_air_academy
-	mutually_exclusive = { focus = SMB_license_designs focus = SMB_purchase_aircraft }
+	#mutually_exclusive = { focus = SMB_license_designs focus = SMB_purchase_aircraft }
 	prerequisite = { focus = SMB_air_academy focus = SMB_construct_air_bases }
 	x = 0
 	y = 1
@@ -2480,7 +2480,7 @@ shared_focus = {
 	icon = GFX_focus_generic_copy_plane_designs
 	relative_position_id = SMB_air_force
 	prerequisite = { focus = SMB_air_academy focus = SMB_construct_air_bases }
-	mutually_exclusive = { focus = SMB_domestic_designs focus = SMB_purchase_aircraft }
+	#mutually_exclusive = { focus = SMB_domestic_designs focus = SMB_purchase_aircraft }
 	x = 0
 	y = 2
 
@@ -2539,7 +2539,7 @@ shared_focus = {
 	icon = GFX_focus_SMB_purchase_aircraft
 	relative_position_id = SMB_construct_air_bases
 	prerequisite = { focus = SMB_air_academy focus = SMB_construct_air_bases }
-	mutually_exclusive = { focus = SMB_domestic_designs focus = SMB_license_designs }
+	#mutually_exclusive = { focus = SMB_domestic_designs focus = SMB_license_designs }
 	x = 0
 	y = 1
 
@@ -2660,12 +2660,12 @@ shared_focus = {
 	id = SMB_flying_fortress
 	icon = GFX_focus_generic_long_range_aircraft
 	relative_position_id = SMB_establish_aircraft_industry
-	mutually_exclusive = { focus = SMB_tactical_air_force focus = SMB_nimble_air_force }
+	#mutually_exclusive = { focus = SMB_tactical_air_force focus = SMB_nimble_air_force }
 	prerequisite = { focus = SMB_establish_aircraft_industry }
 	x = -2
 	y = 1
 
-	cost = 10
+	cost = 5
 
 	available = {
 
@@ -2694,11 +2694,11 @@ shared_focus = {
 	icon = GFX_focus_usa_escort_fighters
 	relative_position_id = SMB_establish_aircraft_industry
 	prerequisite = { focus = SMB_establish_aircraft_industry }
-	mutually_exclusive = { focus = SMB_flying_fortress focus = SMB_nimble_air_force }
+	#mutually_exclusive = { focus = SMB_flying_fortress focus = SMB_nimble_air_force }
 	x = 0
 	y = 1
 
-	cost = 10
+	cost = 5
 
 	available = {
 
@@ -2727,11 +2727,11 @@ shared_focus = {
 	icon = GFX_goal_generic_air_fighter2
 	relative_position_id = SMB_establish_aircraft_industry
 	prerequisite = { focus = SMB_establish_aircraft_industry }
-	mutually_exclusive = { focus = SMB_flying_fortress focus = SMB_tactical_air_force }
+	#mutually_exclusive = { focus = SMB_flying_fortress focus = SMB_tactical_air_force }
 	x = 2
 	y = 1
 
-	cost = 10
+	cost = 5
 
 	ai_will_do = {
 			factor = 20
@@ -2760,11 +2760,11 @@ shared_focus = {
 	icon = GFX_focus_SWE_marauder_bombers
 	relative_position_id = SMB_flying_fortress
 	prerequisite = { focus = SMB_flying_fortress }
-	mutually_exclusive = { focus = SMB_army_support }
+	#mutually_exclusive = { focus = SMB_army_support }
 	x = -1
 	y = 1
 
-	cost = 10
+	cost = 5
 
 	available = {
 
@@ -2816,11 +2816,11 @@ shared_focus = {
 	icon = GFX_focus_generic_cas_aircraft
 	relative_position_id = SMB_flying_fortress
 	prerequisite = { focus = SMB_flying_fortress focus = SMB_tactical_air_force }
-	mutually_exclusive = { focus = SMB_strategic_bombing focus = SMB_winning_the_air_war  }
+	#mutually_exclusive = { focus = SMB_strategic_bombing focus = SMB_winning_the_air_war  }
 	x = 1
 	y = 1
 
-	cost = 10
+	cost = 5
 
 	ai_will_do = {
 			factor = 20
@@ -2876,11 +2876,11 @@ shared_focus = {
 	icon = GFX_goal_generic_air_fighter
 	relative_position_id = SMB_nimble_air_force
 	prerequisite = { focus = SMB_tactical_air_force focus = SMB_nimble_air_force }
-	mutually_exclusive = { focus = SMB_army_support focus = SMB_naval_support  }
+	#mutually_exclusive = { focus = SMB_army_support focus = SMB_naval_support  }
 	x = -1
 	y = 1
 
-	cost = 10
+	cost = 5
 
 	available = {
 
@@ -2937,11 +2937,11 @@ shared_focus = {
 	icon = GFX_goal_generic_air_naval_bomber
 	relative_position_id = SMB_nimble_air_force
 	prerequisite = { focus = SMB_nimble_air_force }
-	mutually_exclusive = { focus = SMB_winning_the_air_war  }
+	#mutually_exclusive = { focus = SMB_winning_the_air_war  }
 	x = 1
 	y = 1
 
-	cost = 10
+	cost = 5
 
 	available = {
 
@@ -3761,11 +3761,11 @@ shared_focus = {
 	icon = GFX_focus_SMB_blue_water_fleet
 	prerequisite = {focus = SMB_reescalate_the_naval_arms_race }
 	relative_position_id = SMB_reescalate_the_naval_arms_race
-	mutually_exclusive = { focus = SMB_coastal_fleet }
+	#mutually_exclusive = { focus = SMB_coastal_fleet }
 	x = -1
 	y = 1
 
-	cost = 10
+	cost = 5
 
 	ai_will_do = {
 			factor = 10
@@ -3795,11 +3795,11 @@ shared_focus = {
 	icon = GFX_focus_SWE_coastal_support
 	prerequisite = {focus = SMB_reescalate_the_naval_arms_race }
 	relative_position_id = SMB_reescalate_the_naval_arms_race
-	mutually_exclusive = { focus = SMB_blue_water_fleet }
+	#mutually_exclusive = { focus = SMB_blue_water_fleet }
 	x = 1
 	y = 1
 
-	cost = 10
+	cost = 5
 
 	ai_will_do = {
 		factor = 20
@@ -3921,11 +3921,11 @@ shared_focus = {
 	icon = GFX_focus_generic_navy_battleship2
 	prerequisite = {focus = SMB_purchase_cruisers_and_dreadnoughts }
 	relative_position_id = SMB_purchase_cruisers_and_dreadnoughts
-	mutually_exclusive = { focus = SMB_raiding_fleet }
+	#mutually_exclusive = { focus = SMB_raiding_fleet }
 	x = -2
 	y = 1
 
-	cost = 10
+	cost = 5
 
 	ai_will_do = {
 			factor = 20
@@ -3955,11 +3955,11 @@ shared_focus = {
 	icon = GFX_goal_generic_navy_submarine
 	prerequisite = {focus = SMB_purchase_cruisers_and_dreadnoughts }
 	relative_position_id = SMB_purchase_cruisers_and_dreadnoughts
-	mutually_exclusive = { focus = SMB_escort_fleet }
+	#mutually_exclusive = { focus = SMB_escort_fleet }
 	x = 2
 	y = 1
 
-	cost = 10
+	cost = 5
 
 	available = {
 
@@ -4071,11 +4071,11 @@ shared_focus = {
 	icon = GFX_focus_generic_cruiser_submarines
 	prerequisite = {focus = SMB_raiding_fleet }
 	relative_position_id = SMB_raiding_fleet
-	mutually_exclusive = { focus = SMB_midget_subs }
+	#mutually_exclusive = { focus = SMB_midget_subs }
 	x = -1
 	y = 1
 
-	cost = 10
+	cost = 5
 
 	ai_will_do = {
 			factor = 20
@@ -4119,7 +4119,7 @@ shared_focus = {
 	icon = GFX_focus_generic_midget_submarines
 	prerequisite = {focus = SMB_raiding_fleet }
 	relative_position_id = SMB_raiding_fleet
-	mutually_exclusive = { focus = SMB_cruiser_subs }
+	#mutually_exclusive = { focus = SMB_cruiser_subs }
 	x = 1
 	y = 1
 
@@ -4206,9 +4206,9 @@ shared_focus = {
 shared_focus = {
 	id = SMB_carrier_conversion
 	icon = GFX_focus_BRA_converted_carriers
-	allow_branch = { 
-		original_tag = BRA
-	}
+	#allow_branch = { 
+	#	original_tag = BRA
+	#}
 	prerequisite = {focus = SMB_expand_repair_yards  }
 	relative_position_id = SMB_expand_repair_yards
 	x = 0
@@ -4314,11 +4314,11 @@ shared_focus = {
 	prerequisite = { focus = SMB_expand_repair_yards }
 	prerequisite = { focus = SMB_reescalate_the_naval_arms_race }
 	relative_position_id = SMB_expand_repair_yards
-	mutually_exclusive = { focus = SMB_merchant_marine }
+	#mutually_exclusive = { focus = SMB_merchant_marine }
 	x = -1
 	y = 2
 
-	cost = 10
+	cost = 5
 
 	available = {
 
@@ -4376,7 +4376,7 @@ shared_focus = {
 	icon = GFX_focus_generic_merchant_fleet
 	prerequisite = { focus = SMB_expand_repair_yards }
 	relative_position_id = SMB_expand_repair_yards
-	mutually_exclusive = { focus = SMB_enlarge_naval_facilities }
+	#mutually_exclusive = { focus = SMB_enlarge_naval_facilities }
 	x = 1
 	y = 2
 
@@ -4495,9 +4495,9 @@ shared_focus = {
 
 	cost = 10
 
-	allow_branch = { 
-		original_tag = BRA
-	}
+	#allow_branch = { 
+	#	original_tag = BRA
+	#}
 
 	available = {
 		495 = {
@@ -4551,7 +4551,7 @@ shared_focus = {
 
 	cost = 10
 
-	allow_branch = { tag = BRA }
+	#allow_branch = { tag = BRA }
 
 	available = {
 		
@@ -4592,7 +4592,7 @@ shared_focus = {
 
 	cost = 10
 
-	allow_branch = { tag = BRA }
+	#allow_branch = { tag = BRA }
 
 	available = {
 		
