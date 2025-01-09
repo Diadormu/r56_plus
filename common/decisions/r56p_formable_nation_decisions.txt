@@ -664,6 +664,7 @@ form_north_american_category = {
 				931 = { add_core_of = ROOT }
 				932 = { add_core_of = ROOT }
 			}
+			101 = { add_core_of = ROOT }
 			hidden_effect = {
 				news_event = { id = wtt_news.3000 hours = 6 }
 				set_global_flag = form_north_american_flag
@@ -897,6 +898,10 @@ integrate_north_american_category = {
 					transfer_state = 931
 					transfer_state = 932
 				}
+				if = {
+					limit = { 101 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 101
+				}
 			}
 		}
 		ai_will_do = {
@@ -1125,6 +1130,10 @@ integrate_north_american_category = {
 					transfer_state = 931
 					transfer_state = 932
 				}
+				if = {
+					limit = { 101 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 101
+				}
 			}
 		}
 		ai_will_do = {
@@ -1344,6 +1353,10 @@ integrate_north_american_category = {
 					transfer_state = 930
 					transfer_state = 931
 					transfer_state = 932
+				}
+				if = {
+					limit = { 101 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 101
 				}
 			}
 		}
