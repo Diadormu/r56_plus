@@ -3953,29 +3953,40 @@ integrate_mutapa_category = {
 			NOT = { has_global_flag = form_mutapa_flag }
 		}
 		available = {
-			541 = { is_controlled_by_ROOT_or_subject = yes }
 			681 = { is_controlled_by_ROOT_or_subject = yes }
-			719 = { is_controlled_by_ROOT_or_subject = yes }
+			940 = { is_controlled_by_ROOT_or_subject = yes }
 			275 = { is_controlled_by_ROOT_or_subject = yes }
+			719 = { is_controlled_by_ROOT_or_subject = yes }
+			938 = { is_controlled_by_ROOT_or_subject = yes }
+			939 = { is_controlled_by_ROOT_or_subject = yes }
+			893 = { is_controlled_by_ROOT_or_subject = yes }
+			541 = { is_controlled_by_ROOT_or_subject = yes }
+			894 = { is_controlled_by_ROOT_or_subject = yes }
+			895 = { is_controlled_by_ROOT_or_subject = yes }
 			542 = { is_controlled_by_ROOT_or_subject = yes }
 			545 = { is_controlled_by_ROOT_or_subject = yes }
 			544 = { is_controlled_by_ROOT_or_subject = yes }
-			938 = { is_controlled_by_ROOT_or_subject = yes }
-			939 = { is_controlled_by_ROOT_or_subject = yes }
-			940 = { is_controlled_by_ROOT_or_subject = yes }
+			896 = { is_controlled_by_ROOT_or_subject = yes }
+			771 = { is_controlled_by_ROOT_or_subject = yes }
+			1097 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			SAF = {
-				transfer_state = 541
 				transfer_state = 681
-				transfer_state = 719
+				transfer_state = 940
 				transfer_state = 275
+				transfer_state = 938
+				transfer_state = 939
+				transfer_state = 893
+				transfer_state = 541
+				transfer_state = 894
+				transfer_state = 895
 				transfer_state = 542
 				transfer_state = 545
 				transfer_state = 544
-				transfer_state = 938
-				transfer_state = 939
-				transfer_state = 940
+				transfer_state = 896
+				transfer_state = 771
+				transfer_state = 1097
 			}
 		}
 		ai_will_do = {
@@ -3984,116 +3995,17 @@ integrate_mutapa_category = {
 				factor = 0
 				OR = {
 					original_tag = SAF
+					original_tag = LES
+					original_tag = SWA
+					original_tag = NMB
 					original_tag = BOT
 					original_tag = ZIM
 					original_tag = MZB
-					original_tag = LES
-					original_tag = SWA
+					original_tag = ZAM
+					original_tag = BAR
 				}
 			}
 		}
-	}
-	BOT_integrate_mutapa = {
-		icon = generic_form_nation
-		visible = {
-			BOT = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_mutapa_flag }
-		}
-		available = {
-			541 = { is_controlled_by_ROOT_or_subject = yes }
-			681 = { is_controlled_by_ROOT_or_subject = yes }
-			719 = { is_controlled_by_ROOT_or_subject = yes }
-			275 = { is_controlled_by_ROOT_or_subject = yes }
-			542 = { is_controlled_by_ROOT_or_subject = yes }
-			545 = { is_controlled_by_ROOT_or_subject = yes }
-			544 = { is_controlled_by_ROOT_or_subject = yes }
-			938 = { is_controlled_by_ROOT_or_subject = yes }
-			939 = { is_controlled_by_ROOT_or_subject = yes }
-			940 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			BOT = {
-				transfer_state = 541
-				transfer_state = 681
-				transfer_state = 719
-				transfer_state = 275
-				transfer_state = 542
-				transfer_state = 545
-				transfer_state = 544
-				transfer_state = 938
-				transfer_state = 939
-				transfer_state = 940
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	ZIM_integrate_mutapa = {
-		icon = generic_form_nation
-		visible = {
-			ZIM = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_mutapa_flag }
-		}
-		available = {
-			541 = { is_controlled_by_ROOT_or_subject = yes }
-			681 = { is_controlled_by_ROOT_or_subject = yes }
-			719 = { is_controlled_by_ROOT_or_subject = yes }
-			275 = { is_controlled_by_ROOT_or_subject = yes }
-			542 = { is_controlled_by_ROOT_or_subject = yes }
-			545 = { is_controlled_by_ROOT_or_subject = yes }
-			544 = { is_controlled_by_ROOT_or_subject = yes }
-			938 = { is_controlled_by_ROOT_or_subject = yes }
-			939 = { is_controlled_by_ROOT_or_subject = yes }
-			940 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			ZIM = {
-				transfer_state = 541
-				transfer_state = 681
-				transfer_state = 719
-				transfer_state = 275
-				transfer_state = 542
-				transfer_state = 545
-				transfer_state = 544
-				transfer_state = 938
-				transfer_state = 939
-				transfer_state = 940
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	MZB_integrate_mutapa = {
-		icon = generic_form_nation
-		visible = {
-			MZB = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_mutapa_flag }
-		}
-		available = {
-			541 = { is_controlled_by_ROOT_or_subject = yes }
-			681 = { is_controlled_by_ROOT_or_subject = yes }
-			719 = { is_controlled_by_ROOT_or_subject = yes }
-			275 = { is_controlled_by_ROOT_or_subject = yes }
-			542 = { is_controlled_by_ROOT_or_subject = yes }
-			545 = { is_controlled_by_ROOT_or_subject = yes }
-			544 = { is_controlled_by_ROOT_or_subject = yes }
-			938 = { is_controlled_by_ROOT_or_subject = yes }
-			939 = { is_controlled_by_ROOT_or_subject = yes }
-			940 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			MZB = {
-				transfer_state = 541
-				transfer_state = 681
-				transfer_state = 719
-				transfer_state = 275
-				transfer_state = 542
-				transfer_state = 545
-				transfer_state = 544
-				transfer_state = 938
-				transfer_state = 939
-				transfer_state = 940
-			}
-		}
-		ai_will_do = { factor = 0 }
 	}
 	LES_integrate_mutapa = {
 		icon = generic_form_nation
@@ -4102,29 +4014,40 @@ integrate_mutapa_category = {
 			NOT = { has_global_flag = form_mutapa_flag }
 		}
 		available = {
-			541 = { is_controlled_by_ROOT_or_subject = yes }
 			681 = { is_controlled_by_ROOT_or_subject = yes }
-			719 = { is_controlled_by_ROOT_or_subject = yes }
+			940 = { is_controlled_by_ROOT_or_subject = yes }
 			275 = { is_controlled_by_ROOT_or_subject = yes }
+			719 = { is_controlled_by_ROOT_or_subject = yes }
+			938 = { is_controlled_by_ROOT_or_subject = yes }
+			939 = { is_controlled_by_ROOT_or_subject = yes }
+			893 = { is_controlled_by_ROOT_or_subject = yes }
+			541 = { is_controlled_by_ROOT_or_subject = yes }
+			894 = { is_controlled_by_ROOT_or_subject = yes }
+			895 = { is_controlled_by_ROOT_or_subject = yes }
 			542 = { is_controlled_by_ROOT_or_subject = yes }
 			545 = { is_controlled_by_ROOT_or_subject = yes }
 			544 = { is_controlled_by_ROOT_or_subject = yes }
-			938 = { is_controlled_by_ROOT_or_subject = yes }
-			939 = { is_controlled_by_ROOT_or_subject = yes }
-			940 = { is_controlled_by_ROOT_or_subject = yes }
+			896 = { is_controlled_by_ROOT_or_subject = yes }
+			771 = { is_controlled_by_ROOT_or_subject = yes }
+			1097 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			LES = {
-				transfer_state = 541
 				transfer_state = 681
-				transfer_state = 719
+				transfer_state = 940
 				transfer_state = 275
+				transfer_state = 938
+				transfer_state = 939
+				transfer_state = 893
+				transfer_state = 541
+				transfer_state = 894
+				transfer_state = 895
 				transfer_state = 542
 				transfer_state = 545
 				transfer_state = 544
-				transfer_state = 938
-				transfer_state = 939
-				transfer_state = 940
+				transfer_state = 896
+				transfer_state = 771
+				transfer_state = 1097
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -4136,29 +4059,310 @@ integrate_mutapa_category = {
 			NOT = { has_global_flag = form_mutapa_flag }
 		}
 		available = {
-			541 = { is_controlled_by_ROOT_or_subject = yes }
 			681 = { is_controlled_by_ROOT_or_subject = yes }
-			719 = { is_controlled_by_ROOT_or_subject = yes }
+			940 = { is_controlled_by_ROOT_or_subject = yes }
 			275 = { is_controlled_by_ROOT_or_subject = yes }
+			719 = { is_controlled_by_ROOT_or_subject = yes }
+			938 = { is_controlled_by_ROOT_or_subject = yes }
+			939 = { is_controlled_by_ROOT_or_subject = yes }
+			893 = { is_controlled_by_ROOT_or_subject = yes }
+			541 = { is_controlled_by_ROOT_or_subject = yes }
+			894 = { is_controlled_by_ROOT_or_subject = yes }
+			895 = { is_controlled_by_ROOT_or_subject = yes }
 			542 = { is_controlled_by_ROOT_or_subject = yes }
 			545 = { is_controlled_by_ROOT_or_subject = yes }
 			544 = { is_controlled_by_ROOT_or_subject = yes }
-			938 = { is_controlled_by_ROOT_or_subject = yes }
-			939 = { is_controlled_by_ROOT_or_subject = yes }
-			940 = { is_controlled_by_ROOT_or_subject = yes }
+			896 = { is_controlled_by_ROOT_or_subject = yes }
+			771 = { is_controlled_by_ROOT_or_subject = yes }
+			1097 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			SWA = {
-				transfer_state = 541
 				transfer_state = 681
-				transfer_state = 719
+				transfer_state = 940
 				transfer_state = 275
+				transfer_state = 938
+				transfer_state = 939
+				transfer_state = 893
+				transfer_state = 541
+				transfer_state = 894
+				transfer_state = 895
 				transfer_state = 542
 				transfer_state = 545
 				transfer_state = 544
+				transfer_state = 896
+				transfer_state = 771
+				transfer_state = 1097
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	NMB_integrate_mutapa = {
+		icon = generic_form_nation
+		visible = {
+			NMB = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_mutapa_flag }
+		}
+		available = {
+			681 = { is_controlled_by_ROOT_or_subject = yes }
+			940 = { is_controlled_by_ROOT_or_subject = yes }
+			275 = { is_controlled_by_ROOT_or_subject = yes }
+			719 = { is_controlled_by_ROOT_or_subject = yes }
+			938 = { is_controlled_by_ROOT_or_subject = yes }
+			939 = { is_controlled_by_ROOT_or_subject = yes }
+			893 = { is_controlled_by_ROOT_or_subject = yes }
+			541 = { is_controlled_by_ROOT_or_subject = yes }
+			894 = { is_controlled_by_ROOT_or_subject = yes }
+			895 = { is_controlled_by_ROOT_or_subject = yes }
+			542 = { is_controlled_by_ROOT_or_subject = yes }
+			545 = { is_controlled_by_ROOT_or_subject = yes }
+			544 = { is_controlled_by_ROOT_or_subject = yes }
+			896 = { is_controlled_by_ROOT_or_subject = yes }
+			771 = { is_controlled_by_ROOT_or_subject = yes }
+			1097 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			NMB = {
+				transfer_state = 681
+				transfer_state = 940
+				transfer_state = 275
 				transfer_state = 938
 				transfer_state = 939
+				transfer_state = 893
+				transfer_state = 541
+				transfer_state = 894
+				transfer_state = 895
+				transfer_state = 542
+				transfer_state = 545
+				transfer_state = 544
+				transfer_state = 896
+				transfer_state = 771
+				transfer_state = 1097
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	BOT_integrate_mutapa = {
+		icon = generic_form_nation
+		visible = {
+			BOT = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_mutapa_flag }
+		}
+		available = {
+			681 = { is_controlled_by_ROOT_or_subject = yes }
+			940 = { is_controlled_by_ROOT_or_subject = yes }
+			275 = { is_controlled_by_ROOT_or_subject = yes }
+			719 = { is_controlled_by_ROOT_or_subject = yes }
+			938 = { is_controlled_by_ROOT_or_subject = yes }
+			939 = { is_controlled_by_ROOT_or_subject = yes }
+			893 = { is_controlled_by_ROOT_or_subject = yes }
+			541 = { is_controlled_by_ROOT_or_subject = yes }
+			894 = { is_controlled_by_ROOT_or_subject = yes }
+			895 = { is_controlled_by_ROOT_or_subject = yes }
+			542 = { is_controlled_by_ROOT_or_subject = yes }
+			545 = { is_controlled_by_ROOT_or_subject = yes }
+			544 = { is_controlled_by_ROOT_or_subject = yes }
+			896 = { is_controlled_by_ROOT_or_subject = yes }
+			771 = { is_controlled_by_ROOT_or_subject = yes }
+			1097 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			BOT = {
+				transfer_state = 681
 				transfer_state = 940
+				transfer_state = 275
+				transfer_state = 938
+				transfer_state = 939
+				transfer_state = 893
+				transfer_state = 541
+				transfer_state = 894
+				transfer_state = 895
+				transfer_state = 542
+				transfer_state = 545
+				transfer_state = 544
+				transfer_state = 896
+				transfer_state = 771
+				transfer_state = 1097
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ZIM_integrate_mutapa = {
+		icon = generic_form_nation
+		visible = {
+			ZIM = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_mutapa_flag }
+		}
+		available = {
+			681 = { is_controlled_by_ROOT_or_subject = yes }
+			940 = { is_controlled_by_ROOT_or_subject = yes }
+			275 = { is_controlled_by_ROOT_or_subject = yes }
+			719 = { is_controlled_by_ROOT_or_subject = yes }
+			938 = { is_controlled_by_ROOT_or_subject = yes }
+			939 = { is_controlled_by_ROOT_or_subject = yes }
+			893 = { is_controlled_by_ROOT_or_subject = yes }
+			541 = { is_controlled_by_ROOT_or_subject = yes }
+			894 = { is_controlled_by_ROOT_or_subject = yes }
+			895 = { is_controlled_by_ROOT_or_subject = yes }
+			542 = { is_controlled_by_ROOT_or_subject = yes }
+			545 = { is_controlled_by_ROOT_or_subject = yes }
+			544 = { is_controlled_by_ROOT_or_subject = yes }
+			896 = { is_controlled_by_ROOT_or_subject = yes }
+			771 = { is_controlled_by_ROOT_or_subject = yes }
+			1097 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			ZIM = {
+				transfer_state = 681
+				transfer_state = 940
+				transfer_state = 275
+				transfer_state = 938
+				transfer_state = 939
+				transfer_state = 893
+				transfer_state = 541
+				transfer_state = 894
+				transfer_state = 895
+				transfer_state = 542
+				transfer_state = 545
+				transfer_state = 544
+				transfer_state = 896
+				transfer_state = 771
+				transfer_state = 1097
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	MZB_integrate_mutapa = {
+		icon = generic_form_nation
+		visible = {
+			MZB = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_mutapa_flag }
+		}
+		available = {
+			681 = { is_controlled_by_ROOT_or_subject = yes }
+			940 = { is_controlled_by_ROOT_or_subject = yes }
+			275 = { is_controlled_by_ROOT_or_subject = yes }
+			719 = { is_controlled_by_ROOT_or_subject = yes }
+			938 = { is_controlled_by_ROOT_or_subject = yes }
+			939 = { is_controlled_by_ROOT_or_subject = yes }
+			893 = { is_controlled_by_ROOT_or_subject = yes }
+			541 = { is_controlled_by_ROOT_or_subject = yes }
+			894 = { is_controlled_by_ROOT_or_subject = yes }
+			895 = { is_controlled_by_ROOT_or_subject = yes }
+			542 = { is_controlled_by_ROOT_or_subject = yes }
+			545 = { is_controlled_by_ROOT_or_subject = yes }
+			544 = { is_controlled_by_ROOT_or_subject = yes }
+			896 = { is_controlled_by_ROOT_or_subject = yes }
+			771 = { is_controlled_by_ROOT_or_subject = yes }
+			1097 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			MZB = {
+				transfer_state = 681
+				transfer_state = 940
+				transfer_state = 275
+				transfer_state = 938
+				transfer_state = 939
+				transfer_state = 893
+				transfer_state = 541
+				transfer_state = 894
+				transfer_state = 895
+				transfer_state = 542
+				transfer_state = 545
+				transfer_state = 544
+				transfer_state = 896
+				transfer_state = 771
+				transfer_state = 1097
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ZAM_integrate_mutapa = {
+		icon = generic_form_nation
+		visible = {
+			ZAM = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_mutapa_flag }
+		}
+		available = {
+			681 = { is_controlled_by_ROOT_or_subject = yes }
+			940 = { is_controlled_by_ROOT_or_subject = yes }
+			275 = { is_controlled_by_ROOT_or_subject = yes }
+			719 = { is_controlled_by_ROOT_or_subject = yes }
+			938 = { is_controlled_by_ROOT_or_subject = yes }
+			939 = { is_controlled_by_ROOT_or_subject = yes }
+			893 = { is_controlled_by_ROOT_or_subject = yes }
+			541 = { is_controlled_by_ROOT_or_subject = yes }
+			894 = { is_controlled_by_ROOT_or_subject = yes }
+			895 = { is_controlled_by_ROOT_or_subject = yes }
+			542 = { is_controlled_by_ROOT_or_subject = yes }
+			545 = { is_controlled_by_ROOT_or_subject = yes }
+			544 = { is_controlled_by_ROOT_or_subject = yes }
+			896 = { is_controlled_by_ROOT_or_subject = yes }
+			771 = { is_controlled_by_ROOT_or_subject = yes }
+			1097 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			ZAM = {
+				transfer_state = 681
+				transfer_state = 940
+				transfer_state = 275
+				transfer_state = 938
+				transfer_state = 939
+				transfer_state = 893
+				transfer_state = 541
+				transfer_state = 894
+				transfer_state = 895
+				transfer_state = 542
+				transfer_state = 545
+				transfer_state = 544
+				transfer_state = 896
+				transfer_state = 771
+				transfer_state = 1097
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	BAR_integrate_mutapa = {
+		icon = generic_form_nation
+		visible = {
+			BAR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_mutapa_flag }
+		}
+		available = {
+			681 = { is_controlled_by_ROOT_or_subject = yes }
+			940 = { is_controlled_by_ROOT_or_subject = yes }
+			275 = { is_controlled_by_ROOT_or_subject = yes }
+			719 = { is_controlled_by_ROOT_or_subject = yes }
+			938 = { is_controlled_by_ROOT_or_subject = yes }
+			939 = { is_controlled_by_ROOT_or_subject = yes }
+			893 = { is_controlled_by_ROOT_or_subject = yes }
+			541 = { is_controlled_by_ROOT_or_subject = yes }
+			894 = { is_controlled_by_ROOT_or_subject = yes }
+			895 = { is_controlled_by_ROOT_or_subject = yes }
+			542 = { is_controlled_by_ROOT_or_subject = yes }
+			545 = { is_controlled_by_ROOT_or_subject = yes }
+			544 = { is_controlled_by_ROOT_or_subject = yes }
+			896 = { is_controlled_by_ROOT_or_subject = yes }
+			771 = { is_controlled_by_ROOT_or_subject = yes }
+			1097 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			BAR = {
+				transfer_state = 681
+				transfer_state = 940
+				transfer_state = 275
+				transfer_state = 938
+				transfer_state = 939
+				transfer_state = 893
+				transfer_state = 541
+				transfer_state = 894
+				transfer_state = 895
+				transfer_state = 542
+				transfer_state = 545
+				transfer_state = 544
+				transfer_state = 896
+				transfer_state = 771
+				transfer_state = 1097
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -9128,14 +9332,6 @@ integrate_malayan_confederation_category = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 721
 				}
-				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
-				}
-				if = {
-					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 737
-				}
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -9213,14 +9409,6 @@ integrate_malayan_confederation_category = {
 				if = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 721
-				}
-				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
-				}
-				if = {
-					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 737
 				}
 			}
 		}
@@ -9313,14 +9501,6 @@ integrate_malayan_confederation_category = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 721
 				}
-				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
-				}
-				if = {
-					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 737
-				}
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -9398,14 +9578,6 @@ integrate_malayan_confederation_category = {
 				if = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 721
-				}
-				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
-				}
-				if = {
-					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 737
 				}
 			}
 		}
@@ -9485,14 +9657,6 @@ integrate_malayan_confederation_category = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 721
 				}
-				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
-				}
-				if = {
-					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 737
-				}
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -9570,14 +9734,6 @@ integrate_malayan_confederation_category = {
 				if = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 721
-				}
-				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
-				}
-				if = {
-					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 737
 				}
 			}
 		}
@@ -9674,60 +9830,57 @@ integrate_polynesia_category = {
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 		available = {
-			631 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
-			632 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
-			647 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			633 = { is_controlled_by_ROOT_or_subject = yes }
-			639 = { is_controlled_by_ROOT_or_subject = yes }
-			725 = { is_controlled_by_ROOT_or_subject = yes }
 			284 = { is_controlled_by_ROOT_or_subject = yes }
 			723 = { is_controlled_by_ROOT_or_subject = yes }
 			1087 = { is_controlled_by_ROOT_or_subject = yes }
 			734 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
+			1088 = { is_controlled_by_ROOT_or_subject = yes }
+			1089 = { is_controlled_by_ROOT_or_subject = yes }
 			643 = { is_controlled_by_ROOT_or_subject = yes }
 			642 = { is_controlled_by_ROOT_or_subject = yes }
 			727 = { is_controlled_by_ROOT_or_subject = yes }
 			641 = { is_controlled_by_ROOT_or_subject = yes }
+			630 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
-			634 = { is_controlled_by_ROOT_or_subject = yes }
-			635 = { is_controlled_by_ROOT_or_subject = yes }
-			636 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			NZL = {
-				transfer_state = 631
-				transfer_state = 630
-				transfer_state = 632
-				transfer_state = 638
-				transfer_state = 646
-				transfer_state = 647
-				transfer_state = 684
-				transfer_state = 633
-				transfer_state = 639
-				transfer_state = 725
 				transfer_state = 284
 				transfer_state = 723
 				transfer_state = 1087
 				transfer_state = 734
 				transfer_state = 726
+				transfer_state = 1088
+				transfer_state = 1089
 				transfer_state = 643
 				transfer_state = 642
 				transfer_state = 727
 				transfer_state = 641
+				transfer_state = 630
 				transfer_state = 629
-				transfer_state = 634
-				transfer_state = 635
-				transfer_state = 636
+				transfer_state = 631
 			}
 			every_state = {
 				limit = {
 					OR = {
-						is_core_of = NZL is_core_of = TON is_core_of = SAM is_core_of = TUV is_core_of = TAH is_core_of = KIR is_core_of = HAW is_core_of = FIJ is_core_of = SOL is_core_of = VAN is_core_of = FSM is_core_of = PLU is_core_of = GUM is_core_of = NRU
+						state = 725
+						state = 639
+						state = 633
+						state = 684
+						state = 647
+						state = 638
+						state = 646
+						state = 648
+						state = 632
+						state = 635
+						state = 636
+						state = 634
+						state = 737
+						state = 523
+						state = 1096
+						state = 669
+						state = 738
 					}
 					is_controlled_by_ROOT_or_subject = yes
 				}
@@ -9740,919 +9893,17 @@ integrate_polynesia_category = {
 				factor = 0
 				OR = {
 					original_tag = NZL
+					original_tag = CHT
 					original_tag = TON
 					original_tag = SAM
-					original_tag = TUV
+					original_tag = NIU
 					original_tag = TAH
-					original_tag = KIR
+					original_tag = RAP
+					original_tag = TUV
 					original_tag = HAW
-					original_tag = FIJ
-					original_tag = SOL
-					original_tag = VAN
-					original_tag = FSM
-					original_tag = PLU
-					original_tag = GUM
-					original_tag = NRU
 				}
 			}
 		}
-	}
-	TON_integrate_polynesia = {
-		icon = generic_form_nation
-		visible = {
-			TON = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_polynesia_flag }
-		}
-		available = {
-			631 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
-			632 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
-			647 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			633 = { is_controlled_by_ROOT_or_subject = yes }
-			639 = { is_controlled_by_ROOT_or_subject = yes }
-			725 = { is_controlled_by_ROOT_or_subject = yes }
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
-			1087 = { is_controlled_by_ROOT_or_subject = yes }
-			734 = { is_controlled_by_ROOT_or_subject = yes }
-			726 = { is_controlled_by_ROOT_or_subject = yes }
-			643 = { is_controlled_by_ROOT_or_subject = yes }
-			642 = { is_controlled_by_ROOT_or_subject = yes }
-			727 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
-			629 = { is_controlled_by_ROOT_or_subject = yes }
-			634 = { is_controlled_by_ROOT_or_subject = yes }
-			635 = { is_controlled_by_ROOT_or_subject = yes }
-			636 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			TON = {
-				transfer_state = 631
-				transfer_state = 630
-				transfer_state = 632
-				transfer_state = 638
-				transfer_state = 646
-				transfer_state = 647
-				transfer_state = 684
-				transfer_state = 633
-				transfer_state = 639
-				transfer_state = 725
-				transfer_state = 284
-				transfer_state = 723
-				transfer_state = 1087
-				transfer_state = 734
-				transfer_state = 726
-				transfer_state = 643
-				transfer_state = 642
-				transfer_state = 727
-				transfer_state = 641
-				transfer_state = 629
-				transfer_state = 634
-				transfer_state = 635
-				transfer_state = 636
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = NZL is_core_of = TON is_core_of = SAM is_core_of = TUV is_core_of = TAH is_core_of = KIR is_core_of = HAW is_core_of = FIJ is_core_of = SOL is_core_of = VAN is_core_of = FSM is_core_of = PLU is_core_of = GUM is_core_of = NRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = TON
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	SAM_integrate_polynesia = {
-		icon = generic_form_nation
-		visible = {
-			SAM = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_polynesia_flag }
-		}
-		available = {
-			631 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
-			632 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
-			647 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			633 = { is_controlled_by_ROOT_or_subject = yes }
-			639 = { is_controlled_by_ROOT_or_subject = yes }
-			725 = { is_controlled_by_ROOT_or_subject = yes }
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
-			1087 = { is_controlled_by_ROOT_or_subject = yes }
-			734 = { is_controlled_by_ROOT_or_subject = yes }
-			726 = { is_controlled_by_ROOT_or_subject = yes }
-			643 = { is_controlled_by_ROOT_or_subject = yes }
-			642 = { is_controlled_by_ROOT_or_subject = yes }
-			727 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
-			629 = { is_controlled_by_ROOT_or_subject = yes }
-			634 = { is_controlled_by_ROOT_or_subject = yes }
-			635 = { is_controlled_by_ROOT_or_subject = yes }
-			636 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			SAM = {
-				transfer_state = 631
-				transfer_state = 630
-				transfer_state = 632
-				transfer_state = 638
-				transfer_state = 646
-				transfer_state = 647
-				transfer_state = 684
-				transfer_state = 633
-				transfer_state = 639
-				transfer_state = 725
-				transfer_state = 284
-				transfer_state = 723
-				transfer_state = 1087
-				transfer_state = 734
-				transfer_state = 726
-				transfer_state = 643
-				transfer_state = 642
-				transfer_state = 727
-				transfer_state = 641
-				transfer_state = 629
-				transfer_state = 634
-				transfer_state = 635
-				transfer_state = 636
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = NZL is_core_of = TON is_core_of = SAM is_core_of = TUV is_core_of = TAH is_core_of = KIR is_core_of = HAW is_core_of = FIJ is_core_of = SOL is_core_of = VAN is_core_of = FSM is_core_of = PLU is_core_of = GUM is_core_of = NRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = SAM
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	TUV_integrate_polynesia = {
-		icon = generic_form_nation
-		visible = {
-			TUV = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_polynesia_flag }
-		}
-		available = {
-			631 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
-			632 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
-			647 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			633 = { is_controlled_by_ROOT_or_subject = yes }
-			639 = { is_controlled_by_ROOT_or_subject = yes }
-			725 = { is_controlled_by_ROOT_or_subject = yes }
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
-			1087 = { is_controlled_by_ROOT_or_subject = yes }
-			734 = { is_controlled_by_ROOT_or_subject = yes }
-			726 = { is_controlled_by_ROOT_or_subject = yes }
-			643 = { is_controlled_by_ROOT_or_subject = yes }
-			642 = { is_controlled_by_ROOT_or_subject = yes }
-			727 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
-			629 = { is_controlled_by_ROOT_or_subject = yes }
-			634 = { is_controlled_by_ROOT_or_subject = yes }
-			635 = { is_controlled_by_ROOT_or_subject = yes }
-			636 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			TUV = {
-				transfer_state = 631
-				transfer_state = 630
-				transfer_state = 632
-				transfer_state = 638
-				transfer_state = 646
-				transfer_state = 647
-				transfer_state = 684
-				transfer_state = 633
-				transfer_state = 639
-				transfer_state = 725
-				transfer_state = 284
-				transfer_state = 723
-				transfer_state = 1087
-				transfer_state = 734
-				transfer_state = 726
-				transfer_state = 643
-				transfer_state = 642
-				transfer_state = 727
-				transfer_state = 641
-				transfer_state = 629
-				transfer_state = 634
-				transfer_state = 635
-				transfer_state = 636
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = NZL is_core_of = TON is_core_of = SAM is_core_of = TUV is_core_of = TAH is_core_of = KIR is_core_of = HAW is_core_of = FIJ is_core_of = SOL is_core_of = VAN is_core_of = FSM is_core_of = PLU is_core_of = GUM is_core_of = NRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = TUV
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	TAH_integrate_polynesia = {
-		icon = generic_form_nation
-		visible = {
-			TAH = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_polynesia_flag }
-		}
-		available = {
-			631 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
-			632 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
-			647 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			633 = { is_controlled_by_ROOT_or_subject = yes }
-			639 = { is_controlled_by_ROOT_or_subject = yes }
-			725 = { is_controlled_by_ROOT_or_subject = yes }
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
-			1087 = { is_controlled_by_ROOT_or_subject = yes }
-			734 = { is_controlled_by_ROOT_or_subject = yes }
-			726 = { is_controlled_by_ROOT_or_subject = yes }
-			643 = { is_controlled_by_ROOT_or_subject = yes }
-			642 = { is_controlled_by_ROOT_or_subject = yes }
-			727 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
-			629 = { is_controlled_by_ROOT_or_subject = yes }
-			634 = { is_controlled_by_ROOT_or_subject = yes }
-			635 = { is_controlled_by_ROOT_or_subject = yes }
-			636 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			TAH = {
-				transfer_state = 631
-				transfer_state = 630
-				transfer_state = 632
-				transfer_state = 638
-				transfer_state = 646
-				transfer_state = 647
-				transfer_state = 684
-				transfer_state = 633
-				transfer_state = 639
-				transfer_state = 725
-				transfer_state = 284
-				transfer_state = 723
-				transfer_state = 1087
-				transfer_state = 734
-				transfer_state = 726
-				transfer_state = 643
-				transfer_state = 642
-				transfer_state = 727
-				transfer_state = 641
-				transfer_state = 629
-				transfer_state = 634
-				transfer_state = 635
-				transfer_state = 636
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = NZL is_core_of = TON is_core_of = SAM is_core_of = TUV is_core_of = TAH is_core_of = KIR is_core_of = HAW is_core_of = FIJ is_core_of = SOL is_core_of = VAN is_core_of = FSM is_core_of = PLU is_core_of = GUM is_core_of = NRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = TAH
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	KIR_integrate_polynesia = {
-		icon = generic_form_nation
-		visible = {
-			KIR = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_polynesia_flag }
-		}
-		available = {
-			631 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
-			632 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
-			647 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			633 = { is_controlled_by_ROOT_or_subject = yes }
-			639 = { is_controlled_by_ROOT_or_subject = yes }
-			725 = { is_controlled_by_ROOT_or_subject = yes }
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
-			1087 = { is_controlled_by_ROOT_or_subject = yes }
-			734 = { is_controlled_by_ROOT_or_subject = yes }
-			726 = { is_controlled_by_ROOT_or_subject = yes }
-			643 = { is_controlled_by_ROOT_or_subject = yes }
-			642 = { is_controlled_by_ROOT_or_subject = yes }
-			727 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
-			629 = { is_controlled_by_ROOT_or_subject = yes }
-			634 = { is_controlled_by_ROOT_or_subject = yes }
-			635 = { is_controlled_by_ROOT_or_subject = yes }
-			636 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			KIR = {
-				transfer_state = 631
-				transfer_state = 630
-				transfer_state = 632
-				transfer_state = 638
-				transfer_state = 646
-				transfer_state = 647
-				transfer_state = 684
-				transfer_state = 633
-				transfer_state = 639
-				transfer_state = 725
-				transfer_state = 284
-				transfer_state = 723
-				transfer_state = 1087
-				transfer_state = 734
-				transfer_state = 726
-				transfer_state = 643
-				transfer_state = 642
-				transfer_state = 727
-				transfer_state = 641
-				transfer_state = 629
-				transfer_state = 634
-				transfer_state = 635
-				transfer_state = 636
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = NZL is_core_of = TON is_core_of = SAM is_core_of = TUV is_core_of = TAH is_core_of = KIR is_core_of = HAW is_core_of = FIJ is_core_of = SOL is_core_of = VAN is_core_of = FSM is_core_of = PLU is_core_of = GUM is_core_of = NRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = KIR
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	HAW_integrate_polynesia = {
-		icon = generic_form_nation
-		visible = {
-			HAW = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_polynesia_flag }
-		}
-		available = {
-			631 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
-			632 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
-			647 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			633 = { is_controlled_by_ROOT_or_subject = yes }
-			639 = { is_controlled_by_ROOT_or_subject = yes }
-			725 = { is_controlled_by_ROOT_or_subject = yes }
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
-			1087 = { is_controlled_by_ROOT_or_subject = yes }
-			734 = { is_controlled_by_ROOT_or_subject = yes }
-			726 = { is_controlled_by_ROOT_or_subject = yes }
-			643 = { is_controlled_by_ROOT_or_subject = yes }
-			642 = { is_controlled_by_ROOT_or_subject = yes }
-			727 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
-			629 = { is_controlled_by_ROOT_or_subject = yes }
-			634 = { is_controlled_by_ROOT_or_subject = yes }
-			635 = { is_controlled_by_ROOT_or_subject = yes }
-			636 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			HAW = {
-				transfer_state = 631
-				transfer_state = 630
-				transfer_state = 632
-				transfer_state = 638
-				transfer_state = 646
-				transfer_state = 647
-				transfer_state = 684
-				transfer_state = 633
-				transfer_state = 639
-				transfer_state = 725
-				transfer_state = 284
-				transfer_state = 723
-				transfer_state = 1087
-				transfer_state = 734
-				transfer_state = 726
-				transfer_state = 643
-				transfer_state = 642
-				transfer_state = 727
-				transfer_state = 641
-				transfer_state = 629
-				transfer_state = 634
-				transfer_state = 635
-				transfer_state = 636
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = NZL is_core_of = TON is_core_of = SAM is_core_of = TUV is_core_of = TAH is_core_of = KIR is_core_of = HAW is_core_of = FIJ is_core_of = SOL is_core_of = VAN is_core_of = FSM is_core_of = PLU is_core_of = GUM is_core_of = NRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = HAW
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	FIJ_integrate_polynesia = {
-		icon = generic_form_nation
-		visible = {
-			FIJ = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_polynesia_flag }
-		}
-		available = {
-			631 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
-			632 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
-			647 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			633 = { is_controlled_by_ROOT_or_subject = yes }
-			639 = { is_controlled_by_ROOT_or_subject = yes }
-			725 = { is_controlled_by_ROOT_or_subject = yes }
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
-			1087 = { is_controlled_by_ROOT_or_subject = yes }
-			734 = { is_controlled_by_ROOT_or_subject = yes }
-			726 = { is_controlled_by_ROOT_or_subject = yes }
-			643 = { is_controlled_by_ROOT_or_subject = yes }
-			642 = { is_controlled_by_ROOT_or_subject = yes }
-			727 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
-			629 = { is_controlled_by_ROOT_or_subject = yes }
-			634 = { is_controlled_by_ROOT_or_subject = yes }
-			635 = { is_controlled_by_ROOT_or_subject = yes }
-			636 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			FIJ = {
-				transfer_state = 631
-				transfer_state = 630
-				transfer_state = 632
-				transfer_state = 638
-				transfer_state = 646
-				transfer_state = 647
-				transfer_state = 684
-				transfer_state = 633
-				transfer_state = 639
-				transfer_state = 725
-				transfer_state = 284
-				transfer_state = 723
-				transfer_state = 1087
-				transfer_state = 734
-				transfer_state = 726
-				transfer_state = 643
-				transfer_state = 642
-				transfer_state = 727
-				transfer_state = 641
-				transfer_state = 629
-				transfer_state = 634
-				transfer_state = 635
-				transfer_state = 636
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = NZL is_core_of = TON is_core_of = SAM is_core_of = TUV is_core_of = TAH is_core_of = KIR is_core_of = HAW is_core_of = FIJ is_core_of = SOL is_core_of = VAN is_core_of = FSM is_core_of = PLU is_core_of = GUM is_core_of = NRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = FIJ
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	SOL_integrate_polynesia = {
-		icon = generic_form_nation
-		visible = {
-			SOL = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_polynesia_flag }
-		}
-		available = {
-			631 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
-			632 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
-			647 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			633 = { is_controlled_by_ROOT_or_subject = yes }
-			639 = { is_controlled_by_ROOT_or_subject = yes }
-			725 = { is_controlled_by_ROOT_or_subject = yes }
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
-			1087 = { is_controlled_by_ROOT_or_subject = yes }
-			734 = { is_controlled_by_ROOT_or_subject = yes }
-			726 = { is_controlled_by_ROOT_or_subject = yes }
-			643 = { is_controlled_by_ROOT_or_subject = yes }
-			642 = { is_controlled_by_ROOT_or_subject = yes }
-			727 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
-			629 = { is_controlled_by_ROOT_or_subject = yes }
-			634 = { is_controlled_by_ROOT_or_subject = yes }
-			635 = { is_controlled_by_ROOT_or_subject = yes }
-			636 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			SOL = {
-				transfer_state = 631
-				transfer_state = 630
-				transfer_state = 632
-				transfer_state = 638
-				transfer_state = 646
-				transfer_state = 647
-				transfer_state = 684
-				transfer_state = 633
-				transfer_state = 639
-				transfer_state = 725
-				transfer_state = 284
-				transfer_state = 723
-				transfer_state = 1087
-				transfer_state = 734
-				transfer_state = 726
-				transfer_state = 643
-				transfer_state = 642
-				transfer_state = 727
-				transfer_state = 641
-				transfer_state = 629
-				transfer_state = 634
-				transfer_state = 635
-				transfer_state = 636
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = NZL is_core_of = TON is_core_of = SAM is_core_of = TUV is_core_of = TAH is_core_of = KIR is_core_of = HAW is_core_of = FIJ is_core_of = SOL is_core_of = VAN is_core_of = FSM is_core_of = PLU is_core_of = GUM is_core_of = NRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = SOL
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	VAN_integrate_polynesia = {
-		icon = generic_form_nation
-		visible = {
-			VAN = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_polynesia_flag }
-		}
-		available = {
-			631 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
-			632 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
-			647 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			633 = { is_controlled_by_ROOT_or_subject = yes }
-			639 = { is_controlled_by_ROOT_or_subject = yes }
-			725 = { is_controlled_by_ROOT_or_subject = yes }
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
-			1087 = { is_controlled_by_ROOT_or_subject = yes }
-			734 = { is_controlled_by_ROOT_or_subject = yes }
-			726 = { is_controlled_by_ROOT_or_subject = yes }
-			643 = { is_controlled_by_ROOT_or_subject = yes }
-			642 = { is_controlled_by_ROOT_or_subject = yes }
-			727 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
-			629 = { is_controlled_by_ROOT_or_subject = yes }
-			634 = { is_controlled_by_ROOT_or_subject = yes }
-			635 = { is_controlled_by_ROOT_or_subject = yes }
-			636 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			VAN = {
-				transfer_state = 631
-				transfer_state = 630
-				transfer_state = 632
-				transfer_state = 638
-				transfer_state = 646
-				transfer_state = 647
-				transfer_state = 684
-				transfer_state = 633
-				transfer_state = 639
-				transfer_state = 725
-				transfer_state = 284
-				transfer_state = 723
-				transfer_state = 1087
-				transfer_state = 734
-				transfer_state = 726
-				transfer_state = 643
-				transfer_state = 642
-				transfer_state = 727
-				transfer_state = 641
-				transfer_state = 629
-				transfer_state = 634
-				transfer_state = 635
-				transfer_state = 636
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = NZL is_core_of = TON is_core_of = SAM is_core_of = TUV is_core_of = TAH is_core_of = KIR is_core_of = HAW is_core_of = FIJ is_core_of = SOL is_core_of = VAN is_core_of = FSM is_core_of = PLU is_core_of = GUM is_core_of = NRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = VAN
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	FSM_integrate_polynesia = {
-		icon = generic_form_nation
-		visible = {
-			FSM = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_polynesia_flag }
-		}
-		available = {
-			631 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
-			632 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
-			647 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			633 = { is_controlled_by_ROOT_or_subject = yes }
-			639 = { is_controlled_by_ROOT_or_subject = yes }
-			725 = { is_controlled_by_ROOT_or_subject = yes }
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
-			1087 = { is_controlled_by_ROOT_or_subject = yes }
-			734 = { is_controlled_by_ROOT_or_subject = yes }
-			726 = { is_controlled_by_ROOT_or_subject = yes }
-			643 = { is_controlled_by_ROOT_or_subject = yes }
-			642 = { is_controlled_by_ROOT_or_subject = yes }
-			727 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
-			629 = { is_controlled_by_ROOT_or_subject = yes }
-			634 = { is_controlled_by_ROOT_or_subject = yes }
-			635 = { is_controlled_by_ROOT_or_subject = yes }
-			636 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			FSM = {
-				transfer_state = 631
-				transfer_state = 630
-				transfer_state = 632
-				transfer_state = 638
-				transfer_state = 646
-				transfer_state = 647
-				transfer_state = 684
-				transfer_state = 633
-				transfer_state = 639
-				transfer_state = 725
-				transfer_state = 284
-				transfer_state = 723
-				transfer_state = 1087
-				transfer_state = 734
-				transfer_state = 726
-				transfer_state = 643
-				transfer_state = 642
-				transfer_state = 727
-				transfer_state = 641
-				transfer_state = 629
-				transfer_state = 634
-				transfer_state = 635
-				transfer_state = 636
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = NZL is_core_of = TON is_core_of = SAM is_core_of = TUV is_core_of = TAH is_core_of = KIR is_core_of = HAW is_core_of = FIJ is_core_of = SOL is_core_of = VAN is_core_of = FSM is_core_of = PLU is_core_of = GUM is_core_of = NRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = FSM
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	PLU_integrate_polynesia = {
-		icon = generic_form_nation
-		visible = {
-			PLU = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_polynesia_flag }
-		}
-		available = {
-			631 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
-			632 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
-			647 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			633 = { is_controlled_by_ROOT_or_subject = yes }
-			639 = { is_controlled_by_ROOT_or_subject = yes }
-			725 = { is_controlled_by_ROOT_or_subject = yes }
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
-			1087 = { is_controlled_by_ROOT_or_subject = yes }
-			734 = { is_controlled_by_ROOT_or_subject = yes }
-			726 = { is_controlled_by_ROOT_or_subject = yes }
-			643 = { is_controlled_by_ROOT_or_subject = yes }
-			642 = { is_controlled_by_ROOT_or_subject = yes }
-			727 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
-			629 = { is_controlled_by_ROOT_or_subject = yes }
-			634 = { is_controlled_by_ROOT_or_subject = yes }
-			635 = { is_controlled_by_ROOT_or_subject = yes }
-			636 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			PLU = {
-				transfer_state = 631
-				transfer_state = 630
-				transfer_state = 632
-				transfer_state = 638
-				transfer_state = 646
-				transfer_state = 647
-				transfer_state = 684
-				transfer_state = 633
-				transfer_state = 639
-				transfer_state = 725
-				transfer_state = 284
-				transfer_state = 723
-				transfer_state = 1087
-				transfer_state = 734
-				transfer_state = 726
-				transfer_state = 643
-				transfer_state = 642
-				transfer_state = 727
-				transfer_state = 641
-				transfer_state = 629
-				transfer_state = 634
-				transfer_state = 635
-				transfer_state = 636
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = NZL is_core_of = TON is_core_of = SAM is_core_of = TUV is_core_of = TAH is_core_of = KIR is_core_of = HAW is_core_of = FIJ is_core_of = SOL is_core_of = VAN is_core_of = FSM is_core_of = PLU is_core_of = GUM is_core_of = NRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = PLU
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	GUM_integrate_polynesia = {
-		icon = generic_form_nation
-		visible = {
-			GUM = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_polynesia_flag }
-		}
-		available = {
-			631 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
-			632 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
-			647 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			633 = { is_controlled_by_ROOT_or_subject = yes }
-			639 = { is_controlled_by_ROOT_or_subject = yes }
-			725 = { is_controlled_by_ROOT_or_subject = yes }
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
-			1087 = { is_controlled_by_ROOT_or_subject = yes }
-			734 = { is_controlled_by_ROOT_or_subject = yes }
-			726 = { is_controlled_by_ROOT_or_subject = yes }
-			643 = { is_controlled_by_ROOT_or_subject = yes }
-			642 = { is_controlled_by_ROOT_or_subject = yes }
-			727 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
-			629 = { is_controlled_by_ROOT_or_subject = yes }
-			634 = { is_controlled_by_ROOT_or_subject = yes }
-			635 = { is_controlled_by_ROOT_or_subject = yes }
-			636 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			GUM = {
-				transfer_state = 631
-				transfer_state = 630
-				transfer_state = 632
-				transfer_state = 638
-				transfer_state = 646
-				transfer_state = 647
-				transfer_state = 684
-				transfer_state = 633
-				transfer_state = 639
-				transfer_state = 725
-				transfer_state = 284
-				transfer_state = 723
-				transfer_state = 1087
-				transfer_state = 734
-				transfer_state = 726
-				transfer_state = 643
-				transfer_state = 642
-				transfer_state = 727
-				transfer_state = 641
-				transfer_state = 629
-				transfer_state = 634
-				transfer_state = 635
-				transfer_state = 636
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = NZL is_core_of = TON is_core_of = SAM is_core_of = TUV is_core_of = TAH is_core_of = KIR is_core_of = HAW is_core_of = FIJ is_core_of = SOL is_core_of = VAN is_core_of = FSM is_core_of = PLU is_core_of = GUM is_core_of = NRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = GUM
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	NRU_integrate_polynesia = {
-		icon = generic_form_nation
-		visible = {
-			NRU = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_polynesia_flag }
-		}
-		available = {
-			631 = { is_controlled_by_ROOT_or_subject = yes }
-			630 = { is_controlled_by_ROOT_or_subject = yes }
-			632 = { is_controlled_by_ROOT_or_subject = yes }
-			638 = { is_controlled_by_ROOT_or_subject = yes }
-			646 = { is_controlled_by_ROOT_or_subject = yes }
-			647 = { is_controlled_by_ROOT_or_subject = yes }
-			684 = { is_controlled_by_ROOT_or_subject = yes }
-			633 = { is_controlled_by_ROOT_or_subject = yes }
-			639 = { is_controlled_by_ROOT_or_subject = yes }
-			725 = { is_controlled_by_ROOT_or_subject = yes }
-			284 = { is_controlled_by_ROOT_or_subject = yes }
-			723 = { is_controlled_by_ROOT_or_subject = yes }
-			1087 = { is_controlled_by_ROOT_or_subject = yes }
-			734 = { is_controlled_by_ROOT_or_subject = yes }
-			726 = { is_controlled_by_ROOT_or_subject = yes }
-			643 = { is_controlled_by_ROOT_or_subject = yes }
-			642 = { is_controlled_by_ROOT_or_subject = yes }
-			727 = { is_controlled_by_ROOT_or_subject = yes }
-			641 = { is_controlled_by_ROOT_or_subject = yes }
-			629 = { is_controlled_by_ROOT_or_subject = yes }
-			634 = { is_controlled_by_ROOT_or_subject = yes }
-			635 = { is_controlled_by_ROOT_or_subject = yes }
-			636 = { is_controlled_by_ROOT_or_subject = yes }
-		}
-		complete_effect = {
-			NRU = {
-				transfer_state = 631
-				transfer_state = 630
-				transfer_state = 632
-				transfer_state = 638
-				transfer_state = 646
-				transfer_state = 647
-				transfer_state = 684
-				transfer_state = 633
-				transfer_state = 639
-				transfer_state = 725
-				transfer_state = 284
-				transfer_state = 723
-				transfer_state = 1087
-				transfer_state = 734
-				transfer_state = 726
-				transfer_state = 643
-				transfer_state = 642
-				transfer_state = 727
-				transfer_state = 641
-				transfer_state = 629
-				transfer_state = 634
-				transfer_state = 635
-				transfer_state = 636
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = NZL is_core_of = TON is_core_of = SAM is_core_of = TUV is_core_of = TAH is_core_of = KIR is_core_of = HAW is_core_of = FIJ is_core_of = SOL is_core_of = VAN is_core_of = FSM is_core_of = PLU is_core_of = GUM is_core_of = NRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = NRU
-			}
-		}
-		ai_will_do = { factor = 0 }
 	}
 }
 
@@ -11006,8 +10257,12 @@ integrate_transcaucasus_category = {
 					transfer_state = 419
 				}
 				if = {
-					limit = { 420 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 420
+					limit = { 987 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 987
+				}
+				if = {
+					limit = { 988 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 988
 				}
 				if = {
 					limit = { 232 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -11089,8 +10344,12 @@ integrate_transcaucasus_category = {
 					transfer_state = 419
 				}
 				if = {
-					limit = { 420 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 420
+					limit = { 987 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 987
+				}
+				if = {
+					limit = { 988 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 988
 				}
 				if = {
 					limit = { 232 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -11172,8 +10431,12 @@ integrate_transcaucasus_category = {
 					transfer_state = 419
 				}
 				if = {
-					limit = { 420 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 420
+					limit = { 987 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 987
+				}
+				if = {
+					limit = { 988 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 988
 				}
 				if = {
 					limit = { 232 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -11288,6 +10551,9 @@ integrate_siberia_category = {
 						566 = { is_controlled_by_ROOT_or_subject = yes }
 						575 = { is_controlled_by_ROOT_or_subject = yes }
 						565 = { is_controlled_by_ROOT_or_subject = yes }
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -11314,6 +10580,9 @@ integrate_siberia_category = {
 						transfer_state = 566
 						transfer_state = 575
 						transfer_state = 565
+						transfer_state = 878
+						transfer_state = 876
+						transfer_state = 877
 					}
 				}
 			}
@@ -11330,6 +10599,8 @@ integrate_siberia_category = {
 						657 = { is_controlled_by_ROOT_or_subject = yes }
 						409 = { is_controlled_by_ROOT_or_subject = yes }
 						408 = { is_controlled_by_ROOT_or_subject = yes }
+						874 = { is_controlled_by_ROOT_or_subject = yes }
+						875 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_fareast_coring_states_tt
@@ -11399,6 +10670,7 @@ integrate_siberia_category = {
 				OR = {
 					original_tag = YAK
 					original_tag = FER
+					original_tag = GUK
 					original_tag = CKK
 					original_tag = VLA
 					original_tag = BYA
@@ -11407,6 +10679,8 @@ integrate_siberia_category = {
 					original_tag = YAM
 					original_tag = OVO
 					original_tag = TAN
+					original_tag = KHA
+					original_tag = EVE
 				}
 			}
 		}
@@ -11459,6 +10733,9 @@ integrate_siberia_category = {
 						566 = { is_controlled_by_ROOT_or_subject = yes }
 						575 = { is_controlled_by_ROOT_or_subject = yes }
 						565 = { is_controlled_by_ROOT_or_subject = yes }
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -11485,6 +10762,9 @@ integrate_siberia_category = {
 						transfer_state = 566
 						transfer_state = 575
 						transfer_state = 565
+						transfer_state = 878
+						transfer_state = 876
+						transfer_state = 877
 					}
 				}
 			}
@@ -11501,6 +10781,8 @@ integrate_siberia_category = {
 						657 = { is_controlled_by_ROOT_or_subject = yes }
 						409 = { is_controlled_by_ROOT_or_subject = yes }
 						408 = { is_controlled_by_ROOT_or_subject = yes }
+						874 = { is_controlled_by_ROOT_or_subject = yes }
+						875 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_fareast_coring_states_tt
@@ -11565,6 +10847,168 @@ integrate_siberia_category = {
 		}
 		ai_will_do = { factor = 0 }
 	}
+	GUK_integrate_siberian_republic = {
+		icon = generic_form_nation
+		visible = {
+			GUK = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_siberian_republic_flag }
+		}
+		available = {
+			564 = { is_controlled_by_ROOT_or_subject = yes }
+			574 = { is_controlled_by_ROOT_or_subject = yes }
+			516 = { is_controlled_by_ROOT_or_subject = yes }
+			644 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			GUK = {
+				transfer_state = 564
+				transfer_state = 574
+				transfer_state = 516
+				transfer_state = 644
+				if = {
+					limit = { 563 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 563
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_siberian_required_states_tt
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						329 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
+						654 = { is_controlled_by_ROOT_or_subject = yes }
+						40 = { is_controlled_by_ROOT_or_subject = yes }
+						577 = { is_controlled_by_ROOT_or_subject = yes }
+						580 = { is_controlled_by_ROOT_or_subject = yes }
+						824 = { is_controlled_by_ROOT_or_subject = yes }
+						579 = { is_controlled_by_ROOT_or_subject = yes }
+						403 = { is_controlled_by_ROOT_or_subject = yes }
+						571 = { is_controlled_by_ROOT_or_subject = yes }
+						578 = { is_controlled_by_ROOT_or_subject = yes }
+						570 = { is_controlled_by_ROOT_or_subject = yes }
+						576 = { is_controlled_by_ROOT_or_subject = yes }
+						569 = { is_controlled_by_ROOT_or_subject = yes }
+						568 = { is_controlled_by_ROOT_or_subject = yes }
+						567 = { is_controlled_by_ROOT_or_subject = yes }
+						566 = { is_controlled_by_ROOT_or_subject = yes }
+						575 = { is_controlled_by_ROOT_or_subject = yes }
+						565 = { is_controlled_by_ROOT_or_subject = yes }
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_siberian_coring_states_tt
+				hidden_effect = {
+					GUK = {
+						transfer_state = 878
+						transfer_state = 329
+						transfer_state = 876
+						transfer_state = 877
+						transfer_state = 654
+						transfer_state = 40
+						transfer_state = 577
+						transfer_state = 580
+						transfer_state = 824
+						transfer_state = 579
+						transfer_state = 403
+						transfer_state = 571
+						transfer_state = 578
+						transfer_state = 570
+						transfer_state = 576
+						transfer_state = 569
+						transfer_state = 568
+						transfer_state = 567
+						transfer_state = 566
+						transfer_state = 575
+						transfer_state = 565
+						transfer_state = 878
+						transfer_state = 876
+						transfer_state = 877
+					}
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_fareast_required_states_tt
+						822 = { is_controlled_by_ROOT_or_subject = yes }
+						637 = { is_controlled_by_ROOT_or_subject = yes }
+						562 = { is_controlled_by_ROOT_or_subject = yes }
+						560 = { is_controlled_by_ROOT_or_subject = yes }
+						655 = { is_controlled_by_ROOT_or_subject = yes }
+						561 = { is_controlled_by_ROOT_or_subject = yes }
+						657 = { is_controlled_by_ROOT_or_subject = yes }
+						409 = { is_controlled_by_ROOT_or_subject = yes }
+						408 = { is_controlled_by_ROOT_or_subject = yes }
+						874 = { is_controlled_by_ROOT_or_subject = yes }
+						875 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_fareast_coring_states_tt
+				hidden_effect = {
+					GUK = {
+						transfer_state = 822
+						transfer_state = 875
+						transfer_state = 637
+						transfer_state = 562
+						transfer_state = 560
+						transfer_state = 655
+						transfer_state = 561
+						transfer_state = 657
+						transfer_state = 409
+						transfer_state = 408
+						transfer_state = 874
+					}
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_urals_required_states_tt
+						653 = { is_controlled_by_ROOT_or_subject = yes }
+						572 = { is_controlled_by_ROOT_or_subject = yes }
+						582 = { is_controlled_by_ROOT_or_subject = yes }
+						573 = { is_controlled_by_ROOT_or_subject = yes }
+						398 = { is_controlled_by_ROOT_or_subject = yes }
+						581 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_urals_coring_states_tt
+				hidden_effect = {
+					GUK = {
+						transfer_state = 653
+						transfer_state = 572
+						transfer_state = 582
+						transfer_state = 573
+						transfer_state = 398
+						transfer_state = 581
+					}
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_ainu_required_states_tt
+						537 = { is_controlled_by_ROOT_or_subject = yes }
+						555 = { is_controlled_by_ROOT_or_subject = yes }
+						536 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_ainu_coring_states_tt
+				hidden_effect = {
+					GUK = {
+						transfer_state = 537
+						transfer_state = 555
+						transfer_state = 536
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
 	CKK_integrate_siberian_republic = {
 		icon = generic_form_nation
 		visible = {
@@ -11613,6 +11057,9 @@ integrate_siberia_category = {
 						566 = { is_controlled_by_ROOT_or_subject = yes }
 						575 = { is_controlled_by_ROOT_or_subject = yes }
 						565 = { is_controlled_by_ROOT_or_subject = yes }
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -11639,6 +11086,9 @@ integrate_siberia_category = {
 						transfer_state = 566
 						transfer_state = 575
 						transfer_state = 565
+						transfer_state = 878
+						transfer_state = 876
+						transfer_state = 877
 					}
 				}
 			}
@@ -11655,6 +11105,8 @@ integrate_siberia_category = {
 						657 = { is_controlled_by_ROOT_or_subject = yes }
 						409 = { is_controlled_by_ROOT_or_subject = yes }
 						408 = { is_controlled_by_ROOT_or_subject = yes }
+						874 = { is_controlled_by_ROOT_or_subject = yes }
+						875 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_fareast_coring_states_tt
@@ -11767,6 +11219,9 @@ integrate_siberia_category = {
 						566 = { is_controlled_by_ROOT_or_subject = yes }
 						575 = { is_controlled_by_ROOT_or_subject = yes }
 						565 = { is_controlled_by_ROOT_or_subject = yes }
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -11793,6 +11248,9 @@ integrate_siberia_category = {
 						transfer_state = 566
 						transfer_state = 575
 						transfer_state = 565
+						transfer_state = 878
+						transfer_state = 876
+						transfer_state = 877
 					}
 				}
 			}
@@ -11809,6 +11267,8 @@ integrate_siberia_category = {
 						657 = { is_controlled_by_ROOT_or_subject = yes }
 						409 = { is_controlled_by_ROOT_or_subject = yes }
 						408 = { is_controlled_by_ROOT_or_subject = yes }
+						874 = { is_controlled_by_ROOT_or_subject = yes }
+						875 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_fareast_coring_states_tt
@@ -11921,6 +11381,9 @@ integrate_siberia_category = {
 						566 = { is_controlled_by_ROOT_or_subject = yes }
 						575 = { is_controlled_by_ROOT_or_subject = yes }
 						565 = { is_controlled_by_ROOT_or_subject = yes }
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -11947,6 +11410,9 @@ integrate_siberia_category = {
 						transfer_state = 566
 						transfer_state = 575
 						transfer_state = 565
+						transfer_state = 878
+						transfer_state = 876
+						transfer_state = 877
 					}
 				}
 			}
@@ -11963,6 +11429,8 @@ integrate_siberia_category = {
 						657 = { is_controlled_by_ROOT_or_subject = yes }
 						409 = { is_controlled_by_ROOT_or_subject = yes }
 						408 = { is_controlled_by_ROOT_or_subject = yes }
+						874 = { is_controlled_by_ROOT_or_subject = yes }
+						875 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_fareast_coring_states_tt
@@ -12075,6 +11543,9 @@ integrate_siberia_category = {
 						566 = { is_controlled_by_ROOT_or_subject = yes }
 						575 = { is_controlled_by_ROOT_or_subject = yes }
 						565 = { is_controlled_by_ROOT_or_subject = yes }
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -12101,6 +11572,9 @@ integrate_siberia_category = {
 						transfer_state = 566
 						transfer_state = 575
 						transfer_state = 565
+						transfer_state = 878
+						transfer_state = 876
+						transfer_state = 877
 					}
 				}
 			}
@@ -12117,6 +11591,8 @@ integrate_siberia_category = {
 						657 = { is_controlled_by_ROOT_or_subject = yes }
 						409 = { is_controlled_by_ROOT_or_subject = yes }
 						408 = { is_controlled_by_ROOT_or_subject = yes }
+						874 = { is_controlled_by_ROOT_or_subject = yes }
+						875 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_fareast_coring_states_tt
@@ -12229,6 +11705,9 @@ integrate_siberia_category = {
 						566 = { is_controlled_by_ROOT_or_subject = yes }
 						575 = { is_controlled_by_ROOT_or_subject = yes }
 						565 = { is_controlled_by_ROOT_or_subject = yes }
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -12255,6 +11734,9 @@ integrate_siberia_category = {
 						transfer_state = 566
 						transfer_state = 575
 						transfer_state = 565
+						transfer_state = 878
+						transfer_state = 876
+						transfer_state = 877
 					}
 				}
 			}
@@ -12271,6 +11753,8 @@ integrate_siberia_category = {
 						657 = { is_controlled_by_ROOT_or_subject = yes }
 						409 = { is_controlled_by_ROOT_or_subject = yes }
 						408 = { is_controlled_by_ROOT_or_subject = yes }
+						874 = { is_controlled_by_ROOT_or_subject = yes }
+						875 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_fareast_coring_states_tt
@@ -12383,6 +11867,9 @@ integrate_siberia_category = {
 						566 = { is_controlled_by_ROOT_or_subject = yes }
 						575 = { is_controlled_by_ROOT_or_subject = yes }
 						565 = { is_controlled_by_ROOT_or_subject = yes }
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -12409,6 +11896,9 @@ integrate_siberia_category = {
 						transfer_state = 566
 						transfer_state = 575
 						transfer_state = 565
+						transfer_state = 878
+						transfer_state = 876
+						transfer_state = 877
 					}
 				}
 			}
@@ -12425,6 +11915,8 @@ integrate_siberia_category = {
 						657 = { is_controlled_by_ROOT_or_subject = yes }
 						409 = { is_controlled_by_ROOT_or_subject = yes }
 						408 = { is_controlled_by_ROOT_or_subject = yes }
+						874 = { is_controlled_by_ROOT_or_subject = yes }
+						875 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_fareast_coring_states_tt
@@ -12537,6 +12029,9 @@ integrate_siberia_category = {
 						566 = { is_controlled_by_ROOT_or_subject = yes }
 						575 = { is_controlled_by_ROOT_or_subject = yes }
 						565 = { is_controlled_by_ROOT_or_subject = yes }
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -12563,6 +12058,9 @@ integrate_siberia_category = {
 						transfer_state = 566
 						transfer_state = 575
 						transfer_state = 565
+						transfer_state = 878
+						transfer_state = 876
+						transfer_state = 877
 					}
 				}
 			}
@@ -12579,6 +12077,8 @@ integrate_siberia_category = {
 						657 = { is_controlled_by_ROOT_or_subject = yes }
 						409 = { is_controlled_by_ROOT_or_subject = yes }
 						408 = { is_controlled_by_ROOT_or_subject = yes }
+						874 = { is_controlled_by_ROOT_or_subject = yes }
+						875 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_fareast_coring_states_tt
@@ -12691,6 +12191,9 @@ integrate_siberia_category = {
 						566 = { is_controlled_by_ROOT_or_subject = yes }
 						575 = { is_controlled_by_ROOT_or_subject = yes }
 						565 = { is_controlled_by_ROOT_or_subject = yes }
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -12717,6 +12220,9 @@ integrate_siberia_category = {
 						transfer_state = 566
 						transfer_state = 575
 						transfer_state = 565
+						transfer_state = 878
+						transfer_state = 876
+						transfer_state = 877
 					}
 				}
 			}
@@ -12733,6 +12239,8 @@ integrate_siberia_category = {
 						657 = { is_controlled_by_ROOT_or_subject = yes }
 						409 = { is_controlled_by_ROOT_or_subject = yes }
 						408 = { is_controlled_by_ROOT_or_subject = yes }
+						874 = { is_controlled_by_ROOT_or_subject = yes }
+						875 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_fareast_coring_states_tt
@@ -12797,6 +12305,330 @@ integrate_siberia_category = {
 		}
 		ai_will_do = { factor = 0 }
 	}
+	KHA_integrate_siberian_republic = {
+		icon = generic_form_nation
+		visible = {
+			KHA = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_siberian_republic_flag }
+		}
+		available = {
+			564 = { is_controlled_by_ROOT_or_subject = yes }
+			574 = { is_controlled_by_ROOT_or_subject = yes }
+			516 = { is_controlled_by_ROOT_or_subject = yes }
+			644 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			KHA = {
+				transfer_state = 564
+				transfer_state = 574
+				transfer_state = 516
+				transfer_state = 644
+				if = {
+					limit = { 563 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 563
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_siberian_required_states_tt
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						329 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
+						654 = { is_controlled_by_ROOT_or_subject = yes }
+						40 = { is_controlled_by_ROOT_or_subject = yes }
+						577 = { is_controlled_by_ROOT_or_subject = yes }
+						580 = { is_controlled_by_ROOT_or_subject = yes }
+						824 = { is_controlled_by_ROOT_or_subject = yes }
+						579 = { is_controlled_by_ROOT_or_subject = yes }
+						403 = { is_controlled_by_ROOT_or_subject = yes }
+						571 = { is_controlled_by_ROOT_or_subject = yes }
+						578 = { is_controlled_by_ROOT_or_subject = yes }
+						570 = { is_controlled_by_ROOT_or_subject = yes }
+						576 = { is_controlled_by_ROOT_or_subject = yes }
+						569 = { is_controlled_by_ROOT_or_subject = yes }
+						568 = { is_controlled_by_ROOT_or_subject = yes }
+						567 = { is_controlled_by_ROOT_or_subject = yes }
+						566 = { is_controlled_by_ROOT_or_subject = yes }
+						575 = { is_controlled_by_ROOT_or_subject = yes }
+						565 = { is_controlled_by_ROOT_or_subject = yes }
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_siberian_coring_states_tt
+				hidden_effect = {
+					KHA = {
+						transfer_state = 878
+						transfer_state = 329
+						transfer_state = 876
+						transfer_state = 877
+						transfer_state = 654
+						transfer_state = 40
+						transfer_state = 577
+						transfer_state = 580
+						transfer_state = 824
+						transfer_state = 579
+						transfer_state = 403
+						transfer_state = 571
+						transfer_state = 578
+						transfer_state = 570
+						transfer_state = 576
+						transfer_state = 569
+						transfer_state = 568
+						transfer_state = 567
+						transfer_state = 566
+						transfer_state = 575
+						transfer_state = 565
+						transfer_state = 878
+						transfer_state = 876
+						transfer_state = 877
+					}
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_fareast_required_states_tt
+						822 = { is_controlled_by_ROOT_or_subject = yes }
+						637 = { is_controlled_by_ROOT_or_subject = yes }
+						562 = { is_controlled_by_ROOT_or_subject = yes }
+						560 = { is_controlled_by_ROOT_or_subject = yes }
+						655 = { is_controlled_by_ROOT_or_subject = yes }
+						561 = { is_controlled_by_ROOT_or_subject = yes }
+						657 = { is_controlled_by_ROOT_or_subject = yes }
+						409 = { is_controlled_by_ROOT_or_subject = yes }
+						408 = { is_controlled_by_ROOT_or_subject = yes }
+						874 = { is_controlled_by_ROOT_or_subject = yes }
+						875 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_fareast_coring_states_tt
+				hidden_effect = {
+					KHA = {
+						transfer_state = 822
+						transfer_state = 875
+						transfer_state = 637
+						transfer_state = 562
+						transfer_state = 560
+						transfer_state = 655
+						transfer_state = 561
+						transfer_state = 657
+						transfer_state = 409
+						transfer_state = 408
+						transfer_state = 874
+					}
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_urals_required_states_tt
+						653 = { is_controlled_by_ROOT_or_subject = yes }
+						572 = { is_controlled_by_ROOT_or_subject = yes }
+						582 = { is_controlled_by_ROOT_or_subject = yes }
+						573 = { is_controlled_by_ROOT_or_subject = yes }
+						398 = { is_controlled_by_ROOT_or_subject = yes }
+						581 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_urals_coring_states_tt
+				hidden_effect = {
+					KHA = {
+						transfer_state = 653
+						transfer_state = 572
+						transfer_state = 582
+						transfer_state = 573
+						transfer_state = 398
+						transfer_state = 581
+					}
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_ainu_required_states_tt
+						537 = { is_controlled_by_ROOT_or_subject = yes }
+						555 = { is_controlled_by_ROOT_or_subject = yes }
+						536 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_ainu_coring_states_tt
+				hidden_effect = {
+					KHA = {
+						transfer_state = 537
+						transfer_state = 555
+						transfer_state = 536
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	EVE_integrate_siberian_republic = {
+		icon = generic_form_nation
+		visible = {
+			EVE = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_siberian_republic_flag }
+		}
+		available = {
+			564 = { is_controlled_by_ROOT_or_subject = yes }
+			574 = { is_controlled_by_ROOT_or_subject = yes }
+			516 = { is_controlled_by_ROOT_or_subject = yes }
+			644 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			EVE = {
+				transfer_state = 564
+				transfer_state = 574
+				transfer_state = 516
+				transfer_state = 644
+				if = {
+					limit = { 563 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 563
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_siberian_required_states_tt
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						329 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
+						654 = { is_controlled_by_ROOT_or_subject = yes }
+						40 = { is_controlled_by_ROOT_or_subject = yes }
+						577 = { is_controlled_by_ROOT_or_subject = yes }
+						580 = { is_controlled_by_ROOT_or_subject = yes }
+						824 = { is_controlled_by_ROOT_or_subject = yes }
+						579 = { is_controlled_by_ROOT_or_subject = yes }
+						403 = { is_controlled_by_ROOT_or_subject = yes }
+						571 = { is_controlled_by_ROOT_or_subject = yes }
+						578 = { is_controlled_by_ROOT_or_subject = yes }
+						570 = { is_controlled_by_ROOT_or_subject = yes }
+						576 = { is_controlled_by_ROOT_or_subject = yes }
+						569 = { is_controlled_by_ROOT_or_subject = yes }
+						568 = { is_controlled_by_ROOT_or_subject = yes }
+						567 = { is_controlled_by_ROOT_or_subject = yes }
+						566 = { is_controlled_by_ROOT_or_subject = yes }
+						575 = { is_controlled_by_ROOT_or_subject = yes }
+						565 = { is_controlled_by_ROOT_or_subject = yes }
+						878 = { is_controlled_by_ROOT_or_subject = yes }
+						876 = { is_controlled_by_ROOT_or_subject = yes }
+						877 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_siberian_coring_states_tt
+				hidden_effect = {
+					EVE = {
+						transfer_state = 878
+						transfer_state = 329
+						transfer_state = 876
+						transfer_state = 877
+						transfer_state = 654
+						transfer_state = 40
+						transfer_state = 577
+						transfer_state = 580
+						transfer_state = 824
+						transfer_state = 579
+						transfer_state = 403
+						transfer_state = 571
+						transfer_state = 578
+						transfer_state = 570
+						transfer_state = 576
+						transfer_state = 569
+						transfer_state = 568
+						transfer_state = 567
+						transfer_state = 566
+						transfer_state = 575
+						transfer_state = 565
+						transfer_state = 878
+						transfer_state = 876
+						transfer_state = 877
+					}
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_fareast_required_states_tt
+						822 = { is_controlled_by_ROOT_or_subject = yes }
+						637 = { is_controlled_by_ROOT_or_subject = yes }
+						562 = { is_controlled_by_ROOT_or_subject = yes }
+						560 = { is_controlled_by_ROOT_or_subject = yes }
+						655 = { is_controlled_by_ROOT_or_subject = yes }
+						561 = { is_controlled_by_ROOT_or_subject = yes }
+						657 = { is_controlled_by_ROOT_or_subject = yes }
+						409 = { is_controlled_by_ROOT_or_subject = yes }
+						408 = { is_controlled_by_ROOT_or_subject = yes }
+						874 = { is_controlled_by_ROOT_or_subject = yes }
+						875 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_fareast_coring_states_tt
+				hidden_effect = {
+					EVE = {
+						transfer_state = 822
+						transfer_state = 875
+						transfer_state = 637
+						transfer_state = 562
+						transfer_state = 560
+						transfer_state = 655
+						transfer_state = 561
+						transfer_state = 657
+						transfer_state = 409
+						transfer_state = 408
+						transfer_state = 874
+					}
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_urals_required_states_tt
+						653 = { is_controlled_by_ROOT_or_subject = yes }
+						572 = { is_controlled_by_ROOT_or_subject = yes }
+						582 = { is_controlled_by_ROOT_or_subject = yes }
+						573 = { is_controlled_by_ROOT_or_subject = yes }
+						398 = { is_controlled_by_ROOT_or_subject = yes }
+						581 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_urals_coring_states_tt
+				hidden_effect = {
+					EVE = {
+						transfer_state = 653
+						transfer_state = 572
+						transfer_state = 582
+						transfer_state = 573
+						transfer_state = 398
+						transfer_state = 581
+					}
+				}
+			}
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = integrate_ainu_required_states_tt
+						537 = { is_controlled_by_ROOT_or_subject = yes }
+						555 = { is_controlled_by_ROOT_or_subject = yes }
+						536 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				custom_effect_tooltip = integrate_ainu_coring_states_tt
+				hidden_effect = {
+					EVE = {
+						transfer_state = 537
+						transfer_state = 555
+						transfer_state = 536
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
 }
 
 integrate_turkestan_category = {
@@ -12824,10 +12656,11 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
+			584 = { is_controlled_by_ROOT_or_subject = yes }
+			985 = { is_controlled_by_ROOT_or_subject = yes }
+			832 = { is_controlled_by_ROOT_or_subject = yes }
 			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
-			584 = { is_controlled_by_ROOT_or_subject = yes }
-			832 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			TAN = {
@@ -12854,29 +12687,81 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
+				transfer_state = 584
+				transfer_state = 832
+				transfer_state = 985
 				if = {
 					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 732
 				}
 				transfer_state = 742
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ALT_integrate_turkestan = {
+		icon = generic_form_nation
+		visible = {
+			ALT = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_turkestan_flag }
+		}
+		available = {
+			402 = { is_controlled_by_ROOT_or_subject = yes }
+			404 = { is_controlled_by_ROOT_or_subject = yes }
+			406 = { is_controlled_by_ROOT_or_subject = yes }
+			407 = { is_controlled_by_ROOT_or_subject = yes }
+			583 = { is_controlled_by_ROOT_or_subject = yes }
+			#586 = { is_controlled_by_ROOT_or_subject = yes }
+			587 = { is_controlled_by_ROOT_or_subject = yes }
+			588 = { is_controlled_by_ROOT_or_subject = yes }
+			#589 = { is_controlled_by_ROOT_or_subject = yes }
+			590 = { is_controlled_by_ROOT_or_subject = yes }
+			881 = { is_controlled_by_ROOT_or_subject = yes }
+			882 = { is_controlled_by_ROOT_or_subject = yes }
+			405 = { is_controlled_by_ROOT_or_subject = yes }
+			585 = { is_controlled_by_ROOT_or_subject = yes }
+			830 = { is_controlled_by_ROOT_or_subject = yes }
+			823 = { is_controlled_by_ROOT_or_subject = yes }
+			831 = { is_controlled_by_ROOT_or_subject = yes }
+			584 = { is_controlled_by_ROOT_or_subject = yes }
+			985 = { is_controlled_by_ROOT_or_subject = yes }
+			832 = { is_controlled_by_ROOT_or_subject = yes }
+			#732 = { is_controlled_by_ROOT_or_subject = yes }
+			742 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			ALT = {
+				transfer_state = 402
+				transfer_state = 404
+				transfer_state = 406
+				transfer_state = 407
+				transfer_state = 583
+				if = {
+					limit = { 586 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 586
+				}
+				transfer_state = 587
+				transfer_state = 588
+				if = {
+					limit = { 589 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 589
+				}
+				transfer_state = 590
+				transfer_state = 881
+				transfer_state = 882
+				transfer_state = 405
+				transfer_state = 585
+				transfer_state = 830
+				transfer_state = 823
+				transfer_state = 831
 				transfer_state = 584
 				transfer_state = 832
+				transfer_state = 985
 				if = {
-					limit = { 985 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 985
+					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 732
 				}
-				if = {
-					limit = { 329 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 329
-				}
-				if = {
-					limit = { 654 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 654
-				}
-				if = {
-					limit = { 40 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 40
-				}
+				transfer_state = 742
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -12905,10 +12790,11 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
+			584 = { is_controlled_by_ROOT_or_subject = yes }
+			985 = { is_controlled_by_ROOT_or_subject = yes }
+			832 = { is_controlled_by_ROOT_or_subject = yes }
 			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
-			584 = { is_controlled_by_ROOT_or_subject = yes }
-			832 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			KAZ = {
@@ -12935,50 +12821,17 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
+				transfer_state = 584
+				transfer_state = 832
+				transfer_state = 985
 				if = {
 					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 732
 				}
 				transfer_state = 742
-				transfer_state = 584
-				transfer_state = 832
-				if = {
-					limit = { 985 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 985
-				}
-				if = {
-					limit = { 329 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 329
-				}
-				if = {
-					limit = { 654 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 654
-				}
-				if = {
-					limit = { 40 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 40
-				}
 			}
 		}
-		ai_will_do = {
-			base = 200
-			modifier = {
-				factor = 0
-				OR = {
-					original_tag = TAN
-					original_tag = KAZ
-					original_tag = UZB
-					original_tag = KYR
-					original_tag = TAJ
-					original_tag = TMS
-					original_tag = SIK
-					original_tag = TNG
-					original_tag = BUK
-					original_tag = KHI
-					original_tag = KKP
-				}
-			}
-		}
+		ai_will_do = { factor = 0 }
 	}
 	UZB_integrate_turkestan = {
 		icon = generic_form_nation
@@ -13004,10 +12857,11 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
+			584 = { is_controlled_by_ROOT_or_subject = yes }
+			985 = { is_controlled_by_ROOT_or_subject = yes }
+			832 = { is_controlled_by_ROOT_or_subject = yes }
 			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
-			584 = { is_controlled_by_ROOT_or_subject = yes }
-			832 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			UZB = {
@@ -13034,29 +12888,14 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
+				transfer_state = 584
+				transfer_state = 832
+				transfer_state = 985
 				if = {
 					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 732
 				}
 				transfer_state = 742
-				transfer_state = 584
-				transfer_state = 832
-				if = {
-					limit = { 985 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 985
-				}
-				if = {
-					limit = { 329 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 329
-				}
-				if = {
-					limit = { 654 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 654
-				}
-				if = {
-					limit = { 40 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 40
-				}
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -13085,10 +12924,11 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
+			584 = { is_controlled_by_ROOT_or_subject = yes }
+			985 = { is_controlled_by_ROOT_or_subject = yes }
+			832 = { is_controlled_by_ROOT_or_subject = yes }
 			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
-			584 = { is_controlled_by_ROOT_or_subject = yes }
-			832 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			KYR = {
@@ -13115,29 +12955,14 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
+				transfer_state = 584
+				transfer_state = 832
+				transfer_state = 985
 				if = {
 					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 732
 				}
 				transfer_state = 742
-				transfer_state = 584
-				transfer_state = 832
-				if = {
-					limit = { 985 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 985
-				}
-				if = {
-					limit = { 329 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 329
-				}
-				if = {
-					limit = { 654 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 654
-				}
-				if = {
-					limit = { 40 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 40
-				}
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -13166,10 +12991,11 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
+			584 = { is_controlled_by_ROOT_or_subject = yes }
+			985 = { is_controlled_by_ROOT_or_subject = yes }
+			832 = { is_controlled_by_ROOT_or_subject = yes }
 			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
-			584 = { is_controlled_by_ROOT_or_subject = yes }
-			832 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			TAJ = {
@@ -13196,32 +13022,36 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
+				transfer_state = 584
+				transfer_state = 832
+				transfer_state = 985
 				if = {
 					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 732
 				}
 				transfer_state = 742
-				transfer_state = 584
-				transfer_state = 832
-				if = {
-					limit = { 985 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 985
-				}
-				if = {
-					limit = { 329 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 329
-				}
-				if = {
-					limit = { 654 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 654
-				}
-				if = {
-					limit = { 40 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 40
+			}
+		}
+		ai_will_do = {
+			base = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = TAN
+					original_tag = ALT
+					original_tag = KAZ
+					original_tag = UZB
+					original_tag = KYR
+					original_tag = TAJ
+					original_tag = TMS
+					original_tag = SIK
+					original_tag = TNG
+					original_tag = BUK
+					original_tag = KHI
+					original_tag = KKP
 				}
 			}
 		}
-		ai_will_do = { factor = 0 }
 	}
 	TMS_integrate_turkestan = {
 		icon = generic_form_nation
@@ -13247,10 +13077,11 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
+			584 = { is_controlled_by_ROOT_or_subject = yes }
+			985 = { is_controlled_by_ROOT_or_subject = yes }
+			832 = { is_controlled_by_ROOT_or_subject = yes }
 			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
-			584 = { is_controlled_by_ROOT_or_subject = yes }
-			832 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			TMS = {
@@ -13277,29 +13108,14 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
+				transfer_state = 584
+				transfer_state = 832
+				transfer_state = 985
 				if = {
 					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 732
 				}
 				transfer_state = 742
-				transfer_state = 584
-				transfer_state = 832
-				if = {
-					limit = { 985 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 985
-				}
-				if = {
-					limit = { 329 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 329
-				}
-				if = {
-					limit = { 654 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 654
-				}
-				if = {
-					limit = { 40 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 40
-				}
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -13328,10 +13144,11 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
+			584 = { is_controlled_by_ROOT_or_subject = yes }
+			985 = { is_controlled_by_ROOT_or_subject = yes }
+			832 = { is_controlled_by_ROOT_or_subject = yes }
 			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
-			584 = { is_controlled_by_ROOT_or_subject = yes }
-			832 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			SIK = {
@@ -13358,29 +13175,14 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
+				transfer_state = 584
+				transfer_state = 832
+				transfer_state = 985
 				if = {
 					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 732
 				}
 				transfer_state = 742
-				transfer_state = 584
-				transfer_state = 832
-				if = {
-					limit = { 985 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 985
-				}
-				if = {
-					limit = { 329 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 329
-				}
-				if = {
-					limit = { 654 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 654
-				}
-				if = {
-					limit = { 40 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 40
-				}
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -13409,10 +13211,11 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
+			584 = { is_controlled_by_ROOT_or_subject = yes }
+			985 = { is_controlled_by_ROOT_or_subject = yes }
+			832 = { is_controlled_by_ROOT_or_subject = yes }
 			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
-			584 = { is_controlled_by_ROOT_or_subject = yes }
-			832 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			TNG = {
@@ -13439,29 +13242,14 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
+				transfer_state = 584
+				transfer_state = 832
+				transfer_state = 985
 				if = {
 					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 732
 				}
 				transfer_state = 742
-				transfer_state = 584
-				transfer_state = 832
-				if = {
-					limit = { 985 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 985
-				}
-				if = {
-					limit = { 329 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 329
-				}
-				if = {
-					limit = { 654 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 654
-				}
-				if = {
-					limit = { 40 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 40
-				}
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -13490,10 +13278,11 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
+			584 = { is_controlled_by_ROOT_or_subject = yes }
+			985 = { is_controlled_by_ROOT_or_subject = yes }
+			832 = { is_controlled_by_ROOT_or_subject = yes }
 			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
-			584 = { is_controlled_by_ROOT_or_subject = yes }
-			832 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			BUK = {
@@ -13520,29 +13309,14 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
+				transfer_state = 584
+				transfer_state = 832
+				transfer_state = 985
 				if = {
 					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 732
 				}
 				transfer_state = 742
-				transfer_state = 584
-				transfer_state = 832
-				if = {
-					limit = { 985 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 985
-				}
-				if = {
-					limit = { 329 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 329
-				}
-				if = {
-					limit = { 654 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 654
-				}
-				if = {
-					limit = { 40 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 40
-				}
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -13571,10 +13345,11 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
+			584 = { is_controlled_by_ROOT_or_subject = yes }
+			985 = { is_controlled_by_ROOT_or_subject = yes }
+			832 = { is_controlled_by_ROOT_or_subject = yes }
 			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
-			584 = { is_controlled_by_ROOT_or_subject = yes }
-			832 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			KHI = {
@@ -13601,29 +13376,14 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
+				transfer_state = 584
+				transfer_state = 832
+				transfer_state = 985
 				if = {
 					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 732
 				}
 				transfer_state = 742
-				transfer_state = 584
-				transfer_state = 832
-				if = {
-					limit = { 985 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 985
-				}
-				if = {
-					limit = { 329 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 329
-				}
-				if = {
-					limit = { 654 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 654
-				}
-				if = {
-					limit = { 40 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 40
-				}
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -13652,10 +13412,11 @@ integrate_turkestan_category = {
 			830 = { is_controlled_by_ROOT_or_subject = yes }
 			823 = { is_controlled_by_ROOT_or_subject = yes }
 			831 = { is_controlled_by_ROOT_or_subject = yes }
+			584 = { is_controlled_by_ROOT_or_subject = yes }
+			985 = { is_controlled_by_ROOT_or_subject = yes }
+			832 = { is_controlled_by_ROOT_or_subject = yes }
 			#732 = { is_controlled_by_ROOT_or_subject = yes }
 			742 = { is_controlled_by_ROOT_or_subject = yes }
-			584 = { is_controlled_by_ROOT_or_subject = yes }
-			832 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			KKP = {
@@ -13682,29 +13443,14 @@ integrate_turkestan_category = {
 				transfer_state = 830
 				transfer_state = 823
 				transfer_state = 831
+				transfer_state = 584
+				transfer_state = 832
+				transfer_state = 985
 				if = {
 					limit = { 732 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 732
 				}
 				transfer_state = 742
-				transfer_state = 584
-				transfer_state = 832
-				if = {
-					limit = { 985 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 985
-				}
-				if = {
-					limit = { 329 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 329
-				}
-				if = {
-					limit = { 654 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 654
-				}
-				if = {
-					limit = { 40 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 40
-				}
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -15749,46 +15495,23 @@ integrate_the_empire_of_mali = {
 			NOT = { has_global_flag = reform_the_empire_of_mali_flag }
 		}
 		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GAM }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = MLI }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = VOL }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			557 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			every_state = { #This has a day of lag, for some reason.
 				limit = {
 					OR = {
-						is_core_of = GAM
-						is_core_of = SEN
-						is_core_of = MLI
-						is_core_of = VOL
-						is_core_of = GNB
+						state = 898
+						state = 556
+						state = 899
+						state = 272
+						state = 701
+						state = 557
 					}
 					is_controlled_by_ROOT_or_subject = yes
 				}
@@ -15804,46 +15527,23 @@ integrate_the_empire_of_mali = {
 			NOT = { has_global_flag = reform_the_empire_of_mali_flag }
 		}
 		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GAM }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = MLI }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = VOL }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			557 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			every_state = { #This has a day of lag, for some reason.
 				limit = {
 					OR = {
-						is_core_of = GAM
-						is_core_of = SEN
-						is_core_of = MLI
-						is_core_of = VOL
-						is_core_of = GNB
+						state = 898
+						state = 556
+						state = 899
+						state = 272
+						state = 701
+						state = 557
 					}
 					is_controlled_by_ROOT_or_subject = yes
 				}
@@ -15859,46 +15559,23 @@ integrate_the_empire_of_mali = {
 			NOT = { has_global_flag = reform_the_empire_of_mali_flag }
 		}
 		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GAM }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = MLI }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = VOL }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			557 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			every_state = { #This has a day of lag, for some reason.
 				limit = {
 					OR = {
-						is_core_of = GAM
-						is_core_of = SEN
-						is_core_of = MLI
-						is_core_of = VOL
-						is_core_of = GNB
+						state = 898
+						state = 556
+						state = 899
+						state = 272
+						state = 701
+						state = 557
 					}
 					is_controlled_by_ROOT_or_subject = yes
 				}
@@ -15926,46 +15603,23 @@ integrate_the_empire_of_mali = {
 			NOT = { has_global_flag = reform_the_empire_of_mali_flag }
 		}
 		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GAM }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = MLI }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = VOL }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			557 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			every_state = { #This has a day of lag, for some reason.
 				limit = {
 					OR = {
-						is_core_of = GAM
-						is_core_of = SEN
-						is_core_of = MLI
-						is_core_of = VOL
-						is_core_of = GNB
+						state = 898
+						state = 556
+						state = 899
+						state = 272
+						state = 701
+						state = 557
 					}
 					is_controlled_by_ROOT_or_subject = yes
 				}
@@ -15981,46 +15635,23 @@ integrate_the_empire_of_mali = {
 			NOT = { has_global_flag = reform_the_empire_of_mali_flag }
 		}
 		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GAM }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = MLI }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = VOL }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			557 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			every_state = { #This has a day of lag, for some reason.
 				limit = {
 					OR = {
-						is_core_of = GAM
-						is_core_of = SEN
-						is_core_of = MLI
-						is_core_of = VOL
-						is_core_of = GNB
+						state = 898
+						state = 556
+						state = 899
+						state = 272
+						state = 701
+						state = 557
 					}
 					is_controlled_by_ROOT_or_subject = yes
 				}
@@ -16032,893 +15663,130 @@ integrate_the_empire_of_mali = {
 }
 
 integrate_west_african_union = {
-	SEN_integrate_west_african_union = {
+	MRT_integrate_west_african_union = {
 		icon = generic_form_nation
 		visible = {
-			SEN = { is_subject_of = ROOT }
+			MRT = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_west_african_union_flag }
 		}
 		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = TOG }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = IVO }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = CMR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = DAH }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GHA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SIE }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = LIB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			every_state = { #This has a day of lag, for some reason.
 				limit = {
 					OR = {
-						is_core_of = IVO
-						is_core_of = CMR
-						is_core_of = DAH
-						is_core_of = TOG
-						is_core_of = SEN
-						is_core_of = GNA
-						is_core_of = NGA
-						is_core_of = GHA
-						is_core_of = LIB
-						is_core_of = SIE
-						is_core_of = GNB
-						is_core_of = GAM
-						is_core_of = NGR
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
 					}
 					is_controlled_by_ROOT_or_subject = yes
 				}
-				transfer_state_to = SEN
+				transfer_state_to = MRT
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	TOG_integrate_west_african_union = {
+	GAM_integrate_west_african_union = {
 		icon = generic_form_nation
 		visible = {
-			TOG = { is_subject_of = ROOT }
+			GAM = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_west_african_union_flag }
 		}
 		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = TOG }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = IVO }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = CMR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = DAH }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GHA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SIE }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = LIB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			every_state = { #This has a day of lag, for some reason.
 				limit = {
 					OR = {
-						is_core_of = IVO
-						is_core_of = CMR
-						is_core_of = DAH
-						is_core_of = TOG
-						is_core_of = SEN
-						is_core_of = GNA
-						is_core_of = NGA
-						is_core_of = GHA
-						is_core_of = LIB
-						is_core_of = SIE
-						is_core_of = GNB
-						is_core_of = GAM
-						is_core_of = NGR
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
 					}
 					is_controlled_by_ROOT_or_subject = yes
 				}
-				transfer_state_to = TOG
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	IVO_integrate_west_african_union = {
-		icon = generic_form_nation
-		visible = {
-			IVO = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_west_african_union_flag }
-		}
-		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = TOG }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = IVO }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = CMR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = DAH }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GHA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SIE }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = LIB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-		}
-		complete_effect = {
-			every_state = { #This has a day of lag, for some reason.
-				limit = {
-					OR = {
-						is_core_of = IVO
-						is_core_of = CMR
-						is_core_of = DAH
-						is_core_of = TOG
-						is_core_of = SEN
-						is_core_of = GNA
-						is_core_of = NGA
-						is_core_of = GHA
-						is_core_of = LIB
-						is_core_of = SIE
-						is_core_of = GNB
-						is_core_of = GAM
-						is_core_of = NGR
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = IVO
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	CMR_integrate_west_african_union = {
-		icon = generic_form_nation
-		visible = {
-			CMR = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_west_african_union_flag }
-		}
-		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = TOG }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = IVO }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = CMR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = DAH }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GHA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SIE }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = LIB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-		}
-		complete_effect = {
-			every_state = { #This has a day of lag, for some reason.
-				limit = {
-					OR = {
-						is_core_of = IVO
-						is_core_of = CMR
-						is_core_of = DAH
-						is_core_of = TOG
-						is_core_of = SEN
-						is_core_of = GNA
-						is_core_of = NGA
-						is_core_of = GHA
-						is_core_of = LIB
-						is_core_of = SIE
-						is_core_of = GNB
-						is_core_of = GAM
-						is_core_of = NGR
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = CMR
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	DAH_integrate_west_african_union = {
-		icon = generic_form_nation
-		visible = {
-			DAH = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_west_african_union_flag }
-		}
-		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = TOG }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = IVO }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = CMR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = DAH }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GHA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SIE }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = LIB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-		}
-		complete_effect = {
-			every_state = { #This has a day of lag, for some reason.
-				limit = {
-					OR = {
-						is_core_of = IVO
-						is_core_of = CMR
-						is_core_of = DAH
-						is_core_of = TOG
-						is_core_of = SEN
-						is_core_of = GNA
-						is_core_of = NGA
-						is_core_of = GHA
-						is_core_of = LIB
-						is_core_of = SIE
-						is_core_of = GNB
-						is_core_of = GAM
-						is_core_of = NGR
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = DAH
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	GNA_integrate_west_african_union = {
-		icon = generic_form_nation
-		visible = {
-			GNA = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_west_african_union_flag }
-		}
-		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = TOG }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = IVO }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = CMR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = DAH }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GHA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SIE }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = LIB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-		}
-		complete_effect = {
-			every_state = { #This has a day of lag, for some reason.
-				limit = {
-					OR = {
-						is_core_of = IVO
-						is_core_of = CMR
-						is_core_of = DAH
-						is_core_of = TOG
-						is_core_of = SEN
-						is_core_of = GNA
-						is_core_of = NGA
-						is_core_of = GHA
-						is_core_of = LIB
-						is_core_of = SIE
-						is_core_of = GNB
-						is_core_of = GAM
-						is_core_of = NGR
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = GNA
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	NGA_integrate_west_african_union = {
-		icon = generic_form_nation
-		visible = {
-			NGA = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_west_african_union_flag }
-		}
-		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = TOG }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = IVO }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = CMR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = DAH }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GHA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SIE }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = LIB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-		}
-		complete_effect = {
-			every_state = { #This has a day of lag, for some reason.
-				limit = {
-					OR = {
-						is_core_of = IVO
-						is_core_of = CMR
-						is_core_of = DAH
-						is_core_of = TOG
-						is_core_of = SEN
-						is_core_of = GNA
-						is_core_of = NGA
-						is_core_of = GHA
-						is_core_of = LIB
-						is_core_of = SIE
-						is_core_of = GNB
-						is_core_of = GAM
-						is_core_of = NGR
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = NGA
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	GHA_integrate_west_african_union = {
-		icon = generic_form_nation
-		visible = {
-			GHA = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_west_african_union_flag }
-		}
-		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = TOG }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = IVO }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = CMR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = DAH }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GHA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SIE }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = LIB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-		}
-		complete_effect = {
-			every_state = { #This has a day of lag, for some reason.
-				limit = {
-					OR = {
-						is_core_of = IVO
-						is_core_of = CMR
-						is_core_of = DAH
-						is_core_of = TOG
-						is_core_of = SEN
-						is_core_of = GNA
-						is_core_of = NGA
-						is_core_of = GHA
-						is_core_of = LIB
-						is_core_of = SIE
-						is_core_of = GNB
-						is_core_of = GAM
-						is_core_of = NGR
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = GHA
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	LIB_integrate_west_african_union = {
-		icon = generic_form_nation
-		visible = {
-			LIB = { is_subject_of = ROOT }
-			NOT = { has_global_flag = form_west_african_union_flag }
-		}
-		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = TOG }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = IVO }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = CMR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = DAH }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GHA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SIE }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = LIB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-		}
-		complete_effect = {
-			every_state = { #This has a day of lag, for some reason.
-				limit = {
-					OR = {
-						is_core_of = IVO
-						is_core_of = CMR
-						is_core_of = DAH
-						is_core_of = TOG
-						is_core_of = SEN
-						is_core_of = GNA
-						is_core_of = NGA
-						is_core_of = GHA
-						is_core_of = LIB
-						is_core_of = SIE
-						is_core_of = GNB
-						is_core_of = GAM
-						is_core_of = NGR
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				transfer_state_to = LIB
+				transfer_state_to = GAM
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -16930,90 +15798,55 @@ integrate_west_african_union = {
 			NOT = { has_global_flag = form_west_african_union_flag }
 		}
 		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = TOG }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = IVO }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = CMR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = DAH }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GHA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SIE }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = LIB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			every_state = { #This has a day of lag, for some reason.
 				limit = {
 					OR = {
-						is_core_of = IVO
-						is_core_of = CMR
-						is_core_of = DAH
-						is_core_of = TOG
-						is_core_of = SEN
-						is_core_of = GNA
-						is_core_of = NGA
-						is_core_of = GHA
-						is_core_of = LIB
-						is_core_of = SIE
-						is_core_of = GNB
-						is_core_of = GAM
-						is_core_of = NGR
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
 					}
 					is_controlled_by_ROOT_or_subject = yes
 				}
@@ -17025,20 +15858,601 @@ integrate_west_african_union = {
 			modifier = {
 				factor = 0
 				OR = {
-					original_tag = SEN
-					original_tag = TOG
-					original_tag = IVO
-					original_tag = CMR
-					original_tag = DAH
-					original_tag = GNA
-					original_tag = NGA
-					original_tag = GHA
-					original_tag = LIB
+					original_tag = MRT
+					original_tag = GAM
 					original_tag = MLI
+					original_tag = GNB
+					original_tag = GNA
+					original_tag = SIE
+					original_tag = LIB
+					original_tag = IVO
+					original_tag = VOL
+					original_tag = GHA
+					original_tag = TOG
+					original_tag = DAH
 					original_tag = NGR
+					original_tag = NGA
+					original_tag = BIA
+					original_tag = SOK
 				}
 			}
 		}
+	}
+	GNB_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			GNB = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = GNB
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	GNA_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			GNA = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = GNA
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	SIE_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			SIE = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = SIE
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	LIB_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			LIB = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = LIB
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	IVO_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			IVO = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = IVO
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	VOL_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			VOL = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = VOL
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	GHA_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			GHA = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = GHA
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	TOG_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			TOG = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = TOG
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	DAH_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			DAH = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = DAH
+			}
+		}
+		ai_will_do = { factor = 0 }
 	}
 	NGR_integrate_west_african_union = {
 		icon = generic_form_nation
@@ -17047,94 +16461,251 @@ integrate_west_african_union = {
 			NOT = { has_global_flag = form_west_african_union_flag }
 		}
 		available = {
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SEN }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = TOG }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = IVO }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = CMR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = DAH }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GNA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = GHA }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = SIE }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = LIB }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			all_state = {
-				OR = {
-					NOT = { is_core_of = NGR }
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			every_state = { #This has a day of lag, for some reason.
 				limit = {
 					OR = {
-						is_core_of = IVO
-						is_core_of = CMR
-						is_core_of = DAH
-						is_core_of = TOG
-						is_core_of = SEN
-						is_core_of = GNA
-						is_core_of = NGA
-						is_core_of = GHA
-						is_core_of = LIB
-						is_core_of = SIE
-						is_core_of = GNB
-						is_core_of = GAM
-						is_core_of = NGR
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
 					}
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = NGR
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	NGA_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			NGA = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = NGA
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	BIA_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			BIA = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = BIA
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	SOK_integrate_west_african_union = {
+		icon = generic_form_nation
+		visible = {
+			SOK = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_west_african_union_flag }
+		}
+		available = {
+			557 = { is_controlled_by_ROOT_or_subject = yes }
+			272 = { is_controlled_by_ROOT_or_subject = yes }
+			701 = { is_controlled_by_ROOT_or_subject = yes }
+			296 = { is_controlled_by_ROOT_or_subject = yes }
+			780 = { is_controlled_by_ROOT_or_subject = yes }
+			899 = { is_controlled_by_ROOT_or_subject = yes }
+			898 = { is_controlled_by_ROOT_or_subject = yes }
+			556 = { is_controlled_by_ROOT_or_subject = yes }
+			700 = { is_controlled_by_ROOT_or_subject = yes }
+			298 = { is_controlled_by_ROOT_or_subject = yes }
+			779 = { is_controlled_by_ROOT_or_subject = yes }
+			778 = { is_controlled_by_ROOT_or_subject = yes }
+			274 = { is_controlled_by_ROOT_or_subject = yes }
+			777 = { is_controlled_by_ROOT_or_subject = yes }
+			776 = { is_controlled_by_ROOT_or_subject = yes }
+			781 = { is_controlled_by_ROOT_or_subject = yes }
+			902 = { is_controlled_by_ROOT_or_subject = yes }
+			558 = { is_controlled_by_ROOT_or_subject = yes }
+			900 = { is_controlled_by_ROOT_or_subject = yes }
+			901 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for some reason.
+				limit = {
+					OR = {
+						state = 557
+						state = 272
+						state = 701
+						state = 296
+						state = 780
+						state = 899
+						state = 898
+						state = 556
+						state = 700
+						state = 298
+						state = 779
+						state = 799
+						state = 778
+						state = 274
+						state = 777
+						state = 776
+						state = 781
+						state = 902
+						state = 558
+						state = 900
+						state = 901
+						state = 786 # Sahara
+						state = 782 # Sahara
+						state = 515 # Sahara
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = SOK
 			}
 		}
 		ai_will_do = { factor = 0 }
