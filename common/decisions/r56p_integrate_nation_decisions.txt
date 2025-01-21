@@ -7370,6 +7370,10 @@ integrate_majapahit_empire_category = {
 					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 737
 				}
+				if = {
+					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 979
+				}
 			}
 		}
 		ai_will_do = {
@@ -7418,6 +7422,10 @@ integrate_majapahit_empire_category = {
 				if = {
 					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 737
+				}
+				if = {
+					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 979
 				}
 			}
 		}

@@ -8873,6 +8873,7 @@ form_majapahit_empire_category = {
 			721 = { add_core_of = ROOT }
 			523 = { add_core_of = ROOT }
 			737 = { add_core_of = ROOT }
+			979 = { add_core_of = ROOT }
 			hidden_effect = {
 				news_event = { id = wtt_news.68 hours = 6 }
 				set_global_flag = form_majapahit_empire_flag
