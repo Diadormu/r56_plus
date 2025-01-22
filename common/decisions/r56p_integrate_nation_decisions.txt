@@ -8939,6 +8939,10 @@ integrate_siberia_category = {
 			644 = { is_controlled_by_ROOT_or_subject = yes }
 			876 = { is_controlled_by_ROOT_or_subject = yes }
 			877 = { is_controlled_by_ROOT_or_subject = yes }
+			878 = { is_controlled_by_ROOT_or_subject = yes }
+			565 = { is_controlled_by_ROOT_or_subject = yes }
+			575 = { is_controlled_by_ROOT_or_subject = yes }
+			576 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			YAK = {
@@ -8952,6 +8956,10 @@ integrate_siberia_category = {
 				transfer_state = 644
 				transfer_state = 876
 				transfer_state = 877
+				transfer_state = 878
+				transfer_state = 565
+				transfer_state = 575
+				transfer_state = 576
 			}
 			if = {
 				limit = {
@@ -8968,14 +8976,10 @@ integrate_siberia_category = {
 						571 = { is_controlled_by_ROOT_or_subject = yes }
 						578 = { is_controlled_by_ROOT_or_subject = yes }
 						570 = { is_controlled_by_ROOT_or_subject = yes }
-						576 = { is_controlled_by_ROOT_or_subject = yes }
 						569 = { is_controlled_by_ROOT_or_subject = yes }
 						568 = { is_controlled_by_ROOT_or_subject = yes }
 						567 = { is_controlled_by_ROOT_or_subject = yes }
 						566 = { is_controlled_by_ROOT_or_subject = yes }
-						575 = { is_controlled_by_ROOT_or_subject = yes }
-						565 = { is_controlled_by_ROOT_or_subject = yes }
-						878 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -8992,14 +8996,10 @@ integrate_siberia_category = {
 						transfer_state = 571
 						transfer_state = 578
 						transfer_state = 570
-						transfer_state = 576
 						transfer_state = 569
 						transfer_state = 568
 						transfer_state = 567
 						transfer_state = 566
-						transfer_state = 575
-						transfer_state = 565
-						transfer_state = 878
 					}
 				}
 			}
@@ -9115,6 +9115,10 @@ integrate_siberia_category = {
 			644 = { is_controlled_by_ROOT_or_subject = yes }
 			876 = { is_controlled_by_ROOT_or_subject = yes }
 			877 = { is_controlled_by_ROOT_or_subject = yes }
+			878 = { is_controlled_by_ROOT_or_subject = yes }
+			565 = { is_controlled_by_ROOT_or_subject = yes }
+			575 = { is_controlled_by_ROOT_or_subject = yes }
+			576 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			FER = {
@@ -9128,6 +9132,10 @@ integrate_siberia_category = {
 				transfer_state = 644
 				transfer_state = 876
 				transfer_state = 877
+				transfer_state = 878
+				transfer_state = 565
+				transfer_state = 575
+				transfer_state = 576
 			}
 			if = {
 				limit = {
@@ -9144,14 +9152,10 @@ integrate_siberia_category = {
 						571 = { is_controlled_by_ROOT_or_subject = yes }
 						578 = { is_controlled_by_ROOT_or_subject = yes }
 						570 = { is_controlled_by_ROOT_or_subject = yes }
-						576 = { is_controlled_by_ROOT_or_subject = yes }
 						569 = { is_controlled_by_ROOT_or_subject = yes }
 						568 = { is_controlled_by_ROOT_or_subject = yes }
 						567 = { is_controlled_by_ROOT_or_subject = yes }
 						566 = { is_controlled_by_ROOT_or_subject = yes }
-						575 = { is_controlled_by_ROOT_or_subject = yes }
-						565 = { is_controlled_by_ROOT_or_subject = yes }
-						878 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -9168,14 +9172,10 @@ integrate_siberia_category = {
 						transfer_state = 571
 						transfer_state = 578
 						transfer_state = 570
-						transfer_state = 576
 						transfer_state = 569
 						transfer_state = 568
 						transfer_state = 567
 						transfer_state = 566
-						transfer_state = 575
-						transfer_state = 565
-						transfer_state = 878
 					}
 				}
 			}
@@ -9274,6 +9274,10 @@ integrate_siberia_category = {
 			644 = { is_controlled_by_ROOT_or_subject = yes }
 			876 = { is_controlled_by_ROOT_or_subject = yes }
 			877 = { is_controlled_by_ROOT_or_subject = yes }
+			878 = { is_controlled_by_ROOT_or_subject = yes }
+			565 = { is_controlled_by_ROOT_or_subject = yes }
+			575 = { is_controlled_by_ROOT_or_subject = yes }
+			576 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			CKK = {
@@ -9287,6 +9291,10 @@ integrate_siberia_category = {
 				transfer_state = 644
 				transfer_state = 876
 				transfer_state = 877
+				transfer_state = 878
+				transfer_state = 565
+				transfer_state = 575
+				transfer_state = 576
 			}
 			if = {
 				limit = {
@@ -9303,14 +9311,10 @@ integrate_siberia_category = {
 						571 = { is_controlled_by_ROOT_or_subject = yes }
 						578 = { is_controlled_by_ROOT_or_subject = yes }
 						570 = { is_controlled_by_ROOT_or_subject = yes }
-						576 = { is_controlled_by_ROOT_or_subject = yes }
 						569 = { is_controlled_by_ROOT_or_subject = yes }
 						568 = { is_controlled_by_ROOT_or_subject = yes }
 						567 = { is_controlled_by_ROOT_or_subject = yes }
 						566 = { is_controlled_by_ROOT_or_subject = yes }
-						575 = { is_controlled_by_ROOT_or_subject = yes }
-						565 = { is_controlled_by_ROOT_or_subject = yes }
-						878 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -9327,14 +9331,10 @@ integrate_siberia_category = {
 						transfer_state = 571
 						transfer_state = 578
 						transfer_state = 570
-						transfer_state = 576
 						transfer_state = 569
 						transfer_state = 568
 						transfer_state = 567
 						transfer_state = 566
-						transfer_state = 575
-						transfer_state = 565
-						transfer_state = 878
 					}
 				}
 			}
@@ -9433,6 +9433,10 @@ integrate_siberia_category = {
 			644 = { is_controlled_by_ROOT_or_subject = yes }
 			876 = { is_controlled_by_ROOT_or_subject = yes }
 			877 = { is_controlled_by_ROOT_or_subject = yes }
+			878 = { is_controlled_by_ROOT_or_subject = yes }
+			565 = { is_controlled_by_ROOT_or_subject = yes }
+			575 = { is_controlled_by_ROOT_or_subject = yes }
+			576 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			VLA = {
@@ -9446,6 +9450,10 @@ integrate_siberia_category = {
 				transfer_state = 644
 				transfer_state = 876
 				transfer_state = 877
+				transfer_state = 878
+				transfer_state = 565
+				transfer_state = 575
+				transfer_state = 576
 			}
 			if = {
 				limit = {
@@ -9462,14 +9470,10 @@ integrate_siberia_category = {
 						571 = { is_controlled_by_ROOT_or_subject = yes }
 						578 = { is_controlled_by_ROOT_or_subject = yes }
 						570 = { is_controlled_by_ROOT_or_subject = yes }
-						576 = { is_controlled_by_ROOT_or_subject = yes }
 						569 = { is_controlled_by_ROOT_or_subject = yes }
 						568 = { is_controlled_by_ROOT_or_subject = yes }
 						567 = { is_controlled_by_ROOT_or_subject = yes }
 						566 = { is_controlled_by_ROOT_or_subject = yes }
-						575 = { is_controlled_by_ROOT_or_subject = yes }
-						565 = { is_controlled_by_ROOT_or_subject = yes }
-						878 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -9486,14 +9490,10 @@ integrate_siberia_category = {
 						transfer_state = 571
 						transfer_state = 578
 						transfer_state = 570
-						transfer_state = 576
 						transfer_state = 569
 						transfer_state = 568
 						transfer_state = 567
 						transfer_state = 566
-						transfer_state = 575
-						transfer_state = 565
-						transfer_state = 878
 					}
 				}
 			}
@@ -9592,6 +9592,10 @@ integrate_siberia_category = {
 			644 = { is_controlled_by_ROOT_or_subject = yes }
 			876 = { is_controlled_by_ROOT_or_subject = yes }
 			877 = { is_controlled_by_ROOT_or_subject = yes }
+			878 = { is_controlled_by_ROOT_or_subject = yes }
+			565 = { is_controlled_by_ROOT_or_subject = yes }
+			575 = { is_controlled_by_ROOT_or_subject = yes }
+			576 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			BYA = {
@@ -9605,6 +9609,10 @@ integrate_siberia_category = {
 				transfer_state = 644
 				transfer_state = 876
 				transfer_state = 877
+				transfer_state = 878
+				transfer_state = 565
+				transfer_state = 575
+				transfer_state = 576
 			}
 			if = {
 				limit = {
@@ -9621,14 +9629,10 @@ integrate_siberia_category = {
 						571 = { is_controlled_by_ROOT_or_subject = yes }
 						578 = { is_controlled_by_ROOT_or_subject = yes }
 						570 = { is_controlled_by_ROOT_or_subject = yes }
-						576 = { is_controlled_by_ROOT_or_subject = yes }
 						569 = { is_controlled_by_ROOT_or_subject = yes }
 						568 = { is_controlled_by_ROOT_or_subject = yes }
 						567 = { is_controlled_by_ROOT_or_subject = yes }
 						566 = { is_controlled_by_ROOT_or_subject = yes }
-						575 = { is_controlled_by_ROOT_or_subject = yes }
-						565 = { is_controlled_by_ROOT_or_subject = yes }
-						878 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -9645,14 +9649,10 @@ integrate_siberia_category = {
 						transfer_state = 571
 						transfer_state = 578
 						transfer_state = 570
-						transfer_state = 576
 						transfer_state = 569
 						transfer_state = 568
 						transfer_state = 567
 						transfer_state = 566
-						transfer_state = 575
-						transfer_state = 565
-						transfer_state = 878
 					}
 				}
 			}
@@ -9751,6 +9751,10 @@ integrate_siberia_category = {
 			644 = { is_controlled_by_ROOT_or_subject = yes }
 			876 = { is_controlled_by_ROOT_or_subject = yes }
 			877 = { is_controlled_by_ROOT_or_subject = yes }
+			878 = { is_controlled_by_ROOT_or_subject = yes }
+			565 = { is_controlled_by_ROOT_or_subject = yes }
+			575 = { is_controlled_by_ROOT_or_subject = yes }
+			576 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			TAY = {
@@ -9764,6 +9768,10 @@ integrate_siberia_category = {
 				transfer_state = 644
 				transfer_state = 876
 				transfer_state = 877
+				transfer_state = 878
+				transfer_state = 565
+				transfer_state = 575
+				transfer_state = 576
 			}
 			if = {
 				limit = {
@@ -9780,14 +9788,10 @@ integrate_siberia_category = {
 						571 = { is_controlled_by_ROOT_or_subject = yes }
 						578 = { is_controlled_by_ROOT_or_subject = yes }
 						570 = { is_controlled_by_ROOT_or_subject = yes }
-						576 = { is_controlled_by_ROOT_or_subject = yes }
 						569 = { is_controlled_by_ROOT_or_subject = yes }
 						568 = { is_controlled_by_ROOT_or_subject = yes }
 						567 = { is_controlled_by_ROOT_or_subject = yes }
 						566 = { is_controlled_by_ROOT_or_subject = yes }
-						575 = { is_controlled_by_ROOT_or_subject = yes }
-						565 = { is_controlled_by_ROOT_or_subject = yes }
-						878 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -9804,14 +9808,10 @@ integrate_siberia_category = {
 						transfer_state = 571
 						transfer_state = 578
 						transfer_state = 570
-						transfer_state = 576
 						transfer_state = 569
 						transfer_state = 568
 						transfer_state = 567
 						transfer_state = 566
-						transfer_state = 575
-						transfer_state = 565
-						transfer_state = 878
 					}
 				}
 			}
@@ -9910,6 +9910,10 @@ integrate_siberia_category = {
 			644 = { is_controlled_by_ROOT_or_subject = yes }
 			876 = { is_controlled_by_ROOT_or_subject = yes }
 			877 = { is_controlled_by_ROOT_or_subject = yes }
+			878 = { is_controlled_by_ROOT_or_subject = yes }
+			565 = { is_controlled_by_ROOT_or_subject = yes }
+			575 = { is_controlled_by_ROOT_or_subject = yes }
+			576 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			ALT = {
@@ -9923,6 +9927,10 @@ integrate_siberia_category = {
 				transfer_state = 644
 				transfer_state = 876
 				transfer_state = 877
+				transfer_state = 878
+				transfer_state = 565
+				transfer_state = 575
+				transfer_state = 576
 			}
 			if = {
 				limit = {
@@ -9939,14 +9947,10 @@ integrate_siberia_category = {
 						571 = { is_controlled_by_ROOT_or_subject = yes }
 						578 = { is_controlled_by_ROOT_or_subject = yes }
 						570 = { is_controlled_by_ROOT_or_subject = yes }
-						576 = { is_controlled_by_ROOT_or_subject = yes }
 						569 = { is_controlled_by_ROOT_or_subject = yes }
 						568 = { is_controlled_by_ROOT_or_subject = yes }
 						567 = { is_controlled_by_ROOT_or_subject = yes }
 						566 = { is_controlled_by_ROOT_or_subject = yes }
-						575 = { is_controlled_by_ROOT_or_subject = yes }
-						565 = { is_controlled_by_ROOT_or_subject = yes }
-						878 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -9963,14 +9967,10 @@ integrate_siberia_category = {
 						transfer_state = 571
 						transfer_state = 578
 						transfer_state = 570
-						transfer_state = 576
 						transfer_state = 569
 						transfer_state = 568
 						transfer_state = 567
 						transfer_state = 566
-						transfer_state = 575
-						transfer_state = 565
-						transfer_state = 878
 					}
 				}
 			}
@@ -10069,6 +10069,10 @@ integrate_siberia_category = {
 			644 = { is_controlled_by_ROOT_or_subject = yes }
 			876 = { is_controlled_by_ROOT_or_subject = yes }
 			877 = { is_controlled_by_ROOT_or_subject = yes }
+			878 = { is_controlled_by_ROOT_or_subject = yes }
+			565 = { is_controlled_by_ROOT_or_subject = yes }
+			575 = { is_controlled_by_ROOT_or_subject = yes }
+			576 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			YAM = {
@@ -10082,6 +10086,10 @@ integrate_siberia_category = {
 				transfer_state = 644
 				transfer_state = 876
 				transfer_state = 877
+				transfer_state = 878
+				transfer_state = 565
+				transfer_state = 575
+				transfer_state = 576
 			}
 			if = {
 				limit = {
@@ -10098,14 +10106,10 @@ integrate_siberia_category = {
 						571 = { is_controlled_by_ROOT_or_subject = yes }
 						578 = { is_controlled_by_ROOT_or_subject = yes }
 						570 = { is_controlled_by_ROOT_or_subject = yes }
-						576 = { is_controlled_by_ROOT_or_subject = yes }
 						569 = { is_controlled_by_ROOT_or_subject = yes }
 						568 = { is_controlled_by_ROOT_or_subject = yes }
 						567 = { is_controlled_by_ROOT_or_subject = yes }
 						566 = { is_controlled_by_ROOT_or_subject = yes }
-						575 = { is_controlled_by_ROOT_or_subject = yes }
-						565 = { is_controlled_by_ROOT_or_subject = yes }
-						878 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -10122,14 +10126,10 @@ integrate_siberia_category = {
 						transfer_state = 571
 						transfer_state = 578
 						transfer_state = 570
-						transfer_state = 576
 						transfer_state = 569
 						transfer_state = 568
 						transfer_state = 567
 						transfer_state = 566
-						transfer_state = 575
-						transfer_state = 565
-						transfer_state = 878
 					}
 				}
 			}
@@ -10228,6 +10228,10 @@ integrate_siberia_category = {
 			644 = { is_controlled_by_ROOT_or_subject = yes }
 			876 = { is_controlled_by_ROOT_or_subject = yes }
 			877 = { is_controlled_by_ROOT_or_subject = yes }
+			878 = { is_controlled_by_ROOT_or_subject = yes }
+			565 = { is_controlled_by_ROOT_or_subject = yes }
+			575 = { is_controlled_by_ROOT_or_subject = yes }
+			576 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			OVO = {
@@ -10241,6 +10245,10 @@ integrate_siberia_category = {
 				transfer_state = 644
 				transfer_state = 876
 				transfer_state = 877
+				transfer_state = 878
+				transfer_state = 565
+				transfer_state = 575
+				transfer_state = 576
 			}
 			if = {
 				limit = {
@@ -10257,14 +10265,10 @@ integrate_siberia_category = {
 						571 = { is_controlled_by_ROOT_or_subject = yes }
 						578 = { is_controlled_by_ROOT_or_subject = yes }
 						570 = { is_controlled_by_ROOT_or_subject = yes }
-						576 = { is_controlled_by_ROOT_or_subject = yes }
 						569 = { is_controlled_by_ROOT_or_subject = yes }
 						568 = { is_controlled_by_ROOT_or_subject = yes }
 						567 = { is_controlled_by_ROOT_or_subject = yes }
 						566 = { is_controlled_by_ROOT_or_subject = yes }
-						575 = { is_controlled_by_ROOT_or_subject = yes }
-						565 = { is_controlled_by_ROOT_or_subject = yes }
-						878 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -10281,14 +10285,10 @@ integrate_siberia_category = {
 						transfer_state = 571
 						transfer_state = 578
 						transfer_state = 570
-						transfer_state = 576
 						transfer_state = 569
 						transfer_state = 568
 						transfer_state = 567
 						transfer_state = 566
-						transfer_state = 575
-						transfer_state = 565
-						transfer_state = 878
 					}
 				}
 			}
@@ -10387,6 +10387,10 @@ integrate_siberia_category = {
 			644 = { is_controlled_by_ROOT_or_subject = yes }
 			876 = { is_controlled_by_ROOT_or_subject = yes }
 			877 = { is_controlled_by_ROOT_or_subject = yes }
+			878 = { is_controlled_by_ROOT_or_subject = yes }
+			565 = { is_controlled_by_ROOT_or_subject = yes }
+			575 = { is_controlled_by_ROOT_or_subject = yes }
+			576 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			TAN = {
@@ -10400,6 +10404,10 @@ integrate_siberia_category = {
 				transfer_state = 644
 				transfer_state = 876
 				transfer_state = 877
+				transfer_state = 878
+				transfer_state = 565
+				transfer_state = 575
+				transfer_state = 576
 			}
 			if = {
 				limit = {
@@ -10416,14 +10424,10 @@ integrate_siberia_category = {
 						571 = { is_controlled_by_ROOT_or_subject = yes }
 						578 = { is_controlled_by_ROOT_or_subject = yes }
 						570 = { is_controlled_by_ROOT_or_subject = yes }
-						576 = { is_controlled_by_ROOT_or_subject = yes }
 						569 = { is_controlled_by_ROOT_or_subject = yes }
 						568 = { is_controlled_by_ROOT_or_subject = yes }
 						567 = { is_controlled_by_ROOT_or_subject = yes }
 						566 = { is_controlled_by_ROOT_or_subject = yes }
-						575 = { is_controlled_by_ROOT_or_subject = yes }
-						565 = { is_controlled_by_ROOT_or_subject = yes }
-						878 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -10440,14 +10444,10 @@ integrate_siberia_category = {
 						transfer_state = 571
 						transfer_state = 578
 						transfer_state = 570
-						transfer_state = 576
 						transfer_state = 569
 						transfer_state = 568
 						transfer_state = 567
 						transfer_state = 566
-						transfer_state = 575
-						transfer_state = 565
-						transfer_state = 878
 					}
 				}
 			}
@@ -10546,6 +10546,10 @@ integrate_siberia_category = {
 			644 = { is_controlled_by_ROOT_or_subject = yes }
 			876 = { is_controlled_by_ROOT_or_subject = yes }
 			877 = { is_controlled_by_ROOT_or_subject = yes }
+			878 = { is_controlled_by_ROOT_or_subject = yes }
+			565 = { is_controlled_by_ROOT_or_subject = yes }
+			575 = { is_controlled_by_ROOT_or_subject = yes }
+			576 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			KHA = {
@@ -10559,6 +10563,10 @@ integrate_siberia_category = {
 				transfer_state = 644
 				transfer_state = 876
 				transfer_state = 877
+				transfer_state = 878
+				transfer_state = 565
+				transfer_state = 575
+				transfer_state = 576
 			}
 			if = {
 				limit = {
@@ -10575,14 +10583,10 @@ integrate_siberia_category = {
 						571 = { is_controlled_by_ROOT_or_subject = yes }
 						578 = { is_controlled_by_ROOT_or_subject = yes }
 						570 = { is_controlled_by_ROOT_or_subject = yes }
-						576 = { is_controlled_by_ROOT_or_subject = yes }
 						569 = { is_controlled_by_ROOT_or_subject = yes }
 						568 = { is_controlled_by_ROOT_or_subject = yes }
 						567 = { is_controlled_by_ROOT_or_subject = yes }
 						566 = { is_controlled_by_ROOT_or_subject = yes }
-						575 = { is_controlled_by_ROOT_or_subject = yes }
-						565 = { is_controlled_by_ROOT_or_subject = yes }
-						878 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -10599,14 +10603,10 @@ integrate_siberia_category = {
 						transfer_state = 571
 						transfer_state = 578
 						transfer_state = 570
-						transfer_state = 576
 						transfer_state = 569
 						transfer_state = 568
 						transfer_state = 567
 						transfer_state = 566
-						transfer_state = 575
-						transfer_state = 565
-						transfer_state = 878
 					}
 				}
 			}
@@ -10705,6 +10705,10 @@ integrate_siberia_category = {
 			644 = { is_controlled_by_ROOT_or_subject = yes }
 			876 = { is_controlled_by_ROOT_or_subject = yes }
 			877 = { is_controlled_by_ROOT_or_subject = yes }
+			878 = { is_controlled_by_ROOT_or_subject = yes }
+			565 = { is_controlled_by_ROOT_or_subject = yes }
+			575 = { is_controlled_by_ROOT_or_subject = yes }
+			576 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			TAN = {
@@ -10718,6 +10722,10 @@ integrate_siberia_category = {
 				transfer_state = 644
 				transfer_state = 876
 				transfer_state = 877
+				transfer_state = 878
+				transfer_state = 565
+				transfer_state = 575
+				transfer_state = 576
 			}
 			if = {
 				limit = {
@@ -10734,14 +10742,10 @@ integrate_siberia_category = {
 						571 = { is_controlled_by_ROOT_or_subject = yes }
 						578 = { is_controlled_by_ROOT_or_subject = yes }
 						570 = { is_controlled_by_ROOT_or_subject = yes }
-						576 = { is_controlled_by_ROOT_or_subject = yes }
 						569 = { is_controlled_by_ROOT_or_subject = yes }
 						568 = { is_controlled_by_ROOT_or_subject = yes }
 						567 = { is_controlled_by_ROOT_or_subject = yes }
 						566 = { is_controlled_by_ROOT_or_subject = yes }
-						575 = { is_controlled_by_ROOT_or_subject = yes }
-						565 = { is_controlled_by_ROOT_or_subject = yes }
-						878 = { is_controlled_by_ROOT_or_subject = yes }
 					}
 				}
 				custom_effect_tooltip = integrate_siberian_coring_states_tt
@@ -10758,14 +10762,10 @@ integrate_siberia_category = {
 						transfer_state = 571
 						transfer_state = 578
 						transfer_state = 570
-						transfer_state = 576
 						transfer_state = 569
 						transfer_state = 568
 						transfer_state = 567
 						transfer_state = 566
-						transfer_state = 575
-						transfer_state = 565
-						transfer_state = 878
 					}
 				}
 			}
