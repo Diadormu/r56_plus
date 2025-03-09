@@ -140,6 +140,9 @@
   WES_integrate_arabia: "向[WES.GetName]移交领土"
   MRT_integrate_arabia: "向[MRT.GetName]移交领土"
   SUD_integrate_arabia: "向[SUD.GetName]移交领土"
+  BHR_integrate_arabia: "向[BHR.GetName]移交领土"
+  FSA_integrate_arabia: "向[FSA.GetName]移交领土"
+  IMO_integrate_arabia: "向[IMO.GetName]移交领土"
 
   integrate_majapahit_empire_category: "整合满者伯夷"
   INS_integrate_majapahit_empire: "向[INS.GetName]移交领土"
@@ -252,6 +255,9 @@
   CMR_unite_latin_africa: "向[CMR.GetName]移交领土"
   CHA_unite_latin_africa: "向[CHA.GetName]移交领土"
   CAR_unite_latin_africa: "向[CAR.GetName]移交领土"
+
+  integrate_neo_assyrian_empire_category: "整合亚述"
+  ASY_neo_assyrian: "向[ASY.GetName]移交领土"
 
   #========== TOA ==========#
 

@@ -89,7 +89,7 @@ focus_tree = {
 			}
 		}
 
-		completion_reward = { #TODO_Manu: This is just copy-pasted from the old focus -> Is this what we want?
+		completion_reward = {
 			if = {
 				limit = {
 					all_owned_state = {
@@ -205,7 +205,7 @@ focus_tree = {
 			}
 		}
 
-		completion_reward = { #TODO_Manu: This is just copy-pasted from the old focus -> Is this what we want?
+		completion_reward = {
 			IF = {
 				limit = {
 					any_owned_state = {
@@ -347,7 +347,7 @@ focus_tree = {
 			}
 		}
 
-		completion_reward = { #TODO_Manu: This is just copy-pasted from the old focus -> Is this what we want?
+		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
 					industrial_complex > 0
@@ -4735,7 +4735,6 @@ focus_tree = {
 				tooltip = SOV_fyp_controlled_factories_tier_4_tt
 				NOT = { num_of_controlled_factories < SOV_fyp_factory_requirement_tier_4 }
 			}
-			#TODO_Manu: This could require X num of factories to have been relocated
 		}
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_ARMY_XP}
@@ -14682,6 +14681,12 @@ ai_will_do = {
 			modifier = {
 				factor = 0
 				has_civil_war = yes
+			}
+			modifier = {
+				factor = 0
+				PER = {
+					has_government = ROOT
+				}
 			}	
 		}
 		will_lead_to_war_with = PER
