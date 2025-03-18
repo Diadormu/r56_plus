@@ -2542,6 +2542,7 @@ integrate_austria_hungary_category = {
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_HUN_required_states_tt
 				155 = { is_controlled_by_ROOT_or_subject = yes }
+				1104 = { is_controlled_by_ROOT_or_subject = yes }
 				43 = { is_controlled_by_ROOT_or_subject = yes }
 				154 = { is_controlled_by_ROOT_or_subject = yes }
 				913 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2605,6 +2606,7 @@ integrate_austria_hungary_category = {
 				custom_effect_tooltip = integrate_country_HUN_coring_states_tt
 				hidden_effect = {
 					transfer_state = 155
+					transfer_state = 1104
 					transfer_state = 43
 					transfer_state = 154
 					transfer_state = 913
@@ -2703,6 +2705,7 @@ integrate_austria_hungary_category = {
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_HUN_required_states_tt
 				155 = { is_controlled_by_ROOT_or_subject = yes }
+				1104 = { is_controlled_by_ROOT_or_subject = yes }
 				43 = { is_controlled_by_ROOT_or_subject = yes }
 				154 = { is_controlled_by_ROOT_or_subject = yes }
 				913 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2766,6 +2769,7 @@ integrate_austria_hungary_category = {
 				custom_effect_tooltip = integrate_country_HUN_coring_states_tt
 				hidden_effect = {
 					transfer_state = 155
+					transfer_state = 1104
 					transfer_state = 43
 					transfer_state = 154
 					transfer_state = 913
@@ -2864,6 +2868,7 @@ integrate_austria_hungary_category = {
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_HUN_required_states_tt
 				155 = { is_controlled_by_ROOT_or_subject = yes }
+				1104 = { is_controlled_by_ROOT_or_subject = yes }
 				43 = { is_controlled_by_ROOT_or_subject = yes }
 				154 = { is_controlled_by_ROOT_or_subject = yes }
 				913 = { is_controlled_by_ROOT_or_subject = yes }
@@ -2927,6 +2932,7 @@ integrate_austria_hungary_category = {
 				custom_effect_tooltip = integrate_country_HUN_coring_states_tt
 				hidden_effect = {
 					transfer_state = 155
+					transfer_state = 1104
 					transfer_state = 43
 					transfer_state = 154
 					transfer_state = 913
@@ -3017,6 +3023,7 @@ integrate_austria_hungary_category = {
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_HUN_required_states_tt
 				155 = { is_controlled_by_ROOT_or_subject = yes }
+				1104 = { is_controlled_by_ROOT_or_subject = yes }
 				43 = { is_controlled_by_ROOT_or_subject = yes }
 				154 = { is_controlled_by_ROOT_or_subject = yes }
 				913 = { is_controlled_by_ROOT_or_subject = yes }
@@ -3080,6 +3087,7 @@ integrate_austria_hungary_category = {
 				custom_effect_tooltip = integrate_country_HUN_coring_states_tt
 				hidden_effect = {
 					transfer_state = 155
+					transfer_state = 1104
 					transfer_state = 43
 					transfer_state = 154
 					transfer_state = 913
@@ -3160,6 +3168,7 @@ integrate_austria_hungary_category = {
 			custom_trigger_tooltip = {
 				tooltip = integrate_country_HUN_required_states_tt
 				155 = { is_controlled_by_ROOT_or_subject = yes }
+				1104 = { is_controlled_by_ROOT_or_subject = yes }
 				43 = { is_controlled_by_ROOT_or_subject = yes }
 				154 = { is_controlled_by_ROOT_or_subject = yes }
 				913 = { is_controlled_by_ROOT_or_subject = yes }
@@ -3200,6 +3209,7 @@ integrate_austria_hungary_category = {
 				custom_effect_tooltip = integrate_country_HUN_coring_states_tt
 				hidden_effect = {
 					transfer_state = 155
+					transfer_state = 1104
 					transfer_state = 43 
 					transfer_state = 154
 					transfer_state = 913
@@ -4458,6 +4468,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -4593,6 +4605,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -4689,6 +4703,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -4824,6 +4840,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -4920,6 +4938,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -5055,6 +5075,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -5151,6 +5173,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -5286,6 +5310,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -5382,6 +5408,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -5517,6 +5545,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -5638,6 +5668,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -5773,6 +5805,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -5869,6 +5903,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -6004,6 +6040,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -6100,6 +6138,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -6235,6 +6275,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -6331,6 +6373,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -6466,6 +6510,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -6562,6 +6608,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -6697,6 +6745,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -6793,6 +6843,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -6928,6 +6980,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -7024,6 +7078,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -7159,6 +7215,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -7255,6 +7313,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -7390,6 +7450,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -7486,6 +7548,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -7621,6 +7685,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -7717,6 +7783,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -7852,6 +7920,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -7948,6 +8018,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -8083,6 +8155,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -8179,6 +8253,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -8314,6 +8390,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -8410,6 +8488,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -8545,6 +8625,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -8644,6 +8726,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -8779,6 +8863,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -8878,6 +8964,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -9013,6 +9101,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
@@ -9112,6 +9202,8 @@ integrate_arabia_category = {
 				658 = { is_controlled_by_ROOT_or_subject = yes }
 				659 = { is_controlled_by_ROOT_or_subject = yes }
 				979 = { is_controlled_by_ROOT_or_subject = yes }
+				1102 = { is_controlled_by_ROOT_or_subject = yes }
+				1103 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		complete_effect = {
@@ -9247,6 +9339,8 @@ integrate_arabia_category = {
 					limit = { 294 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 294
 				}
+				transfer_state = 1102
+				transfer_state = 1103
 				if = {
 					limit = { 783 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 783
