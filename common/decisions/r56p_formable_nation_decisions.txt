@@ -62,24 +62,10 @@ form_nation_mod_category = {
 			}
 		}
 		available = {
-			OR = {
-				76 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				82 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				83 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				84 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-			}
+			76 = { is_controlled_by_ROOT_or_subject = yes }
+			82 = { is_controlled_by_ROOT_or_subject = yes }
+			83 = { is_controlled_by_ROOT_or_subject = yes }
+			84 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			76 = {
@@ -116,12 +102,7 @@ form_nation_mod_category = {
 			}
 		}
 		available = {
-			OR = {
-				664 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-			}
+			664 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			664 = {
@@ -150,16 +131,8 @@ form_nation_mod_category = {
 			}
 		}
 		available = {
-			OR = {
-				45 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-				764 = {
-					is_controlled_by_ROOT_or_subject = yes
-					NOT = { is_core_of = HUN }
-				}
-			}
+			45 = { is_controlled_by_ROOT_or_subject = yes }
+			764 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			45 = {

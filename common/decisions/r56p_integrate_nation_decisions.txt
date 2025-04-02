@@ -7922,16 +7922,28 @@ integrate_majapahit_empire_category = {
 					transfer_state = 721
 				}
 				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
+					limit = { 711 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 711
+				}
+				if = {
+					limit = { 712 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 712
 				}
 				if = {
 					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 737
 				}
 				if = {
+					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 523
+				}
+				if = {
 					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 979
+				}
+				if = {
+					limit = { 724 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 724
 				}
 			}
 		}
@@ -7975,16 +7987,28 @@ integrate_majapahit_empire_category = {
 					transfer_state = 721
 				}
 				if = {
-					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
-					transfer_state = 523
+					limit = { 711 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 711
+				}
+				if = {
+					limit = { 712 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 712
 				}
 				if = {
 					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 737
 				}
 				if = {
+					limit = { 523 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 523
+				}
+				if = {
 					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 979
+				}
+				if = {
+					limit = { 724 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 724
 				}
 			}
 		}
