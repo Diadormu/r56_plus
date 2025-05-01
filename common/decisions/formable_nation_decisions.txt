@@ -1945,6 +1945,8 @@ form_ottoman_empire_category = {
 				controls_state = 676
 				controls_state = 675
 				controls_state = 291
+				controls_state = 1010
+				controls_state = 1011
 			}
 			# France
 			custom_trigger_tooltip = {
@@ -1976,6 +1978,8 @@ form_ottoman_empire_category = {
 				676 = { add_core_of = ROOT }
 				675 = { add_core_of = ROOT }
 				291 = { add_core_of = ROOT }
+				1010 = { add_core_of = ROOT }
+				1011 = { add_core_of = ROOT }
 			}
 			# France
 			custom_effect_tooltip = form_persia_france_coring_states_tt
@@ -2449,6 +2453,8 @@ form_ottoman_empire_category = {
 				controls_state = 676
 				controls_state = 675
 				controls_state = 291
+				controls_state = 1010
+				controls_state = 1011
 			}
 		}
 
@@ -2465,6 +2471,8 @@ form_ottoman_empire_category = {
 				676 = { add_core_of = ROOT }
 				675 = { add_core_of = ROOT }
 				291 = { add_core_of = ROOT }
+				1010 = { add_core_of = ROOT }
+				1011 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = ottoman_mesopotamia_flag
@@ -2510,8 +2518,8 @@ form_ottoman_empire_category = {
 			controls_state = 858
 			controls_state = 854
 			controls_state = 859
-			controls_state = 907
 			controls_state = 1014
+			controls_state = 1013
 			
 		}
 
@@ -2538,8 +2546,10 @@ form_ottoman_empire_category = {
 			858 = { add_core_of = ROOT }
 			854 = { add_core_of = ROOT }
 			859 = { add_core_of = ROOT }
-			907 = { add_core_of = ROOT }
 			1014 = { add_core_of = ROOT }
+			1013 = { add_core_of = ROOT }
+			1015 = { add_core_of = ROOT }
+			1016 = { add_core_of = ROOT }
 			create_wargoal = { 
 				type = annex_everything
 				target = OMA
@@ -2584,6 +2594,7 @@ form_ottoman_empire_category = {
 			controls_state = 659
 			controls_state = 855
 			controls_state = 856
+			controls_state = 992
 		}
 
 		visible = {
@@ -2598,6 +2609,7 @@ form_ottoman_empire_category = {
 			659 = { add_core_of = ROOT }
 			855 = { add_core_of = ROOT }
 			856 = { add_core_of = ROOT } 
+			992 = { add_core_of = ROOT } 
 			hidden_effect = {
 				set_global_flag = ottoman_yemen_flag
 			}
@@ -3148,7 +3160,7 @@ form_european_union_category = {
 			# Netherlands
 			custom_effect_tooltip = form_eu_netherlands_coring_states_tt 
 			hidden_effect = {
-				every_controlled_state = {
+				every_state = {
 					limit = {
 						is_core_of = HOL
 					}
@@ -3162,7 +3174,7 @@ form_european_union_category = {
 			# Belgium
 			custom_effect_tooltip = form_eu_belgium_coring_states_tt
 			hidden_effect = {
-				every_controlled_state = {
+				every_state = {
 					limit = {
 						is_core_of = BEL
 					}
@@ -3177,7 +3189,7 @@ form_european_union_category = {
 			# France
 			custom_effect_tooltip = form_eu_france_coring_states_tt
 			hidden_effect = {
-				every_controlled_state = {
+				every_state = {
 					limit = {
 						is_core_of = FRA
 					}
@@ -3213,7 +3225,7 @@ form_european_union_category = {
 			# Italy
 			custom_effect_tooltip = form_eu_italy_coring_states_tt
 			hidden_effect = {
-				every_controlled_state = {
+				every_state = {
 					limit = {
 						is_core_of = ITA
 					}
@@ -3241,7 +3253,7 @@ form_european_union_category = {
 			# Germany
 			custom_effect_tooltip = form_country_germany_coring_states_tt
 			hidden_effect = {
-				every_controlled_state = {
+				every_state = {
 					limit = {
 						is_core_of = GER
 					}
@@ -3387,33 +3399,26 @@ form_european_union_category = {
 
 			custom_effect_tooltip = gain_cores_on_the_highlighted_states_tt
 			hidden_effect = {
-				every_controlled_state = {
+				every_state = {
 					limit = {
 						OR = {
+							#state = 845 # Jura Mountains
+							#state = 3 # Swiss Plateu
+							#state = 847 # Western Swiss Alps
+							#state = 846 # Ticino
+							#state = 151 # Eastern Swiss Alps
+							#state = 848 # Vorarlberg
+							#state = 153 # Tyrol
+							#state = 152 # Oberösterreich
+							#state = 976 # Steiermark-Kärnten
+							#state = 4 # Niederösterreich
+							#state = 975 # Burgenland
 							is_core_of = AUS
 							is_core_of = SWI
 						}
 					}
 					add_core_of = ROOT
 				}
-				#every_state = {
-				#	limit = {
-				#		OR = {
-				#			state = 845 # Jura Mountains
-				#			state = 3 # Swiss Plateu
-				#			state = 847 # Western Swiss Alps
-				#			state = 846 # Ticino
-				#			state = 151 # Eastern Swiss Alps
-				#			state = 848 # Vorarlberg
-				#			state = 153 # Tyrol
-				#			state = 152 # Oberösterreich
-				#			state = 976 # Steiermark-Kärnten
-				#			state = 4 # Niederösterreich
-				#			state = 975 # Burgenland
-				#		}
-				#	}
-				#	add_core_of = ROOT
-				#}
 			}
 			 
 			hidden_effect = { 
@@ -3542,16 +3547,6 @@ form_european_union_category = {
 
 			custom_effect_tooltip = gain_cores_on_the_highlighted_states_tt
 			hidden_effect = {
-				every_controlled_state = {
-					limit = {
-						OR = {
-							is_core_of = POR
-							is_core_of = SPA
-							is_core_of = SPR
-						}
-					}
-					add_core_of = ROOT
-				}
 				every_state = {
 					limit = {
 						OR = {
@@ -3582,6 +3577,9 @@ form_european_union_category = {
 							state = 112 # Lisbon
 							state = 795 # Santarem
 							state = 179 # Beja
+							is_core_of = POR
+							is_core_of = SPA
+							is_core_of = SPR
 						}
 					}
 					add_core_of = ROOT
@@ -3717,50 +3715,43 @@ form_european_union_category = {
 
 			custom_effect_tooltip = gain_cores_on_the_highlighted_states_tt
 			hidden_effect = {
-				every_controlled_state = {
+				every_state = {
 					limit = {
 						OR = {
+							#state = 69 # North Sudetenland
+							#state = 972 # South Sudetenland
+							#state = 9 # Bohemia
+							#state = 75 # Moravia
+							#state = 74 # Czech Silesia
+							#state = 72 # Zaolzie
+							#state = 70 # Western Slovakia
+							#state = 664 # Southern Slovakia
+							#state = 71 # Eastern Slovakia
+							#state = 73 # Carpathian Ruthenia
+							#state = 762 # Katowice
+							#state = 86 # Poznan
+							#state = 85 # Danzig
+							#state = 807 # Gdynia
+							#state = 98 # Plock
+							#state = 87 # Lodz
+							#state = 10 # Warsaw
+							#state = 90 # Kielce
+							#state = 88 # Krakow
+							#state = 89 # Stanislawow
+							#state = 91 # Lwow
+							#state = 92 # Lublin
+							#state = 97 # Bialystok
+							#state = 95 # Nowgrodek
+							#state = 96 # Wiljeka
+							#state = 784 # Wilno
+							#state = 94 # Polesie
+							#state = 93 # Wolyn
 							is_core_of = CZE
 							is_core_of = POL
 						}
 					}
 					add_core_of = ROOT
 				}
-				#every_state = {
-				#	limit = {
-				#		OR = {
-				#			state = 69 # North Sudetenland
-				#			state = 972 # South Sudetenland
-				#			state = 9 # Bohemia
-				#			state = 75 # Moravia
-				#			state = 74 # Czech Silesia
-				#			state = 72 # Zaolzie
-				#			state = 70 # Western Slovakia
-				#			state = 664 # Southern Slovakia
-				#			state = 71 # Eastern Slovakia
-				#			state = 73 # Carpathian Ruthenia
-				#			state = 762 # Katowice
-				#			state = 86 # Poznan
-				#			state = 85 # Danzig
-				#			state = 807 # Gdynia
-				#			state = 98 # Plock
-				#			state = 87 # Lodz
-				#			state = 10 # Warsaw
-				#			state = 90 # Kielce
-				#			state = 88 # Krakow
-				#			state = 89 # Stanislawow
-				#			state = 91 # Lwow
-				#			state = 92 # Lublin
-				#			state = 97 # Bialystok
-				#			state = 95 # Nowgrodek
-				#			state = 96 # Wiljeka
-				#			state = 784 # Wilno
-				#			state = 94 # Polesie
-				#			state = 93 # Wolyn
-				#		}
-				#	}
-				#	add_core_of = ROOT
-				#}
 			}
 			 
 			hidden_effect = { 
@@ -3867,9 +3858,24 @@ form_european_union_category = {
 
 			custom_effect_tooltip = gain_cores_on_the_highlighted_states_tt
 			hidden_effect = {
-				every_controlled_state = {
+				every_state = {
 					limit = {
 						OR = {
+							#state = 188 # Memel
+							#state = 189 # Semigallen
+							#state = 814 # Sudava
+							#state = 11 # Kaunas
+							#state = 815 # Aukstailjia
+							#state = 190 # Kurzeme
+							#state = 809 # Zemgale
+							#state = 808 # Riga
+							#state = 810 # Latgale
+							#state = 12 # Vidzeme
+							#state = 191 # Tartu
+							#state = 13 # Pärnu
+							#state = 813 # Virumaa
+							#state = 812 # Harju
+							#state = 811 # Saremaa
 							is_core_of = LIT
 							is_core_of = LAT
 							is_core_of = EST
@@ -3877,28 +3883,6 @@ form_european_union_category = {
 					}
 					add_core_of = ROOT
 				}
-				#every_state = {
-				#	limit = {
-				#		OR = {
-				#			state = 188 # Memel
-				#			state = 189 # Semigallen
-				#			state = 814 # Sudava
-				#			state = 11 # Kaunas
-				#			state = 815 # Aukstailjia
-				#			state = 190 # Kurzeme
-				#			state = 809 # Zemgale
-				#			state = 808 # Riga
-				#			state = 810 # Latgale
-				#			state = 12 # Vidzeme
-				#			state = 191 # Tartu
-				#			state = 13 # Pärnu
-				#			state = 813 # Virumaa
-				#			state = 812 # Harju
-				#			state = 811 # Saremaa
-				#		}
-				#	}
-				#	add_core_of = ROOT
-				#}
 			}
 			 
 			hidden_effect = { 
@@ -4019,44 +4003,37 @@ form_european_union_category = {
 
 			custom_effect_tooltip = gain_cores_on_the_highlighted_states_tt
 			hidden_effect = {
-				every_controlled_state = {
+				every_state = {
 					limit = {
 						OR = {
+							#state = 127 # Sussex
+							#state = 123 # South-West England
+							#state = 338 # Gloustershire
+							#state = 126 # Greater London Area
+							#state = 125 # East Anglia
+							#state = 129 # East Midlands
+							#state = 128 # West Midlands
+							#state = 122 # Wales
+							#state = 132 # Lancashire
+							#state = 130 # Yorkshire
+							#state = 931 # Cumbria
+							#state = 131 # Northumberland
+							#state = 932 # Isle of Man
+							#state = 133 # Lanark
+							#state = 121 # Lothian
+							#state = 136 # Aberdeenshire
+							#state = 120 # Scottish Highlands
+							#state = 933 # Shetland Islands
+							#state = 119 # Northern Ireland
+							#state = 113 # Leinster
+							#state = 134 # Connaught
+							#state = 135 # Munster
 							is_core_of = ENG
 							is_core_of = IRE
 						}
 					}
 					add_core_of = ROOT
 				}
-				#every_state = {
-				#	limit = {
-				#		OR = {
-				#			state = 127 # Sussex
-				#			state = 123 # South-West England
-				#			state = 338 # Gloustershire
-				#			state = 126 # Greater London Area
-				#			state = 125 # East Anglia
-				#			state = 129 # East Midlands
-				#			state = 128 # West Midlands
-				#			state = 122 # Wales
-				#			state = 132 # Lancashire
-				#			state = 130 # Yorkshire
-				#			state = 931 # Cumbria
-				#			state = 131 # Northumberland
-				#			state = 932 # Isle of Man
-				#			state = 133 # Lanark
-				#			state = 121 # Lothian
-				#			state = 136 # Aberdeenshire
-				#			state = 120 # Scottish Highlands
-				#			state = 933 # Shetland Islands
-				#			state = 119 # Northern Ireland
-				#			state = 113 # Leinster
-				#			state = 134 # Connaught
-				#			state = 135 # Munster
-				#		}
-				#	}
-				#	add_core_of = ROOT
-				#}
 			}
 			 
 			hidden_effect = { 
@@ -4189,9 +4166,37 @@ form_european_union_category = {
 
 			custom_effect_tooltip = gain_cores_on_the_highlighted_states_tt
 			hidden_effect = {
-				every_controlled_state = {
+				every_state = {
 					limit = {
 						OR = {
+							#state = 912 # North Schleswig
+							#state = 99 # Jutland
+							#state = 911 # Fyn
+							#state = 37 # Sjaelland
+							#state = 910 # Bornholm
+							#state = 138 # Skåne
+							#state = 124 # Gotland
+							#state = 139 # Småland
+							#state = 140 # Västergötland
+							#state = 915 # Bohuslän
+							#state = 913 # Östergötland
+							#state = 919 # Värmland
+							#state = 141 # Södermanland
+							#state = 916 # Dalarna
+							#state = 38 # Gävleborg
+							#state = 917 # Jämtland
+							#state = 918 # Västerbotten
+							#state = 666 # Norrbotten
+							#state = 110 # Oslofjord
+							#state = 921 # Telemark
+							#state = 922 # agder
+							#state = 142 # Vestlandet
+							#state = 920 # Opplandene
+							#state = 143 # Trondelag
+							#state = 923 # Helgeland
+							#state = 144 # Nordland
+							#state = 924 # Troms
+							#state = 925 # Finnmark
 							is_core_of = DEN
 							is_core_of = SWE
 							is_core_of = NOR
@@ -4199,41 +4204,6 @@ form_european_union_category = {
 					}
 					add_core_of = ROOT
 				}
-				#every_state = {
-				#	limit = {
-				#		OR = {
-				#			state = 912 # North Schleswig
-				#			state = 99 # Jutland
-				#			state = 911 # Fyn
-				#			state = 37 # Sjaelland
-				#			state = 910 # Bornholm
-				#			state = 138 # Skåne
-				#			state = 124 # Gotland
-				#			state = 139 # Småland
-				#			state = 140 # Västergötland
-				#			state = 915 # Bohuslän
-				#			state = 913 # Östergötland
-				#			state = 919 # Värmland
-				#			state = 141 # Södermanland
-				#			state = 916 # Dalarna
-				#			state = 38 # Gävleborg
-				#			state = 917 # Jämtland
-				#			state = 918 # Västerbotten
-				#			state = 666 # Norrbotten
-				#			state = 110 # Oslofjord
-				#			state = 921 # Telemark
-				#			state = 922 # agder
-				#			state = 142 # Vestlandet
-				#			state = 920 # Opplandene
-				#			state = 143 # Trondelag
-				#			state = 923 # Helgeland
-				#			state = 144 # Nordland
-				#			state = 924 # Troms
-				#			state = 925 # Finnmark
-				#		}
-				#	}
-				#	add_core_of = ROOT
-				#}
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -4364,15 +4334,6 @@ form_european_union_category = {
 
 			custom_effect_tooltip = gain_cores_on_the_highlighted_states_tt
 			hidden_effect = {
-				every_controlled_state = {
-					limit = {
-						OR = {
-							is_core_of = FIN
-							is_core_of = KAR
-						}
-					}
-					add_core_of = ROOT
-				}
 				every_state = {
 					limit = {
 						OR = {
@@ -4392,6 +4353,8 @@ form_european_union_category = {
 							state = 213 # Murmansk
 							#state = 215 # Onega
 							#state = 216 # Olonets
+							is_core_of = FIN
+							is_core_of = KAR
 						}
 					}
 					add_core_of = ROOT
@@ -4556,9 +4519,48 @@ form_european_union_category = {
 
 			custom_effect_tooltip = gain_cores_on_the_highlighted_states_tt
 			hidden_effect = {
-				every_controlled_state = {
+				every_state = {
 					limit = {
 						OR = {
+							#state = 155 # North Transdanubia
+							#state = 974 # South Transdanubia
+							#state = 973 # Bacs-Bodrog
+							#state = 43 # Northern Hungary
+							#state = 154 # Alföld
+							#state = 80 # Bucovina
+							#state = 78 # Besarabia
+							#state = 766 # Southern Besarabia
+							#state = 79 # Moldova
+							#state = 76 # North Transylvania
+							#state = 83 # Crisana
+							#state = 84 # Transylvania
+							#state = 82 # Banat
+							#state = 81 # Oltenia
+							#state = 46 # Muntenia
+							#state = 971 # Northern Dobruja
+							#state = 77 # Dobruja
+							#state = 102 # North Slovenia
+							#state = 853 # Ljubljana
+							#state = 103 # Dalmatia
+							#state = 109 # Croatia
+							#state = 45 # Vojvodina
+							#state = 764 # West Banat
+							#state = 104 # Bosnia
+							#state = 804 # Herzegovina
+							#state = 105 # Montenegro
+							#state = 107 # Serbia
+							#state = 108 # Morava
+							#state = 802 # Kosovo
+							#state = 803 # Southern Serbia
+							#state = 970 # Debar
+							#state = 106 # Macedonia
+							#state = 934 # Schkoder
+							#state = 44 # Tirana
+							#state = 805 # Northern Epirus
+							#state = 48 # Sofia
+							#state = 801 # Moesia
+							#state = 211 # Burgas
+							#state = 212 # Plovdiv
 							is_core_of = HUN
 							is_core_of = ROM
 							is_core_of = YUG
@@ -4568,52 +4570,6 @@ form_european_union_category = {
 					}
 					add_core_of = ROOT
 				}
-				#every_state = {
-				#	limit = {
-				#		OR = {
-				#			state = 155 # North Transdanubia
-				#			state = 974 # South Transdanubia
-				#			state = 973 # Bacs-Bodrog
-				#			state = 43 # Northern Hungary
-				#			state = 154 # Alföld
-				#			state = 80 # Bucovina
-				#			state = 78 # Besarabia
-				#			state = 766 # Southern Besarabia
-				#			state = 79 # Moldova
-				#			state = 76 # North Transylvania
-				#			state = 83 # Crisana
-				#			state = 84 # Transylvania
-				#			state = 82 # Banat
-				#			state = 81 # Oltenia
-				#			state = 46 # Muntenia
-				#			state = 971 # Northern Dobruja
-				#			state = 77 # Dobruja
-				#			state = 102 # North Slovenia
-				#			state = 853 # Ljubljana
-				#			state = 103 # Dalmatia
-				#			state = 109 # Croatia
-				#			state = 45 # Vojvodina
-				#			state = 764 # West Banat
-				#			state = 104 # Bosnia
-				#			state = 804 # Herzegovina
-				#			state = 105 # Montenegro
-				#			state = 107 # Serbia
-				#			state = 108 # Morava
-				#			state = 802 # Kosovo
-				#			state = 803 # Southern Serbia
-				#			state = 970 # Debar
-				#			state = 106 # Macedonia
-				#			state = 934 # Schkoder
-				#			state = 44 # Tirana
-				#			state = 805 # Northern Epirus
-				#			state = 48 # Sofia
-				#			state = 801 # Moesia
-				#			state = 211 # Burgas
-				#			state = 212 # Plovdiv
-				#		}
-				#	}
-				#	add_core_of = ROOT
-				#}
 			}
 			 
 			hidden_effect = { 
@@ -4715,29 +4671,24 @@ form_european_union_category = {
 
 			custom_effect_tooltip = gain_cores_on_the_highlighted_states_tt
 			hidden_effect = {
-				every_controlled_state = {
+				every_state = {
 					limit = {
+						#OR = {
+						#	state = 185 # Epirus
+						#	state = 186 # Pelopennese
+						#	state = 47 # Attica
+						#	state = 731 # Central Macedonia
+						#	state = 184 # Thrace
+						#	state = 341 # Edirne
+						#	state = 797 # Istanbul
+						#	state = 187 # Aegean Islands
+						#	state = 182 # Crete
+						#	state = 164 # Dodecanese Islands
+						#}
 						is_core_of = GRE
 					}
 					add_core_of = ROOT
 				}
-				#every_state = {
-				#	limit = {
-				#		OR = {
-				#			state = 185 # Epirus
-				#			state = 186 # Pelopennese
-				#			state = 47 # Attica
-				#			state = 731 # Central Macedonia
-				#			state = 184 # Thrace
-				#			state = 341 # Edirne
-				#			state = 797 # Istanbul
-				#			state = 187 # Aegean Islands
-				#			state = 182 # Crete
-				#			state = 164 # Dodecanese Islands
-				#		}
-				#	}
-				#	add_core_of = ROOT
-				#}
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -4867,9 +4818,32 @@ form_european_union_category = {
 
 			custom_effect_tooltip = gain_cores_on_the_highlighted_states_tt
 			hidden_effect = {
-				every_controlled_state = {
+				every_state = {
 					limit = {
 						OR = {
+							#state = 207 # Vitebsk
+							#state = 206 # Minsk
+							#state = 204 # Bobrysk
+							#state = 194 # Mozyr
+							#state = 241 # Gomel
+							#state = 199 # Proskuriv
+							#state = 201 # Zhytomyr
+							#state = 198 # Vinnytsia
+							#state = 202 # Kyiv
+							#state = 193 # Chernihiv
+							#state = 203 # Cherkasy
+							#state = 834 # Balta-Tiraspol
+							#state = 192 # Odessa
+							#state = 197 # Mykholaiv
+							#state = 259 # Poltava
+							#state = 225 # Sumy
+							#state = 226 # Dnipropetrovsk
+							#state = 196 # Kharkiv
+							#state = 200 # Zaporizhia
+							#state = 221 # Kharkiv
+							#state = 227 # Donetsk
+							#state = 228 # Luhansk
+							#state = 137 # Crimea
 							is_core_of = BLR
 							is_core_of = UKR
 							is_core_of = CRI
@@ -4877,36 +4851,6 @@ form_european_union_category = {
 					}
 					add_core_of = ROOT
 				}
-				#every_state = {
-				#	limit = {
-				#		OR = {
-				#			state = 207 # Vitebsk
-				#			state = 206 # Minsk
-				#			state = 204 # Bobrysk
-				#			state = 194 # Mozyr
-				#			state = 241 # Gomel
-				#			state = 199 # Proskuriv
-				#			state = 201 # Zhytomyr
-				#			state = 198 # Vinnytsia
-				#			state = 202 # Kyiv
-				#			state = 193 # Chernihiv
-				#			state = 203 # Cherkasy
-				#			state = 834 # Balta-Tiraspol
-				#			state = 192 # Odessa
-				#			state = 197 # Mykholaiv
-				#			state = 259 # Poltava
-				#			state = 225 # Sumy
-				#			state = 226 # Dnipropetrovsk
-				#			state = 196 # Kharkiv
-				#			state = 200 # Zaporizhia
-				#			state = 221 # Kharkiv
-				#			state = 227 # Donetsk
-				#			state = 228 # Luhansk
-				#			state = 137 # Crimea
-				#		}
-				#	}
-				#	add_core_of = ROOT
-				#}
 			}
 			 
 			hidden_effect = { 
@@ -6375,6 +6319,8 @@ form_roman_empire_category = {
 			controls_state = 676 #Mosul
 			controls_state = 680 #Deir-az-Zur
 			controls_state = 350 #Diyarbakir
+			controls_state = 1010 #Al-Anbar
+			controls_state = 1011 #Al-Basrah
 
 		}
 
@@ -6404,6 +6350,12 @@ form_roman_empire_category = {
 
 			# Diyarbakir
 			350 = { add_core_of = ROOT }
+
+			# Al Anbar
+			1010 = { add_core_of = ROOT }
+
+			# Al Basrah
+			1011 = { add_core_of = ROOT }
 			
 			350 = { set_state_name = "梅利特纳" }
 			set_province_name = { id = 7620 name = "梅利特纳" }
@@ -7893,7 +7845,6 @@ form_persian_empire_category = {
 				455 = { add_core_of = ROOT }
 				183 = { add_core_of = ROOT }
 				656 = { add_core_of = ROOT }
-				118 = { add_core_of = ROOT }
 				907 = { add_core_of = ROOT }
 			}
 
@@ -8057,6 +8008,7 @@ form_byzantine_empire_category = {
 				799 = { add_core_of = ROOT }
 				797 = { add_core_of = ROOT }
 				798 = { add_core_of = ROOT }
+				800 = { add_core_of = ROOT }
 			}
 			# Bulgaria
 			custom_effect_tooltip = form_country_bulgaria_coring_states_tt
@@ -8800,6 +8752,7 @@ form_arabia_category = {
 		ai_will_do = {
 			base = 200
 		}
+
 	}
 
 	# Iraq + Kuwait
@@ -9555,6 +9508,8 @@ form_hre_category = {
 				controls_state = 153
 				controls_state = 152
 				controls_state = 4
+				controls_state = 975
+				controls_state = 976
 				controls_state = 848 #Vorarlberg
 			}
 
@@ -10327,12 +10282,22 @@ form_andalusia_category = {
 				controls_state = 416
 				controls_state = 414
 				controls_state = 410
+				controls_state = 1000
+				controls_state = 1001
+				controls_state = 1002
+				controls_state = 1003
+				controls_state = 1004
 			}
 			# Afghanistan
 			custom_trigger_tooltip = {
 				tooltip = form_country_afghanistan_required_states_tt
 				controls_state = 415
 				controls_state = 267
+				controls_state = 1005
+				controls_state = 1006
+				controls_state = 1007
+				controls_state = 1008
+				controls_state = 1009
 			}
 			# Pakistan
 			custom_trigger_tooltip = {
@@ -10343,6 +10308,10 @@ form_andalusia_category = {
 				controls_state = 444
 				controls_state = 440
 				controls_state = 443
+				controls_state = 441
+				controls_state = 987
+				controls_state = 988
+				controls_state = 1012
 			}
 			
 		}
@@ -10370,12 +10339,22 @@ form_andalusia_category = {
 				416 = { add_core_of = ROOT }
 				414 = { add_core_of = ROOT }
 				410 = { add_core_of = ROOT }
+				1000 = { add_core_of = ROOT }
+				1001 = { add_core_of = ROOT }
+				1002 = { add_core_of = ROOT }
+				1003 = { add_core_of = ROOT }
+				1004 = { add_core_of = ROOT }
 			}
 			# Afghanistan
 			custom_effect_tooltip = form_country_afghanistan_coring_states_tt
 			hidden_effect = {
 				415 = { add_core_of = ROOT }
 				267 = { add_core_of = ROOT }
+				1005 = { add_core_of = ROOT }
+				1006 = { add_core_of = ROOT }
+				1007 = { add_core_of = ROOT }
+				1008 = { add_core_of = ROOT }
+				1009 = { add_core_of = ROOT }
 			}
 			# Pakistan
 			custom_effect_tooltip = form_country_pakistan_coring_states_tt
@@ -10387,6 +10366,9 @@ form_andalusia_category = {
 				440 = { add_core_of = ROOT }
 				441 = { add_core_of = ROOT }
 				443 = { add_core_of = ROOT }
+				987 = { add_core_of = ROOT }
+				988 = { add_core_of = ROOT }
+				1012 = { add_core_of = ROOT }
 			}
 			hidden_effect = { set_global_flag = restored_rashid_flag }
 		}
@@ -10467,6 +10449,111 @@ form_andalusia_category = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
 			#}
+		}
+	}
+}
+
+maghreb_formable_category = {
+	
+	unite_maghreb = { 
+
+		icon = generic_form_nation
+
+		allowed = {
+		}
+
+		visible = {
+			NOT = { has_global_flag = maghreb_formed_flag }
+		}
+
+		available = {
+			
+			controls_state = 290
+			controls_state = 461
+			controls_state = 462
+			controls_state = 783
+			controls_state = 699
+			controls_state = 557
+			controls_state = 513
+			controls_state = 459
+			controls_state = 460
+			controls_state = 458
+			controls_state = 665
+			controls_state = 448
+			controls_state = 661
+			controls_state = 449
+			controls_state = 662
+			controls_state = 450
+			controls_state = 663
+			controls_state = 451
+
+		}
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+				state = 290
+				state = 461
+				state = 462
+				state = 783
+				state = 699
+				state = 557
+				state = 513
+				state = 459
+				state = 460
+				state = 458
+				state = 665
+				state = 448
+				state = 661
+				state = 449
+				state = 662
+				state = 450
+				state = 663
+				state = 451
+				state = 786
+				state = 514
+				state = 273
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				drop_cosmetic_tag = yes
+			}
+			set_cosmetic_tag = united_mahgreb 
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+			
+			add_state_core = 290
+			add_state_core = 461
+			add_state_core = 462
+			add_state_core = 783
+			add_state_core = 699
+			add_state_core = 557
+			add_state_core = 513
+			add_state_core = 459
+			add_state_core = 460
+			add_state_core = 458
+			add_state_core = 665
+			add_state_core = 448
+			add_state_core = 661
+			add_state_core = 449
+			add_state_core = 662
+			add_state_core = 450
+			add_state_core = 663
+			add_state_core = 451
+			add_state_core = 786
+			add_state_core = 514
+			add_state_core = 273
+
+			hidden_effect = {
+				set_global_flag = maghreb_formed_flag
+			}
+		}
+
+		ai_will_do = {
+			base = 2000
 		}
 	}
 }
@@ -11180,12 +11267,22 @@ form_macedonian_empire_category = {
 				controls_state = 416
 				controls_state = 414
 				controls_state = 410
+				controls_state = 1000
+				controls_state = 1001
+				controls_state = 1002
+				controls_state = 1003
+				controls_state = 1004
 			}
 			# Afghanistan
 			custom_trigger_tooltip = {
 				tooltip = form_country_afghanistan_required_states_tt
 				controls_state = 415
 				controls_state = 267
+				controls_state = 1005
+				controls_state = 1006
+				controls_state = 1007
+				controls_state = 1008
+				controls_state = 1009
 			}
 			# Central Asia
 			custom_trigger_tooltip = {
@@ -11200,6 +11297,8 @@ form_macedonian_empire_category = {
 				controls_state = 676
 				controls_state = 675
 				controls_state = 291
+				controls_state = 1010
+				controls_state = 1011
 			}
 			# Turkey
 			custom_trigger_tooltip = {
@@ -11305,12 +11404,22 @@ form_macedonian_empire_category = {
 				416 = { add_core_of = ROOT }
 				414 = { add_core_of = ROOT }
 				410 = { add_core_of = ROOT }
+				1000 = { add_core_of = ROOT }
+				1001 = { add_core_of = ROOT }
+				1002 = { add_core_of = ROOT }
+				1003 = { add_core_of = ROOT }
+				1004 = { add_core_of = ROOT }
 			}
 			# Afghanistan
 			custom_effect_tooltip = form_country_afghanistan_coring_states_tt
 			hidden_effect = {
 				415 = { add_core_of = ROOT }
 				267 = { add_core_of = ROOT }
+				1005 = { add_core_of = ROOT }
+				1006 = { add_core_of = ROOT }
+				1007 = { add_core_of = ROOT }
+				1008 = { add_core_of = ROOT }
+				1009 = { add_core_of = ROOT }
 			}
 			# Iraq
 			custom_effect_tooltip = form_country_iraq_coring_states_tt
@@ -11318,6 +11427,8 @@ form_macedonian_empire_category = {
 				676 = { add_core_of = ROOT }
 				675 = { add_core_of = ROOT }
 				291 = { add_core_of = ROOT }
+				1010 = { add_core_of = ROOT }
+				1011 = { add_core_of = ROOT }
 			}
 			# Turkey
 			custom_effect_tooltip = form_country_turkey_coring_states_tt
@@ -11343,6 +11454,7 @@ form_macedonian_empire_category = {
 				797 = { add_core_of = ROOT }
 				798 = { add_core_of = ROOT }
 				800 = { add_core_of = ROOT }
+				799 = { add_core_of = ROOT }
 			}
 			# France
 			custom_effect_tooltip = form_persia_france_coring_states_tt
@@ -11375,6 +11487,7 @@ form_macedonian_empire_category = {
 				656 = { add_core_of = ROOT }
 				118 = { add_core_of = ROOT }
 				907 = { add_core_of = ROOT }
+				552 = { add_core_of = ROOT }
 			}
 			# Cyprus
 			183 = { add_core_of = ROOT }
@@ -11391,6 +11504,9 @@ form_macedonian_empire_category = {
 			44 = { add_core_of = ROOT }
 			934 = { add_core_of = ROOT }
 			105 = { add_core_of = ROOT }
+			970 = { add_core_of = ROOT }
+			77 = { add_core_of = ROOT }
+			971 = { add_core_of = ROOT }
 			# Central Asia
 			742 = { add_core_of = ROOT }
 			405 = { add_core_of = ROOT }
@@ -11403,6 +11519,9 @@ form_macedonian_empire_category = {
 			445 = { add_core_of = ROOT }
 			443 = { add_core_of = ROOT }
 			444 = { add_core_of = ROOT }
+			987 = { add_core_of = ROOT }
+			988 = { add_core_of = ROOT }
+			1012 = { add_core_of = ROOT }
 			hidden_effect = {
 				set_global_flag = form_macedonian_empire_flag
 			}
@@ -11478,6 +11597,9 @@ form_turan_category = {
 				controls_state = 413
 				controls_state = 266
 				controls_state = 416
+				controls_state = 1000
+				controls_state = 1001
+				controls_state = 1004
 			}
 			# Azerbaijan
 			custom_trigger_tooltip = {
@@ -11528,6 +11650,9 @@ form_turan_category = {
 				controls_state = 830
 				controls_state = 882
 				controls_state = 881
+				controls_state = 651
+				controls_state = 249
+				controls_state = 256
 			}
 			# Siberia
 			custom_trigger_tooltip = {
@@ -11604,6 +11729,9 @@ form_turan_category = {
 				413 = { add_core_of = TUR }
 				266 = { add_core_of = TUR }
 				416 = { add_core_of = TUR }
+				1000 = { add_core_of = TUR }
+				1001 = { add_core_of = TUR }
+				1004 = { add_core_of = TUR }
 				#AZERBAIJAN
 				229 = { add_core_of = TUR }
 				#KUBAN REGION + CRIMEA
@@ -11647,6 +11775,9 @@ form_turan_category = {
 				832 = { add_core_of = TUR }
 				881 = { add_core_of = TUR }
 				882 = { add_core_of = TUR }
+				651 = { add_core_of = TUR }
+				249 = { add_core_of = TUR }
+				256 = { add_core_of = TUR }
 				#SIBERIA
 				654 = { add_core_of = TUR }
 				40 = { add_core_of = TUR }
@@ -11702,6 +11833,8 @@ form_turan_category = {
 			controls_state = 974
 			controls_state = 154
 			controls_state = 664
+			controls_state = 974
+			controls_state = 973
 			# Romania + Banat
 			controls_state = 76
 			controls_state = 84
@@ -11725,6 +11858,8 @@ form_turan_category = {
 			974 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			154 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			664 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			974 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			973 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			# Romania
 			76 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			84 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
@@ -11773,6 +11908,7 @@ form_turan_category = {
 			controls_state = 752
 			controls_state = 751
 			controls_state = 601
+			controls_state = 746
 			# Mongolia / Manchuria
 			controls_state = 330
 			controls_state = 817
@@ -11818,6 +11954,7 @@ form_turan_category = {
 			761 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			714 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			717 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			746 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			#Mongolia
 			330 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			817 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
@@ -11863,6 +12000,7 @@ form_turan_category = {
 			controls_state = 213 #MURMANSK
 			controls_state = 215 #ONEGA
 			controls_state = 216 #OLONETS
+			controls_state = 145
 
 			# Estonia
 			controls_state = 13
@@ -11891,6 +12029,8 @@ form_turan_category = {
 			928 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			929 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			930 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			722 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			145 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 
 			213 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			215 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
@@ -13397,10 +13537,9 @@ form_ethiopian_empire_category  = {
 			883 = { add_core_of = ROOT }
 			551 = { add_core_of = ROOT }
 			886 = { add_core_of = ROOT }
+			992 = { add_core_of = ROOT }
 		
 			hidden_effect = { 
-				#TODO_TA make news event 
-				# news_event = { id = nsb_news.304 hours = 8 }
 				
 				set_global_flag = form_axum_flag
 				
@@ -13727,6 +13866,8 @@ form_east_africa_category = {
 		visible = {
 			
 			has_global_flag = form_east_africa_flag
+			
+
 		}
 
 		available = {
@@ -16891,6 +17032,7 @@ neo_assyrian_empire_category = {
 		visible = {
 			original_tag = ASY # Assyria
 			
+			
 			NOT = { has_global_flag = neo_assyria_formed_flag }
 			
 		}
@@ -17049,6 +17191,194 @@ neo_assyrian_empire_category = {
 
 		ai_will_do = {
 			base = 2000
+		}
+	}
+}
+
+neo_mesopotamia_category = {
+	
+	neo_mesopotamia_decision = { 
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = KUR #Kurdistan
+				original_tag = IRQ # Iraq, can release ASY, and release and form KUR
+				original_tag = SYR
+				original_tag = PAL
+				original_tag = EGY
+				original_tag = KUW
+				original_tag = LEB
+			}
+			
+		}
+
+		visible = {
+			OR = {
+				original_tag = KUR #Kurdistan
+				original_tag = SYR
+				original_tag = PAL
+				original_tag = EGY
+				original_tag = KUW
+				original_tag = LEB
+				#any_country = { #Anyone who can form Kurdistan
+					original_tag = IRQ
+				#	OR = {
+				#		has_country_leader = {
+				#			ruling_only = yes
+				#			character = IRQ_ahmed_barzani 
+				#		}
+				#		has_country_leader = {
+				#			ruling_only = yes 
+				#			character = IRQ_mustafa_barzani 
+				#		}
+				#	}
+				#}
+			}
+			
+			
+			NOT = { has_global_flag = neo_mesopotamia_formed_flag }
+			
+		}
+
+		on_map_mode = decision_view_only
+
+		ai_will_do = {
+			base = 2000
+		}
+
+		available = {
+			413 = {
+				is_fully_controlled_by = ROOT
+			}
+			421 = {
+				is_fully_controlled_by = ROOT
+			}
+			1001 = {
+				is_fully_controlled_by = ROOT
+			}
+			676 = {
+				is_fully_controlled_by = ROOT
+			}
+			291 = {
+				is_fully_controlled_by = ROOT
+			}
+			1011 = {
+				is_fully_controlled_by = ROOT
+			}
+			656 = {
+				is_fully_controlled_by = ROOT
+			}
+			675 = {
+				is_fully_controlled_by = ROOT
+			}
+			1010 = {
+				is_fully_controlled_by = ROOT
+			}
+			680 = {
+				is_fully_controlled_by = ROOT
+			}
+			677 = {
+				is_fully_controlled_by = ROOT
+			}
+			799 = {
+				is_fully_controlled_by = ROOT
+			}
+			350 = {
+				is_fully_controlled_by = ROOT
+			}
+			344 = {
+				is_fully_controlled_by = ROOT
+			}
+			183 = {
+				is_fully_controlled_by = ROOT
+			}
+			554 = {
+				is_fully_controlled_by = ROOT
+			}
+			553 = {
+				is_fully_controlled_by = ROOT
+			}
+			454 = {
+				is_fully_controlled_by = ROOT
+			}
+			453 = {
+				is_fully_controlled_by = ROOT
+			}
+			446 = {
+				is_fully_controlled_by = ROOT
+			}
+			907 = {
+				is_fully_controlled_by = ROOT
+			}
+			447 = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 413
+				state = 421
+				state = 1001
+				state = 676
+				state = 291
+				state = 1011
+				state = 656
+				state = 675
+				state = 1010
+				state = 680
+				state = 677
+				state = 799
+				state = 350
+				state = 344
+				state = 183
+				state = 554
+				state = 553
+				state = 454
+				state = 453
+				state = 446
+				state = 907
+				state = 447
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				drop_cosmetic_tag = yes
+			}
+
+			set_cosmetic_tag = neo_mesopotamia
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+
+			add_state_core = 413
+			add_state_core = 421
+			add_state_core = 1001
+			add_state_core = 676
+			add_state_core = 291
+			add_state_core = 1011
+			add_state_core = 656
+			add_state_core = 675
+			add_state_core = 1010
+			add_state_core = 680
+			add_state_core = 677
+			add_state_core = 799
+			add_state_core = 350
+			add_state_core = 344
+			add_state_core = 183
+			add_state_core = 554
+			add_state_core = 553
+			add_state_core = 454
+			add_state_core = 453
+			add_state_core = 446
+			add_state_core = 907
+			add_state_core = 447
+
+			hidden_effect = {
+				set_global_flag = neo_mesopotamia_formed_flag
+			}
 		}
 	}
 }

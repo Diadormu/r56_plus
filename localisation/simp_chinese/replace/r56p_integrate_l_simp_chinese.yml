@@ -259,6 +259,15 @@
   integrate_neo_assyrian_empire_category: "整合亚述"
   ASY_neo_assyrian: "向[ASY.GetName]移交领土"
 
+  integrate_neo_mesopotamia_category: "整合美索不达米亚"
+  KUR_neo_mesopotamia: "向[KUR.GetName]移交领土"
+  IRQ_neo_mesopotamia: "向[IRQ.GetName]移交领土（推荐，有独立国策）"
+  SYR_neo_mesopotamia: "向[SYR.GetName]移交领土"
+  PAL_neo_mesopotamia: "向[PAL.GetName]移交领土"
+  EGY_neo_mesopotamia: "向[EGY.GetName]移交领土"
+  KUW_neo_mesopotamia: "向[KUW.GetName]移交领土"
+  LEB_neo_mesopotamia: "向[LEB.GetName]移交领土"
+
   #========== TOA ==========#
 
   integrate_hispaniola_category: "整合伊斯帕尼奥拉"

@@ -14013,6 +14013,429 @@ integrate_neo_assyrian_empire_category = {
 	}
 }
 
+integrate_neo_mesopotamia_category = {
+	KUR_neo_mesopotamia = {
+		icon = generic_form_nation
+		visible = {
+			KUR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = neo_mesopotamia_formed_flag }
+		}
+		available = {
+			413 = { is_controlled_by_ROOT_or_subject = yes }
+			421 = { is_controlled_by_ROOT_or_subject = yes }
+			1001 = { is_controlled_by_ROOT_or_subject = yes }
+			676 = { is_controlled_by_ROOT_or_subject = yes }
+			291 = { is_controlled_by_ROOT_or_subject = yes }
+			1011 = { is_controlled_by_ROOT_or_subject = yes }
+			656 = { is_controlled_by_ROOT_or_subject = yes }
+			675 = { is_controlled_by_ROOT_or_subject = yes }
+			1010 = { is_controlled_by_ROOT_or_subject = yes }
+			680 = { is_controlled_by_ROOT_or_subject = yes }
+			677 = { is_controlled_by_ROOT_or_subject = yes }
+			799 = { is_controlled_by_ROOT_or_subject = yes }
+			350 = { is_controlled_by_ROOT_or_subject = yes }
+			344 = { is_controlled_by_ROOT_or_subject = yes }
+			183 = { is_controlled_by_ROOT_or_subject = yes }
+			554 = { is_controlled_by_ROOT_or_subject = yes }
+			553 = { is_controlled_by_ROOT_or_subject = yes }
+			454 = { is_controlled_by_ROOT_or_subject = yes }
+			453 = { is_controlled_by_ROOT_or_subject = yes }
+			446 = { is_controlled_by_ROOT_or_subject = yes }
+			907 = { is_controlled_by_ROOT_or_subject = yes }
+			447 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			KUR = {
+				transfer_state = 413
+				transfer_state = 421
+				transfer_state = 1001
+				transfer_state = 676
+				transfer_state = 291
+				transfer_state = 1011
+				transfer_state = 656
+				transfer_state = 675
+				transfer_state = 1010
+				transfer_state = 680
+				transfer_state = 677
+				transfer_state = 799
+				transfer_state = 350
+				transfer_state = 344
+				transfer_state = 183
+				transfer_state = 554
+				transfer_state = 553
+				transfer_state = 454
+				transfer_state = 453
+				transfer_state = 446
+				transfer_state = 907
+				transfer_state = 447
+			}
+		}
+		ai_will_do = { base = 0 }
+	}
+	IRQ_neo_mesopotamia = {
+		icon = generic_form_nation
+		visible = {
+			IRQ = { is_subject_of = ROOT }
+			NOT = { has_global_flag = neo_mesopotamia_formed_flag }
+		}
+		available = {
+			413 = { is_controlled_by_ROOT_or_subject = yes }
+			421 = { is_controlled_by_ROOT_or_subject = yes }
+			1001 = { is_controlled_by_ROOT_or_subject = yes }
+			676 = { is_controlled_by_ROOT_or_subject = yes }
+			291 = { is_controlled_by_ROOT_or_subject = yes }
+			1011 = { is_controlled_by_ROOT_or_subject = yes }
+			656 = { is_controlled_by_ROOT_or_subject = yes }
+			675 = { is_controlled_by_ROOT_or_subject = yes }
+			1010 = { is_controlled_by_ROOT_or_subject = yes }
+			680 = { is_controlled_by_ROOT_or_subject = yes }
+			677 = { is_controlled_by_ROOT_or_subject = yes }
+			799 = { is_controlled_by_ROOT_or_subject = yes }
+			350 = { is_controlled_by_ROOT_or_subject = yes }
+			344 = { is_controlled_by_ROOT_or_subject = yes }
+			183 = { is_controlled_by_ROOT_or_subject = yes }
+			554 = { is_controlled_by_ROOT_or_subject = yes }
+			553 = { is_controlled_by_ROOT_or_subject = yes }
+			454 = { is_controlled_by_ROOT_or_subject = yes }
+			453 = { is_controlled_by_ROOT_or_subject = yes }
+			446 = { is_controlled_by_ROOT_or_subject = yes }
+			907 = { is_controlled_by_ROOT_or_subject = yes }
+			447 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			IRQ = {
+				transfer_state = 413
+				transfer_state = 421
+				transfer_state = 1001
+				transfer_state = 676
+				transfer_state = 291
+				transfer_state = 1011
+				transfer_state = 656
+				transfer_state = 675
+				transfer_state = 1010
+				transfer_state = 680
+				transfer_state = 677
+				transfer_state = 799
+				transfer_state = 350
+				transfer_state = 344
+				transfer_state = 183
+				transfer_state = 554
+				transfer_state = 553
+				transfer_state = 454
+				transfer_state = 453
+				transfer_state = 446
+				transfer_state = 907
+				transfer_state = 447
+			}
+		}
+		ai_will_do = {
+			base = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = KUR
+					original_tag = IRQ
+					original_tag = SYR
+					original_tag = PAL
+					original_tag = EGY
+					original_tag = KUW
+					original_tag = LEB
+				}
+			}
+		}
+	}
+	SYR_neo_mesopotamia = {
+		icon = generic_form_nation
+		visible = {
+			SYR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = neo_mesopotamia_formed_flag }
+		}
+		available = {
+			413 = { is_controlled_by_ROOT_or_subject = yes }
+			421 = { is_controlled_by_ROOT_or_subject = yes }
+			1001 = { is_controlled_by_ROOT_or_subject = yes }
+			676 = { is_controlled_by_ROOT_or_subject = yes }
+			291 = { is_controlled_by_ROOT_or_subject = yes }
+			1011 = { is_controlled_by_ROOT_or_subject = yes }
+			656 = { is_controlled_by_ROOT_or_subject = yes }
+			675 = { is_controlled_by_ROOT_or_subject = yes }
+			1010 = { is_controlled_by_ROOT_or_subject = yes }
+			680 = { is_controlled_by_ROOT_or_subject = yes }
+			677 = { is_controlled_by_ROOT_or_subject = yes }
+			799 = { is_controlled_by_ROOT_or_subject = yes }
+			350 = { is_controlled_by_ROOT_or_subject = yes }
+			344 = { is_controlled_by_ROOT_or_subject = yes }
+			183 = { is_controlled_by_ROOT_or_subject = yes }
+			554 = { is_controlled_by_ROOT_or_subject = yes }
+			553 = { is_controlled_by_ROOT_or_subject = yes }
+			454 = { is_controlled_by_ROOT_or_subject = yes }
+			453 = { is_controlled_by_ROOT_or_subject = yes }
+			446 = { is_controlled_by_ROOT_or_subject = yes }
+			907 = { is_controlled_by_ROOT_or_subject = yes }
+			447 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			SYR = {
+				transfer_state = 413
+				transfer_state = 421
+				transfer_state = 1001
+				transfer_state = 676
+				transfer_state = 291
+				transfer_state = 1011
+				transfer_state = 656
+				transfer_state = 675
+				transfer_state = 1010
+				transfer_state = 680
+				transfer_state = 677
+				transfer_state = 799
+				transfer_state = 350
+				transfer_state = 344
+				transfer_state = 183
+				transfer_state = 554
+				transfer_state = 553
+				transfer_state = 454
+				transfer_state = 453
+				transfer_state = 446
+				transfer_state = 907
+				transfer_state = 447
+			}
+		}
+		ai_will_do = { base = 0 }
+	}
+	PAL_neo_mesopotamia = {
+		icon = generic_form_nation
+		visible = {
+			PAL = { is_subject_of = ROOT }
+			NOT = { has_global_flag = neo_mesopotamia_formed_flag }
+		}
+		available = {
+			413 = { is_controlled_by_ROOT_or_subject = yes }
+			421 = { is_controlled_by_ROOT_or_subject = yes }
+			1001 = { is_controlled_by_ROOT_or_subject = yes }
+			676 = { is_controlled_by_ROOT_or_subject = yes }
+			291 = { is_controlled_by_ROOT_or_subject = yes }
+			1011 = { is_controlled_by_ROOT_or_subject = yes }
+			656 = { is_controlled_by_ROOT_or_subject = yes }
+			675 = { is_controlled_by_ROOT_or_subject = yes }
+			1010 = { is_controlled_by_ROOT_or_subject = yes }
+			680 = { is_controlled_by_ROOT_or_subject = yes }
+			677 = { is_controlled_by_ROOT_or_subject = yes }
+			799 = { is_controlled_by_ROOT_or_subject = yes }
+			350 = { is_controlled_by_ROOT_or_subject = yes }
+			344 = { is_controlled_by_ROOT_or_subject = yes }
+			183 = { is_controlled_by_ROOT_or_subject = yes }
+			554 = { is_controlled_by_ROOT_or_subject = yes }
+			553 = { is_controlled_by_ROOT_or_subject = yes }
+			454 = { is_controlled_by_ROOT_or_subject = yes }
+			453 = { is_controlled_by_ROOT_or_subject = yes }
+			446 = { is_controlled_by_ROOT_or_subject = yes }
+			907 = { is_controlled_by_ROOT_or_subject = yes }
+			447 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			PAL = {
+				transfer_state = 413
+				transfer_state = 421
+				transfer_state = 1001
+				transfer_state = 676
+				transfer_state = 291
+				transfer_state = 1011
+				transfer_state = 656
+				transfer_state = 675
+				transfer_state = 1010
+				transfer_state = 680
+				transfer_state = 677
+				transfer_state = 799
+				transfer_state = 350
+				transfer_state = 344
+				transfer_state = 183
+				transfer_state = 554
+				transfer_state = 553
+				transfer_state = 454
+				transfer_state = 453
+				transfer_state = 446
+				transfer_state = 907
+				transfer_state = 447
+			}
+		}
+		ai_will_do = { base = 0 }
+	}
+	EGY_neo_mesopotamia = {
+		icon = generic_form_nation
+		visible = {
+			EGY = { is_subject_of = ROOT }
+			NOT = { has_global_flag = neo_mesopotamia_formed_flag }
+		}
+		available = {
+			413 = { is_controlled_by_ROOT_or_subject = yes }
+			421 = { is_controlled_by_ROOT_or_subject = yes }
+			1001 = { is_controlled_by_ROOT_or_subject = yes }
+			676 = { is_controlled_by_ROOT_or_subject = yes }
+			291 = { is_controlled_by_ROOT_or_subject = yes }
+			1011 = { is_controlled_by_ROOT_or_subject = yes }
+			656 = { is_controlled_by_ROOT_or_subject = yes }
+			675 = { is_controlled_by_ROOT_or_subject = yes }
+			1010 = { is_controlled_by_ROOT_or_subject = yes }
+			680 = { is_controlled_by_ROOT_or_subject = yes }
+			677 = { is_controlled_by_ROOT_or_subject = yes }
+			799 = { is_controlled_by_ROOT_or_subject = yes }
+			350 = { is_controlled_by_ROOT_or_subject = yes }
+			344 = { is_controlled_by_ROOT_or_subject = yes }
+			183 = { is_controlled_by_ROOT_or_subject = yes }
+			554 = { is_controlled_by_ROOT_or_subject = yes }
+			553 = { is_controlled_by_ROOT_or_subject = yes }
+			454 = { is_controlled_by_ROOT_or_subject = yes }
+			453 = { is_controlled_by_ROOT_or_subject = yes }
+			446 = { is_controlled_by_ROOT_or_subject = yes }
+			907 = { is_controlled_by_ROOT_or_subject = yes }
+			447 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			EGY = {
+				transfer_state = 413
+				transfer_state = 421
+				transfer_state = 1001
+				transfer_state = 676
+				transfer_state = 291
+				transfer_state = 1011
+				transfer_state = 656
+				transfer_state = 675
+				transfer_state = 1010
+				transfer_state = 680
+				transfer_state = 677
+				transfer_state = 799
+				transfer_state = 350
+				transfer_state = 344
+				transfer_state = 183
+				transfer_state = 554
+				transfer_state = 553
+				transfer_state = 454
+				transfer_state = 453
+				transfer_state = 446
+				transfer_state = 907
+				transfer_state = 447
+			}
+		}
+		ai_will_do = { base = 0 }
+	}
+	KUW_neo_mesopotamia = {
+		icon = generic_form_nation
+		visible = {
+			KUW = { is_subject_of = ROOT }
+			NOT = { has_global_flag = neo_mesopotamia_formed_flag }
+		}
+		available = {
+			413 = { is_controlled_by_ROOT_or_subject = yes }
+			421 = { is_controlled_by_ROOT_or_subject = yes }
+			1001 = { is_controlled_by_ROOT_or_subject = yes }
+			676 = { is_controlled_by_ROOT_or_subject = yes }
+			291 = { is_controlled_by_ROOT_or_subject = yes }
+			1011 = { is_controlled_by_ROOT_or_subject = yes }
+			656 = { is_controlled_by_ROOT_or_subject = yes }
+			675 = { is_controlled_by_ROOT_or_subject = yes }
+			1010 = { is_controlled_by_ROOT_or_subject = yes }
+			680 = { is_controlled_by_ROOT_or_subject = yes }
+			677 = { is_controlled_by_ROOT_or_subject = yes }
+			799 = { is_controlled_by_ROOT_or_subject = yes }
+			350 = { is_controlled_by_ROOT_or_subject = yes }
+			344 = { is_controlled_by_ROOT_or_subject = yes }
+			183 = { is_controlled_by_ROOT_or_subject = yes }
+			554 = { is_controlled_by_ROOT_or_subject = yes }
+			553 = { is_controlled_by_ROOT_or_subject = yes }
+			454 = { is_controlled_by_ROOT_or_subject = yes }
+			453 = { is_controlled_by_ROOT_or_subject = yes }
+			446 = { is_controlled_by_ROOT_or_subject = yes }
+			907 = { is_controlled_by_ROOT_or_subject = yes }
+			447 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			KUW = {
+				transfer_state = 413
+				transfer_state = 421
+				transfer_state = 1001
+				transfer_state = 676
+				transfer_state = 291
+				transfer_state = 1011
+				transfer_state = 656
+				transfer_state = 675
+				transfer_state = 1010
+				transfer_state = 680
+				transfer_state = 677
+				transfer_state = 799
+				transfer_state = 350
+				transfer_state = 344
+				transfer_state = 183
+				transfer_state = 554
+				transfer_state = 553
+				transfer_state = 454
+				transfer_state = 453
+				transfer_state = 446
+				transfer_state = 907
+				transfer_state = 447
+			}
+		}
+		ai_will_do = { base = 0 }
+	}
+	LEB_neo_mesopotamia = {
+		icon = generic_form_nation
+		visible = {
+			LEB = { is_subject_of = ROOT }
+			NOT = { has_global_flag = neo_mesopotamia_formed_flag }
+		}
+		available = {
+			413 = { is_controlled_by_ROOT_or_subject = yes }
+			421 = { is_controlled_by_ROOT_or_subject = yes }
+			1001 = { is_controlled_by_ROOT_or_subject = yes }
+			676 = { is_controlled_by_ROOT_or_subject = yes }
+			291 = { is_controlled_by_ROOT_or_subject = yes }
+			1011 = { is_controlled_by_ROOT_or_subject = yes }
+			656 = { is_controlled_by_ROOT_or_subject = yes }
+			675 = { is_controlled_by_ROOT_or_subject = yes }
+			1010 = { is_controlled_by_ROOT_or_subject = yes }
+			680 = { is_controlled_by_ROOT_or_subject = yes }
+			677 = { is_controlled_by_ROOT_or_subject = yes }
+			799 = { is_controlled_by_ROOT_or_subject = yes }
+			350 = { is_controlled_by_ROOT_or_subject = yes }
+			344 = { is_controlled_by_ROOT_or_subject = yes }
+			183 = { is_controlled_by_ROOT_or_subject = yes }
+			554 = { is_controlled_by_ROOT_or_subject = yes }
+			553 = { is_controlled_by_ROOT_or_subject = yes }
+			454 = { is_controlled_by_ROOT_or_subject = yes }
+			453 = { is_controlled_by_ROOT_or_subject = yes }
+			446 = { is_controlled_by_ROOT_or_subject = yes }
+			907 = { is_controlled_by_ROOT_or_subject = yes }
+			447 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			LEB = {
+				transfer_state = 413
+				transfer_state = 421
+				transfer_state = 1001
+				transfer_state = 676
+				transfer_state = 291
+				transfer_state = 1011
+				transfer_state = 656
+				transfer_state = 675
+				transfer_state = 1010
+				transfer_state = 680
+				transfer_state = 677
+				transfer_state = 799
+				transfer_state = 350
+				transfer_state = 344
+				transfer_state = 183
+				transfer_state = 554
+				transfer_state = 553
+				transfer_state = 454
+				transfer_state = 453
+				transfer_state = 446
+				transfer_state = 907
+				transfer_state = 447
+			}
+		}
+		ai_will_do = { base = 0 }
+	}
+}
+
 #========== TOA ==========#
 
 integrate_hispaniola_category = {
