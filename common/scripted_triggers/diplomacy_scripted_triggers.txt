@@ -447,8 +447,10 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 				has_completed_focus = SOV_for_the_common_good
 				has_completed_focus = SOV_reconvene_the_zemsky_sobor
 				has_completed_focus = SOV_rebuild_the_duma
-				has_completed_focus = SOV_dissolve_the_treaty_agreement
-				has_completed_focus = SOV_dissolve_the_treaty_agreement_nsb
+				has_completed_focus = SOV_dissolve_the_treaty_agreement # R56
+				has_completed_focus = SOV_dissolve_the_treaty_agreement_nsb # R56
+
+				has_completed_focus = SOV_increased_autonomy
 			}
 		}
 	}
@@ -560,8 +562,10 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 				has_completed_focus = SOV_for_the_common_good
 				has_completed_focus = SOV_reconvene_the_zemsky_sobor
 				has_completed_focus = SOV_rebuild_the_duma
-				has_completed_focus = SOV_dissolve_the_treaty_agreement
-				has_completed_focus = SOV_dissolve_the_treaty_agreement_nsb
+				has_completed_focus = SOV_dissolve_the_treaty_agreement # R56
+				has_completed_focus = SOV_dissolve_the_treaty_agreement_nsb # R56
+
+				has_completed_focus = SOV_increased_autonomy
 			}
 		}
 	}
@@ -1469,24 +1473,36 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				tooltip = RULE_VOLUNTEERS_SOVIET_CHINA_SUPPORT_CHOSEN_ONE_TT
 				OR = {
 					has_completed_focus = SOV_the_gobi_gambit
+					has_completed_focus = SOV_claim_on_sinkiang
 					has_completed_focus = SOV_two_red_flags
+					has_completed_focus = SOV_two_red_flags_old
 					has_completed_focus = SOV_support_the_kuomintang
+					has_completed_focus = SOV_operation_zet
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = SOV_the_gobi_gambit
+						OR = {
+							has_completed_focus = SOV_the_gobi_gambit
+							has_completed_focus = SOV_claim_on_sinkiang
+						}
 						FROM = { NOT = { tag = SIK } }
 					}
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = SOV_two_red_flags
+						OR = {
+							has_completed_focus = SOV_two_red_flags
+							has_completed_focus = SOV_two_red_flags_old
+						}
 						FROM = { NOT = { tag = PRC } }
 					}
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = SOV_support_the_kuomintang
+						OR = {
+							has_completed_focus = SOV_support_the_kuomintang
+							has_completed_focus = SOV_operation_zet
+						}
 						FROM = { NOT = { tag = CHI } }
 					}
 				}

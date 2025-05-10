@@ -109,6 +109,7 @@
   integrate_country_SAU_coring_states_tt: "成为§Y[SAU.GetName]§!的所有地区的拥有者及控制者。"
   YEM_integrate_arabia: "向[YEM.GetName]移交领土"
   OMA_integrate_arabia: "向[OMA.GetName]移交领土"
+  IMO_integrate_arabia: "向[IMO.GetName]移交领土"
   EGY_integrate_arabia: "向[EGY.GetName]移交领土（推荐，有独立国策）"
   SUD_integrate_arabia: "向[SUD.GetName]移交领土"
   LBA_integrate_arabia: "向[LBA.GetName]移交领土"
@@ -254,7 +255,7 @@
   CRC_integrate_caribbean: "向[CRC.GetName]移交领土"
   STK_integrate_caribbean: "向[STK.GetName]移交领土"
   DMN_integrate_caribbean: "向[DMN.GetName]移交领土"
-  BAR_integrate_caribbean: "向[BAR.GetName]移交领土"
+  BRB_integrate_caribbean: "向[BRB.GetName]移交领土"
   STL_integrate_caribbean: "向[STL.GetName]移交领土"
   SVG_integrate_caribbean: "向[SVG.GetName]移交领土"
   GRA_integrate_caribbean: "向[GRA.GetName]移交领土"
@@ -297,6 +298,8 @@
 
   integrate_a_dravidian_state: "整合达罗毗荼"
   SRL_integrate_a_dravidian_state: "向[SRL.GetName]移交领土"
+  RAS_integrate_a_dravidian_state: "向[RAS.GetName]移交领土"
+  MYS_integrate_a_dravidian_state: "向[MYS.GetName]移交领土"
 
   integrate_hispanoamerica_category: "整合西班牙语美洲"
   ARG_integrate_hispanoamerica: "向[ARG.GetName]移交领土"
