@@ -190,7 +190,91 @@ joint_focus = {
 	}
 
 	completion_reward_joint_member = {
-		country_event = { id = PER_imperial_events.200 hours = 2}
+		if = {
+			limit = { exists = no }
+			hidden_effect = {
+				add_ai_strategy = {
+					type = befriend
+					id = event_target:SSB_leader
+					value = 100
+				}
+				set_country_flag = PER_saadabad_pact_member
+
+				set_variable = { SSB_trade_cost_for_target_factor = 0 }
+				set_variable = { SSB_production_speed_infrastructure_factor = 0 }
+				set_variable = { SSB_trade_opinion_factor = 0 }
+				set_variable = { SSB_cic_to_target_factor = 0 }
+				set_variable = { SSB_mic_to_target_factor = 0 }
+				set_variable = { SSB_production_speed_arms_factory_factor = 0 }
+				set_variable = { SSB_war_support_factor = 0 }
+				set_variable = { SSB_stability_factor = 0 }
+				set_variable = { SSB_experience_gain_army = 0 }
+				set_variable = { SSB_experience_gain_air = 0 }
+				set_variable = { SSB_experience_gain_navy = 0 }
+				set_variable = { SSB_country_resource_oil = 0 }
+				set_variable = { SSB_country_resource_chromium = 0 }
+				set_variable = { SSB_army_defence_against_major_factor = 0 }
+				set_variable = { SSB_army_defence_against_minor_factor = 0 }
+				set_variable = { SSB_conscription_factor = 0 }
+				set_variable = { SSB_intelligence_agency_defense = 0 }
+				set_variable = { SSB_production_factory_efficiency_gain_factor = 0 }
+				set_variable = { SSB_acclimatization_hot_climate_gain_factor = 0 }
+				set_variable = { SSB_heat_attrition_factor = 0 }
+				set_variable = { SSB_special_forces_cap = 0 }
+				set_variable = { SSB_local_resources_factor = 0 }
+
+				set_variable = { SSB_justify_war_goal_time = 0 }
+				set_variable = { SSB_opinion_gain_monthly = 0 }
+				set_variable = { SSB_annex_cost_factor = 0 }
+				set_variable = { SSB_political_power_factor = 0 }
+
+				set_variable = { SSB_agency_upgrade_time = 0 }
+
+				add_dynamic_modifier = { modifier = SSB_saadabad_pact }
+				add_to_variable = {
+					var = SSB_stability_factor
+					value = 0.05
+					tooltip = stability_factor_tt
+				}
+			
+				event_target:SSB_leader = { 
+					country_event = { id = PER_imperial_events.201 hours = 6 random = 8 }
+					add_ai_strategy = {
+						type = befriend
+						id = ROOT
+						value = 100
+					}
+				}
+
+				every_country = {
+					limit = {
+						has_dynamic_modifier = { modifier = SSB_saadabad_pact }
+						NOT = { tag = ROOT }
+					}
+					add_ai_strategy = {
+						type = befriend
+						id = ROOT
+						value = 100
+					}
+					diplomatic_relation = {
+						country = ROOT
+						relation = non_aggression_pact
+						active = yes
+					}
+					add_opinion_modifier = {
+						target = ROOT
+						modifier = SSB_saadabad_pact_member
+					}
+					reverse_add_opinion_modifier = {
+					    target = ROOT
+					    modifier = SSB_saadabad_pact_member
+					}
+				}
+			}
+		}
+		else = {
+			country_event = { id = PER_imperial_events.200 hours = 2}
+		}
 	}
 }
 
@@ -306,8 +390,13 @@ joint_focus = {
 	text_icon = SSB_AFG_focus_style
 
 	available = {
-		tag = AFG
-		has_completed_focus = AFG_sugar_processing
+		OR = {
+			AND = {
+				tag = AFG
+				has_completed_focus = AFG_sugar_processing
+			}
+			AFG = { all_core_state = { is_owned_by = ROOT } }
+		}
 		SSB_basic_available_trigger = yes
 	}
 
@@ -356,21 +445,34 @@ joint_focus = {
 
 	available = {
 		SSB_basic_available_trigger = yes
-		IRQ = {
-			has_dynamic_modifier = { modifier = SSB_saadabad_pact }
-			has_civil_war = no
-		}
-		AFG = {
-			has_dynamic_modifier = { modifier = SSB_saadabad_pact }
-			has_civil_war = no
-		}
-		PER = {
-			has_dynamic_modifier = { modifier = SSB_saadabad_pact }
-			has_civil_war = no
-		}
-		TUR = {
-			has_dynamic_modifier = { modifier = SSB_saadabad_pact }
-			has_civil_war = no
+		OR = {
+			AND = {
+				IRQ = {
+					has_dynamic_modifier = { modifier = SSB_saadabad_pact }
+					has_civil_war = no
+				}
+				AFG = {
+					has_dynamic_modifier = { modifier = SSB_saadabad_pact }
+					has_civil_war = no
+				}
+				PER = {
+					has_dynamic_modifier = { modifier = SSB_saadabad_pact }
+					has_civil_war = no
+				}
+				TUR = {
+					has_dynamic_modifier = { modifier = SSB_saadabad_pact }
+					has_civil_war = no
+				}
+			}
+			all_state = {
+				OR = {
+					is_core_of = PER
+					is_core_of = AFG
+					is_core_of = IRQ
+					is_core_of = TUR
+				}
+				is_owned_by = ROOT
+			}
 		}
 	}
 
@@ -383,14 +485,34 @@ joint_focus = {
 		custom_trigger_tooltip = {
 			tooltip = FOCUS_WILL_BYPASS_IF_UNAVAILABLE
 			OR = {
-				IRQ = { NOT = { has_dynamic_modifier = { modifier = SSB_saadabad_pact } } }
-				IRQ = { has_civil_war = yes }
-				AFG = { NOT = { has_dynamic_modifier = { modifier = SSB_saadabad_pact } } }
-				AFG = { has_civil_war = yes }
-				PER = { NOT = { has_dynamic_modifier = { modifier = SSB_saadabad_pact } } }
-				PER = { has_civil_war = yes }
-				TUR = { NOT = { has_dynamic_modifier = { modifier = SSB_saadabad_pact } } }
-				TUR = { has_civil_war = yes }
+				IRQ = {
+					exists = yes
+					OR = {
+						NOT = { has_dynamic_modifier = { modifier = SSB_saadabad_pact } }
+						has_civil_war = yes
+					}
+				}
+				AFG = {
+					exists = yes
+					OR = {
+						NOT = { has_dynamic_modifier = { modifier = SSB_saadabad_pact } }
+						has_civil_war = yes
+					}
+				}
+				PER = {
+					exists = yes
+					OR = {
+						NOT = { has_dynamic_modifier = { modifier = SSB_saadabad_pact } }
+						has_civil_war = yes
+					}
+				}
+				TUR = {
+					exists = yes
+					OR = {
+						NOT = { has_dynamic_modifier = { modifier = SSB_saadabad_pact } }
+						has_civil_war = yes
+					}
+				}
 			}
 		}
 		
@@ -568,8 +690,13 @@ joint_focus = {
 	text_icon = SSB_IRQ_focus_style
 
 	available = {
-		tag = IRQ
-		has_completed_focus = IRQ_finish_the_berlin_baghdad_railway
+		OR = {
+			AND = {
+				tag = IRQ
+				has_completed_focus = IRQ_finish_the_berlin_baghdad_railway
+			}
+			IRQ = { all_core_state = { is_owned_by = ROOT } }
+		}
 		SSB_basic_available_trigger = yes
 	}
 
@@ -757,8 +884,13 @@ joint_focus = {
 	text_icon = SSB_PER_focus_style
 
 	available = {
-		tag = PER
-		has_completed_focus = PER_form_savak
+		OR = {
+			AND = {
+				tag = PER
+				has_completed_focus = PER_form_savak
+			}
+			PER = { all_core_state = { is_owned_by = ROOT } }
+		}
 		SSB_basic_available_trigger = yes
 	}
 
@@ -806,7 +938,10 @@ joint_focus = {
 	text_icon = SSB_TUR_focus_style
 
 	available = {
-		tag = TUR
+		OR = {
+			tag = TUR
+			TUR = { all_core_state = { is_owned_by = ROOT } }
+		}
 		SSB_basic_available_trigger = yes
 	}
 
@@ -817,6 +952,7 @@ joint_focus = {
 
 	bypass = {
 		TUR = {
+			exists = yes
 			NOT = {
 				has_dynamic_modifier = { modifier = SSB_saadabad_pact }
 			}
@@ -880,7 +1016,10 @@ joint_focus = {
 	text_icon = SSB_AFG_focus_style
 
 	available = {
-		tag = AFG
+		OR = {
+			tag = AFG
+			AFG = { all_core_state = { is_owned_by = ROOT } }
+		}
 		SSB_basic_available_trigger = yes
 	}
 
@@ -891,6 +1030,7 @@ joint_focus = {
 
 	bypass = {
 		AFG = {
+			exists = yes
 			NOT = {
 				has_dynamic_modifier = { modifier = SSB_saadabad_pact }
 			}
@@ -949,7 +1089,10 @@ joint_focus = {
 	text_icon = SSB_IRQ_focus_style
 
 	available = {
-		tag = IRQ
+		OR = {
+			tag = IRQ
+			IRQ = { all_core_state = { is_owned_by = ROOT } }
+		}
 		SSB_basic_available_trigger = yes
 	}
 
@@ -960,6 +1103,7 @@ joint_focus = {
 
 	bypass = {
 		IRQ = {
+			exists = yes
 			NOT = {
 				has_dynamic_modifier = { modifier = SSB_saadabad_pact }
 			}
@@ -1007,7 +1151,10 @@ joint_focus = {
 	text_icon = SSB_PER_focus_style
 
 	available = {
-		tag = PER
+		OR = {
+			tag = PER
+			PER = { all_core_state = { is_owned_by = ROOT } }
+		}
 		SSB_basic_available_trigger = yes
 	}
 
@@ -1018,6 +1165,7 @@ joint_focus = {
 
 	bypass = {
 		PER = {
+			exists = yes
 			NOT = {
 				has_dynamic_modifier = { modifier = SSB_saadabad_pact }
 			}
@@ -1065,7 +1213,10 @@ joint_focus = {
 	text_icon = SSB_TUR_focus_style
 
 	available = {
-		tag = TUR
+		OR = {
+			tag = TUR
+			TUR = { all_core_state = { is_owned_by = ROOT } }
+		}
 		SSB_basic_available_trigger = yes
 	}
 
@@ -1076,6 +1227,7 @@ joint_focus = {
 
 	bypass = {
 		TUR = {
+			exists = yes
 			NOT = {
 				has_dynamic_modifier = { modifier = SSB_saadabad_pact }
 			}
@@ -1173,7 +1325,10 @@ joint_focus = {
 	text_icon = SSB_PER_focus_style
 
 	available = {
-		tag = PER
+		OR = {
+			tag = PER
+			PER = { all_core_state = { is_owned_by = ROOT } }
+		}
 		SSB_basic_available_trigger = yes
 	}
 
@@ -1184,6 +1339,7 @@ joint_focus = {
 
 	bypass = {
 		PER = {
+			exists = yes
 			NOT = {
 				has_dynamic_modifier = { modifier = SSB_saadabad_pact }
 			}
@@ -1284,6 +1440,14 @@ joint_focus = {
 				is_in_faction_with = AFG
 				is_in_faction_with = IRQ
 				is_in_faction_with = TUR
+				all_state = {
+					OR = {
+						is_core_of = AFG
+						is_core_of = IRQ
+						is_core_of = TUR
+					}
+					is_owned_by = ROOT
+				}
 			}
 		}
 		if = {
@@ -1292,6 +1456,14 @@ joint_focus = {
 				is_in_faction_with = AFG
 				is_in_faction_with = PER
 				is_in_faction_with = TUR
+				all_state = {
+					OR = {
+						is_core_of = AFG
+						is_core_of = PER
+						is_core_of = TUR
+					}
+					is_owned_by = ROOT
+				}
 			}
 		}
 		if = {
@@ -1300,6 +1472,14 @@ joint_focus = {
 				is_in_faction_with = PER
 				is_in_faction_with = IRQ
 				is_in_faction_with = TUR
+				all_state = {
+					OR = {
+						is_core_of = PER
+						is_core_of = IRQ
+						is_core_of = TUR
+					}
+					is_owned_by = ROOT
+				}
 			}
 		}
 		if = {
@@ -1308,6 +1488,14 @@ joint_focus = {
 				is_in_faction_with = AFG
 				is_in_faction_with = IRQ
 				is_in_faction_with = PER
+				all_state = {
+					OR = {
+						is_core_of = AFG
+						is_core_of = IRQ
+						is_core_of = PER
+					}
+					is_owned_by = ROOT
+				}
 			}
 		}
 	}
@@ -1332,6 +1520,15 @@ joint_focus = {
 			is_in_faction_with = AFG
 			is_in_faction_with = IRQ
 			is_in_faction_with = TUR
+			all_state = {
+				OR = {
+					is_core_of = PER
+					is_core_of = AFG
+					is_core_of = IRQ
+					is_core_of = TUR
+				}
+				is_owned_by = ROOT
+			}
 		}
 	}
 
@@ -1378,6 +1575,14 @@ joint_focus = {
 				is_in_faction_with = AFG
 				is_in_faction_with = IRQ
 				is_in_faction_with = TUR
+				all_state = {
+					OR = {
+						is_core_of = AFG
+						is_core_of = IRQ
+						is_core_of = TUR
+					}
+					is_owned_by = ROOT
+				}
 			}
 		}
 		if = {
@@ -1386,6 +1591,14 @@ joint_focus = {
 				is_in_faction_with = AFG
 				is_in_faction_with = PER
 				is_in_faction_with = TUR
+				all_state = {
+					OR = {
+						is_core_of = AFG
+						is_core_of = PER
+						is_core_of = TUR
+					}
+					is_owned_by = ROOT
+				}
 			}
 		}
 		if = {
@@ -1394,6 +1607,14 @@ joint_focus = {
 				is_in_faction_with = PER
 				is_in_faction_with = IRQ
 				is_in_faction_with = TUR
+				all_state = {
+					OR = {
+						is_core_of = PER
+						is_core_of = IRQ
+						is_core_of = TUR
+					}
+					is_owned_by = ROOT
+				}
 			}
 		}
 		if = {
@@ -1402,6 +1623,14 @@ joint_focus = {
 				is_in_faction_with = AFG
 				is_in_faction_with = IRQ
 				is_in_faction_with = PER
+				all_state = {
+					OR = {
+						is_core_of = AFG
+						is_core_of = IRQ
+						is_core_of = PER
+					}
+					is_owned_by = ROOT
+				}
 			}
 		}
 	}
@@ -1426,6 +1655,15 @@ joint_focus = {
 			is_in_faction_with = AFG
 			is_in_faction_with = IRQ
 			is_in_faction_with = TUR
+			all_state = {
+				OR = {
+					is_core_of = PER
+					is_core_of = AFG
+					is_core_of = IRQ
+					is_core_of = TUR
+				}
+				is_owned_by = ROOT
+			}
 		}
 	}
 	search_filters = {FOCUS_FILTER_RESEARCH}
