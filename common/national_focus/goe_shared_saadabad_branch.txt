@@ -466,12 +466,14 @@ joint_focus = {
 			}
 			all_state = {
 				OR = {
-					is_core_of = PER
-					is_core_of = AFG
-					is_core_of = IRQ
-					is_core_of = TUR
+					NOT = {
+						is_core_of = PER
+						is_core_of = AFG
+						is_core_of = IRQ
+						is_core_of = TUR
+					}
+					is_owned_by = ROOT
 				}
-				is_owned_by = ROOT
 			}
 		}
 	}
@@ -1442,11 +1444,13 @@ joint_focus = {
 				is_in_faction_with = TUR
 				all_state = {
 					OR = {
-						is_core_of = AFG
-						is_core_of = IRQ
-						is_core_of = TUR
+						NOT = {
+							is_core_of = AFG
+							is_core_of = IRQ
+							is_core_of = TUR
+						}
+						is_owned_by = ROOT
 					}
-					is_owned_by = ROOT
 				}
 			}
 		}
@@ -1458,11 +1462,13 @@ joint_focus = {
 				is_in_faction_with = TUR
 				all_state = {
 					OR = {
-						is_core_of = AFG
-						is_core_of = PER
-						is_core_of = TUR
+						NOT = {
+							is_core_of = AFG
+							is_core_of = PER
+							is_core_of = TUR
+						}
+						is_owned_by = ROOT
 					}
-					is_owned_by = ROOT
 				}
 			}
 		}
@@ -1474,11 +1480,13 @@ joint_focus = {
 				is_in_faction_with = TUR
 				all_state = {
 					OR = {
-						is_core_of = PER
-						is_core_of = IRQ
-						is_core_of = TUR
+						NOT = {
+							is_core_of = PER
+							is_core_of = IRQ
+							is_core_of = TUR
+						}
+						is_owned_by = ROOT
 					}
-					is_owned_by = ROOT
 				}
 			}
 		}
@@ -1490,11 +1498,13 @@ joint_focus = {
 				is_in_faction_with = PER
 				all_state = {
 					OR = {
-						is_core_of = AFG
-						is_core_of = IRQ
-						is_core_of = PER
+						NOT = {
+							is_core_of = AFG
+							is_core_of = IRQ
+							is_core_of = PER
+						}
+						is_owned_by = ROOT
 					}
-					is_owned_by = ROOT
 				}
 			}
 		}
@@ -1522,12 +1532,14 @@ joint_focus = {
 			is_in_faction_with = TUR
 			all_state = {
 				OR = {
-					is_core_of = PER
-					is_core_of = AFG
-					is_core_of = IRQ
-					is_core_of = TUR
+					NOT = {
+						is_core_of = PER
+						is_core_of = AFG
+						is_core_of = IRQ
+						is_core_of = TUR
+					}
+					is_owned_by = ROOT
 				}
-				is_owned_by = ROOT
 			}
 		}
 	}
@@ -1577,11 +1589,13 @@ joint_focus = {
 				is_in_faction_with = TUR
 				all_state = {
 					OR = {
-						is_core_of = AFG
-						is_core_of = IRQ
-						is_core_of = TUR
+						NOT = {
+							is_core_of = AFG
+							is_core_of = IRQ
+							is_core_of = TUR
+						}
+						is_owned_by = ROOT
 					}
-					is_owned_by = ROOT
 				}
 			}
 		}
@@ -1593,11 +1607,13 @@ joint_focus = {
 				is_in_faction_with = TUR
 				all_state = {
 					OR = {
-						is_core_of = AFG
-						is_core_of = PER
-						is_core_of = TUR
+						NOT = {
+							is_core_of = AFG
+							is_core_of = PER
+							is_core_of = TUR
+						}
+						is_owned_by = ROOT
 					}
-					is_owned_by = ROOT
 				}
 			}
 		}
@@ -1609,11 +1625,13 @@ joint_focus = {
 				is_in_faction_with = TUR
 				all_state = {
 					OR = {
-						is_core_of = PER
-						is_core_of = IRQ
-						is_core_of = TUR
+						NOT = {
+							is_core_of = PER
+							is_core_of = IRQ
+							is_core_of = TUR
+						}
+						is_owned_by = ROOT
 					}
-					is_owned_by = ROOT
 				}
 			}
 		}
@@ -1625,11 +1643,13 @@ joint_focus = {
 				is_in_faction_with = PER
 				all_state = {
 					OR = {
-						is_core_of = AFG
-						is_core_of = IRQ
-						is_core_of = PER
+						NOT = {
+							is_core_of = AFG
+							is_core_of = IRQ
+							is_core_of = PER
+						}
+						is_owned_by = ROOT
 					}
-					is_owned_by = ROOT
 				}
 			}
 		}
@@ -1657,12 +1677,14 @@ joint_focus = {
 			is_in_faction_with = TUR
 			all_state = {
 				OR = {
-					is_core_of = PER
-					is_core_of = AFG
-					is_core_of = IRQ
-					is_core_of = TUR
+					NOT = {
+						is_core_of = PER
+						is_core_of = AFG
+						is_core_of = IRQ
+						is_core_of = TUR
+					}
+					is_owned_by = ROOT
 				}
-				is_owned_by = ROOT
 			}
 		}
 	}
