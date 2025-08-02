@@ -3264,10 +3264,7 @@ integrate_united_balkan_category = {
 						transfer_state = 102
 					}
 					if = {
-						limit = {
-							103 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 103 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 103
 					}
 					transfer_state = 104
@@ -3284,7 +3281,10 @@ integrate_united_balkan_category = {
 						transfer_state = 163
 					}
 					if = {
-						limit = { 736 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							736 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 736
 					}
 					if = {
@@ -3296,7 +3296,10 @@ integrate_united_balkan_category = {
 					transfer_state = 804
 					transfer_state = 970
 					if = {
-						limit = { 852 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							852 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 852
 					}
 					if = {
@@ -3318,17 +3321,11 @@ integrate_united_balkan_category = {
 				hidden_effect = {
 					transfer_state = 47
 					if = {
-						limit = {
-							164 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 164 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 164
 					}
 					if = {
-						limit = {
-							182 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 182 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 182
 					}
 					transfer_state = 184
@@ -3484,10 +3481,7 @@ integrate_united_balkan_category = {
 						transfer_state = 102
 					}
 					if = {
-						limit = {
-							103 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 103 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 103
 					}
 					transfer_state = 104
@@ -3504,7 +3498,10 @@ integrate_united_balkan_category = {
 						transfer_state = 163
 					}
 					if = {
-						limit = { 736 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							736 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 736
 					}
 					if = {
@@ -3516,7 +3513,10 @@ integrate_united_balkan_category = {
 					transfer_state = 804
 					transfer_state = 970
 					if = {
-						limit = { 852 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							852 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 852
 					}
 					if = {
@@ -3538,17 +3538,11 @@ integrate_united_balkan_category = {
 				hidden_effect = {
 					transfer_state = 47
 					if = {
-						limit = {
-							164 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 164 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 164
 					}
 					if = {
-						limit = {
-							182 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 182 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 182
 					}
 					transfer_state = 184
@@ -3691,10 +3685,7 @@ integrate_united_balkan_category = {
 						transfer_state = 102
 					}
 					if = {
-						limit = {
-							103 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 103 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 103
 					}
 					transfer_state = 104
@@ -3711,7 +3702,10 @@ integrate_united_balkan_category = {
 						transfer_state = 163
 					}
 					if = {
-						limit = { 736 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							736 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 736
 					}
 					if = {
@@ -3723,7 +3717,10 @@ integrate_united_balkan_category = {
 					transfer_state = 804
 					transfer_state = 970
 					if = {
-						limit = { 852 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							852 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 852
 					}
 					if = {
@@ -3745,17 +3742,11 @@ integrate_united_balkan_category = {
 				hidden_effect = {
 					transfer_state = 47
 					if = {
-						limit = {
-							164 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 164 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 164
 					}
 					if = {
-						limit = {
-							182 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 182 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 182
 					}
 					transfer_state = 184
@@ -3899,10 +3890,7 @@ integrate_united_balkan_category = {
 						transfer_state = 102
 					}
 					if = {
-						limit = {
-							103 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 103 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 103
 					}
 					transfer_state = 104
@@ -3919,7 +3907,10 @@ integrate_united_balkan_category = {
 						transfer_state = 163
 					}
 					if = {
-						limit = { 736 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							736 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 736
 					}
 					if = {
@@ -3931,7 +3922,10 @@ integrate_united_balkan_category = {
 					transfer_state = 804
 					transfer_state = 970
 					if = {
-						limit = { 852 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							852 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 852
 					}
 					if = {
@@ -3953,17 +3947,11 @@ integrate_united_balkan_category = {
 				hidden_effect = {
 					transfer_state = 47
 					if = {
-						limit = {
-							164 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 164 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 164
 					}
 					if = {
-						limit = {
-							182 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 182 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 182
 					}
 					transfer_state = 184
@@ -4106,10 +4094,7 @@ integrate_united_balkan_category = {
 						transfer_state = 102
 					}
 					if = {
-						limit = {
-							103 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 103 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 103
 					}
 					transfer_state = 104
@@ -4126,7 +4111,10 @@ integrate_united_balkan_category = {
 						transfer_state = 163
 					}
 					if = {
-						limit = { 736 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							736 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 736
 					}
 					if = {
@@ -4138,7 +4126,10 @@ integrate_united_balkan_category = {
 					transfer_state = 804
 					transfer_state = 970
 					if = {
-						limit = { 852 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							852 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 852
 					}
 					if = {
@@ -4160,17 +4151,11 @@ integrate_united_balkan_category = {
 				hidden_effect = {
 					transfer_state = 47
 					if = {
-						limit = {
-							164 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 164 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 164
 					}
 					if = {
-						limit = {
-							182 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 182 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 182
 					}
 					transfer_state = 184
@@ -4313,10 +4298,7 @@ integrate_united_balkan_category = {
 						transfer_state = 102
 					}
 					if = {
-						limit = {
-							103 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 103 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 103
 					}
 					transfer_state = 104
@@ -4333,7 +4315,10 @@ integrate_united_balkan_category = {
 						transfer_state = 163
 					}
 					if = {
-						limit = { 736 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							736 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 736
 					}
 					if = {
@@ -4345,7 +4330,10 @@ integrate_united_balkan_category = {
 					transfer_state = 804
 					transfer_state = 970
 					if = {
-						limit = { 852 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							852 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 852
 					}
 					if = {
@@ -4367,17 +4355,11 @@ integrate_united_balkan_category = {
 				hidden_effect = {
 					transfer_state = 47
 					if = {
-						limit = {
-							164 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 164 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 164
 					}
 					if = {
-						limit = {
-							182 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 182 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 182
 					}
 					transfer_state = 184
@@ -4520,10 +4502,7 @@ integrate_united_balkan_category = {
 						transfer_state = 102
 					}
 					if = {
-						limit = {
-							103 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 103 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 103
 					}
 					transfer_state = 104
@@ -4540,7 +4519,10 @@ integrate_united_balkan_category = {
 						transfer_state = 163
 					}
 					if = {
-						limit = { 736 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							736 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 736
 					}
 					if = {
@@ -4552,7 +4534,10 @@ integrate_united_balkan_category = {
 					transfer_state = 804
 					transfer_state = 970
 					if = {
-						limit = { 852 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							852 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 852
 					}
 					if = {
@@ -4574,17 +4559,11 @@ integrate_united_balkan_category = {
 				hidden_effect = {
 					transfer_state = 47
 					if = {
-						limit = {
-							164 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 164 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 164
 					}
 					if = {
-						limit = {
-							182 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 182 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 182
 					}
 					transfer_state = 184
@@ -4727,10 +4706,7 @@ integrate_united_balkan_category = {
 						transfer_state = 102
 					}
 					if = {
-						limit = {
-							103 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 103 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 103
 					}
 					transfer_state = 104
@@ -4747,7 +4723,10 @@ integrate_united_balkan_category = {
 						transfer_state = 163
 					}
 					if = {
-						limit = { 736 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							736 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 736
 					}
 					if = {
@@ -4759,7 +4738,10 @@ integrate_united_balkan_category = {
 					transfer_state = 804
 					transfer_state = 970
 					if = {
-						limit = { 852 = { is_controlled_by_ROOT_or_subject = yes } }
+						limit = {
+							852 = { is_controlled_by_ROOT_or_subject = yes }
+							NOT = { has_global_flag = greater_italy_flag }
+						}
 						transfer_state = 852
 					}
 					if = {
@@ -4781,17 +4763,11 @@ integrate_united_balkan_category = {
 				hidden_effect = {
 					transfer_state = 47
 					if = {
-						limit = {
-							164 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 164 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 164
 					}
 					if = {
-						limit = {
-							182 = { is_controlled_by_ROOT_or_subject = yes }
-							NOT = { has_global_flag = greater_italy_flag }
-						}
+						limit = { 182 = { is_controlled_by_ROOT_or_subject = yes } }
 						transfer_state = 182
 					}
 					transfer_state = 184
@@ -4927,6 +4903,12 @@ form_greater_german_reich_category = {
 				86 = { is_core_of = GER }
 				762 = { is_core_of = GER }
 				102 = { is_core_of = GER }
+				153 = { is_core_of = GER }
+				152 = { is_core_of = GER }
+				4 = { is_core_of = GER }
+				848 = { is_core_of = GER }
+				975 = { is_core_of = GER }
+				976 = { is_core_of = GER }
 			}}
 		}
 		available = {
@@ -4940,6 +4922,12 @@ form_greater_german_reich_category = {
 				86 = { is_core_of = GER }
 				762 = { is_core_of = GER }
 				102 = { is_core_of = GER }
+				153 = { is_core_of = GER }
+				152 = { is_core_of = GER }
+				4 = { is_core_of = GER }
+				848 = { is_core_of = GER }
+				975 = { is_core_of = GER }
+				976 = { is_core_of = GER }
 			}}
 		}
 		complete_effect = {
@@ -4953,6 +4941,12 @@ form_greater_german_reich_category = {
 			add_state_core = 762
 			add_state_core = 102
 			add_state_core = 853
+			add_state_core = 153
+			add_state_core = 152
+			add_state_core = 4
+			add_state_core = 848
+			add_state_core = 975
+			add_state_core = 976
 		}
 
 		ai_will_do = { base = 200 }

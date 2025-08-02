@@ -476,16 +476,11 @@ joint_focus = {
 					has_civil_war = no
 				}
 			}
-			all_state = {
-				OR = {
-					NOT = {
-						is_core_of = PER
-						is_core_of = AFG
-						is_core_of = IRQ
-						is_core_of = TUR
-					}
-					is_owned_by = ROOT
-				}
+			AND = {
+				PER = { all_core_state = { is_owned_by = ROOT } }
+				AFG = { all_core_state = { is_owned_by = ROOT } }
+				IRQ = { all_core_state = { is_owned_by = ROOT } }
+				TUR = { all_core_state = { is_owned_by = ROOT } }
 			}
 		}
 	}
@@ -1454,15 +1449,10 @@ joint_focus = {
 				is_in_faction_with = AFG
 				is_in_faction_with = IRQ
 				is_in_faction_with = TUR
-				all_state = {
-					OR = {
-						NOT = {
-							is_core_of = AFG
-							is_core_of = IRQ
-							is_core_of = TUR
-						}
-						is_owned_by = ROOT
-					}
+				AND = {
+					AFG = { all_core_state = { is_owned_by = ROOT } }
+					IRQ = { all_core_state = { is_owned_by = ROOT } }
+					TUR = { all_core_state = { is_owned_by = ROOT } }
 				}
 			}
 		}
@@ -1472,15 +1462,10 @@ joint_focus = {
 				is_in_faction_with = AFG
 				is_in_faction_with = PER
 				is_in_faction_with = TUR
-				all_state = {
-					OR = {
-						NOT = {
-							is_core_of = AFG
-							is_core_of = PER
-							is_core_of = TUR
-						}
-						is_owned_by = ROOT
-					}
+				AND = {
+					AFG = { all_core_state = { is_owned_by = ROOT } }
+					PER = { all_core_state = { is_owned_by = ROOT } }
+					TUR = { all_core_state = { is_owned_by = ROOT } }
 				}
 			}
 		}
@@ -1490,15 +1475,10 @@ joint_focus = {
 				is_in_faction_with = PER
 				is_in_faction_with = IRQ
 				is_in_faction_with = TUR
-				all_state = {
-					OR = {
-						NOT = {
-							is_core_of = PER
-							is_core_of = IRQ
-							is_core_of = TUR
-						}
-						is_owned_by = ROOT
-					}
+				AND = {
+					PER = { all_core_state = { is_owned_by = ROOT } }
+					IRQ = { all_core_state = { is_owned_by = ROOT } }
+					TUR = { all_core_state = { is_owned_by = ROOT } }
 				}
 			}
 		}
@@ -1508,15 +1488,10 @@ joint_focus = {
 				is_in_faction_with = AFG
 				is_in_faction_with = IRQ
 				is_in_faction_with = PER
-				all_state = {
-					OR = {
-						NOT = {
-							is_core_of = AFG
-							is_core_of = IRQ
-							is_core_of = PER
-						}
-						is_owned_by = ROOT
-					}
+				AND = {
+					AFG = { all_core_state = { is_owned_by = ROOT } }
+					IRQ = { all_core_state = { is_owned_by = ROOT } }
+					PER = { all_core_state = { is_owned_by = ROOT } }
 				}
 			}
 		}
@@ -1542,16 +1517,11 @@ joint_focus = {
 			is_in_faction_with = AFG
 			is_in_faction_with = IRQ
 			is_in_faction_with = TUR
-			all_state = {
-				OR = {
-					NOT = {
-						is_core_of = PER
-						is_core_of = AFG
-						is_core_of = IRQ
-						is_core_of = TUR
-					}
-					is_owned_by = ROOT
-				}
+			AND = {
+				PER = { all_core_state = { is_owned_by = ROOT } }
+				AFG = { all_core_state = { is_owned_by = ROOT } }
+				IRQ = { all_core_state = { is_owned_by = ROOT } }
+				TUR = { all_core_state = { is_owned_by = ROOT } }
 			}
 		}
 	}
@@ -1599,15 +1569,10 @@ joint_focus = {
 				is_in_faction_with = AFG
 				is_in_faction_with = IRQ
 				is_in_faction_with = TUR
-				all_state = {
-					OR = {
-						NOT = {
-							is_core_of = AFG
-							is_core_of = IRQ
-							is_core_of = TUR
-						}
-						is_owned_by = ROOT
-					}
+				AND = {
+					AFG = { all_core_state = { is_owned_by = ROOT } }
+					IRQ = { all_core_state = { is_owned_by = ROOT } }
+					TUR = { all_core_state = { is_owned_by = ROOT } }
 				}
 			}
 		}
@@ -1617,15 +1582,10 @@ joint_focus = {
 				is_in_faction_with = AFG
 				is_in_faction_with = PER
 				is_in_faction_with = TUR
-				all_state = {
-					OR = {
-						NOT = {
-							is_core_of = AFG
-							is_core_of = PER
-							is_core_of = TUR
-						}
-						is_owned_by = ROOT
-					}
+				AND = {
+					AFG = { all_core_state = { is_owned_by = ROOT } }
+					PER = { all_core_state = { is_owned_by = ROOT } }
+					TUR = { all_core_state = { is_owned_by = ROOT } }
 				}
 			}
 		}
@@ -1635,15 +1595,10 @@ joint_focus = {
 				is_in_faction_with = PER
 				is_in_faction_with = IRQ
 				is_in_faction_with = TUR
-				all_state = {
-					OR = {
-						NOT = {
-							is_core_of = PER
-							is_core_of = IRQ
-							is_core_of = TUR
-						}
-						is_owned_by = ROOT
-					}
+				AND = {
+					PER = { all_core_state = { is_owned_by = ROOT } }
+					IRQ = { all_core_state = { is_owned_by = ROOT } }
+					TUR = { all_core_state = { is_owned_by = ROOT } }
 				}
 			}
 		}
@@ -1653,15 +1608,10 @@ joint_focus = {
 				is_in_faction_with = AFG
 				is_in_faction_with = IRQ
 				is_in_faction_with = PER
-				all_state = {
-					OR = {
-						NOT = {
-							is_core_of = AFG
-							is_core_of = IRQ
-							is_core_of = PER
-						}
-						is_owned_by = ROOT
-					}
+				AND = {
+					AFG = { all_core_state = { is_owned_by = ROOT } }
+					IRQ = { all_core_state = { is_owned_by = ROOT } }
+					PER = { all_core_state = { is_owned_by = ROOT } }
 				}
 			}
 		}
@@ -1687,16 +1637,11 @@ joint_focus = {
 			is_in_faction_with = AFG
 			is_in_faction_with = IRQ
 			is_in_faction_with = TUR
-			all_state = {
-				OR = {
-					NOT = {
-						is_core_of = PER
-						is_core_of = AFG
-						is_core_of = IRQ
-						is_core_of = TUR
-					}
-					is_owned_by = ROOT
-				}
+			AND = {
+				PER = { all_core_state = { is_owned_by = ROOT } }
+				AFG = { all_core_state = { is_owned_by = ROOT } }
+				IRQ = { all_core_state = { is_owned_by = ROOT } }
+				TUR = { all_core_state = { is_owned_by = ROOT } }
 			}
 		}
 	}
