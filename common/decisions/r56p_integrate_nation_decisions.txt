@@ -10194,6 +10194,8 @@ integrate_polynesia_category = {
 			every_state = {
 				limit = {
 					OR = {
+						state = 270
+						state = 1074
 						state = 725
 						state = 639
 						state = 633
@@ -14954,7 +14956,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = DOM
@@ -14992,7 +14994,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = HAI
@@ -15030,7 +15032,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = CUB
@@ -15091,7 +15093,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = JAM
@@ -15129,7 +15131,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = PUE
@@ -15167,7 +15169,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = BAH
@@ -15205,7 +15207,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = TRI
@@ -15243,7 +15245,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = GDL
@@ -15281,7 +15283,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = CRC
@@ -15319,7 +15321,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = STK
@@ -15357,7 +15359,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = DMN
@@ -15395,7 +15397,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = BRB
@@ -15433,7 +15435,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = STL
@@ -15471,7 +15473,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = SVG
@@ -15509,7 +15511,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = GRA
@@ -15547,7 +15549,7 @@ integrate_carribean_category = {
 			}
 			every_state = { #This has a day of lag, for reasons
 				limit = {
-					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR }
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
 					is_controlled_by_ROOT_or_subject = yes
 				}
 				transfer_state_to = MAR
@@ -15559,6 +15561,44 @@ integrate_carribean_category = {
 			if = {
 				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
 				MAR = { transfer_state = 1050 }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	MAA_integrate_caribbean = {
+		icon = generic_form_nation
+		visible = {
+			MAA = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_caribbean_flag }
+		}
+		available = {
+			994 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = CUB is_core_of = DOM is_core_of = HAI }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = MAA
+			}
+			every_state = { #This has a day of lag, for reasons
+				limit = {
+					OR = { is_core_of = TRI is_core_of = PUE is_core_of = BAS is_core_of = GDL is_core_of = BAH is_core_of = CRC is_core_of = JAM is_core_of = STK is_core_of = DMN is_core_of = BAR is_core_of = STL is_core_of = SVG is_core_of = GRA is_core_of = MAR is_core_of = MAA }
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = MAA
+			}
+			if = {
+				limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+				MAA = { transfer_state = 972 }
+			}
+			if = {
+				limit = { 1050 = { is_controlled_by_ROOT_or_subject = yes } }
+				MAA = { transfer_state = 1050 }
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -18043,7 +18083,6 @@ integrate_the_mamluks_category = {
 				554 = { is_controlled_by_ROOT_or_subject = yes }
 				677 = { is_controlled_by_ROOT_or_subject = yes }
 				680 = { is_controlled_by_ROOT_or_subject = yes }
-				799 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			855 = { is_controlled_by_ROOT_or_subject = yes }
 			679 = { is_controlled_by_ROOT_or_subject = yes }
@@ -18078,7 +18117,6 @@ integrate_the_mamluks_category = {
 					transfer_state = 554
 					transfer_state = 677
 					transfer_state = 680
-					transfer_state = 799
 					transfer_state = 344
 					transfer_state = 451
 					transfer_state = 663
@@ -18141,7 +18179,6 @@ integrate_the_mamluks_category = {
 				554 = { is_controlled_by_ROOT_or_subject = yes }
 				677 = { is_controlled_by_ROOT_or_subject = yes }
 				680 = { is_controlled_by_ROOT_or_subject = yes }
-				799 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			855 = { is_controlled_by_ROOT_or_subject = yes }
 			679 = { is_controlled_by_ROOT_or_subject = yes }
@@ -18176,7 +18213,6 @@ integrate_the_mamluks_category = {
 					transfer_state = 554
 					transfer_state = 677
 					transfer_state = 680
-					transfer_state = 799
 					transfer_state = 344
 					transfer_state = 451
 					transfer_state = 663
@@ -18227,7 +18263,6 @@ integrate_the_mamluks_category = {
 				554 = { is_controlled_by_ROOT_or_subject = yes }
 				677 = { is_controlled_by_ROOT_or_subject = yes }
 				680 = { is_controlled_by_ROOT_or_subject = yes }
-				799 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			855 = { is_controlled_by_ROOT_or_subject = yes }
 			679 = { is_controlled_by_ROOT_or_subject = yes }
@@ -18262,7 +18297,6 @@ integrate_the_mamluks_category = {
 					transfer_state = 554
 					transfer_state = 677
 					transfer_state = 680
-					transfer_state = 799
 					transfer_state = 344
 					transfer_state = 451
 					transfer_state = 663
@@ -18313,7 +18347,6 @@ integrate_the_mamluks_category = {
 				554 = { is_controlled_by_ROOT_or_subject = yes }
 				677 = { is_controlled_by_ROOT_or_subject = yes }
 				680 = { is_controlled_by_ROOT_or_subject = yes }
-				799 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			855 = { is_controlled_by_ROOT_or_subject = yes }
 			679 = { is_controlled_by_ROOT_or_subject = yes }
@@ -18348,7 +18381,6 @@ integrate_the_mamluks_category = {
 					transfer_state = 554
 					transfer_state = 677
 					transfer_state = 680
-					transfer_state = 799
 					transfer_state = 344
 					transfer_state = 451
 					transfer_state = 663
@@ -18399,7 +18431,6 @@ integrate_the_mamluks_category = {
 				554 = { is_controlled_by_ROOT_or_subject = yes }
 				677 = { is_controlled_by_ROOT_or_subject = yes }
 				680 = { is_controlled_by_ROOT_or_subject = yes }
-				799 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 			855 = { is_controlled_by_ROOT_or_subject = yes }
 			679 = { is_controlled_by_ROOT_or_subject = yes }
@@ -18434,7 +18465,6 @@ integrate_the_mamluks_category = {
 					transfer_state = 554
 					transfer_state = 677
 					transfer_state = 680
-					transfer_state = 799
 					transfer_state = 344
 					transfer_state = 451
 					transfer_state = 663

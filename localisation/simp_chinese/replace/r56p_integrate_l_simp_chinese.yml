@@ -260,6 +260,7 @@
   SVG_integrate_caribbean: "向[SVG.GetName]移交领土"
   GRA_integrate_caribbean: "向[GRA.GetName]移交领土"
   MAR_integrate_caribbean: "向[MAR.GetName]移交领土"
+  MAA_integrate_caribbean: "向[MAA.GetName]移交领土"
 
   integrate_greater_morocco_category: "整合大摩洛哥"
   MOR_integrate_greater_morocco: "向[MOR.GetName]移交领土"

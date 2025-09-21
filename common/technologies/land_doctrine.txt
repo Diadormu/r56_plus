@@ -4067,7 +4067,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_r56_guerilla_warfare
 		}
 
 
@@ -4130,7 +4130,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_r56_guerilla_warfare
 		}
 
 
@@ -4195,7 +4195,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_r56_guerilla_warfare
 		}
 
 
