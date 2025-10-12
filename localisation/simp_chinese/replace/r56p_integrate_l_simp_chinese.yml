@@ -218,6 +218,29 @@
   integrate_horn_of_africa_africa_category: "整合非洲之角"
   ETH_integrate_horn_of_africa_africa: "向[ETH.GetName]移交领土"
 
+  integrate_antilles_category: "整合安的列斯"
+  HAI_unite_the_antilles: "向[HAI.GetName]移交领土"
+  DOM_unite_the_antilles: "向[DOM.GetName]移交领土"
+  PUE_unite_the_antilles: "向[PUE.GetName]移交领土"
+  CUB_unite_the_antilles: "向[CUB.GetName]移交领土"
+  JAM_unite_the_antilles: "向[JAM.GetName]移交领土"
+  BAH_unite_the_antilles: "向[BAH.GetName]移交领土"
+  GDL_unite_the_antilles: "向[GDL.GetName]移交领土"
+  BAS_unite_the_antilles: "向[BAS.GetName]移交领土"
+
+  integrate_latin_africa_category: "整合拉丁非洲"
+  COG_unite_latin_africa: "向[COG.GetName]移交领土（推荐，有独立国策）"
+  KAT_unite_latin_africa: "向[KAT.GetName]移交领土"
+  RCG_unite_latin_africa: "向[RCG.GetName]移交领土"
+  RWA_unite_latin_africa: "向[RWA.GetName]移交领土"
+  BRD_unite_latin_africa: "向[BRD.GetName]移交领土"
+  ANG_unite_latin_africa: "向[ANG.GetName]移交领土"
+  GAB_unite_latin_africa: "向[GAB.GetName]移交领土"
+  EQG_unite_latin_africa: "向[EQG.GetName]移交领土"
+  CMR_unite_latin_africa: "向[CMR.GetName]移交领土"
+  CHA_unite_latin_africa: "向[CHA.GetName]移交领土"
+  CAR_unite_latin_africa: "向[CAR.GetName]移交领土"
+
   #========== TOA ==========#
 
   integrate_hispaniola_category: "整合伊斯帕尼奥拉"

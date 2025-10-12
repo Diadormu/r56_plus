@@ -14309,6 +14309,1389 @@ integrate_horn_of_africa_africa_category = {
 	}
 }
 
+integrate_antilles_category = {
+	HAI_unite_the_antilles = {
+		icon = generic_form_nation
+		visible = {
+			HAI = { is_subject_of = ROOT }
+			NOT = { has_global_flag = antilles_formed_flag }
+		}
+		available = {
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			HAI = {
+				transfer_state = 319
+				transfer_state = 318
+				transfer_state = 315
+				if = {
+					limit = { 689 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 689
+				}
+				if = {
+					limit = { 690 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 690
+				}
+				if = {
+					limit = { 693 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 693
+				}
+				if = {
+					limit = { 686 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 686
+				}
+				if = {
+					limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 972
+				}
+				if = {
+					limit = { 1079 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1079
+				}
+				if = {
+					limit = { 694 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 694
+				}
+				if = {
+					limit = { 1080 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1080
+				}
+				if = {
+					limit = { 308 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 308
+				}
+				if = {
+					limit = { 1081 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1081
+				}
+				if = {
+					limit = { 692 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 692
+				}
+				if = {
+					limit = { 1083 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1083
+				}
+				if = {
+					limit = { 1084 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1084
+				}
+				if = {
+					limit = { 1085 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1085
+				}
+				if = {
+					limit = { 695 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 695
+				}
+				if = {
+					limit = { 691 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 691
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	DOM_unite_the_antilles = {
+		icon = generic_form_nation
+		visible = {
+			DOM = { is_subject_of = ROOT }
+			NOT = { has_global_flag = antilles_formed_flag }
+		}
+		available = {
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			DOM = {
+				transfer_state = 319
+				transfer_state = 318
+				transfer_state = 315
+				if = {
+					limit = { 689 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 689
+				}
+				if = {
+					limit = { 690 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 690
+				}
+				if = {
+					limit = { 693 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 693
+				}
+				if = {
+					limit = { 686 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 686
+				}
+				if = {
+					limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 972
+				}
+				if = {
+					limit = { 1079 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1079
+				}
+				if = {
+					limit = { 694 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 694
+				}
+				if = {
+					limit = { 1080 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1080
+				}
+				if = {
+					limit = { 308 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 308
+				}
+				if = {
+					limit = { 1081 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1081
+				}
+				if = {
+					limit = { 692 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 692
+				}
+				if = {
+					limit = { 1083 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1083
+				}
+				if = {
+					limit = { 1084 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1084
+				}
+				if = {
+					limit = { 1085 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1085
+				}
+				if = {
+					limit = { 695 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 695
+				}
+				if = {
+					limit = { 691 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 691
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	PUE_unite_the_antilles = {
+		icon = generic_form_nation
+		visible = {
+			PUE = { is_subject_of = ROOT }
+			NOT = { has_global_flag = antilles_formed_flag }
+		}
+		available = {
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			PUE = {
+				transfer_state = 319
+				transfer_state = 318
+				transfer_state = 315
+				if = {
+					limit = { 689 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 689
+				}
+				if = {
+					limit = { 690 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 690
+				}
+				if = {
+					limit = { 693 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 693
+				}
+				if = {
+					limit = { 686 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 686
+				}
+				if = {
+					limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 972
+				}
+				if = {
+					limit = { 1079 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1079
+				}
+				if = {
+					limit = { 694 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 694
+				}
+				if = {
+					limit = { 1080 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1080
+				}
+				if = {
+					limit = { 308 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 308
+				}
+				if = {
+					limit = { 1081 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1081
+				}
+				if = {
+					limit = { 692 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 692
+				}
+				if = {
+					limit = { 1083 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1083
+				}
+				if = {
+					limit = { 1084 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1084
+				}
+				if = {
+					limit = { 1085 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1085
+				}
+				if = {
+					limit = { 695 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 695
+				}
+				if = {
+					limit = { 691 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 691
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CUB_unite_the_antilles = {
+		icon = generic_form_nation
+		visible = {
+			CUB = { is_subject_of = ROOT }
+			NOT = { has_global_flag = antilles_formed_flag }
+		}
+		available = {
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			CUB = {
+				transfer_state = 319
+				transfer_state = 318
+				transfer_state = 315
+				if = {
+					limit = { 689 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 689
+				}
+				if = {
+					limit = { 690 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 690
+				}
+				if = {
+					limit = { 693 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 693
+				}
+				if = {
+					limit = { 686 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 686
+				}
+				if = {
+					limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 972
+				}
+				if = {
+					limit = { 1079 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1079
+				}
+				if = {
+					limit = { 694 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 694
+				}
+				if = {
+					limit = { 1080 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1080
+				}
+				if = {
+					limit = { 308 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 308
+				}
+				if = {
+					limit = { 1081 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1081
+				}
+				if = {
+					limit = { 692 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 692
+				}
+				if = {
+					limit = { 1083 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1083
+				}
+				if = {
+					limit = { 1084 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1084
+				}
+				if = {
+					limit = { 1085 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1085
+				}
+				if = {
+					limit = { 695 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 695
+				}
+				if = {
+					limit = { 691 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 691
+				}
+			}
+		}
+		ai_will_do = {
+			base = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = HAI
+					original_tag = DOM
+					original_tag = PUE
+					original_tag = CUB
+					original_tag = JAM
+					original_tag = BAH
+					original_tag = GDL
+					original_tag = BAS
+				}
+			}
+		}
+	}
+	JAM_unite_the_antilles = {
+		icon = generic_form_nation
+		visible = {
+			JAM = { is_subject_of = ROOT }
+			NOT = { has_global_flag = antilles_formed_flag }
+		}
+		available = {
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			JAM = {
+				transfer_state = 319
+				transfer_state = 318
+				transfer_state = 315
+				if = {
+					limit = { 689 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 689
+				}
+				if = {
+					limit = { 690 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 690
+				}
+				if = {
+					limit = { 693 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 693
+				}
+				if = {
+					limit = { 686 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 686
+				}
+				if = {
+					limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 972
+				}
+				if = {
+					limit = { 1079 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1079
+				}
+				if = {
+					limit = { 694 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 694
+				}
+				if = {
+					limit = { 1080 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1080
+				}
+				if = {
+					limit = { 308 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 308
+				}
+				if = {
+					limit = { 1081 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1081
+				}
+				if = {
+					limit = { 692 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 692
+				}
+				if = {
+					limit = { 1083 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1083
+				}
+				if = {
+					limit = { 1084 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1084
+				}
+				if = {
+					limit = { 1085 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1085
+				}
+				if = {
+					limit = { 695 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 695
+				}
+				if = {
+					limit = { 691 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 691
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	BAH_unite_the_antilles = {
+		icon = generic_form_nation
+		visible = {
+			BAH = { is_subject_of = ROOT }
+			NOT = { has_global_flag = antilles_formed_flag }
+		}
+		available = {
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			BAH = {
+				transfer_state = 319
+				transfer_state = 318
+				transfer_state = 315
+				if = {
+					limit = { 689 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 689
+				}
+				if = {
+					limit = { 690 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 690
+				}
+				if = {
+					limit = { 693 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 693
+				}
+				if = {
+					limit = { 686 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 686
+				}
+				if = {
+					limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 972
+				}
+				if = {
+					limit = { 1079 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1079
+				}
+				if = {
+					limit = { 694 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 694
+				}
+				if = {
+					limit = { 1080 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1080
+				}
+				if = {
+					limit = { 308 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 308
+				}
+				if = {
+					limit = { 1081 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1081
+				}
+				if = {
+					limit = { 692 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 692
+				}
+				if = {
+					limit = { 1083 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1083
+				}
+				if = {
+					limit = { 1084 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1084
+				}
+				if = {
+					limit = { 1085 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1085
+				}
+				if = {
+					limit = { 695 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 695
+				}
+				if = {
+					limit = { 691 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 691
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	GDL_unite_the_antilles = {
+		icon = generic_form_nation
+		visible = {
+			GDL = { is_subject_of = ROOT }
+			NOT = { has_global_flag = antilles_formed_flag }
+		}
+		available = {
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			GDL = {
+				transfer_state = 319
+				transfer_state = 318
+				transfer_state = 315
+				if = {
+					limit = { 689 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 689
+				}
+				if = {
+					limit = { 690 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 690
+				}
+				if = {
+					limit = { 693 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 693
+				}
+				if = {
+					limit = { 686 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 686
+				}
+				if = {
+					limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 972
+				}
+				if = {
+					limit = { 1079 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1079
+				}
+				if = {
+					limit = { 694 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 694
+				}
+				if = {
+					limit = { 1080 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1080
+				}
+				if = {
+					limit = { 308 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 308
+				}
+				if = {
+					limit = { 1081 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1081
+				}
+				if = {
+					limit = { 692 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 692
+				}
+				if = {
+					limit = { 1083 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1083
+				}
+				if = {
+					limit = { 1084 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1084
+				}
+				if = {
+					limit = { 1085 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1085
+				}
+				if = {
+					limit = { 695 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 695
+				}
+				if = {
+					limit = { 691 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 691
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	BAS_unite_the_antilles = {
+		icon = generic_form_nation
+		visible = {
+			BAS = { is_subject_of = ROOT }
+			NOT = { has_global_flag = antilles_formed_flag }
+		}
+		available = {
+			319 = { is_controlled_by_ROOT_or_subject = yes }
+			318 = { is_controlled_by_ROOT_or_subject = yes }
+			315 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			BAS = {
+				transfer_state = 319
+				transfer_state = 318
+				transfer_state = 315
+				if = {
+					limit = { 689 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 689
+				}
+				if = {
+					limit = { 690 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 690
+				}
+				if = {
+					limit = { 693 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 693
+				}
+				if = {
+					limit = { 686 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 686
+				}
+				if = {
+					limit = { 972 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 972
+				}
+				if = {
+					limit = { 1079 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1079
+				}
+				if = {
+					limit = { 694 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 694
+				}
+				if = {
+					limit = { 1080 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1080
+				}
+				if = {
+					limit = { 308 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 308
+				}
+				if = {
+					limit = { 1081 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1081
+				}
+				if = {
+					limit = { 692 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 692
+				}
+				if = {
+					limit = { 1083 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1083
+				}
+				if = {
+					limit = { 1084 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1084
+				}
+				if = {
+					limit = { 1085 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1085
+				}
+				if = {
+					limit = { 695 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 695
+				}
+				if = {
+					limit = { 691 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 691
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
+integrate_latin_africa_category = {
+	COG_unite_latin_africa = {
+		icon = generic_form_nation
+		visible = {
+			COG = { is_subject_of = ROOT }
+			NOT = { has_global_flag = latin_africa_formed_flag }
+		}
+		available = {
+			295 = { is_controlled_by_ROOT_or_subject = yes }
+			888 = { is_controlled_by_ROOT_or_subject = yes }
+			889 = { is_controlled_by_ROOT_or_subject = yes }
+			890 = { is_controlled_by_ROOT_or_subject = yes }
+			718 = { is_controlled_by_ROOT_or_subject = yes }
+			538 = { is_controlled_by_ROOT_or_subject = yes }
+			768 = { is_controlled_by_ROOT_or_subject = yes }
+			769 = { is_controlled_by_ROOT_or_subject = yes }
+			796 = { is_controlled_by_ROOT_or_subject = yes }
+			540 = { is_controlled_by_ROOT_or_subject = yes }
+			891 = { is_controlled_by_ROOT_or_subject = yes }
+			892 = { is_controlled_by_ROOT_or_subject = yes }
+			772 = { is_controlled_by_ROOT_or_subject = yes }
+			539 = { is_controlled_by_ROOT_or_subject = yes }
+			297 = { is_controlled_by_ROOT_or_subject = yes }
+			773 = { is_controlled_by_ROOT_or_subject = yes }
+			660 = { is_controlled_by_ROOT_or_subject = yes }
+			774 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			COG = {
+				transfer_state = 295
+				transfer_state = 538
+				transfer_state = 888
+				transfer_state = 889
+				transfer_state = 890
+				transfer_state = 718
+				transfer_state = 768
+				transfer_state = 769
+				transfer_state = 796
+				transfer_state = 540
+				transfer_state = 892
+				transfer_state = 891
+				transfer_state = 772
+				transfer_state = 539
+				transfer_state = 297
+				if = {
+					limit = { 705 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 705
+				}
+				transfer_state = 773
+				transfer_state = 660
+				transfer_state = 774
+				if = {
+					limit = { 775 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 775
+				}
+			}
+		}
+		ai_will_do = {
+			base = 200
+			modifier = {
+				factor = 0
+				OR = {
+					original_tag = COG
+					original_tag = KAT
+					original_tag = RCG
+					original_tag = RWA
+					original_tag = BRD
+					original_tag = ANG
+					original_tag = GAB
+					original_tag = EQG
+					original_tag = CMR
+					original_tag = CHA
+					original_tag = CAR
+				}
+			}
+		}
+	}
+	KAT_unite_latin_africa = {
+		icon = generic_form_nation
+		visible = {
+			KAT = { is_subject_of = ROOT }
+			NOT = { has_global_flag = latin_africa_formed_flag }
+		}
+		available = {
+			295 = { is_controlled_by_ROOT_or_subject = yes }
+			888 = { is_controlled_by_ROOT_or_subject = yes }
+			889 = { is_controlled_by_ROOT_or_subject = yes }
+			890 = { is_controlled_by_ROOT_or_subject = yes }
+			718 = { is_controlled_by_ROOT_or_subject = yes }
+			538 = { is_controlled_by_ROOT_or_subject = yes }
+			768 = { is_controlled_by_ROOT_or_subject = yes }
+			769 = { is_controlled_by_ROOT_or_subject = yes }
+			796 = { is_controlled_by_ROOT_or_subject = yes }
+			540 = { is_controlled_by_ROOT_or_subject = yes }
+			891 = { is_controlled_by_ROOT_or_subject = yes }
+			892 = { is_controlled_by_ROOT_or_subject = yes }
+			772 = { is_controlled_by_ROOT_or_subject = yes }
+			539 = { is_controlled_by_ROOT_or_subject = yes }
+			297 = { is_controlled_by_ROOT_or_subject = yes }
+			773 = { is_controlled_by_ROOT_or_subject = yes }
+			660 = { is_controlled_by_ROOT_or_subject = yes }
+			774 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			KAT = {
+				transfer_state = 295
+				transfer_state = 538
+				transfer_state = 888
+				transfer_state = 889
+				transfer_state = 890
+				transfer_state = 718
+				transfer_state = 768
+				transfer_state = 769
+				transfer_state = 796
+				transfer_state = 540
+				transfer_state = 892
+				transfer_state = 891
+				transfer_state = 772
+				transfer_state = 539
+				transfer_state = 297
+				if = {
+					limit = { 705 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 705
+				}
+				transfer_state = 773
+				transfer_state = 660
+				transfer_state = 774
+				if = {
+					limit = { 775 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 775
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	RCG_unite_latin_africa = {
+		icon = generic_form_nation
+		visible = {
+			RCG = { is_subject_of = ROOT }
+			NOT = { has_global_flag = latin_africa_formed_flag }
+		}
+		available = {
+			295 = { is_controlled_by_ROOT_or_subject = yes }
+			888 = { is_controlled_by_ROOT_or_subject = yes }
+			889 = { is_controlled_by_ROOT_or_subject = yes }
+			890 = { is_controlled_by_ROOT_or_subject = yes }
+			718 = { is_controlled_by_ROOT_or_subject = yes }
+			538 = { is_controlled_by_ROOT_or_subject = yes }
+			768 = { is_controlled_by_ROOT_or_subject = yes }
+			769 = { is_controlled_by_ROOT_or_subject = yes }
+			796 = { is_controlled_by_ROOT_or_subject = yes }
+			540 = { is_controlled_by_ROOT_or_subject = yes }
+			891 = { is_controlled_by_ROOT_or_subject = yes }
+			892 = { is_controlled_by_ROOT_or_subject = yes }
+			772 = { is_controlled_by_ROOT_or_subject = yes }
+			539 = { is_controlled_by_ROOT_or_subject = yes }
+			297 = { is_controlled_by_ROOT_or_subject = yes }
+			773 = { is_controlled_by_ROOT_or_subject = yes }
+			660 = { is_controlled_by_ROOT_or_subject = yes }
+			774 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			RCG = {
+				transfer_state = 295
+				transfer_state = 538
+				transfer_state = 888
+				transfer_state = 889
+				transfer_state = 890
+				transfer_state = 718
+				transfer_state = 768
+				transfer_state = 769
+				transfer_state = 796
+				transfer_state = 540
+				transfer_state = 892
+				transfer_state = 891
+				transfer_state = 772
+				transfer_state = 539
+				transfer_state = 297
+				if = {
+					limit = { 705 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 705
+				}
+				transfer_state = 773
+				transfer_state = 660
+				transfer_state = 774
+				if = {
+					limit = { 775 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 775
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	RWA_unite_latin_africa = {
+		icon = generic_form_nation
+		visible = {
+			RWA = { is_subject_of = ROOT }
+			NOT = { has_global_flag = latin_africa_formed_flag }
+		}
+		available = {
+			295 = { is_controlled_by_ROOT_or_subject = yes }
+			888 = { is_controlled_by_ROOT_or_subject = yes }
+			889 = { is_controlled_by_ROOT_or_subject = yes }
+			890 = { is_controlled_by_ROOT_or_subject = yes }
+			718 = { is_controlled_by_ROOT_or_subject = yes }
+			538 = { is_controlled_by_ROOT_or_subject = yes }
+			768 = { is_controlled_by_ROOT_or_subject = yes }
+			769 = { is_controlled_by_ROOT_or_subject = yes }
+			796 = { is_controlled_by_ROOT_or_subject = yes }
+			540 = { is_controlled_by_ROOT_or_subject = yes }
+			891 = { is_controlled_by_ROOT_or_subject = yes }
+			892 = { is_controlled_by_ROOT_or_subject = yes }
+			772 = { is_controlled_by_ROOT_or_subject = yes }
+			539 = { is_controlled_by_ROOT_or_subject = yes }
+			297 = { is_controlled_by_ROOT_or_subject = yes }
+			773 = { is_controlled_by_ROOT_or_subject = yes }
+			660 = { is_controlled_by_ROOT_or_subject = yes }
+			774 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			RWA = {
+				transfer_state = 295
+				transfer_state = 538
+				transfer_state = 888
+				transfer_state = 889
+				transfer_state = 890
+				transfer_state = 718
+				transfer_state = 768
+				transfer_state = 769
+				transfer_state = 796
+				transfer_state = 540
+				transfer_state = 892
+				transfer_state = 891
+				transfer_state = 772
+				transfer_state = 539
+				transfer_state = 297
+				if = {
+					limit = { 705 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 705
+				}
+				transfer_state = 773
+				transfer_state = 660
+				transfer_state = 774
+				if = {
+					limit = { 775 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 775
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	BRD_unite_latin_africa = {
+		icon = generic_form_nation
+		visible = {
+			BRD = { is_subject_of = ROOT }
+			NOT = { has_global_flag = latin_africa_formed_flag }
+		}
+		available = {
+			295 = { is_controlled_by_ROOT_or_subject = yes }
+			888 = { is_controlled_by_ROOT_or_subject = yes }
+			889 = { is_controlled_by_ROOT_or_subject = yes }
+			890 = { is_controlled_by_ROOT_or_subject = yes }
+			718 = { is_controlled_by_ROOT_or_subject = yes }
+			538 = { is_controlled_by_ROOT_or_subject = yes }
+			768 = { is_controlled_by_ROOT_or_subject = yes }
+			769 = { is_controlled_by_ROOT_or_subject = yes }
+			796 = { is_controlled_by_ROOT_or_subject = yes }
+			540 = { is_controlled_by_ROOT_or_subject = yes }
+			891 = { is_controlled_by_ROOT_or_subject = yes }
+			892 = { is_controlled_by_ROOT_or_subject = yes }
+			772 = { is_controlled_by_ROOT_or_subject = yes }
+			539 = { is_controlled_by_ROOT_or_subject = yes }
+			297 = { is_controlled_by_ROOT_or_subject = yes }
+			773 = { is_controlled_by_ROOT_or_subject = yes }
+			660 = { is_controlled_by_ROOT_or_subject = yes }
+			774 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			BRD = {
+				transfer_state = 295
+				transfer_state = 538
+				transfer_state = 888
+				transfer_state = 889
+				transfer_state = 890
+				transfer_state = 718
+				transfer_state = 768
+				transfer_state = 769
+				transfer_state = 796
+				transfer_state = 540
+				transfer_state = 892
+				transfer_state = 891
+				transfer_state = 772
+				transfer_state = 539
+				transfer_state = 297
+				if = {
+					limit = { 705 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 705
+				}
+				transfer_state = 773
+				transfer_state = 660
+				transfer_state = 774
+				if = {
+					limit = { 775 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 775
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	ANG_unite_latin_africa = {
+		icon = generic_form_nation
+		visible = {
+			ANG = { is_subject_of = ROOT }
+			NOT = { has_global_flag = latin_africa_formed_flag }
+		}
+		available = {
+			295 = { is_controlled_by_ROOT_or_subject = yes }
+			888 = { is_controlled_by_ROOT_or_subject = yes }
+			889 = { is_controlled_by_ROOT_or_subject = yes }
+			890 = { is_controlled_by_ROOT_or_subject = yes }
+			718 = { is_controlled_by_ROOT_or_subject = yes }
+			538 = { is_controlled_by_ROOT_or_subject = yes }
+			768 = { is_controlled_by_ROOT_or_subject = yes }
+			769 = { is_controlled_by_ROOT_or_subject = yes }
+			796 = { is_controlled_by_ROOT_or_subject = yes }
+			540 = { is_controlled_by_ROOT_or_subject = yes }
+			891 = { is_controlled_by_ROOT_or_subject = yes }
+			892 = { is_controlled_by_ROOT_or_subject = yes }
+			772 = { is_controlled_by_ROOT_or_subject = yes }
+			539 = { is_controlled_by_ROOT_or_subject = yes }
+			297 = { is_controlled_by_ROOT_or_subject = yes }
+			773 = { is_controlled_by_ROOT_or_subject = yes }
+			660 = { is_controlled_by_ROOT_or_subject = yes }
+			774 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			ANG = {
+				transfer_state = 295
+				transfer_state = 538
+				transfer_state = 888
+				transfer_state = 889
+				transfer_state = 890
+				transfer_state = 718
+				transfer_state = 768
+				transfer_state = 769
+				transfer_state = 796
+				transfer_state = 540
+				transfer_state = 892
+				transfer_state = 891
+				transfer_state = 772
+				transfer_state = 539
+				transfer_state = 297
+				if = {
+					limit = { 705 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 705
+				}
+				transfer_state = 773
+				transfer_state = 660
+				transfer_state = 774
+				if = {
+					limit = { 775 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 775
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	GAB_unite_latin_africa = {
+		icon = generic_form_nation
+		visible = {
+			GAB = { is_subject_of = ROOT }
+			NOT = { has_global_flag = latin_africa_formed_flag }
+		}
+		available = {
+			295 = { is_controlled_by_ROOT_or_subject = yes }
+			888 = { is_controlled_by_ROOT_or_subject = yes }
+			889 = { is_controlled_by_ROOT_or_subject = yes }
+			890 = { is_controlled_by_ROOT_or_subject = yes }
+			718 = { is_controlled_by_ROOT_or_subject = yes }
+			538 = { is_controlled_by_ROOT_or_subject = yes }
+			768 = { is_controlled_by_ROOT_or_subject = yes }
+			769 = { is_controlled_by_ROOT_or_subject = yes }
+			796 = { is_controlled_by_ROOT_or_subject = yes }
+			540 = { is_controlled_by_ROOT_or_subject = yes }
+			891 = { is_controlled_by_ROOT_or_subject = yes }
+			892 = { is_controlled_by_ROOT_or_subject = yes }
+			772 = { is_controlled_by_ROOT_or_subject = yes }
+			539 = { is_controlled_by_ROOT_or_subject = yes }
+			297 = { is_controlled_by_ROOT_or_subject = yes }
+			773 = { is_controlled_by_ROOT_or_subject = yes }
+			660 = { is_controlled_by_ROOT_or_subject = yes }
+			774 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			GAB = {
+				transfer_state = 295
+				transfer_state = 538
+				transfer_state = 888
+				transfer_state = 889
+				transfer_state = 890
+				transfer_state = 718
+				transfer_state = 768
+				transfer_state = 769
+				transfer_state = 796
+				transfer_state = 540
+				transfer_state = 892
+				transfer_state = 891
+				transfer_state = 772
+				transfer_state = 539
+				transfer_state = 297
+				if = {
+					limit = { 705 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 705
+				}
+				transfer_state = 773
+				transfer_state = 660
+				transfer_state = 774
+				if = {
+					limit = { 775 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 775
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	EQG_unite_latin_africa = {
+		icon = generic_form_nation
+		visible = {
+			EQG = { is_subject_of = ROOT }
+			NOT = { has_global_flag = latin_africa_formed_flag }
+		}
+		available = {
+			295 = { is_controlled_by_ROOT_or_subject = yes }
+			888 = { is_controlled_by_ROOT_or_subject = yes }
+			889 = { is_controlled_by_ROOT_or_subject = yes }
+			890 = { is_controlled_by_ROOT_or_subject = yes }
+			718 = { is_controlled_by_ROOT_or_subject = yes }
+			538 = { is_controlled_by_ROOT_or_subject = yes }
+			768 = { is_controlled_by_ROOT_or_subject = yes }
+			769 = { is_controlled_by_ROOT_or_subject = yes }
+			796 = { is_controlled_by_ROOT_or_subject = yes }
+			540 = { is_controlled_by_ROOT_or_subject = yes }
+			891 = { is_controlled_by_ROOT_or_subject = yes }
+			892 = { is_controlled_by_ROOT_or_subject = yes }
+			772 = { is_controlled_by_ROOT_or_subject = yes }
+			539 = { is_controlled_by_ROOT_or_subject = yes }
+			297 = { is_controlled_by_ROOT_or_subject = yes }
+			773 = { is_controlled_by_ROOT_or_subject = yes }
+			660 = { is_controlled_by_ROOT_or_subject = yes }
+			774 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			EQG = {
+				transfer_state = 295
+				transfer_state = 538
+				transfer_state = 888
+				transfer_state = 889
+				transfer_state = 890
+				transfer_state = 718
+				transfer_state = 768
+				transfer_state = 769
+				transfer_state = 796
+				transfer_state = 540
+				transfer_state = 892
+				transfer_state = 891
+				transfer_state = 772
+				transfer_state = 539
+				transfer_state = 297
+				if = {
+					limit = { 705 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 705
+				}
+				transfer_state = 773
+				transfer_state = 660
+				transfer_state = 774
+				if = {
+					limit = { 775 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 775
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CMR_unite_latin_africa = {
+		icon = generic_form_nation
+		visible = {
+			CMR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = latin_africa_formed_flag }
+		}
+		available = {
+			295 = { is_controlled_by_ROOT_or_subject = yes }
+			888 = { is_controlled_by_ROOT_or_subject = yes }
+			889 = { is_controlled_by_ROOT_or_subject = yes }
+			890 = { is_controlled_by_ROOT_or_subject = yes }
+			718 = { is_controlled_by_ROOT_or_subject = yes }
+			538 = { is_controlled_by_ROOT_or_subject = yes }
+			768 = { is_controlled_by_ROOT_or_subject = yes }
+			769 = { is_controlled_by_ROOT_or_subject = yes }
+			796 = { is_controlled_by_ROOT_or_subject = yes }
+			540 = { is_controlled_by_ROOT_or_subject = yes }
+			891 = { is_controlled_by_ROOT_or_subject = yes }
+			892 = { is_controlled_by_ROOT_or_subject = yes }
+			772 = { is_controlled_by_ROOT_or_subject = yes }
+			539 = { is_controlled_by_ROOT_or_subject = yes }
+			297 = { is_controlled_by_ROOT_or_subject = yes }
+			773 = { is_controlled_by_ROOT_or_subject = yes }
+			660 = { is_controlled_by_ROOT_or_subject = yes }
+			774 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			CMR = {
+				transfer_state = 295
+				transfer_state = 538
+				transfer_state = 888
+				transfer_state = 889
+				transfer_state = 890
+				transfer_state = 718
+				transfer_state = 768
+				transfer_state = 769
+				transfer_state = 796
+				transfer_state = 540
+				transfer_state = 892
+				transfer_state = 891
+				transfer_state = 772
+				transfer_state = 539
+				transfer_state = 297
+				if = {
+					limit = { 705 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 705
+				}
+				transfer_state = 773
+				transfer_state = 660
+				transfer_state = 774
+				if = {
+					limit = { 775 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 775
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CHA_unite_latin_africa = {
+		icon = generic_form_nation
+		visible = {
+			CHA = { is_subject_of = ROOT }
+			NOT = { has_global_flag = latin_africa_formed_flag }
+		}
+		available = {
+			295 = { is_controlled_by_ROOT_or_subject = yes }
+			888 = { is_controlled_by_ROOT_or_subject = yes }
+			889 = { is_controlled_by_ROOT_or_subject = yes }
+			890 = { is_controlled_by_ROOT_or_subject = yes }
+			718 = { is_controlled_by_ROOT_or_subject = yes }
+			538 = { is_controlled_by_ROOT_or_subject = yes }
+			768 = { is_controlled_by_ROOT_or_subject = yes }
+			769 = { is_controlled_by_ROOT_or_subject = yes }
+			796 = { is_controlled_by_ROOT_or_subject = yes }
+			540 = { is_controlled_by_ROOT_or_subject = yes }
+			891 = { is_controlled_by_ROOT_or_subject = yes }
+			892 = { is_controlled_by_ROOT_or_subject = yes }
+			772 = { is_controlled_by_ROOT_or_subject = yes }
+			539 = { is_controlled_by_ROOT_or_subject = yes }
+			297 = { is_controlled_by_ROOT_or_subject = yes }
+			773 = { is_controlled_by_ROOT_or_subject = yes }
+			660 = { is_controlled_by_ROOT_or_subject = yes }
+			774 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			CHA = {
+				transfer_state = 295
+				transfer_state = 538
+				transfer_state = 888
+				transfer_state = 889
+				transfer_state = 890
+				transfer_state = 718
+				transfer_state = 768
+				transfer_state = 769
+				transfer_state = 796
+				transfer_state = 540
+				transfer_state = 892
+				transfer_state = 891
+				transfer_state = 772
+				transfer_state = 539
+				transfer_state = 297
+				if = {
+					limit = { 705 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 705
+				}
+				transfer_state = 773
+				transfer_state = 660
+				transfer_state = 774
+				if = {
+					limit = { 775 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 775
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CAR_unite_latin_africa = {
+		icon = generic_form_nation
+		visible = {
+			CAR = { is_subject_of = ROOT }
+			NOT = { has_global_flag = latin_africa_formed_flag }
+		}
+		available = {
+			295 = { is_controlled_by_ROOT_or_subject = yes }
+			888 = { is_controlled_by_ROOT_or_subject = yes }
+			889 = { is_controlled_by_ROOT_or_subject = yes }
+			890 = { is_controlled_by_ROOT_or_subject = yes }
+			718 = { is_controlled_by_ROOT_or_subject = yes }
+			538 = { is_controlled_by_ROOT_or_subject = yes }
+			768 = { is_controlled_by_ROOT_or_subject = yes }
+			769 = { is_controlled_by_ROOT_or_subject = yes }
+			796 = { is_controlled_by_ROOT_or_subject = yes }
+			540 = { is_controlled_by_ROOT_or_subject = yes }
+			891 = { is_controlled_by_ROOT_or_subject = yes }
+			892 = { is_controlled_by_ROOT_or_subject = yes }
+			772 = { is_controlled_by_ROOT_or_subject = yes }
+			539 = { is_controlled_by_ROOT_or_subject = yes }
+			297 = { is_controlled_by_ROOT_or_subject = yes }
+			773 = { is_controlled_by_ROOT_or_subject = yes }
+			660 = { is_controlled_by_ROOT_or_subject = yes }
+			774 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			CAR = {
+				transfer_state = 295
+				transfer_state = 538
+				transfer_state = 888
+				transfer_state = 889
+				transfer_state = 890
+				transfer_state = 718
+				transfer_state = 768
+				transfer_state = 769
+				transfer_state = 796
+				transfer_state = 540
+				transfer_state = 892
+				transfer_state = 891
+				transfer_state = 772
+				transfer_state = 539
+				transfer_state = 297
+				if = {
+					limit = { 705 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 705
+				}
+				transfer_state = 773
+				transfer_state = 660
+				transfer_state = 774
+				if = {
+					limit = { 775 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 775
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
 #========== TOA ==========#
 
 integrate_hispaniola_category = {
