@@ -147,8 +147,8 @@
   integrate_majapahit_empire_category: "整合满者伯夷"
   INS_integrate_majapahit_empire: "向[INS.GetName]移交领土"
   MAL_integrate_majapahit_empire: "向[MAL.GetName]移交领土"
-  SGP_integrate_majapahit_empire: "向[SGP.GetName]移交领土"
-  SWK_integrate_majapahit_empire: "向[SWK.GetName]移交领土"
+  TML_integrate_majapahit_empire: "向[TML.GetName]移交领土"
+  SNG_integrate_majapahit_empire: "向[SNG.GetName]移交领土（推荐，国旗样式符合）"
 
 
   integrate_rattanakosin_kingdom_category: "整合拉达那哥欣"
@@ -164,6 +164,7 @@
   FIJ_integrate_polynesia: "向[FIJ.GetName]移交领土"
   NZL_integrate_polynesia: "向[NZL.GetName]移交领土（推荐，有独立国策）"
   RAP_integrate_polynesia: "向[RAP.GetName]移交领土"
+  PLU_integrate_polynesia: "向[PLU.GetName]移交领土"
 
   integrate_greater_greece_category: "整合大希腊"
   integrate_greater_greece: "向[GRE.GetName]移交领土"
@@ -214,6 +215,7 @@
   BUK_integrate_turkestan: "向[BUK.GetName]移交领土"
   KHI_integrate_turkestan: "向[KHI.GetName]移交领土"
   KKP_integrate_turkestan: "向[KKP.GetName]移交领土"
+  KUM_integrate_turkestan: "向[KUM.GetName]移交领土"
 
   integrate_idel_ural_category: "整合南乌拉尔"
   MEL_integrate_idel_uralic_republic: "向[MEL.GetName]移交领土"

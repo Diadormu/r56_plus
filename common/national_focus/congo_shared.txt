@@ -775,10 +775,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -1165,10 +1161,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -1356,10 +1348,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -1508,10 +1496,6 @@
 		text_icon = CONGO_BEL_COG_focus_style
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			AND = {
 				OR = {
 					768 = {
@@ -2014,10 +1998,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = CONGO_jungle_industry_available_tt
 				OR = {
@@ -2453,14 +2433,10 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			OR = {
 				AND = {
-					any_country = {
-						original_tag = FRA
+					any_country_with_original_tag = {
+						original_tag_to_check = FRA
 						has_capitulated = yes
 					}
 					772 = {
@@ -2662,10 +2638,6 @@
 
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			OR = {
 				original_tag = BEL
 				AND = {
@@ -2946,10 +2918,6 @@
 					is_owned_and_controlled_by = COG
 				}
 			}
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -3070,10 +3038,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -3233,10 +3197,6 @@
 						is_owned_and_controlled_by = COG
 					}
 				}
-			}
-			any_country = {
-				original_tag = COG
-				is_subject = yes
 			}
 			NOT = {	
 				OR = {
@@ -3440,10 +3400,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = CONGO_jungle_industry_available_tt
 				OR = {
@@ -3793,10 +3749,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			BEL = {
 				is_major = yes
 			}
@@ -4053,10 +4005,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			#NOT = {
 			#	has_global_flag = COG_force_publique_reformed_flag
 			#}
@@ -4243,10 +4191,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			#NOT = {
 			#	has_global_flag = COG_force_publique_reformed_flag
 			#}
@@ -4346,10 +4290,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			#NOT = {
 			#	has_global_flag = COG_force_publique_reformed_flag
 			#}
@@ -4661,10 +4601,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -4879,10 +4815,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			CONGO_at_least_six_focuses_done = yes 
 			NOT = {	
 				OR = {
@@ -5028,10 +4960,6 @@
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL FOCUS_FILTER_TFV_AUTONOMY }
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = CONGO_jungle_industry_available_tt
 				OR = {
@@ -5110,6 +5038,16 @@
 									is_ally_with = PREV
 								}
 								controls_state = 741
+							}
+						}
+						OR = {
+							controls_state = 1017
+							any_country = {
+								OR = {
+									is_subject_of = PREV
+									is_ally_with = PREV
+								}
+								controls_state = 1017
 							}
 						}
 					}
@@ -5525,10 +5463,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			#NOT = {
 			#	has_global_flag = COG_force_publique_reformed_flag
 			#}
@@ -5626,10 +5560,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject_of = BEL
-			}
 			NOT = {
 				has_global_flag = COG_force_publique_reformed_flag
 			}
@@ -5910,10 +5840,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -6040,10 +5966,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -6265,10 +6187,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -6532,10 +6450,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			#NOT = {
 			#	has_global_flag = COG_force_publique_reformed_flag
 			#}
@@ -6783,10 +6697,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -7039,10 +6949,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -7197,10 +7103,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -7465,10 +7367,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			#NOT = {
 			#	has_global_flag = COG_force_publique_reformed_flag
 			#}
@@ -7903,10 +7801,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -7996,10 +7890,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -8187,10 +8077,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -8299,10 +8185,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {	
 				OR = {
 					has_war_with = BEL
@@ -8453,10 +8335,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			CONGO_at_least_fourteen_focuses_done = yes
 			NOT = {	
 				OR = {
@@ -8548,10 +8426,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = { 
 				has_global_flag = COG_force_publique_reformed_flag
 			}
@@ -8608,10 +8482,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			295 = {
 				OR = {
 					is_owned_and_controlled_by = COG
@@ -9227,10 +9097,6 @@
 		}
 
 		available = { 
-			any_country = {
-				original_tag = COG
-				is_subject = yes
-			}
 			NOT = {
 				has_completed_focus = COG_national_committee_for_liberation
 			}
@@ -9654,10 +9520,18 @@
 				}
 				IF = {
 					limit = { NOT = { is_faction_leader = yes } }
-					set_rule = { 
-						can_create_factions	= yes
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender"
+						}
+						set_rule = { can_create_factions = yes }
+						create_faction_from_template = faction_template_COG_african_union_faction
+						add_faction_initiative = 1
 					}
-					create_faction = COG_african_union_faction
+					ELSE = {
+						set_rule = { can_create_factions = yes }
+						create_faction_from_template = faction_template_COG_african_union_faction
+					}
 					every_other_country = {
 						limit = { is_subject_of = ROOT }
 						ROOT = {

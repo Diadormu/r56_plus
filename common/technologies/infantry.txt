@@ -82,7 +82,7 @@ technologies = {
 
 			modifier = {
 				factor = 10
-				tag = CHI
+				original_tag = CHI
 
 				OR = {
 					date > 1937.1.1
@@ -93,6 +93,12 @@ technologies = {
 			modifier = {
 				factor = 10
 				date > 1936.1.3
+			}
+
+			modifier = {
+				factor = 0.5
+				date < 1939.1.1
+				original_tag = PRC
 			}
 		}
 	}
@@ -153,6 +159,12 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "1939.1.1"
+			}
+
+			modifier = {
+				factor = 0.5
+				date < 1939.1.1
+				tag = PRC
 			}
 		}
 	}
@@ -518,7 +530,7 @@ technologies = {
 			modifier = {
 				factor = 5
 				tag = GER
-				#TODO_Danne Add Fallschirmsjäger focus here!
+				has_completed_focus = GER_fallschirmjager
 			}
 		}
 	}
@@ -830,6 +842,125 @@ technologies = {
 		}
 	}
 
+	rangers_tech = {
+
+		allow_branch = {
+			has_dlc = "No Compromise, No Surrender"
+		}
+
+		enable_subunits = {
+			ranger_battalion
+		}
+		
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = ranger_battalion
+			}
+		}
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_rangers"
+			}			
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		path = {
+			leads_to_tech = rangers_tech2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1936 }
+		}
+		
+		categories = {
+			infantry_tech
+			rangers_tech_cat
+			cat_special_forces_generic
+		}
+		
+		ai_will_do = {
+			factor = 0.7
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+
+			modifier = {
+				factor = 5
+				tag = BRA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+	}
+
+	rangers_tech2 = {
+
+		ranger_battalion = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		path = {
+			leads_to_tech = rangers_tech3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1939 }
+		}
+		
+		categories = {
+			infantry_tech
+			rangers_tech_cat
+			cat_special_forces_generic
+		}
+		
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+
+	rangers_tech3 = {
+
+		ranger_battalion = {
+			max_organisation = 5
+		}
+		
+		research_cost = 1.5
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1943 }
+		}
+		
+		categories = {
+			infantry_tech
+			rangers_tech_cat
+			cat_special_forces_generic
+		}
+		
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+
+
 	tech_special_forces = {
 		category_special_forces = {
 			acclimatization_hot_climate_gain_factor = 0.05
@@ -864,7 +995,7 @@ technologies = {
 		start_year = 1938
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1938 }
+			position = { x = 6 y = @1938 }
 		}
 
 		categories = {
@@ -901,7 +1032,7 @@ technologies = {
 		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1940 }
+			position = { x = 5 y = @1940 }
 		}
 
 		categories = {
@@ -933,7 +1064,7 @@ technologies = {
 		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = @1940 }
+			position = { x = 7 y = @1940 }
 		}
 
 		categories = {
@@ -968,7 +1099,7 @@ technologies = {
 		start_year = 1942
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1942 }
+			position = { x = 5 y = @1942 }
 		}
 
 		categories = {
@@ -1002,7 +1133,7 @@ technologies = {
 		start_year = 1942
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = @1942 }
+			position = { x = 7 y = @1942 }
 		}
 
 		categories = {
@@ -1030,7 +1161,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1944 }
+			position = { x = 6 y = @1944 }
 		}
 
 		categories = {
@@ -1451,16 +1582,22 @@ technologies = {
 			modifier = {
 				factor = 15
 				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-					tag = MAN
-					tag = MEN
-					tag = JAP
+					original_tag = CHI
+					original_tag = PRC
+					original_tag = XSM
+					original_tag = SIK
+					original_tag = GXC
+					original_tag = SHX
+					original_tag = YUN
+					original_tag = MAN
+					original_tag = MEN
+					original_tag = JAP
+					original_tag = GSM
+					original_tag = NXM
+					original_tag = HBC
+					original_tag = SND
+					original_tag = GDC
+					original_tag = KHM
 				}
 			}
 
@@ -2354,6 +2491,49 @@ technologies = {
 		}
 	}
 
+	JAP_silver_wheels = { #hidden tech to boost Bicycles in Jungles and Forests. 
+
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		bicycle_battalion = {
+			forest = {
+				movement = 0.1
+				attack = 0.1
+			}
+			jungle = {
+				movement = 0.1
+				attack = 0.1
+			}
+		}
+	}
+
+	JAP_lighter_tanks = { #hidden tech to boost Tanks in Jungles and Forests. 
+
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		categories = {
+			armor
+		}
+
+		category_all_armor = {
+			jungle = {
+				defence = 0.1
+				attack = 0.1
+			}
+		}
+	}
+
+	######### FROM TURKISH FOCUS ##########
 	camelry = {
 
 		allow = {
@@ -2368,6 +2548,7 @@ technologies = {
 		}
 	}
 
+	######### FROM INDIAN FOCUS ##########
 	elephantry = {
 
 		allow = {
@@ -2569,6 +2750,7 @@ technologies = {
 		}
 	}
 
+	######### FROM TOA SHARED FOCUS ##########
 	TOA_jungle_pioneers_support_tech = {
 
 		allow = {
@@ -2680,6 +2862,29 @@ technologies = {
 		}
 	}
 
+	BEL_chasseurs_ardennais_ncns = { #hidden tech to boost Rangers in Hills and Mountain. Remember to update BEL_chasseurs_ardennais_ncns_tt if you change these numbers!
+
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		category_rangers = {
+			hills = {
+				movement = 0.10
+				attack = 0.15
+				defence = 0.15
+			}
+			mountain = {
+				movement = 0.05
+				attack = 0.05
+			}
+		}
+	}
+
+	##### FROM INDIAN FOCUS #####
 	uranium_tipped_bullets = {
 
 		allow = {
@@ -2746,5 +2951,41 @@ technologies = {
 		ai_will_do = {
 			factor = 0
 		}
+	}
+
+	##### FROM PHILIPPINE FOCUS #####
+	PHI_battalion_combat_teams = {
+
+		allow = {
+			always = no #UPDATE PHI_battalion_combat_teams_tt if changing
+		}
+
+		research_cost = 1
+
+
+		category_all_infantry = {
+			hard_attack = 0.15
+			soft_attack = 0.15
+			ap_attack = 0.15
+		}
+
+		category_cavalry = {
+			hard_attack = 0.10
+			soft_attack = 0.10
+			ap_attack = 0.10
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	revolutionary_mass_assault = {
+
+		conscription = 0.02
+		infantry = {
+			combat_width = -0.2
+		}
+
 	}
 }
