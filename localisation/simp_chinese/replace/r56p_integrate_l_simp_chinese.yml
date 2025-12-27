@@ -112,7 +112,7 @@
   integrate_arabia_france_coring_states_tt: "成为§Y法国§!在阿拉伯的所有地区的拥有者及控制者。"
   integrate_arabia_britain_required_states_tt: "§Y英国§!在阿拉伯的所有地区被§Y[Root.GetName]§!或是§Y[Root.GetName]§!的傀儡控制。"
   integrate_arabia_britain_coring_states_tt: "成为§Y英国§!在阿拉伯的所有地区的拥有者及控制者。"
-  IRQ_integrate_arabia: "向[IRQ.GetName]移交领土"
+  IRQ_integrate_arabia: "向[IRQ.GetName]移交领土（推荐，有独立国策，能成美索不达米亚）"
   integrate_country_IRQ_required_states_tt: "§Y[IRQ.GetName]§!的所有地区被§Y[Root.GetName]§!或是§Y[Root.GetName]§!的傀儡控制。"
   integrate_country_IRQ_coring_states_tt: "成为§Y[IRQ.GetName]§!的所有地区的拥有者及控制者。"
   SAU_integrate_arabia: "向[SAU.GetName]移交领土"
@@ -263,7 +263,7 @@
 
   integrate_neo_mesopotamia_category: "整合美索不达米亚"
   KUR_neo_mesopotamia: "向[KUR.GetName]移交领土"
-  IRQ_neo_mesopotamia: "向[IRQ.GetName]移交领土（推荐，有独立国策）"
+  IRQ_neo_mesopotamia: "向[IRQ.GetName]移交领土（推荐，有独立国策，能成阿拉伯）"
   SYR_neo_mesopotamia: "向[SYR.GetName]移交领土"
   PAL_neo_mesopotamia: "向[PAL.GetName]移交领土"
   EGY_neo_mesopotamia: "向[EGY.GetName]移交领土"
