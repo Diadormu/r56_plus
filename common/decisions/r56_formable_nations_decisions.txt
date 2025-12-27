@@ -12,7 +12,7 @@ unite_the_levant_category = {
         #fire_only_once = yes
         visible = { NOT = { has_global_flag = form_greater_syria_flag } }
         available = {
-        #   is_subject = no
+            #is_subject = no
             custom_trigger_tooltip = {
                 tooltip = form_country_gs_syria_required_states_tt
                 controls_state = 680
@@ -120,7 +120,7 @@ unify_the_peninsula_category = {
         }
         fire_only_once = yes
         available = {
-        #   is_subject = no
+            #is_subject = no
             custom_trigger_tooltip = {
                 tooltip = form_country_joseon_south_korea_required_states_tt
                 controls_state = 525
@@ -781,7 +781,7 @@ form_united_netherlands_category2 = {
         }
 
         available = {
-        #   is_subject = no
+            #is_subject = no
             OR = {
                 has_government = fascism
                 has_government = communism
@@ -1002,7 +1002,7 @@ celtic_unification_category = {
             }
         }
         available = {
-        #   is_subject = no
+            #is_subject = no
             #IRE
             controls_state = 113
             controls_state = 119
@@ -1126,7 +1126,7 @@ celtic_unification_category = {
         cost = 50
 
         available = {
-        #   is_subject = no
+            #is_subject = no
             # Galicia
             controls_state = 171
             171 = { compliance > 40 }
@@ -1326,7 +1326,7 @@ form_nation_mod_category = {
 
 		cost = 25
 
-        fire_only_once = yes
+		fire_only_once = yes
 
 		days_remove = 60
 
@@ -1340,7 +1340,7 @@ form_nation_mod_category = {
 			}
 		}
 
-        highlight_states = {
+		highlight_states = {
 			highlight_state_targets = {
                 state = 475
 			}
@@ -1356,7 +1356,7 @@ form_nation_mod_category = {
 		}
 
 		visible = {
-			OR = {
+            OR = {
                 has_cosmetic_tag = CRCA
 			    has_cosmetic_tag = USC_UNIFIED
             }
@@ -1379,17 +1379,17 @@ form_nation_mod_category = {
 			}
 		}
 
-        ai_will_do = {
+		ai_will_do = {
 			factor = 50
 		}		
 	}
-	assimilate_yucatan = {
+    assimilate_yucatan = {
 
 		icon = generic_nationalism
 
 		cost = 25
 
-        fire_only_once = yes
+		fire_only_once = yes
 
 		days_remove = 60
 
@@ -1403,7 +1403,7 @@ form_nation_mod_category = {
 			}
 		}
 
-        highlight_states = {
+		highlight_states = {
 			highlight_state_targets = {
                 state = 474
 			}
@@ -1419,7 +1419,7 @@ form_nation_mod_category = {
 		}
 
 		visible = {
-			OR = {
+            OR = {
                 has_cosmetic_tag = CRCA
                 has_cosmetic_tag = USC_UNIFIED
             }
@@ -1442,7 +1442,7 @@ form_nation_mod_category = {
 			}
 		}
 
-        ai_will_do = {
+		ai_will_do = {
 			factor = 50
 		}		
 	}
@@ -1452,7 +1452,7 @@ form_nation_mod_category = {
 
 		cost = 35
 
-        fire_only_once = yes
+		fire_only_once = yes
 
 		days_remove = 60
 
@@ -1466,7 +1466,7 @@ form_nation_mod_category = {
 			}
 		}
 
-        highlight_states = {
+		highlight_states = {
 			highlight_state_targets = {
                 state = 937
                 state = 304
@@ -1487,9 +1487,9 @@ form_nation_mod_category = {
 		}
 
 		visible = {
-			OR = {
+            OR = {
                 has_cosmetic_tag = CRCA
-                has_cosmetic_tag = USC_UNIFIED
+			    has_cosmetic_tag = USC_UNIFIED
             }
             937 = {
                 NOT = {
@@ -1835,8 +1835,9 @@ form_nation_mod_category = {
         icon = generic_form_nation
 
         allowed = {
-            original_tag = MLI
-         }
+           original_tag = MLI
+        }
+
         visible = {
             #NOT = {
             #    has_cosmetic_tag = WAU_UNITED
@@ -1902,7 +1903,7 @@ form_nation_mod_category = {
                             state = 557
                         }
                     }
-                    add_core_of = PREV #ROOT
+                    add_core_of = ROOT
                 }
                 news_event = { id = r56.news_event.37 hours = 6 }
             }
@@ -2017,7 +2018,7 @@ form_nation_mod_category = {
                 original_tag = BAY
                 original_tag = BAD
                 original_tag = DNZ
-                original_tag = SAR
+                original_tag = SAA
                 original_tag = VGE
 				original_tag = RHI
 				original_tag = THU
@@ -2244,7 +2245,7 @@ form_nation_mod_category = {
         allowed = { original_tag = TAT }
 
         available = {
-        #   is_subject = no
+            #is_subject = no
             controls_state = 652
             controls_state = 251
             controls_state = 651
@@ -2280,7 +2281,7 @@ form_nation_mod_category = {
         allowed = { original_tag = SAD }
 
         available = {
-        #   is_subject = no
+            #is_subject = no
             controls_state = 114
             controls_state = 158
         }
@@ -2310,7 +2311,7 @@ form_nation_mod_category = {
 		allowed = {
 
 			OR = {
-                original_tag = SIC
+                original_tag = SCI
                 original_tag = SAD
                 original_tag = VNZ
                 original_tag = NAP
@@ -2395,9 +2396,9 @@ form_nation_mod_category = {
             }
             if = {
                 limit = {
-                    original_tag = SIC
+                    original_tag = SCI
                 }
-                set_cosmetic_tag = ITA_REBORN_SIC
+                set_cosmetic_tag = ITA_REBORN_SCI
             }
             if = {
                 limit = {
@@ -2468,7 +2469,7 @@ form_nation_mod_category = {
             factor = 200
         }
     }
-    form_a_dravidian_state = {
+    form_a_dravidian_state = { # Revise those cores slightly in the future. Is Goa relevant? Should Andhra 424 be included?
         # Dravidar Kazhagam leader of the Dravidian unification movement as part of the Justice party in India - soc dem.
         # S. P. Adithanar was in Singapore before 1942 but was clearly militant later in life. Closest thing to a fascist?
         icon = generic_form_nation
@@ -2490,9 +2491,8 @@ form_nation_mod_category = {
 				state = 1098
 			}
 		}
-
         available = {
-        #   is_subject = no
+            #is_subject = no
             422 = {
                 is_fully_controlled_by = ROOT
             }
@@ -2512,7 +2512,7 @@ form_nation_mod_category = {
 
         complete_effect = {
             320 = { add_core_of = ROOT }
-            321 = { add_core_of = ROOT }
+            #321 = { add_core_of = ROOT }
             422 = { add_core_of = ROOT }
             423 = { add_core_of = ROOT }
             424 = { add_core_of = ROOT }
@@ -2990,7 +2990,7 @@ form_pru_hispanoamerica_category = {    #seperated to use a different name etc
                     is_core_of = COL
                     is_controlled_by = ROOT
                 }
-            }
+            }     
             any_state = {
                 AND = {
                     is_core_of = PRU
@@ -3231,7 +3231,7 @@ EYE_form_alamannia_category = {
 		}
 
 		available = {
-		#	is_subject = no
+			#is_subject = no
 			controls_state = 153
 			controls_state = 28
 			controls_state = 42
@@ -3305,7 +3305,7 @@ form_nation_mod_category = {
 		}
 
 		available = {
-		#	is_subject = no
+			#is_subject = no
 			controls_state = 546
 			controls_state = 1055
 		}
@@ -3362,7 +3362,7 @@ form_nation_mod_category = {
 		}
 
 		available = {
-		#	is_subject = no
+			#is_subject = no
 			controls_state = 375
 			controls_state = 479
             controls_state = 480

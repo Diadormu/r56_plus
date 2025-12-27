@@ -775,6 +775,7 @@ form_austria_hungary_category = {
 				original_tag = BOS
 				original_tag = SIL
 			}
+			#has_dlc = "Waking the Tiger"	- Redundant check due to integration into base game
 		}
 
 		available = {
@@ -2848,7 +2849,7 @@ form_european_union_category = {
 				original_tag = SAD #Sardinia
 				original_tag = VNZ #Venice
 				original_tag = TTS #Kingdom of Two Sicilies
-				original_tag = SIC #Sicily
+				original_tag = SCI #Sicily
 				original_tag = PAP #Vatican
 				original_tag = ADR #Andorra
 				original_tag = SAN #San Marino
@@ -3011,7 +3012,7 @@ form_european_union_category = {
 						original_tag = SAD #Sardinia
 						original_tag = VNZ #Venice
 						original_tag = TTS #Kingdom of Two Sicilies
-						original_tag = SIC #Sicily
+						original_tag = SCI #Sicily
 						original_tag = PAP #Vatican
 						original_tag = ADR #Andorra
 						original_tag = SAN #San Marino
@@ -3045,7 +3046,7 @@ form_european_union_category = {
 					OR = {
 						AND = {
 							has_country_leader = {
-								character = HUN_otto_von_habsburg
+								character = AUS_otto_von_habsburg
 								ruling_only = yes
 							}
 							has_completed_focus = AUS_the_danubian_federation
@@ -3105,9 +3106,9 @@ form_european_union_category = {
 			}  
 			NOT = { has_global_flag = form_european_union_flag }
 			is_major = yes
-		#	NOT = {
-		#		has_country_flag = formed_austria_hungary
-		#	}			
+			#NOT = {
+			#	has_country_flag = formed_austria_hungary
+			#}			
 		}
 
 		complete_effect = {
@@ -3144,7 +3145,7 @@ form_european_union_category = {
 									has_nationality = SAD
 									has_nationality = VNZ	
 									has_nationality = TTS
-									has_nationality = SIC									
+									has_nationality = SCI									
                                 }
                                 NOT = {
                                     has_nationality = ROOT
@@ -3196,9 +3197,9 @@ form_european_union_category = {
 					}
 					add_core_of = ROOT
 				}
-			#	7 = { add_core_of = ROOT }
-			#	35 = { add_core_of = ROOT }
-			#	36 = { add_core_of = ROOT }
+				#7 = { add_core_of = ROOT }
+				#35 = { add_core_of = ROOT }
+				#36 = { add_core_of = ROOT }
 			}
 			# Belgium
 			custom_effect_tooltip = form_eu_belgium_coring_states_tt
@@ -3209,11 +3210,11 @@ form_european_union_category = {
 					}
 					add_core_of = ROOT
 				}
-			#	6 = { add_core_of = ROOT }
-			#	34 = { add_core_of = ROOT }
-			#	965 = { add_core_of = ROOT }
-			#	1094 = { add_core_of = ROOT }
-			#	1095 = { add_core_of = ROOT }
+				#6 = { add_core_of = ROOT }
+				#34 = { add_core_of = ROOT }
+				#965 = { add_core_of = ROOT }
+				#1094 = { add_core_of = ROOT }
+				#1095 = { add_core_of = ROOT }	
 			}
 			# France
 			custom_effect_tooltip = form_eu_france_coring_states_tt
@@ -3224,33 +3225,33 @@ form_european_union_category = {
 					}
 					add_core_of = ROOT
 				}
-			#	29 = { add_core_of = ROOT }
-			#	18 = { add_core_of = ROOT }
-			#	17 = { add_core_of = ROOT }
-			#	28 = { add_core_of = ROOT }
-			#	15 = { add_core_of = ROOT }
-			#	16 = { add_core_of = ROOT }
-			#	27 = { add_core_of = ROOT }
-			#	14 = { add_core_of = ROOT }
-			#	30 = { add_core_of = ROOT }
-			#	24 = { add_core_of = ROOT }
-			#	23 = { add_core_of = ROOT }
-			#	33 = { add_core_of = ROOT }
-			#	26 = { add_core_of = ROOT }
-			#	20 = { add_core_of = ROOT }
-			#	32 = { add_core_of = ROOT }
-			#	735 = { add_core_of = ROOT }
-			#	25 = { add_core_of = ROOT }
-			#	22 = { add_core_of = ROOT }
-			#	21 = { add_core_of = ROOT }
-			#	19 = { add_core_of = ROOT }
-			#	20 = { add_core_of = ROOT }
-			#	1 = { add_core_of = ROOT }
-			#	785 = { add_core_of = ROOT }
-			#	31 = { add_core_of = ROOT }
-			#	806 = { add_core_of = ROOT } # pyrenees-atlantiques
-			#	1012 = { add_core_of = ROOT } #monaco
-			#	851 = { add_core_of = ROOT } #var
+				#29 = { add_core_of = ROOT }
+				#18 = { add_core_of = ROOT }
+				#17 = { add_core_of = ROOT }
+				#28 = { add_core_of = ROOT }
+				#15 = { add_core_of = ROOT }
+				#16 = { add_core_of = ROOT }
+				#27 = { add_core_of = ROOT }
+				#14 = { add_core_of = ROOT }
+				#30 = { add_core_of = ROOT }
+				#24 = { add_core_of = ROOT }
+				#23 = { add_core_of = ROOT }
+				#33 = { add_core_of = ROOT }
+				#26 = { add_core_of = ROOT }
+				#20 = { add_core_of = ROOT }
+				#32 = { add_core_of = ROOT }
+				#735 = { add_core_of = ROOT }
+				#25 = { add_core_of = ROOT }
+				#22 = { add_core_of = ROOT }
+				#21 = { add_core_of = ROOT }
+				#19 = { add_core_of = ROOT }
+				#20 = { add_core_of = ROOT }
+				#1 = { add_core_of = ROOT }
+				#785 = { add_core_of = ROOT }
+				#31 = { add_core_of = ROOT }
+				#806 = { add_core_of = ROOT } # pyrenees-atlantiques
+				#1012 = { add_core_of = ROOT } #monaco
+				#851 = { add_core_of = ROOT } #var
 			}
 			# Italy
 			custom_effect_tooltip = form_eu_italy_coring_states_tt
@@ -3261,26 +3262,26 @@ form_european_union_category = {
 					}
 					add_core_of = ROOT
 				}
-			#	158 = { add_core_of = ROOT }
-			#	159 = { add_core_of = ROOT }
-			#	39 = { add_core_of = ROOT }
-			#	160 = { add_core_of = ROOT }
-			#	161 = { add_core_of = ROOT }
-			#	162 = { add_core_of = ROOT }
-			#	957 = { add_core_of = ROOT } #marche
-			#	157 = { add_core_of = ROOT }
-			#	2 = { add_core_of = ROOT }
-			#	117 = { add_core_of = ROOT }
-			#	156 = { add_core_of = ROOT }
-			#	115 = { add_core_of = ROOT }
-			#	114 = { add_core_of = ROOT }
-			#	736 = { add_core_of = ROOT }
-			#	736 = { add_core_of = ROOT } #litorale
-			#	912 = { add_core_of = ROOT } #friuli
-			#	#163 = { add_core_of = ROOT } #zara
-			#	850 = { add_core_of = ROOT } #trentino
-			#	849 = { add_core_of = ROOT } #puglia
-			#	1015 = { add_core_of = ROOT } #Sanmarino
+				#158 = { add_core_of = ROOT }
+				#159 = { add_core_of = ROOT }
+				#39 = { add_core_of = ROOT }
+				#160 = { add_core_of = ROOT }
+				#161 = { add_core_of = ROOT }
+				#162 = { add_core_of = ROOT }
+				#957 = { add_core_of = ROOT } #marche
+				#157 = { add_core_of = ROOT }
+				#2 = { add_core_of = ROOT }
+				#117 = { add_core_of = ROOT }
+				#156 = { add_core_of = ROOT }
+				#115 = { add_core_of = ROOT }
+				#114 = { add_core_of = ROOT }
+				#736 = { add_core_of = ROOT }
+				#736 = { add_core_of = ROOT } #litorale
+				#912 = { add_core_of = ROOT } #friuli
+				#163 = { add_core_of = ROOT } #zara
+				#850 = { add_core_of = ROOT } #trentino
+				#849 = { add_core_of = ROOT } #puglia
+				#1015 = { add_core_of = ROOT } #Sanmarino
 			}
 			# Germany
 			custom_effect_tooltip = form_country_germany_coring_states_tt
@@ -3291,39 +3292,39 @@ form_european_union_category = {
 					}
 					add_core_of = ROOT
 				}
-			#	51 = { add_core_of = ROOT }
-			#	42 = { add_core_of = ROOT }
-			#	56 = { add_core_of = ROOT }
-			#	57 = { add_core_of = ROOT }
-			#	55 = { add_core_of = ROOT }
-			#	50 = { add_core_of = ROOT }
-			#	59 = { add_core_of = ROOT }
-			#	58 = { add_core_of = ROOT }
-			#	998 = { add_core_of = ROOT }
-			#	60 = { add_core_of = ROOT }
-			#	54 = { add_core_of = ROOT }
-			#	52 = { add_core_of = ROOT }
-			#	53 = { add_core_of = ROOT }
-			#	61 = { add_core_of = ROOT }
-			#	64 = { add_core_of = ROOT }
-			#	65 = { add_core_of = ROOT }
-			#	62 = { add_core_of = ROOT }
-			#	68 = { add_core_of = ROOT }
-			#	66 = { add_core_of = ROOT }
-			#	67 = { add_core_of = ROOT }
-			#	63 = { add_core_of = ROOT }
-			#	5 = { add_core_of = ROOT }
-			#	989 = { add_core_of = ROOT }
-			#	922 = { add_core_of = ROOT }
-			#	923 = { add_core_of = ROOT }
-			#	998 = { add_core_of = ROOT }
-			#	1053 = { add_core_of = ROOT}   #Saarland
-			#	if = {
-			#		limit = {
-			#			controls_state = 763
-			#		}
-			#		763 = { add_core_of = ROOT }
-			#	}
+				#51 = { add_core_of = ROOT }
+				#42 = { add_core_of = ROOT }
+				#56 = { add_core_of = ROOT }
+				#57 = { add_core_of = ROOT }
+				#55 = { add_core_of = ROOT }
+				#50 = { add_core_of = ROOT }
+				#59 = { add_core_of = ROOT }
+				#58 = { add_core_of = ROOT }
+				#998 = { add_core_of = ROOT }
+				#60 = { add_core_of = ROOT }
+				#54 = { add_core_of = ROOT }
+				#52 = { add_core_of = ROOT }
+				#53 = { add_core_of = ROOT }
+				#61 = { add_core_of = ROOT }
+				#64 = { add_core_of = ROOT }
+				#65 = { add_core_of = ROOT }
+				#62 = { add_core_of = ROOT }
+				#68 = { add_core_of = ROOT }
+				#66 = { add_core_of = ROOT }
+				#67 = { add_core_of = ROOT }
+				#63 = { add_core_of = ROOT }
+				#5 = { add_core_of = ROOT }
+				#989 = { add_core_of = ROOT }
+				#922 = { add_core_of = ROOT }
+				#923 = { add_core_of = ROOT }
+				#998 = { add_core_of = ROOT }
+				#1053 = { add_core_of = ROOT}   #Saarland
+				#if = {
+				#	limit = {
+				#		controls_state = 763
+				#	}
+				#	763 = { add_core_of = ROOT }
+				#}
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.62 hours = 6 }
@@ -3393,7 +3394,7 @@ form_european_union_category = {
 				original_tag = SAD #Sardinia
 				original_tag = VNZ #Venice
 				original_tag = TTS #Kingdom of Two Sicilies
-				original_tag = SIC #Sicily
+				original_tag = SCI #Sicily
 				original_tag = PAP #Vatican
 				original_tag = ADR #Andorra
 				original_tag = SAN #San Marino
@@ -3487,7 +3488,7 @@ form_european_union_category = {
 						original_tag = SAD #Sardinia
 						original_tag = VNZ #Venice
 						original_tag = TTS #Kingdom of Two Sicilies
-						original_tag = SIC #Sicily
+						original_tag = SCI #Sicily
 						original_tag = PAP #Vatican
 						original_tag = ADR #Andorra
 						original_tag = SAN #San Marino
@@ -3641,7 +3642,7 @@ form_european_union_category = {
 				original_tag = SAD #Sardinia
 				original_tag = VNZ #Venice
 				original_tag = TTS #Kingdom of Two Sicilies
-				original_tag = SIC #Sicily
+				original_tag = SCI #Sicily
 				original_tag = PAP #Vatican
 				original_tag = ADR #Andorra
 				original_tag = SAN #San Marino
@@ -3725,7 +3726,7 @@ form_european_union_category = {
 						original_tag = SAD #Sardinia
 						original_tag = VNZ #Venice
 						original_tag = TTS #Kingdom of Two Sicilies
-						original_tag = SIC #Sicily
+						original_tag = SCI #Sicily
 						original_tag = PAP #Vatican
 						original_tag = ADR #Andorra
 						original_tag = SAN #San Marino
@@ -3792,13 +3793,13 @@ form_european_union_category = {
 					}
 					add_core_of = ROOT
 				}
-			#	697 = { add_core_of = ROOT }
-			#	698 = { add_core_of = ROOT }
-			#	180 = { add_core_of = ROOT }
-			#	181 = { add_core_of = ROOT }
-			#	112 = { add_core_of = ROOT }
-			#	179 = { add_core_of = ROOT }
-			#	795 = { add_core_of = ROOT } #Santarem
+				#697 = { add_core_of = ROOT }
+				#698 = { add_core_of = ROOT }
+				#180 = { add_core_of = ROOT }
+				#181 = { add_core_of = ROOT }
+				#112 = { add_core_of = ROOT }
+				#179 = { add_core_of = ROOT }
+				#795 = { add_core_of = ROOT } #Santarem
 			}
 		}
 
@@ -3862,7 +3863,7 @@ form_european_union_category = {
 				original_tag = SAD #Sardinia
 				original_tag = VNZ #Venice
 				original_tag = TTS #Kingdom of Two Sicilies
-				original_tag = SIC #Sicily
+				original_tag = SCI #Sicily
 				original_tag = PAP #Vatican
 				original_tag = ADR #Andorra
 				original_tag = SAN #San Marino
@@ -3944,7 +3945,7 @@ form_european_union_category = {
 						original_tag = SAD #Sardinia
 						original_tag = VNZ #Venice
 						original_tag = TTS #Kingdom of Two Sicilies
-						original_tag = SIC #Sicily
+						original_tag = SCI #Sicily
 						original_tag = PAP #Vatican
 						original_tag = ADR #Andorra
 						original_tag = SAN #San Marino
@@ -4026,17 +4027,17 @@ form_european_union_category = {
 					}
 					add_core_of = ROOT
 				}
-			#	37 = { add_core_of = ROOT }
-			#	99 = { add_core_of = ROOT }
-			#	964 = { add_core_of = ROOT }
-			#	1025 = { add_core_of = ROOT } #Fyn
-			#	1024 = { add_core_of = ROOT } #Bornholm
-			#	if = {
-			#		limit = {
-			#			controls_state = 337
-			#		}
-			#		337 = { add_core_of = ROOT }
-			#	}
+				#37 = { add_core_of = ROOT }
+				#99 = { add_core_of = ROOT }
+				#964 = { add_core_of = ROOT }
+				#1025 = { add_core_of = ROOT } #Fyn
+				#1024 = { add_core_of = ROOT } #Bornholm
+				#if = {
+				#	limit = {
+				#		controls_state = 337
+				#	}
+				#	337 = { add_core_of = ROOT }
+				#}
 			}
 		}
 
@@ -4099,7 +4100,7 @@ form_european_union_category = {
 				original_tag = SAD #Sardinia
 				original_tag = VNZ #Venice
 				original_tag = TTS #Kingdom of Two Sicilies
-				original_tag = SIC #Sicily
+				original_tag = SCI #Sicily
 				original_tag = PAP #Vatican
 				original_tag = ADR #Andorra
 				original_tag = SAN #San Marino
@@ -4188,7 +4189,7 @@ form_european_union_category = {
 						original_tag = SAD #Sardinia
 						original_tag = VNZ #Venice
 						original_tag = TTS #Kingdom of Two Sicilies
-						original_tag = SIC #Sicily
+						original_tag = SCI #Sicily
 						original_tag = PAP #Vatican
 						original_tag = ADR #Andorra
 						original_tag = SAN #San Marino
@@ -4270,19 +4271,19 @@ form_european_union_category = {
 					}
 					add_core_of = ROOT
 				}
-			#	124 = { add_core_of = ROOT }
-			#	138 = { add_core_of = ROOT }
-			#	139 = { add_core_of = ROOT }
-			#	140 = { add_core_of = ROOT }
-			#	141 = { add_core_of = ROOT }
-			#	38 = { add_core_of = ROOT }
-			#	666 = { add_core_of = ROOT }
-			#	968 = { add_core_of = ROOT }
-			#	969 = { add_core_of = ROOT }
-			#	1026 = { add_core_of = ROOT }
-			#	1030 = { add_core_of = ROOT }
-			#	1028 = { add_core_of = ROOT }
-			#	1029 = { add_core_of = ROOT }
+				#124 = { add_core_of = ROOT }
+				#138 = { add_core_of = ROOT }
+				#139 = { add_core_of = ROOT }
+				#140 = { add_core_of = ROOT }
+				#141 = { add_core_of = ROOT }
+				#38 = { add_core_of = ROOT }
+				#666 = { add_core_of = ROOT }
+				#968 = { add_core_of = ROOT }
+				#969 = { add_core_of = ROOT }
+				#1026 = { add_core_of = ROOT }
+				#1030 = { add_core_of = ROOT }
+				#1028 = { add_core_of = ROOT }
+				#1029 = { add_core_of = ROOT }
 			}
 		}
 
@@ -4345,7 +4346,7 @@ form_european_union_category = {
 				original_tag = SAD #Sardinia
 				original_tag = VNZ #Venice
 				original_tag = TTS #Kingdom of Two Sicilies
-				original_tag = SIC #Sicily
+				original_tag = SCI #Sicily
 				original_tag = PAP #Vatican
 				original_tag = ADR #Andorra
 				original_tag = SAN #San Marino
@@ -4435,7 +4436,7 @@ form_european_union_category = {
 						original_tag = SAD #Sardinia
 						original_tag = VNZ #Venice
 						original_tag = TTS #Kingdom of Two Sicilies
-						original_tag = SIC #Sicily
+						original_tag = SCI #Sicily
 						original_tag = PAP #Vatican
 						original_tag = ADR #Andorra
 						original_tag = SAN #San Marino
@@ -4517,17 +4518,17 @@ form_european_union_category = {
 					}
 					add_core_of = ROOT
 				}
-			#	110 = { add_core_of = ROOT }
-			#	142 = { add_core_of = ROOT }
-			#	143 = { add_core_of = ROOT }
-			#	144 = { add_core_of = ROOT }
-			#	967 = { add_core_of = ROOT }
-			#	1031 = { add_core_of = ROOT }
-			#	1032 = { add_core_of = ROOT }
-			#	1033 = { add_core_of = ROOT }
-			#	1034 = { add_core_of = ROOT }
-			#	1035 = { add_core_of = ROOT }
-			#	1027 = { add_core_of = ROOT }
+				#110 = { add_core_of = ROOT }
+				#142 = { add_core_of = ROOT }
+				#143 = { add_core_of = ROOT }
+				#144 = { add_core_of = ROOT }
+				#967 = { add_core_of = ROOT }
+				#1031 = { add_core_of = ROOT }
+				#1032 = { add_core_of = ROOT }
+				#1033 = { add_core_of = ROOT }
+				#1034 = { add_core_of = ROOT }
+				#1035 = { add_core_of = ROOT }
+				#1027 = { add_core_of = ROOT }
 			}
 		}
 
@@ -4590,7 +4591,7 @@ form_european_union_category = {
 				original_tag = SAD #Sardinia
 				original_tag = VNZ #Venice
 				original_tag = TTS #Kingdom of Two Sicilies
-				original_tag = SIC #Sicily
+				original_tag = SCI #Sicily
 				original_tag = PAP #Vatican
 				original_tag = ADR #Andorra
 				original_tag = SAN #San Marino
@@ -4674,7 +4675,7 @@ form_european_union_category = {
 						original_tag = SAD #Sardinia
 						original_tag = VNZ #Venice
 						original_tag = TTS #Kingdom of Two Sicilies
-						original_tag = SIC #Sicily
+						original_tag = SCI #Sicily
 						original_tag = PAP #Vatican
 						original_tag = ADR #Andorra
 						original_tag = SAN #San Marino
@@ -4815,7 +4816,7 @@ form_european_union_category = {
 				original_tag = SAD #Sardinia
 				original_tag = VNZ #Venice
 				original_tag = TTS #Kingdom of Two Sicilies
-				original_tag = SIC #Sicily
+				original_tag = SCI #Sicily
 				original_tag = PAP #Vatican
 				original_tag = ADR #Andorra
 				original_tag = SAN #San Marino
@@ -4903,7 +4904,7 @@ form_european_union_category = {
 						original_tag = SAD #Sardinia
 						original_tag = VNZ #Venice
 						original_tag = TTS #Kingdom of Two Sicilies
-						original_tag = SIC #Sicily
+						original_tag = SCI #Sicily
 						original_tag = PAP #Vatican
 						original_tag = ADR #Andorra
 						original_tag = SAN #San Marino
@@ -5056,7 +5057,7 @@ form_european_union_category = {
 				original_tag = SAD #Sardinia
 				original_tag = VNZ #Venice
 				original_tag = TTS #Kingdom of Two Sicilies
-				original_tag = SIC #Sicily
+				original_tag = SCI #Sicily
 				original_tag = PAP #Vatican
 				original_tag = ADR #Andorra
 				original_tag = SAN #San Marino
@@ -5138,7 +5139,7 @@ form_european_union_category = {
 						original_tag = SAD #Sardinia
 						original_tag = VNZ #Venice
 						original_tag = TTS #Kingdom of Two Sicilies
-						original_tag = SIC #Sicily
+						original_tag = SCI #Sicily
 						original_tag = PAP #Vatican
 						original_tag = ADR #Andorra
 						original_tag = SAN #San Marino
@@ -5344,10 +5345,9 @@ form_roman_empire_category = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_mare_nostrum_required_states_tt
 				controls_state = 103
-				controls_state = 104 
-				controls_state = 804
 				controls_state = 105
 				controls_state = 853
+				controls_state = 958
 			}
 			# Greece
 			custom_trigger_tooltip = {
@@ -9309,8 +9309,8 @@ form_malayan_confederation_category = {
 				original_tag = INS
 				original_tag = MAL
 				original_tag = PHI
-				original_tag = SGP
-				original_tag = SWK
+				original_tag = SNG
+				original_tag = SAR
 				original_tag = BRN
 			}
 		}
@@ -9358,6 +9358,9 @@ form_malayan_confederation_category = {
 				controls_state = 624
 				controls_state = 623
 				controls_state = 327
+				controls_state = 1110
+				controls_state = 1109
+				controls_state = 1108
 			}
 		}
 
@@ -9366,8 +9369,8 @@ form_malayan_confederation_category = {
 				original_tag = INS
 				original_tag = MAL
 				original_tag = PHI
-				original_tag = SGP
-				original_tag = SWK
+				original_tag = SNG
+				original_tag = SAR
 				original_tag = BRN
 			}
 			NOT = { has_global_flag = form_malayan_confederation_flag }
@@ -9385,8 +9388,8 @@ form_malayan_confederation_category = {
                                 OR = {
 									has_nationality = INS
 									has_nationality = MAL
-									has_nationality = SGP
-									has_nationality = SWK
+									has_nationality = SNG
+									has_nationality = SAR
 									has_nationality = BRN
 								}
                                 NOT = {
@@ -9476,6 +9479,9 @@ form_malayan_confederation_category = {
 								state = 624
 								state = 623
 								state = 327
+								state = 1110
+								state = 1109
+								state = 1108
 							}
 						}
 						add_core_of = ROOT
@@ -10353,7 +10359,7 @@ form_andalusia_category = {
                                 OR = {
 									has_nationality = GRE
 									has_nationality = CYP
-									has_nationality = SIC
+									has_nationality = SCI
 									has_nationality = MLT									
 								}
                                 NOT = {
@@ -10801,7 +10807,7 @@ form_andalusia_category = {
 	}
 }
 
-form_polynesia_category = { # localization in TON_l_english
+form_polynesia_category = { #localization in TON_l_english
 	
 	form_polynesia = {
 
@@ -10824,7 +10830,7 @@ form_polynesia_category = { # localization in TON_l_english
 		available = {
 			#OR = {
 			#	is_subject = no
-			#	has_autonomy_state = autonomy_dominion #New Zealand should be able to do it
+			#	compare_autonomy_state > autonomy_colony #New Zealand should be able to do it - better check
 			#}
 			# Polynesia
 			controls_state = 284 # North Island
@@ -11118,7 +11124,7 @@ form_polynesia_category = { # localization in TON_l_english
                             limit = {
                                 OR = {
 									has_nationality = PNG
-									has_nationality = PPA
+									has_nationality = WPG
 									has_nationality = SOL
 									has_nationality = VAN
 									has_nationality = FIJ
@@ -11838,7 +11844,7 @@ form_macedonian_empire_category = {
 				controls_state = 803
 				controls_state = 105
 				controls_state = 44
-				controls_state = 80
+				controls_state = 805
 				controls_state = 950
 				controls_state = 910
 				controls_state = 963
@@ -12785,7 +12791,7 @@ form_turkestan_category = {
 				original_tag = TAJ # Tajikistan
 				original_tag = TMS # Turkmenistan
 				original_tag = SIK # Sinkiang
-				original_tag = TNG # Tunganistan
+				original_tag = KHM # Tunganistan
 				original_tag = BUK # Bukhara
 				original_tag = KHI # Khiva
 				original_tag = KKP # Karakalpakstan
@@ -12795,8 +12801,9 @@ form_turkestan_category = {
 		available = {
 			#IF = {
 			#	limit = {
+			#		has_focus_tree = new_warlord_focus
 			#		OR = {
-			#			original_tag = TNG
+			#			original_tag = KHM
 			#			original_tag = SIK
 			#		}
 			#	}
@@ -12873,7 +12880,7 @@ form_turkestan_category = {
 									has_nationality = TAJ # Tajikistan
 									has_nationality = TMS # Turkmenistan
 									has_nationality = SIK # Sinkiang
-									has_nationality = TNG # Tunganistan
+									has_nationality = KHM # Tunganistan
 									has_nationality = BUK # Bukhara
 									has_nationality = KHI # Khiva
 									has_nationality = KKP # Karakalpakstan	
@@ -12943,6 +12950,7 @@ form_turkestan_category = {
 						state = 619
 						state = 759
 						state = 760
+						state = 1121
 					}
 				}
 				add_claim_by = ROOT
@@ -13008,6 +13016,7 @@ form_turkestan_category = {
 				controls_state = 619
 				controls_state = 759
 				controls_state = 760
+				controls_state = 1121
 			}
 		}
 
@@ -13016,12 +13025,13 @@ form_turkestan_category = {
 		complete_effect = {
 			custom_effect_tooltip = form_country_sinkiang_coring_states_tt
 			hidden_effect = {
-				287 = { add_core_of = ROOT }
-				617 = { add_core_of = ROOT }
-				618 = { add_core_of = ROOT }
-				619 = { add_core_of = ROOT }
-				759 = { add_core_of = ROOT }
-				760 = { add_core_of = ROOT }
+				287 = { remove_claim_by = ROOT add_core_of = ROOT }
+				617 = { remove_claim_by = ROOT add_core_of = ROOT }
+				618 = { remove_claim_by = ROOT add_core_of = ROOT }
+				619 = { remove_claim_by = ROOT add_core_of = ROOT }
+				759 = { remove_claim_by = ROOT add_core_of = ROOT }
+				760 = { remove_claim_by = ROOT add_core_of = ROOT }
+				1121 = { remove_claim_by = ROOT add_core_of = ROOT }
 			}
 		}
 
@@ -13047,7 +13057,7 @@ form_turkestan_category = {
 				original_tag = TAJ # Tajikistan
 				original_tag = TMS # Turkmenistan
 				original_tag = SIK # Sinkiang
-				original_tag = TNG # Tunganistan
+				original_tag = KHM # Tunganistan
 				original_tag = BUK # Bukhara
 				original_tag = KHI # Khiva
 				original_tag = KKP # Karakalpakstan
@@ -13071,7 +13081,7 @@ form_turkestan_category = {
 		visible = { has_global_flag = form_turkestan_flag }
 
 		complete_effect = {
-			654 = { add_core_of = ROOT }
+			654 = { remove_claim_by = ROOT add_core_of = ROOT }
 		}
 
 		ai_will_do = {
@@ -13096,7 +13106,7 @@ form_turkestan_category = {
 				original_tag = TAJ # Tajikistan
 				original_tag = TMS # Turkmenistan
 				original_tag = SIK # Sinkiang
-				original_tag = TNG # Tunganistan
+				original_tag = KHM # Tunganistan
 				original_tag = BUK # Bukhara
 				original_tag = KHI # Khiva
 				original_tag = KKP # Karakalpakstan
@@ -13120,7 +13130,7 @@ form_turkestan_category = {
 		visible = { has_global_flag = form_turkestan_flag }
 
 		complete_effect = {
-			329 = { add_core_of = ROOT }
+			329 = { remove_claim_by = ROOT add_core_of = ROOT }
 		}
 
 		ai_will_do = {
@@ -13131,10 +13141,12 @@ form_turkestan_category = {
 			#}
 		}
 	}
+
 }
+
 form_mountainous_republic_category = {
 	
-	form_mountainous_republic = { 
+	form_mountainous_republic = {
 
 		icon = generic_form_nation
 
@@ -13583,7 +13595,7 @@ form_transcaucasus_category = {
 			#}
 			has_global_flag = form_transcaucasia_flag
 			NOT = { has_global_flag = anatolians_liberated_flag }
-			#has_dlc = "No Step Back" 	#56 - Does not need to be checked for while game is running, these checks only need to be in 'allowed = {}' sections of code
+			#has_dlc = "No Step Back"	#56 - Does not need to be checked for while game is running, these checks only need to be in 'allowed = {}' sections of code
 		}
 
 		complete_effect = {
@@ -15017,7 +15029,18 @@ form_east_africa_category = {
 				original_tag = ZAN # Zanzibar
 				original_tag = RWA # Rwanda
 				original_tag = BRD # Burundi
+				original_tag = SSU
 				original_tag = COG #Congo
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+                state = 546
+                state = 547
+				state = 905
+				state = 904
+				state = 548
 			}
 		}
 
@@ -15107,8 +15130,6 @@ form_east_africa_category = {
 
 			# Jubaland
 			844 = { add_claim_by = ROOT }
-			
-			#add_ideas = soldiers_of_the_steppe
 
 			add_ideas = generic_recent_political_unification
 			add_ideas = generic_recent_army_unification
@@ -15170,10 +15191,8 @@ form_east_africa_category = {
 			
 			#add_ideas = soldiers_of_the_steppe
 			
-			hidden_effect = { 
-				
+			hidden_effect = {
 				set_global_flag = ruanda_urundi_integrated_flag
-				
 			}
 		}
 
@@ -15221,12 +15240,9 @@ form_east_africa_category = {
 			# Zambezia-Mocambique 
 			897 = { add_core_of = ROOT }
 			
-			#add_ideas = soldiers_of_the_steppe
 			
-			hidden_effect = { 
-				
+			hidden_effect = {
 				set_global_flag = malawi_dominated_flag
-				
 			}
 		}
 
@@ -15270,12 +15286,9 @@ form_east_africa_category = {
 			# Sidamo
 			837 = { add_core_of = ROOT }
 			
-			#add_ideas = soldiers_of_the_steppe
 			
-			hidden_effect = { 
-				
+			hidden_effect = {
 				set_global_flag = sidamo_liberated_flag
-				
 			}
 		}
 
@@ -15346,12 +15359,8 @@ form_east_africa_category = {
 			# Socotra
 			906 = { add_claim_by = ROOT }
 			
-			#add_ideas = soldiers_of_the_steppe
-			
-			hidden_effect = { 
-				
+			hidden_effect = {
 				set_global_flag = somalis_united_flag
-				
 			}
 		}
 
@@ -15395,12 +15404,8 @@ form_east_africa_category = {
 			# Comoro Islands
 			708 = { add_core_of = ROOT }
 			
-			#add_ideas = soldiers_of_the_steppe
-			
-			hidden_effect = { 
-				
+			hidden_effect = {
 				set_global_flag = comoros_conquered_flag
-				
 			}
 		}
 

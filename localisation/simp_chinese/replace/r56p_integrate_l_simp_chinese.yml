@@ -132,8 +132,8 @@
   INS_integrate_malayan_confederation: "向[INS.GetName]移交领土（推荐，有独立国策）"
   MAL_integrate_malayan_confederation: "向[MAL.GetName]移交领土（推荐，有独立国策）"
   PHI_integrate_malayan_confederation: "向[PHI.GetName]移交领土（推荐，有独立国策）"
-  SGP_integrate_malayan_confederation: "向[SGP.GetName]移交领土"
-  SWK_integrate_malayan_confederation: "向[SWK.GetName]移交领土"
+  SNG_integrate_malayan_confederation: "向[SNG.GetName]移交领土"
+  SAR_integrate_malayan_confederation: "向[SAR.GetName]移交领土"
   BRN_integrate_malayan_confederation: "向[BRN.GetName]移交领土"
 
   integrate_rattanakosin_kingdom_category: "整合拉达那哥欣"
@@ -193,7 +193,7 @@
   TAJ_integrate_turkestan: "向[TAJ.GetName]移交领土（推荐，多个buff）"
   TMS_integrate_turkestan: "向[TMS.GetName]移交领土"
   SIK_integrate_turkestan: "向[SIK.GetName]移交领土"
-  TNG_integrate_turkestan: "向[TNG.GetName]移交领土"
+  KHM_integrate_turkestan: "向[KHM.GetName]移交领土"
   BUK_integrate_turkestan: "向[BUK.GetName]移交领土"
   KHI_integrate_turkestan: "向[KHI.GetName]移交领土"
   KKP_integrate_turkestan: "向[KKP.GetName]移交领土"
@@ -214,6 +214,7 @@
   TZN_integrate_east_africa: "向[TZN.GetName]移交领土"
   RWA_integrate_east_africa: "向[RWA.GetName]移交领土"
   BRD_integrate_east_africa: "向[BRD.GetName]移交领土"
+  SSU_integrate_east_africa: "向[SSU.GetName]移交领土"
 
   integrate_horn_of_africa_africa_category: "整合非洲之角"
   ETH_integrate_horn_of_africa_africa: "向[ETH.GetName]移交领土"

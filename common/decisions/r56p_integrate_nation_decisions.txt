@@ -9625,6 +9625,9 @@ integrate_malayan_confederation_category = {
 			624 = { is_controlled_by_ROOT_or_subject = yes }
 			623 = { is_controlled_by_ROOT_or_subject = yes }
 			327 = { is_controlled_by_ROOT_or_subject = yes }
+			1110 = { is_controlled_by_ROOT_or_subject = yes }
+			1109 = { is_controlled_by_ROOT_or_subject = yes }
+			1108 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			INS = {
@@ -9658,6 +9661,9 @@ integrate_malayan_confederation_category = {
 				transfer_state = 624
 				transfer_state = 623
 				transfer_state = 327
+				transfer_state = 1110
+				transfer_state = 1109
+				transfer_state = 1108
 				if = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 721
@@ -9703,6 +9709,9 @@ integrate_malayan_confederation_category = {
 			624 = { is_controlled_by_ROOT_or_subject = yes }
 			623 = { is_controlled_by_ROOT_or_subject = yes }
 			327 = { is_controlled_by_ROOT_or_subject = yes }
+			1110 = { is_controlled_by_ROOT_or_subject = yes }
+			1109 = { is_controlled_by_ROOT_or_subject = yes }
+			1108 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			MAL = {
@@ -9736,6 +9745,9 @@ integrate_malayan_confederation_category = {
 				transfer_state = 624
 				transfer_state = 623
 				transfer_state = 327
+				transfer_state = 1110
+				transfer_state = 1109
+				transfer_state = 1108
 				if = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 721
@@ -9750,8 +9762,8 @@ integrate_malayan_confederation_category = {
 					original_tag = INS
 					original_tag = MAL
 					original_tag = PHI
-					original_tag = SGP
-					original_tag = SWK
+					original_tag = SNG
+					original_tag = SAR
 					original_tag = BRN
 				}
 			}
@@ -9794,6 +9806,9 @@ integrate_malayan_confederation_category = {
 			624 = { is_controlled_by_ROOT_or_subject = yes }
 			623 = { is_controlled_by_ROOT_or_subject = yes }
 			327 = { is_controlled_by_ROOT_or_subject = yes }
+			1110 = { is_controlled_by_ROOT_or_subject = yes }
+			1109 = { is_controlled_by_ROOT_or_subject = yes }
+			1108 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			PHI = {
@@ -9827,6 +9842,9 @@ integrate_malayan_confederation_category = {
 				transfer_state = 624
 				transfer_state = 623
 				transfer_state = 327
+				transfer_state = 1110
+				transfer_state = 1109
+				transfer_state = 1108
 				if = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 721
@@ -9835,10 +9853,10 @@ integrate_malayan_confederation_category = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	SGP_integrate_malayan_confederation = {
+	SNG_integrate_malayan_confederation = {
 		icon = generic_form_nation
 		visible = {
-			SGP = { is_subject_of = ROOT }
+			SNG = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_malayan_confederation_flag }
 		}
 		available = {
@@ -9872,9 +9890,12 @@ integrate_malayan_confederation_category = {
 			624 = { is_controlled_by_ROOT_or_subject = yes }
 			623 = { is_controlled_by_ROOT_or_subject = yes }
 			327 = { is_controlled_by_ROOT_or_subject = yes }
+			1110 = { is_controlled_by_ROOT_or_subject = yes }
+			1109 = { is_controlled_by_ROOT_or_subject = yes }
+			1108 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
-			SGP = {
+			SNG = {
 				transfer_state = 974
 				transfer_state = 672
 				transfer_state = 335
@@ -9905,6 +9926,9 @@ integrate_malayan_confederation_category = {
 				transfer_state = 624
 				transfer_state = 623
 				transfer_state = 327
+				transfer_state = 1110
+				transfer_state = 1109
+				transfer_state = 1108
 				if = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 721
@@ -9913,10 +9937,10 @@ integrate_malayan_confederation_category = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	SWK_integrate_malayan_confederation = {
+	SAR_integrate_malayan_confederation = {
 		icon = generic_form_nation
 		visible = {
-			SWK = { is_subject_of = ROOT }
+			SAR = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_malayan_confederation_flag }
 		}
 		available = {
@@ -9950,9 +9974,12 @@ integrate_malayan_confederation_category = {
 			624 = { is_controlled_by_ROOT_or_subject = yes }
 			623 = { is_controlled_by_ROOT_or_subject = yes }
 			327 = { is_controlled_by_ROOT_or_subject = yes }
+			1110 = { is_controlled_by_ROOT_or_subject = yes }
+			1109 = { is_controlled_by_ROOT_or_subject = yes }
+			1108 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
-			SWK = {
+			SAR = {
 				transfer_state = 974
 				transfer_state = 672
 				transfer_state = 335
@@ -9983,6 +10010,9 @@ integrate_malayan_confederation_category = {
 				transfer_state = 624
 				transfer_state = 623
 				transfer_state = 327
+				transfer_state = 1110
+				transfer_state = 1109
+				transfer_state = 1108
 				if = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 721
@@ -10028,6 +10058,9 @@ integrate_malayan_confederation_category = {
 			624 = { is_controlled_by_ROOT_or_subject = yes }
 			623 = { is_controlled_by_ROOT_or_subject = yes }
 			327 = { is_controlled_by_ROOT_or_subject = yes }
+			1110 = { is_controlled_by_ROOT_or_subject = yes }
+			1109 = { is_controlled_by_ROOT_or_subject = yes }
+			1108 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			BRN = {
@@ -10061,6 +10094,9 @@ integrate_malayan_confederation_category = {
 				transfer_state = 624
 				transfer_state = 623
 				transfer_state = 327
+				transfer_state = 1110
+				transfer_state = 1109
+				transfer_state = 1108
 				if = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 721
@@ -13377,7 +13413,7 @@ integrate_turkestan_category = {
 					original_tag = TAJ
 					original_tag = TMS
 					original_tag = SIK
-					original_tag = TNG
+					original_tag = KHM
 					original_tag = BUK
 					original_tag = KHI
 					original_tag = KKP
@@ -13519,10 +13555,10 @@ integrate_turkestan_category = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	TNG_integrate_turkestan = {
+	KHM_integrate_turkestan = {
 		icon = generic_form_nation
 		visible = {
-			TNG = { is_subject_of = ROOT }
+			KHM = { is_subject_of = ROOT }
 			NOT = { has_global_flag = form_turkestan_flag }
 		}
 		available = {
@@ -13550,7 +13586,7 @@ integrate_turkestan_category = {
 			742 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
-			TNG = {
+			KHM = {
 				transfer_state = 402
 				transfer_state = 404
 				transfer_state = 406
@@ -14017,6 +14053,7 @@ integrate_east_africa_category = {
 					original_tag = ZAN
 					original_tag = RWA
 					original_tag = BRD
+					original_tag = SSU
 				}
 			}
 		}
@@ -14237,6 +14274,56 @@ integrate_east_africa_category = {
 		}
 		complete_effect = {
 			BRD = {
+				transfer_state = 546
+				transfer_state = 1055
+				transfer_state = 547
+				transfer_state = 905
+				transfer_state = 904
+				transfer_state = 548
+				if = {
+					limit = { 768 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 768
+				}
+				if = {
+					limit = { 769 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 769
+				}
+				if = {
+					limit = { 770 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 770
+				}
+				if = {
+					limit = { 897 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 897
+				}
+				if = {
+					limit = { 837 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 837
+				}
+				if = {
+					limit = { 708 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 708
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	SSU_integrate_east_africa = {
+		icon = generic_form_nation
+		visible = {
+			SSU = { is_subject_of = ROOT }
+			NOT = { has_global_flag = form_east_africa_flag }
+		}
+		available = {
+			546 = { is_controlled_by_ROOT_or_subject = yes }
+			1055 = { is_controlled_by_ROOT_or_subject = yes }
+			547 = { is_controlled_by_ROOT_or_subject = yes }
+			905 = { is_controlled_by_ROOT_or_subject = yes }
+			904 = { is_controlled_by_ROOT_or_subject = yes }
+			548 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		complete_effect = {
+			SSU = {
 				transfer_state = 546
 				transfer_state = 1055
 				transfer_state = 547
