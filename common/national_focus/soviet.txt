@@ -2939,7 +2939,7 @@ focus_tree = {
 		relative_position_id = SOV_increase_aircraft_production
 		cost = 10
 
-		mutually_exclusive = { focus = SOV_long_range_aircraft }
+		#mutually_exclusive = { focus = SOV_long_range_aircraft }
 		
 		search_filters = {FOCUS_FILTER_RESEARCH}
 
@@ -2988,7 +2988,7 @@ focus_tree = {
 		relative_position_id = SOV_intensify_pilot_training_program
 		cost = 10
 
-		mutually_exclusive = { focus = SOV_ground_support }
+		#mutually_exclusive = { focus = SOV_ground_support }
 		
 		search_filters = {FOCUS_FILTER_RESEARCH}
 
