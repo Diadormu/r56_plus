@@ -70,7 +70,7 @@ integrate_horn_of_africa_africa_category = {
 integrate_antilles_category = {
 	icon = generic_formable_nations
 }
-integrate_neo_assyrian_empire_category = {
+integrate_latin_africa_category = {
 	icon = generic_formable_nations
 }
 #========== TOA ==========#
