@@ -139,8 +139,6 @@ joint_focus = {
 	}
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {
 
@@ -325,8 +323,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {
 
@@ -374,8 +370,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {
 
@@ -430,8 +424,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
     search_filters = { FOCUS_FILTER_INDUSTRY }
 
@@ -503,8 +495,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {
 		custom_trigger_tooltip = {
@@ -675,8 +665,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {
 
@@ -727,8 +715,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {}
 
@@ -781,8 +767,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {
 
@@ -841,8 +825,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {
 
@@ -921,8 +903,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {}
 
@@ -972,8 +952,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {
 		TUR = {
@@ -1050,8 +1028,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {
 		AFG = {
@@ -1123,8 +1099,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {
 		IRQ = {
@@ -1185,8 +1159,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {
 		PER = {
@@ -1247,8 +1219,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {
 		TUR = {
@@ -1359,8 +1329,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {
 		PER = {
@@ -1515,8 +1483,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {
 
@@ -1635,8 +1601,6 @@ joint_focus = {
 
 
     cancel_if_invalid = yes
-    continue_if_invalid = no
-    available_if_capitulated = no
 
 	bypass = {
 
