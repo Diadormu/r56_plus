@@ -15,6 +15,7 @@ form_north_american_category = {
 }
 integrate_north_american_category = {
 	icon = generic_formable_nations
+	allowed = { has_dlc = "Waking the Tiger" }
 }
 
 form_greater_china_category = {
@@ -128,6 +129,7 @@ form_united_balkan_category = {
 }
 integrate_united_balkan_category = {
 	icon = generic_formable_nations
+	allowed = { has_dlc = "Battle for the Bosporus" }
 }
 
 integrate_greater_german_reich_category = {

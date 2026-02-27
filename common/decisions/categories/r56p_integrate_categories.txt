@@ -28,10 +28,6 @@ integrate_gran_colombia_category = {
 	icon = generic_formable_nations
 	allowed = { has_dlc = "Waking the Tiger" }
 }
-integrate_austria_hungary_category = {
-	icon = generic_formable_nations
-	allowed = { has_dlc = "Waking the Tiger" }
-}
 integrate_commonwealth_category = {
 	icon = generic_formable_nations
 }
