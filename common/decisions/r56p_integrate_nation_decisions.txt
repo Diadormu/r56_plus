@@ -1287,6 +1287,7 @@ integrate_arabia_category = {
 						453 = { is_controlled_by_ROOT_or_subject = yes }
 						551 = { is_controlled_by_ROOT_or_subject = yes }
 						883 = { is_controlled_by_ROOT_or_subject = yes }
+						767 = { is_controlled_by_ROOT_or_subject = yes }
 						886 = { is_controlled_by_ROOT_or_subject = yes }
 						549 = { is_controlled_by_ROOT_or_subject = yes }
 						887 = { is_controlled_by_ROOT_or_subject = yes }
@@ -1308,6 +1309,7 @@ integrate_arabia_category = {
 						transfer_state = 453
 						transfer_state = 551
 						transfer_state = 883
+						transfer_state = 767
 						transfer_state = 886
 						transfer_state = 549
 						transfer_state = 887
@@ -2403,7 +2405,7 @@ integrate_horn_of_africa_africa_category = {
 }
 
 integrate_antilles_category = {
-	unite_the_antilles = {
+	integrate_unite_the_antilles = {
 		icon = generic_form_nation
 		targets = { HAI DOM PUE CUB JAM BAH GDL BAS }
 		target_trigger = { FROM = { is_subject_of = ROOT } }
@@ -2487,7 +2489,7 @@ integrate_antilles_category = {
 }
 
 integrate_latin_africa_category = {
-	unite_latin_africa = {
+	integrate_unite_latin_africa = {
 		icon = generic_form_nation
 		targets = { COG KAT RCG RWA BRD ANG GAB EQG CMR CHA CAR }
 		target_trigger = { FROM = { is_subject_of = ROOT } }
@@ -2647,7 +2649,7 @@ integrate_neo_assyrian_empire_category = {
 }
 
 integrate_neo_mesopotamia_category = {
-	neo_mesopotamia = {
+	integrate_neo_mesopotamia = {
 		icon = generic_form_nation
 		targets = { KUR IRQ SYR PAL EGY KUW LEB ASY }
 		target_trigger = { FROM = { is_subject_of = ROOT } }
@@ -2748,7 +2750,7 @@ integrate_neo_mesopotamia_category = {
 #========== TOA ==========#
 
 integrate_hispaniola_category = {
-	unite_hispaniola = {
+	integrate_unite_hispaniola = {
 		icon = generic_form_nation
 		targets = { HAI DOM }
 		target_trigger = {
@@ -2881,7 +2883,7 @@ integrate_peru_bolivia_category = {
 }
 
 integrate_guianas_category = {
-	unite_guiana = {
+	integrate_unite_guiana = {
 		icon = generic_form_nation
 		targets = { GYA SUR CAY }
 		target_trigger = { FROM = { is_subject_of = ROOT } }

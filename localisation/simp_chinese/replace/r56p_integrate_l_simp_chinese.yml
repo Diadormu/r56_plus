@@ -126,26 +126,26 @@
   ETH_integrate_horn_of_africa_africa: "向[ETH.GetName]移交领土"
 
   integrate_antilles_category: "整合安的列斯"
-  unite_the_antilles: "向[FROM.GetName]移交领土"
+  integrate_unite_the_antilles: "向[FROM.GetName]移交领土"
 
   integrate_latin_africa_category: "整合拉丁非洲"
   integrate_latin_africa_category_desc: "推荐[COG.GetName]，有独立国策"
-  KAT_unite_latin_africa: "向[FROM.GetName]移交领土"
+  integrate_unite_latin_africa: "向[FROM.GetName]移交领土"
 
   integrate_neo_assyrian_empire_category: "整合亚述"
   ASY_neo_assyrian: "向[ASY.GetName]移交领土"
 
   integrate_neo_mesopotamia_category: "整合美索不达米亚"
   integrate_neo_mesopotamia_category_desc: "推荐[IRQ.GetName]，有独立国策，还能成阿拉伯"
-  neo_mesopotamia: "向[FROM.GetName]移交领土"
+  integrate_neo_mesopotamia: "向[FROM.GetName]移交领土"
 
   #========== TOA ==========#
 
   integrate_hispaniola_category: "整合伊斯帕尼奥拉"
-  unite_hispaniola: "向[FROM.GetName]移交领土"
+  integrate_unite_hispaniola: "向[FROM.GetName]移交领土"
 
   integrate_peru_bolivia_category: "整合秘鲁-玻利维亚"
   integrate_peru_bolivia: "向[FROM.GetName]移交领土"
 
   integrate_guianas_category: "整合圭亚那"
-  unite_guiana: "向[FROM.GetName]移交领土"
+  integrate_unite_guiana: "向[FROM.GetName]移交领土"
