@@ -40,7 +40,7 @@ integrate_polynesia_category = {
 integrate_greater_greece_category = {
 	icon = generic_formable_nations
 }
-integrate_cossack_hosts = {
+integrate_cossack_hosts_category = {
 	icon = generic_formable_nations
 }
 integrate_turkestan_category = {
@@ -96,19 +96,16 @@ integrate_carribean_category = {
 integrate_greater_morocco_category = {
 	icon = generic_formable_nations
 }
-integrate_la_plata = {
+integrate_la_plata_category = {
 	icon = generic_formable_nations
 }
-integrate_west_african_union = {
+integrate_west_african_union_category = {
 	icon = generic_formable_nations
 }
-integrate_the_empire_of_mali = {
+integrate_the_empire_of_mali_category = {
 	icon = generic_formable_nations
 }
-integrate_a_dravidian_state = {
-	icon = generic_formable_nations
-}
-integrate_hispanoamerica_category = {
+integrate_a_dravidian_state_category = {
 	icon = generic_formable_nations
 }
 integrate_the_mamluks_category = {
