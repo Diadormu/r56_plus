@@ -8648,6 +8648,8 @@ form_byzantine_empire_category = {
 				has_idea = generic_recent_army_unification
 				has_idea = generic_recent_economic_unification		
 			}
+			has_global_flag = byz_bulgaria_integrated
+			has_global_flag = byz_yugoslavia_integrated
 			# Italy
 			custom_trigger_tooltip = {
 				tooltip = form_eu_italy_required_states_tt
@@ -8675,8 +8677,6 @@ form_byzantine_empire_category = {
 		visible = {
 			#original_tag = GRE		#56 - Does not need to be checked for while game is running, these checks only need to be in 'allowed = {}' sections of code
 			NOT = { has_global_flag = triumph_for_italy }
-			has_global_flag = byz_bulgaria_integrated
-			has_global_flag = byz_yugoslavia_integrated
 			has_global_flag = form_byzantine_empire_flag
 		}
 
@@ -8979,9 +8979,8 @@ form_arabia_category = {
 				original_tag = TUN
 				original_tag = ALG
 				original_tag = MOR
+				original_tag = WES
 				original_tag = ADU
-				original_tag = DJI
-				original_tag = COM
 			}
 		}
 
@@ -9405,6 +9404,11 @@ form_malayan_confederation_category = {
 			set_cosmetic_tag = MAL_UNIFIED
 			# Dutch East Indies
 			if = {
+				limit = {
+					NOT = {
+						original_tag = INS
+					}
+				}
 				custom_effect_tooltip = form_country_nei_coring_states_tt
 				hidden_effect = {
 					every_state = {
@@ -9515,7 +9519,8 @@ form_rattanakosin_kingdom_category = {
 		icon = generic_form_nation
 
 		allowed = {
-			original_tag = SIA
+			original_tag = SIA	#56 - Removed in favor of R56-made decisions that deal with states more individually
+			#always = no	#56
 		}
 
 		available = {
@@ -10096,9 +10101,10 @@ form_greater_german_reich_category = {
 				add_state_core = 86
 				add_state_core = 762
 				add_state_core = 188
-				add_state_core = 964
+				#add_state_core = 964 r56 removed to prevent germany from getting an ahistorical autarky breaking core
 				add_state_core = 102
 				add_state_core = 853
+				add_state_claim = 964
 			}
 		}
 
@@ -11278,6 +11284,10 @@ form_polynesia_category = { #localization in TON_l_english
 					NOT = {
 						OR = {
 							original_tag = HAW
+							original_tag = NIU
+							original_tag = VAN
+							original_tag = PLU
+							original_tag = MRS
 							original_tag = TAH
 							original_tag = GUM
 							original_tag = FSM
@@ -11313,6 +11323,8 @@ form_polynesia_category = { #localization in TON_l_english
 						controls_state = 726
 						controls_state = 727
 						controls_state = 734
+						controls_state = 1088
+						controls_state = 1089
 					}
 					NOT = { has_country_flag = has_been_asked_for_islands_flag }
 				}
@@ -11330,6 +11342,10 @@ form_polynesia_category = { #localization in TON_l_english
 					NOT = {
 						OR = {
 							original_tag = HAW
+							original_tag = NIU
+							original_tag = VAN
+							original_tag = PLU
+							original_tag = MRS
 							original_tag = TAH
 							original_tag = GUM
 							original_tag = FSM
@@ -11365,6 +11381,8 @@ form_polynesia_category = { #localization in TON_l_english
 						controls_state = 726
 						controls_state = 727
 						controls_state = 734
+						controls_state = 1088
+						controls_state = 1089
 					}
 					NOT = { has_country_flag = has_been_asked_for_islands_flag }
 				}
@@ -11378,6 +11396,10 @@ form_polynesia_category = { #localization in TON_l_english
 					is_in_faction_with = ROOT
 					NOT = {
 						original_tag = HAW
+						original_tag = NIU
+						original_tag = VAN
+						original_tag = PLU
+						original_tag = MRS
 						original_tag = TAH
 						original_tag = GUM
 						original_tag = FSM
@@ -11412,13 +11434,15 @@ form_polynesia_category = { #localization in TON_l_english
 						controls_state = 726
 						controls_state = 727
 						controls_state = 734
+						controls_state = 1088
+						controls_state = 1089
 					}
 					hidden_trigger = { NOT = { has_country_flag = has_been_asked_for_islands_flag } }
 				}
 				save_event_target_as = new_zealand_island_demand_target
 			}
 			event_target:new_zealand_island_demand_target = {
-				country_event = { id = tfv_new_zealand.9 days = 3 }
+				country_event = { id = new_zealand.12 days = 3 }
 				set_country_flag = has_been_asked_for_islands_flag
 			}
 		}
@@ -11990,7 +12014,7 @@ form_macedonian_empire_category = {
 				AND = {
 					has_completed_focus = GRE_protectors_of_the_mediterranean
 					has_country_leader = {
-						character = GRE_george_two
+						character = GRE_king_george_ii
 						ruling_only = yes
 					}
 				}
@@ -12472,6 +12496,61 @@ form_turan_category = {
 			#	factor = 0
 			#	is_historical_focus_on = yes
 			#}
+		}
+	}
+
+	TUR_appoint_nihal_atziz_as_president = {
+
+		icon = GFX_decision_generic_political_address
+
+		allowed = {
+			original_tag = TUR
+			has_dlc = "Battle for the Bosporus"
+		}
+
+		available = {
+			is_subject = no
+			AND = {
+				has_government = fascism
+				has_completed_focus = TUR_turanist_ambition
+				has_idea = TUR_nihal_atsiz
+			}
+		}
+
+		visible = {
+			has_completed_focus = TUR_turanist_ambition
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+
+			remove_ideas = TUR_nihal_atsiz
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+			
+			add_country_leader_role = {
+				character = TUR_nihal_atsiz
+				country_leader = {
+					expire = "1975.1.1"
+					ideology = gen_nazism
+					traits = {
+						grey_wolf_trait
+					}
+				}
+				promote_leader = yes
+			}
+
+		}
+
+		priority = 95
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 	}
 
@@ -15030,7 +15109,7 @@ form_east_africa_category = {
 				original_tag = ZAN # Zanzibar
 				original_tag = RWA # Rwanda
 				original_tag = BRD # Burundi
-				original_tag = SSU
+				original_tag = SSU # South Sudan
 				original_tag = COG #Congo
 			}
 		}
@@ -15164,8 +15243,10 @@ form_east_africa_category = {
 				original_tag = KEN # Kenya
 				original_tag = UGA # Uganda
 				original_tag = TZN # Tanzania
+				original_tag = ZAN # Zanzibar
 				original_tag = RWA # Rwanda
 				original_tag = BRD # Burundi
+				original_tag = SSU # South Sudan
 				original_tag = COG #Congo
 			}
 		}
@@ -15176,14 +15257,11 @@ form_east_africa_category = {
 		}
 
 		visible = {
-			
 			has_global_flag = form_east_africa_flag
 			NOT = { has_global_flag = ruanda_urundi_integrated_flag }
-
 		}
 
 		complete_effect = {
-		
 				# Rwanda
 				768 = { add_core_of = ROOT }
 				
@@ -15192,9 +15270,7 @@ form_east_africa_category = {
 			
 			#add_ideas = soldiers_of_the_steppe
 			
-			hidden_effect = {
-				set_global_flag = ruanda_urundi_integrated_flag
-			}
+			hidden_effect = { set_global_flag = ruanda_urundi_integrated_flag }
 		}
 
 		ai_will_do = {
@@ -15215,8 +15291,10 @@ form_east_africa_category = {
 				original_tag = KEN # Kenya
 				original_tag = UGA # Uganda
 				original_tag = TZN # Tanzania
+				original_tag = ZAN # Zanzibar
 				original_tag = RWA # Rwanda
 				original_tag = BRD # Burundi
+				original_tag = SSU # South Sudan
 				original_tag = COG #Congo
 			}
 		}
@@ -15227,24 +15305,18 @@ form_east_africa_category = {
 		}
 
 		visible = {
-			
 			has_global_flag = form_east_africa_flag
 			NOT = { has_global_flag = malawi_dominated_flag }
-
 		}
 
 		complete_effect = {
-		
 			# Malawi
 			770 = { add_core_of = ROOT }
 			
 			# Zambezia-Mocambique 
 			897 = { add_core_of = ROOT }
 			
-			
-			hidden_effect = {
-				set_global_flag = malawi_dominated_flag
-			}
+			hidden_effect = { set_global_flag = malawi_dominated_flag }
 		}
 
 		ai_will_do = {
@@ -15265,17 +15337,17 @@ form_east_africa_category = {
 				original_tag = KEN # Kenya
 				original_tag = UGA # Uganda
 				original_tag = TZN # Tanzania
+				original_tag = ZAN # Zanzibar
 				original_tag = RWA # Rwanda
 				original_tag = BRD # Burundi
+				original_tag = SSU # South Sudan
 				original_tag = COG #Congo
 			}
 		}
 
 		visible = {
-			
 			has_global_flag = form_east_africa_flag
 			NOT = { has_global_flag = sidamo_liberated_flag }
-
 		}
 
 		available = {
@@ -15283,14 +15355,10 @@ form_east_africa_category = {
 		}
 
 		complete_effect = {
-		
 			# Sidamo
 			837 = { add_core_of = ROOT }
 			
-			
-			hidden_effect = {
-				set_global_flag = sidamo_liberated_flag
-			}
+			hidden_effect = { set_global_flag = sidamo_liberated_flag }
 		}
 
 		ai_will_do = {
@@ -15311,8 +15379,10 @@ form_east_africa_category = {
 				original_tag = KEN # Kenya
 				original_tag = UGA # Uganda
 				original_tag = TZN # Tanzania
+				original_tag = ZAN # Zanzibar
 				original_tag = RWA # Rwanda
 				original_tag = BRD # Burundi
+				original_tag = SSU # South Sudan
 				original_tag = COG #Congo
 			}
 		}
@@ -15328,10 +15398,8 @@ form_east_africa_category = {
 		}
 
 		visible = {
-			
 			has_global_flag = form_east_africa_flag
 			NOT = { has_global_flag = somalis_united_flag }
-
 		}
 
 		complete_effect = {
@@ -15360,9 +15428,7 @@ form_east_africa_category = {
 			# Socotra
 			906 = { add_claim_by = ROOT }
 			
-			hidden_effect = {
-				set_global_flag = somalis_united_flag
-			}
+			hidden_effect = { set_global_flag = somalis_united_flag }
 		}
 
 		ai_will_do = {
@@ -15383,8 +15449,10 @@ form_east_africa_category = {
 				original_tag = KEN # Kenya
 				original_tag = UGA # Uganda
 				original_tag = TZN # Tanzania
+				original_tag = ZAN # Zanzibar
 				original_tag = RWA # Rwanda
 				original_tag = BRD # Burundi
+				original_tag = SSU # South Sudan
 				original_tag = COG #Congo
 			}
 		}
@@ -15394,20 +15462,15 @@ form_east_africa_category = {
 		}
 
 		visible = {
-			
 			has_global_flag = form_east_africa_flag
 			NOT = { has_global_flag = comoros_conquered_flag }
-
 		}
 
 		complete_effect = {
-		
 			# Comoro Islands
 			708 = { add_core_of = ROOT }
 			
-			hidden_effect = {
-				set_global_flag = comoros_conquered_flag
-			}
+			hidden_effect = { set_global_flag = comoros_conquered_flag }
 		}
 
 		ai_will_do = {

@@ -825,7 +825,7 @@ integrate_mutapa_category = {
 integrate_arabia_category = {
 	integrate_arabia = {
 		icon = generic_form_nation
-		targets = { IRQ SAU YEM OMA IMO EGY SUD LBA JOR PAL LEB SYR KUW UAE QAT BHR TUN ALG MOR ADU DJI COM }
+		targets = { IRQ SAU YEM OMA IMO EGY SUD LBA JOR PAL LEB SYR KUW UAE QAT BHR TUN ALG MOR WES ADU }
 		target_trigger = { FROM = { is_subject_of = ROOT } }
 
 		on_map_mode = decision_view_only
