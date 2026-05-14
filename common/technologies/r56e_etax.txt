@@ -46,6 +46,9 @@ technologies = {
 			leads_to_tech = etax_air_focus 
 			research_cost_coeff = 1
 		}
+
+		consumer_goods_factor = 0.01
+		research_speed_factor = 0.02
 		
 		doctrine = no	
 		research_cost = 3.0
@@ -282,7 +285,7 @@ technologies = {
 
 	etax_army_firepower = {
 	
-#		xor = { etax_army_defense }
+		#xor = { etax_army_defense }
 		
 		path = {
 			leads_to_tech = etax_army_firepower_2
@@ -313,6 +316,8 @@ technologies = {
 			cat_grand_battle_plan
 			cat_superior_firepower
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 1
@@ -366,6 +371,8 @@ technologies = {
 			cat_superior_firepower
 		}
 
+		special_project_specialization = { specialization_land }
+
 		ai_will_do = {
 			factor = 1
 
@@ -393,7 +400,7 @@ technologies = {
 	
 	etax_army_defense = {
 	
-#		xor = { etax_army_firepower }
+		#xor = { etax_army_firepower }
 		
 		path = {
 			leads_to_tech = etax_army_defense_2
@@ -422,6 +429,8 @@ technologies = {
 			cat_grand_battle_plan
 			cat_superior_firepower
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 1
@@ -471,6 +480,8 @@ technologies = {
 			cat_superior_firepower
 		}
 
+		special_project_specialization = { specialization_land }
+
 		ai_will_do = {
 			factor = 1
 
@@ -500,7 +511,7 @@ technologies = {
 
 	etax_navy_firepower = {
 	
-#		xor = { etax_navy_defense }
+		#xor = { etax_navy_defense }
 		
 		path = {
 			leads_to_tech = etax_navy_firepower_2
@@ -525,11 +536,13 @@ technologies = {
 		categories = {
 			r56_special_research_division
 			naval_doctrine
-           naval_equipment
+        	naval_equipment
 			cat_fleet_in_being
 			cat_trade_interdiction
 			cat_base_strike
 		}
+
+		special_project_specialization = { specialization_naval }
 
 		ai_will_do = {
 			factor = 1
@@ -596,6 +609,8 @@ technologies = {
 			cat_base_strike
 		}
 
+		special_project_specialization = { specialization_naval }
+
 		ai_will_do = {
 			factor = 1
 			
@@ -633,7 +648,7 @@ technologies = {
 	
 	etax_navy_defense = {
 	
-#		xor = { etax_navy_firepower }
+		#xor = { etax_navy_firepower }
 		
 		path = {
 			leads_to_tech = etax_navy_defense_2
@@ -661,6 +676,8 @@ technologies = {
 			cat_trade_interdiction
 			cat_base_strike
 		}
+
+		special_project_specialization = { specialization_naval }
 
 		ai_will_do = {
 			factor = 0
@@ -727,6 +744,8 @@ technologies = {
 			cat_base_strike
 		}
 
+		special_project_specialization = { specialization_naval }
+
 		ai_will_do = {
 			factor = 0
 			
@@ -766,7 +785,7 @@ technologies = {
 
 	etax_air_firepower = {
 	
-#		xor = { etax_air_defense }
+		#xor = { etax_air_defense }
 		
 		path = {
 			leads_to_tech = etax_air_firepower_2
@@ -792,6 +811,8 @@ technologies = {
 			cat_battlefield_support
 			cat_operational_integrity
 		}
+
+		special_project_specialization = { specialization_air }
 
 		ai_will_do = {
 			factor = 1
@@ -846,11 +867,13 @@ technologies = {
 		categories = {
 			r56_special_research_division
 			air_doctrine
-           air_equipment
+        	air_equipment
 			cat_strategic_destruction
 			cat_battlefield_support
 			cat_operational_integrity
 		}
+
+		special_project_specialization = { specialization_air }
 
 		ai_will_do = {
 			factor = 1
@@ -884,7 +907,7 @@ technologies = {
 	
 	etax_air_defense = {
 	
-#		xor = { etax_air_firepower }
+		#xor = { etax_air_firepower }
 		
 		path = {
 			leads_to_tech = etax_air_defense_2
@@ -906,11 +929,13 @@ technologies = {
 		categories = {
 			r56_special_research_division
 			air_doctrine
-           air_equipment
+        	air_equipment
 			cat_strategic_destruction
 			cat_battlefield_support
 			cat_operational_integrity
 		}
+
+		special_project_specialization = { specialization_air }
 
 		ai_will_do = {
 			factor = 1
@@ -973,11 +998,13 @@ technologies = {
 		categories = {
 			r56_special_research_division
 			air_doctrine
-           air_equipment
+       		air_equipment
 			cat_strategic_destruction
 			cat_battlefield_support
 			cat_operational_integrity
 		}
+
+		special_project_specialization = { specialization_air }
 
 		ai_will_do = {
 			factor = 1
@@ -1060,7 +1087,7 @@ technologies = {
 
 	etax_business_interests = {
 	
-#		xor = { etax_desperation }
+		#xor = { etax_desperation }
 		
 		path = {
 			leads_to_tech = etax_cost_plus 
@@ -1196,7 +1223,7 @@ technologies = {
 		
 	etax_desperation = {
 	
-#		xor = { etax_business_interests }
+		#xor = { etax_business_interests }
 		
 		path = {
 			leads_to_tech = etax_no_qa 
@@ -1388,7 +1415,7 @@ technologies = {
 
 	etax_glory = {
 	
-#		xor = { etax_unity }
+		#xor = { etax_unity }
 		
 		path = {
 			leads_to_tech = etax_purity 
@@ -1412,6 +1439,8 @@ technologies = {
 			r56_special_research_division
             infantry_tech			
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 1
@@ -1468,6 +1497,8 @@ technologies = {
 			cat_superior_firepower
 		}
 
+		special_project_specialization = { specialization_land }
+
 		ai_will_do = {
 			factor = 1
 
@@ -1520,6 +1551,8 @@ technologies = {
 			electronics
 		}
 
+		special_project_specialization = { specialization_nuclear }
+
 		ai_will_do = {
 			factor = 1
 
@@ -1549,7 +1582,7 @@ technologies = {
 
 	etax_unity = {
 	
-#		xor = { etax_glory }
+		#xor = { etax_glory }
 		
 		path = {
 			leads_to_tech = etax_broad_support 
@@ -1578,6 +1611,8 @@ technologies = {
 			cat_grand_battle_plan
 			cat_superior_firepower
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 70
@@ -1611,6 +1646,8 @@ technologies = {
 			r56_special_research_division
             infantry_tech	
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			
@@ -1661,6 +1698,8 @@ technologies = {
 			r56_special_research_division
 			electronics
 		}
+
+		special_project_specialization = { specialization_nuclear }
 
 		ai_will_do = {
 			factor = 1
@@ -1783,6 +1822,8 @@ technologies = {
 			industry
 		}
 
+		special_project_specialization = { specialization_land }
+
 		ai_will_do = {
 			factor = 1
 
@@ -1812,7 +1853,7 @@ technologies = {
 
 	etax_great_works = {
 		
-#		xor = { etax_quality }
+		#xor = { etax_quality }
 			
 		research_cost = 3.0
 		start_year = 1943
@@ -1865,7 +1906,7 @@ technologies = {
 	
 	etax_quality = {
 		
-#		xor = { etax_great_works }
+		#xor = { etax_great_works }
 			
 		research_cost = 3.0
 		start_year = 1943
@@ -1886,6 +1927,8 @@ technologies = {
 			r56_special_research_division
 			industry
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 1
@@ -1916,7 +1959,7 @@ technologies = {
 
 	etax_the_bomb = {
 		
-#		xor = { etax_super_soldiers }
+		#xor = { etax_super_soldiers }
 		
 		doctrine = no	
 		research_cost = 3.0
@@ -1934,6 +1977,8 @@ technologies = {
 			r56_special_research_division
 			nuclear
 		}
+
+		special_project_specialization = { specialization_nuclear }
 
 		ai_will_do = {
 			factor = 1
@@ -1962,7 +2007,7 @@ technologies = {
 	
 	etax_super_soldiers = {
 		
-#		xor = { etax_the_bomb }
+		#xor = { etax_the_bomb }
 		
 		doctrine = no	
 		research_cost = 3.0
@@ -1984,7 +2029,8 @@ technologies = {
 			cat_grand_battle_plan
 			cat_superior_firepower
 		}
-		
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 1
@@ -2036,11 +2082,13 @@ technologies = {
 		categories = {
 			r56_special_research_division
 			air_doctrine
-           air_equipment
+        	air_equipment
 			cat_strategic_destruction
 			cat_battlefield_support
 			cat_operational_integrity
 		}
+
+		special_project_specialization = { specialization_air }
 
 		ai_will_do = {
 			factor = 1
@@ -2091,11 +2139,13 @@ technologies = {
 		categories = {
 			r56_special_research_division
 			naval_doctrine
-           naval_equipment
+        	naval_equipment
 			cat_fleet_in_being
 			cat_trade_interdiction
 			cat_base_strike
 		}
+
+		special_project_specialization = { specialization_naval }
 
 		ai_will_do = {
 			factor = 1
