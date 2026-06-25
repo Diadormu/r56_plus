@@ -8,5 +8,5 @@ dependencies={
 	"The road to 56 CN Supply | 56之路汉化补全"
 }
 name="56之路++"
-supported_version="1.17.*"
+supported_version="1.19.*"
 remote_file_id="3035557051"

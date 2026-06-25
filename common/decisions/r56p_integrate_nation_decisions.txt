@@ -1150,11 +1150,17 @@ integrate_malayan_confederation_category = {
 		highlight_states = {
 			highlight_state_targets = {
 				state = 974
+				state = 1128
+				state = 1135
 				state = 672
 				state = 335
+				state = 1126
 				state = 976
 				state = 446
+				state = 1143
 				state = 667
+				state = 1127
+				state = 1142
 				state = 978
 				state = 334
 				state = 977
@@ -1162,13 +1168,17 @@ integrate_malayan_confederation_category = {
 				state = 975
 				state = 668
 				state = 669
+				state = 1137
 				state = 738
 				state = 909
 				state = 333
+				state = 1131
 				state = 916
 				state = 336
 				state = 951
 				state = 915
+				state = 1129
+				state = 1130
 				state = 960
 				state = 914
 				state = 1014
@@ -1187,11 +1197,17 @@ integrate_malayan_confederation_category = {
 		visible = { NOT = { has_global_flag = form_malayan_confederation_flag } }
 		available = {
 			974 = { is_controlled_by_ROOT_or_subject = yes }
+			1128 = { is_controlled_by_ROOT_or_subject = yes }
+			1135 = { is_controlled_by_ROOT_or_subject = yes }
 			672 = { is_controlled_by_ROOT_or_subject = yes }
 			335 = { is_controlled_by_ROOT_or_subject = yes }
+			1126 = { is_controlled_by_ROOT_or_subject = yes }
 			976 = { is_controlled_by_ROOT_or_subject = yes }
 			446 = { is_controlled_by_ROOT_or_subject = yes }
+			1143 = { is_controlled_by_ROOT_or_subject = yes }
 			667 = { is_controlled_by_ROOT_or_subject = yes }
+			1127 = { is_controlled_by_ROOT_or_subject = yes }
+			1142 = { is_controlled_by_ROOT_or_subject = yes }
 			978 = { is_controlled_by_ROOT_or_subject = yes }
 			334 = { is_controlled_by_ROOT_or_subject = yes }
 			977 = { is_controlled_by_ROOT_or_subject = yes }
@@ -1199,13 +1215,17 @@ integrate_malayan_confederation_category = {
 			975 = { is_controlled_by_ROOT_or_subject = yes }
 			668 = { is_controlled_by_ROOT_or_subject = yes }
 			669 = { is_controlled_by_ROOT_or_subject = yes }
+			1137 = { is_controlled_by_ROOT_or_subject = yes }
 			738 = { is_controlled_by_ROOT_or_subject = yes }
 			909 = { is_controlled_by_ROOT_or_subject = yes }
 			333 = { is_controlled_by_ROOT_or_subject = yes }	#Sarawak
+			1131 = { is_controlled_by_ROOT_or_subject = yes }
 			916 = { is_controlled_by_ROOT_or_subject = yes }	#Sabah
 			336 = { is_controlled_by_ROOT_or_subject = yes }
 			951 = { is_controlled_by_ROOT_or_subject = yes }
 			915 = { is_controlled_by_ROOT_or_subject = yes }
+			1129 = { is_controlled_by_ROOT_or_subject = yes }
+			1130 = { is_controlled_by_ROOT_or_subject = yes }
 			960 = { is_controlled_by_ROOT_or_subject = yes }
 			914 = { is_controlled_by_ROOT_or_subject = yes }
 			1014 = { is_controlled_by_ROOT_or_subject = yes }	#Brunei
@@ -1224,11 +1244,17 @@ integrate_malayan_confederation_category = {
 		complete_effect = {
 			FROM = {
 				transfer_state = 974
+				transfer_state = 1128
+				transfer_state = 1135
 				transfer_state = 672
 				transfer_state = 335
+				transfer_state = 1126
 				transfer_state = 976
 				transfer_state = 446
+				transfer_state = 1143
 				transfer_state = 667
+				transfer_state = 1127
+				transfer_state = 1142
 				transfer_state = 978
 				transfer_state = 334
 				transfer_state = 977
@@ -1236,13 +1262,17 @@ integrate_malayan_confederation_category = {
 				transfer_state = 975
 				transfer_state = 668
 				transfer_state = 669
+				transfer_state = 1137
 				transfer_state = 738
 				transfer_state = 909
 				transfer_state = 333	#Sarawak
+				transfer_state = 1131
 				transfer_state = 916	#Sabah
 				transfer_state = 336
 				transfer_state = 951
 				transfer_state = 915
+				transfer_state = 1129
+				transfer_state = 1130
 				transfer_state = 960
 				transfer_state = 914
 				transfer_state = 1014	#Brunei
@@ -1364,25 +1394,31 @@ integrate_polynesia_category = {
 		on_map_mode = decision_view_only
 		highlight_states = {
 			highlight_state_targets = {
-				state = 284
-				state = 723
-				state = 1087
-				state = 734
-				state = 726
-				state = 1088
-				state = 1089
-				state = 643
-				state = 642
-				state = 727
-				state = 641
-				state = 630
-				state = 629
+				state = 284 # Wellington (North Island)
+				state = 1136 # Auckland (North Island)
+				state = 723 # Canterbury (South Island)
+				state = 1139 # Marlborough (South Island)
+				state = 1140 # Otago (South Island)
+				state = 1087 # Chatham Islands
+				state = 734 # Tonga
+				state = 726 # Samoa
+				state = 1088 # American Samoa
+				state = 1089 # Niue
+				state = 643 # Ellice Islands
+				state = 642 # Kanton Island
+				state = 727 # Line Islands
+				state = 641 # Tahiti
+				state = 630 # Johnston Atoll
+				state = 629 # Hawaii
 			}
 		}
 		visible = { NOT = { has_global_flag = form_polynesia_flag } }
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
+			1136 = { is_controlled_by_ROOT_or_subject = yes }
 			723 = { is_controlled_by_ROOT_or_subject = yes }
+			1139 = { is_controlled_by_ROOT_or_subject = yes }
+			1140 = { is_controlled_by_ROOT_or_subject = yes }
 			1087 = { is_controlled_by_ROOT_or_subject = yes }
 			734 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
@@ -1399,7 +1435,10 @@ integrate_polynesia_category = {
 		complete_effect = {
 			FROM = {
 				transfer_state = 284
+				transfer_state = 1136
 				transfer_state = 723
+				transfer_state = 1139
+				transfer_state = 1140
 				transfer_state = 1087
 				transfer_state = 734
 				transfer_state = 726
@@ -1428,12 +1467,15 @@ integrate_polynesia_category = {
 						state = 648
 						state = 632
 						state = 635
+						state = 1141
 						state = 636
 						state = 634
 						state = 737
+						state = 1138
 						state = 523
 						state = 1096
 						state = 669
+						state = 1137
 						state = 738
 					}
 					is_controlled_by_ROOT_or_subject = yes
