@@ -1441,6 +1441,25 @@ integrate_majapahit_empire_category = {
 				state = 1023
 				state = 1024
 				state = 1022
+				state = 1059
+				state = 1060
+				state = 1061
+				state = 1062
+				state = 1063
+				state = 1064
+				state = 1065
+				state = 1055
+				state = 1047
+				state = 1048
+				state = 1049
+				state = 1050
+				state = 1058
+				state = 1051
+				state = 1052
+				state = 1053
+				state = 1054
+				state = 1056
+				state = 1057
 				state = 721
 				state = 711
 				state = 712
@@ -1460,12 +1479,30 @@ integrate_majapahit_empire_category = {
 			668 = { is_controlled_by_ROOT_or_subject = yes }
 			738 = { is_controlled_by_ROOT_or_subject = yes }
 			669 = { is_controlled_by_ROOT_or_subject = yes }
+			1055 = { is_controlled_by_ROOT_or_subject = yes }
+			1047 = { is_controlled_by_ROOT_or_subject = yes }
+			1048 = { is_controlled_by_ROOT_or_subject = yes }
+			1049 = { is_controlled_by_ROOT_or_subject = yes }
+			1050 = { is_controlled_by_ROOT_or_subject = yes }
+			1058 = { is_controlled_by_ROOT_or_subject = yes }
+			1051 = { is_controlled_by_ROOT_or_subject = yes }
+			1052 = { is_controlled_by_ROOT_or_subject = yes }
+			1053 = { is_controlled_by_ROOT_or_subject = yes }
+			1054 = { is_controlled_by_ROOT_or_subject = yes }
+			1056 = { is_controlled_by_ROOT_or_subject = yes }
+			1057 = { is_controlled_by_ROOT_or_subject = yes }
 			336 = { is_controlled_by_ROOT_or_subject = yes }
 			333 = { is_controlled_by_ROOT_or_subject = yes }
-			1021 = { is_controlled_by_ROOT_or_subject = yes }
 			1023 = { is_controlled_by_ROOT_or_subject = yes }
 			1024 = { is_controlled_by_ROOT_or_subject = yes }
-			1022 = { is_controlled_by_ROOT_or_subject = yes }
+			1059 = { is_controlled_by_ROOT_or_subject = yes }
+			1060 = { is_controlled_by_ROOT_or_subject = yes }
+			1061 = { is_controlled_by_ROOT_or_subject = yes }
+			1062 = { is_controlled_by_ROOT_or_subject = yes }
+			1063 = { is_controlled_by_ROOT_or_subject = yes }
+			1064 = { is_controlled_by_ROOT_or_subject = yes }
+			1021 = { is_controlled_by_ROOT_or_subject = yes }
+			1065 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 
 		complete_effect = {
@@ -1478,12 +1515,28 @@ integrate_majapahit_empire_category = {
 				transfer_state = 668
 				transfer_state = 738
 				transfer_state = 669
+				transfer_state = 1055
+				transfer_state = 1047
+				transfer_state = 1048
+				transfer_state = 1049
+				transfer_state = 1050
+				transfer_state = 1058
+				transfer_state = 1051
+				transfer_state = 1052
+				transfer_state = 1053
+				transfer_state = 1054
+				transfer_state = 1056
+				transfer_state = 1057
 				transfer_state = 336
 				transfer_state = 333
-				transfer_state = 1021
 				transfer_state = 1023
 				transfer_state = 1024
-				transfer_state = 1022
+				transfer_state = 1059
+				transfer_state = 1060
+				transfer_state = 1061
+				transfer_state = 1062
+				transfer_state = 1063
+				transfer_state = 1064
 				if = {
 					limit = { 721 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 721
@@ -1496,6 +1549,12 @@ integrate_majapahit_empire_category = {
 					limit = { 712 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 712
 				}
+				transfer_state = 1021
+				if = {
+					limit = { 1022 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1022
+				}
+				transfer_state = 1065
 				if = {
 					limit = { 737 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 737
@@ -1507,6 +1566,10 @@ integrate_majapahit_empire_category = {
 				if = {
 					limit = { 979 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 979
+				}
+				if = {
+					limit = { 1073 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1073
 				}
 				if = {
 					limit = { 724 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -1540,7 +1603,10 @@ integrate_rattanakosin_kingdom_category = {
 			869 = { is_controlled_by_ROOT_or_subject = yes }
 			724 = { is_controlled_by_ROOT_or_subject = yes }
 			741 = { is_controlled_by_ROOT_or_subject = yes }
+			1067 = { is_controlled_by_ROOT_or_subject = yes }
 			670 = { is_controlled_by_ROOT_or_subject = yes }
+			1068 = { is_controlled_by_ROOT_or_subject = yes }
+			1069 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 		complete_effect = {
 			SIA = {
@@ -1549,7 +1615,10 @@ integrate_rattanakosin_kingdom_category = {
 				transfer_state = 869
 				transfer_state = 724
 				transfer_state = 741
+				transfer_state = 1067
 				transfer_state = 670
+				transfer_state = 1068
+				transfer_state = 1069
 			}
 		}
 		ai_will_do = {
@@ -1565,19 +1634,21 @@ integrate_rattanakosin_kingdom_category = {
 integrate_polynesia_category = {
 	integrate_polynesia = {
 		icon = generic_form_nation
-		targets = { HAW TAH GUM FSM SAM SOL FIJ NZL RAP PLU }
+		targets = { HAW TAH GUM FSM SAM SOL FIJ NZL RAP PLU VAN BOU MAD }
 		target_trigger = { FROM = { is_subject_of = ROOT } }
 
 		on_map_mode = decision_view_only
 		highlight_states = {
 			highlight_state_targets = {
 				state = 284
+				state = 1079
 				state = 629
 				state = 630
 				state = 631
 				state = 632
 				state = 633
 				state = 634
+				state = 1070
 				state = 635
 				state = 636
 				state = 638
@@ -1591,29 +1662,39 @@ integrate_polynesia_category = {
 				state = 648
 				state = 684
 				state = 723
+				state = 1080
+				state = 1081
 				state = 725
 				state = 726
 				state = 727
 				state = 734
 				state = 270
 				state = 948
+				state = 1071
+				state = 1072
 			}
 		}
 		visible = { NOT = { has_global_flag = form_polynesia_flag } }
 		available = {
 			284 = { is_controlled_by_ROOT_or_subject = yes }
+			1079 = { is_controlled_by_ROOT_or_subject = yes }
 			629 = { is_controlled_by_ROOT_or_subject = yes }
 			684 = { is_controlled_by_ROOT_or_subject = yes }
 			638 = { is_controlled_by_ROOT_or_subject = yes }
 			641 = { is_controlled_by_ROOT_or_subject = yes }
 			646 = { is_controlled_by_ROOT_or_subject = yes }
 			723 = { is_controlled_by_ROOT_or_subject = yes }
+			1080 = { is_controlled_by_ROOT_or_subject = yes }
+			1081 = { is_controlled_by_ROOT_or_subject = yes }
 			726 = { is_controlled_by_ROOT_or_subject = yes }
+			1071 = { is_controlled_by_ROOT_or_subject = yes }
+			1072 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 
 		complete_effect = {
 			FROM = {
 				transfer_state = 284
+				transfer_state = 1079
 				transfer_state = 629
 				if = {
 					limit = { 630 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -1634,6 +1715,10 @@ integrate_polynesia_category = {
 				if = {
 					limit = { 634 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 634
+				}
+				if = {
+					limit = { 1070 = { is_controlled_by_ROOT_or_subject = yes } }
+					transfer_state = 1070
 				}
 				if = {
 					limit = { 635 = { is_controlled_by_ROOT_or_subject = yes } }
@@ -1675,6 +1760,8 @@ integrate_polynesia_category = {
 					transfer_state = 684
 				}
 				transfer_state = 723
+				transfer_state = 1080
+				transfer_state = 1081
 				if = {
 					limit = { 725 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 725
@@ -1696,6 +1783,8 @@ integrate_polynesia_category = {
 					limit = { 948 = { is_controlled_by_ROOT_or_subject = yes } }
 					transfer_state = 948
 				}
+				transfer_state = 1071
+				transfer_state = 1072
 			}
 		}
 
@@ -2116,7 +2205,7 @@ integrate_siberia_category = {
 integrate_turkestan_category = {
 	integrate_turkestan = {
 		icon = generic_form_nation
-		targets = { TAN KAZ UZB KYR TAJ TMS SIK TNG BUK KHI KKP KUM }
+		targets = { TAN KAZ UZB KYR TAJ TMS SIK BUK KHI KKP KUM }
 		target_trigger = { FROM = { is_subject_of = ROOT } }
 
 		on_map_mode = decision_view_only
