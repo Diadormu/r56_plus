@@ -5489,6 +5489,13 @@ focus_tree = {
 					set_country_flag = added_special_forces_specialization
 				}
 			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_mastery_bonus = {
+				name = SOV_shocktroops
+				bonus = 0.15
+				days = 540
+				sub_doctrine = shocktroops_1
+			}
 		}
 	}
 
@@ -18258,6 +18265,12 @@ focus_tree = {
 		
 		available = {
 			is_subject = no
+			SIK = {
+				exists = yes
+				NOT = {
+					has_war_with = ROOT
+				}
+			}
 		}
 		
 		search_filters = {FOCUS_FILTER_ANNEXATION}
@@ -22179,8 +22192,8 @@ focus = {
 		custom_effect_tooltip = SOV_fifth_column_nsb_tt
 		hidden_effect = {
 			set_country_flag = trotsky_check
-			217 = { set_state_name = "伏尔加格勒" }  #rename province too
-			set_province_name = { id = 3529 name = "伏尔加格勒"}
+			217 = { set_state_name = SOV_Volgograd }  #rename province too
+			set_province_name = { id = 3529 name = SOV_Volgograd }
 			country_event = { id = r56.soviet.24 days = 7 }
 			news_event = { id = r56.soviet.27 days = 1 }
 			if = {
@@ -22359,29 +22372,29 @@ focus = {
 			retire_character = SOV_kuzma_galitsky
 			retire_character = SOV_semyon_budyonny
 			retire_character = SOV_grigory_kulik
-			217 = { set_state_name = "察里津" }  #rename provinces too
-			195 = { set_state_name = "圣彼得堡" }  
-			252 = { set_state_name = "下诺夫哥罗德" }
-			247 = { set_state_name = "特维尔" }
-			653 = { set_state_name = "叶卡捷琳堡" }
-			250 = { set_state_name = "辛比尔斯克" }
-			251 = { set_state_name = "萨马拉" }
-			set_province_name = { id = 3529 name = "察里津"}
-			set_province_name = { id = 3151 name = "圣彼得堡"}
-			set_province_name = { id = 11375 name = "下诺夫哥罗德"}
-			set_province_name = { id = 6245 name = "特维尔"}
-			set_province_name = { id = 1821 name = "叶卡捷琳堡"}
-			set_province_name = { id = 392 name = "辛比尔斯克"}
-			set_province_name = { id = 11225 name = "萨马拉"}
+			217 = { set_state_name = SOV_Tsaritsyn }  #rename provinces too
+			195 = { set_state_name = SOV_StPetersburg }  
+			252 = { set_state_name = SOV_Nizhny_Novgorod }
+			247 = { set_state_name = SOV_Tver }
+			653 = { set_state_name = SOV_Yekaterinburg }
+			250 = { set_state_name = SOV_Simbirsk }
+			251 = { set_state_name = SOV_Samara }
+			set_province_name = { id = 3529 name = SOV_Tsaritsyn }
+			set_province_name = { id = 3151 name = SOV_StPetersburg }
+			set_province_name = { id = 11375 name = SOV_Nizhny_Novgorod }
+			set_province_name = { id = 6245 name = SOV_Tver }
+			set_province_name = { id = 1821 name = SOV_Yekaterinburg }
+			set_province_name = { id = 392 name = SOV_Simbirsk}
+			set_province_name = { id = 11225 name = SOV_Samara }
 			
 			#TAJ
 			742 = { set_state_name = "塔吉克斯坦" }
 
 			#UKR
-			227 = { set_state_name = "顿涅茨克" }
-			228 = { set_state_name = "卢甘斯克" }
-			set_province_name = { id = 6474 name = "顿涅茨克"}
-			set_province_name = { id = 9461 name = "卢甘斯克"}
+			227 = { set_state_name = SOV_Donetsk }
+			228 = { set_state_name = SOV_Luhansk }
+			set_province_name = { id = 6474 name = SOV_Donetsk }
+			set_province_name = { id = 9461 name = SOV_Luhansk}
 			set_capital = { state = 195 }
 			news_event = { id = r56.soviet.28 days = 1 }
 			remove_ideas = SOV_revolutionized_industry_ghost
@@ -22516,7 +22529,7 @@ focus = {
 			desc = "POLITICS_KIRIL_VLADIMIROVICH_DESC"
 			picture = "r56_portrait_SOV_Kirill_Vladimirovich_Romanov.dds"
 			expire = "1965.1.1"
-			ideology = absolute_monarchism
+			ideology = constitutional_monarchy
 			traits = {
 				anti_communist
 			}
